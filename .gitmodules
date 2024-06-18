@@ -1,0 +1,3 @@
+[submodule "vision/loghub"]
+	path = vision/loghub
+	url = https://github.com/logpai/loghub
