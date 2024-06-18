@@ -22,13 +22,6 @@ for log_file in log_files:
         print(log_file)
         logs.extend(f.readlines())
 
-# to the logs that the go application spits out
-# new_log_file = "/path/to/new/logfile.log"
-
-# with open(new_log_file, 'r') as f:
-#     new_logs = f.readlines()
-#     logs.extend(new_logs)
-
 tokenized_logs = [word_tokenize(log.lower()) for log in logs]
 
 model = word2vec.Word2Vec(tokenized_logs, vector_size=100, window=5, min_count=1, workers=4)
