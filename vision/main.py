@@ -18,7 +18,7 @@ log_files = get_all_log_files(directory_path)
 logs = []
 
 for log_file in log_files:
-    with open(log_file, 'r') as f:
+    with open(log_file, 'r', encoding='utf-8', errors='ignore') as f:
         print(log_file)
         logs.extend(f.readlines())
 
