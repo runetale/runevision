@@ -5,30 +5,46 @@ automated red team tools
 ## application
 - [ ] web ui
     - [ ] input target url
-    - [ ] pentesting lists
+    - [ ] test recommended
     - [ ] discovered threats
-    - [ ] executed exploits
+    - [ ] display recommended exploit or cve サービスの特性に合わせて
     - [ ] list targets logs
-- [ ] what logs to use? like apache? http request? heade? request parameter? 
-read red teams book again
-- [ ] skipfish or some analyzing web tool
-- [ ] go application database
-監視して収集したlogと実行したexploitコードをdbに保存、postgresql
-- [ ] nmap golang
-- [ ] 収集したログを吐いて、定期的にvisionに学習させる (一旦手動)
-- [ ] application api server
-- [ ] slack integration
+- [ ] targetのDNSスキャン
+    - crtshのpostgres, hacker targer, dnsdumpstarが精度高いのでそれで実装
+- [ ] targetのPortスキャン
 
-## metasploit
-- [ ] launch meteasploit db
-docker?
-- [ ] pymetasploit3 connect to metasploit db
-pymetasploit3を使用してコンテナのmetasploit dbと繋げる
-- [ ] interactive pentest gpt # interactive hacking tool by web, is the current situation more accurate?
+    ``` go
+    // port scanはnaabuのこの辺りがポートスキャンの結果を得ている
+    go s.ICMPResultWorker(ctx)
+	go s.TCPResultWorker(ctx)
+	go s.UDPResultWorker(ctx)
+    ```
+    ``` go
+    // こいつが
+    go s.ICMPResultWorker(ctx)
+	go s.TCPResultWorker(ctx)
+	go s.UDPResultWorker(ctx)
+
+    // こいつが👆の関数で待機しているchannelに対して,トランスポート層から得たデータをloopBackScanCaseCallbackかtransportReaderCallbackを使ってスキャンの結果送信している
+    func TransportReadWorker() {
+    // このコードがnet.Dialをつかって接続できるか確認、接続できたらそのポートをScanResultsに返す
+    func (r *Runner) handleHostPort(ctx context.Context, host string, p *port.Port) {
+    ```
+
+- [ ] yamlをparseしてhttpを実行 scenerio goを参考に
+- [ ] parseしたyamlの値を使用して、httpリクエストを送る
+- [ ] 監視して収集したlogをdbに保存、postgresql
+- [ ] ターゲットのサービスのコンテキストをGPTやcurlなどの文字列から取得
+- [ ] targetのサービスの特性を知る by vision
+- [ ] サービスの特性と文字コンテキストから可能性のあるCVEを提示
+
+## automatd metasploit
+- [ ] pentest gptを使った、対話式ハッキング
+    - `pentestgpt/utils/API` 周りは参考になりそう
+
 
 ## vision
 - [x] vision, learning big logs
 指定したlogを使用して学習
-- [x] sense, 取得したログとvisionを使って、pymetasploit3で使用するエクスプロイトコマンドを発行
-- [ ] pymetasploit3を使用して、発行されたコマンドを実行
-- [ ] 実行したエクスプロイトをdbに保存 (今後の学習につながる)
+- [ ] sense, 取得したログとvisionを使って、アプリケーションの特性を理解
+- [ ] アプリケーションの特性と近いexploit方法やCVEを提示
