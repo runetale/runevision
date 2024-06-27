@@ -28,7 +28,6 @@ model = word2vec.Word2Vec(tokenized_logs, vector_size=100, window=5, min_count=1
 
 model.save("lovemachine.model")
 
-
 load_model = word2vec.Word2Vec.load("lovemachine.model")
 
 print("model details:", load_model)

@@ -1,7 +1,7 @@
 from gensim.models import word2vec
 from nltk import word_tokenize
 
-model = word2vec.Word2Vec.load("../vision/vision.model")
+model = word2vec.Word2Vec.load("../lovemachine/lovemachine.model")
 
 dictionary = ['auth', 'authenticated', 'call', 'client', 'consoles', 'core', 'db', 'jobs', 'login', 'logout', 'modules', 'plugins',
 'port', 'server', 'token', 'sessions', 'ssl', 'uri']

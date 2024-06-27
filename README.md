@@ -3,17 +3,10 @@ automated red team tools
 
 # todo v0.0.1
 ## application
-- [ ] web ui
-    - [ ] input target url
-    - [ ] test recommended
-    - [ ] discovered threats
-    - [ ] display recommended exploit or cve サービスの特性に合わせて
-    - [ ] list targets logs
-- [ ] targetのDNSスキャン
+- [ ] targetのDNSスキャン sub finderをベースに
     - crtshのpostgres, hacker targer, dnsdumpstarが精度高いのでそれで実装
-- [ ] targetのPortスキャン
-
-    ``` go
+- [ ] targetのPortスキャン naabuをベースに
+    ```go
     // port scanはnaabuのこの辺りがポートスキャンの結果を得ている
     go s.ICMPResultWorker(ctx)
 	go s.TCPResultWorker(ctx)
@@ -31,20 +24,30 @@ automated red team tools
     func (r *Runner) handleHostPort(ctx context.Context, host string, p *port.Port) {
     ```
 
-- [ ] yamlをparseしてhttpを実行 scenerio goを参考に
-- [ ] parseしたyamlの値を使用して、httpリクエストを送る
-- [ ] 監視して収集したlogをdbに保存、postgresql
-- [ ] ターゲットのサービスのコンテキストをGPTやcurlなどの文字列から取得
-- [ ] targetのサービスの特性を知る by vision
-- [ ] サービスの特性と文字コンテキストから可能性のあるCVEを提示
+- [ ] targetのtenmpateの攻撃はnucleiを使用
+- [ ] nucleiやスキャニングで収集したlogをdbに保存、postgresql
 
-## automatd metasploit
+- [x] ターゲットのサービスのコンテキストをGPTやcurlなどの文字列から取得
+- [x] targetのサービスの特性を知る LOVE MACHINE
+- [x] サービスの特性と文字コンテキストから可能性のあるCVEを提示
+
+## lovemachine-context
+サービスのコンテキストから学習
+- [x] lovemachine, アプリケーションの特性を理解
+- [x] アプリケーションの特性と近いexploit方法やCVEを提示
+lovemachine.pyで実装している
+
+## lovemachine-log
+サービスのログから学習
+- [ ] データベースに保存しているhttpリクエストのログを使用して学習
+main.pyで実装している
+
+
+## api
+https://runetale.postman.co/workspace/runetale~0bf06704-a345-4663-8e4b-a807be69477e/collection/35986956-704630ab-04ee-4bb2-86e9-65e12fc697fe?action=share&creator=35986956
+
+## Next TODO
+- [ ] 独自のyamlをparseしてhttpを実行 scenerio goを参考に
+- [ ] parseしたyamlの値を使用して、httpリクエストを送る
 - [ ] pentest gptを使った、対話式ハッキング
     - `pentestgpt/utils/API` 周りは参考になりそう
-
-
-## vision
-- [x] vision, learning big logs
-指定したlogを使用して学習
-- [ ] sense, 取得したログとvisionを使って、アプリケーションの特性を理解
-- [ ] アプリケーションの特性と近いexploit方法やCVEを提示
