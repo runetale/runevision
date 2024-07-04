@@ -292,3 +292,26 @@ func (options *Options) shouldUseRawPackets() bool {
 func isOSSupported() bool {
 	return runtime.GOOS == "darwin" || runtime.GOOS == "linux"
 }
+
+func (options *Options) configureHostDiscovery(ports []*port.Port) {
+	// if less than two ports are specified as input, reduce time and scan directly
+	if len(ports) <= 2 {
+		gologger.Info().Msgf("Host discovery disabled: less than two ports were specified")
+		options.SkipHostDiscovery = true
+	}
+	if options.shouldDiscoverHosts() && !options.hasProbes() {
+		// if no options were defined enable
+		// - ICMP Echo Request
+		// - ICMP timestamp
+		// - TCP SYN on port 80
+		// - TCP SYN on port 443
+		// - TCP ACK on port 80
+		// - TCP ACK on port 443
+		options.IcmpEchoRequestProbe = true
+		options.IcmpTimestampRequestProbe = true
+		options.TcpSynPingProbes = append(options.TcpSynPingProbes, "80")
+		options.TcpSynPingProbes = append(options.TcpSynPingProbes, "443")
+		options.TcpAckPingProbes = append(options.TcpAckPingProbes, "80")
+		options.TcpAckPingProbes = append(options.TcpAckPingProbes, "443")
+	}
+}

@@ -3,6 +3,7 @@ module github.com/runetale/runevision
 go 1.22.1
 
 require (
+	github.com/Mzack9999/gcache v0.0.0-20230410081825-519e28eab057 // indirect
 	github.com/Ullaakut/nmap/v3 v3.0.3 // indirect
 	github.com/akrylysov/pogreb v0.10.1 // indirect
 	github.com/andybalholm/brotli v1.0.6 // indirect
@@ -34,6 +35,9 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
 	github.com/projectdiscovery/cdncheck v1.1.0 // indirect
+	github.com/projectdiscovery/clistats v0.0.20 // indirect
+	github.com/projectdiscovery/dnsx v1.2.1 // indirect
+	github.com/projectdiscovery/freeport v0.0.5 // indirect
 	github.com/projectdiscovery/goflags v0.1.57 // indirect
 	github.com/projectdiscovery/gologger v1.1.13 // indirect
 	github.com/projectdiscovery/hmap v0.0.47 // indirect
@@ -42,6 +46,7 @@ require (
 	github.com/projectdiscovery/networkpolicy v0.0.9 // indirect
 	github.com/projectdiscovery/retryabledns v1.0.64 // indirect
 	github.com/projectdiscovery/utils v0.1.4 // indirect
+	github.com/remeh/sizedwaitgroup v1.0.0 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d // indirect
 	github.com/sashabaranov/go-openai v1.26.0 // indirect
