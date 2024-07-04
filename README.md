@@ -47,6 +47,7 @@ main.pyで実装している
 https://runetale.postman.co/workspace/runetale~0bf06704-a345-4663-8e4b-a807be69477e/collection/35986956-704630ab-04ee-4bb2-86e9-65e12fc697fe?action=share&creator=35986956
 
 ## Next TODO
+- [ ] cloudlistを使った、内部アセットはスキャン
 - [ ] 独自のyamlをparseしてhttpを実行 scenerio goを参考に
 - [ ] parseしたyamlの値を使用して、httpリクエストを送る
 - [ ] pentest gptを使った、対話式ハッキング
