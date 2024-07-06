@@ -1404,6 +1404,9 @@ func main() {
 		}
 	}()
 
+	// todo: (snt)
+	// RunEnumerationの実装をやってポートスキャンは完了させる
+
 	if isPrivileged() {
 		fmt.Println("root mode")
 	} else {
