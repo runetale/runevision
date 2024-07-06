@@ -293,7 +293,7 @@ func isOSSupported() bool {
 	return runtime.GOOS == "darwin" || runtime.GOOS == "linux"
 }
 
-func (options *Options) configureHostDiscovery(ports []*port.Port) {
+func (options *Options) configureHostDiscovery(ports []*Port) {
 	// if less than two ports are specified as input, reduce time and scan directly
 	if len(ports) <= 2 {
 		gologger.Info().Msgf("Host discovery disabled: less than two ports were specified")
