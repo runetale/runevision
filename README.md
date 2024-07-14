@@ -24,7 +24,7 @@ automated red team tools
     func (r *Runner) handleHostPort(ctx context.Context, host string, p *port.Port) {
     ```
 
-- [ ] targetのtenmpateの攻撃はnucleiを使用
+- [ ] targetのtempateの攻撃はnucleiを使用, vpn攻撃をメインにする
 - [ ] nucleiやスキャニングで収集したlogをdbに保存、postgresql
 
 - [x] ターゲットのサービスのコンテキストをGPTやcurlなどの文字列から取得

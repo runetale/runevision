@@ -145,6 +145,7 @@ def calculate_cosine_similarity(topic_vectors, url_vectors):
     return np.array(similarities).T
 
 print("Calculating cosine similarities...")
+
 # 特徴量としてのコサイン類似度を計算
 X = calculate_cosine_similarity(topic_vectors, url_vectors)
 y = np.random.randint(0, 2, size=len(url_contents))  # ここではランダムにラベルを付与
@@ -157,6 +158,7 @@ print("Splitting data into training and test sets...")
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=42)
 
 print("Training the model...")
+
 # モデルの学習
 model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
@@ -167,6 +169,7 @@ y_pred = model.predict(X_test)
 print(classification_report(y_test, y_pred))
 
 print("Saving the model...")
+
 # モデルの保存
 joblib.dump(model, 'cve_predictor_model.pkl')
 joblib.dump(vectorizer, 'tfidf_vectorizer.pkl')
