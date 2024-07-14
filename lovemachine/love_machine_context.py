@@ -9,27 +9,72 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 import joblib
 import json
+import random
+import time
 from datetime import datetime, timedelta
 
-print("Fetching CVE data...")
+# todo postgresに格納して、更新があれば追加するような仕組みにする。毎回取得はアホ
 # CVEデータベースを取得
+print("Fetching CVE data...")
 def fetch_cve_data():
     end_date = datetime.now()
-    # todo もっと長い期間のCVEデータを取得
-    start_date = end_date - timedelta(days=7)  # 過去7日間のCVEを取得
-    api = (
-        f"https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=100&pubStartDate={start_date.isoformat()}Z&pubEndDate={end_date.isoformat()}Z"
-    )
-    print(api)
-    response = requests.get(api)
-    json_data = json.loads(response.text)
+    start_date = end_date - timedelta(days=365)  # 過去1年間の開始日
+    descriptions = []
+    ids = []
 
-    descriptions = [item['cve']['descriptions'][0]['value'] for item in json_data['vulnerabilities']]
-    ids = [item['cve']['id'] for item in json_data['vulnerabilities']]
+    while start_date < end_date:
+        week_end_date = start_date + timedelta(days=7)
+        if week_end_date > end_date:
+            week_end_date = end_date
+            print(f"coming to end_date, => {week_end_date}")
+
+        api = (
+            f"https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=100&pubStartDate={start_date.isoformat()}Z&pubEndDate={week_end_date.isoformat()}Z"
+        )
+        print(f"Fetching data from {start_date} to {week_end_date}...")
+
+        success = False
+        for _ in range(3):  # 最大3回のリトライ
+            try:
+                response = requests.get(api, timeout=10)
+                response.raise_for_status()
+                json_data = response.json()
+                success = True
+                break
+            except requests.RequestException as e:
+                print(f"Request error: {e}")
+            except json.JSONDecodeError as e:
+                print(f"JSON decode error: {e}")
+
+            wait_time = random.randint(5, 10)
+            print(f"Retrying in {wait_time} seconds...")
+            time.sleep(wait_time)
+
+        if not success:
+            print(f"Failed to fetch data for the period {start_date} to {week_end_date}. Skipping this period.")
+            start_date = week_end_date
+            continue
+
+        if 'vulnerabilities' in json_data:
+            descriptions.extend([item['cve']['descriptions'][0]['value'] for item in json_data['vulnerabilities']])
+            ids.extend([item['cve']['id'] for item in json_data['vulnerabilities']])
+
+        time.sleep(random.randint(3, 8))
+
+        start_date = week_end_date
+
     return descriptions, ids
 
-print("Fetching URL content...")
+# データを取得
+descriptions, ids = fetch_cve_data()
+
+# 結果の一部を表示
+print(f"Total CVEs fetched: {len(ids)}")
+print("Sample CVE IDs:", ids[:5])
+
+
 # URLからデータを取得
+print("Fetching URL content...")
 def fetch_url_content(url):
     try:
         response = requests.get(url, timeout=10)
@@ -117,9 +162,8 @@ urls = [
 # URLコンテンツの取得とクリーニング
 url_contents = [clean_html(fetch_url_content(url)) for url in urls if fetch_url_content(url)]
 
-print("Cleaning and processing CVE data...")
 # CVEデータの取得とクリーニング
-cve_descriptions, cve_ids = fetch_cve_data()
+print("Cleaning and processing CVE data...")
 
 # テキストデータのベクトル化
 def vectorize_texts(texts):
@@ -127,9 +171,9 @@ def vectorize_texts(texts):
     vectors = vectorizer.fit_transform(texts)
     return vectorizer, vectors
 
-print("Vectorizing texts...")
 # トピック、URLコンテンツ、CVE説明文を一度にベクトル化
-all_texts = [' '.join(topic) for topic in topics] + url_contents + cve_descriptions
+print("Vectorizing texts...")
+all_texts = [' '.join(topic) for topic in topics] + url_contents + descriptions
 vectorizer, all_vectors = vectorize_texts(all_texts)
 
 # ベクトルの分割
@@ -156,8 +200,8 @@ y = np.random.randint(0, 2, size=len(url_contents))  # ここではランダム�
 if len(url_contents) < 2:
     raise ValueError("Not enough URL contents to split into training and test sets. Please provide more URL contents.")
 
-print("Splitting data into training and test sets...")
 # データをトレーニングセットとテストセットに分割
+print("Splitting data into training and test sets...")
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=42)
 
 print("Training the model...")
@@ -166,8 +210,8 @@ print("Training the model...")
 model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
-print("Evaluating the model...")
 # モデルの評価
+print("Evaluating the model...")
 y_pred = model.predict(X_test)
 print(classification_report(y_test, y_pred))
 
@@ -200,5 +244,5 @@ vectorizer = joblib.load('tfidf_vectorizer.pkl')
 # 特定のURLに対するCVEの予測
 test_url = "https://www.runetale.com/"
 print(f"Predicting CVEs for {test_url}...")
-related_cves = predict_cve_for_url(test_url, model, vectorizer, topics, cve_vectors, cve_ids)
+related_cves = predict_cve_for_url(test_url, model, vectorizer, topics, cve_vectors, ids)
 print(f"related cves for {test_url}: {related_cves}")

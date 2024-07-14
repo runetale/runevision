@@ -11,3 +11,7 @@ logはport scanや脆弱性検知した時に集めたログから関連するCV
 
 ## requirements
 - Python 3.9.6
+
+
+## love machine contextの設計思想
+サービスのコンテキストを自然言語処理を行なって、テキストデータをベクトル化する
