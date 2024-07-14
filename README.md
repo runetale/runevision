@@ -35,12 +35,12 @@ automated red team tools
 サービスのコンテキストから学習
 - [x] lovemachine, アプリケーションの特性を理解
 - [x] アプリケーションの特性と近いexploit方法やCVEを提示
-lovemachine.pyで実装している
+.pyで実装している
 
 ## lovemachine-log
 サービスのログから学習
 - [ ] データベースに保存しているhttpリクエストのログを使用して学習
-main.pyで実装している
+love_machine.pyで実装している
 
 
 ## api

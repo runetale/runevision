@@ -15,6 +15,7 @@ print("Fetching CVE data...")
 # CVEデータベースを取得
 def fetch_cve_data():
     end_date = datetime.now()
+    # todo もっと長い期間のCVEデータを取得
     start_date = end_date - timedelta(days=7)  # 過去7日間のCVEを取得
     api = (
         f"https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=100&pubStartDate={start_date.isoformat()}Z&pubEndDate={end_date.isoformat()}Z"
@@ -46,6 +47,8 @@ def clean_html(html):
     return text
 
 print("Defining topics...")
+
+# todo もっと正確なトピックデータを使用
 # トピックのデモデータ（実際には適切なデータを使用）
 topics = [["security", "vulnerability", "attack"], ["encryption", "data", "privacy"], ["network", "protocol", "internet"]]
 
@@ -198,4 +201,4 @@ vectorizer = joblib.load('tfidf_vectorizer.pkl')
 test_url = "https://www.runetale.com/"
 print(f"Predicting CVEs for {test_url}...")
 related_cves = predict_cve_for_url(test_url, model, vectorizer, topics, cve_vectors, cve_ids)
-print(f"Related CVEs for {test_url}: {related_cves}")
+print(f"related cves for {test_url}: {related_cves}")
