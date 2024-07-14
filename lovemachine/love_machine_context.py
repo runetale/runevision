@@ -70,7 +70,6 @@ descriptions, ids = fetch_cve_data()
 
 # 結果の一部を表示
 print(f"Total CVEs fetched: {len(ids)}")
-print("Sample CVE IDs:", ids[:5])
 
 
 # URLからデータを取得
