@@ -91,6 +91,8 @@ github.com/nyaosorg/go-readline-ny v1.4.0/go.mod h1:b7hpzAyCZa8ZblJ9olp/78fithiP
 github.com/onsi/ginkgo v1.6.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/ginkgo v1.7.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/gomega v1.4.3/go.mod h1:ex+gbHU/CVuBBDIJjb2X0qEXbFg53c61hWP/1CpauHY=
+github.com/otiai10/openaigo v1.7.0 h1:AOQcOjRRM57ABvz+aI2oJA/Qsz1AydKbdZAlGiKyCqg=
+github.com/otiai10/openaigo v1.7.0/go.mod h1:kIaXc3V+Xy5JLplcBxehVyGYDtufHp3PFPy04jOwOAI=
 github.com/pierrec/lz4/v4 v4.1.2 h1:qvY3YFXRQE/XB8MlLzJH7mSzBs74eA2gg52YTk6jUPM=
 github.com/pierrec/lz4/v4 v4.1.2/go.mod h1:gZWDp/Ze/IJXGXf23ltt2EXimqmTUXEy0GFuRQyBid4=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
