@@ -30,18 +30,22 @@ import (
 	"github.com/projectdiscovery/ipranger"
 	"github.com/projectdiscovery/networkpolicy"
 	"github.com/remeh/sizedwaitgroup"
+	"github.com/runetale/runevision/api_router"
+	"github.com/runetale/runevision/database"
+	"github.com/runetale/runevision/domain/config"
 	"github.com/runetale/runevision/router"
+	"github.com/runetale/runevision/utility"
 	"golang.org/x/exp/maps"
 	"golang.org/x/net/proxy"
 )
 
-func init() {
-	if r, err := router.New(); err != nil {
-		gologger.Error().Msgf("could not initialize router: %s\n", err)
-	} else {
-		PkgRouter = r
-	}
-}
+// func init() {
+// 	if r, err := router.New(); err != nil {
+// 		gologger.Error().Msgf("could not initialize router: %s\n", err)
+// 	} else {
+// 		PkgRouter = r
+// 	}
+// }
 
 func isPrivileged() bool {
 	return os.Geteuid() == 0
@@ -1411,7 +1415,24 @@ func main() {
 		fmt.Println("root mode")
 	} else {
 		fmt.Println("please root")
-		return
+		// return
 	}
 
+	// api
+	cfg := config.MustLoad()
+	log, err := utility.NewLogger(os.Stdout, utility.JsonFmtStr, utility.DebugLevelStr)
+	if err != nil {
+		panic(err)
+	}
+	db, err := database.NewPostgresFromConfig(log, cfg.Postgres)
+	if err != nil {
+		panic(err)
+	}
+	err = db.MigrateUp("migrations")
+	if err != nil {
+		panic(err)
+	}
+
+	r := api_router.NewAPIRouter(cfg)
+	r.Start()
 }
