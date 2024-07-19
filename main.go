@@ -1385,7 +1385,7 @@ func main() {
 
 	scanner, err := NewScanner(scanOpts)
 	if err != nil {
-
+		panic(err)
 	}
 
 	runner.scanner = scanner
