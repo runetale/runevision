@@ -6,10 +6,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/runetale/runevision/api_router/routes"
-	"github.com/runetale/runevision/database"
 	"github.com/runetale/runevision/domain/config"
-	"github.com/runetale/runevision/interfaces"
-	"github.com/runetale/runevision/utility"
 )
 
 type APIRouter struct {
@@ -25,12 +22,8 @@ func NewAPIRouter(cfg config.Config) *APIRouter {
 }
 
 func (r *APIRouter) Start() {
-	db, err := database.NewPostgresFromConfig(&utility.Logger{}, r.cfg.Postgres)
-	if err != nil {
-		panic(err)
-	}
 	r.setupEngine()
-	r.setupEndpoints(db)
+	r.setupEndpoints()
 	fmt.Println(r.engine.Start(fmt.Sprintf("%s:%d", r.cfg.App.Host, r.cfg.App.Port)))
 }
 
@@ -38,7 +31,7 @@ func (r *APIRouter) setupEngine() {
 	r.engine.Use(middleware.Recover())
 }
 
-func (r *APIRouter) setupEndpoints(db interfaces.SQLExecuter) {
+func (r *APIRouter) setupEndpoints() {
 	apiGroup := r.engine.Group("/api")
-	routes.RegisterDashboardRoutes(apiGroup, db)
+	routes.RegisterDashboardRoutes(apiGroup, r.cfg)
 }

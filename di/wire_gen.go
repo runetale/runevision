@@ -8,21 +8,37 @@ package di
 
 import (
 	"github.com/google/wire"
+	"github.com/runetale/runevision/database"
+	"github.com/runetale/runevision/domain/config"
 	"github.com/runetale/runevision/handler"
 	"github.com/runetale/runevision/interactor"
 	"github.com/runetale/runevision/interfaces"
 	"github.com/runetale/runevision/repository"
+	"github.com/runetale/runevision/utility"
 )
 
 // Injectors from wire.go:
 
-func InitializeDashboardHandler(db interfaces.SQLExecuter) interfaces.DashboardHandler {
-	dashboardRepository := repository.NewDashboardRepository(db)
-	dashboardInteractor := interactor.NewDashboardInteractor(dashboardRepository)
+func InitializeLogger(logConfig config.Log) *utility.Logger {
+	logger := utility.MustNewLoggerFromConfig(logConfig)
+	return logger
+}
+
+func InitializePostgres(dbConfig config.Postgres, logConfig config.Log) *database.Postgres {
+	logger := utility.MustNewLoggerFromConfig(logConfig)
+	postgres := database.MustNewPostgresFromConfig(logger, dbConfig)
+	return postgres
+}
+
+func InitializeDashboardHandler(dbConfig config.Postgres, logConfig config.Log) interfaces.DashboardHandler {
+	logger := utility.MustNewLoggerFromConfig(logConfig)
+	postgres := database.MustNewPostgresFromConfig(logger, dbConfig)
+	dashboardRepository := repository.NewDashboardRepository()
+	dashboardInteractor := interactor.NewDashboardInteractor(postgres, dashboardRepository)
 	dashboardHandler := handler.NewDashboardHandler(dashboardInteractor)
 	return dashboardHandler
 }
 
 // wire.go:
 
-var wireSet = wire.NewSet(handler.WireSet, interactor.WireSet, repository.WireSet)
+var wireSet = wire.NewSet(utility.WireSet, database.WireSet, handler.WireSet, interactor.WireSet, repository.WireSet)

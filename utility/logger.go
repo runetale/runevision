@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/runetale/runevision/domain/config"
 	"golang.org/x/exp/slog"
 )
 
@@ -37,6 +38,15 @@ func NewLogger(file *os.File, logFmt, logLevel string) (*Logger, error) {
 	return &Logger{
 		Logger: logger,
 	}, nil
+}
+
+func MustNewLoggerFromConfig(cfg config.Log) *Logger {
+	log, err := NewLogger(os.Stdout, cfg.Format, cfg.Level)
+	if err != nil {
+		panic(err)
+	}
+
+	return log
 }
 
 func initSlog(file *os.File, logFmt, logLevel string) (*slog.Logger, error) {

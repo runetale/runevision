@@ -7,6 +7,7 @@ import (
 type Config struct {
 	App      App      `required:"true" envconfig:"APP"`
 	Postgres Postgres `required:"true" envconfig:"POSTGRES"`
+	Log      Log      `required:"true" envconfig:"LOG"`
 }
 
 type App struct {
@@ -20,6 +21,11 @@ type Postgres struct {
 	Host         string `required:"true" envconfig:"HOST"`
 	Port         uint   `required:"true" envconfig:"PORT"`
 	DatabaseName string `required:"true" envconfig:"DATABASE_NAME"`
+}
+
+type Log struct {
+	Format string `required:"true" envconfig:"FORMAT"`
+	Level  string `required:"true" envconfig:"LEVEL"`
 }
 
 func MustLoad() Config {

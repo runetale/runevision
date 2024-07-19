@@ -10,10 +10,10 @@ build:
 	docker build $(NO_CACHE) -f Dockerfile .
 
 up:
-	docker-compose -f docker-compose.yaml up --build
+	docker-compose -f docker-compose.local.yaml up --build
 
 down:
-	docker-compose -f docker-compose.yaml down --volumes
+	docker-compose -f docker-compose.local.yaml down --volumes
 
 run:
 	air server --port 9090

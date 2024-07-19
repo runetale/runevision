@@ -31,10 +31,9 @@ import (
 	"github.com/projectdiscovery/networkpolicy"
 	"github.com/remeh/sizedwaitgroup"
 	"github.com/runetale/runevision/api_router"
-	"github.com/runetale/runevision/database"
+	"github.com/runetale/runevision/di"
 	"github.com/runetale/runevision/domain/config"
 	"github.com/runetale/runevision/router"
-	"github.com/runetale/runevision/utility"
 	"golang.org/x/exp/maps"
 	"golang.org/x/net/proxy"
 )
@@ -1420,14 +1419,7 @@ func main() {
 
 	// api
 	cfg := config.MustLoad()
-	log, err := utility.NewLogger(os.Stdout, utility.JsonFmtStr, utility.DebugLevelStr)
-	if err != nil {
-		panic(err)
-	}
-	db, err := database.NewPostgresFromConfig(log, cfg.Postgres)
-	if err != nil {
-		panic(err)
-	}
+	db := di.InitializePostgres(cfg.Postgres, cfg.Log)
 	err = db.MigrateUp("migrations")
 	if err != nil {
 		panic(err)
