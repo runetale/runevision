@@ -32,6 +32,11 @@ func InitializePostgres(dbConfig config.Postgres, logConfig config.Log) (db *dat
 	return
 }
 
+func InitializeDashboardRepository() (repo interfaces.DashboardRepository) {
+	wire.Build(wireSet)
+	return
+}
+
 func InitializeDashboardHandler(dbConfig config.Postgres, logConfig config.Log) (h interfaces.DashboardHandler) {
 	wire.Build(wireSet)
 	return
