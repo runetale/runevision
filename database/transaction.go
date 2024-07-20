@@ -5,10 +5,11 @@ import (
 	"fmt"
 
 	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/jmoiron/sqlx"
 )
 
 type Tx struct {
-	tx *sql.Tx
+	tx *sqlx.Tx
 }
 
 // Multi Select
@@ -50,4 +51,20 @@ func (t *Tx) Commit() error {
 
 func (t *Tx) Rollback() error {
 	return t.tx.Rollback()
+}
+
+func (t *Tx) Get(record any, query string, args ...any) error {
+	err := t.tx.Get(record, query, args...)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+func (t *Tx) Select(record any, query string, args ...any) error {
+	err := t.tx.Select(record, query, args...)
+	if err != nil {
+		return err
+	}
+	return nil
 }

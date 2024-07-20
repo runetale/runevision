@@ -34,8 +34,12 @@ func NewPostgres(log *utility.Logger, url string) (*Postgres, error) {
 	}, nil
 }
 
-func NewPostgresFromConfig(log *utility.Logger, cfg config.Postgres) (*Postgres, error) {
-	return NewPostgres(log, fmt.Sprintf("postgres://%s:%s@%s:%d/%s?sslmode=disable", cfg.UserName, cfg.Password, cfg.Host, cfg.Port, cfg.DatabaseName))
+func MustNewPostgresFromConfig(log *utility.Logger, cfg config.Postgres) *Postgres {
+	db, err := NewPostgres(log, fmt.Sprintf("postgres://%s:%s@%s:%d/%s?sslmode=disable", cfg.UserName, cfg.Password, cfg.Host, cfg.Port, cfg.DatabaseName))
+	if err != nil {
+		panic(err)
+	}
+	return db
 }
 
 func (d *Postgres) CreateDB(dbname string) error {
@@ -115,7 +119,7 @@ func (d *Postgres) QueryRow(query string, args ...interface{}) *sql.Row {
 }
 
 func (d *Postgres) Begin() (*Tx, error) {
-	tx, err := d.db.Begin()
+	tx, err := d.db.Beginx()
 	if err != nil {
 		return nil, err
 	}
