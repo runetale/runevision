@@ -1,7 +1,7 @@
 # runevision
 automated red team tools
 
-# todo v0.0.1
+# v0.0.1
 ## application
 - [ ] targetのDNSスキャン sub finderをベースに
     - crtshのpostgres, hacker targer, dnsdumpstarが精度高いのでそれで実装
@@ -50,5 +50,4 @@ https://runetale.postman.co/workspace/runetale~0bf06704-a345-4663-8e4b-a807be694
 - [ ] cloudlistを使った、内部アセットはスキャン
 - [ ] 独自のyamlをparseしてhttpを実行 scenerio goを参考に
 - [ ] parseしたyamlの値を使用して、httpリクエストを送る
-- [ ] pentest gptを使った、対話式ハッキング
-    - `pentestgpt/utils/API` 周りは参考になりそう
+- [ ] gptのfunction callを使って、サービスの脆弱性検知をより細かく行う
