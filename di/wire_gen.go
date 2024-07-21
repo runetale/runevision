@@ -30,6 +30,11 @@ func InitializePostgres(dbConfig config.Postgres, logConfig config.Log) *databas
 	return postgres
 }
 
+func InitializeDashboardRepository() interfaces.DashboardRepository {
+	dashboardRepository := repository.NewDashboardRepository()
+	return dashboardRepository
+}
+
 func InitializeDashboardHandler(dbConfig config.Postgres, logConfig config.Log) interfaces.DashboardHandler {
 	logger := utility.MustNewLoggerFromConfig(logConfig)
 	postgres := database.MustNewPostgresFromConfig(logger, dbConfig)
