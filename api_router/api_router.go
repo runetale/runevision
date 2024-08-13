@@ -34,4 +34,5 @@ func (r *APIRouter) setupEngine() {
 func (r *APIRouter) setupEndpoints() {
 	apiGroup := r.engine.Group("/api")
 	routes.RegisterDashboardRoutes(apiGroup, r.cfg)
+	routes.RegisterHackRoutes(apiGroup, r.cfg)
 }

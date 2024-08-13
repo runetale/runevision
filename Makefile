@@ -1,10 +1,9 @@
 NO_CACHE =
 
-.PHONY:build
+.PHONY:build hack setup up down run wire test
 
 setup:
-	go install github.com/air-verse/air@v1.52.2
-	go install github.com/google/wire/cmd/wire@latest
+	go install github.com/air-verse/air@v1.52.2	go install github.com/google/wire/cmd/wire@latest
 
 build:
 	docker build $(NO_CACHE) -f Dockerfile .
@@ -17,6 +16,9 @@ down:
 
 run:
 	air server --port 9090
+
+hack:
+	go run main.go
 
 wire:
 	$(GOPATH)/bin/wire ./di/wire.go

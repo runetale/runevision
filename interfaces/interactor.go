@@ -2,9 +2,14 @@ package interfaces
 
 import (
 	"github.com/runetale/runevision/domain/entity"
+	"github.com/runetale/runevision/domain/requests"
 )
 
 type DashboardInteractor interface {
 	Get() ([]entity.DashboardHistory, error)
 	Add(*entity.DashboardHistory) error
+}
+
+type HackInteractor interface {
+	Scan(*requests.HackDoScanRequest) (*entity.HackHistory, error)
 }

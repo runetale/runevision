@@ -44,6 +44,14 @@ func InitializeDashboardHandler(dbConfig config.Postgres, logConfig config.Log) 
 	return dashboardHandler
 }
 
+func InitializeHackHandler(dbConfig config.Postgres, logConfig config.Log) interfaces.HackHandler {
+	logger := utility.MustNewLoggerFromConfig(logConfig)
+	postgres := database.MustNewPostgresFromConfig(logger, dbConfig)
+	hackInteractor := interactor.NewHackInteractor(postgres)
+	hackHandler := handler.NewHackHandler(hackInteractor)
+	return hackHandler
+}
+
 // wire.go:
 
 var wireSet = wire.NewSet(utility.WireSet, database.WireSet, handler.WireSet, interactor.WireSet, repository.WireSet)

@@ -41,3 +41,8 @@ func InitializeDashboardHandler(dbConfig config.Postgres, logConfig config.Log) 
 	wire.Build(wireSet)
 	return
 }
+
+func InitializeHackHandler(dbConfig config.Postgres, logConfig config.Log) (h interfaces.HackHandler) {
+	wire.Build(wireSet)
+	return
+}

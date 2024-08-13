@@ -1,3 +1,5 @@
+// temp
+// 後で使うので残してる
 package gpt
 
 import (

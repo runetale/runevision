@@ -21,3 +21,31 @@ Content-Type: application/json
     "status": "failed",
     "matches": 10
 }
+
+## ------------------------------------------------------------------------- ##
+## Hack APIs                                                              ##
+## ------------------------------------------------------------------------- ##
+
+### Scan
+#
+POST {{baseUrl}}/api/hack HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "test-runetale-hacking",
+    "target": ["scanme.sh"],
+    "methods": "GET",
+    "scan_type": "s",
+    "ports": "1-500",
+    "queries": ["services.software.product=`Jira`"],
+    "max_depth": 3,
+    "field_scope": "rdn",
+    "timeout": 20,
+    "thread":10,
+    "parallelism": 10,
+    "delay": 0,
+    "rate_limit": 150,
+    "retry": 2,
+    "strategy": "depth-first",
+    "template": ["cve", "cnvd", "nvd", "owasp", "fuzz", "misc", "oast", "default","network", "ssl", "technologies", "takeovers", "dns", "files","tokens", "vulnerabilities", "web", "waf", "miscellaneous"]
+}
