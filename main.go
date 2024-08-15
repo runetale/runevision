@@ -11,12 +11,13 @@ import (
 )
 
 func main() {
+	var err error
 	cfg := config.MustLoad()
 
 	// api
 	//
 	db := di.InitializePostgres(cfg.Postgres, cfg.Log)
-	err := db.MigrateUp("migrations")
+	err = db.MigrateUp("migrations")
 	if err != nil {
 		panic(err)
 	}
