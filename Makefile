@@ -17,9 +17,6 @@ down:
 run:
 	air server --port 9090
 
-hack:
-	go run main.go
-
 wire:
 	$(GOPATH)/bin/wire ./di/wire.go
 
