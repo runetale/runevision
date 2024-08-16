@@ -1,0 +1,1 @@
+go build -o vision ./cmd/vision.go

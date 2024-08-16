@@ -12,6 +12,9 @@ up:
 	docker-compose -f docker-compose.local.yaml up --build -d
 	sh scripts/up.sh
 
+build-vision:
+	sh scripts/build.sh
+
 down:
 	docker-compose -f docker-compose.local.yaml down --volumes
 

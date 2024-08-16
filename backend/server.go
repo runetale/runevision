@@ -243,12 +243,13 @@ func (s *LocalBackendServer) Run(ctx context.Context, ln net.Listener) error {
 
 	if err := hs.Serve(ln); err != nil {
 		if err := ctx.Err(); err != nil {
+			s.logger.Logger.Error("local backend ctx error")
 			return err
 		}
+		s.logger.Logger.Error("serve error")
 		return err
 	}
 	return nil
-
 }
 
 func (s *LocalBackendServer) SetLocalBackend(lb *LocalBackend) {
@@ -263,5 +264,4 @@ func (s *LocalBackendServer) SetLocalBackend(lb *LocalBackend) {
 	s.mu.Lock()
 	s.backendWaiter.wakeAll()
 	s.mu.Unlock()
-
 }
