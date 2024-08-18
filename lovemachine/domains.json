@@ -1,0 +1,294 @@
+[
+  {
+    "url": "https://www.google.com",
+    "label": "検索エンジン",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.amazon.com",
+    "label": "Eコマース",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.facebook.com",
+    "label": "ソーシャルメディア",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.twitter.com",
+    "label": "ソーシャルメディア",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.linkedin.com",
+    "label": "ビジネスネットワーキング",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.youtube.com",
+    "label": "動画共有",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.netflix.com",
+    "label": "動画ストリーミング",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.wikipedia.org",
+    "label": "オンライン百科事典",
+    "class": "Webサイト"
+  },
+  {
+    "url": "https://www.reddit.com",
+    "label": "コミュニティフォーラム",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.github.com",
+    "label": "コードリポジトリ",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.stackoverflow.com",
+    "label": "Q&Aサイト",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.ebay.com",
+    "label": "オンラインオークション",
+    "class": "Webアプリケーション"
+  },
+  { "url": "https://www.cnn.com", "label": "ニュース", "class": "Webサイト" },
+  { "url": "https://www.bbc.com", "label": "ニュース", "class": "Webサイト" },
+  {
+    "url": "https://www.nytimes.com",
+    "label": "ニュース",
+    "class": "Webサイト"
+  },
+  {
+    "url": "https://www.huffpost.com",
+    "label": "ニュース",
+    "class": "Webサイト"
+  },
+  {
+    "url": "https://www.bloomberg.com",
+    "label": "ビジネスニュース",
+    "class": "Webサイト"
+  },
+  {
+    "url": "https://www.techcrunch.com",
+    "label": "テクノロジーニュース",
+    "class": "Webサイト"
+  },
+  {
+    "url": "https://www.wired.com",
+    "label": "テクノロジーニュース",
+    "class": "Webサイト"
+  },
+  {
+    "url": "https://www.forbes.com",
+    "label": "ビジネスニュース",
+    "class": "Webサイト"
+  },
+  {
+    "url": "https://www.si.com",
+    "label": "スポーツニュース",
+    "class": "Webサイト"
+  },
+  {
+    "url": "https://www.tripadvisor.com",
+    "label": "旅行レビュー",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.airbnb.com",
+    "label": "宿泊予約",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.expedia.com",
+    "label": "旅行予約",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.flickr.com",
+    "label": "写真共有",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.tumblr.com",
+    "label": "ブログプラットフォーム",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.pinterest.com",
+    "label": "画像共有",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.spotify.com",
+    "label": "音楽ストリーミング",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.soundcloud.com",
+    "label": "音楽ストリーミング",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.dropbox.com",
+    "label": "クラウドストレージ",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.slack.com",
+    "label": "チームコミュニケーション",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.salesforce.com",
+    "label": "CRM",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.shopify.com",
+    "label": "Eコマースプラットフォーム",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.wordpress.com",
+    "label": "ブログプラットフォーム",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.medium.com",
+    "label": "ブログプラットフォーム",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.quora.com",
+    "label": "Q&Aサイト",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.atlassian.com/software/jira",
+    "label": "プロジェクト管理",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.trello.com",
+    "label": "プロジェクト管理",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.basecamp.com",
+    "label": "プロジェクト管理",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.zoom.us",
+    "label": "ビデオ会議",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.coursera.org",
+    "label": "オンライン学習",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.udacity.com",
+    "label": "オンライン学習",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.khanacademy.org",
+    "label": "オンライン学習",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.edx.org",
+    "label": "オンライン学習",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.mozilla.org",
+    "label": "オープンソースソフトウェア",
+    "class": "Webサイト"
+  },
+  {
+    "url": "https://www.gitlab.com",
+    "label": "コードリポジトリ",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.cloudflare.com",
+    "label": "CDN",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.alibaba.com",
+    "label": "Eコマース",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.jd.com",
+    "label": "Eコマース",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://www.rakuten.co.jp",
+    "label": "Eコマース",
+    "class": "Webアプリケーション"
+  },
+  {
+    "url": "https://api.twitter.com",
+    "label": "ソーシャルメディアAPI",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.github.com",
+    "label": "コードリポジトリAPI",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.spotify.com",
+    "label": "音楽ストリーミングAPI",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.slack.com",
+    "label": "チームコミュニケーションAPI",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.dropboxapi.com",
+    "label": "クラウドストレージAPI",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.salesforce.com",
+    "label": "CRM API",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.shopify.com",
+    "label": "EコマースプラットフォームAPI",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.coursera.org",
+    "label": "オンライン学習API",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.atlassian.com",
+    "label": "プロジェクト管理API",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.zoom.us",
+    "label": "ビデオ会議API",
+    "class": "APIサーバー"
+  }
+]

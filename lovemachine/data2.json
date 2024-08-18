@@ -1,0 +1,2816 @@
+[
+    {
+        "url": "https://www.google.com",
+        "domain": "www.google.com",
+        "status_code": 200,
+        "server": "gws",
+        "content_type": "text/html; charset=ISO-8859-1",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:13:08 GMT",
+            "Expires": "-1",
+            "Cache-Control": "private, max-age=0",
+            "Content-Type": "text/html; charset=ISO-8859-1",
+            "Content-Security-Policy-Report-Only": "object-src 'none';base-uri 'self';script-src 'nonce-QoFtCvhKcJ5JXucQQCY98w' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp",
+            "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+            "Content-Encoding": "gzip",
+            "Server": "gws",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "Set-Cookie": "AEC=AVYB7coA0jptk3fmazEloCoB00G_f2O3bvT6D7C9Z9NEAli9pz7N0aG5kg; expires=Fri, 14-Feb-2025 15:13:08 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=516=sYGHrpXbUki3SlhFfUbPo8mKnJhjC0Y7FAmvgxxjbwunqm2WTvETT4di5C8029GqeQkF0K7tCzZWTnzf-0nOxrTMxpp7ZSJsEkWzrIJdND7RFML80vhZwGztG3JwRQR5MslgkwuHSO1x_2keJItmtB8zJabjhaE7ttBFiYtRoW-Z1gDgQP3YZH0hpw; expires=Mon, 17-Feb-2025 15:13:08 GMT; path=/; domain=.google.com; HttpOnly",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-servers": [
+                "Google Web Server"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Google"
+        },
+        "label": "検索エンジン",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.amazon.com",
+        "domain": "www.amazon.com",
+        "status_code": 503,
+        "server": "Server",
+        "content_type": "text/html",
+        "headers": {
+            "Content-Type": "text/html",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Server": "Server",
+            "Date": "Sun, 18 Aug 2024 15:13:09 GMT",
+            "x-amz-rid": "VBG9P9YW8M8H4DY88Q4G",
+            "Vary": "Content-Type,Accept-Encoding,User-Agent",
+            "Last-Modified": "Wed, 31 Jul 2024 00:33:14 GMT",
+            "ETag": "\"a6f-61e803d56a680-gzip\"",
+            "Accept-Ranges": "bytes",
+            "Content-Encoding": "gzip",
+            "Strict-Transport-Security": "max-age=47474747; includeSubDomains; preload",
+            "X-Cache": "Error from cloudfront",
+            "Via": "1.1 20f0da90a97065329aee5ad4c9e40d62.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop": "KIX56-C2",
+            "Alt-Svc": "h3=\":443\"; ma=86400",
+            "X-Amz-Cf-Id": "tRV1HDAU-C7VSsMTlHy42mzHmNtlT-kZCfTY6T8AGqa5fBywJH985g=="
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Sorry! Something went wrong!"
+        },
+        "label": "Eコマース",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.facebook.com",
+        "domain": "www.facebook.com",
+        "status_code": 200,
+        "server": "Unknown",
+        "content_type": "text/html; charset=\"utf-8\"",
+        "headers": {
+            "Vary": "Accept-Encoding",
+            "Content-Encoding": "gzip",
+            "Set-Cookie": "fr=0YEOuOyekJXDjH9vr..Bmwg-F..AAA.0.0.Bmwg-F.AWXXgLaWeeI; expires=Sat, 16-Nov-2024 15:13:09 GMT; Max-Age=7776000; path=/; domain=.facebook.com; secure; httponly, sb=hQ_CZug7M9Asrg5e0VR_zpQe; expires=Mon, 22-Sep-2025 15:13:09 GMT; Max-Age=34560000; path=/; domain=.facebook.com; secure; httponly",
+            "reporting-endpoints": "coop_report=\"https://www.facebook.com/browser_reporting/coop/?minimize=0\", default=\"https://www.facebook.com/ajax/browser_error_reports/?device_level=unknown&brsid=7404497803205060364\", permissions_policy=\"https://www.facebook.com/ajax/browser_error_reports/\"",
+            "report-to": "{\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coop\\/?minimize=0\"}],\"group\":\"coop_report\",\"include_subdomains\":true}, {\"max_age\":259200,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/ajax\\/browser_error_reports\\/?device_level=unknown&brsid=7404497803205060364\"}]}, {\"max_age\":21600,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/ajax\\/browser_error_reports\\/\"}],\"group\":\"permissions_policy\"}",
+            "content-security-policy": "default-src data: blob: 'self' https://*.fbsbx.com 'unsafe-inline' *.facebook.com *.fbcdn.net 'unsafe-eval';script-src *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'unsafe-inline' blob: data: 'self' connect.facebook.net 'unsafe-eval' https://*.google-analytics.com *.google.com;style-src *.fbcdn.net data: *.facebook.com 'unsafe-inline' https://fonts.googleapis.com;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' http://localhost:3103 wss://gateway.facebook.com wss://edge-chat.facebook.com wss://snaptu-d.facebook.com wss://kaios-d.facebook.com/ v.whatsapp.net *.fbsbx.com *.fb.com https://*.google-analytics.com;font-src data: *.facebook.com *.fbcdn.net *.fbsbx.com https://fonts.gstatic.com;img-src *.fbcdn.net *.facebook.com data: https://*.fbsbx.com facebook.com *.cdninstagram.com fbsbx.com fbcdn.net connect.facebook.net *.carriersignal.info blob: android-webview-video-poster: *.whatsapp.net *.fb.com *.oculuscdn.com *.tenor.co *.tenor.com *.giphy.com https://paywithmybank.com/ https://*.paywithmybank.com/ https://www.googleadservices.com https://googleads.g.doubleclick.net https://*.google-analytics.com;media-src *.cdninstagram.com blob: *.fbcdn.net *.fbsbx.com www.facebook.com *.facebook.com data: *.tenor.co *.tenor.com https://*.giphy.com;frame-src *.facebook.com *.fbsbx.com fbsbx.com data: www.instagram.com *.fbcdn.net https://paywithmybank.com/ https://*.paywithmybank.com/ https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://td.doubleclick.net *.google.com *.doubleclick.net;worker-src blob: *.facebook.com data:;block-all-mixed-content;upgrade-insecure-requests;",
+            "document-policy": "force-load-at-top",
+            "permissions-policy": "accelerometer=(), attribution-reporting=(self), autoplay=(), battery=(self), bluetooth=(), browsing-topics=(self), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(self), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(self), fullscreen=(self), gamepad=*, geolocation=(self), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(self), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), usb-unrestricted=(), unload=(self), window-management=(), xr-spatial-tracking=(self);report-to=\"permissions_policy\"",
+            "cross-origin-resource-policy": "same-origin",
+            "cross-origin-opener-policy": "unsafe-none;report-to=\"coop_report\"",
+            "Pragma": "no-cache",
+            "Cache-Control": "private, no-cache, no-store, must-revalidate",
+            "Expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+            "X-Content-Type-Options": "nosniff",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "DENY",
+            "Strict-Transport-Security": "max-age=15552000; preload",
+            "Content-Type": "text/html; charset=\"utf-8\"",
+            "X-FB-Debug": "URC1hV0Npu9lhodUhYEYD08pohVqW4+gK8AsILsF/LkCegchT2ofYUW1KtY1ljthgdsQeBODeNmdYW92+9oAwg==",
+            "x-fb-server-load": "39",
+            "Date": "Sun, 18 Aug 2024 15:13:09 GMT",
+            "X-FB-Connection-Quality": "EXCELLENT; q=0.9, rtt=6, rtx=0, c=10, mss=1380, tbw=3425, tp=-1, tpl=-1, uplat=207, ullat=0",
+            "Alt-Svc": "h3=\":443\"; ma=86400",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "advertising-networks": [
+                "AppNexus"
+            ],
+            "javascript-graphics": [
+                "Javascript Infovis Toolkit"
+            ],
+            "javascript-frameworks": [
+                "RequireJS",
+                "jQuery"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Facebook - ログインまたは登録"
+        },
+        "label": "ソーシャルメディア",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.twitter.com",
+        "domain": "www.twitter.com",
+        "status_code": 200,
+        "server": "tsa_m",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "date": "Sun, 18 Aug 2024 15:13:11 GMT",
+            "perf": "7402827104",
+            "expiry": "Tue, 31 Mar 1981 05:00:00 GMT",
+            "pragma": "no-cache",
+            "server": "tsa_m",
+            "set-cookie": "guest_id_marketing=v1%3A172399399112974525; Max-Age=63072000; Expires=Tue, 18 Aug 2026 15:13:11 GMT; Path=/; Domain=.x.com; Secure; SameSite=None, guest_id_ads=v1%3A172399399112974525; Max-Age=63072000; Expires=Tue, 18 Aug 2026 15:13:11 GMT; Path=/; Domain=.x.com; Secure; SameSite=None, personalization_id=\"v1_9y07C39LCVfenftPdlC7RA==\"; Max-Age=63072000; Expires=Tue, 18 Aug 2026 15:13:11 GMT; Path=/; Domain=.x.com; Secure; SameSite=None, guest_id=v1%3A172399399112974525; Max-Age=63072000; Expires=Tue, 18 Aug 2026 15:13:11 GMT; Path=/; Domain=.x.com; Secure; SameSite=None, ct0=; Max-Age=-1723993990; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Path=/; Domain=.x.com; Secure; SameSite=Lax",
+            "content-type": "text/html; charset=utf-8",
+            "x-powered-by": "Express",
+            "cache-control": "no-store, max-age=0",
+            "last-modified": "Sun, 18 Aug 2024 15:13:11 GMT",
+            "x-frame-options": "DENY",
+            "x-transaction-id": "0c81edd8a7602c6c",
+            "x-xss-protection": "0",
+            "x-content-type-options": "nosniff",
+            "content-security-policy": "connect-src 'self' blob: https://api.x.ai https://api.x.com https://jf.x.com https://jf.twitter.com https://*.pscp.tv https://*.video.pscp.tv https://*.twimg.com https://api.twitter.com https://api.x.com https://api-stream.twitter.com https://api-stream.x.com https://ads-api.twitter.com https://ads-api.x.com https://aa.twitter.com https://aa.x.com https://caps.twitter.com https://caps.x.com https://pay.twitter.com https://pay.x.com https://sentry.io https://ton.twitter.com https://ton.x.com https://ton-staging.atla.twitter.com https://ton-staging.atla.x.com https://ton-staging.pdxa.twitter.com https://ton-staging.pdxa.x.com https://twitter.com https://x.com https://upload.twitter.com https://upload.x.com https://www.google-analytics.com https://accounts.google.com/gsi/status https://accounts.google.com/gsi/log https://production.plaid.com/ https://sandbox.plaid.com/ https://checkoutshopper-live.adyen.com wss://*.pscp.tv https://vmap.snappytv.com https://vmapstage.snappytv.com https://vmaprel.snappytv.com https://vmap.grabyo.com https://dhdsnappytv-vh.akamaihd.net https://pdhdsnappytv-vh.akamaihd.net https://mdhdsnappytv-vh.akamaihd.net https://mdhdsnappytv-vh.akamaihd.net https://mpdhdsnappytv-vh.akamaihd.net https://mmdhdsnappytv-vh.akamaihd.net https://mdhdsnappytv-vh.akamaihd.net https://mpdhdsnappytv-vh.akamaihd.net https://mmdhdsnappytv-vh.akamaihd.net https://dwo3ckksxlb0v.cloudfront.net https://media.riffsy.com https://*.giphy.com https://media.tenor.com https://c.tenor.com ws://localhost:8008/v2/ipc https://ads-twitter.com https://analytics.twitter.com https://analytics.x.com  ; default-src 'self'; form-action 'self' https://twitter.com https://*.twitter.com https://x.com https://*.x.com https://localhost.twitter.com:3443 https://localhost.x.com:3443; font-src 'self' https://*.twimg.com; frame-src 'self' https://twitter.com https://x.com https://mobile.twitter.com https://mobile.x.com https://pay.twitter.com https://pay.x.com https://cards-frame.twitter.com https://accounts.google.com/ https://client-api.arkoselabs.com/ https://iframe.arkoselabs.com/ https://vaultjs.apideck.com/ https://cdn.plaid.com/ https://verify-sandbox.plaid.com/ https://api.sandbox.sardine.ai/ https://payments-dev.x.com/ https://payments-staging.x.com/  https://recaptcha.net/recaptcha/ https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; img-src 'self' blob: data: https://*.cdn.twitter.com https://*.cdn.x.com https://ton.twitter.com https://ton.x.com https://*.twimg.com https://analytics.twitter.com https://analytics.x.com https://cm.g.doubleclick.net https://www.google-analytics.com https://maps.googleapis.com https://www.periscope.tv https://www.pscp.tv https://ads-twitter.com https://ads-api.twitter.com https://ads-api.x.com https://media.riffsy.com https://*.giphy.com https://media.tenor.com https://c.tenor.com https://*.pscp.tv https://*.periscope.tv https://prod-periscope-profile.s3-us-west-2.amazonaws.com https://platform-lookaside.fbsbx.com https://scontent.xx.fbcdn.net https://scontent-sea1-1.xx.fbcdn.net https://*.googleusercontent.com https://t.co/1/i/adsct; manifest-src 'self'; media-src 'self' blob: https://twitter.com https://x.com https://*.twimg.com https://*.vine.co https://*.pscp.tv https://*.video.pscp.tv https://dhdsnappytv-vh.akamaihd.net https://pdhdsnappytv-vh.akamaihd.net https://mdhdsnappytv-vh.akamaihd.net https://mdhdsnappytv-vh.akamaihd.net https://mpdhdsnappytv-vh.akamaihd.net https://mmdhdsnappytv-vh.akamaihd.net https://mdhdsnappytv-vh.akamaihd.net https://mpdhdsnappytv-vh.akamaihd.net https://mmdhdsnappytv-vh.akamaihd.net https://dwo3ckksxlb0v.cloudfront.net; object-src 'none'; script-src 'self' 'unsafe-inline' https://*.twimg.com https://recaptcha.net/recaptcha/ https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://client-api.arkoselabs.com/ https://www.google-analytics.com https://twitter.com https://x.com https://accounts.google.com/gsi/client https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js https://www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js https://static.ads-twitter.com https://cdn.plaid.com/link/v2/stable/link-initialize.js https://api.sandbox.sardine.ai/assets/loader.min.js  'nonce-YzA5YzUzYmMtMWUwZC00NmE4LTllMDUtYmVjM2IwNTg3ZDE5'; style-src 'self' 'unsafe-inline' https://accounts.google.com/gsi/style https://*.twimg.com; worker-src 'self' blob:; report-uri https://twitter.com/i/csp_report?a=O5RXE%3D%3D%3D&ro=false",
+            "strict-transport-security": "max-age=631138519",
+            "cross-origin-opener-policy": "unsafe-none",
+            "cross-origin-embedder-policy": "unsafe-none",
+            "content-encoding": "gzip",
+            "x-response-time": "105",
+            "x-connection-hash": "76db0324f6284b25531ef4f2057f7b50d3743e8c9eff324f357def08b904ea74",
+            "transfer-encoding": "chunked"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-frameworks": [
+                "Express"
+            ],
+            "programming-languages": [
+                "node.js"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "x.com"
+        },
+        "label": "ソーシャルメディア",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.linkedin.com",
+        "domain": "www.linkedin.com",
+        "status_code": 200,
+        "server": "Unknown",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Cache-Control": "no-cache, no-store",
+            "Pragma": "no-cache",
+            "Content-Length": "18911",
+            "Content-Type": "text/html; charset=utf-8",
+            "Content-Encoding": "gzip",
+            "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+            "Vary": "Accept-Encoding",
+            "Set-Cookie": "JSESSIONID=ajax:2021424010807466271; SameSite=None; Path=/; Domain=.www.linkedin.com; Secure, lang=v=2&lang=en-us; SameSite=None; Path=/; Domain=linkedin.com; Secure, bcookie=\"v=2&fff9fcd5-4c13-4d69-86c0-61472d53b266\"; domain=.linkedin.com; Path=/; Secure; Expires=Mon, 18-Aug-2025 15:13:12 GMT; SameSite=None, bscookie=\"v=1&2024081815131287bca9cb-88c6-4e56-84b2-809c363455e6AQGIfAaNCNv7DkTqIPYyLcmRYUdfrr0D\"; domain=.www.linkedin.com; Path=/; Secure; Expires=Mon, 18-Aug-2025 15:13:12 GMT; HttpOnly; SameSite=None, lidc=\"b=OGST05:s=O:r=O:a=O:p=O:g=3152:u=1:x=1:i=1723993992:t=1724080392:v=2:sig=AQH3r_R7WGCAx9UcF16Nh88gm4tGMRs0\"; Expires=Mon, 19 Aug 2024 15:13:12 GMT; domain=.linkedin.com; Path=/; SameSite=None; Secure",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "sameorigin",
+            "Content-Security-Policy": "default-src 'none'; connect-src 'self' *.licdn.com *.linkedin.com cdn.linkedin.oribi.io dpm.demdex.net/id lnkd.demdex.net blob: accounts.google.com/gsi/ linkedin.sc.omtrdc.net/b/ss/ v.clarity.ms/collect *.microsoft.com *.adnxs.com *.tealiumiq.com login.microsoftonline.com; script-src 'report-sample' 'sha256-th47JTnh6tX15SUn/I+GGmsOSXpa7dh5Skner77gxlY=' 'sha256-SSoodjUD3LGm2FfFCVHGqEb8D4UM3OOigidT2UKDcYg=' 'sha256-cKTgdnmO6+hXd85a9wKg1effVfVzenUAtUCyOKY9bQE=' 'sha256-DwtT8+ZZKpxH9pqZNAmJ3GdbLAh5SsYaXR3omTXPCns=' 'sha256-sV9jZa797T0QWBzcU/CNd4tpBhTnh+TFdLnfjlitl28=' 'sha256-aa/Q8CRBDSqTQbCIyioPhZaz+G+dbPyu7BzsjInEmiU=' 'sha256-THuVhwbXPeTR0HszASqMOnIyxqEgvGyBwSPBKBF/iMc=' 'sha256-zTIusdVJJeXz9+iox2a+pdDglzbpRpFVRzEwvW4AONk=' 'sha256-iC8MPqNLw0FDnsBf4DlSkFLNTwhkI85aouiAEB819ic=' 'sha256-2EqrEvcPzl8c6/TSGVvaVMEe7lg700MAz/te4/3kTYY=' 'sha256-y5uW69VItKj51mcc7UD9qfptDVUqicZL+bItEpvVNDw=' 'sha256-DatsFGoJ8gFkzzxo47Ou76WZ+3QBPOQHtBu9p9b3DhA=' 'sha256-k95cyM8gFgPziZe5VQ2IvJvBUVyd5zFt2CokIUwqdHE=' 'sha256-PyCXNcEkzRWqbiNr087fizmiBBrq9O6GGD8eV3P09Ik=' 'sha256-RFqsjmAF1N5LnfpaHFvPqFlVkeIS/DtTAFor+JjJJVc=' 'sha256-2SQ55Erm3CPCb+k03EpNxU9bdV3XL9TnVTriDs7INZ4=' 'sha256-S/KSPe186K/1B0JEjbIXcCdpB97krdzX05S+dHnQjUs=' 'sha256-9pXOIwF4N0gPltLd3AI69lkCjSC2H/Eb3sc5zdmUyYU=' 'sha256-jou6v/Nleyzoc+LXktAv1Fp8M807dVVxy7E/yzVljHc=' 'sha256-6E4e/3dSvj/8JZT2S2yR91mspqM6MyOpKl5lrhHsZa8=' 'sha256-3woF8BZ54TeXM+czaH3aXoaJsVpiamuAKFsXDykAR/Q=' 'sha256-vIfNcKb8ixJg1cfJIoNNYjWcm0lezj1/XpUNFiZyVsU=' 'sha256-cLsHUHFgT/VGX04cZrJ9xgm4HbzTR7ptutkxK+7BlMk=' 'sha256-BwU8jMnQYUhjOpsDVABpfddV/DlP1ZYrFcTumYw7x54=' 'sha256-wz6ika9i3WU3bpUPdhYDZeO/NrDQniDyiscN0LWnyaY=' static.licdn.com static-exp1.licdn.com static-exp2.licdn.com static-exp3.licdn.com platform.linkedin.com platform-akam.linkedin.com platform-ecst.linkedin.com platform-azur.linkedin.com snap.licdn.com www.googletagmanager.com/gtag/js merchantpool1.linkedin.com/mdt.js; img-src data: blob: * android-webview-video-poster:; font-src data: *; style-src 'self' 'unsafe-inline' static.licdn.com static-exp1.licdn.com static-exp2.licdn.com static-exp3.licdn.com; media-src 'self' *.licdn.com *.lynda.com; worker-src 'self' blob: static.licdn.com static-exp1.licdn.com static-exp2.licdn.com static-exp3.licdn.com; frame-src 'self' www.youtube.com/embed/ www.youtube-nocookie.com/embed/ lnkd.demdex.net smartlock.google.com accounts.google.com player.vimeo.com *.linkedin.com www.slideshare.net *.megaphone.fm *.omny.fm *.sounder.fm msit.powerbi.com app.powerbi.com linkedin.github.io *.licdn.com *.adnxs.com acdn.adnxs-simple.com radar.cedexis.com edge-auth.microsoft.com flo.uri.sh li.protechts.net *.xlgmedia.com *.px-cloud.net merchantpool1.linkedin.com; frame-ancestors 'self' *.www.linkedin.com:*; manifest-src 'self'; report-uri https://www.linkedin.com/security/csp?f=gg",
+            "X-Li-Fabric": "prod-lor1",
+            "X-Li-Pop": "afd-prod-lor1-x",
+            "X-Li-Proto": "http/1.1",
+            "X-LI-UUID": "AAYf9qGD4KCfPnvlxl+g6w==",
+            "X-Cache": "CONFIG_NOCACHE",
+            "X-MSEdge-Ref": "Ref A: 25BFA41B1EDC4533826E48BE579D945D Ref B: OSA30EDGE0520 Ref C: 2024-08-18T15:13:12Z",
+            "Date": "Sun, 18 Aug 2024 15:13:12 GMT"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "programming-languages": [
+                "Java"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "LinkedIn: Log In or Sign Up"
+        },
+        "label": "ビジネスネットワーキング",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.youtube.com",
+        "domain": "www.youtube.com",
+        "status_code": 200,
+        "server": "ESF",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "X-Content-Type-Options": "nosniff",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sun, 18 Aug 2024 15:13:31 GMT",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Frame-Options": "SAMEORIGIN",
+            "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to=\"youtube_main\"",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "Content-Security-Policy": "require-trusted-types-for 'script'",
+            "Origin-Trial": "AmhMBR6zCLzDDxpW+HfpP67BqwIknWnyMOXOQGfzYswFmJe+fgaI6XZgAzcxOrzNtP7hEDsOo1jdjFnVr2IdxQ4AAAB4eyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJXZWJWaWV3WFJlcXVlc3RlZFdpdGhEZXByZWNhdGlvbiIsImV4cGlyeSI6MTc1ODA2NzE5OSwiaXNTdWJkb21haW4iOnRydWV9",
+            "Report-To": "{\"group\":\"youtube_main\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/youtube_main\"}]}",
+            "P3P": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657?hl=ja for more info.\"",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "Set-Cookie": "GPS=1; Domain=.youtube.com; Expires=Sun, 18-Aug-2024 15:43:31 GMT; Path=/; Secure; HttpOnly, YSC=bn9DlYRke2g; Domain=.youtube.com; Path=/; Secure; HttpOnly; SameSite=none, VISITOR_INFO1_LIVE=C-CXGcAVqao; Domain=.youtube.com; Expires=Fri, 14-Feb-2025 15:13:31 GMT; Path=/; Secure; HttpOnly; SameSite=none, VISITOR_PRIVACY_METADATA=CgJKUBIEGgAgMQ%3D%3D; Domain=.youtube.com; Expires=Fri, 14-Feb-2025 15:13:31 GMT; Path=/; Secure; HttpOnly; SameSite=none",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "font-scripts": [
+                "Google Font API"
+            ],
+            "javascript-frameworks": [
+                "React",
+                "RequireJS"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "YouTube"
+        },
+        "label": "動画共有",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.netflix.com",
+        "domain": "www.netflix.com",
+        "status_code": 200,
+        "server": "envoy",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "server": "envoy",
+            "x-frame-options": "DENY",
+            "accept-ch": "Sec-CH-UA-Platform-Version,Sec-CH-UA-Model",
+            "set-cookie": "flwssn=2a59e0d2-da07-4ff4-ab8b-60785e00c6fe; Max-Age=10800; Domain=.netflix.com; Path=/",
+            "Content-Type": "text/html; charset=utf-8",
+            "cache-control": "no-cache, no-store, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-robots-tag": "index",
+            "date": "Sun, 18 Aug 2024 15:14:46 GMT",
+            "x-envoy-upstream-service-time": "186",
+            "x-b3-traceid": "66c20fe5da9ae607bf8b6c5c7058799f",
+            "x-request-id": "eb993b0f-90de-4760-80e9-abf8c690ed28",
+            "x-envoy-decorator-operation": "lo_svc",
+            "Via": "1.1 i-04c6d391ee428b45d (us-west-2)",
+            "X-Xss-Protection": "1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport",
+            "X-Content-Type-Options": "nosniff",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+            "X-Originating-URL": "http://www.netflix.com/jp-en/",
+            "X-Netflix.nfstatus": "1_1",
+            "X-Netflix.proxy.execution-time": "190",
+            "X-Netflix.zuul.netty.content.compressor.target": "gzip",
+            "content-encoding": "gzip",
+            "transfer-encoding": "chunked"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "javascript-frameworks": [
+                "React",
+                "RequireJS",
+                "Vue.js"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Netflix Japan - Watch TV Shows Online, Watch Movies Online"
+        },
+        "label": "動画ストリーミング",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.wikipedia.org",
+        "domain": "www.wikipedia.org",
+        "status_code": 200,
+        "server": "ATS/9.1.4",
+        "content_type": "text/html",
+        "headers": {
+            "date": "Sat, 17 Aug 2024 17:52:44 GMT",
+            "cache-control": "s-maxage=86400, must-revalidate, max-age=3600",
+            "server": "ATS/9.1.4",
+            "etag": "W/\"13234-61e5d74584e40\"",
+            "last-modified": "Mon, 29 Jul 2024 07:03:13 GMT",
+            "content-type": "text/html",
+            "content-encoding": "gzip",
+            "vary": "Accept-Encoding",
+            "age": "76923",
+            "x-cache": "cp5018 miss, cp5018 hit/1180961",
+            "x-cache-status": "hit-front",
+            "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp5018\"",
+            "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+            "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+            "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+            "set-cookie": "WMF-Last-Access=18-Aug-2024;Path=/;HttpOnly;secure;Expires=Thu, 19 Sep 2024 12:00:00 GMT, WMF-Last-Access-Global=18-Aug-2024;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu, 19 Sep 2024 12:00:00 GMT, GeoIP=JP:27:Suita:34.76:135.51:v4; Path=/; secure; Domain=.wikipedia.org, NetworkProbeLimit=0.001;Path=/;Secure;SameSite=Lax;Max-Age=3600",
+            "x-client-ip": "131.129.83.15",
+            "accept-ranges": "bytes",
+            "content-length": "18807"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-servers": [
+                "Apache Traffic Server"
+            ],
+            "javascript-frameworks": [
+                "Twitter typeahead.js",
+                "jQuery"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Wikipedia"
+        },
+        "label": "オンライン百科事典",
+        "class": "Webサイト"
+    },
+    {
+        "url": "https://www.reddit.com",
+        "domain": "www.reddit.com",
+        "status_code": 200,
+        "server": "snooserv",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Connection": "keep-alive",
+            "cache-control": "private, s-maxage=1, max-age=1, must-revalidate",
+            "content-encoding": "gzip",
+            "content-security-policy": "child-src 'self' blob: accounts.google.com;connect-src 'self' events.redditmedia.com o418887.ingest.sentry.io *.redd.it *.reddit.com www.redditstatic.com vimeo.com alb.reddit.com accounts.google.com/gsi/ w3-reporting.reddit.com reddit-uploaded-emoji.s3-accelerate.amazonaws.com reddit-uploaded-media.s3-accelerate.amazonaws.com reddit-uploaded-video.s3-accelerate.amazonaws.com reddit-subreddit-uploaded-media.s3-accelerate.amazonaws.com wss://*.wss.redditmedia.com wss://gql-realtime.reddit.com *.giphy.com js.stripe.com support.reddithelp.com matrix.redditspace.com;default-src 'self';font-src 'self' data:;form-action 'none';frame-ancestors 'self' *.reddit.com *.snooguts.net;frame-src 'self' www.reddit.com www.youtube-nocookie.com player.vimeo.com *.redditmedia.com cdn.embedly.com redgifs.com www.redgifs.com accounts.google.com/gsi/ www.google.com/recaptcha/ recaptcha.google.com/recaptcha/ js.stripe.com hooks.stripe.com *.devvit.net;img-src 'self' data: blob: https:;manifest-src 'self' www.redditstatic.com;media-src 'self' blob: data: *.redd.it www.redditstatic.com matrix.redditspace.com;object-src 'none';script-src 'self' 'unsafe-inline' 'unsafe-eval' www.redditstatic.com www.google.com/recaptcha/ js.stripe.com accounts.google.com/gsi/client 'nonce-Y9T4h/HhgUks7+CC5zrAvg==';style-src 'self' 'unsafe-inline' www.redditstatic.com *.reddit.com accounts.google.com/gsi/style;style-src-attr 'unsafe-inline';worker-src 'self' blob:;report-to csp;report-uri https://w3-reporting-csp.reddit.com/reports",
+            "content-security-policy-report-only": "object-src 'none';script-src 'nonce-Y9T4h/HhgUks7+CC5zrAvg==' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https:;frame-ancestors 'self' *.reddit.com *.snooguts.net;base-uri 'self';report-to csp;report-uri https://w3-reporting-csp.reddit.com/reports",
+            "content-type": "text/html; charset=utf-8",
+            "x-is-wrs": "false",
+            "x-ratelimit-remaining": "198.0",
+            "x-ratelimit-reset": "303",
+            "x-ratelimit-used": "2",
+            "Accept-Ranges": "bytes",
+            "Date": "Sun, 18 Aug 2024 15:14:56 GMT",
+            "Via": "1.1 varnish",
+            "Vary": "Accept-Encoding,accept-language",
+            "Strict-Transport-Security": "max-age=31536000; includeSubdomains",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-XSS-Protection": "1; mode=block",
+            "Set-Cookie": "loid=0000000016xi28vmlc.2.1723994096423.Z0FBQUFBQm13Z193WDN6ekJYeTU2ME5TeFR2VTV3V1NUSXFzYzBpbVVkNERuLXdhODFmSjdIa1lybUZKZ0FManRDZ2Fxa2dXSjJZY2lMeUo1UTFPbGlmRE8wLVZHLWljenFUT0VrSWhFc0l4bDJ5YXBsYWYtTDZmN2FmNnBMOGhJNXFIeU5oSG5CZks; path=/; expires=Tue, 18 Aug 2026 15:14:56 GMT; domain=.reddit.com; samesite=none; secure, session_tracker=boqajprijicefhoffh.0.1723994096427.Z0FBQUFBQm13Z193Y0tuWW5VSFVWa2Z3ZXl6QkNBa2hwOV92WEx6WGtkUXdVdXB0ejYxR2E2eGViOFFoOHNKYldyNlg5U0Q3NGE2WWF2VXJiR1lsdWM1aFRLdG9TUm0xaXhlSUVrNGJvMk9nZnFzSlNiZE91QUU1QmRjSlJXNWZTd2tQenRIT2toVDM; path=/; domain=.reddit.com; secure; SameSite=None; Secure, csrf_token=47c4b6d8de5d34c12740c513a4100733; path=/; domain=.reddit.com; samesite=strict; secure, token_v2=eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJsb2lkIiwiZXhwIjoxNzI0MDgwNDk2LjQyNDI4NCwiaWF0IjoxNzIzOTk0MDk2LjQyNDI4NCwianRpIjoiVUxSWHBhWmJJa1FfMzI5c2JtZzR0X0d6SGpXaDlBIiwiY2lkIjoiMFItV0FNaHVvby1NeVEiLCJsaWQiOiJ0Ml8xNnhpMjh2bWxjIiwibGNhIjoxNzIzOTk0MDk2NDIzLCJzY3AiOiJlSnhra2RHT3REQUloZC1sMXo3Ql95cF9OaHRzY1lhc0xRYW9rM243RFZvY2s3MDdjTDRpSFA4bktJcUZMRTJ1QktHa0tXRUZXdE9VTmlMdjU4eTlPWkVGU3lGVFI4NDN5d29rYVVwUFVtTjVweWxSd1daa0xsZmFzVUtEQjZZcFZTNloyMEtQUzV2UTNJMUZ6MDZNcWx4V0h0VFlvM0pwYkdNSzJ4UGp6Y1pxUXlxdXk2bE1ZRmtvbjhXTGZ2eUctdFktZjdiZmhIWXdyS2dLRF9UT3VGeHdZX0hERkhiX25wcjBiRjJ3cUwzWGc5US0xLU4yN2JObW9kbTVfVnpQdnphU2NUbUc1aWZZdjd0LUNSMTQ1SG1aVVFjd1lnMF95ckFqNl9Ddk9vREtCUVdNSlloUEk1QXJsMl9fSmRpdVRmOGF0eWQtLUdiRVRXXzRyUm1vNXhMRW9VX2o2emNBQVBfX1hEX2U0dyIsImZsbyI6MX0.U4nrH9lWaMhEMmNkK36ZhbMEc9IVVivO87_D26KFGpnPir8xAoql_uZqNBga3ONF3-FwDRVcWKfy0UIcnePlBpt9V976DX4_iGLlppIImNYUatYMPx7RyjRUWgIf1yl7UR_IDyRmmkfLXOMPHr9SlTQaTPNSeu6VxM-xWWSEB83jAwszAkwnt0geKyvojusQbYkdkHpBI9rYNFkuoyZ3I1YhF71NkJU6o7x5s1iNKBq0OI7gUMAIxMjzDGEOsRWtsDO9De74mcsY31sUOl7MpWl2pb8_hjtnRvxacAmaq_kq3jWEmTWb6cgXKEIMxSgXI6zyzlhXOludsOu4Wdv52Q; Path=/; Domain=reddit.com; Expires=Mon, 19 Aug 2024 15:14:56 GMT; HttpOnly; Secure, theme=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=www.reddit.com; secure, csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None",
+            "Server": "snooserv",
+            "Report-To": "{\"group\": \"w3-reporting-nel\", \"max_age\": 14400, \"include_subdomains\": true,  \"endpoints\": [{ \"url\": \"https://w3-reporting-nel.reddit.com/reports\" }]}, {\"group\": \"w3-reporting\", \"max_age\": 14400, \"include_subdomains\": true, \"endpoints\": [{ \"url\": \"https://w3-reporting.reddit.com/reports\" }]}, {\"group\": \"w3-reporting-csp\", \"max_age\": 14400, \"include_subdomains\": true, \"endpoints\": [{ \"url\": \"https://w3-reporting-csp.reddit.com/reports\" }]}",
+            "NEL": "{\"report_to\": \"w3-reporting-nel\", \"max_age\": 14400, \"include_subdomains\": false, \"success_fraction\": 1.0, \"failure_fraction\": 1.0}",
+            "transfer-encoding": "chunked"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "photo-galleries": [
+                "Lightbox"
+            ],
+            "javascript-frameworks": [
+                "Lightbox",
+                "Prototype"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Reddit - Dive into anything"
+        },
+        "label": "コミュニティフォーラム",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.github.com",
+        "domain": "www.github.com",
+        "status_code": 200,
+        "server": "GitHub.com",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Server": "GitHub.com",
+            "Date": "Sun, 18 Aug 2024 15:14:51 GMT",
+            "Content-Type": "text/html; charset=utf-8",
+            "Vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Language, Accept-Encoding, Accept, X-Requested-With",
+            "content-language": "en-US",
+            "ETag": "W/\"af56d823984ca6851105f94043c4d4f2\"",
+            "Cache-Control": "max-age=0, private, must-revalidate",
+            "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+            "X-Frame-Options": "deny",
+            "X-Content-Type-Options": "nosniff",
+            "X-XSS-Protection": "0",
+            "Referrer-Policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+            "Content-Security-Policy": "default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com api.githubcopilot.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com/v1/engines/github-completion/completions proxy.enterprise.githubcopilot.com/v1/engines/github-completion/completions *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com github.githubassets.com edge.fullstory.com rs.fullstory.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com www.youtube-nocookie.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/",
+            "Content-Encoding": "gzip",
+            "Set-Cookie": "_gh_sess=mXJiTHLtInnz2Jdlf5gwyGCTzlfFeXjAisJEoyeUbw4TDZ%2Fsm4NHCKOqWHpzkepvM81IDmblg%2BQf4vQ4Npz8tcGF4QocAtYWeJ2zilyocdbLiXbtAqu0jnrFVQTi2iib2dG6MV8KeS3V8DiS%2FEsngbUzxF%2BLqhwE9NGCBnkz1NO%2BHdBZeKBT3Q8vW3RBYQniGYsrslI9NPsLP0qWkVmugVE1Zonzxa96GLrHh83a%2BjxbJsIUcaqRTPqbnoZ3%2BbekSOKvieYe0HEmQ59LWBeyOA%3D%3D--2ThQ%2FNBz1Sh52P9Z--emkWvLFsYw3TBALx60qLvA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax, _octo=GH1.1.442452716.1723994098; Path=/; Domain=github.com; Expires=Mon, 18 Aug 2025 15:14:58 GMT; Secure; SameSite=Lax, logged_in=no; Path=/; Domain=github.com; Expires=Mon, 18 Aug 2025 15:14:58 GMT; HttpOnly; Secure; SameSite=Lax",
+            "Accept-Ranges": "bytes",
+            "Transfer-Encoding": "chunked",
+            "X-GitHub-Request-Id": "CFD3:36A331:C7F967:ED08B3:66C20FF2"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "javascript-frameworks": [
+                "React"
+            ],
+            "web-frameworks": [
+                "Twitter Bootstrap"
+            ],
+            "video-players": [
+                "YouTube"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "GitHub: Let’s build from here · GitHub"
+        },
+        "label": "コードリポジトリ",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.stackoverflow.com",
+        "domain": "www.stackoverflow.com",
+        "status_code": 200,
+        "server": "cloudflare",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:14:59 GMT",
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "cache-control": "private",
+            "vary": "Accept-Encoding",
+            "strict-transport-security": "max-age=15552000",
+            "x-frame-options": "SAMEORIGIN",
+            "x-request-guid": "9707d9d9-febc-4b12-a4e1-c81e0724e420",
+            "set-cookie": "prov=74727c7f-175c-4bcb-a9c4-30d233f197f0; expires=Mon, 18 Aug 2025 15:14:59 GMT; domain=.stackoverflow.com; path=/; secure; samesite=none; httponly, __cflb=0H28vFHtoAR1ohjxFgDZBwZ5H5NWURYgaoJK4zMzdsS; SameSite=None; Secure; path=/; expires=Mon, 19-Aug-24 14:14:59 GMT; HttpOnly",
+            "feature-policy": "microphone 'none'; speaker 'none'",
+            "content-security-policy": "upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com",
+            "CF-Cache-Status": "DYNAMIC",
+            "X-DNS-Prefetch-Control": "off",
+            "Server": "cloudflare",
+            "CF-RAY": "8b52db533ed28d00-KIX",
+            "Content-Encoding": "gzip"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "cdn": [
+                "CloudFlare"
+            ],
+            "javascript-frameworks": [
+                "jQuery",
+                "jQuery UI"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Stack Overflow - Where Developers Learn, Share, & Build Careers"
+        },
+        "label": "Q&Aサイト",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.ebay.com",
+        "domain": "www.ebay.com",
+        "status_code": 200,
+        "server": "ebay-proxy-server",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1; mode=block",
+            "x-frame-options": "SAMEORIGIN",
+            "Accept-CH": "sec-ch-ua-model,sec-ch-ua-platform-version,sec-ch-ua-full-version",
+            "Content-Type": "text/html; charset=utf-8",
+            "rlogid": "t6u%60tsodhct%60d13%3F%3Cumjpbqqjfmaqba36*%3A%3Ced%3A(rbpv67%3A1-191660e5a3c-0x2802",
+            "Content-Encoding": "gzip",
+            "x-envoy-upstream-service-time": "260",
+            "Server": "ebay-proxy-server",
+            "strict-transport-security": "max-age=31536000",
+            "Date": "Sun, 18 Aug 2024 15:15:02 GMT",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive, Transfer-Encoding",
+            "Vary": "Accept-Encoding",
+            "Set-Cookie": "dp1=bbl/JP6a8476f6^; Domain=.ebay.com; Path=/; Expires=Tue, 18 Aug 2026 15:15:02 GMT; Secure, nonsession=BAQAAAZBR14g6AAaAADMACGijQ3Y1MzAtMDAwMQDKACBqhHb2NjYwZTVhNDgxOTEwYWM2YWExZjE3NGNiZmZmZmEzZTcAywABZsIW/jFBd90NCYO91sqmuy/jRlRLqzvE0A**; Domain=.ebay.com; Path=/; Expires=Tue, 18 Aug 2026 15:15:02 GMT; HttpOnly; Secure, s=CgAD4ACBmw2F2NjYwZTVhNDgxOTEwYWM2YWExZjE3NGNiZmZmZmEzZTfnDrea; Domain=.ebay.com; Path=/; HttpOnly; Secure, ebay=%5Esbf%3D%23000000%5E; Domain=.ebay.com; Path=/; Secure"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "javascript-frameworks": [
+                "Prototype",
+                "RequireJS",
+                "jQuery"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Electronics, Cars, Fashion, Collectibles & More | eBay"
+        },
+        "label": "オンラインオークション",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.cnn.com",
+        "domain": "www.cnn.com",
+        "status_code": 200,
+        "server": "Unknown",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Connection": "keep-alive",
+            "Content-Length": "569900",
+            "via": "1.1 varnish, 1.1 varnish, 1.1 varnish",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "cache-control": "max-age=60",
+            "content-encoding": "gzip",
+            "x-content-hub": "build-env=prod; unique-deployment-key=rn0723c0; build-version=v5.11.32-0-gdfa7a6ecd7; build-commit-hash=dfa7a6ecd7ec97d45014b0203830a3233d5d22e8",
+            "access-control-allow-origin": "*",
+            "x-last-modified": "Sun, 18 Aug 2024 15:09:53 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "content-security-policy": "default-src 'self' blob: https://*.cnn.com:* http://*.cnn.com:* *.cnn.io:* *.cnn.net:* *.turner.com:* *.turner.io:* *.ugdturner.com:* courageousstudio.com *.vgtf.net:*; script-src 'unsafe-eval' 'unsafe-inline' 'self' *; style-src 'unsafe-inline' 'self' blob: *; child-src 'self' blob: *; frame-src 'self' *; object-src 'self' *; img-src 'self' data: blob: *; media-src 'self' data: blob: *; font-src 'self' data: *; connect-src 'self' data: *; frame-ancestors 'self' https://*.cnn.com:* http://*.cnn.com https://*.cnn.io:* http://*.cnn.io:* *.turner.com:* courageousstudio.com;",
+            "Accept-Ranges": "bytes",
+            "Date": "Sun, 18 Aug 2024 15:15:38 GMT",
+            "Age": "323",
+            "set-cookie": "SecGpc=0; Domain=.cnn.com; Path=/; SameSite=None; Secure, countryCode=JP; Domain=.cnn.com; Path=/; SameSite=None; Secure, stateCode=27; Domain=.cnn.com; Path=/; SameSite=None; Secure, geoData=hirakata|27|573-0032|JP|AS|900|broadband|34.810|135.650|392002; Domain=.cnn.com; Path=/; SameSite=None; Secure, FastAB=0=8947,1=3089,2=8192,3=5885,4=7464,5=4936,6=4580,7=1754,8=9394,9=1932,10=6934,11=0143,12=2644,13=5810,14=1794,15=6994,16=4846,17=5636,18=8107,19=0267; Domain=.cnn.com; Path=/; Expires=Mon, 18 Aug 2025 15:15:38 GMT; SameSite=Lax, wbdFch=6427e9db8bb2c699b82a916d7d80acec027b20ce; Domain=edition.cnn.com; Path=/; Max-Age=30; SameSite=None; Secure",
+            "X-Served-By": "cache-iad-kcgs7200174-IAD, cache-iad-kcgs7200174-IAD, cache-itm1220059-ITM",
+            "X-Cache": "MISS, HIT, HIT",
+            "X-Cache-Hits": "0, 125, 4",
+            "X-Timer": "S1723994138.376064,VS0,VE1",
+            "Vary": "Accept-Encoding, Accept-Language,Origin",
+            "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "advertising-networks": [
+                "AppNexus",
+                "PubMatic",
+                "Rubicon Project"
+            ],
+            "javascript-graphics": [
+                "Javascript Infovis Toolkit"
+            ],
+            "javascript-frameworks": [
+                "Moment.js",
+                "Prototype",
+                "RequireJS",
+                "Underscore.js"
+            ],
+            "analytics": [
+                "Optimizely"
+            ],
+            "web-frameworks": [
+                "Twitter Bootstrap"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Breaking News, Latest News and Videos | CNN"
+        },
+        "label": "ニュース",
+        "class": "Webサイト"
+    },
+    {
+        "url": "https://www.bbc.com",
+        "domain": "www.bbc.com",
+        "status_code": 200,
+        "server": "BBC-GTM",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Connection": "keep-alive",
+            "Content-Length": "65647",
+            "Content-Type": "text/html; charset=utf-8",
+            "belfrage-cache-status": "MISS",
+            "bid": "sally",
+            "brequestid": "c84944ab1f2f4939a9263180eba38266",
+            "bsig": "527d859cb2a64d0fa40a1ebd45ae859d",
+            "cache-control": "public, stale-if-error=90, stale-while-revalidate=30, max-age=30",
+            "content-encoding": "gzip",
+            "referrer-policy": "no-referrer-when-downgrade",
+            "req-svc-chain": "FASTLY,GTM,BELFRAGE,BBCX",
+            "via": "1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish",
+            "x-content-type-options": "nosniff",
+            "x-correlation-id": "d9ae34b5-ab5f-47e0-b3d8-546a45882b82",
+            "x-envoy-upstream-service-time": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "Origin-Agent-Cluster": "?0",
+            "nel": "{\"report_to\":\"default\",\"max_age\":2592000,\"include_subdomains\":true,\"failure_fraction\":0.25}",
+            "X-BBC-Edge-Cache-Status": "HIT",
+            "report-to": "{\"group\":\"default\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://default.bbc-reporting-api.app/report-endpoint\",\"priority\":1}],\"include_subdomains\":true}",
+            "Server": "BBC-GTM",
+            "Strict-Transport-Security": "max-age=31536000; preload",
+            "Fastly-Restarts": "1",
+            "Accept-Ranges": "bytes",
+            "Date": "Sun, 18 Aug 2024 15:15:40 GMT",
+            "X-Fastly-Cache-Status": "HIT-CLUSTER",
+            "X-Served-By": "cache-itm1220023-ITM",
+            "X-Cache": "HIT",
+            "X-Cache-Hits": "1",
+            "X-Timer": "S1723994140.303549,VS0,VE88",
+            "X-Fastly-Pre-Flight-Cache": "MISS, MISS",
+            "X-Fastly-Pre-Flight-Cache-Status": "MISS-CLUSTER",
+            "X-cache-age": "14",
+            "X-LB-NoCache": "true",
+            "Vary": "X-BBC-Edge-Scheme,Accept-Encoding",
+            "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "analytics": [
+                "Optimizely"
+            ],
+            "javascript-frameworks": [
+                "RequireJS"
+            ],
+            "web-frameworks": [
+                "Twitter Bootstrap"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio"
+        },
+        "label": "ニュース",
+        "class": "Webサイト"
+    },
+    {
+        "url": "https://www.nytimes.com",
+        "domain": "www.nytimes.com",
+        "status_code": 200,
+        "server": "envoy",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Connection": "close",
+            "Content-Length": "284856",
+            "x-b3-traceid": "a9888496cded49c6a2196a68f2324be4",
+            "x-nyt-data-last-modified": "Sun, 18 Aug 2024 15:20:21 GMT",
+            "last-modified": "Sun, 18 Aug 2024 15:20:21 GMT",
+            "x-pagetype": "vi-homepage",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "content-type": "text/html; charset=utf-8",
+            "x-envoy-upstream-service-time": "567",
+            "server": "envoy",
+            "x-envoy-decorator-operation": "vi.nyt.net:443/*",
+            "content-encoding": "gzip",
+            "cache-control": "s-maxage=30,no-cache",
+            "x-nyt-route": "homepage",
+            "X-Origin-Time": "2024-08-18 15:20:31 UTC",
+            "Accept-Ranges": "bytes",
+            "Age": "243",
+            "Date": "Sun, 18 Aug 2024 15:24:25 GMT",
+            "X-Served-By": "cache-lga21944-LGA, cache-itm1220043-ITM",
+            "X-Cache": "HIT, HIT",
+            "X-Cache-Hits": "2, 0",
+            "X-Timer": "S1723994665.159576,VS0,VE2",
+            "Vary": "Accept-Encoding, Fastly-SSL",
+            "Set-Cookie": "nyt-a=q12n0K0RwSDOC_QtRzNgJ7; Expires=Mon, 18 Aug 2025 15:24:25 GMT; Path=/; Domain=.nytimes.com; SameSite=none; Secure, nyt-gdpr=0; Expires=Sun, 18 Aug 2024 21:24:25 GMT; Path=/; Domain=.nytimes.com, nyt-purr=cfhhcfhhhukfhufshga; Expires=Mon, 18 Aug 2025 15:24:25 GMT; Path=/; Domain=.nytimes.com; SameSite=Lax; Secure, nyt-geo=JP; Expires=Sun, 18 Aug 2024 21:24:25 GMT; Path=/; Domain=.nytimes.com, datadome=0; Domain=.nytimes.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=Lax; Secure, nyt-b3-traceid=bb0f4ecd3b794460b69682d7570b00ec; Path=/; Domain=.nytimes.com; SameSite=none; Secure",
+            "x-gdpr": "0",
+            "Permissions-Policy": "browsing-topics=()",
+            "X-Frame-Options": "DENY",
+            "onion-location": "https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/",
+            "X-API-Version": "F-F-VI",
+            "Content-Security-Policy": "upgrade-insecure-requests; default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob: android-webview-video-poster:; font-src data: https:; connect-src data: https: wss: blob:; media-src data: https: blob:; object-src https:; child-src https: data: blob:; form-action https:; report-uri https://csp.nytimes.com/report;",
+            "Strict-Transport-Security": "max-age=63072000; preload; includeSubdomains",
+            "Access-Control-Expose-Headers": "X-Nyt-Mktg-Group, X-Nyt-Mktg-Group",
+            "x-nyt-mktg-group": "group6",
+            "x-nyt-home-headers-map": "allocation-id=q12n0K0RwSDOC_QtRzNgJ7",
+            "x-nyt-edge-cache": "HIT-HIT",
+            "x-nyt-app-webview": "0",
+            "x-nyt-app-map": "webview=false,preloaded=false"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "tag-managers": [
+                "Google Tag Manager"
+            ],
+            "javascript-graphics": [
+                "Javascript Infovis Toolkit"
+            ],
+            "javascript-frameworks": [
+                "Prototype",
+                "React",
+                "Vue.js"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "The New York Times - Breaking News, US News, World News and Videos"
+        },
+        "label": "ニュース",
+        "class": "Webサイト"
+    },
+    {
+        "url": "https://www.huffpost.com",
+        "domain": "www.huffpost.com",
+        "status_code": 200,
+        "server": "nginx",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Connection": "keep-alive",
+            "Content-Length": "76149",
+            "Content-Type": "text/html; charset=utf-8",
+            "Cache-Control": "no-store, no-cache, must-revalidate",
+            "Content-Encoding": "gzip",
+            "Document-Policy": "js-profiling",
+            "Expires": "0",
+            "Server": "nginx",
+            "X-Hp-Page-Version": "264117",
+            "X-Hp-Webp": "false",
+            "X-Powered-By": "Express",
+            "X-Request-Id": "85f793e19736b1257f9d72938785b0cd",
+            "X-Varnish-Cambria-Ttl": "5s",
+            "Accept-Ranges": "bytes",
+            "Age": "202",
+            "Date": "Sun, 18 Aug 2024 15:25:03 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-itm1220047-ITM",
+            "X-Cache": "HIT",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1723994703.184608,VS0,VE1",
+            "X-Content-Type-Options": "nosniff",
+            "Strict-Transport-Security": "max-age=31536000",
+            "Referrer-Policy": "no-referrer-when-downgrade",
+            "X-XSS-Protection": "1; mode=block",
+            "content-security-policy": "sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation; frame-ancestors 'self' *.huffpost.com *.huffingtonpost.com *.huffpost.net *.buzzfeed.com clients.opinary.com compass.pressekompass.net *.newsbreak.com *.newsbreakapp.com *.upday-content.com *.upday.com; report-uri https://huffpost.report-uri.com/r/d/csp/enforce;",
+            "Set-Cookie": "bf-geo-country=JP; expires=Mon, 19 Aug 2024 15:25:03 GMT; path=/; domain=www.huffpost.com;",
+            "Vary": "Accept-Encoding, x-ismobile"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-frameworks": [
+                "Express"
+            ],
+            "programming-languages": [
+                "node.js"
+            ],
+            "web-servers": [
+                "Nginx"
+            ],
+            "font-scripts": [
+                "Google Font API"
+            ],
+            "widgets": [
+                "Outbrain"
+            ],
+            "analytics": [
+                "comScore"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "HuffPost - Breaking News, U.S. and World News | HuffPost"
+        },
+        "label": "ニュース",
+        "class": "Webサイト"
+    },
+    {
+        "url": "https://www.bloomberg.com",
+        "domain": "www.bloomberg.com",
+        "status_code": 200,
+        "server": "openresty",
+        "content_type": "text/html, text/html; charset=utf-8",
+        "headers": {
+            "Connection": "keep-alive",
+            "Content-Length": "4680",
+            "Cache-Control": "public, max-age=5, private, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+            "Content-Encoding": "gzip",
+            "Content-Type": "text/html, text/html; charset=utf-8",
+            "ETag": "W/\"66bf1f5f-2dca\"",
+            "Last-Modified": "Fri, 16 Aug 2024 09:43:59 GMT",
+            "Server": "openresty",
+            "Accept-Ranges": "bytes",
+            "Date": "Sun, 18 Aug 2024 15:25:04 GMT",
+            "X-Served-By": "cache-iad-kcgs7200035-IAD, cache-itm1220022-ITM",
+            "X-Cache": "MISS, MISS",
+            "X-Cache-Hits": "0, 0",
+            "X-Timer": "S1723994704.038861,VS0,VE167",
+            "Strict-Transport-Security": "max-age=31557600",
+            "Link": "<https://assets.bwbx.io>; rel=preconnect; crossorigin, <https://assets.bwbx.io>; rel=preconnect, <https://sourcepointcmp.bloomberg.com>; rel=preconnect; crossorigin, <https://tpc.googlesyndication.com\t>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin, <https://www.googletagmanager.com>; rel=preconnect, <https://www.googletagmanager.com>; rel=preconnect; crossorigin<https://assets.bwbx.io>; rel=preconnect; crossorigin, <https://assets.bwbx.io>; rel=preconnect, <https://sourcepointcmp.bloomberg.com>; rel=preconnect; crossorigin, <https://tpc.googlesyndication.com\t>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin, <https://www.googletagmanager.com>; rel=preconnect, <https://www.googletagmanager.com>; rel=preconnect; crossorigin",
+            "Vary": "Accept-Encoding, Accept-Encoding",
+            "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-servers": [
+                "OpenResty",
+                "Nginx"
+            ],
+            "programming-languages": [
+                "Lua"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Bloomberg - Are you a robot?"
+        },
+        "label": "ビジネスニュース",
+        "class": "Webサイト"
+    },
+    {
+        "url": "https://www.techcrunch.com",
+        "domain": "www.techcrunch.com",
+        "status_code": 200,
+        "server": "ATS",
+        "content_type": "text/html; charset=UTF-8",
+        "headers": {
+            "Server": "ATS",
+            "Date": "Sun, 18 Aug 2024 15:25:08 GMT",
+            "Content-Type": "text/html; charset=UTF-8",
+            "Vary": "Accept-Encoding, Origin",
+            "X-hacker": "If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.",
+            "X-Powered-By": "WordPress VIP <https://wpvip.com>",
+            "Host-Header": "a9130478a60e5f9135f765b23f26593b",
+            "X-Frame-Options": "SAMEORIGIN",
+            "Content-Security-Policy": "default-src 'self' *.techcrunch.com; frame-src 'self' https: consent.yahoo.com guce.techcrunch.com; style-src 'self' s0.wp.com *.typekit.net *.techcrunch.com 'unsafe-inline' *.tiktok.com *.ttwstatic.com *.tiktokcdn-us.com *.tiktokcdn.com *.tiktokv.com *.tiktokcdn.com *.musical.ly *.muscdn.com tiktokcdn.com.c.worldfcdn.com; img-src 'self' * data: https: ganon.yahoo.com geo.yahoo.com; connect-src 'self' https: consent.yahoo.com ganon.yahoo.com geo.yahoo.com guce.techcrunch.com api.privacy-center.org/v1/events api.privacy-center.org/v1/metrics api.privacy-center.org/v1/sync api.privacy-center.org/v1/locations sdk.privacy-center.org/f5623e34-377a-419c-8bb7-3928cebffbc9/; object-src 'none'; script-src 'self' 'unsafe-eval' *.polarcdn.com *.mrf.io *.facebook.net *.twitter.com *.x.com *.instagram.com *.licdn.com *.reddit.com js.hsadspixel.net stats.wp.com *.gstatic.com *.cxense.com *.marker.io www.npttech.com *.tinypass.com *.yahoosandbox.com s0.wp.com *.google.com *.yimg.com *.yahoo.com *.yahoo.net consent.cmp.oath.com *.typekit.net *.techcrunch.com *.g.doubleclick.net *.googletagservices.com *.googlesyndication.com *.googletagmanager.com *.hsforms.net *.hscollectedforms.net *.hubspot.com static.criteo.net *.hs-scripts.com *.hs-banner.com *.hs-analytics.net 'unsafe-inline' *.tiktok.com *.ttwstatic.com *.tiktokcdn-us.com *.tiktokcdn.com *.tiktokv.com *.tiktokcdn.com *.musical.ly *.muscdn.com tiktokcdn.com.c.worldfcdn.com; upgrade-insecure-requests; block-all-mixed-content; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox; media-src 'self' *.youtube.com; font-src 'self' *.typekit.net data: s0.wp.com;",
+            "Permissions-Policy": "autoplay=(), camera=(), fullscreen=*, geolocation=*, display-capture=(self), microphone=()",
+            "X-Content-Type-Options": "nosniff",
+            "referrer-policy": "no-referrer-when-downgrade",
+            "Access-Control-Allow-Origin": "https://techcrunch.com",
+            "Access-Control-Allow-Methods": "*",
+            "Link": "<https://techcrunch.com/wp-json/>; rel=\"https://api.w.org/\"",
+            "X-ElasticPress-Query": "true",
+            "Content-Encoding": "gzip",
+            "Strict-Transport-Security": "max-age=31536000",
+            "cache-control": "max-age=300, must-revalidate",
+            "accept-ranges": "bytes",
+            "x-cache": "HIT",
+            "x-rq": "sea4 123 243 443",
+            "Age": "0",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "X-XSS-Protection": "1; mode=block"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-servers": [
+                "Apache Traffic Server"
+            ],
+            "web-frameworks": [
+                "Twitter Bootstrap"
+            ],
+            "cms": [
+                "WordPress"
+            ],
+            "programming-languages": [
+                "PHP"
+            ],
+            "blogs": [
+                "PHP",
+                "WordPress"
+            ],
+            "marketing-automation": [
+                "Yoast SEO"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "TechCrunch | Startup and Technology News"
+        },
+        "label": "テクノロジーニュース",
+        "class": "Webサイト"
+    },
+    {
+        "url": "https://www.wired.com",
+        "domain": "www.wired.com",
+        "status_code": 200,
+        "server": "CloudFront",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Server": "CloudFront",
+            "Date": "Sun, 18 Aug 2024 15:21:29 GMT",
+            "Modified-At": "1723984521",
+            "Cache-Control": "no-cache",
+            "X-Organization-Slug": "wired",
+            "X-Ua-Device": "desktop",
+            "Via": "1.1 b1ac510c859c6cd75f93e12d78f37772.cloudfront.net (CloudFront), 1.1 928361d91d2e35c8835b8a9b90c89ae2.cloudfront.net (CloudFront)",
+            "Content-Encoding": "gzip",
+            "Vary": "accept-encoding",
+            "Alt-Svc": "h3=\":443\"; ma=86400",
+            "Age": "653",
+            "Set-Cookie": "CN_geo_country_code=JP; Expires=Fri, 14 Feb 2025 15:32:22 GMT; path=/; Domain=.wired.com;  Secure; SameSite=None;, CN_segments=co.w2434; Expires=Fri, 14 Feb 2025 15:32:22 GMT; Domain=.wired.com; path=/;, CN_xid=12bcfc42-1ff0-4b62-8579-504cad321f68; Expires=Fri, 14 Feb 2025 15:32:22 GMT; Domain=.wired.com; path=/; Secure; SameSite=None;, CN_xid_refresh=12bcfc42-1ff0-4b62-8579-504cad321f68; Expires=Mon, 18 Aug 2025 15:32:22 GMT; Domain=.wired.com; path=/; Secure; httponly; SameSite=None;, xid1=1; Expires=Sun, 18 Aug 2024 15:32:37 GMT; Domain=.wired.com; path=/;",
+            "X-Amz-Cf-Pop": "NRT57-C2, NRT51-C4",
+            "X-Cache": "Hit from cloudfront",
+            "X-Amz-Cf-Id": "47dNsFlvB2DVgqfRxGIRbc43weyxQ4XJ6ffQVy_kzqussqsL2pCMqQ=="
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "javascript-frameworks": [
+                "AngularJS",
+                "Lightbox",
+                "RequireJS",
+                "Underscore.js"
+            ],
+            "tag-managers": [
+                "Google Tag Manager"
+            ],
+            "photo-galleries": [
+                "Lightbox"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "WIRED - The Latest in Technology, Science, Culture and Business | WIRED"
+        },
+        "label": "テクノロジーニュース",
+        "class": "Webサイト"
+    },
+    {
+        "url": "https://www.forbes.com",
+        "domain": "www.forbes.com",
+        "status_code": 200,
+        "server": "rhino-core-shield",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Connection": "keep-alive",
+            "Content-Length": "73587",
+            "Server": "rhino-core-shield",
+            "Content-Type": "text/html; charset=utf-8",
+            "cache-control": "public, max-age=300",
+            "content-encoding": "gzip",
+            "x-envoy-upstream-service-time": "2172",
+            "x-envoy-decorator-operation": "production.dns-proxy.svc.cluster.local:80/*",
+            "Backend": "dnsresolver",
+            "x-backend": "simple-site-prod",
+            "X-YourTtl": "300.000",
+            "X-Cicero-Cache": "HIT 2",
+            "Via": "1.1 google, 1.1 google, 1.1 varnish",
+            "X-Fastly-Backend": "24YyrkkiTBhSwXWzJgvwW6--F_GCP_Cicero_Varnish",
+            "X-Fastly-X-is-CN": "false",
+            "X-Fastly-X-is-US-DPA": "false",
+            "Fastly-Restarts": "1",
+            "X-FastlyTTL": "300.000",
+            "Accept-Ranges": "bytes",
+            "Age": "0",
+            "Date": "Sun, 18 Aug 2024 15:32:24 GMT",
+            "X-Served-By": "cache-itm1220045-ITM",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1723995144.386854,VS0,VS0,VE421",
+            "Vary": "Accept-Encoding, X-is-EU, X-is-CN, X-is-US-DPA, X-is-US, X-Device, canary, X-Is-Ad-Light, is-vwo-enabled, x-malcolm, X-is-EU, X-is-CN, X-is-US-DPA, X-is-US, X-Device, x-backend, canary, X-Is-Ad-Light, is-vwo-enabled",
+            "x-datadome": "protected",
+            "set-cookie": "datadome=6Z1d0rvnrNMgCUm0Qp4tRxyXp9v94qNZc1uLADkiou~jdbTpTUigpupipi8DHPuSeG8c0fiUe9q5NAfHwvpHqRvZLRt3t1ohwXj0uKV0HML1rzjHqgoyoB8xwKwR0Dx4; Max-Age=31536000; Domain=.forbes.com; Path=/; Secure; SameSite=Lax, VWO=33.700; Max-Age=34560000; Path=/;",
+            "X-Country-Code": "JP",
+            "X-Postal-Code": "573-0032",
+            "X-Region": "27",
+            "X-City-Code": "hirakata",
+            "Permissions-Policy": "unload=()",
+            "X-Frame-Options": "SAMEORIGIN",
+            "Content-Security-Policy": "upgrade-insecure-requests",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+            "Access-Control-Allow-Credentials": "true",
+            "x-device": "pc",
+            "is-vwo-enabled": "false",
+            "state": "MISS-CLUSTER",
+            "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Forbes"
+        },
+        "label": "ビジネスニュース",
+        "class": "Webサイト"
+    },
+    {
+        "url": "https://www.si.com",
+        "domain": "www.si.com",
+        "status_code": 200,
+        "server": "CloudFront",
+        "content_type": "text/html",
+        "headers": {
+            "Content-Type": "text/html",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Server": "CloudFront",
+            "Date": "Sun, 18 Aug 2024 15:32:59 GMT",
+            "Cache-Control": "max-age=60, stale-if-error=2592000, stale-while-revalidate=600",
+            "ETag": "W/fce7e3ce71fb57b86dca862440f3f7d94e2e2b0bf5d793a7c9fc0ce5c44ea02a|87a705995e7521d8637d03f0673cd6ee3ec96494d91bc2d7ee57a33af361e2f8",
+            "Last-Modified": "Sun, 18 Aug 2024 15:32:59 GMT",
+            "X-From-Mm": "true",
+            "Content-Encoding": "gzip",
+            "Set-Cookie": "cityCode=NA;expires=Sun, 25 Aug 2024 15:32:59 GMT, stateCode=27;expires=Sun, 25 Aug 2024 15:32:59 GMT, countryCode=JP;expires=Sun, 25 Aug 2024 15:32:59 GMT, mm-session-id=8Bz4afeP819qq0OG;path=/;, mm-user-id=Mshudy4MbxhPsEOO;path=/;expires=Fri, 14 Feb 2025 15:32:58 GMT, mm-session-interval=52;path=/;, mm-user-interval=97;path=/;, mm-experiments=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT;",
+            "Vary": "Accept-Encoding",
+            "Referrer-Policy": "no-referrer-when-downgrade",
+            "X-Cache": "Miss from cloudfront",
+            "Via": "1.1 5e7cc2304c1058937a120e3777442818.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop": "KIX50-P2",
+            "X-Amz-Cf-Id": "-mu9ebcgyQy7WcCN6V2zk-f3AeEVMJvEJ3roBb73Hger1YKpm7g72Q=="
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "javascript-frameworks": [
+                "basket.js"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Sports Illustrated"
+        },
+        "label": "スポーツニュース",
+        "class": "Webサイト"
+    },
+    {
+        "url": "https://www.tripadvisor.com",
+        "domain": "www.tripadvisor.com",
+        "status_code": 403,
+        "server": "envoy",
+        "content_type": "text/html;charset=utf-8",
+        "headers": {
+            "Connection": "keep-alive",
+            "Content-Length": "585",
+            "x-envoy-upstream-service-time": "5",
+            "content-type": "text/html;charset=utf-8",
+            "server": "envoy",
+            "x-datadome": "protected",
+            "set-cookie": "datadome=qCV9cJ4alFuIEDzRJIN4SPpM9DwFfk7MY6D_QqncyQRqgKt1FG0qSU2QmntgDl4UIkPchfO3f7velB1XW6Hp3UEAFq04qC2cytW7rqz55sHvh8Fhmvt82wjrO0_8Furc; Max-Age=31104000; Domain=.tripadvisor.com; Path=/; Secure; SameSite=Lax, TAUnique=%1%enc%3A5UAfP5DcXCYCkb1eNGarTkdttOxEAXs5mT7zj4GmSOS38DJCfZazvyQqLPNDpZvDNox8JbUSTxk%3D; Max-Age=63072000; HttpOnly",
+            "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+            "charset": "utf-8",
+            "pragma": "no-cache",
+            "access-control-allow-credentials": "true",
+            "access-control-expose-headers": "x-dd-b, x-set-cookie",
+            "access-control-allow-origin": "*",
+            "x-datadome-cid": "AHrlqAAAAAMA7aAhi093ACQAg4FTDw==",
+            "x-dd-b": "2",
+            "cache-control": "no-store, must-revalidate",
+            "x-request-id": "cb3aad9a-ec06-4a95-858f-f0b14d6368a0",
+            "Accept-Ranges": "bytes",
+            "Date": "Sun, 18 Aug 2024 15:33:15 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-itm1220025-ITM",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1723995195.392534,VS0,VE185",
+            "Vary": "Accept-Encoding"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "javascript-frameworks": [
+                "RequireJS"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "tripadvisor.com"
+        },
+        "label": "旅行レビュー",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.airbnb.com",
+        "domain": "www.airbnb.com",
+        "status_code": 200,
+        "server": "nginx",
+        "content_type": "text/html;charset=utf-8",
+        "headers": {
+            "Server": "nginx",
+            "Content-Type": "text/html;charset=utf-8",
+            "x-instrumentation": "airbnb",
+            "x-server-lifecycle-phase": "running",
+            "status": "200 OK",
+            "Content-Security-Policy": "child-src blob:; connect-src 'self' https: wss://ws.airbnb.com wss://ws.airbnb.com https://netverify.com https://*.netverify.com wss: *.amap.com https://*.mapbox.com; default-src 'self' https: blob:; font-src 'self' data: https://*.muscache.com fonts.gstatic.com https://use.typekit.net https:; frame-src * https://*.cardinalcommerce.com; img-src 'self' https: data: https://*.mapbox.com blob:; media-src 'self' https: blob:; script-src 'self' 'unsafe-eval' https://a0.muscache.com https://cdn.siftscience.com https://ss.musthird.com https://t1.musthird.com https://bat.bing.com https://connect.facebook.net https://www.google-analytics.com https://www.googleadservices.com https://tpc.googlesyndication.com https://www.googletagmanager.com https://maps.googleapis.com https://ajax.googleapis.com https://*.g.doubleclick.net https://www.google.com https://www.gstatic.com https://smartlock.google.com https://accounts.google.com https://app.link https://cdn.branch.io https://api.branch.io https://bam.nr-data.net https://js-agent.newrelic.com https://ethn.io https://s.yimg.jp https://api.geetest.com https://monitor.geetest.com https://api.geevisit.com https://cdn.ampproject.org https://storage.googleapis.com/workbox-cdn/ https://tagmanager.google.com https://pay.google.com https://songbird.cardinalcommerce.com/ https://www.recaptcha.net https://www.gstatic.cn https://airbnb-api.arkoselabs.com https://h.online-metrix.net https://b92.yahoo.co.jp 'sha256-rAm9O8JPZLtQmd84zMDzhsG5q35JscESxxcaFL7+DDc=' 'sha256-CZnW0hvLQpXhjRl/rvattFn8GcIhxi8fcsCstVugtsI=' 'sha256-96k+AOKIYoML3O+lb2L6QMfXHg/Ddn4WVb9vVVu6NMc=' 'sha256-BHwAb0nf7WoXfp/ZprHDF/IbZ86S9SLr9O42wIfJaQY=' 'sha256-Fs/m8B950rh+Jad0IXDMet9p37NTJrAEo0BeyxegMA4=' 'sha256-MUN2dOUR1yrPKHJK6oM1RmxND0SvAVTjk0iZIfIdA+Y=' https: https://netverify.com https://*.netverify.com https://icm.aexp-static.com https://qicm.americanexpress.com https://qwww435.americanexpress.com https://checkout.americanexpress.com https://www.paypalobjects.com https://c.paypal.com https://www.paypal.com https://*.klarnacdn.net blob: https://vdata.amap.com https://webapi.amap.com https://restapi.amap.com https://*.mapbox.com https://songbird.cardinalcommerce.com https://songbirdstag.cardinalcommerce.com https://includes.ccdc02.com https://includestest.ccdc02.com https://client-api.arkoselabs.com https://cdn.plaid.com/link/v2/stable/link-initialize.js https://js.stripe.com https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js https://pagead2.googlesyndication.com; style-src 'self' https: 'unsafe-inline' https://*.mapbox.com; worker-src 'self' https: blob:; report-uri /tracking/csp?controller=core-guest-loop&action=%2F&req_uuid=91f2358f-117f-4483-5619-c7799d72d2e3&version=sha%3De27596d4439c&report_only=false; report-to /tracking/csp?controller=core-guest-loop&action=%2F&req_uuid=91f2358f-117f-4483-5619-c7799d72d2e3&version=sha%3De27596d4439c&report_only=false",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1; mode=block",
+            "accept-ch-lifetime": "31536000",
+            "Accept-CH": "Device-Memory, DPR, ECT, Sec-CH-UA-Platform-Version, Viewport-Width",
+            "Cache-Control": "no-cache, max-age=0, private, must-revalidate",
+            "x-airbnb-kraken-flush-body": "1",
+            "Link": "<https://a0.muscache.com/airbnb/static/packages/dls/dls-lite_cereal-47d27fa833e062fe3413637eb751001f.css>;rel=preload;as=style;crossorigin=anonymous,<https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/cereal-variable/AirbnbCerealVF_W_Wght.2d9d32865ef1262644c455b3ead871e9.woff2>;rel=preload;as=font;type=font/woff2;crossorigin=anonymous",
+            "x-envoy-upstream-service-time": "148",
+            "x-airbnb-internal-trace-id": "ha0bUMjxxobs6XXRF187wQ==",
+            "Content-Encoding": "gzip",
+            "Strict-Transport-Security": "max-age=10886400; includeSubdomains",
+            "X-Server-Name": "www.airbnb.com",
+            "Date": "Sun, 18 Aug 2024 15:33:16 GMT",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive, Transfer-Encoding",
+            "Vary": "Accept-Encoding",
+            "Set-Cookie": "_user_attributes=%7B%22curr%22%3A%22JPY%22%2C%22device_profiling_session_id%22%3A%221723995195--b94568ca6f2c520911b89541%22%2C%22giftcard_profiling_session_id%22%3A%221723995195--44a539eee4c798edc99a9dd4%22%2C%22reservation_profiling_session_id%22%3A%221723995195--2333752860041cb6cdbaa84e%22%7D; Domain=.airbnb.com; Path=/; Expires=Tue, 18 Aug 2026 15:33:15 GMT; Secure, bev=1723995195_EANTljNDI0ZjQxNT; Domain=.airbnb.com; Path=/; Expires=Tue, 18 Feb 2025 15:33:15 GMT; Secure, _user_attributes=%7B%22device_profiling_session_id%22%3A%221723995195--b94568ca6f2c520911b89541%22%2C%22giftcard_profiling_session_id%22%3A%221723995195--44a539eee4c798edc99a9dd4%22%2C%22reservation_profiling_session_id%22%3A%221723995195--2333752860041cb6cdbaa84e%22%2C%22curr%22%3A%22JPY%22%7D; Domain=.airbnb.com; Path=/; Expires=Tue, 18 Aug 2026 15:33:16 GMT; Secure, _user_attributes=%7B%22device_profiling_session_id%22%3A%221723995195--b94568ca6f2c520911b89541%22%2C%22giftcard_profiling_session_id%22%3A%221723995195--44a539eee4c798edc99a9dd4%22%2C%22reservation_profiling_session_id%22%3A%221723995195--2333752860041cb6cdbaa84e%22%2C%22curr%22%3A%22JPY%22%7D; Domain=.airbnb.com; Path=/; Expires=Tue, 18 Aug 2026 15:33:16 GMT; Secure, everest_cookie=1723995195.EANjUyNzllODZiMzBjYz.ONAZTlG0knnlrxoqAaze_-6EdqeYEAfNG6kxwcbNITg; expires=Wed, 18-Aug-2027 15:33:16 GMT; path=/; domain=.airbnb.com; secure, bev=1723995195_EANTljNDI0ZjQxNT; expires=Tue, 18-Aug-2026 15:33:16 GMT; path=/; domain=.airbnb.com; secure, country=JP; path=/; domain=.airbnb.com; secure",
+            "Alt-Svc": "h3=\":443\"; ma=93600",
+            "Akamai-Request-BC": "[a=23.59.212.147,b=68737457,c=g,n=JP_27_OSAKA,o=20940],[c=c,n=US_NY_NEWYORK,o=20940],[a=34.231.227.34,c=o]",
+            "x-airbnb-sureride": "c1a1o.0.93d43b17.1723995195.418d9b1%%i1c1o%%t1d1o.ha0bUMjxxobs6XXRF187wQ==%%h1",
+            "Cachestatus": "on",
+            "Server-Timing": "cdn-cache; desc=MISS, edge; dur=181, origin; dur=163",
+            "origin-trial": "AkOekvxwprBLSP7I2nhyRn5yZGt9lTJN6UIYziFKVYg5OhlzmlNDciWbBWkEQ5TYPz+aqsuIUT2pPEjPUD5dFAsAAABneyJvcmlnaW4iOiJodHRwczovL2FpcmJuYi5jb206NDQzIiwiZmVhdHVyZSI6IlByaW9yaXR5SGludHNBUEkiLCJleHBpcnkiOjE2NDc5OTM1OTksImlzU3ViZG9tYWluIjp0cnVlfQ==",
+            "x-browser-type": "unknown",
+            "x-erf-bev-bev-is-generated": "1",
+            "x-erf-bev-bev": "1723995195_EANTljNDI0ZjQxNT",
+            "x-airbnb-everest-device-id": "1723995195.EANjUyNzllODZiMzBjYz.ONAZTlG0knnlrxoqAaze_-6EdqeYEAfNG6kxwcbNITg"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Airbnb | Vacation rentals, cabins, beach houses, & more"
+        },
+        "label": "宿泊予約",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.expedia.com",
+        "domain": "www.expedia.com",
+        "status_code": 200,
+        "server": "istio-envoy",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "x-page-id": "Homepage,U,10",
+            "x-app-info": "blossom-flex-ui,1fd0ebf7b5af4b025719962cebc699263e9b1466",
+            "Content-Language": "en-US",
+            "Cache-Control": "no-cache, no-store, must-revalidate",
+            "x-permitted-cross-domain-policies": "none",
+            "x-frame-options": "SAMEORIGIN",
+            "x-download-options": "noopen",
+            "Vary": "accept-encoding",
+            "Content-Encoding": "gzip",
+            "x-envoy-upstream-service-time": "382",
+            "Server": "istio-envoy",
+            "X-XSS-Protection": "1",
+            "X-Content-Type-Options": "nosniff",
+            "Strict-Transport-Security": "max-age=7776000; includeSubDomains;",
+            "Content-Security-Policy": "frame-ancestors 'self'",
+            "Trace-ID": "0a7a0156-a040-4196-ba09-9529f1ceda8e",
+            "x-b3-traceId": "0a7a0156a0404196ba099529f1ceda8e",
+            "X-CGP-Info": "noJvmRouteSet;30ce91b8-5d77-11ef-8c9a-0242d9a6f548",
+            "Date": "Sun, 18 Aug 2024 15:33:17 GMT",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive, Transfer-Encoding",
+            "Set-Cookie": "linfo=v.4,|0|0|255|1|0||||||||1033|0|0||0|0|0|-1|-1; Max-Age=157680000; Expires=Fri, 17 Aug 2029 15:33:17 GMT; Path=/; Domain=.expedia.com; Secure; SameSite=None, CRQSS=e|0; Path=/; Domain=.expedia.com; Secure; HTTPOnly; SameSite=None, CRQS=t|1`s|1`l|en_US`c|USD; Max-Age=94608000; Expires=Wed, 18 Aug 2027 15:33:17 GMT; Path=/; Domain=.expedia.com; Secure; HTTPOnly; SameSite=None, currency=USD; Max-Age=157680000; Expires=Fri, 17 Aug 2029 15:33:17 GMT; Path=/; Domain=.expedia.com; Secure; HTTPOnly; SameSite=None, iEAPID=0; Path=/; Domain=.expedia.com; Secure; SameSite=None, tpid=v.1,1; Max-Age=1000000; Expires=Fri, 30 Aug 2024 05:19:57 GMT; Path=/; Domain=.expedia.com; Secure; SameSite=None, trips-sdui-enabled=1; Max-Age=60; Expires=Sun, 18 Aug 2024 15:34:17 GMT; SameSite=Lax, cesc=%7B%22lpe%22%3A%5B%220a7a0156-a040-4196-ba09-9529f1ceda8e%22%2C1723995197871%5D%2C%22marketingClick%22%3A%5B%22true%22%2C1723995197871%5D%2C%22lmc%22%3A%5B%22DIRECT.WEB%22%2C1723995197871%5D%2C%22hitNumber%22%3A%5B%221%22%2C1723995197871%5D%2C%22amc%22%3A%5B%22DIRECT.WEB%22%2C1723995197871%5D%2C%22visitNumber%22%3A%5B%221%22%2C1723995197871%5D%2C%22ape%22%3A%5B%220a7a0156-a040-4196-ba09-9529f1ceda8e%22%2C1723995197871%5D%2C%22cidVisit%22%3A%5B%22Brand.DTI%22%2C1723995197871%5D%2C%22entryPage%22%3A%5B%22Homepage%22%2C1723995197871%5D%2C%22cid%22%3A%5B%22Brand.DTI%22%2C1723995197871%5D%7D; Max-Age=34560000; Expires=Mon, 22 Sep 2025 15:33:17 GMT; Path=/; Domain=expedia.com; Secure; SameSite=None, HMS=7004cebf-d8d1-46c9-a78c-bbb6b16e12d5; Max-Age=1800; Expires=Sun, 18 Aug 2024 16:03:17 GMT; Path=/; Domain=.expedia.com; Secure; SameSite=None, MC1=GUID=7be8aa1d3dc345ad924922772018769e; Expires=Sun, 18 Aug 2024 15:33:16 GMT; Secure; SameSite=None, DUAID=7be8aa1d-3dc3-45ad-9249-22772018769e; Expires=Sun, 18 Aug 2024 15:33:16 GMT; Secure; SameSite=None, MC1=GUID=7be8aa1d3dc345ad924922772018769e; Expires=Sun, 18 Aug 2024 15:33:16 GMT; Domain=.www.expedia.com; Secure; SameSite=None, DUAID=7be8aa1d-3dc3-45ad-9249-22772018769e; Expires=Sun, 18 Aug 2024 15:33:16 GMT; Domain=.www.expedia.com; Secure; SameSite=None, MC1=GUID=7be8aa1d3dc345ad924922772018769e; Max-Age=157680000; Expires=Fri, 17 Aug 2029 15:33:17 GMT; Path=/; Domain=.expedia.com; Secure; SameSite=None, DUAID=7be8aa1d-3dc3-45ad-9249-22772018769e; Max-Age=157680000; Expires=Fri, 17 Aug 2029 15:33:17 GMT; Path=/; Domain=.expedia.com; Secure; SameSite=None, _abck=95055045C7E73A05A444039BCF7A72B5~-1~YAAQjdQ7F9G2amGRAQAA2BEfZgzY8AxKxyLmQfuuot0BmABFdJcvgRbVObRS+pVZow6YRl9iCFaA/rIE7UyGK5qmyiV63vmi1Y0wC+AUPAJwStpoGRLmGtwPFp/XvIb/oKap0yEG84lXURu9CJlMMHbnH1FazbSRqizpv7aK8hD13NwLdRSisgCjw5bygwIdBm6JP6KnQbQeBXEAm9izZ6nn/woKrMyLVqDciNdssiOhfXYJjiwwqMeuDk8/y2kgFjoWhIG0vm/YebPrFJ4KB3dLkzuy3tSb3sqzV+zkyvCEyM/2Z2X8G485W2LKcyNXYY9vovGijH1CqMDCdNWqWmcpDDyXI1xBY6uXxmsEfdbKi1DySRAim7Ar~-1~-1~-1; Domain=.expedia.com; Path=/; Expires=Mon, 18 Aug 2025 15:33:17 GMT; Max-Age=31536000; Secure, bm_sz=A2495EF4C2F89D239FC7DD4397C61FCE~YAAQjdQ7F9K2amGRAQAA2BEfZhiFT1nFIRGe3Tkotgwx6T06yisvaq4d7GWJwAktGawuXjhQtihVL3MYKyejSeo8LyZmJdXT8kIiztHoCEclwljoJwvWE3TIRVWCOOduBFSEtZcF2bYIk9DwL693I+xuHotnNh6nMv8ymdMMoWn3e9BRaeSfcbuXIHSssXWFFfJI18VrBALwh4FutcELhz7YTEdB6J3ppHoQ2yhAxPJ/T6PzsA+g312PBkx6UpG60YFdvfH1wpdUCOYz9BeY7bEDcwJHc7hU/XME/QqZhF8sc7jXRvRcVaqZSFsyZHlZhURCEjfP2/xYegudZ8kgmyc75CmIqj3RMHaqusy+2A==~3682369~4408373; Domain=.expedia.com; Path=/; Expires=Sun, 18 Aug 2024 19:33:17 GMT; Max-Age=14400",
+            "Akamai-Expedia-Global-GRN": "0.8dd43b17.1723995197.51920ef"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Expedia Travel: Vacation Homes, Hotels, Car Rentals, Flights & More"
+        },
+        "label": "旅行予約",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.flickr.com",
+        "domain": "www.flickr.com",
+        "status_code": 200,
+        "server": "Unknown",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Date": "Sun, 18 Aug 2024 15:33:25 GMT",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1; mode=block",
+            "x-frame-options": "SAMEORIGIN",
+            "cache-control": "no-cache, max-age=0, must-revalidate, no-store",
+            "pragma": "no-cache",
+            "x-request-id": "08079e5b-221f-4858-9398-b15f22beeca3",
+            "set-cookie": "xb=921180; Domain=.flickr.com; Path=/; Expires=Mon, 18 Aug 2025 15:33:25 GMT, ccc=%7B%22needsConsent%22%3Afalse%2C%22managed%22%3A0%2C%22changed%22%3A0%2C%22info%22%3A%7B%22cookieBlock%22%3A%7B%22level%22%3A0%2C%22blockRan%22%3A0%7D%7D%2C%22freshServerContext%22%3Atrue%7D; Domain=.flickr.com; Path=/; Expires=Tue, 17 Sep 2024 15:33:25 GMT",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "X-Cache": "Miss from cloudfront",
+            "Via": "1.1 d53f9194ef3f12e45f8784f65a5c574e.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop": "KIX50-P1",
+            "X-Amz-Cf-Id": "Kb-UUFTKFTHROdrbIjwS8shJI9jJOxBh7HwMXgeCd5eYULQgX_N2TA=="
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "advertising-networks": [
+                "AppNexus",
+                "Google AdSense",
+                "OpenX",
+                "PubMatic",
+                "Rubicon Project"
+            ],
+            "javascript-graphics": [
+                "Javascript Infovis Toolkit"
+            ],
+            "photo-galleries": [
+                "Lightbox"
+            ],
+            "javascript-frameworks": [
+                "Lightbox",
+                "React",
+                "RequireJS"
+            ],
+            "payment-processors": [
+                "Stripe"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Find your inspiration. | Flickr"
+        },
+        "label": "写真共有",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.tumblr.com",
+        "domain": "www.tumblr.com",
+        "status_code": 200,
+        "server": "nginx",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Server": "nginx",
+            "Date": "Sun, 18 Aug 2024 15:33:26 GMT",
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Vary": "Accept-Encoding, Accept-Encoding, x-ua-device, Accept-Language",
+            "x-rid": "bedb51e3a0e696b7fc2a0323363b73d9",
+            "Content-Security-Policy": "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.recaptcha.net/recaptcha/api.js https://c0.pubmine.com https://s.pubmine.com https://criteo.com https://*.criteo.com https://criteo.net https://*.criteo.net https://*.vexowi.com https://vexowi.com https://c.amazon-adsystem.com https://*.3lift.com https://3lift.com https://z.moatads.com https://*.moatads.com https://*.smartadserver.com https://app.link https://*.sascdn.com https://securepubads.g.doubleclick.net https://tpc.googlesyndication.com https://www.googletagservices.com/ https://cdn.parsely.com https://a.teads.tv/analytics/tag.js https://assets.tumblr.com https://ads.pubmatic.com https://cdn.jsdelivr.net https://*.privacymanager.io https://*.rlcdn.com https://assets.tumblr.com/pop/ 'nonce-NmExYWFjNjJhZTIzNmY4OTM5ODkwYzdiMGMwNmNhYTU='; report-uri /svc/cspreports; object-src 'none'; worker-src blob: 'self'; base-uri 'self'",
+            "X-Content-Type-Options": "nosniff",
+            "X-Xss-Protection": "1; mode=block",
+            "X-Frame-Options": "deny",
+            "Cache-Control": "public, max-age=0, s-maxage=60, must-revalidate",
+            "ETag": "W/\"f748-waEzx2noSTOtVA1Y/ZoSQf+w8a0\"",
+            "X-Response-Time": "37ms",
+            "Content-Encoding": "gzip",
+            "Strict-Transport-Security": "max-age=31536000; preload",
+            "X-nc": "HIT nrt 2",
+            "Alt-Svc": "h3=\":443\"; ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-servers": [
+                "Nginx"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Trending topics on Tumblr"
+        },
+        "label": "ブログプラットフォーム",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.pinterest.com",
+        "domain": "www.pinterest.com",
+        "status_code": 200,
+        "server": "Unknown",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "Vary": "User-Agent, Accept-Encoding",
+            "x-ua-compatible": "IE=edge",
+            "reporting-endpoints": "coop-endpoint=\"https://www.pinterest.com/_/_/coop_report/\", coep-endpoint=\"https://www.pinterest.com/_/_/coep_report/\"",
+            "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop-endpoint\"",
+            "p3p": "CP=\"This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info.\"",
+            "Content-Security-Policy": "default-src 'self' blob: s.pinimg.com; font-src 'self' s.pinimg.com data: fonts.googleapis.com fonts.gstatic.com use.typekit.net; style-src 'self' blob: 'unsafe-inline' data: *.pinimg.com *.pinterest.com accounts.google.com fonts.googleapis.com *.adyen.com *.adyenpayments.com; img-src blob: data: *; base-uri 'none'; connect-src 'self' blob: *.pinimg.com *.pinterest.com accounts.google.com *.adyen.com pinterest-salvador.s3.amazonaws.com *.adyenpayments.com *.facebook.com www.googleapis.com *.dropboxapi.com pinterest-aberdeen.s3.amazonaws.com pinterest-aberdeen.s3.us-east-1.amazonaws.com pinterest-anaheim.s3.amazonaws.com pinterest-anaheim.s3.us-east-1.amazonaws.com pinterest-hilo.s3.amazonaws.com pinterest-hilo.s3.us-east-1.amazonaws.com pinterest-sim-toontown.s3.amazonaws.com pinterest-sim-toontown.s3.us-east-1.amazonaws.com pinterest-media-upload.s3.amazonaws.com pinterest-media-upload.s3.us-east-1.amazonaws.com pinterest-media-upload.s3-accelerate.amazonaws.com pinterest-media-upload.s3-accelerate.us-east-1.amazonaws.com pinterest-milwaukee.s3.amazonaws.com pinterest-milwaukee.s3.us-east-1.amazonaws.com pinterest-poughkeepsie.s3.amazonaws.com pinterest-poughkeepsie.s3.us-east-1.amazonaws.com pinterest-waterloo.s3.amazonaws.com pinterest-waterloo.s3.us-east-1.amazonaws.com pinterest-plymouth.s3.amazonaws.com pinterest-plymouth.s3.us-east-1.amazonaws.com pinterest-salvador.s3.us-east-1.amazonaws.com pinterest-yamagata.s3.amazonaws.com pinterest-yamagata.s3.us-east-1.amazonaws.com *.cedexis.com *.cedexis-radar.net *.tvpixel.com api.pinadmin.com *.live-video.net https://*.daily.co https://*.pluot.blue wss://*.wss.daily.co; form-action 'self' *.adyen.com *.sofort.com *.tink.com *.adyenpayments.com; frame-src 'self' *.pinimg.com *.pinterest.com *.adyen.com static-sandbox.dlocal.com static.dlocal.com *.google.com *.facebook.com www.recaptcha.net pinterest-hilo.s3.amazonaws.com pinterest-hilo.s3.us-east-1.amazonaws.com pinterest-sim-toontown.s3.amazonaws.com pinterest-sim-toontown.s3.us-east-1.amazonaws.com pinterest-milwaukee.s3.amazonaws.com pinterest-milwaukee.s3.us-east-1.amazonaws.com pinterest-waterloo.s3.amazonaws.com pinterest-waterloo.s3.us-east-1.amazonaws.com pinterest-tolu.s3.amazonaws.com *.pinterdev.com content.googleapis.com *.youtube.com *.youtube-nocookie.com *.ytimg.com player.vimeo.com calendly.com vine.co bid.g.doubleclick.net *.fls.doubleclick.net pinlogs.s3.amazonaws.com pinlogs.s3.us-east-1.amazonaws.com advertising-delivery-metric-reports.s3.amazonaws.com advertising-delivery-metric-reports.s3.us-east-1.amazonaws.com servedby.flashtalking.com pinterest-uk.admo.tv pinterest-uk-web.admo.tv fbrpc://call *.linkedin.com px.ads.linkedin.com; media-src 'self' blob: data: *.pinimg.com *.live-video.net; object-src 'self'; script-src 'nonce-799fdd3bf7a8f9bb29d43904b559035c' 'strict-dynamic' 'self' blob: 'unsafe-inline' *.pinimg.com *.pinterest.com *.adyen.com js.dlocal.com js-sandbox.dlocal.com static-sandbox.dlocal.com static.dlocal.com *.adyenpayments.com 'report-sample' *.google.com connect.facebook.net *.google-analytics.com *.facebook.com *.googleadservices.com *.doubleclick.net *.googletagmanager.com radar.cedexis.com *.cedexis-test.com www.gstatic.com/recaptcha/ www.gstatic.cn/recaptcha/ www.recaptcha.net 'wasm-unsafe-eval'; worker-src 'self' blob: 'unsafe-inline'; report-uri /_/_/csp_report/?rid=7013786650683669; frame-ancestors 'self' , script-src 'self' blob: 'unsafe-inline' *.pinimg.com *.pinterest.com *.adyen.com js.dlocal.com js-sandbox.dlocal.com static-sandbox.dlocal.com static.dlocal.com *.adyenpayments.com 'report-sample' *.google.com connect.facebook.net *.google-analytics.com *.facebook.com *.googleadservices.com *.doubleclick.net *.googletagmanager.com radar.cedexis.com *.cedexis-test.com www.gstatic.com/recaptcha/ www.gstatic.cn/recaptcha/ www.recaptcha.net 'wasm-unsafe-eval'; report-uri /_/_/csp_report/?rid=7013786650683669",
+            "content-security-policy-report-only": "img-src 'self' blob: data: *.pinimg.com *.pinterest.com *.google.com *.facebook.com *.cedexis.com *.cedexis-test.com *.citrix.com *.tvpixel.com *.adyen.com; report-uri /_/_/csp_report/?reportonly",
+            "x-frame-options": "SAMEORIGIN",
+            "origin-trial": "AvlUIFJouPpJAKljRGh7EnYm2Brnx/eu51h39Z7p11vbzNlw2YhkUhxvxZdkS709VlGGNw4Gcg/a9mAzHDrEcQ0AAAB5eyJvcmlnaW4iOiJodHRwczovL3BpbnRlcmVzdC5jb206NDQzIiwiZmVhdHVyZSI6IlNlbmRGdWxsVXNlckFnZW50QWZ0ZXJSZWR1Y3Rpb24iLCJleHBpcnkiOjE2ODQ4ODYzOTksImlzU3ViZG9tYWluIjp0cnVlfQ==",
+            "Accept-CH": "Sec-CH-UA-Full,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version",
+            "Content-Type": "text/html; charset=utf-8",
+            "Link": "<https://i.pinimg.com>; rel=preconnect; crossorigin=anonymous, <https://s.pinimg.com>; rel=preconnect; crossorigin=anonymous, <https://v1.pinimg.com>; rel=preconnect; crossorigin=anonymous",
+            "Trailer": "x-pinterest-sli-streamed-response-type",
+            "x-envoy-upstream-service-time": "145",
+            "pinterest-generated-by": "coreapp-webapp-prod-0a039fb2",
+            "Content-Encoding": "gzip",
+            "pinterest-version": "e549421",
+            "referrer-policy": "origin",
+            "x-pinterest-rid": "7013786650683669",
+            "Date": "Sun, 18 Aug 2024 15:33:37 GMT",
+            "Alt-Svc": "h3=\":443\"; ma=600",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive, Transfer-Encoding",
+            "Set-Cookie": "csrftoken=a0afbf01230f439b0987e66188aa1d7b; path=/; expires=Mon, 18 Aug 2025 15:33:37 GMT; samesite=lax; secure, _pinterest_sess=TWc9PSZWK1c4UXdTejV0TVUyb0xrMXlpWkVEOU9kRndaNXFkSTJKOGhtcTliaFVWeEZhVFpabUJqMjRGSDJQNnZ6cGY2ckxNQmRpSitOQmo5Ky9STFBaa1BTYVVESmg1Mjh6MDBKaUNHZnE4VStnVT0mU1NuUWdpVktRZHAyUUlQNmlHaEQ0aDlyVlVJPQ==; path=/; expires=Wed, 13 Aug 2025 15:33:37 GMT; domain=.pinterest.com; samesite=none; secure; httponly, _auth=0; path=/; expires=Wed, 13 Aug 2025 15:33:37 GMT; domain=.pinterest.com; secure; httponly, _routing_id=\"187c1308-78a0-403d-a419-049b7c737279\"; Max-Age=86400; Path=/; HttpOnly",
+            "AKAMAI-GRN": "0.19803717.1723995217.4380366",
+            "X-CDN": "akamai",
+            "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains ; preload"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "databases": [
+                "Firebase"
+            ],
+            "javascript-graphics": [
+                "Javascript Infovis Toolkit"
+            ],
+            "javascript-frameworks": [
+                "React"
+            ],
+            "ecommerce": [
+                "WooCommerce"
+            ],
+            "cms": [
+                "WordPress"
+            ],
+            "programming-languages": [
+                "PHP"
+            ],
+            "blogs": [
+                "PHP"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Pinterest"
+        },
+        "label": "画像共有",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.spotify.com",
+        "domain": "www.spotify.com",
+        "status_code": 200,
+        "server": "envoy",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Connection": "keep-alive",
+            "accept-ranges": "bytes",
+            "content-encoding": "gzip",
+            "set-cookie": "sp_t=b6e306722c1c5785a8b03177b68bf052; path=/; expires=Mon, 18 Aug 2025 15:33:39 GMT; domain=.spotify.com; samesite=none; secure, sp_landing=https%3A%2F%2Fopen.spotify.com%2F%3Fsp_cid%3Db6e306722c1c5785a8b03177b68bf052%26device%3Ddesktop; path=/; expires=Mon, 19 Aug 2024 15:33:39 GMT; domain=.spotify.com; samesite=none; secure; httponly",
+            "content-type": "text/html; charset=utf-8",
+            "strict-transport-security": "max-age=31536000",
+            "via": "HTTP/1.1 fringe, HTTP/2 edgeproxy, 1.1 google, 1.1 varnish, 1.1 varnish",
+            "x-content-type-options": "nosniff",
+            "content-security-policy": "script-src 'self' 'unsafe-eval' blob: open.spotifycdn.com open-review.spotifycdn.com quicksilver.scdn.co www.google-analytics.com www.googletagmanager.com static.ads-twitter.com analytics.twitter.com s.pinimg.com sc-static.net https://www.google.com/recaptcha/ cdn.ravenjs.com connect.facebook.net www.gstatic.com sb.scorecardresearch.com pixel-static.spotify.com cdn.cookielaw.org geolocation.onetrust.com www.googleoptimize.com www.fastly-insights.com static.hotjar.com script.hotjar.com https://www.googleadservices.com/pagead/conversion_async.js https://www.googleadservices.com/pagead/conversion/ https://analytics.tiktok.com/i18n/pixel/sdk.js https://analytics.tiktok.com/i18n/pixel/identify.js https://analytics.tiktok.com/i18n/pixel/config.js https://www.redditstatic.com/ads/pixel.js https://t.contentsquare.net/uxa/22f14577e19f3.js 'sha256-WfsTi7oVogdF9vq5d14s2birjvCglqWF842fyHhzoNw=' 'sha256-KRzjHxCdT8icNaDOqPBdY0AlKiIh5F8r4bnbe1PQwss=' 'sha256-Z5wh7XXSBR1+mTxLSPFhywCZJt77+uP1GikAgPIsu2s='; frame-ancestors 'self' https://adgen-dev.spotify.com/account/*/ad/*/details https://adgen-dev.spotify.com/preview/* https://ads-voltron-ui-*.slingshot-instance.spotify.net/account/*/ad/*/details https://ads-voltron-ui-*.slingshot-instance.spotify.net/preview/* https://local.spotify.net/account/*/ad/*/details https://local.spotify.net/preview/*;",
+            "x-envoy-upstream-service-time": "307",
+            "server": "envoy",
+            "Date": "Sun, 18 Aug 2024 15:33:40 GMT",
+            "X-Served-By": "cache-itm1220030-ITM, cache-itm1220032-ITM",
+            "X-Cache": "MISS, MISS",
+            "X-Cache-Hits": "0, 0",
+            "X-Timer": "S1723995220.833734,VS0,VE372",
+            "Vary": "Accept-Encoding,Accept-Encoding",
+            "transfer-encoding": "chunked"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "javascript-frameworks": [
+                "Prototype",
+                "Vue.js"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Spotify - Web Player: Music for everyone"
+        },
+        "label": "音楽ストリーミング",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.soundcloud.com",
+        "domain": "www.soundcloud.com",
+        "status_code": 200,
+        "server": "am/2",
+        "content_type": "text/html",
+        "headers": {
+            "Content-Type": "text/html",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "x-pants": "distant-towel",
+            "x-xss-protection": "1; mode=block",
+            "cache-control": "private, max-age=0, no-cache, no-store",
+            "x-frame-options": "SAMEORIGIN",
+            "server-timing": "enabledFeatures; dur=6.381145; desc=\"api-v2/enabledFeatures\", experiments; dur=7.991044; desc=\"api-v2/experiments\", geoip; dur=1.013774; desc=\"geoip/geoip\", privacySettings; dur=8.219894; desc=\"api-v2/privacySettings\"",
+            "date": "Sun, 18 Aug 2024 15:33:43 GMT",
+            "vary": "Accept-Encoding",
+            "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+            "server": "am/2",
+            "content-encoding": "gzip",
+            "X-Cache": "Miss from cloudfront",
+            "Via": "1.1 2ebeeb96fda7476ef182b01e93cb82d2.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop": "KIX56-P1",
+            "X-Amz-Cf-Id": "AKPjApuH7ZwgEVWhW0fzPbSw3kKBEK2uJ4uY1-Xy4kBG0lngPVg6XQ=="
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Stream and listen to music online for free with SoundCloud"
+        },
+        "label": "音楽ストリーミング",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.dropbox.com",
+        "domain": "www.dropbox.com",
+        "status_code": 200,
+        "server": "envoy",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Content-Security-Policy": "report-uri https://www.dropbox.com/csp_log?policy_name=metaserver-whitelist ; object-src 'self' https://cfl.dropboxstatic.com/static/ https://www.dropboxstatic.com/static/ ; child-src https://www.dropbox.com/static/serviceworker/ blob: ; frame-src https://* carousel: dbapi-6: dbapi-7: dbapi-8: dropbox-client: itms-apps: itms-appss: ; default-src 'none' ; img-src https://* data: blob: ; connect-src https://* ws://127.0.0.1:*/ws blob: wss://dsimports.dropbox.com/ ; script-src 'unsafe-eval' 'inline-speculation-rules' https://www.dropbox.com/static/api/ https://www.dropbox.com/pithos/* https://www.dropbox.com/page_success/ https://cfl.dropboxstatic.com/static/ https://www.dropboxstatic.com/static/ https://accounts.google.com/gsi/client https://canny.io/sdk.js https://www.paypal.com/sdk/js https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ 'unsafe-inline' ; form-action 'self' https://www.dropbox.com/ https://dl-web.dropbox.com/ https://photos.dropbox.com/ https://paper.dropbox.com/ https://showcase.dropbox.com/ https://www.hellofax.com/ https://app.hellofax.com/ https://www.hellosign.com/ https://app.hellosign.com/ https://docsend.com/ https://www.docsend.com/ https://help.dropbox.com/ https://navi.dropbox.jp/ https://a.sprig.com/ https://selfguidedlearning.dropboxbusiness.com/ https://instructorledlearning.dropboxbusiness.com/ https://sales.dropboxbusiness.com/ https://accounts.google.com/ https://api.login.yahoo.com/ https://login.yahoo.com/ https://experience.dropbox.com/ https://pal-test.adyen.com https://2e83413d8036243b-Dropbox-pal-live.adyenpayments.com/ https://onedrive.live.com/picker ; font-src https://* data: ; base-uri 'self' ; frame-ancestors 'self' ; worker-src https://www.dropbox.com/static/serviceworker/ https://www.dropbox.com/encrypted_folder_download/service_worker.js https://www.dropbox.com/service_worker.js blob: ; style-src https://* 'unsafe-inline' 'unsafe-eval' ; media-src https://* blob:",
+            "Content-Type": "text/html; charset=utf-8",
+            "Pragma": "no-cache",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "Set-Cookie": "gvc=NTE4MzY1NzA2ODQwMzE3Mzc4NTQyMzQzOTY1NDU0ODI1MzEzMDA=; Path=/; Expires=Fri, 17 Aug 2029 15:33:43 GMT; HttpOnly; Secure; SameSite=None, t=yZ9afOGzeb0DzALCAGs724QA; Path=/; Domain=dropbox.com; Expires=Mon, 18 Aug 2025 15:33:43 GMT; HttpOnly; Secure; SameSite=None, __Host-js_csrf=yZ9afOGzeb0DzALCAGs724QA; Path=/; Expires=Mon, 18 Aug 2025 15:33:43 GMT; Secure; SameSite=None, __Host-ss=dTmwYf4-pk; Path=/; Expires=Mon, 18 Aug 2025 15:33:43 GMT; HttpOnly; Secure; SameSite=Strict, locale=en; Path=/; Domain=dropbox.com; Expires=Fri, 17 Aug 2029 15:33:43 GMT",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Permitted-Cross-Domain-Policies": "none",
+            "X-Xss-Protection": "1; mode=block",
+            "Date": "Sun, 18 Aug 2024 15:33:43 GMT",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+            "Server": "envoy",
+            "Cache-Control": "no-cache, no-store",
+            "Content-Encoding": "gzip",
+            "Vary": "Accept-Encoding",
+            "X-Dropbox-Response-Origin": "far_remote",
+            "X-Dropbox-Request-Id": "d9f5d915e0e14599a89fde23bad7221f",
+            "Transfer-Encoding": "chunked"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Dropbox.com"
+        },
+        "label": "クラウドストレージ",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.slack.com",
+        "domain": "www.slack.com",
+        "status_code": 200,
+        "server": "Apache",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "date": "Sun, 18 Aug 2024 15:33:47 GMT",
+            "server": "Apache",
+            "vary": "Accept-Encoding",
+            "x-xss-protection": "0",
+            "content-type": "text/html; charset=utf-8",
+            "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+            "referrer-policy": "no-referrer",
+            "x-slack-unique-id": "ZsIUWll4KAzE3fEbRgfAFwAAADU",
+            "x-slack-backend": "r",
+            "x-frame-options": "SAMEORIGIN",
+            "set-cookie": "utm=%7B%7D; expires=Sun, 01-Sep-2024 15:33:46 GMT; Max-Age=1209600; path=/; domain=.slack.com; secure; SameSite=None, x_f=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=.slack.com, x=2044eaec8db2f0c3481be3ac155c9702.1723995226; expires=Sun, 18-Aug-2024 15:48:46 GMT; Max-Age=900; path=/; domain=.slack.com; secure; SameSite=None",
+            "via": "1.1 slack-prod.tinyspeck.com, envoy-www-iad-vlqdpskf, envoy-edge-nrt-cumkvvkk",
+            "content-encoding": "gzip",
+            "content-length": "30469",
+            "x-envoy-attempt-count": "1",
+            "x-envoy-upstream-service-time": "239",
+            "x-backend": "main_normal main_canary_with_overflow main_control_with_overflow",
+            "x-server": "slack-www-hhvm-main-iad-ormm",
+            "x-slack-shared-secret-outcome": "no-match",
+            "x-edge-backend": "envoy-www",
+            "x-slack-edge-shared-secret-outcome": "no-match"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-servers": [
+                "Apache"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Slack はニーズに応えるプロダクティビティプラットフォーム"
+        },
+        "label": "チームコミュニケーション",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.salesforce.com",
+        "domain": "www.salesforce.com",
+        "status_code": 200,
+        "server": "Unknown",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "ETag": "W/\"31e25-SnF9aa7LNiJvbpM4J6OyvY9aNHA\"",
+            "Origin-Agent-Cluster": "?1",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "X-Content-Type-Options": "nosniff",
+            "X-Dns-Prefetch-Control": "on",
+            "X-Download-Options": "noopen",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Permitted-Cross-Domain-Policies": "master-only",
+            "X-Xss-Protection": "0",
+            "X-Akamai-Transformed": "9 - 0 pmb=mRUM,2",
+            "Content-Encoding": "gzip",
+            "Cache-Control": "max-age=15380",
+            "Expires": "Sun, 18 Aug 2024 19:50:08 GMT",
+            "Date": "Sun, 18 Aug 2024 15:33:48 GMT",
+            "Content-Length": "31635",
+            "Connection": "keep-alive",
+            "Vary": "Accept-Encoding",
+            "Server-Timing": "cdn-cache; desc=HIT, edge; dur=1, ak_p; desc=\"1723995228930_389796997_66673426_371_10619_7_0_-\";dur=1",
+            "Strict-Transport-Security": "max-age=86400",
+            "AK-UUID": "0.85d43b17.1723995228.3f95b12"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "cdn": [
+                "Akamai"
+            ],
+            "font-scripts": [
+                "Google Font API"
+            ],
+            "javascript-frameworks": [
+                "RxJS"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Salesforce - セールスフォース・ジャパン"
+        },
+        "label": "CRM",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.shopify.com",
+        "domain": "www.shopify.com",
+        "status_code": 200,
+        "server": "cloudflare",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:33:51 GMT",
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "CF-Ray": "8b52f6f648ca1a18-KIX",
+            "CF-Cache-Status": "HIT",
+            "Age": "774",
+            "Cache-Control": "max-age=900, stale-while-revalidate=86400",
+            "Last-Modified": "Sun, 18 Aug 2024 15:20:57 GMT",
+            "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload",
+            "Server-Timing": "ipv6",
+            "X-Content-Type-Options": "nosniff",
+            "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=2N7EWuWxbIS6O4E8oMk81wGvkd2UBAHcioJfHDfxXVIorL4ULOmifyiO9cAFcXEwE0UV4u9T%2FRtTABZJZxfD02Tobp0iw%2Bw82BKC5m4Ugbcw%2Bl7xHnOdgks1mRudo2dmGg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Vary": "Accept-Encoding",
+            "Server": "cloudflare",
+            "Content-Encoding": "gzip",
+            "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "cdn": [
+                "CloudFlare"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Shopify"
+        },
+        "label": "Eコマースプラットフォーム",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.wordpress.com",
+        "domain": "www.wordpress.com",
+        "status_code": 200,
+        "server": "nginx",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Server": "nginx",
+            "Date": "Sun, 18 Aug 2024 15:33:54 GMT",
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Vary": "Accept-Encoding, Cookie",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "X-XSS-Protection": "1; mode=block",
+            "X-hacker": "Want root?  Visit join.a8c.com/hacker and mention this header.",
+            "Host-Header": "WordPress.com",
+            "Content-Encoding": "gzip",
+            "X-ac": "1.nrt _bur STALE",
+            "Strict-Transport-Security": "max-age=31536000; preload",
+            "Alt-Svc": "h3=\":443\"; ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-servers": [
+                "Nginx"
+            ],
+            "ecommerce": [
+                "WooCommerce"
+            ],
+            "cms": [
+                "WordPress"
+            ],
+            "programming-languages": [
+                "PHP"
+            ],
+            "blogs": [
+                "PHP",
+                "WordPress"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "WordPress.com: Build a Site, Sell Your Stuff, Start a Blog & More"
+        },
+        "label": "ブログプラットフォーム",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.medium.com",
+        "domain": "www.medium.com",
+        "status_code": 200,
+        "server": "cloudflare",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:33:55 GMT",
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "CF-Ray": "8b52f70d4963cffb-KIX",
+            "CF-Cache-Status": "HIT",
+            "Age": "81788",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Expires": "Mon, 19 Aug 2024 15:33:55 GMT",
+            "Link": "<https://glyph.medium.com/css/unbound.css>; as=\"style\"; rel=\"preload\"",
+            "Set-Cookie": "uid=lo_8375d8b27c40; Domain=medium.com; Path=/; Expires=Mon, 18 Aug 2025 15:33:55 GMT; HttpOnly; Secure; SameSite=None",
+            "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload",
+            "Vary": "Accept-Encoding",
+            "content-security-policy": "frame-ancestors 'self' https://medium.com",
+            "medium-fulfilled-by": "edgy/8.8.0, valencia/main-20240815-200604-8a6ac94078, lite/main-20240816-213258-037b2e2e42, rito/main-20240816-214050-e3a2ceed1e",
+            "medium-missing-time": "74",
+            "worker-cache-key": "medium.com/?li=false&gate-enable_update_topic_portals_wtf=true&gate-enable_medium_forever_introductory_discount=true&gate-enable_logo_update_phase2=true&gate-enable_summer_discount_homepage=true&exp-enable_custom_moc_preview_weight_threshold=group_1",
+            "worker-cache-middleware": "true",
+            "worker-missing-cookies": "1",
+            "X-Content-Type-Options": "nosniff",
+            "x-envoy-upstream-service-time": "105",
+            "x-request-received-at": "1723913243854",
+            "Server": "cloudflare",
+            "Content-Encoding": "gzip",
+            "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "cdn": [
+                "CloudFlare"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Medium: Read and write stories."
+        },
+        "label": "ブログプラットフォーム",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.quora.com",
+        "domain": "www.quora.com",
+        "status_code": 200,
+        "server": "cloudflare",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:33:57 GMT",
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Cache-Control": "private, no-store, max-age=0, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "Content-Encoding": "gzip",
+            "Content-Security-Policy": "default-src * data: blob:;style-src * 'unsafe-inline';script-src https://*.quora.com https://*.poe.com https://*.facebook.net https://*.facebook.com https://*.googleapis.com https://*.twitter.com https://*.quoracdn.net https://*.google.com https://*.google-analytics.com https://*.gstatic.com https://*.youtube.com https://*.ytimg.com https://*.jwpcdn.com https://*.stripe.com https://*.intercom.io https://*.intercomcdn.com https://*.syndication.twimg.com https://cdnjs.cloudflare.com https://d3div1mtym39ic.cloudfront.net https://*.jwplatform.com https://*.googlesyndication.com https://*.googletagmanager.com https://*.googleadservices.com https://*.doubleclick.net https://*.googletagservices.com https://*.ampproject.org https://*.amazon-adsystem.com https://*.rubiconproject.com https://*.lijit.com https://*.openx.net https://*.criteo.com https://*.3lift.com https://*.aaxads.com https://btloader.com https://*.btloader.com https://*.ads-twitter.com https://*.awin1.com https://*.dwin1.com https://*.zenaps.com https://*.the.sciencebehindecommerce.com https://*.marketo.net https://*.licdn.com https://*.linkedin.com https://*.qualtrics.com https://*.siteintercept.qualtrics.com https://sc-static.net https://static.bytedance.com https://*.iteratehq.com https://cdn.embedly.com https://qinternal.quora.net https://*.sprig.com https://*.userleap.com https://*.doubleverify.com https://*.adsafeprotected.com https://*.flashtalking.com https://*.samplicio.us https://*.activemetering.com https://*.imrworldwide.com https://*.moatads.com https://*.sng.link https://*.apple.com https://cdn.cookielaw.org https://*.onetrust.com https://*.paypal.com https://*.giphy.com https://*.outbrain.com https://*.outbrainimg.com 'unsafe-inline' 'unsafe-eval' 127.0.0.1:*;connect-src 'self' https://*.quora.com https://*.poe.com https://quora.okta.com wss://*.quora.com https://*.quoracdn.net https://*.stripe.com https://*.intercom.io wss://*.intercom.io https://*.jwplatform.com https://*.jwpsrv.com https://syndication.twitter.com https://*.syndication.twimg.com https://*.googleapis.com https://*.googlesyndication.com https://*.qualtrics.com https://*.facebook.com https://*.fbcdn.net blob: https://*.mktoresp.com https://*.doubleclick.net https://accounts.google.com https://*.amazon-adsystem.com https://*.3lift.com https://*.aaxads.com https://btloader.com https://*.btloader.com https://*.rubiconproject.com https://*.casalemedia.com https://*.adnxs.com https://*.pubmatic.com https://*.openx.net https://*.criteo.com https://*.sharethrough.com https://*.snigelweb.com https://*.trustedstack.com https://*.iteratehq.com https://iteratehq.com https://*.sprig.com https://*.userleap.com https://app.adjust.com https://app.appsflyer.com https://*.onelink.me https://branchster.app.link https://control.kochava.com https://c.singular.net https://*.sng.link https://*.apple.com https://*.doubleverify.com https://*.adsafeprotected.com https://*.flashtalking.com https://*.samplicio.us https://*.activemetering.com https://*.imrworldwide.com https://*.moatads.com https://cdn.cookielaw.org https://*.onetrust.com https://*.paypal.com https://*.linkedin.com https://*.giphy.com https://*.outbrain.com https://*.outbrainimg.com https://d3div1mtym39ic.cloudfront.net ;report-uri /security_reports/content_security_policy_violation_3RD_PARTY_POST",
+            "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
+            "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+            "Link": "<https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-27-691154c7c2510bef.webpack>; rel=\"preload\"; as=\"script\", <https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-vendor-27-c663ad026f3abd51.webpack>; rel=\"preload\"; as=\"script\", <https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-common-27-df06c4d99b7128da.webpack>; rel=\"preload\"; as=\"script\", <https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-page-LoginPages-27-5093d9c02053cab6.webpack>; rel=\"preload\"; as=\"script\", <https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-common-LoggedOut-27-e52ae2e2f6390f40.webpack>; rel=\"preload\"; as=\"script\", <https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-main.css-28-f4ef3e8b8aa95a7d.webpack>; rel=\"preload\"; as=\"style\"",
+            "Pragma": "no-cache",
+            "Set-Cookie": "m-s=YeiCiP30ErQWtzE1blcDaA==; Domain=.quora.com; Max-Age=63072000; Path=/; expires=Tue, 18-Aug-2026 15:33:57 GMT; secure; HttpOnly, m-login=0; Domain=.quora.com; Max-Age=63115200; Path=/; expires=Wed, 19-Aug-2026 03:33:57 GMT, m-b=l6Y0CYeedC4DW2O44RfigA==; Domain=.quora.com; Max-Age=63072000; Path=/; expires=Tue, 18-Aug-2026 15:33:57 GMT; secure; HttpOnly; SameSite=None, m-b_lax=l6Y0CYeedC4DW2O44RfigA==; Domain=.quora.com; Max-Age=63072000; Path=/; expires=Tue, 18-Aug-2026 15:33:57 GMT; secure; HttpOnly; SameSite=Lax, m-b_strict=l6Y0CYeedC4DW2O44RfigA==; Domain=.quora.com; Max-Age=63072000; Path=/; expires=Tue, 18-Aug-2026 15:33:57 GMT; secure; HttpOnly; SameSite=Strict",
+            "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Q-Stat": ",48e9ced6e7a42f559fe563fe161d0702,10.0.0.218,5798,131.129.83.15,,147840207842,1,1723995237.067,0.031,,.,0,0,0.000,0.032,-,0,0,5873,345,172,10,34729,,,,,,-,",
+            "X-UA-Compatible": "IE=Edge, chrome=1",
+            "X-XSS-Protection": "1; mode=block",
+            "CF-Cache-Status": "DYNAMIC",
+            "Server": "cloudflare",
+            "CF-RAY": "8b52f716dd61b418-KIX",
+            "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "cdn": [
+                "CloudFlare"
+            ],
+            "javascript-frameworks": [
+                "React"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Quora - 知識を共有し合い、世界を知ろう"
+        },
+        "label": "Q&Aサイト",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.atlassian.com/software/jira",
+        "domain": "www.atlassian.com",
+        "status_code": 200,
+        "server": "AtlassianEdge",
+        "content_type": "text/html",
+        "headers": {
+            "Content-Type": "text/html",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Date": "Sun, 18 Aug 2024 15:34:10 GMT",
+            "Server": "AtlassianEdge",
+            "Set-Cookie": "atlCohort={\"bucketAll\":{\"bucketedAtUTC\":\"2024-08-18T15:34:10.090Z\",\"version\":\"2\",\"index\":60,\"bucketId\":0}}; Max-Age=315360000; Domain=.atlassian.com; Path=/; Expires=Wed, 16 Aug 2034 15:34:10 GMT, ajs_anonymous_id=%22d687cfb2-10fc-62c3-11e9-62a3c046f2b0%22; Max-Age=315360000; Domain=wac-web; Path=/; Expires=Wed, 16 Aug 2034 15:34:10 GMT, bxp_gateway_request_id=7313b150-9ea3-0f43-7729-1e543600589b; Max-Age=300; Domain=wac-web; Path=/; Expires=Sun, 18 Aug 2024 15:39:10 GMT, wac_user_detected=0;Domain=www.atlassian.com;Path=/;Max-Age=-1",
+            "X-B3-Traceid": "fb96adabcede4214a84ea7bde67ff278",
+            "X-B3-Spanid": "c700ef49fe8c4c14",
+            "X-B3-Parentspanid": "d23dbc45dab3d5a0",
+            "X-B3-Sampled": "0",
+            "Content-Security-Policy": "base-uri 'self'; default-src 'self' *.atlassian.com *.intercomcdn.com; script-src 'self' *.gstatic.com *.cookielaw.org *.public.atl-paas.net *.prod.atl-paas.net *.googletagmanager.com *.marketo.net *.atlassian.com utt.impactcdn.com *.google.com *.doubleclick.com *.googleadservices.com *.livechatinc.com *.bing.com *.quora.com *.yimg.jp *.clicktale.net *.linkedin.com *.twitter.com *.licdn.com *.demandbase.com *.doubleclick.net *.facebook.net *.redditstatic.com *.clearbitscripts.com *.clarity.ms *.vimeo.com *.google-analytics.com facebook.com *.facebook.com impactcdn.com *.impactcdn.com clearbitjs.com *.clearbitjs.com yahoo.co.jp *.yahoo.co.jp *.recaptcha.net *.ads-twitter.com *.intercom.io *.intercomcdn.com *.jsdelivr.net 'unsafe-eval' 'unsafe-inline'; style-src 'self' *.public.atl-paas.net *.prod.atl-paas.net fonts.googleapis.com 'unsafe-inline'; img-src 'self' data: atlassian.com *.atlassian.com *.cookielaw.org *.gravatar.com *.wp.com fd-assets.prod.atl-paas.net aid-frontend.prod.atl-paas.net pixel.pointmediatracker.com *.prod.public.atl-paas.net cnv.event.prod.bidr.io *.doubleclick.net *.clicktale.net *.bing.com rlcdn.com reddit.com quora.com *.rlcdn.com *.reddit.com *.quora.com *.ctfassets.net  *.linkedin.com *.google.com *.google.com.au *.company-target.com *.facebook.com *.google-analytics.com *.twitter.com t.co *.intercomcdn.com *.intercomassets.com *.frontend.public.atl-paas.net; font-src 'self' *.ctfassets.net *.intercomcdn.com; frame-ancestors 'none'; form-action 'self'; report-uri https://web-security-reports.services.atlassian.com/csp-report/wac-web; connect-src 'self' ws: atlassian.com *.atlassian.com *.cookielaw.org *.onetrust.com *.public.atl-paas.net *.prod.atl-paas.net *.mktoresp.com *.ingest.sentry.io *.workato.com atlassian.sjv.io statsigapi.net *.statsigapi.net *.contentful.com atlassian.net *.clicktale.net *.contentsquare.net *.bing.com google-analytics.com company-target.com linkedin.com *.google-analytics.com *.company-target.com *.linkedin.com *.doubleclick.net *.reddit.com *.redditstatic.com *.google.com *.demandbase.com *.clarity.ms *.clearbit.com *.intercom.io *.algolianet.com *.algolia.net *.algolia.io; worker-src 'self' blob:; frame-src 'self' *.youtube.com *.google.com *.doubleclick.net *.recaptcha.net *.atl-paas.net *.company-target.com, frame-ancestors 'none';",
+            "Content-Security-Policy-Report-Only": "",
+            "Content-Encoding": "gzip",
+            "Cache-Control": "no-store, max-age=0, stale-if-error=0",
+            "Via": "1.1 6bfa27ae120b2bc4a5635d2175d68f5e.cloudfront.net (CloudFront), 1.1 fc06711606c1d4d320aca2fe6bfea502.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop": "SIN2-P6, NRT51-C3",
+            "X-Frame-Options": "deny",
+            "X-Content-Type-Options": "nosniff",
+            "X-Xss-Protection": "1; mode=block",
+            "Atl-Traceid": "fb96adabcede4214a84ea7bde67ff278",
+            "Strict-Transport-Security": "max-age=63072000; preload",
+            "Report-To": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+            "Nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+            "Vary": "Accept-Encoding",
+            "X-Cache": "Miss from cloudfront",
+            "X-Amz-Cf-Id": "c3-C7Hd1jY4R0g7Ffri2YUkP0oYf9GN1PIcA0VPZikJvFaWMAZCuDg==",
+            "Server-Timing": "cdn-upstream-layer;desc=\"EDGE\",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=595,cdn-cache-miss,cdn-pop;desc=\"NRT51-C3\",cdn-rid;desc=\"c3-C7Hd1jY4R0g7Ffri2YUkP0oYf9GN1PIcA0VPZikJvFaWMAZCuDg==\",cdn-downstream-fbl;dur=615"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Jira | Issue & Project Tracking Software | Atlassian"
+        },
+        "label": "プロジェクト管理",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.trello.com",
+        "domain": "www.trello.com",
+        "status_code": 200,
+        "server": "AtlassianEdge",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Date": "Sun, 18 Aug 2024 15:34:12 GMT",
+            "Server": "AtlassianEdge",
+            "Set-Cookie": "atlCohort={\"bucketAll\":{\"bucketedAtUTC\":\"2024-08-18T15:34:12.898Z\",\"version\":\"2\",\"index\":97,\"bucketId\":0}}; Max-Age=315360000; Domain=trello.com; Path=/; Expires=Wed, 16 Aug 2034 15:34:12 GMT, ajs_anonymous_id=%229754a19f-479c-4a94-96a8-984f18672cae%22; Max-Age=315360000; Domain=trello.com; Path=/; Expires=Wed, 16 Aug 2034 15:34:12 GMT, bxp_gateway_request_id=a0c95109-1032-2d80-069f-7347fbf69108; Max-Age=300; Domain=trello.com; Path=/; Expires=Sun, 18 Aug 2024 15:39:12 GMT, wac_user_detected=0;Domain=trello.com;Path=/;Max-Age=-1",
+            "Cross-Origin-Opener-Policy": "same-origin",
+            "Cross-Origin-Resource-Policy": "same-origin",
+            "X-Dns-Prefetch-Control": "off",
+            "Expect-Ct": "max-age=0",
+            "X-Frame-Options": "SAMEORIGIN, deny",
+            "X-Download-Options": "noopen",
+            "Origin-Agent-Cluster": "?1",
+            "X-Permitted-Cross-Domain-Policies": "none",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "Bxp-Trace-Id": "cda90fe7727445519c4a67ef91ec2d17",
+            "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+            "Link": "<https://trello.com/cs>; rel=\"alternate\"; hreflang=\"cs\", <https://trello.com/de>; rel=\"alternate\"; hreflang=\"de\", <https://trello.com/es>; rel=\"alternate\"; hreflang=\"es\", <https://trello.com/fr>; rel=\"alternate\"; hreflang=\"fr\", <https://trello.com/it>; rel=\"alternate\"; hreflang=\"it\", <https://trello.com/hu>; rel=\"alternate\"; hreflang=\"hu\", <https://trello.com/nl>; rel=\"alternate\"; hreflang=\"nl\", <https://trello.com/nb>; rel=\"alternate\"; hreflang=\"nb\", <https://trello.com/pl>; rel=\"alternate\"; hreflang=\"pl\", <https://trello.com/pt-BR>; rel=\"alternate\"; hreflang=\"pt-BR\", <https://trello.com/fi>; rel=\"alternate\"; hreflang=\"fi\", <https://trello.com/sv>; rel=\"alternate\"; hreflang=\"sv\", <https://trello.com/vi>; rel=\"alternate\"; hreflang=\"vi\", <https://trello.com/tr>; rel=\"alternate\"; hreflang=\"tr\", <https://trello.com/ru>; rel=\"alternate\"; hreflang=\"ru\", <https://trello.com/uk>; rel=\"alternate\"; hreflang=\"uk\", <https://trello.com/th>; rel=\"alternate\"; hreflang=\"th\", <https://trello.com/zh-Hans>; rel=\"alternate\"; hreflang=\"zh-Hans\", <https://trello.com/zh-Hant>; rel=\"alternate\"; hreflang=\"zh-Hant\", <https://trello.com/ja>; rel=\"alternate\"; hreflang=\"ja\", <https://trello.com>; rel=\"alternate\"; hreflang=\"en\", <https://trello.com>; rel=\"alternate\"; hreflang=\"x-default\", <https://trello.com>; rel=\"canonical\"",
+            "Etag": "W/\"5953c-rmT5gzhfgB1v8/2/FVQ10pY0vBE\"",
+            "Vary": "Accept-Encoding",
+            "Content-Encoding": "gzip",
+            "Content-Security-Policy": "frame-ancestors 'none';",
+            "X-Content-Type-Options": "nosniff",
+            "X-Xss-Protection": "1; mode=block",
+            "Atl-Traceid": "cda90fe7727445519c4a67ef91ec2d17",
+            "Strict-Transport-Security": "max-age=63072000; preload",
+            "Report-To": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+            "Nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+            "X-Cache": "Miss from cloudfront",
+            "Via": "1.1 60c129ee7c63a6dda936745a648594cc.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop": "KIX50-P1",
+            "X-Amz-Cf-Id": "4xJGuR8RzLCN0s-se3Girk9If9TcruROsDhRIIzvG_gXhPw2KcLnHA=="
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "javascript-frameworks": [
+                "React"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Manage Your Team’s Projects From Anywhere | Trello"
+        },
+        "label": "プロジェクト管理",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.basecamp.com",
+        "domain": "www.basecamp.com",
+        "status_code": 200,
+        "server": "cloudflare",
+        "content_type": "text/html",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:34:15 GMT",
+            "Content-Type": "text/html",
+            "Content-Length": "39127",
+            "Connection": "keep-alive",
+            "last-modified": "Fri, 16 Aug 2024 00:51:30 GMT",
+            "etag": "\"66bea292-1401e\"",
+            "x-frame-options": "SAMEORIGIN",
+            "vary": "Accept-Encoding",
+            "Content-Encoding": "gzip",
+            "CF-Cache-Status": "BYPASS",
+            "Accept-Ranges": "bytes",
+            "Server": "cloudflare",
+            "CF-RAY": "8b52f7876e36b545-KIX",
+            "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "cdn": [
+                "CloudFlare"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Basecamp: Project management software, online collaboration"
+        },
+        "label": "プロジェクト管理",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.zoom.us",
+        "domain": "www.zoom.us",
+        "status_code": 200,
+        "server": "cloudflare",
+        "content_type": "text/html;charset=utf-8",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:34:18 GMT",
+            "Content-Type": "text/html;charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "x-zm-trackingid": "v=2.0;clid=aw1;rid=WEB_8791e0b5e25bd162bb83b1cbe71d5cba",
+            "x-content-type-options": "nosniff",
+            "content-security-policy": "upgrade-insecure-requests; default-src https://*.zoom.us https://zoom.us blob: 'self'; img-src https: about: blob: data: 'self'; style-src https: safari-extension: chrome-extension: 'unsafe-inline' data: 'self'; font-src https: safari-extension: chrome-extension: blob: data: 'self'; connect-src * about: blob: data: 'self'; media-src * rtmp: blob: data: 'self'; frame-src https: ms-appx-web: zoommtg: zoomus: wvjbscheme: zoomprc: data: blob: 'self'; object-src 'none'; base-uri 'none';script-src 'self' 'wasm-unsafe-eval' 'strict-dynamic' 'nonce-SbfjgMm1RIi4Sg9db7OQzg' blob: https:;",
+            "x-frame-options": "SAMEORIGIN",
+            "set-cookie": "zm_aid=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly, zm_haid=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly, zm_tmaid=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly, zm_htmaid=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly, _zm_ssid=aw1_c_wj9otNwFRQufKM105GJy7w; Domain=zoom.us; Path=/; Secure; HttpOnly, cred=43C73221781FE460EF1BFCBA362D72E3; Path=/; Secure; HttpOnly, _zm_mtk_guid=218c7ce653a84f8999afa08b3647d114; Max-Age=63072000; Expires=Tue, 18 Aug 2026 15:34:18 GMT; Domain=zoom.us; Path=/; Secure, _zm_csp_script_nonce=SbfjgMm1RIi4Sg9db7OQzg; Domain=zoom.us; Path=/; Secure; HttpOnly, _zm_currency=JPY; Max-Age=86400; Expires=Mon, 19 Aug 2024 15:34:18 GMT; Domain=zoom.us; Path=/; Secure, _zm_visitor_guid=218c7ce653a84f8999afa08b3647d114; Max-Age=31536000; Expires=Mon, 18 Aug 2025 15:34:18 GMT; Domain=zoom.us; Path=/; Secure, __cf_bm=8Smo2OIXfYJfmpz0epvAKKfheJbr8LoinVo7uDORhqw-1723995258-1.0.1.1-Aji4FoJQhXxj0rP_V1BSFxyp6w8EGrg7Ez8S1iLfRmsaRIVv6HkkL970gTUcWbhFnM04rIgHKXmNdfvXYrwGVg; path=/; expires=Sun, 18-Aug-24 16:04:18 GMT; domain=.zoom.us; HttpOnly; Secure; SameSite=None",
+            "x-zm-zoneid": "VA",
+            "content-language": "en-US",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "x-xss-protection": "1; mode=block",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "Content-Encoding": "gzip",
+            "Cache-Control": "private, max-age=0",
+            "CF-Cache-Status": "DYNAMIC",
+            "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=uwhsy3CCUqBTQ4ISRmEYNvMgY0HYujiotR%2FjgeIcfRbHUyPsuJhNnnhWN9T7VmpZupJy0H5IQrSvMHCUVEseclrnIKrITX%2BgI%2FpnfOuiiZ%2FJmBwlMPptqS3x7Wrs\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server": "cloudflare",
+            "CF-RAY": "8b52f79b8eff19de-KIX",
+            "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "cdn": [
+                "CloudFlare"
+            ],
+            "javascript-frameworks": [
+                "Vue.js",
+                "jQuery"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "One platform to connect | Zoom"
+        },
+        "label": "ビデオ会議",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.coursera.org",
+        "domain": "www.coursera.org",
+        "status_code": 200,
+        "server": "envoy",
+        "content_type": "text/html",
+        "headers": {
+            "Content-Type": "text/html",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Cache-Control": "private, no-cache, no-store, must-revalidate, max-age=0",
+            "Content-Encoding": "gzip",
+            "Date": "Sun, 18 Aug 2024 15:39:27 GMT",
+            "etag": "W/\"126325-clrsfUgbrrx3Cr6sGW2WuoHW//8\"",
+            "Server": "envoy",
+            "Set-Cookie": "CSRF3-Token=1724859566.hKpQ36mKkhovUMoU; Max-Age=864000; Expires=Wed, 28 Aug 2024 15:39:27 GMT; Path=/; Domain=.coursera.org, __204u=7789510039-1723995566655; Max-Age=31536000; Expires=Mon, 18 Aug 2025 15:39:27 GMT; Path=/; Domain=.coursera.org",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+            "Vary": "Accept-Encoding",
+            "X-Content-Type-Options": "nosniff",
+            "x-coursera-appname": "front-page",
+            "X-Coursera-Render-Mode": "html",
+            "X-Coursera-Render-Version": "v2",
+            "X-Coursera-Request-Id": "DPPWpl14Ee-OahLruaZjXw",
+            "X-Coursera-Trace-Id-Hex": "23ee7517eaac8d47",
+            "x-envoy-upstream-service-time": "929",
+            "X-Frame-Options": "SAMEORIGIN",
+            "x-powered-by": "Express",
+            "X-XSS-Protection": "1; mode=block",
+            "X-Cache": "Miss from cloudfront",
+            "Via": "1.1 421cdf886b8fababe1525a505c58bd30.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop": "KIX50-P1",
+            "X-Amz-Cf-Id": "bnQW-UTfAoOEMfOHyHr-Qg6PSGDoaWnC__5HGUMxe0A9qqksAn-9VQ=="
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-frameworks": [
+                "Express"
+            ],
+            "programming-languages": [
+                "node.js"
+            ],
+            "javascript-frameworks": [
+                "Prototype",
+                "RequireJS"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Coursera | Degrees, Certificates, & Free Online Courses "
+        },
+        "label": "オンライン学習",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.udacity.com",
+        "domain": "www.udacity.com",
+        "status_code": 200,
+        "server": "cloudflare",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:39:36 GMT",
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "CF-Ray": "8b52ff5f288096da-KIX",
+            "CF-Cache-Status": "DYNAMIC",
+            "Age": "142316",
+            "Cache-Control": "s-maxage=31536000, stale-while-revalidate=2592000",
+            "Content-Encoding": "gzip",
+            "ETag": "W/\"si95yhdv6q118yi\"",
+            "Set-Cookie": "ajs_anonymous_id=d8634882-e28e-455a-b551-dc81a4d11ed0; domain=.udacity.com; path=/; Max-Age=31536000;, ajs_created_at=1723995576211; domain=.udacity.com; path=/; Max-Age=31536000;, viewer_city=Osaka; domain=.udacity.com; path=/;, viewer_country=JP; domain=.udacity.com; path=/;, viewer_region=27; domain=.udacity.com; path=/;, NEXT_LOCALE=ar-SA; domain=.udacity.com; path=/; Max-Age=31536000;, __cf_bm=shWLR.QYaBaFEyS0dOHv5DRIJ7f2zR9pQejGMdl1Ej4-1723995576-1.0.1.1-BbebRogEdxWlkZklSCg7Kyhgt.TgFSsLUV5pqoXTVwtTfUm.da1SKDo_h6Kli6X2X_98QFe572lZaJpipcHjBCo.TmZ9lEmAc3w0Wk7CHyM; path=/; expires=Sun, 18-Aug-24 16:09:36 GMT; domain=.udacity.com; HttpOnly; Secure; SameSite=None",
+            "Strict-Transport-Security": "max-age=15552000; includeSubDomains",
+            "Vary": "Accept-Encoding",
+            "Via": "1.1 698d6ed7080cf905fc5a499ebcad44e2.cloudfront.net (CloudFront)",
+            "x-amz-cf-id": "nFXpPAiwmJaBdvN8GlnpqY8DuypvZW8SvbuOEHg4DyaMlRU2NUoh-g==",
+            "x-amz-cf-pop": "NRT51-P2",
+            "x-amzn-remapped-content-length": "1738034",
+            "x-amzn-requestid": "9149d372-f7f5-4d30-9c25-9300f7f572b3",
+            "x-amzn-trace-id": "root=1-66bfe9cc-77ef457e0dc0da2f2ef430af;parent=2a99449b604118fd;sampled=0;lineage=6884dd32:0",
+            "x-cache": "Hit from cloudfront",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "SAMEORIGIN",
+            "x-nextjs-cache": "HIT",
+            "x-opennext": "1",
+            "x-powered-by": "Next.js",
+            "Server": "cloudflare",
+            "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "cdn": [
+                "CloudFlare"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Learn the Latest Tech Skills; Advance Your Career | Udacity"
+        },
+        "label": "オンライン学習",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.khanacademy.org",
+        "domain": "www.khanacademy.org",
+        "status_code": 200,
+        "server": "Unknown",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Connection": "keep-alive",
+            "Content-Type": "text/html; charset=utf-8",
+            "ETag": "W/\"287e2-BgPrtPEj4j2bL/u77yV8XwxzGgg\"",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Cache-Control": "no-store",
+            "Accept-Ranges": "none",
+            "Age": "34184",
+            "Date": "Sun, 18 Aug 2024 15:39:45 GMT",
+            "Vary": "Accept-Encoding, x-fastly-country, x-ka-has-any-permissions, x-ka-is-e2e, x-ka-is-phantom, x-ka-is-phone, x-ka-is-tablet, x-ka-is-unsupported-browser, x-ka-lang, x-ka-locale, x-ka-locale-status, x-ka-published-content-version, x-ka-region, x-ka-static-version, x-ka-at-post-gateway-proxy-edge",
+            "Set-Cookie": "gae_b_id=!$nGTVFNApHvwHeMPUM_RUDcl2GvUVJD5GF5g0y15SC24.~sif7ia~1$a2FpZF84MjcwODQ2OTI5ODE0MzU1NzY1NjEzMTgz; Path=/; Expires=Mon, 18 Aug 2025 15:39:45 GMT; Max-Age=31536000; HttpOnly; SameSite=Lax;, browsing_session_id=_en_bsid_9aa4d4b7-b3ec-41a3-aec8-0f4024ce0001; Expires=Mon, 19 Aug 2024 15:39:45 GMT; Path=/;, browsing_session_expiry=Sun, 18 Aug 2024 16:09:45 GMT; Expires=Sun, 18 Aug 2024 16:09:45 GMT; Path=/;",
+            "X-KA-Cached-Trace-ID": "ec0be9c4fbff86247e00596090d4a175/18005442708629430215",
+            "X-Cloud-Trace-Context": "191dcbb1-63d7-472e-93dc-995c77b527d3",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+            "content-encoding": "gzip",
+            "transfer-encoding": "chunked"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "tag-managers": [
+                "Google Tag Manager"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Khan Academy | Free Online Courses, Lessons & Practice"
+        },
+        "label": "オンライン学習",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.edx.org",
+        "domain": "www.edx.org",
+        "status_code": 200,
+        "server": "cloudflare",
+        "content_type": "text/html",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:40:53 GMT",
+            "Content-Type": "text/html",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "CF-Ray": "8b5301398f978d21-KIX",
+            "CF-Cache-Status": "DYNAMIC",
+            "Cache-Control": "public, max-age=1800",
+            "Content-Encoding": "gzip",
+            "ETag": "W/\"06a72a5cb88adc7f088f4fce03df6318\"",
+            "Last-Modified": "Fri, 16 Aug 2024 14:15:58 GMT",
+            "Set-Cookie": "prod-edx-cf-loc=JP; Domain=edx.org; Path=/; Expires=Mon, 18 Aug 2025 15:40:52 GMT",
+            "Strict-Transport-Security": "max-age=2592000",
+            "Vary": "Accept-Encoding",
+            "x-amz-id-2": "FYCGW36j0oHa2tGL7xL6nKPmLV1VC9jVx0KRiB2jnkfLg2v78tqbu8g16q7uqIvuDWVUzihQIgs=",
+            "x-amz-request-id": "DZHKXJSREX19PABJ",
+            "X-Frame-Options": "DENY",
+            "X-nginx-cache-status": "HIT",
+            "Server": "cloudflare"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "cdn": [
+                "CloudFlare"
+            ],
+            "javascript-frameworks": [
+                "AngularJS",
+                "Backbone.js",
+                "Underscore.js",
+                "Lo-dash",
+                "Prototype",
+                "React",
+                "RequireJS",
+                "Vue.js",
+                "jQuery"
+            ],
+            "javascript-graphics": [
+                "D3"
+            ],
+            "databases": [
+                "Firebase"
+            ],
+            "analytics": [
+                "Optimizely"
+            ],
+            "web-frameworks": [
+                "Twitter Bootstrap"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Build new skills. Advance your career. | edX"
+        },
+        "label": "オンライン学習",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.mozilla.org",
+        "domain": "www.mozilla.org",
+        "status_code": 200,
+        "server": "granian",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Server": "granian",
+            "x-frame-options": "DENY",
+            "content-security-policy": "default-src *.mozilla.com 'self' *.mozilla.org *.mozilla.net; style-src *.mozilla.com 'self' *.mozilla.org *.mozilla.net 'unsafe-inline'; connect-src *.mozilla.com 'self' *.mozilla.org stage.cjms.nonprod.cloudops.mozgcp.net *.mozilla.net sentry.prod.mozaws.net cjms.services.mozilla.com o1069899.ingest.sentry.io region1.google-analytics.com o1069899.sentry.io https://accounts.firefox.com/ www.google-analytics.com www.googletagmanager.com; script-src *.mozilla.com 'self' *.mozilla.org tagmanager.google.com *.mozilla.net js.stripe.com s.ytimg.com 'unsafe-eval' 'unsafe-inline' www.google-analytics.com www.googletagmanager.com www.youtube.com; frame-src *.mozilla.com 'self' *.mozilla.org js.stripe.com *.mozilla.net accounts.firefox.com www.google-analytics.com www.googletagmanager.com www.youtube.com; child-src *.mozilla.com 'self' *.mozilla.org js.stripe.com *.mozilla.net accounts.firefox.com www.google-analytics.com www.googletagmanager.com www.youtube.com; font-src *.mozilla.com 'self' *.mozilla.org *.mozilla.net; img-src *.mozilla.com 'self' *.mozilla.org *.mozilla.net data: mozilla.org www.google-analytics.com www.googletagmanager.com images.ctfassets.net",
+            "Cache-Control": "max-age=600",
+            "Expires": "Sun, 18 Aug 2024 15:50:22 GMT",
+            "x-clacks-overhead": "GNU Terry Pratchett",
+            "x-backend-server": "bedrock-5444f7dc97-w9lgk.gcp-eu-west1",
+            "strict-transport-security": "max-age=31536000",
+            "x-content-type-options": "nosniff",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "cross-origin-opener-policy": "same-origin",
+            "Date": "Sun, 18 Aug 2024 15:40:21 GMT",
+            "Via": "1.1 google, 1.1 76a246f44b218c127b230bb1f26595d8.cloudfront.net (CloudFront)",
+            "Content-Encoding": "gzip",
+            "ETag": "W/\"62bebafb6b96686b8dca1ae9808f5692\"",
+            "Vary": "Accept-Encoding,Accept-Language",
+            "X-Cache": "Hit from cloudfront",
+            "X-Amz-Cf-Pop": "KIX56-P3",
+            "X-Amz-Cf-Id": "NoBYlo3maLUX-SaYRyxJrpyKpaesgo6RKJsZ6IKAJntoj75PIW1GOA==",
+            "Age": "32"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Internet for people, not profit — Mozilla Global"
+        },
+        "label": "オープンソースソフトウェア",
+        "class": "Webサイト"
+    },
+    {
+        "url": "https://www.gitlab.com",
+        "domain": "www.gitlab.com",
+        "status_code": 200,
+        "server": "cloudflare",
+        "content_type": "text/html",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:40:55 GMT",
+            "Content-Type": "text/html",
+            "Content-Length": "23580",
+            "Connection": "keep-alive",
+            "CF-Ray": "8b5301500cb819f1-KIX",
+            "CF-Cache-Status": "HIT",
+            "Accept-Ranges": "bytes",
+            "Age": "33",
+            "Cache-Control": "public, max-age=14400",
+            "Content-Encoding": "gzip",
+            "ETag": "\"66c0fb3899cc8916c02dc49b39ad9c60\"",
+            "Expires": "Sun, 18 Aug 2024 19:40:55 GMT",
+            "Last-Modified": "Fri, 16 Aug 2024 18:17:57 GMT",
+            "Vary": "Accept-Encoding, Origin",
+            "x-goog-generation": "1723832276978386",
+            "x-goog-hash": "crc32c=gDD9wA==, md5=ZsD7OJnMiRbALcSbOa2cYA==",
+            "x-goog-meta-goog-reserved-file-mtime": "1723825336",
+            "x-goog-metageneration": "1",
+            "x-goog-storage-class": "MULTI_REGIONAL",
+            "x-goog-stored-content-encoding": "gzip",
+            "x-goog-stored-content-length": "23580",
+            "x-guploader-uploadid": "AHxI1nPgeenWvx0_kxFXedzv1gjn8-pJCaM4Z4N219LDzd6gJn-H06H5KjRLH_SEkJMfqBocoro",
+            "Server": "cloudflare"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "The most-comprehensive AI-powered DevSecOps platform | GitLab"
+        },
+        "label": "コードリポジトリ",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.cloudflare.com",
+        "domain": "www.cloudflare.com",
+        "status_code": 200,
+        "server": "cloudflare",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:41:07 GMT",
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Cache-Control": "public, max-age=0, must-revalidate",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+            "Permissions-Policy": "geolocation=(), camera=(), microphone=()",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-GWW-LOC": "EN-US",
+            "X-PGS-LOC": "EN-US",
+            "x-RM": "GW",
+            "X-XSS-Protection": "1; mode=block",
+            "Set-Cookie": "__cf_bm=.0h6_MCG2KvKfP8aSngEkUsLP8UMRn_ZvMZLjEPDf8k-1723995667-1.0.1.1-AkVdY1.S.CmK9MtcgnIehvc_JzKux0KSViGLl2lKLSMh5hI1gTqVESV3wYQ7FWus6NNEfDicBkeP7_zameAwC.Z5jM_IZRJTclVIDU_mLNs; path=/; expires=Sun, 18-Aug-24 16:11:07 GMT; domain=.www.cloudflare.com; HttpOnly; Secure; SameSite=None",
+            "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=8K%2FODRPL8s62Vs5rQfSIeRnPTYsp9xkjkCRGdOzbrxH%2FYDylwCKBs0OboQLDJQ6nFf9r7Kx3%2BF75oYlnOb%2B2N3YqFrmAtXctqO3WXXnyVmD4d17Kl3%2BiXDkBp%2BH8Z0Y7%2BTkKtw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Vary": "Accept-Encoding",
+            "Server": "cloudflare",
+            "CF-RAY": "8b53019b8a4f9697-KIX",
+            "Content-Encoding": "gzip",
+            "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "cdn": [
+                "CloudFlare"
+            ],
+            "javascript-frameworks": [
+                "React"
+            ],
+            "web-frameworks": [
+                "Twitter Bootstrap"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Connect, Protect and Build Everywhere | Cloudflare"
+        },
+        "label": "CDN",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.alibaba.com",
+        "domain": "www.alibaba.com",
+        "status_code": 200,
+        "server": "Unknown",
+        "content_type": "text/html;charset=UTF-8",
+        "headers": {
+            "Content-Type": "text/html;charset=UTF-8",
+            "Link": "<https://s.alicdn.com>; rel=preconnect;",
+            "X-Content-Type-Options": "nosniff",
+            "X-XSS-Protection": "1; mode=block",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "0",
+            "X-Frame-Options": "DENY",
+            "Content-Encoding": "gzip",
+            "Strict-Transport-Security": "max-age=31536000",
+            "Timing-Allow-Origin": "*",
+            "EagleId": "21013d8a17239956691035738e733a",
+            "Server-Timing": "rt;dur=0.008,eagleid;desc=21013d8a17239956691035738e733a",
+            "Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With",
+            "Access-Control-Allow-Methods": "POST, GET, OPTIONS, DELETE",
+            "Access-Control-Allow-Credentials": "true",
+            "Date": "Sun, 18 Aug 2024 15:41:09 GMT",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive, Transfer-Encoding",
+            "Vary": "Accept-Encoding",
+            "Set-Cookie": "ali_apache_id=33.1.61.138.1723995669105.409716.1; path=/; domain=.alibaba.com; expires=Wed, 30-Nov-2084 01:01:01 GMT, JSESSIONID=557F968C5C32623D66E49CD3E96F050C; Path=/; HttpOnly, cna=FQRJH07XHhsCAS/2pJTp/eDi; Domain=.alibaba.com; Path=/; Expires=Fri, 05-Sep-2092 18:55:16 GMT; Secure; SameSite=None, ug_se_c=organic_1723995669111; Domain=.alibaba.com; Expires=Wed, 26-Apr-2056 17:27:48 GMT; Path=/; Secure",
+            "Alt-Svc": "h3=\":443\"; ma=2592000",
+            "Object-Status": "ttl=-1,age=0",
+            "Edge-Type": "akamai"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "javascript-frameworks": [
+                "React"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Alibaba.com: Manufacturers, Suppliers, Exporters & Importers from the world's largest online B2B marketplace"
+        },
+        "label": "Eコマース",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.jd.com",
+        "domain": "www.jd.com",
+        "status_code": 200,
+        "server": "nginx",
+        "content_type": "text/html",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:41:10 GMT",
+            "Content-Type": "text/html",
+            "Content-Length": "5941",
+            "Connection": "keep-alive",
+            "Expires": "Sun, 18 Aug 2024 16:13:52 GMT",
+            "Server": "nginx",
+            "Cache-Control": "max-age=7200",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Credentials": "true",
+            "Content-Encoding": "gzip",
+            "Via": "http/1.1 ORI-CLOUD-HB3-MIX-18 (jcs [cMsSfW]), http/1.1 HB-CT-6-MIX-40 (jcs [cHs f ])",
+            "Timing-Allow-Origin": "*",
+            "X-Trace": "200-1723990205563-0-0-1-26-26;200-1723990205506-0-0-0-80-80;200-1723990431968-0-0-0-2-2",
+            "Strict-Transport-Security": "max-age=3600",
+            "Age": "5238",
+            "X-Via": "1.1 x140:4 (Cdn Cache Server V2.0), 1.1 PSrbJP1al65:6 (Cdn Cache Server V2.0), 1.1 PSrbdbOSA2ab99:11 (Cdn Cache Server V2.0)",
+            "X-Ws-Request-Id": "66c21616_PSrbdbOSA2ig100_44697-45629"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-servers": [
+                "Nginx"
+            ],
+            "javascript-frameworks": [
+                "jQuery"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "京东全球版-专业的综合网上购物商城"
+        },
+        "label": "Eコマース",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://www.rakuten.co.jp",
+        "domain": "www.rakuten.co.jp",
+        "status_code": 200,
+        "server": "Apache",
+        "content_type": "text/html; charset=UTF-8",
+        "headers": {
+            "Server": "Apache",
+            "Pragma": "no-cache",
+            "Cache-Control": "private",
+            "Content-Encoding": "gzip",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1; mode=block",
+            "x-frame-options": "DENY",
+            "Content-Type": "text/html; charset=UTF-8",
+            "Content-Length": "62483",
+            "Date": "Sun, 18 Aug 2024 15:41:21 GMT",
+            "Connection": "keep-alive",
+            "Vary": "Accept-Encoding, User-Agent"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-servers": [
+                "Apache"
+            ],
+            "font-scripts": [
+                "Google Font API"
+            ],
+            "photo-galleries": [
+                "Lightbox"
+            ],
+            "javascript-frameworks": [
+                "Lightbox"
+            ],
+            "analytics": [
+                "SiteCatalyst"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "【楽天市場】Shopping is Entertainment! ： インターネット最大級の通信販売、通販オンラインショッピングコミュニティ"
+        },
+        "label": "Eコマース",
+        "class": "Webアプリケーション"
+    },
+    {
+        "url": "https://api.twitter.com",
+        "domain": "api.twitter.com",
+        "status_code": 404,
+        "server": "tsa_m",
+        "content_type": "Unknown",
+        "headers": {
+            "perf": "7402827104",
+            "cache-control": "no-cache, no-store, max-age=0",
+            "content-length": "0",
+            "x-transaction-id": "477bc0d87b27ad7a",
+            "x-response-time": "91",
+            "x-connection-hash": "9ecfa0abd9efea0a921dbc2b4befb1a401815d5dcfbf1ec9f86996b574302ea6",
+            "date": "Sun, 18 Aug 2024 15:41:22 GMT",
+            "server": "tsa_m"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "不明なコンテンツタイプ"
+        },
+        "label": "ソーシャルメディアAPI",
+        "class": "APIサーバー"
+    },
+    {
+        "url": "https://api.github.com",
+        "domain": "api.github.com",
+        "status_code": 200,
+        "server": "github.com",
+        "content_type": "application/json; charset=utf-8",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:41:22 GMT",
+            "Content-Type": "application/json; charset=utf-8",
+            "Cache-Control": "public, max-age=60, s-maxage=60",
+            "Vary": "Accept,Accept-Encoding, Accept, X-Requested-With",
+            "ETag": "W/\"4f825cc84e1c733059d46e76e6df9db557ae5254f9625dfe8e1b09499c449438\"",
+            "X-GitHub-Media-Type": "github.v3; format=json",
+            "x-github-api-version-selected": "2022-11-28",
+            "Access-Control-Expose-Headers": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset",
+            "Access-Control-Allow-Origin": "*",
+            "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+            "X-Frame-Options": "deny",
+            "X-Content-Type-Options": "nosniff",
+            "X-XSS-Protection": "0",
+            "Referrer-Policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+            "Content-Security-Policy": "default-src 'none'",
+            "Content-Encoding": "gzip",
+            "Server": "github.com",
+            "X-RateLimit-Limit": "60",
+            "X-RateLimit-Remaining": "58",
+            "X-RateLimit-Reset": "1723999282",
+            "X-RateLimit-Resource": "core",
+            "X-RateLimit-Used": "2",
+            "Accept-Ranges": "bytes",
+            "Content-Length": "510",
+            "X-GitHub-Request-Id": "D1BD:36FDF3:121971A:131F22E:66C21622"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "APIサーバー",
+            "json_keys": [
+                "current_user_url",
+                "current_user_authorizations_html_url",
+                "authorizations_url",
+                "code_search_url",
+                "commit_search_url",
+                "emails_url",
+                "emojis_url",
+                "events_url",
+                "feeds_url",
+                "followers_url",
+                "following_url",
+                "gists_url",
+                "hub_url",
+                "issue_search_url",
+                "issues_url",
+                "keys_url",
+                "label_search_url",
+                "notifications_url",
+                "organization_url",
+                "organization_repositories_url",
+                "organization_teams_url",
+                "public_gists_url",
+                "rate_limit_url",
+                "repository_url",
+                "repository_search_url",
+                "current_user_repositories_url",
+                "starred_url",
+                "starred_gists_url",
+                "topic_search_url",
+                "user_url",
+                "user_organizations_url",
+                "user_repositories_url",
+                "user_search_url"
+            ]
+        },
+        "label": "コードリポジトリAPI",
+        "class": "APIサーバー"
+    },
+    {
+        "url": "https://api.spotify.com",
+        "domain": "api.spotify.com",
+        "status_code": 200,
+        "server": "envoy",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "server": "envoy",
+            "date": "Sun, 18 Aug 2024 15:41:23 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "x-nextjs-cache": "HIT",
+            "x-powered-by": "Next.js",
+            "cache-control": "s-maxage=31536000, stale-while-revalidate",
+            "etag": "\"9oix3bb10t1vzr\"",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "x-envoy-upstream-service-time": "8",
+            "content-security-policy": "base-uri 'self'; connect-src https://developer-assets.spotifycdn.com https://embed-cdn.spotifycdn.com https://stats.g.doubleclick.net https://*.googletagmanager.com https://*.analytics.google.com https://*.google-analytics.com https://translate.googleapis.com https://cdn.cookielaw.org https://*.onetrust.com https://*.spotify.com https://*.spotify.net https://*.sentry.io wss://*.spotify.com wss://*.spotify.net; form-action https:; frame-ancestors 'self' https://*.spotify.com https://*.spotify.net; object-src 'none'; script-src https://developer-assets.spotifycdn.com https://*.spotify.com https://*.spotify.net https://open.spotifycdn.com https://embed-cdn.spotifycdn.com https://*.googletagmanager.com https://*.analytics.google.com https://*.google-analytics.com https://translate.googleapis.com https://translate.google.com https://cdn.cookielaw.org 'unsafe-eval' 'sha256-WfsTi7oVogdF9vq5d14s2birjvCglqWF842fyHhzoNw=' https://open.spotify.com 'sha256-usT+6qPuOS6IkYtKfVmDANmKvyw2VIa1A0slyo1mSmw='; report-uri https://o22381.ingest.sentry.io/api/4504887026384896/security/?sentry_key=f4a7c7c55acb47ab8ff900050fce0bd4",
+            "x-frame-options": "deny",
+            "strict-transport-security": "max-age=31536000",
+            "x-content-type-options": "nosniff",
+            "Via": "HTTP/1.1 fringe, HTTP/2 edgeproxy, 1.1 google",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Home | Spotify for Developers"
+        },
+        "label": "音楽ストリーミングAPI",
+        "class": "APIサーバー"
+    },
+    {
+        "url": "https://api.slack.com",
+        "domain": "api.slack.com",
+        "status_code": 200,
+        "server": "Apache",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "date": "Sun, 18 Aug 2024 15:41:25 GMT",
+            "server": "Apache",
+            "vary": "Accept-Encoding",
+            "x-xss-protection": "0",
+            "content-type": "text/html; charset=utf-8",
+            "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+            "referrer-policy": "no-referrer",
+            "x-slack-unique-id": "ZsIWJdeRRgU0EsuB-yMXMwAAEDo",
+            "x-slack-backend": "r",
+            "x-frame-options": "SAMEORIGIN",
+            "set-cookie": "utm=%7B%7D; expires=Sun, 01-Sep-2024 15:41:25 GMT; Max-Age=1209600; path=/; domain=.slack.com; secure; SameSite=None, b=e1858dc24981c513d0c21c07c47d8030; expires=Fri, 18-Aug-2034 15:41:25 GMT; Max-Age=315532800; path=/; domain=.slack.com; secure; SameSite=None, x=e1858dc24981c513d0c21c07c47d8030.1723995685; expires=Sun, 18-Aug-2024 15:56:25 GMT; Max-Age=900; path=/; domain=.slack.com; secure; SameSite=None",
+            "via": "1.1 slack-prod.tinyspeck.com, envoy-www-iad-xuaubawn, envoy-edge-nrt-brxftqhf",
+            "content-encoding": "gzip",
+            "content-length": "26317",
+            "x-envoy-attempt-count": "1",
+            "x-envoy-upstream-service-time": "205",
+            "x-backend": "main_normal main_canary_with_overflow main_control_with_overflow",
+            "x-server": "slack-www-hhvm-main-iad-byte",
+            "x-slack-shared-secret-outcome": "no-match",
+            "x-edge-backend": "envoy-www",
+            "x-slack-edge-shared-secret-outcome": "no-match"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "web-servers": [
+                "Apache"
+            ],
+            "javascript-frameworks": [
+                "RequireJS"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Unlock your productivity potential with Slack Platform | Slack"
+        },
+        "label": "チームコミュニケーションAPI",
+        "class": "APIサーバー"
+    },
+    {
+        "url": "https://api.dropboxapi.com",
+        "domain": "api.dropboxapi.com",
+        "status_code": 404,
+        "server": "envoy",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Cache-Control": "no-cache",
+            "Content-Security-Policy": "script-src 'none', sandbox",
+            "Pragma": "no-cache",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "Set-Cookie": "gvc=MTA2MjY5NzE5NjYxNTk1MDI2ODg1NzI4NTQyMTA0MTM5MjMwMDk3; Path=/; Expires=Fri, 17 Aug 2029 15:41:25 GMT; HttpOnly; Secure; SameSite=None",
+            "X-Accel-Buffering": "no",
+            "X-Content-Type-Options": "nosniff",
+            "X-Permitted-Cross-Domain-Policies": "none",
+            "X-Xss-Protection": "1; mode=block",
+            "Content-Type": "text/html; charset=utf-8",
+            "Date": "Sun, 18 Aug 2024 15:41:25 GMT",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+            "Server": "envoy",
+            "Content-Encoding": "gzip",
+            "Vary": "Accept-Encoding",
+            "X-Dropbox-Response-Origin": "far_remote",
+            "X-Dropbox-Request-Id": "ae478906dd2a4020a421b5cd78b550e6",
+            "Transfer-Encoding": "chunked"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Dropbox - 404"
+        },
+        "label": "クラウドストレージAPI",
+        "class": "APIサーバー"
+    },
+    {
+        "url": "https://api.salesforce.com",
+        "domain": "api.salesforce.com",
+        "status_code": 404,
+        "server": "Unknown",
+        "content_type": "Unknown",
+        "headers": {
+            "date": "Sun, 18 Aug 2024 15:41:26 GMT",
+            "content-length": "0"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "不明なコンテンツタイプ"
+        },
+        "label": "CRM API",
+        "class": "APIサーバー"
+    },
+    {
+        "url": "https://api.shopify.com",
+        "domain": "api.shopify.com",
+        "status_code": 200,
+        "server": "cloudflare",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:41:29 GMT",
+            "Content-Type": "text/html; charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Vary": "Accept-Encoding, Accept",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-XSS-Protection": "0",
+            "X-Content-Type-Options": "nosniff",
+            "X-Permitted-Cross-Domain-Policies": "none",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "Accept-CH": "Save-Data",
+            "Link": "<https://cdn.shopify.com/shopifycloud/shopify_dev/assets/manifests/home/home_new-a454b931aae0b26790fb4d9bf602ba1432208fc72ef73487f1d8f0ea575016b8.css>; rel=preload; as=style; nopush,<https://cdn.shopify.com/shopifycloud/shopify_dev/assets/application-2b66f4fd23f88a01fcf7e164978375f4dbc4f0bc627409a25b80ade7957c325a.css>; rel=preload; as=style; nopush,<https://cdn.shopify.com/shopifycloud/shopify_dev/assets/print-d7246486837a05b0a4d55c1edec3d1271992c4f8a88af9be6a8a045b683009cf.css>; rel=preload; as=style; nopush",
+            "ETag": "W/\"5fa4f7453c8db7bade5c6a01e08134e3\"",
+            "Cache-Control": "max-age=0, private, must-revalidate",
+            "Set-Cookie": "shopify_experiment_assignments=%5B%5D; path=/; SameSite=Lax, _shopify_dev_session=ydiykisBSFUbIotncnf6PnuBJ9SNEnWqnjIv7jvlysZQKkx3%2Bz00QgbDYBV3OhTT58tHRAPSqdsIFuzo5qizNThzubIbBtAfH65iEyD86m%2BdVtiS17ctv6PXkjol5CP8Opq5iiwe8aA231Luf3fTd0CMNKiD4tYpqyXmy8d62wRatRVVypMeeL79cIFNkvH7l7kgxomRs3tCdfsWkAL11caP%2BCrpc99LlzMFqd0y7loMoCJ%2FgaOdAvvdMTqtdVbUyiPFT8f5lY7Jsj6J7erLREN%2FfP4eTk3bU2SKfQ%3D%3D--Kq%2Bj0vxK3K5YqoSG--HC%2FpM29VaKALpI4wY94CiQ%3D%3D; path=/; HttpOnly; SameSite=Lax",
+            "X-Request-Id": "343d9484-eb39-46eb-9d1a-70761ffa1cef-1723995688",
+            "X-Runtime": "0.121283",
+            "Server-Timing": "processing;dur=125, socket_queue;dur=1.878, cfRequestDuration;dur=421.999931",
+            "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload",
+            "X-Dc": "gcp-us-central1,gcp-us-east1",
+            "Content-Encoding": "gzip",
+            "CF-Cache-Status": "BYPASS",
+            "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=V5y0B4wbFR7eGFB51NWV4WCS%2FbebvImFYQlrk5eqH%2FHzxHwVwj2K2EJzAWrniYPm9hxX7TQGO%2BsXBIJE5gQnyTJthrY88bBLU9VL0G8CrVvtXel0SeGtHjzhsi0n\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server": "cloudflare",
+            "CF-RAY": "8b53021f1b4596b5-KIX",
+            "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "cdn": [
+                "CloudFlare"
+            ],
+            "analytics": [
+                "BugSnag"
+            ],
+            "font-scripts": [
+                "Google Font API"
+            ],
+            "javascript-frameworks": [
+                "Lo-dash",
+                "React",
+                "RequireJS"
+            ],
+            "web-frameworks": [
+                "Ruby on Rails"
+            ],
+            "programming-languages": [
+                "Ruby"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Shopify Developers Platform—Build. Innovate. Get paid."
+        },
+        "label": "EコマースプラットフォームAPI",
+        "class": "APIサーバー"
+    },
+    {
+        "url": "https://api.coursera.org",
+        "domain": "api.coursera.org",
+        "status_code": 404,
+        "server": "Unknown",
+        "content_type": "text/html",
+        "headers": {
+            "Content-Type": "text/html",
+            "Date": "Sun, 18 Aug 2024 15:41:30 GMT",
+            "Content-Length": "16467",
+            "Connection": "keep-alive"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {},
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Page Not Found"
+        },
+        "label": "オンライン学習API",
+        "class": "APIサーバー"
+    },
+    {
+        "url": "https://api.atlassian.com",
+        "domain": "api.atlassian.com",
+        "status_code": 200,
+        "server": "AtlassianEdge",
+        "content_type": "text/html; charset=utf-8",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:41:33 GMT",
+            "Content-Type": "text/html; charset=utf-8",
+            "X-B3-Traceid": "d61def410511443abdd778c4d5ac5c94",
+            "X-B3-Spanid": "1142314e60d68855",
+            "X-B3-Parentspanid": "af1c14cc230ba98e",
+            "X-B3-Sampled": "0",
+            "X-Dns-Prefetch-Control": "off",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Download-Options": "noopen",
+            "X-Permitted-Cross-Domain-Policies": "none",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "Content-Security-Policy-Report-Only": "default-src 'self'; base-uri 'self'; font-src 'self' fonts.gstatic.com *.atlassian.com data:; worker-src blob:; media-src 'self' api.media.atlassian.com *.atlassian.com; img-src data: blob: 'self' *.badgen.net *.youtube.com atlassian.wpengine.netdna-cdn.com global.discourse-cdn.com img.shields.io *.atlassian.net *.google.com *.google.ad *.google.ae *.google.com.af *.google.com.ag *.google.com.ai *.google.al *.google.am *.google.co.ao *.google.com.ar *.google.as *.google.at *.google.com.au *.google.az *.google.ba *.google.com.bd *.google.be *.google.bf *.google.bg *.google.com.bh *.google.bi *.google.bj *.google.com.bn *.google.com.bo *.google.com.br *.google.bs *.google.bt *.google.co.bw *.google.by *.google.com.bz *.google.ca *.google.cd *.google.cf *.google.cg *.google.ch *.google.ci *.google.co.ck *.google.cl *.google.cm *.google.cn *.google.com.co *.google.co.cr *.google.com.cu *.google.cv *.google.com.cy *.google.cz *.google.de *.google.dj *.google.dk *.google.dm *.google.com.do *.google.dz *.google.com.ec *.google.ee *.google.com.eg *.google.es *.google.com.et *.google.fi *.google.com.fj *.google.fm *.google.fr *.google.ga *.google.ge *.google.gg *.google.com.gh *.google.com.gi *.google.gl *.google.gm *.google.gr *.google.com.gt *.google.gy *.google.com.hk *.google.hn *.google.hr *.google.ht *.google.hu *.google.co.id *.google.ie *.google.co.il *.google.im *.google.co.in *.google.iq *.google.is *.google.it *.google.je *.google.com.jm *.google.jo *.google.co.jp *.google.co.ke *.google.com.kh *.google.ki *.google.kg *.google.co.kr *.google.com.kw *.google.kz *.google.la *.google.com.lb *.google.li *.google.lk *.google.co.ls *.google.lt *.google.lu *.google.lv *.google.com.ly *.google.co.ma *.google.md *.google.me *.google.mg *.google.mk *.google.ml *.google.com.mm *.google.mn *.google.ms *.google.com.mt *.google.mu *.google.mv *.google.mw *.google.com.mx *.google.com.my *.google.co.mz *.google.com.na *.google.com.ng *.google.com.ni *.google.ne *.google.nl *.google.no *.google.com.np *.google.nr *.google.nu *.google.co.nz *.google.com.om *.google.com.pa *.google.com.pe *.google.com.pg *.google.com.ph *.google.com.pk *.google.pl *.google.pn *.google.com.pr *.google.ps *.google.pt *.google.com.py *.google.com.qa *.google.ro *.google.ru *.google.rw *.google.com.sa *.google.com.sb *.google.sc *.google.se *.google.com.sg *.google.sh *.google.si *.google.sk *.google.com.sl *.google.sn *.google.so *.google.sm *.google.sr *.google.st *.google.com.sv *.google.td *.google.tg *.google.co.th *.google.com.tj *.google.tl *.google.tm *.google.tn *.google.to *.google.com.tr *.google.tt *.google.com.tw *.google.co.tz *.google.com.ua *.google.co.ug *.google.co.uk *.google.com.uy *.google.co.uz *.google.com.vc *.google.co.ve *.google.vg *.google.co.vi *.google.com.vn *.google.vu *.google.ws *.google.rs *.google.co.za *.google.co.zm *.google.co.zw *.google.cat www.gstatic.com *.wp.com cdn.cookielaw.org *.clicktale.net *.doubleclick.net https://googleads.g.doubleclick.net images.ctfassets.net *.public.atl-paas.net trello.com trello-backgrounds.s3.amazonaws.com *.google-analytics.com *.analytics.google.com *.googletagmanager.com *.google.co.in *.google.com *.atlassian.com *.gravatar.com; frame-src 'self' *.atlassian.com *.atl-paas.net *.googletagmanager.com player.vimeo.com trello.com www.youtube.com www.figma.com; connect-src 'self' *.googletagmanager.com *.algolianet.com *.algolia.net *.clicktale.net *.launchdarkly.com *.trello.com *.doubleclick.net *.qualtrics.com *.onetrust.com *.sentry.io cdn.segment.com api.segment.io www.google-analytics.com cdn.cookielaw.org *.atlassian.com *.algolia.io *.google.com; report-uri https://web-security-reports.services.atlassian.com/csp-report/dac; object-src 'none'; style-src 'self' *.trellocdn.com *.atlassian.com 'unsafe-inline'; script-src 'nonce-HIrEEY0IYQaLhBO9doasXDZ3KNhLz0UHt6AhY4/LtOw=' 'self' 'sha256-Nt9ereHaxV04RZ20OLtdR3uuFr1X0/Pbt5KbGls/wXg=' https://www.googleadservices.com https://player.vimeo.com/api/player.js *.segment.com *.clicktale.net mscgen.js.org *.qualtrics.com *.trellocdn.com *.atlassian.com www.googletagmanager.com www.google-analytics.com https://cdn.cookielaw.org https://cdn.jsdelivr.net/npm/search-insights@2.2.1 https://run.pstmn.io/button.js *.atl-paas.net https://srm.bf.contentsquare.net/exist",
+            "Server": "AtlassianEdge",
+            "X-Content-Type-Options": "nosniff",
+            "X-Xss-Protection": "1; mode=block",
+            "Atl-Traceid": "d61def410511443abdd778c4d5ac5c94",
+            "Strict-Transport-Security": "max-age=63072000; preload",
+            "Report-To": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+            "Nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+            "Vary": "Accept-Encoding",
+            "Content-Encoding": "gzip",
+            "X-Ratelimit-Limit": "700, 700;w=60",
+            "X-Ratelimit-Remaining": "699",
+            "X-Ratelimit-Reset": "27",
+            "Transfer-Encoding": "chunked"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "javascript-frameworks": [
+                "Handlebars",
+                "React"
+            ],
+            "web-frameworks": [
+                "ZURB Foundation"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "Atlassian Developer"
+        },
+        "label": "プロジェクト管理API",
+        "class": "APIサーバー"
+    },
+    {
+        "url": "https://api.zoom.us",
+        "domain": "api.zoom.us",
+        "status_code": 200,
+        "server": "cloudflare",
+        "content_type": "text/html;charset=utf-8",
+        "headers": {
+            "Date": "Sun, 18 Aug 2024 15:41:37 GMT",
+            "Content-Type": "text/html;charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "x-zm-trackingid": "v=2.0;clid=aw1;rid=WEB_6fafe383a4daa2610a0fa89746502508",
+            "x-content-type-options": "nosniff",
+            "content-security-policy": "upgrade-insecure-requests; default-src https://*.zoom.us https://zoom.us blob: 'self'; img-src https: about: blob: data: 'self'; style-src https: safari-extension: chrome-extension: 'unsafe-inline' data: 'self'; font-src https: safari-extension: chrome-extension: blob: data: 'self'; connect-src * about: blob: data: 'self'; media-src * rtmp: blob: data: 'self'; frame-src https: ms-appx-web: zoommtg: zoomus: wvjbscheme: zoomprc: data: blob: 'self'; object-src 'none'; base-uri 'none';script-src 'self' 'wasm-unsafe-eval' 'strict-dynamic' 'nonce-p_dJi0XERMSr4RGi7mqzqw' blob: https:;",
+            "x-frame-options": "SAMEORIGIN",
+            "set-cookie": "zm_aid=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly, zm_haid=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly, zm_tmaid=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly, zm_htmaid=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly, _zm_ssid=aw1_c_FwWPU2GQTpikixsB8Izs8g; Domain=zoom.us; Path=/; Secure; HttpOnly, cred=52012F26C153F70959D2B199E650D016; Path=/; Secure; HttpOnly, _zm_mtk_guid=c487685717864c53b7596f7c84f0ee69; Max-Age=63072000; Expires=Tue, 18 Aug 2026 15:41:37 GMT; Domain=zoom.us; Path=/; Secure, _zm_csp_script_nonce=p_dJi0XERMSr4RGi7mqzqw; Domain=zoom.us; Path=/; Secure; HttpOnly, _zm_currency=JPY; Max-Age=86400; Expires=Mon, 19 Aug 2024 15:41:37 GMT; Domain=zoom.us; Path=/; Secure, _zm_visitor_guid=c487685717864c53b7596f7c84f0ee69; Max-Age=31536000; Expires=Mon, 18 Aug 2025 15:41:37 GMT; Domain=zoom.us; Path=/; Secure, __cf_bm=W56sPlS7fW_0QrO2QNeahhYJ05DtXcJ0UvGPVBiu5n8-1723995697-1.0.1.1-ygfxAoiecxKGcZ8x1t9wH_1ftI4G71nwWvifP5PMszSRxl8uTgOucEiYD.wc6kr6GiVYk0hUd3Qj.ubelDNubA; path=/; expires=Sun, 18-Aug-24 16:11:37 GMT; domain=.zoom.us; HttpOnly; Secure; SameSite=None",
+            "x-zm-zoneid": "VA",
+            "content-language": "en-US",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "x-xss-protection": "1; mode=block",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "Content-Encoding": "gzip",
+            "Cache-Control": "private, max-age=0",
+            "CF-Cache-Status": "DYNAMIC",
+            "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=mVeOkqz%2BAfpEX9DutjJ%2FxepczY%2FishGe%2BwEtte18TD7JRWCvkDA5HtX2zHYFaVtriZKh2xrn2Zhlwc3N4zqkwuQn8Www%2FYA2nswsOI10vM2HaYq5gtRqoH3H3QVw\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server": "cloudflare",
+            "CF-RAY": "8b530254b9049697-KIX",
+            "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "port_http": 80,
+        "port_https": 443,
+        "tech_stack": {
+            "cdn": [
+                "CloudFlare"
+            ],
+            "javascript-frameworks": [
+                "Vue.js",
+                "jQuery"
+            ]
+        },
+        "content_summary": {
+            "type": "WebサイトまたはWebアプリケーション",
+            "title": "One platform to connect | Zoom"
+        },
+        "label": "ビデオ会議API",
+        "class": "APIサーバー"
+    }
+]
