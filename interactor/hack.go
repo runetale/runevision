@@ -22,7 +22,7 @@ func NewHackInteractor(
 	}
 }
 
-func (i *HackInteractor) Scan(request *requests.HackDoScanRequest) (*entity.HackHistory, error) {
+func (i *HackInteractor) Scan(request *requests.HackDoScanRequest) (*entity.ScanResponse, error) {
 	// todo (snt) refactor
 	// API(local backend)経由で実行するようにする
 	isDebug := true
@@ -40,7 +40,7 @@ func (i *HackInteractor) Scan(request *requests.HackDoScanRequest) (*entity.Hack
 	}
 
 	status := engine.GetStatus(types.SequenceID(sequentialID))
-	hh := entity.NewHackHistory(request.Name, sequentialID, string(status))
+	hh := entity.NewScanResponse(request.Name, sequentialID, string(status))
 
 	return hh, nil
 }
