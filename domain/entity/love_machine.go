@@ -251,7 +251,10 @@ const (
 	NETWORK_VULNERABILITIES_CLOCKWATCH_ENTERPRISE_RCE AttackType = "NETWORK_JARM_SLIVER_C2_JARM"
 
 	// http越しに攻撃可能な攻撃
-	// ref - https://github.com/projectdiscovery/nuclei-templates/tree/main/http/honeypot
+	// ref - https://github.com/projectdiscovery/nuclei-templates/tree/main/http
+
+	// file攻撃, e.g zip爆弾など
+	// ref - https://github.com/projectdiscovery/nuclei-templates/tree/main/file
 )
 
 // ClassficatioAttackTypesはlove machine mlで使用できる、AttackTypeを

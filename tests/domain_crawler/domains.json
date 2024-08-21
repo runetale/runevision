@@ -1,0 +1,182 @@
+[
+  {
+    "url": "https://api.dev.app.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://laprasapi.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://caterpie-api.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://wwwapi.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.dev.login.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://login.api.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://app-api.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://www.api.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://devapi.app.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.login.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api-caterpie.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://loginapi.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api-dev.app.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://dev-api.login.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api-dev.login.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://app.api.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api-lapras.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.app.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://www-api.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://lapras.api.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://caterpie.api.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.www.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://login-api.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://dev.api.login.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api-login.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.lapras.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://devapi.login.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api-app.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://dev-api.app.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://lapras-api.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://caterpieapi.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api.caterpie.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://appapi.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://dev.api.app.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  },
+  {
+    "url": "https://api-www.runetale.com",
+    "label": "VPN Server",
+    "class": "APIサーバー"
+  }
+]
