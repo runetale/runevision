@@ -35,6 +35,7 @@ type SubDomainPrefixTrend struct {
 func TestDomainAutoCrawler(t *testing.T) {
 	dslfilePath := "dsl_output.txt"
 	subDomainsfilePath := "sub_domains.txt"
+	// todo: (enka) ここはクローラーで無限生成
 	targetHost := "runetale.com"
 
 	// ** subdomain
@@ -86,6 +87,7 @@ func TestDomainAutoCrawler(t *testing.T) {
 
 	// ** alterx
 	// 存在するドメイン+サブドメインを使用して、予測ドメインを算出
+	// mlに使用できそ
 	opts := &alterx.Options{
 		// todo: (enka) ここはクローラーでも無限生成
 		Domains: targetHostWithSubDomains,
@@ -123,12 +125,7 @@ func TestDomainAutoCrawler(t *testing.T) {
 	}
 	defer dslfile.Close()
 
-	// alterxによる、存在するドメインから算出された予測ドメインに対してのスキャン
-	if err := scanner.Err(); err != nil {
-		t.Fatal(err)
-	}
-
-	// sub domainのprefixを取得
+	// ** sub domainのprefixを取得
 	// 今後の学習に活かせそうなので、jsonとしてアウトプットしておく
 	subDomainsPrefix, err := getSubdomainPrefix(dslfilePath)
 	if err != nil {
@@ -175,6 +172,7 @@ func TestDomainAutoCrawler(t *testing.T) {
 		t.Fatal(err)
 	}
 
+	// 収集したドメインの情報を元にドメインの性質を算出
 	err = createDomainsJson()
 	if err != nil {
 		t.Fatal(err)
@@ -248,7 +246,6 @@ func createDomainsJson() error {
 	var results []httpx.Result
 	var domains []Domains
 
-	// Find all JSON files containing "mark" in their name
 	err := filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
@@ -304,6 +301,8 @@ func buildLabel(r httpx.Result) string {
 	return "unknown"
 }
 
+// todo (enka) 改善の余地あり
+// ここのバリエーションをもっと増やす
 func buildClass(r httpx.Result) string {
 	var apiServerRef = 0
 	var webApplicationRef = 0
