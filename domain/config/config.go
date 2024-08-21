@@ -11,8 +11,9 @@ type Config struct {
 }
 
 type App struct {
-	Host string `required:"true" envconfig:"HOST"`
-	Port uint   `required:"true" envconfig:"PORT"`
+	Host    string `required:"true" envconfig:"HOST"`
+	Port    uint   `required:"true" envconfig:"PORT"`
+	IsDebug bool   `required:"true" envconfig:"IS_DEBUG"`
 }
 
 type Postgres struct {

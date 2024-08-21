@@ -1,2 +1,6 @@
 .env
 *tmp
+*txt
+# bin
+vision
+.DS_Store

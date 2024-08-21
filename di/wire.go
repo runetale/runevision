@@ -10,6 +10,7 @@ import (
 	"github.com/runetale/runevision/handler"
 	"github.com/runetale/runevision/interactor"
 	"github.com/runetale/runevision/interfaces"
+	"github.com/runetale/runevision/localclient"
 	"github.com/runetale/runevision/repository"
 	"github.com/runetale/runevision/utility"
 )
@@ -20,6 +21,7 @@ var wireSet = wire.NewSet(
 	handler.WireSet,
 	interactor.WireSet,
 	repository.WireSet,
+	localclient.WireSet,
 )
 
 func InitializeLogger(logConfig config.Log) (l *utility.Logger) {
@@ -38,6 +40,11 @@ func InitializeDashboardRepository() (repo interfaces.DashboardRepository) {
 }
 
 func InitializeDashboardHandler(dbConfig config.Postgres, logConfig config.Log) (h interfaces.DashboardHandler) {
+	wire.Build(wireSet)
+	return
+}
+
+func InitializeHackHandler(dbConfig config.Postgres, logConfig config.Log) (h interfaces.HackHandler) {
 	wire.Build(wireSet)
 	return
 }
