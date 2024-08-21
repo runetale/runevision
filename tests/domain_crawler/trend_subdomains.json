@@ -1,0 +1,542 @@
+[
+  {
+    "url": "https://mysql.lapras.runetale.com",
+    "sub_domain": "mysql.lapras",
+    "type": "database"
+  },
+  {
+    "url": "https://mssql.app.runetale.com",
+    "sub_domain": "mssql.app",
+    "type": "database"
+  },
+  {
+    "url": "https://api.app.runetale.com",
+    "sub_domain": "api.app",
+    "type": "api server"
+  },
+  {
+    "url": "https://api-lapras.runetale.com",
+    "sub_domain": "api-lapras",
+    "type": "api server"
+  },
+  {
+    "url": "https://mysql.www.runetale.com",
+    "sub_domain": "mysql.www",
+    "type": "database"
+  },
+  {
+    "url": "https://dev-api.login.runetale.com",
+    "sub_domain": "dev-api.login",
+    "type": "api server"
+  },
+  {
+    "url": "https://dev.mssql.app.runetale.com",
+    "sub_domain": "dev.mssql.app",
+    "type": "database"
+  },
+  {
+    "url": "https://api.login.runetale.com",
+    "sub_domain": "api.login",
+    "type": "api server"
+  },
+  {
+    "url": "https://login-mysql.runetale.com",
+    "sub_domain": "login-mysql",
+    "type": "database"
+  },
+  {
+    "url": "https://lapras.mysql.runetale.com",
+    "sub_domain": "lapras.mysql",
+    "type": "database"
+  },
+  {
+    "url": "https://mysql-dev.login.runetale.com",
+    "sub_domain": "mysql-dev.login",
+    "type": "database"
+  },
+  {
+    "url": "https://www.mysql.runetale.com",
+    "sub_domain": "www.mysql",
+    "type": "database"
+  },
+  {
+    "url": "https://caterpie.api.runetale.com",
+    "sub_domain": "caterpie.api",
+    "type": "api server"
+  },
+  {
+    "url": "https://mysql-login.runetale.com",
+    "sub_domain": "mysql-login",
+    "type": "database"
+  },
+  {
+    "url": "https://login-mssql.runetale.com",
+    "sub_domain": "login-mssql",
+    "type": "database"
+  },
+  {
+    "url": "https://caterpie.mysql.runetale.com",
+    "sub_domain": "caterpie.mysql",
+    "type": "database"
+  },
+  {
+    "url": "https://caterpie.mssql.runetale.com",
+    "sub_domain": "caterpie.mssql",
+    "type": "database"
+  },
+  {
+    "url": "https://mysql-lapras.runetale.com",
+    "sub_domain": "mysql-lapras",
+    "type": "database"
+  },
+  {
+    "url": "https://dev-mssql.login.runetale.com",
+    "sub_domain": "dev-mssql.login",
+    "type": "database"
+  },
+  {
+    "url": "https://mssql-caterpie.runetale.com",
+    "sub_domain": "mssql-caterpie",
+    "type": "database"
+  },
+  {
+    "url": "https://www-mysql.runetale.com",
+    "sub_domain": "www-mysql",
+    "type": "database"
+  },
+  {
+    "url": "https://devmysql.app.runetale.com",
+    "sub_domain": "devmysql.app",
+    "type": "database"
+  },
+  {
+    "url": "https://api.caterpie.runetale.com",
+    "sub_domain": "api.caterpie",
+    "type": "api server"
+  },
+  {
+    "url": "https://app.api.runetale.com",
+    "sub_domain": "app.api",
+    "type": "api server"
+  },
+  {
+    "url": "https://dev-mysql.app.runetale.com",
+    "sub_domain": "dev-mysql.app",
+    "type": "database"
+  },
+  {
+    "url": "https://caterpie-api.runetale.com",
+    "sub_domain": "caterpie-api",
+    "type": "api server"
+  },
+  {
+    "url": "https://mssql-login.runetale.com",
+    "sub_domain": "mssql-login",
+    "type": "database"
+  },
+  {
+    "url": "https://laprasapi.runetale.com",
+    "sub_domain": "laprasapi",
+    "type": "api server"
+  },
+  {
+    "url": "https://mssql-app.runetale.com",
+    "sub_domain": "mssql-app",
+    "type": "database"
+  },
+  {
+    "url": "https://laprasmysql.runetale.com",
+    "sub_domain": "laprasmysql",
+    "type": "database"
+  },
+  {
+    "url": "https://app-mysql.runetale.com",
+    "sub_domain": "app-mysql",
+    "type": "database"
+  },
+  {
+    "url": "https://wwwmysql.runetale.com",
+    "sub_domain": "wwwmysql",
+    "type": "database"
+  },
+  {
+    "url": "https://mssql-dev.app.runetale.com",
+    "sub_domain": "mssql-dev.app",
+    "type": "database"
+  },
+  {
+    "url": "https://www-mssql.runetale.com",
+    "sub_domain": "www-mssql",
+    "type": "database"
+  },
+  {
+    "url": "https://dev.mysql.app.runetale.com",
+    "sub_domain": "dev.mysql.app",
+    "type": "database"
+  },
+  {
+    "url": "https://loginmysql.runetale.com",
+    "sub_domain": "loginmysql",
+    "type": "database"
+  },
+  {
+    "url": "https://dev-api.app.runetale.com",
+    "sub_domain": "dev-api.app",
+    "type": "api server"
+  },
+  {
+    "url": "https://www.mssql.runetale.com",
+    "sub_domain": "www.mssql",
+    "type": "database"
+  },
+  {
+    "url": "https://dev.api.login.runetale.com",
+    "sub_domain": "dev.api.login",
+    "type": "api server"
+  },
+  {
+    "url": "https://caterpie-mysql.runetale.com",
+    "sub_domain": "caterpie-mysql",
+    "type": "database"
+  },
+  {
+    "url": "https://devapi.login.runetale.com",
+    "sub_domain": "devapi.login",
+    "type": "api server"
+  },
+  {
+    "url": "https://lapras-mssql.runetale.com",
+    "sub_domain": "lapras-mssql",
+    "type": "database"
+  },
+  {
+    "url": "https://caterpiemssql.runetale.com",
+    "sub_domain": "caterpiemssql",
+    "type": "database"
+  },
+  {
+    "url": "https://api-login.runetale.com",
+    "sub_domain": "api-login",
+    "type": "api server"
+  },
+  {
+    "url": "https://mssql.dev.app.runetale.com",
+    "sub_domain": "mssql.dev.app",
+    "type": "database"
+  },
+  {
+    "url": "https://dev-mssql.app.runetale.com",
+    "sub_domain": "dev-mssql.app",
+    "type": "database"
+  },
+  {
+    "url": "https://dev.mysql.login.runetale.com",
+    "sub_domain": "dev.mysql.login",
+    "type": "database"
+  },
+  {
+    "url": "https://api-dev.app.runetale.com",
+    "sub_domain": "api-dev.app",
+    "type": "api server"
+  },
+  {
+    "url": "https://api.dev.app.runetale.com",
+    "sub_domain": "api.dev.app",
+    "type": "api server"
+  },
+  {
+    "url": "https://lapras-api.runetale.com",
+    "sub_domain": "lapras-api",
+    "type": "api server"
+  },
+  {
+    "url": "https://api.www.runetale.com",
+    "sub_domain": "api.www",
+    "type": "api server"
+  },
+  {
+    "url": "https://api-www.runetale.com",
+    "sub_domain": "api-www",
+    "type": "api server"
+  },
+  {
+    "url": "https://dev-mysql.login.runetale.com",
+    "sub_domain": "dev-mysql.login",
+    "type": "database"
+  },
+  {
+    "url": "https://app.mssql.runetale.com",
+    "sub_domain": "app.mssql",
+    "type": "database"
+  },
+  {
+    "url": "https://caterpiemysql.runetale.com",
+    "sub_domain": "caterpiemysql",
+    "type": "database"
+  },
+  {
+    "url": "https://mysql-dev.app.runetale.com",
+    "sub_domain": "mysql-dev.app",
+    "type": "database"
+  },
+  {
+    "url": "https://mssql.caterpie.runetale.com",
+    "sub_domain": "mssql.caterpie",
+    "type": "database"
+  },
+  {
+    "url": "https://login.mssql.runetale.com",
+    "sub_domain": "login.mssql",
+    "type": "database"
+  },
+  {
+    "url": "https://mssql.lapras.runetale.com",
+    "sub_domain": "mssql.lapras",
+    "type": "database"
+  },
+  {
+    "url": "https://loginapi.runetale.com",
+    "sub_domain": "loginapi",
+    "type": "api server"
+  },
+  {
+    "url": "https://mssql.dev.login.runetale.com",
+    "sub_domain": "mssql.dev.login",
+    "type": "database"
+  },
+  {
+    "url": "https://mysql.runetale.com",
+    "sub_domain": "mysql",
+    "type": "database"
+  },
+  {
+    "url": "https://caterpie-mssql.runetale.com",
+    "sub_domain": "caterpie-mssql",
+    "type": "database"
+  },
+  {
+    "url": "https://dev.api.app.runetale.com",
+    "sub_domain": "dev.api.app",
+    "type": "api server"
+  },
+  {
+    "url": "https://login-api.runetale.com",
+    "sub_domain": "login-api",
+    "type": "api server"
+  },
+  {
+    "url": "https://mssql-lapras.runetale.com",
+    "sub_domain": "mssql-lapras",
+    "type": "database"
+  },
+  {
+    "url": "https://app.mysql.runetale.com",
+    "sub_domain": "app.mysql",
+    "type": "database"
+  },
+  {
+    "url": "https://mssql-www.runetale.com",
+    "sub_domain": "mssql-www",
+    "type": "database"
+  },
+  {
+    "url": "https://appmysql.runetale.com",
+    "sub_domain": "appmysql",
+    "type": "database"
+  },
+  {
+    "url": "https://devapi.app.runetale.com",
+    "sub_domain": "devapi.app",
+    "type": "api server"
+  },
+  {
+    "url": "https://wwwmssql.runetale.com",
+    "sub_domain": "wwwmssql",
+    "type": "database"
+  },
+  {
+    "url": "https://appmssql.runetale.com",
+    "sub_domain": "appmssql",
+    "type": "database"
+  },
+  {
+    "url": "https://laprasmssql.runetale.com",
+    "sub_domain": "laprasmssql",
+    "type": "database"
+  },
+  {
+    "url": "https://api.lapras.runetale.com",
+    "sub_domain": "api.lapras",
+    "type": "api server"
+  },
+  {
+    "url": "https://www-api.runetale.com",
+    "sub_domain": "www-api",
+    "type": "api server"
+  },
+  {
+    "url": "https://lapras.mssql.runetale.com",
+    "sub_domain": "lapras.mssql",
+    "type": "database"
+  },
+  {
+    "url": "https://appapi.runetale.com",
+    "sub_domain": "appapi",
+    "type": "api server"
+  },
+  {
+    "url": "https://mysql.caterpie.runetale.com",
+    "sub_domain": "mysql.caterpie",
+    "type": "database"
+  },
+  {
+    "url": "https://api-caterpie.runetale.com",
+    "sub_domain": "api-caterpie",
+    "type": "api server"
+  },
+  {
+    "url": "https://login.mysql.runetale.com",
+    "sub_domain": "login.mysql",
+    "type": "database"
+  },
+  {
+    "url": "https://app-mssql.runetale.com",
+    "sub_domain": "app-mssql",
+    "type": "database"
+  },
+  {
+    "url": "https://devmysql.login.runetale.com",
+    "sub_domain": "devmysql.login",
+    "type": "database"
+  },
+  {
+    "url": "https://www.api.runetale.com",
+    "sub_domain": "www.api",
+    "type": "api server"
+  },
+  {
+    "url": "https://mysql-app.runetale.com",
+    "sub_domain": "mysql-app",
+    "type": "database"
+  },
+  {
+    "url": "https://mssql.login.runetale.com",
+    "sub_domain": "mssql.login",
+    "type": "database"
+  },
+  {
+    "url": "https://mssql.www.runetale.com",
+    "sub_domain": "mssql.www",
+    "type": "database"
+  },
+  {
+    "url": "https://devmssql.app.runetale.com",
+    "sub_domain": "devmssql.app",
+    "type": "database"
+  },
+  {
+    "url": "https://mysql-www.runetale.com",
+    "sub_domain": "mysql-www",
+    "type": "database"
+  },
+  {
+    "url": "https://mssql.runetale.com",
+    "sub_domain": "mssql",
+    "type": "database"
+  },
+  {
+    "url": "https://lapras.api.runetale.com",
+    "sub_domain": "lapras.api",
+    "type": "api server"
+  },
+  {
+    "url": "https://mysql.dev.login.runetale.com",
+    "sub_domain": "mysql.dev.login",
+    "type": "database"
+  },
+  {
+    "url": "https://api.dev.login.runetale.com",
+    "sub_domain": "api.dev.login",
+    "type": "api server"
+  },
+  {
+    "url": "https://wwwapi.runetale.com",
+    "sub_domain": "wwwapi",
+    "type": "api server"
+  },
+  {
+    "url": "https://mysql.app.runetale.com",
+    "sub_domain": "mysql.app",
+    "type": "database"
+  },
+  {
+    "url": "https://api.runetale.com",
+    "sub_domain": "api",
+    "type": "api server"
+  },
+  {
+    "url": "https://api-dev.login.runetale.com",
+    "sub_domain": "api-dev.login",
+    "type": "api server"
+  },
+  {
+    "url": "https://devmssql.login.runetale.com",
+    "sub_domain": "devmssql.login",
+    "type": "database"
+  },
+  {
+    "url": "https://loginmssql.runetale.com",
+    "sub_domain": "loginmssql",
+    "type": "database"
+  },
+  {
+    "url": "https://api-app.runetale.com",
+    "sub_domain": "api-app",
+    "type": "api server"
+  },
+  {
+    "url": "https://mssql-dev.login.runetale.com",
+    "sub_domain": "mssql-dev.login",
+    "type": "database"
+  },
+  {
+    "url": "https://caterpieapi.runetale.com",
+    "sub_domain": "caterpieapi",
+    "type": "api server"
+  },
+  {
+    "url": "https://mysql.login.runetale.com",
+    "sub_domain": "mysql.login",
+    "type": "database"
+  },
+  {
+    "url": "https://lapras-mysql.runetale.com",
+    "sub_domain": "lapras-mysql",
+    "type": "database"
+  },
+  {
+    "url": "https://app-api.runetale.com",
+    "sub_domain": "app-api",
+    "type": "api server"
+  },
+  {
+    "url": "https://mysql-caterpie.runetale.com",
+    "sub_domain": "mysql-caterpie",
+    "type": "database"
+  },
+  {
+    "url": "https://dev.mssql.login.runetale.com",
+    "sub_domain": "dev.mssql.login",
+    "type": "database"
+  },
+  {
+    "url": "https://mysql.dev.app.runetale.com",
+    "sub_domain": "mysql.dev.app",
+    "type": "database"
+  },
+  {
+    "url": "https://login.api.runetale.com",
+    "sub_domain": "login.api",
+    "type": "api server"
+  }
+]
