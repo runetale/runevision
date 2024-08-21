@@ -25,7 +25,8 @@ func (h *HackHandler) Scan(c echo.Context) error {
 	if err := c.Bind(&req); err != nil {
 		return c.JSON(http.StatusBadRequest, map[string]string{"error": err.Error()})
 	}
-	res, err := h.hackInteractor.Scan(&req)
+
+	res, err := h.hackInteractor.Scan(&req, c)
 	if err != nil {
 		return err
 	}

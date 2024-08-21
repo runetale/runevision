@@ -30,3 +30,11 @@ func (b *LocalBackend) Shutdown() {
 func (vb *LocalBackend) Scan(sequentialID types.SequenceID, request *requests.HackDoScanRequest) error {
 	return vb.engine.Reconfig(sequentialID, request)
 }
+
+func (vb *LocalBackend) GetStatus(sequentialID types.SequenceID) types.AttackStatus {
+	return vb.engine.GetStatus(sequentialID)
+}
+
+func (vb *LocalBackend) Ping() (string, error) {
+	return "ping", nil
+}
