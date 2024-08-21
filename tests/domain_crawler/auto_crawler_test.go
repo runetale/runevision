@@ -6,9 +6,11 @@ import (
 	"context"
 	"encoding/json"
 	"io"
+	"io/ioutil"
 	"log"
 	"math"
 	"os"
+	"path/filepath"
 	"strings"
 	"testing"
 
@@ -167,29 +169,16 @@ func TestDomainAutoCrawler(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	// 存在するドメインに対して、
-	err = saveDomainsInfoJson(targetHostWithSubDomains, "存在するドメインの")
+	// 存在するドメインの情報を収集し、jsonで保存
+	err = saveDomainsInfoJson(targetHostWithSubDomains, "mark")
 	if err != nil {
 		t.Fatal(err)
 	}
 
-	// todo: (snt) outputされたjsonたちの情報を使用して、domains.jsonを作成する
-	// 1. jsonを全て読み込む
-	// 2. web server, content_type, cdn_name, cdn_typeを確認して、domains.jsonを生成
-	// var domains []Domains
-
-	// outputFilePath := "domains.json"
-	// outputFile, err := os.Create(outputFilePath)
-	// if err != nil {
-	// 	t.Fatal(err)
-	// }
-	// defer outputFile.Close()
-
-	// encoder := json.NewEncoder(outputFile)
-	// encoder.SetIndent("", "  ")
-	// if err := encoder.Encode(domains); err != nil {
-	// 	t.Fatal(err)
-	// }
+	err = createDomainsJson()
+	if err != nil {
+		t.Fatal(err)
+	}
 }
 
 func saveDomainsInfoJson(hosts []string, prefix string) error {
@@ -253,4 +242,102 @@ func getSubdomainPrefix(path string) (map[string][]string, error) {
 	}
 
 	return subdomains, nil
+}
+
+func createDomainsJson() error {
+	var results []httpx.Result
+	var domains []Domains
+
+	// Find all JSON files containing "mark" in their name
+	err := filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+
+		if !info.IsDir() && strings.Contains(info.Name(), "mark") && filepath.Ext(info.Name()) == ".json" {
+			fileData, err := ioutil.ReadFile(path)
+			if err != nil {
+				return err
+			}
+
+			var result httpx.Result
+			err = json.Unmarshal(fileData, &result)
+			if err != nil {
+				return err
+			}
+
+			results = append(results, result)
+		}
+		return nil
+	})
+
+	if err != nil {
+		return err
+	}
+
+	for _, result := range results {
+		domains = append(domains, Domains{
+			URL:   result.URL,
+			Label: buildLabel(result),
+			Class: buildClass(result),
+		})
+	}
+
+	domainsFilePath := "domains.json"
+	domainsFile, err := os.Create(domainsFilePath)
+	if err != nil {
+		return err
+	}
+	defer domainsFile.Close()
+
+	encoder := json.NewEncoder(domainsFile)
+	encoder.SetIndent("", "  ")
+	if err := encoder.Encode(domains); err != nil {
+		return err
+	}
+	return nil
+}
+
+// todo (enka) labelのデータはbeautiful soupなどから取ってきた方がいい？
+// labelのデータ生成方法が一番むずいかも
+func buildLabel(r httpx.Result) string {
+	return "unknown"
+}
+
+func buildClass(r httpx.Result) string {
+	var apiServerRef = 0
+	var webApplicationRef = 0
+
+	if r.CDNName == "aws" && r.CDNType == "cloud" {
+		apiServerRef++
+	}
+	if r.WebServer == "envoy" {
+		apiServerRef++
+	}
+	if r.WebServer == "awselb/2.0" {
+		apiServerRef++
+	}
+	if r.WebServer == "Vercel" {
+		webApplicationRef++
+	}
+	if r.ContentType == "text/plain" {
+		webApplicationRef++
+	}
+
+	scores := map[string]int{
+		"api server":      apiServerRef,
+		"web application": webApplicationRef,
+	}
+
+	max := 0
+	label := "unknown"
+
+	for key, num := range scores {
+		if num > max {
+			max = num
+			label = key
+		}
+	}
+
+	return label
 }

@@ -1,0 +1,31 @@
+{
+  "timestamp": "2024-08-22T01:45:29.814606+09:00",
+  "cdn_name": "aws",
+  "cdn_type": "cloud",
+  "port": "443",
+  "url": "https://caterpie.runetale.com",
+  "input": "caterpie.runetale.com",
+  "scheme": "https",
+  "webserver": "envoy",
+  "method": "GET",
+  "host": "52.192.88.141",
+  "path": "/",
+  "time": "237.049166ms",
+  "a": [
+    "52.192.88.141",
+    "54.95.106.159",
+    "52.68.189.186"
+  ],
+  "words": 0,
+  "lines": 0,
+  "status_code": 404,
+  "content_length": 0,
+  "failed": false,
+  "knowledgebase": {
+    "PageType": "other",
+    "pHash": 0
+  },
+  "resolvers": [
+    "1.0.0.1:53"
+  ]
+}
