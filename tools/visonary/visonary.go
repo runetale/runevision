@@ -84,6 +84,7 @@ type Visionary struct {
 type Attack struct {
 	Type     types.AttackType     `json:"type"`
 	Category types.AttackCategory `json:"categry"`
+	CveID    string               `json:"cve_id"`
 }
 
 func main() {
@@ -106,7 +107,45 @@ func main() {
 		panic(err)
 	}
 
-	saveAttackTypeJson(attackType, tags)
+	for _, v := range visionary {
+		items := strings.Split(v.Tags, ",")
+
+		seen := make(map[string]bool)
+		var uniqueItems []string
+
+		for _, item := range items {
+			trimmedItem := strings.TrimSpace(item)
+			if _, exists := seen[trimmedItem]; !exists {
+				seen[trimmedItem] = true
+				uniqueItems = append(uniqueItems, trimmedItem)
+			}
+		}
+
+		for _, o := range uniqueItems {
+			attackType = append(attackType, &Attack{
+				Type:     types.AttackType(o),
+				Category: types.GetAttackCategory(types.AttackType(o)),
+				CveID:    v.CveID,
+			})
+		}
+	}
+
+	filePath := "attack_types.json"
+	output, err := os.Create(filePath)
+	if err != nil {
+		panic(err)
+	}
+	defer output.Close()
+
+	encoder := json.NewEncoder(output)
+	encoder.SetIndent("", "  ")
+	if err := encoder.Encode(attackType); err != nil {
+		panic(err)
+	}
+
+	fmt.Println("Successfully saved to attack_types.json")
+
+	// saveAttackTypeJson(attackType, tags)
 	saveVisonaryJson(visionary)
 }
 
