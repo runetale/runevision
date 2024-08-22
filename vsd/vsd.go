@@ -7,7 +7,6 @@ import (
 	"reflect"
 
 	"github.com/runetale/runevision/hack"
-	"github.com/runetale/runevision/types"
 )
 
 type VisionSystem struct {
@@ -118,7 +117,7 @@ func (s *VisionSystem) Run(v any) error {
 
 // note: (snt) Should check that it is Set before running AllRun
 // Must asynchronous run
-func (s *VisionSystem) AllRun(chan types.SequenceID) {
+func (s *VisionSystem) AllRun() {
 	dsl := s.Dsl.Get()
 	go dsl.Start()
 

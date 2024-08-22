@@ -19,8 +19,7 @@ import (
 // custom error hooks
 type closeOnErrorPool []func()
 
-func (p *closeOnErrorPool) add(c io.Closer)   { *p = append(*p, func() { c.Close() }) }
-func (p *closeOnErrorPool) addFunc(fn func()) { *p = append(*p, fn) }
+func (p *closeOnErrorPool) add(c io.Closer) { *p = append(*p, func() { c.Close() }) }
 func (p closeOnErrorPool) closeAllIfError(errp *error) {
 	if *errp != nil {
 		for _, closeFn := range p {
@@ -150,7 +149,11 @@ func initVisionSystem() (sys *vsd.VisionSystem, err error) {
 }
 
 func (e *visionEngine) Reconfig(sequentialID types.SequenceID, request *requests.HackDoScanRequest) error {
-	e.attacker.Reconfig(sequentialID, e.vsd, request)
+	err := e.attacker.Reconfig(sequentialID, e.vsd, request)
+	if err != nil {
+		return err
+	}
+
 	return nil
 }
 

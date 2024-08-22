@@ -8,6 +8,7 @@ import (
 	"io"
 	"net"
 	"net/http"
+	"strings"
 	"sync"
 	"sync/atomic"
 	"time"
@@ -197,17 +198,17 @@ func (s *LocalBackendServer) serveHTTP(w http.ResponseWriter, r *http.Request) {
 	}
 
 	ctx := r.Context()
-	_, ok := s.awaitBackend(ctx)
+	b, ok := s.awaitBackend(ctx)
 	if !ok {
 		http.Error(w, "no backend", http.StatusServiceUnavailable)
 		return
 	}
 
-	// if strings.HasPrefix(r.URL.Path, "/localapi/") {
-	// 	lah := hashigo.NewHandler(hb)
-	// 	lah.ServeHTTP(w, r)
-	// 	return
-	// }
+	if strings.HasPrefix(r.URL.Path, "/localapi/") {
+		lah := NewHandler(b)
+		lah.ServeHTTP(w, r)
+		return
+	}
 
 	if r.URL.Path != "/" {
 		http.NotFound(w, r)
@@ -241,6 +242,8 @@ func (s *LocalBackendServer) Run(ctx context.Context, ln net.Listener) error {
 		IdleTimeout: 6 * time.Second,
 	}
 
+	s.logger.Logger.Debug("running vision local backend server")
+
 	if err := hs.Serve(ln); err != nil {
 		if err := ctx.Err(); err != nil {
 			s.logger.Logger.Error("local backend ctx error")
@@ -264,4 +267,5 @@ func (s *LocalBackendServer) SetLocalBackend(lb *LocalBackend) {
 	s.mu.Lock()
 	s.backendWaiter.wakeAll()
 	s.mu.Unlock()
+	s.logger.Logger.Debug("set completed local backend")
 }
