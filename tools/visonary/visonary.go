@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bufio"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -82,15 +81,13 @@ type Visionary struct {
 }
 
 type Attack struct {
-	Type     types.AttackType     `json:"type"`
-	Category types.AttackCategory `json:"categry"`
-	CveID    string               `json:"cve_id"`
+	TechStack types.TechType       `json:"tech_stack"`
+	Category  types.AttackCategory `json:"categry"`
+	CveID     string               `json:"cve_id"`
 }
 
 func main() {
 	var visionary []*Visionary
-	var attackType []*Attack
-	var tags []string
 
 	// walking dir for yaml
 	dir := "./target_yaml"
@@ -99,7 +96,7 @@ func main() {
 			return err
 		}
 		if !info.IsDir() && strings.HasSuffix(info.Name(), ".yaml") {
-			visionary, tags = parseYAMLToVisionary(path, visionary, tags)
+			visionary = parseYAMLToVisionary(path, visionary)
 		}
 		return nil
 	})
@@ -107,6 +104,12 @@ func main() {
 		panic(err)
 	}
 
+	saveAttackTypeJson(visionary)
+	saveVisonaryJson(visionary)
+}
+
+func saveAttackTypeJson(visionary []*Visionary) {
+	var attackType []*Attack
 	for _, v := range visionary {
 		items := strings.Split(v.Tags, ",")
 
@@ -123,9 +126,9 @@ func main() {
 
 		for _, o := range uniqueItems {
 			attackType = append(attackType, &Attack{
-				Type:     types.AttackType(o),
-				Category: types.GetAttackCategory(types.AttackType(o)),
-				CveID:    v.CveID,
+				TechStack: types.TechType(o),
+				Category:  types.GetAttackCategory(types.TechType(o)),
+				CveID:     v.CveID,
 			})
 		}
 	}
@@ -144,75 +147,7 @@ func main() {
 	}
 
 	fmt.Println("Successfully saved to attack_types.json")
-
-	// saveAttackTypeJson(attackType, tags)
-	saveVisonaryJson(visionary)
-}
-
-func saveAttackTypeJson(at []*Attack, tags []string) {
-	tagsFile := "tags.txt"
-	formattedName := strings.Join(tags, "\n")
-	file, err := os.Create("tags.txt")
-	if err != nil {
-		log.Fatalf("Failed to create file: %v", err)
-	}
-	defer file.Close()
-	_, err = file.WriteString(formattedName)
-	if err != nil {
-		log.Fatalf("Failed to write to file: %v", err)
-	}
-
-	// 重複したtagを消して、attack_type.jsonを出力する
-	file, err = os.Open(tagsFile)
-	if err != nil {
-		panic(err)
-	}
-	defer file.Close()
-
-	scanner := bufio.NewScanner(file)
-	var content string
-	for scanner.Scan() {
-		content += scanner.Text()
-	}
-
-	if err := scanner.Err(); err != nil {
-		log.Fatalf("Failed to read file: %v", err)
-	}
-
-	items := strings.Split(content, ",")
-
-	seen := make(map[string]bool)
-	var uniqueItems []string
-
-	for _, item := range items {
-		trimmedItem := strings.TrimSpace(item)
-		if _, exists := seen[trimmedItem]; !exists {
-			seen[trimmedItem] = true
-			uniqueItems = append(uniqueItems, trimmedItem)
-		}
-	}
-
-	for _, o := range uniqueItems {
-		at = append(at, &Attack{
-			Type:     types.AttackType(o),
-			Category: types.GetAttackCategory(types.AttackType(o)),
-		})
-	}
-
-	filePath := "attack_types.json"
-	output, err := os.Create(filePath)
-	if err != nil {
-		panic(err)
-	}
-	defer output.Close()
-
-	encoder := json.NewEncoder(output)
-	encoder.SetIndent("", "  ")
-	if err := encoder.Encode(at); err != nil {
-		panic(err)
-	}
-
-	fmt.Println("Successfully saved to attack_types.json")
+	return
 }
 
 func saveVisonaryJson(v []*Visionary) {
@@ -232,7 +167,7 @@ func saveVisonaryJson(v []*Visionary) {
 	fmt.Println("Successfully saved to visonary.json")
 }
 
-func parseYAMLToVisionary(file string, v []*Visionary, tags []string) ([]*Visionary, []string) {
+func parseYAMLToVisionary(file string, v []*Visionary) []*Visionary {
 	data, err := ioutil.ReadFile(file)
 	if err != nil {
 		log.Fatalf("Failed to read file %s: %v", file, err)
@@ -265,7 +200,5 @@ func parseYAMLToVisionary(file string, v []*Visionary, tags []string) ([]*Vision
 		Cpe:            cve.Info.Classification.Cpe,
 	})
 
-	tags = append(tags, cve.Info.Tags)
-
-	return v, tags
+	return v
 }

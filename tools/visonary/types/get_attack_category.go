@@ -41,15447 +41,15447 @@ const (
 	AttackCategoryFinance      AttackCategory = "finance"
 )
 
-func GetAttackCategory(attackType AttackType) AttackCategory {
+func GetAttackCategory(attackType TechType) AttackCategory {
 	switch attackType {
-	case AttackType1001Memosint:
+	case TechType1001Memosint:
 		return AttackCategoryOsint
-	case AttackType10Web:
+	case TechType10Web:
 		return AttackCategoryWeb
-	case AttackType10Webcve:
+	case TechType10Webcve:
 		return AttackCategoryCVE
-	case AttackType10Webcve2021:
+	case TechType10Webcve2021:
 		return AttackCategoryCVE
-	case AttackType10Webcve2023:
+	case TechType10Webcve2023:
 		return AttackCategoryCVE
-	case AttackType11In1Cve:
+	case TechType11In1Cve:
 		return AttackCategoryCVE
-	case AttackType1ForgetokenSpray:
+	case TechType1ForgetokenSpray:
 		return AttackCategoryWeb
-	case AttackType1Password:
+	case TechType1Password:
 		return AttackCategoryWeb
-	case AttackType21Buttonsosint:
+	case TechType21Buttonsosint:
 		return AttackCategoryOsint
-	case AttackType247Sportsosint:
+	case TechType247Sportsosint:
 		return AttackCategoryOsint
-	case AttackType2Codecve:
+	case TechType2Codecve:
 		return AttackCategoryCVE
-	case AttackType2KbAmazonAffiliatesStore:
+	case TechType2KbAmazonAffiliatesStore:
 		return AttackCategoryWeb
-	case AttackType2Kblatercve:
+	case TechType2Kblatercve:
 		return AttackCategoryCVE
-	case AttackType360:
+	case TechType360:
 		return AttackCategoryWeb
-	case AttackType3600:
+	case TechType3600:
 		return AttackCategoryWeb
-	case AttackType3Com:
+	case TechType3Com:
 		return AttackCategoryWeb
-	case AttackType3ComdefaultLogin:
+	case TechType3ComdefaultLogin:
 		return AttackCategoryWeb
-	case AttackType3Cxpanel:
+	case TechType3Cxpanel:
 		return AttackCategoryWeb
-	case AttackType3Dm2Ucmdb:
+	case TechType3Dm2Ucmdb:
 		return AttackCategoryWeb
-	case AttackType3Dnewsosint:
+	case TechType3Dnewsosint:
 		return AttackCategoryOsint
-	case AttackType3Dprintwpscan:
+	case TechType3Dprintwpscan:
 		return AttackCategoryWeb
-	case AttackType3Dtodayosint:
+	case TechType3Dtodayosint:
 		return AttackCategoryOsint
-	case AttackType3Ware:
+	case TechType3Ware:
 		return AttackCategoryWeb
-	case AttackType404To301:
+	case TechType404To301:
 		return AttackCategoryWeb
-	case AttackType4YouStudiocve:
+	case TechType4YouStudiocve:
 		return AttackCategoryCVE
-	case AttackType74Cms:
+	case TechType74Cms:
 		return AttackCategoryWeb
-	case AttackType7Cuposint:
+	case TechType7Cuposint:
 		return AttackCategoryOsint
-	case AttackType7Dachosint:
+	case TechType7Dachosint:
 		return AttackCategoryOsint
-	case AttackType99Robotscve2018:
+	case TechType99Robotscve2018:
 		return AttackCategoryCVE
-	case AttackTypeAfterlogiccve2021:
+	case TechTypeAfterlogiccve2021:
 		return AttackCategoryCVE
-	case AttackTypeAlphawebambari:
+	case TechTypeAlphawebambari:
 		return AttackCategoryWeb
-	case AttackTypeAnyscalecve:
+	case TechTypeAnyscalecve:
 		return AttackCategoryCVE
-	case AttackTypeBankofamerica:
+	case TechTypeBankofamerica:
 		return AttackCategoryWeb
-	case AttackTypeBlogengine:
+	case TechTypeBlogengine:
 		return AttackCategoryWeb
-	case AttackTypeChase:
+	case TechTypeChase:
 		return AttackCategoryWeb
-	case AttackTypeForgejo:
+	case TechTypeForgejo:
 		return AttackCategoryWeb
-	case AttackTypeUserMetapacketstorm:
+	case TechTypeUserMetapacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeA360Incpacketstorm:
+	case TechTypeA360Incpacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeA3Revcve2022:
+	case TechTypeA3Revcve2022:
 		return AttackCategoryCVE
-	case AttackTypeAaExec:
+	case TechTypeAaExec:
 		return AttackCategoryWeb
-	case AttackTypeAahaChatosint:
+	case TechTypeAahaChatosint:
 		return AttackCategoryOsint
-	case AttackTypeAajodapacketstorm:
+	case TechTypeAajodapacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeAbMap:
+	case TechTypeAbMap:
 		return AttackCategoryWeb
-	case AttackTypeAbGoogleMapTravelProjectcve2015:
+	case TechTypeAbGoogleMapTravelProjectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeAbbott:
+	case TechTypeAbbott:
 		return AttackCategoryWeb
-	case AttackTypeAbhinavsinghcve:
+	case TechTypeAbhinavsinghcve:
 		return AttackCategoryCVE
-	case AttackTypeAboutmeosint:
+	case TechTypeAboutmeosint:
 		return AttackCategoryOsint
-	case AttackTypeAbstractapitokenSpray:
+	case TechTypeAbstractapitokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeAbuseipdbtokenSpray:
+	case TechTypeAbuseipdbtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeAcademy:
+	case TechTypeAcademy:
 		return AttackCategoryWeb
-	case AttackTypeAcademylms:
+	case TechTypeAcademylms:
 		return AttackCategoryWeb
-	case AttackTypeAccela:
+	case TechTypeAccela:
 		return AttackCategoryWeb
-	case AttackTypeAccellionkiwitcms:
+	case TechTypeAccellionkiwitcms:
 		return AttackCategoryWeb
-	case AttackTypeAccent:
+	case TechTypeAccent:
 		return AttackCategoryWeb
-	case AttackTypeAccessControlcve:
+	case TechTypeAccessControlcve:
 		return AttackCategoryCVE
-	case AttackTypeAccessallycve:
+	case TechTypeAccessallycve:
 		return AttackCategoryCVE
-	case AttackTypeAccesskeybittrex:
+	case TechTypeAccesskeybittrex:
 		return AttackCategoryWeb
-	case AttackTypeAccesskeyfacebook:
+	case TechTypeAccesskeyfacebook:
 		return AttackCategoryWeb
-	case AttackTypeAccessmanager:
+	case TechTypeAccessmanager:
 		return AttackCategoryWeb
-	case AttackTypeAccountTakeover:
+	case TechTypeAccountTakeover:
 		return AttackCategoryWeb
-	case AttackTypeAccueil:
+	case TechTypeAccueil:
 		return AttackCategoryWeb
-	case AttackTypeAccuweathertokenSpray:
+	case TechTypeAccuweathertokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeAceadminadobe:
+	case TechTypeAceadminadobe:
 		return AttackCategoryWeb
-	case AttackTypeAcemanager:
+	case TechTypeAcemanager:
 		return AttackCategoryWeb
-	case AttackTypeAcenet:
+	case TechTypeAcenet:
 		return AttackCategoryWeb
-	case AttackTypeAcereporter:
+	case TechTypeAcereporter:
 		return AttackCategoryWeb
-	case AttackTypeAcereporterpanel:
+	case TechTypeAcereporterpanel:
 		return AttackCategoryWeb
-	case AttackTypeAcexy:
+	case TechTypeAcexy:
 		return AttackCategoryWeb
-	case AttackTypeAcfToRestApiProjectcve2020:
+	case TechTypeAcfToRestApiProjectcve2020:
 		return AttackCategoryCVE
-	case AttackTypeAcfosint:
+	case TechTypeAcfosint:
 		return AttackCategoryOsint
-	case AttackTypeAcheckerpanel:
+	case TechTypeAcheckerpanel:
 		return AttackCategoryWeb
-	case AttackTypeAckee:
+	case TechTypeAckee:
 		return AttackCategoryWeb
-	case AttackTypeAcketstormtpshop:
+	case TechTypeAcketstormtpshop:
 		return AttackCategoryWeb
-	case AttackTypeAcm:
+	case TechTypeAcm:
 		return AttackCategoryWeb
-	case AttackTypeAcmeacti:
+	case TechTypeAcmeacti:
 		return AttackCategoryWeb
-	case AttackTypeAcmecve2018:
+	case TechTypeAcmecve2018:
 		return AttackCategoryCVE
-	case AttackTypeAcontentacsoft:
+	case TechTypeAcontentacsoft:
 		return AttackCategoryWeb
-	case AttackTypeAcquiacve2021:
+	case TechTypeAcquiacve2021:
 		return AttackCategoryCVE
-	case AttackTypeAcrolinx:
+	case TechTypeAcrolinx:
 		return AttackCategoryWeb
-	case AttackTypeAcs:
+	case TechTypeAcs:
 		return AttackCategoryWeb
-	case AttackTypeActiveadminpanel:
+	case TechTypeActiveadminpanel:
 		return AttackCategoryWeb
-	case AttackTypeActivecollabmisconfig:
+	case TechTypeActivecollabmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeActivecollabtech:
+	case TechTypeActivecollabtech:
 		return AttackCategoryWeb
-	case AttackTypeActivehelpercve2014:
+	case TechTypeActivehelpercve2014:
 		return AttackCategoryCVE
-	case AttackTypeActivemq:
+	case TechTypeActivemq:
 		return AttackCategoryWeb
-	case AttackTypeActuator:
+	case TechTypeActuator:
 		return AttackCategoryWeb
-	case AttackTypeActuatortech:
+	case TechTypeActuatortech:
 		return AttackCategoryWeb
-	case AttackTypeAcunetixmisconfig:
+	case TechTypeAcunetixmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeAcunetixpanelpanel:
+	case TechTypeAcunetixpanelpanel:
 		return AttackCategoryWeb
-	case AttackTypeAcymailingcve2021:
+	case TechTypeAcymailingcve2021:
 		return AttackCategoryCVE
-	case AttackTypeAd:
+	case TechTypeAd:
 		return AttackCategoryWeb
-	case AttackTypeAdHoc:
+	case TechTypeAdHoc:
 		return AttackCategoryWeb
-	case AttackTypeAdwidget:
+	case TechTypeAdwidget:
 		return AttackCategoryWeb
-	case AttackTypeAdInserterProProjectcve2022:
+	case TechTypeAdInserterProProjectcve2022:
 		return AttackCategoryCVE
-	case AttackTypeAdafruittokenSpray:
+	case TechTypeAdafruittokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeAdb:
+	case TechTypeAdb:
 		return AttackCategoryWeb
-	case AttackTypeAdbcve2015:
+	case TechTypeAdbcve2015:
 		return AttackCategoryCVE
-	case AttackTypeAdc:
+	case TechTypeAdc:
 		return AttackCategoryWeb
-	case AttackTypeAdccve2023:
+	case TechTypeAdccve2023:
 		return AttackCategoryCVE
-	case AttackTypeAddon:
+	case TechTypeAddon:
 		return AttackCategoryWeb
-	case AttackTypeAddpac:
+	case TechTypeAddpac:
 		return AttackCategoryWeb
-	case AttackTypeAdenioncve2021:
+	case TechTypeAdenioncve2021:
 		return AttackCategoryCVE
-	case AttackTypeAdenioncve2023:
+	case TechTypeAdenioncve2023:
 		return AttackCategoryCVE
-	case AttackTypeAdfstech:
+	case TechTypeAdfstech:
 		return AttackCategoryWeb
-	case AttackTypeAdiscon:
+	case TechTypeAdiscon:
 		return AttackCategoryWeb
-	case AttackTypeAdisconLoganalyzercve2023:
+	case TechTypeAdisconLoganalyzercve2023:
 		return AttackCategoryCVE
-	case AttackTypeAdivaha:
+	case TechTypeAdivaha:
 		return AttackCategoryWeb
-	case AttackTypeAdlisting:
+	case TechTypeAdlisting:
 		return AttackCategoryWeb
-	case AttackTypeAdmanager:
+	case TechTypeAdmanager:
 		return AttackCategoryWeb
-	case AttackTypeAdmidio:
+	case TechTypeAdmidio:
 		return AttackCategoryWeb
-	case AttackTypeAdmin:
+	case TechTypeAdmin:
 		return AttackCategoryWeb
-	case AttackTypeAdminBypass:
+	case TechTypeAdminBypass:
 		return AttackCategoryWeb
-	case AttackTypeAdminFontEditorProjectcve2016:
+	case TechTypeAdminFontEditorProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeAdminWordCountColumnProjectcve:
+	case TechTypeAdminWordCountColumnProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeAdminbarracuda:
+	case TechTypeAdminbarracuda:
 		return AttackCategoryWeb
-	case AttackTypeAdminer:
+	case TechTypeAdminer:
 		return AttackCategoryWeb
-	case AttackTypeAdmineradminset:
+	case TechTypeAdmineradminset:
 		return AttackCategoryWeb
-	case AttackTypeAdmineraem:
+	case TechTypeAdmineraem:
 		return AttackCategoryWeb
-	case AttackTypeAdminpanel:
+	case TechTypeAdminpanel:
 		return AttackCategoryWeb
-	case AttackTypeAdmiralcloud:
+	case TechTypeAdmiralcloud:
 		return AttackCategoryCloud
-	case AttackTypeAdmireMeosint:
+	case TechTypeAdmireMeosint:
 		return AttackCategoryOsint
-	case AttackTypeAdobe:
+	case TechTypeAdobe:
 		return AttackCategoryWeb
-	case AttackTypeAdobeaem:
+	case TechTypeAdobeaem:
 		return AttackCategoryWeb
-	case AttackTypeAdobecanal:
+	case TechTypeAdobecanal:
 		return AttackCategoryWeb
-	case AttackTypeAdobecve:
+	case TechTypeAdobecve:
 		return AttackCategoryCVE
-	case AttackTypeAdobecve2021:
+	case TechTypeAdobecve2021:
 		return AttackCategoryCVE
-	case AttackTypeAdobedefaultLogin:
+	case TechTypeAdobedefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeAdobemisconfig:
+	case TechTypeAdobemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeAdobepanel:
+	case TechTypeAdobepanel:
 		return AttackCategoryWeb
-	case AttackTypeAdobetech:
+	case TechTypeAdobetech:
 		return AttackCategoryWeb
-	case AttackTypeAdoptapettokenSpray:
+	case TechTypeAdoptapettokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeAdserver:
+	case TechTypeAdserver:
 		return AttackCategoryWeb
-	case AttackTypeAdultForumosint:
+	case TechTypeAdultForumosint:
 		return AttackCategoryOsint
-	case AttackTypeAdultismosint:
+	case TechTypeAdultismosint:
 		return AttackCategoryOsint
-	case AttackTypeAdvanceCustomField:
+	case TechTypeAdvanceCustomField:
 		return AttackCategoryWeb
-	case AttackTypeAdvancedBookingCalendar:
+	case TechTypeAdvancedBookingCalendar:
 		return AttackCategoryWeb
-	case AttackTypeAdvancedCommentSystemProjectcve:
+	case TechTypeAdvancedCommentSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeAdvancedcustomfieldscve2023:
+	case TechTypeAdvancedcustomfieldscve2023:
 		return AttackCategoryCVE
-	case AttackTypeAdvancedpopupcreator:
+	case TechTypeAdvancedpopupcreator:
 		return AttackCategoryWeb
-	case AttackTypeAdvantechcve2021:
+	case TechTypeAdvantechcve2021:
 		return AttackCategoryCVE
-	case AttackTypeAdvfnosint:
+	case TechTypeAdvfnosint:
 		return AttackCategoryOsint
-	case AttackTypeAem:
+	case TechTypeAem:
 		return AttackCategoryWeb
-	case AttackTypeAemcve2016:
+	case TechTypeAemcve2016:
 		return AttackCategoryCVE
-	case AttackTypeAerocmstech:
+	case TechTypeAerocmstech:
 		return AttackCategoryWeb
-	case AttackTypeAerohivepanel:
+	case TechTypeAerohivepanel:
 		return AttackCategoryWeb
-	case AttackTypeAffiliatefeedscve2010:
+	case TechTypeAffiliatefeedscve2010:
 		return AttackCategoryCVE
-	case AttackTypeAffiliatesManager:
+	case TechTypeAffiliatesManager:
 		return AttackCategoryWeb
-	case AttackTypeAflamosint:
+	case TechTypeAflamosint:
 		return AttackCategoryOsint
-	case AttackTypeAfterlogic:
+	case TechTypeAfterlogic:
 		return AttackCategoryWeb
-	case AttackTypeAgeGate:
+	case TechTypeAgeGate:
 		return AttackCategoryWeb
-	case AttackTypeAgeVerification:
+	case TechTypeAgeVerification:
 		return AttackCategoryWeb
-	case AttackTypeAgeVerificationProjectcve2013:
+	case TechTypeAgeVerificationProjectcve2013:
 		return AttackCategoryCVE
-	case AttackTypeAgentejo:
+	case TechTypeAgentejo:
 		return AttackCategoryWeb
-	case AttackTypeAgentejocve:
+	case TechTypeAgentejocve:
 		return AttackCategoryCVE
-	case AttackTypeAgentejocve2023:
+	case TechTypeAgentejocve2023:
 		return AttackCategoryCVE
-	case AttackTypeAgilecrmtakeovertakeover:
+	case TechTypeAgilecrmtakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeAicloud:
+	case TechTypeAicloud:
 		return AttackCategoryCloud
-	case AttackTypeAimspanel:
+	case TechTypeAimspanel:
 		return AttackCategoryAI
-	case AttackTypeAiohttp:
+	case TechTypeAiohttp:
 		return AttackCategoryAI
-	case AttackTypeAircube:
+	case TechTypeAircube:
 		return AttackCategoryAI
-	case AttackTypeAircubepanel:
+	case TechTypeAircubepanel:
 		return AttackCategoryAI
-	case AttackTypeAireetakeovertakeover:
+	case TechTypeAireetakeovertakeover:
 		return AttackCategoryAI
-	case AttackTypeAirflow:
+	case TechTypeAirflow:
 		return AttackCategoryAI
-	case AttackTypeAirlinePilotLifeosint:
+	case TechTypeAirlinePilotLifeosint:
 		return AttackCategoryOsint
-	case AttackTypeAirlinersosint:
+	case TechTypeAirlinersosint:
 		return AttackCategoryOsint
-	case AttackTypeAirnotifierpanel:
+	case TechTypeAirnotifierpanel:
 		return AttackCategoryAI
-	case AttackTypeAirtabletokenSpray:
+	case TechTypeAirtabletokenSpray:
 		return AttackCategoryAI
-	case AttackTypeAirtame:
+	case TechTypeAirtame:
 		return AttackCategoryAI
-	case AttackTypeAitCsv:
+	case TechTypeAitCsv:
 		return AttackCategoryAI
-	case AttackTypeAitProcve2021:
+	case TechTypeAitProcve2021:
 		return AttackCategoryCVE
-	case AttackTypeAix:
+	case TechTypeAix:
 		return AttackCategoryAI
-	case AttackTypeAjReport:
+	case TechTypeAjReport:
 		return AttackCategoryWeb
-	case AttackTypeAjaxRandomPostProjectcve2016:
+	case TechTypeAjaxRandomPostProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeAjaxreg:
+	case TechTypeAjaxreg:
 		return AttackCategoryWeb
-	case AttackTypeAjaydsouzacve2023:
+	case TechTypeAjaydsouzacve2023:
 		return AttackCategoryCVE
-	case AttackTypeAjp:
+	case TechTypeAjp:
 		return AttackCategoryWeb
-	case AttackTypeAkamai:
+	case TechTypeAkamai:
 		return AttackCategoryAI
-	case AttackTypeAkamaiakhq:
+	case TechTypeAkamaiakhq:
 		return AttackCategoryAI
-	case AttackTypeAkeeba:
+	case TechTypeAkeeba:
 		return AttackCategoryWeb
-	case AttackTypeAkkadian:
+	case TechTypeAkkadian:
 		return AttackCategoryWeb
-	case AttackTypeAkkadianlabscve:
+	case TechTypeAkkadianlabscve:
 		return AttackCategoryCVE
-	case AttackTypeAknigaosint:
+	case TechTypeAknigaosint:
 		return AttackCategoryOsint
-	case AttackTypeAlb:
+	case TechTypeAlb:
 		return AttackCategoryWeb
-	case AttackTypeAlbiclaosint:
+	case TechTypeAlbiclaosint:
 		return AttackCategoryOsint
-	case AttackTypeAlcatel:
+	case TechTypeAlcatel:
 		return AttackCategoryWeb
-	case AttackTypeAlcatelLucentcve2007:
+	case TechTypeAlcatelLucentcve2007:
 		return AttackCategoryCVE
-	case AttackTypeAlchemytokenSpray:
+	case TechTypeAlchemytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeAlcodacve2021:
+	case TechTypeAlcodacve2021:
 		return AttackCategoryCVE
-	case AttackTypeAlerta:
+	case TechTypeAlerta:
 		return AttackCategoryWeb
-	case AttackTypeAlertaProjectcve:
+	case TechTypeAlertaProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeAlertmanager:
+	case TechTypeAlertmanager:
 		return AttackCategoryWeb
-	case AttackTypeAlfrescocve:
+	case TechTypeAlfrescocve:
 		return AttackCategoryCVE
-	case AttackTypeAlgolpluscve2021:
+	case TechTypeAlgolpluscve2021:
 		return AttackCategoryCVE
-	case AttackTypeAlgonomia:
+	case TechTypeAlgonomia:
 		return AttackCategoryWeb
-	case AttackTypeAlibaba:
+	case TechTypeAlibaba:
 		return AttackCategoryWeb
-	case AttackTypeAlibabaconfig:
+	case TechTypeAlibabaconfig:
 		return AttackCategoryWeb
-	case AttackTypeAlibabacve2021:
+	case TechTypeAlibabacve2021:
 		return AttackCategoryCVE
-	case AttackTypeAlibabanagios:
+	case TechTypeAlibabanagios:
 		return AttackCategoryWeb
-	case AttackTypeAlienvault:
+	case TechTypeAlienvault:
 		return AttackCategoryWeb
-	case AttackTypeAlienvaultpanel:
+	case TechTypeAlienvaultpanel:
 		return AttackCategoryWeb
-	case AttackTypeAliexpress:
+	case TechTypeAliexpress:
 		return AttackCategoryWeb
-	case AttackTypeAlikosint:
+	case TechTypeAlikosint:
 		return AttackCategoryOsint
-	case AttackTypeAlkaconcve:
+	case TechTypeAlkaconcve:
 		return AttackCategoryCVE
-	case AttackTypeAlkaconwpscan:
+	case TechTypeAlkaconwpscan:
 		return AttackCategoryWeb
-	case AttackTypeAllInOneVideoGallery:
+	case TechTypeAllInOneVideoGallery:
 		return AttackCategoryWeb
-	case AttackTypeAllInOneWpMigration:
+	case TechTypeAllInOneWpMigration:
 		return AttackCategoryWeb
-	case AttackTypeAllesovercryptoosint:
+	case TechTypeAllesovercryptoosint:
 		return AttackCategoryOsint
-	case AttackTypeAllied:
+	case TechTypeAllied:
 		return AttackCategoryWeb
-	case AttackTypeAlliedTelesispanel:
+	case TechTypeAlliedTelesispanel:
 		return AttackCategoryWeb
-	case AttackTypeAlliedtelesiscve:
+	case TechTypeAlliedtelesiscve:
 		return AttackCategoryCVE
-	case AttackTypeAllmylinksosint:
+	case TechTypeAllmylinksosint:
 		return AttackCategoryOsint
-	case AttackTypeAllnetdefaultLogin:
+	case TechTypeAllnetdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeAlloannoncesosint:
+	case TechTypeAlloannoncesosint:
 		return AttackCategoryOsint
-	case AttackTypeAlltrailsosint:
+	case TechTypeAlltrailsosint:
 		return AttackCategoryOsint
-	case AttackTypeAlltube:
+	case TechTypeAlltube:
 		return AttackCategoryWeb
-	case AttackTypeAlltubeProjectcve2022:
+	case TechTypeAlltubeProjectcve2022:
 		return AttackCategoryCVE
-	case AttackTypeAlma:
+	case TechTypeAlma:
 		return AttackCategoryWeb
-	case AttackTypeAlphaplugcve:
+	case TechTypeAlphaplugcve:
 		return AttackCategoryCVE
-	case AttackTypeAlquist:
+	case TechTypeAlquist:
 		return AttackCategoryWeb
-	case AttackTypeAlquistaicve2021:
+	case TechTypeAlquistaicve2021:
 		return AttackCategoryCVE
-	case AttackTypeAltenergy:
+	case TechTypeAltenergy:
 		return AttackCategoryWeb
-	case AttackTypeAltn:
+	case TechTypeAltn:
 		return AttackCategoryWeb
-	case AttackTypeAlumnicve:
+	case TechTypeAlumnicve:
 		return AttackCategoryCVE
-	case AttackTypeAmazon:
+	case TechTypeAmazon:
 		return AttackCategoryWeb
-	case AttackTypeAmazonWebServices:
+	case TechTypeAmazonWebServices:
 		return AttackCategoryWeb
-	case AttackTypeAmazonapache:
+	case TechTypeAmazonapache:
 		return AttackCategoryWeb
-	case AttackTypeAmazonaws:
+	case TechTypeAmazonaws:
 		return AttackCategoryCloud
-	case AttackTypeAmazondisclosure:
+	case TechTypeAmazondisclosure:
 		return AttackCategoryWeb
-	case AttackTypeAmazone:
+	case TechTypeAmazone:
 		return AttackCategoryWeb
-	case AttackTypeAmazonecology:
+	case TechTypeAmazonecology:
 		return AttackCategoryWeb
-	case AttackTypeAmazonexposure:
+	case TechTypeAmazonexposure:
 		return AttackCategoryWeb
-	case AttackTypeAmazonmisconfig:
+	case TechTypeAmazonmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeAmazonpanel:
+	case TechTypeAmazonpanel:
 		return AttackCategoryWeb
-	case AttackTypeAmazontech:
+	case TechTypeAmazontech:
 		return AttackCategoryWeb
-	case AttackTypeAmbari:
+	case TechTypeAmbari:
 		return AttackCategoryWeb
-	case AttackTypeAmbassador:
+	case TechTypeAmbassador:
 		return AttackCategoryWeb
-	case AttackTypeAmcrest:
+	case TechTypeAmcrest:
 		return AttackCategoryWeb
-	case AttackTypeAmdorentokenSpray:
+	case TechTypeAmdorentokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeAmebloosint:
+	case TechTypeAmebloosint:
 		return AttackCategoryOsint
-	case AttackTypeAmentotechcve2021:
+	case TechTypeAmentotechcve2021:
 		return AttackCategoryCVE
-	case AttackTypeAmericanExpress:
+	case TechTypeAmericanExpress:
 		return AttackCategoryWeb
-	case AttackTypeAmericanthinkerosint:
+	case TechTypeAmericanthinkerosint:
 		return AttackCategoryOsint
-	case AttackTypeAmetys:
+	case TechTypeAmetys:
 		return AttackCategoryWeb
-	case AttackTypeAmi:
+	case TechTypeAmi:
 		return AttackCategoryWeb
-	case AttackTypeAmp:
+	case TechTypeAmp:
 		return AttackCategoryWeb
-	case AttackTypeAmpache:
+	case TechTypeAmpache:
 		return AttackCategoryWeb
-	case AttackTypeAmpachepanel:
+	case TechTypeAmpachepanel:
 		return AttackCategoryWeb
-	case AttackTypeAmpjukeairflow:
+	case TechTypeAmpjukeairflow:
 		return AttackCategoryAI
-	case AttackTypeAmpps:
+	case TechTypeAmpps:
 		return AttackCategoryWeb
-	case AttackTypeAmprion:
+	case TechTypeAmprion:
 		return AttackCategoryWeb
-	case AttackTypeAmt:
+	case TechTypeAmt:
 		return AttackCategoryWeb
-	case AttackTypeAmtythumbProjectcve:
+	case TechTypeAmtythumbProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeAnalyticsInsightscve:
+	case TechTypeAnalyticsInsightscve:
 		return AttackCategoryCVE
-	case AttackTypeAnalyticsapi:
+	case TechTypeAnalyticsapi:
 		return AttackCategoryWeb
-	case AttackTypeAnalytify:
+	case TechTypeAnalytify:
 		return AttackCategoryWeb
-	case AttackTypeAnchorcms:
+	case TechTypeAnchorcms:
 		return AttackCategoryWeb
-	case AttackTypeAndroid:
+	case TechTypeAndroid:
 		return AttackCategoryWeb
-	case AttackTypeAngtechcve2022:
+	case TechTypeAngtechcve2022:
 		return AttackCategoryCVE
-	case AttackTypeAngular:
+	case TechTypeAngular:
 		return AttackCategoryWeb
-	case AttackTypeAngularjs:
+	case TechTypeAngularjs:
 		return AttackCategoryWeb
-	case AttackTypeAngulartech:
+	case TechTypeAngulartech:
 		return AttackCategoryWeb
-	case AttackTypeAniapitokenSpray:
+	case TechTypeAniapitokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeAnimeplanetosint:
+	case TechTypeAnimeplanetosint:
 		return AttackCategoryOsint
-	case AttackTypeAnnouncekittakeover:
+	case TechTypeAnnouncekittakeover:
 		return AttackCategoryWeb
-	case AttackTypeAnobiiosint:
+	case TechTypeAnobiiosint:
 		return AttackCategoryOsint
-	case AttackTypeAnonuposint:
+	case TechTypeAnonuposint:
 		return AttackCategoryOsint
-	case AttackTypeAnonymous:
+	case TechTypeAnonymous:
 		return AttackCategoryWeb
-	case AttackTypeAnshulSharmacve2013:
+	case TechTypeAnshulSharmacve2013:
 		return AttackCategoryCVE
-	case AttackTypeAnsiUpProject:
+	case TechTypeAnsiUpProject:
 		return AttackCategoryWeb
-	case AttackTypeAnsible:
+	case TechTypeAnsible:
 		return AttackCategoryWeb
-	case AttackTypeAntiMalwareSecurityAndBruteForceFirewallProjectcve:
+	case TechTypeAntiMalwareSecurityAndBruteForceFirewallProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeAntiPlagiarismProjectcve2016:
+	case TechTypeAntiPlagiarismProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeAntswordbackdoor:
+	case TechTypeAntswordbackdoor:
 		return AttackCategoryWeb
-	case AttackTypeAnycomment:
+	case TechTypeAnycomment:
 		return AttackCategoryWeb
-	case AttackTypeAnydesk:
+	case TechTypeAnydesk:
 		return AttackCategoryWeb
-	case AttackTypeAnyproxy:
+	case TechTypeAnyproxy:
 		return AttackCategoryWeb
-	case AttackTypeAnyscale:
+	case TechTypeAnyscale:
 		return AttackCategoryWeb
-	case AttackTypeApPricingTablesLite:
+	case TechTypeApPricingTablesLite:
 		return AttackCategoryWeb
-	case AttackTypeApache:
+	case TechTypeApache:
 		return AttackCategoryWeb
-	case AttackTypeApacheapache:
+	case TechTypeApacheapache:
 		return AttackCategoryWeb
-	case AttackTypeApacheapisix:
+	case TechTypeApacheapisix:
 		return AttackCategoryWeb
-	case AttackTypeApacheapollo:
+	case TechTypeApacheapollo:
 		return AttackCategoryWeb
-	case AttackTypeApacheconfig:
+	case TechTypeApacheconfig:
 		return AttackCategoryWeb
-	case AttackTypeApachecve:
+	case TechTypeApachecve:
 		return AttackCategoryCVE
-	case AttackTypeApachecve2010:
+	case TechTypeApachecve2010:
 		return AttackCategoryCVE
-	case AttackTypeApachecve2016:
+	case TechTypeApachecve2016:
 		return AttackCategoryCVE
-	case AttackTypeApachecve2017:
+	case TechTypeApachecve2017:
 		return AttackCategoryCVE
-	case AttackTypeApachecve2020:
+	case TechTypeApachecve2020:
 		return AttackCategoryCVE
-	case AttackTypeApachecve2021:
+	case TechTypeApachecve2021:
 		return AttackCategoryCVE
-	case AttackTypeApachedefaultLogin:
+	case TechTypeApachedefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeApacheedb:
+	case TechTypeApacheedb:
 		return AttackCategoryWeb
-	case AttackTypeApacheexposure:
+	case TechTypeApacheexposure:
 		return AttackCategoryWeb
-	case AttackTypeApachemisconfig:
+	case TechTypeApachemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeApacheopenemr:
+	case TechTypeApacheopenemr:
 		return AttackCategoryWeb
-	case AttackTypeApachepanel:
+	case TechTypeApachepanel:
 		return AttackCategoryWeb
-	case AttackTypeApachepanelpanel:
+	case TechTypeApachepanelpanel:
 		return AttackCategoryWeb
-	case AttackTypeApacherce:
+	case TechTypeApacherce:
 		return AttackCategoryRCE
-	case AttackTypeApachespeedtest:
+	case TechTypeApachespeedtest:
 		return AttackCategoryWeb
-	case AttackTypeApachetech:
+	case TechTypeApachetech:
 		return AttackCategoryWeb
-	case AttackTypeApasionadoscve:
+	case TechTypeApasionadoscve:
 		return AttackCategoryCVE
-	case AttackTypeApcu:
+	case TechTypeApcu:
 		return AttackCategoryWeb
-	case AttackTypeApdiskexposure:
+	case TechTypeApdiskexposure:
 		return AttackCategoryWeb
-	case AttackTypeApereo:
+	case TechTypeApereo:
 		return AttackCategoryWeb
-	case AttackTypeApexLegendsosint:
+	case TechTypeApexLegendsosint:
 		return AttackCategoryOsint
-	case AttackTypeApi:
+	case TechTypeApi:
 		return AttackCategoryWeb
-	case AttackTypeApi2ConverttokenSpray:
+	case TechTypeApi2ConverttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeApiBearerAuthProjectcve:
+	case TechTypeApiBearerAuthProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeApiconfig:
+	case TechTypeApiconfig:
 		return AttackCategoryWeb
-	case AttackTypeApiexposure:
+	case TechTypeApiexposure:
 		return AttackCategoryWeb
-	case AttackTypeApiflashtokenSpray:
+	case TechTypeApiflashtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeApigee:
+	case TechTypeApigee:
 		return AttackCategoryWeb
-	case AttackTypeApigeetokenSpray:
+	case TechTypeApigeetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeApikeyexposure:
+	case TechTypeApikeyexposure:
 		return AttackCategoryWeb
-	case AttackTypeApiliferay:
+	case TechTypeApiliferay:
 		return AttackCategoryWeb
-	case AttackTypeApim:
+	case TechTypeApim:
 		return AttackCategoryWeb
-	case AttackTypeApimanpanel:
+	case TechTypeApimanpanel:
 		return AttackCategoryWeb
-	case AttackTypeApisix:
+	case TechTypeApisix:
 		return AttackCategoryWeb
-	case AttackTypeApisixcve:
+	case TechTypeApisixcve:
 		return AttackCategoryCVE
-	case AttackTypeApisixcve2021:
+	case TechTypeApisixcve2021:
 		return AttackCategoryCVE
-	case AttackTypeApitech:
+	case TechTypeApitech:
 		return AttackCategoryWeb
-	case AttackTypeApollo:
+	case TechTypeApollo:
 		return AttackCategoryWeb
-	case AttackTypeApolloadminserviceapple:
+	case TechTypeApolloadminserviceapple:
 		return AttackCategoryWeb
-	case AttackTypeApollothemecve:
+	case TechTypeApollothemecve:
 		return AttackCategoryCVE
-	case AttackTypeApos:
+	case TechTypeApos:
 		return AttackCategoryWeb
-	case AttackTypeApp:
+	case TechTypeApp:
 		return AttackCategoryWeb
-	case AttackTypeAppcms:
+	case TechTypeAppcms:
 		return AttackCategoryWeb
-	case AttackTypeAppcmstech:
+	case TechTypeAppcmstech:
 		return AttackCategoryWeb
-	case AttackTypeAppianosint:
+	case TechTypeAppianosint:
 		return AttackCategoryOsint
-	case AttackTypeAppium:
+	case TechTypeAppium:
 		return AttackCategoryWeb
-	case AttackTypeAppjettycve2022:
+	case TechTypeAppjettycve2022:
 		return AttackCategoryCVE
-	case AttackTypeApple:
+	case TechTypeApple:
 		return AttackCategoryWeb
-	case AttackTypeApplemiscellaneous:
+	case TechTypeApplemiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypeApplezeedexploitdb:
+	case TechTypeApplezeedexploitdb:
 		return AttackCategoryWeb
-	case AttackTypeAppservOpenProjectcve:
+	case TechTypeAppservOpenProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeAppsmithappspace:
+	case TechTypeAppsmithappspace:
 		return AttackCategoryWeb
-	case AttackTypeAppspace:
+	case TechTypeAppspace:
 		return AttackCategoryWeb
-	case AttackTypeAppsuite:
+	case TechTypeAppsuite:
 		return AttackCategoryWeb
-	case AttackTypeAppveyortokenSpray:
+	case TechTypeAppveyortokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeAppweb:
+	case TechTypeAppweb:
 		return AttackCategoryWeb
-	case AttackTypeAppwrite:
+	case TechTypeAppwrite:
 		return AttackCategoryWeb
-	case AttackTypeApsystemscve:
+	case TechTypeApsystemscve:
 		return AttackCategoryCVE
-	case AttackTypeAptanacve:
+	case TechTypeAptanacve:
 		return AttackCategoryCVE
-	case AttackTypeAptekaosint:
+	case TechTypeAptekaosint:
 		return AttackCategoryOsint
-	case AttackTypeAptus:
+	case TechTypeAptus:
 		return AttackCategoryWeb
-	case AttackTypeAptuspanel:
+	case TechTypeAptuspanel:
 		return AttackCategoryWeb
-	case AttackTypeAqua:
+	case TechTypeAqua:
 		return AttackCategoryWeb
-	case AttackTypeAquaapi:
+	case TechTypeAquaapi:
 		return AttackCategoryWeb
-	case AttackTypeAquasecpanel:
+	case TechTypeAquasecpanel:
 		return AttackCategoryWeb
-	case AttackTypeAquatronica:
+	case TechTypeAquatronica:
 		return AttackCategoryWeb
-	case AttackTypeArangodb:
+	case TechTypeArangodb:
 		return AttackCategoryWeb
-	case AttackTypeArcgis:
+	case TechTypeArcgis:
 		return AttackCategoryWeb
-	case AttackTypeArchibuspanel:
+	case TechTypeArchibuspanel:
 		return AttackCategoryWeb
-	case AttackTypeArchiveOfOurOwnAccountosint:
+	case TechTypeArchiveOfOurOwnAccountosint:
 		return AttackCategoryOsint
-	case AttackTypeArcserve:
+	case TechTypeArcserve:
 		return AttackCategoryWeb
-	case AttackTypeArduinoosint:
+	case TechTypeArduinoosint:
 		return AttackCategoryOsint
-	case AttackTypeAres:
+	case TechTypeAres:
 		return AttackCategoryWeb
-	case AttackTypeArgocd:
+	case TechTypeArgocd:
 		return AttackCategoryWeb
-	case AttackTypeArgussurveillance:
+	case TechTypeArgussurveillance:
 		return AttackCategoryWeb
-	case AttackTypeAria:
+	case TechTypeAria:
 		return AttackCategoryWeb
-	case AttackTypeAria2:
+	case TechTypeAria2:
 		return AttackCategoryWeb
-	case AttackTypeArkextensions:
+	case TechTypeArkextensions:
 		return AttackCategoryWeb
-	case AttackTypeArmemberMembership:
+	case TechTypeArmemberMembership:
 		return AttackCategoryWeb
-	case AttackTypeArmemberplugincve:
+	case TechTypeArmemberplugincve:
 		return AttackCategoryCVE
-	case AttackTypeArmorgamesosint:
+	case TechTypeArmorgamesosint:
 		return AttackCategoryOsint
-	case AttackTypeArpriceResponsivePricingTable:
+	case TechTypeArpriceResponsivePricingTable:
 		return AttackCategoryWeb
-	case AttackTypeArrayvpnasanhamayesh:
+	case TechTypeArrayvpnasanhamayesh:
 		return AttackCategoryVPN
-	case AttackTypeArris:
+	case TechTypeArris:
 		return AttackCategoryWeb
-	case AttackTypeArt:
+	case TechTypeArt:
 		return AttackCategoryWeb
-	case AttackTypeArtGalleryManagementSystemProject:
+	case TechTypeArtGalleryManagementSystemProject:
 		return AttackCategoryWeb
-	case AttackTypeArtbreederosint:
+	case TechTypeArtbreederosint:
 		return AttackCategoryOsint
-	case AttackTypeArtica:
+	case TechTypeArtica:
 		return AttackCategoryWeb
-	case AttackTypeArticacve:
+	case TechTypeArticacve:
 		return AttackCategoryCVE
-	case AttackTypeArticatech:
+	case TechTypeArticatech:
 		return AttackCategoryWeb
-	case AttackTypeArticatechcve:
+	case TechTypeArticatechcve:
 		return AttackCategoryCVE
-	case AttackTypeArticatechcve2020:
+	case TechTypeArticatechcve2020:
 		return AttackCategoryCVE
-	case AttackTypeArticatechcve2022:
+	case TechTypeArticatechcve2022:
 		return AttackCategoryCVE
-	case AttackTypeArtifactory:
+	case TechTypeArtifactory:
 		return AttackCategoryWeb
-	case AttackTypeArtifactoryasana:
+	case TechTypeArtifactoryasana:
 		return AttackCategoryWeb
-	case AttackTypeArtifactoryexposure:
+	case TechTypeArtifactoryexposure:
 		return AttackCategoryWeb
-	case AttackTypeArtisanworkshopcve:
+	case TechTypeArtisanworkshopcve:
 		return AttackCategoryCVE
-	case AttackTypeArtisanworkshopcve2023:
+	case TechTypeArtisanworkshopcve2023:
 		return AttackCategoryCVE
-	case AttackTypeArtistsClientsosint:
+	case TechTypeArtistsClientsosint:
 		return AttackCategoryOsint
-	case AttackTypeArtstationosint:
+	case TechTypeArtstationosint:
 		return AttackCategoryOsint
-	case AttackTypeAruba:
+	case TechTypeAruba:
 		return AttackCategoryWeb
-	case AttackTypeArubanetworkspanel:
+	case TechTypeArubanetworkspanel:
 		return AttackCategoryWeb
-	case AttackTypeAryaniccve2020:
+	case TechTypeAryaniccve2020:
 		return AttackCategoryCVE
-	case AttackTypeAryanicpanel:
+	case TechTypeAryanicpanel:
 		return AttackCategoryWeb
-	case AttackTypeAsa:
+	case TechTypeAsa:
 		return AttackCategoryWeb
-	case AttackTypeAsanatokenSpray:
+	case TechTypeAsanatokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeAsciinemaosint:
+	case TechTypeAsciinemaosint:
 		return AttackCategoryOsint
-	case AttackTypeAsgarosForum:
+	case TechTypeAsgarosForum:
 		return AttackCategoryWeb
-	case AttackTypeAsgaroscve2021:
+	case TechTypeAsgaroscve2021:
 		return AttackCategoryCVE
-	case AttackTypeAsh:
+	case TechTypeAsh:
 		return AttackCategoryWeb
-	case AttackTypeAskfmosint:
+	case TechTypeAskfmosint:
 		return AttackCategoryOsint
-	case AttackTypeAsmx:
+	case TechTypeAsmx:
 		return AttackCategoryWeb
-	case AttackTypeAsp:
+	case TechTypeAsp:
 		return AttackCategoryWeb
-	case AttackTypeAspNetcve2020:
+	case TechTypeAspNetcve2020:
 		return AttackCategoryCVE
-	case AttackTypeAspcms:
+	case TechTypeAspcms:
 		return AttackCategoryWeb
-	case AttackTypeAspect:
+	case TechTypeAspect:
 		return AttackCategoryWeb
-	case AttackTypeAspera:
+	case TechTypeAspera:
 		return AttackCategoryWeb
-	case AttackTypeAspnetaspnetmvc:
+	case TechTypeAspnetaspnetmvc:
 		return AttackCategoryWeb
-	case AttackTypeAspnuke:
+	case TechTypeAspnuke:
 		return AttackCategoryWeb
-	case AttackTypeAspose:
+	case TechTypeAspose:
 		return AttackCategoryWeb
-	case AttackTypeAsptech:
+	case TechTypeAsptech:
 		return AttackCategoryWeb
-	case AttackTypeAsus:
+	case TechTypeAsus:
 		return AttackCategoryWeb
-	case AttackTypeAsyncratssl:
+	case TechTypeAsyncratssl:
 		return AttackCategoryWeb
-	case AttackTypeAtechmedia:
+	case TechTypeAtechmedia:
 		return AttackCategoryWeb
-	case AttackTypeAtg:
+	case TechTypeAtg:
 		return AttackCategoryWeb
-	case AttackTypeAtlantis:
+	case TechTypeAtlantis:
 		return AttackCategoryWeb
-	case AttackTypeAtlassian:
+	case TechTypeAtlassian:
 		return AttackCategoryWeb
-	case AttackTypeAtlassiancloud:
+	case TechTypeAtlassiancloud:
 		return AttackCategoryCloud
-	case AttackTypeAtlassiancve:
+	case TechTypeAtlassiancve:
 		return AttackCategoryCVE
-	case AttackTypeAtlassiancve2021:
+	case TechTypeAtlassiancve2021:
 		return AttackCategoryCVE
-	case AttackTypeAtlassiancve2022:
+	case TechTypeAtlassiancve2022:
 		return AttackCategoryCVE
-	case AttackTypeAtlassianjira:
+	case TechTypeAtlassianjira:
 		return AttackCategoryWeb
-	case AttackTypeAtlassianmisconfig:
+	case TechTypeAtlassianmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeAtlassianpanel:
+	case TechTypeAtlassianpanel:
 		return AttackCategoryWeb
-	case AttackTypeAtmail:
+	case TechTypeAtmail:
 		return AttackCategoryMail
-	case AttackTypeAtom:
+	case TechTypeAtom:
 		return AttackCategoryWeb
-	case AttackTypeAttenzionecve:
+	case TechTypeAttenzionecve:
 		return AttackCategoryCVE
-	case AttackTypeAttributeWizardProjectcve2018:
+	case TechTypeAttributeWizardProjectcve2018:
 		return AttackCategoryCVE
-	case AttackTypeAttributewizardpro:
+	case TechTypeAttributewizardpro:
 		return AttackCategoryWeb
-	case AttackTypeAtutorcve:
+	case TechTypeAtutorcve:
 		return AttackCategoryCVE
-	case AttackTypeAtvise:
+	case TechTypeAtvise:
 		return AttackCategoryWeb
-	case AttackTypeAudiobookshelf:
+	case TechTypeAudiobookshelf:
 		return AttackCategoryWeb
-	case AttackTypeAudiocode:
+	case TechTypeAudiocode:
 		return AttackCategoryWeb
-	case AttackTypeAudiocodes:
+	case TechTypeAudiocodes:
 		return AttackCategoryWeb
-	case AttackTypeAudiocodescve:
+	case TechTypeAudiocodescve:
 		return AttackCategoryCVE
-	case AttackTypeAudiocodescve2018:
+	case TechTypeAudiocodescve2018:
 		return AttackCategoryCVE
-	case AttackTypeAudiocodeslogin:
+	case TechTypeAudiocodeslogin:
 		return AttackCategoryWeb
-	case AttackTypeAudiojungleosint:
+	case TechTypeAudiojungleosint:
 		return AttackCategoryOsint
-	case AttackTypeAuditjs:
+	case TechTypeAuditjs:
 		return AttackCategoryWeb
-	case AttackTypeAuerswaldcve2021:
+	case TechTypeAuerswaldcve2021:
 		return AttackCategoryCVE
-	case AttackTypeAuieocve:
+	case TechTypeAuieocve:
 		return AttackCategoryCVE
-	case AttackTypeAuieocve2022:
+	case TechTypeAuieocve2022:
 		return AttackCategoryCVE
-	case AttackTypeAura:
+	case TechTypeAura:
 		return AttackCategoryWeb
-	case AttackTypeAurallcve2021:
+	case TechTypeAurallcve2021:
 		return AttackCategoryCVE
-	case AttackTypeAuratech:
+	case TechTypeAuratech:
 		return AttackCategoryWeb
-	case AttackTypeAurora:
+	case TechTypeAurora:
 		return AttackCategoryWeb
-	case AttackTypeAuruosint:
+	case TechTypeAuruosint:
 		return AttackCategoryOsint
-	case AttackTypeAuth:
+	case TechTypeAuth:
 		return AttackCategoryWeb
-	case AttackTypeAuthBypass:
+	case TechTypeAuthBypass:
 		return AttackCategoryWeb
-	case AttackTypeAuthBypassbackdoor:
+	case TechTypeAuthBypassbackdoor:
 		return AttackCategoryWeb
-	case AttackTypeAuthBypasscve:
+	case TechTypeAuthBypasscve:
 		return AttackCategoryCVE
-	case AttackTypeAuthBypasscve2018:
+	case TechTypeAuthBypasscve2018:
 		return AttackCategoryCVE
-	case AttackTypeAuthBypasscve2021:
+	case TechTypeAuthBypasscve2021:
 		return AttackCategoryCVE
-	case AttackTypeAuthBypasscve2023:
+	case TechTypeAuthBypasscve2023:
 		return AttackCategoryCVE
-	case AttackTypeAuthBypasseOffice:
+	case TechTypeAuthBypasseOffice:
 		return AttackCategoryWeb
-	case AttackTypeAuthBypasshikvision:
+	case TechTypeAuthBypasshikvision:
 		return AttackCategorySSH
-	case AttackTypeAuthBypasshuntr:
+	case TechTypeAuthBypasshuntr:
 		return AttackCategorySSH
-	case AttackTypeAuthBypassmisconfig:
+	case TechTypeAuthBypassmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeAuthBypassnatshell:
+	case TechTypeAuthBypassnatshell:
 		return AttackCategoryWeb
-	case AttackTypeAuthBypasspacketstorm:
+	case TechTypeAuthBypasspacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeAuthBypassqibocms:
+	case TechTypeAuthBypassqibocms:
 		return AttackCategoryWeb
-	case AttackTypeAuthBypasssound4:
+	case TechTypeAuthBypasssound4:
 		return AttackCategoryWeb
-	case AttackTypeAuthBypassueditor:
+	case TechTypeAuthBypassueditor:
 		return AttackCategoryWeb
-	case AttackTypeAuthbypass:
+	case TechTypeAuthbypass:
 		return AttackCategoryWeb
-	case AttackTypeAuthbypasstongda:
+	case TechTypeAuthbypasstongda:
 		return AttackCategoryWeb
-	case AttackTypeAutheliapanel:
+	case TechTypeAutheliapanel:
 		return AttackCategoryWeb
-	case AttackTypeAuthenticated:
+	case TechTypeAuthenticated:
 		return AttackCategoryWeb
-	case AttackTypeAuthenticatedcve:
+	case TechTypeAuthenticatedcve:
 		return AttackCategoryCVE
-	case AttackTypeAuthenticatedcve2016:
+	case TechTypeAuthenticatedcve2016:
 		return AttackCategoryCVE
-	case AttackTypeAuthenticatedcve2017:
+	case TechTypeAuthenticatedcve2017:
 		return AttackCategoryCVE
-	case AttackTypeAuthenticatedcve2018:
+	case TechTypeAuthenticatedcve2018:
 		return AttackCategoryCVE
-	case AttackTypeAuthenticatedcve2020:
+	case TechTypeAuthenticatedcve2020:
 		return AttackCategoryCVE
-	case AttackTypeAuthenticatedcve2021:
+	case TechTypeAuthenticatedcve2021:
 		return AttackCategoryCVE
-	case AttackTypeAuthenticatedcve2022:
+	case TechTypeAuthenticatedcve2022:
 		return AttackCategoryCVE
-	case AttackTypeAuthenticatedcve2023:
+	case TechTypeAuthenticatedcve2023:
 		return AttackCategoryCVE
-	case AttackTypeAuthenticatedflir:
+	case TechTypeAuthenticatedflir:
 		return AttackCategoryWeb
-	case AttackTypeAuthenticatedhms:
+	case TechTypeAuthenticatedhms:
 		return AttackCategoryWeb
-	case AttackTypeAuthenticatedhrsale:
+	case TechTypeAuthenticatedhrsale:
 		return AttackCategoryWeb
-	case AttackTypeAuthenticatedjs:
+	case TechTypeAuthenticatedjs:
 		return AttackCategoryWeb
-	case AttackTypeAuthenticatedoast:
+	case TechTypeAuthenticatedoast:
 		return AttackCategoryWeb
-	case AttackTypeAuthenticatedpostgresql:
+	case TechTypeAuthenticatedpostgresql:
 		return AttackCategorySqlInjection
-	case AttackTypeAuthenticatedwatchguard:
+	case TechTypeAuthenticatedwatchguard:
 		return AttackCategoryWeb
-	case AttackTypeAuthenticatedwordpress:
+	case TechTypeAuthenticatedwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeAuthexposure:
+	case TechTypeAuthexposure:
 		return AttackCategoryWeb
-	case AttackTypeAuthhttphuawei:
+	case TechTypeAuthhttphuawei:
 		return AttackCategoryWeb
-	case AttackTypeAuthorstreamosint:
+	case TechTypeAuthorstreamosint:
 		return AttackCategoryOsint
-	case AttackTypeAuthtech:
+	case TechTypeAuthtech:
 		return AttackCategoryWeb
-	case AttackTypeAutocompletetokenSpray:
+	case TechTypeAutocompletetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeAutomatedlogiccve2021:
+	case TechTypeAutomatedlogiccve2021:
 		return AttackCategoryCVE
-	case AttackTypeAutomatisch:
+	case TechTypeAutomatisch:
 		return AttackCategoryWeb
-	case AttackTypeAutomatticcve:
+	case TechTypeAutomatticcve:
 		return AttackCategoryCVE
-	case AttackTypeAutomatticcve2021:
+	case TechTypeAutomatticcve2021:
 		return AttackCategoryCVE
-	case AttackTypeAutomatticwpscan:
+	case TechTypeAutomatticwpscan:
 		return AttackCategoryWeb
-	case AttackTypeAutonomycve:
+	case TechTypeAutonomycve:
 		return AttackCategoryCVE
-	case AttackTypeAutoptimize:
+	case TechTypeAutoptimize:
 		return AttackCategoryWeb
-	case AttackTypeAutoset:
+	case TechTypeAutoset:
 		return AttackCategoryWeb
-	case AttackTypeAuxinElements:
+	case TechTypeAuxinElements:
 		return AttackCategoryWeb
-	case AttackTypeAvada:
+	case TechTypeAvada:
 		return AttackCategoryWeb
-	case AttackTypeAvalanche:
+	case TechTypeAvalanche:
 		return AttackCategoryWeb
-	case AttackTypeAvantfax:
+	case TechTypeAvantfax:
 		return AttackCategoryWeb
-	case AttackTypeAvast:
+	case TechTypeAvast:
 		return AttackCategoryWeb
-	case AttackTypeAvatier:
+	case TechTypeAvatier:
 		return AttackCategoryWeb
-	case AttackTypeAvaya:
+	case TechTypeAvaya:
 		return AttackCategoryWeb
-	case AttackTypeAvayapanel:
+	case TechTypeAvayapanel:
 		return AttackCategoryWeb
-	case AttackTypeAvertacve:
+	case TechTypeAvertacve:
 		return AttackCategoryCVE
-	case AttackTypeAveva:
+	case TechTypeAveva:
 		return AttackCategoryWeb
-	case AttackTypeAvg:
+	case TechTypeAvg:
 		return AttackCategoryWeb
-	case AttackTypeAviaryImageEditorAddOnForGravityFormsProjectcve2015:
+	case TechTypeAviaryImageEditorAddOnForGravityFormsProjectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeAviatrix:
+	case TechTypeAviatrix:
 		return AttackCategoryWeb
-	case AttackTypeAviatrixpanel:
+	case TechTypeAviatrixpanel:
 		return AttackCategoryWeb
-	case AttackTypeAvidCommunityosint:
+	case TechTypeAvidCommunityosint:
 		return AttackCategoryOsint
-	case AttackTypeAvideo:
+	case TechTypeAvideo:
 		return AttackCategoryWeb
-	case AttackTypeAvideotech:
+	case TechTypeAvideotech:
 		return AttackCategoryWeb
-	case AttackTypeAvigilonpanel:
+	case TechTypeAvigilonpanel:
 		return AttackCategoryWeb
-	case AttackTypeAvnilPdfcloud:
+	case TechTypeAvnilPdfcloud:
 		return AttackCategoryCloud
-	case AttackTypeAvtech:
+	case TechTypeAvtech:
 		return AttackCategoryWeb
-	case AttackTypeAvtechtech:
+	case TechTypeAvtechtech:
 		return AttackCategoryWeb
-	case AttackTypeAwdsolutioncve2010:
+	case TechTypeAwdsolutioncve2010:
 		return AttackCategoryCVE
-	case AttackTypeAwesomemotivecve:
+	case TechTypeAwesomemotivecve:
 		return AttackCategoryCVE
-	case AttackTypeAwin:
+	case TechTypeAwin:
 		return AttackCategoryWeb
-	case AttackTypeAwk:
+	case TechTypeAwk:
 		return AttackCategoryWeb
-	case AttackTypeAws:
+	case TechTypeAws:
 		return AttackCategoryCloud
-	case AttackTypeAwsCloudConfigcloud:
+	case TechTypeAwsCloudConfigcloud:
 		return AttackCategoryCloud
-	case AttackTypeAwscloud:
+	case TechTypeAwscloud:
 		return AttackCategoryCloud
-	case AttackTypeAwsdns:
+	case TechTypeAwsdns:
 		return AttackCategoryCloud
-	case AttackTypeAwstats:
+	case TechTypeAwstats:
 		return AttackCategoryCloud
-	case AttackTypeAwstatsazure:
+	case TechTypeAwstatsazure:
 		return AttackCategoryCloud
-	case AttackTypeAwstatsconfig:
+	case TechTypeAwstatsconfig:
 		return AttackCategoryCloud
-	case AttackTypeAwstatscve:
+	case TechTypeAwstatscve:
 		return AttackCategoryCloud
-	case AttackTypeAwxtech:
+	case TechTypeAwxtech:
 		return AttackCategoryWeb
-	case AttackTypeAxel:
+	case TechTypeAxel:
 		return AttackCategoryWeb
-	case AttackTypeAxigen:
+	case TechTypeAxigen:
 		return AttackCategoryWeb
-	case AttackTypeAxis:
+	case TechTypeAxis:
 		return AttackCategoryWeb
-	case AttackTypeAxis2:
+	case TechTypeAxis2:
 		return AttackCategoryWeb
-	case AttackTypeAxis2Cve2010:
+	case TechTypeAxis2Cve2010:
 		return AttackCategoryCVE
-	case AttackTypeAxway:
+	case TechTypeAxway:
 		return AttackCategoryWeb
-	case AttackTypeAxxon:
+	case TechTypeAxxon:
 		return AttackCategoryWeb
-	case AttackTypeAxxonsoft:
+	case TechTypeAxxonsoft:
 		return AttackCategoryWeb
-	case AttackTypeAxxonsoftpanel:
+	case TechTypeAxxonsoftpanel:
 		return AttackCategoryWeb
-	case AttackTypeAxyom:
+	case TechTypeAxyom:
 		return AttackCategoryWeb
-	case AttackTypeAysProcve:
+	case TechTypeAysProcve:
 		return AttackCategoryCVE
-	case AttackTypeAysProcve2021:
+	case TechTypeAysProcve2021:
 		return AttackCategoryCVE
-	case AttackTypeAzkabandefaultLogin:
+	case TechTypeAzkabandefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeAzkabanpanel:
+	case TechTypeAzkabanpanel:
 		return AttackCategoryWeb
-	case AttackTypeAzure:
+	case TechTypeAzure:
 		return AttackCategoryCloud
-	case AttackTypeAzuredns:
+	case TechTypeAzuredns:
 		return AttackCategoryCloud
-	case AttackTypeAzureenum:
+	case TechTypeAzureenum:
 		return AttackCategoryCloud
-	case AttackTypeBElektrocve:
+	case TechTypeBElektrocve:
 		return AttackCategoryCVE
-	case AttackTypeB2Evolutioncve2020:
+	case TechTypeB2Evolutioncve2020:
 		return AttackCategoryCVE
-	case AttackTypeBabel:
+	case TechTypeBabel:
 		return AttackCategoryWeb
-	case AttackTypeBabepediaosint:
+	case TechTypeBabepediaosint:
 		return AttackCategoryOsint
-	case AttackTypeBabypipsosint:
+	case TechTypeBabypipsosint:
 		return AttackCategoryOsint
-	case AttackTypeBackdoor:
+	case TechTypeBackdoor:
 		return AttackCategoryWeb
-	case AttackTypeBackdoorcve:
+	case TechTypeBackdoorcve:
 		return AttackCategoryCVE
-	case AttackTypeBackdoorkevinlab:
+	case TechTypeBackdoorkevinlab:
 		return AttackCategoryWeb
-	case AttackTypeBackdoormaccmsv10:
+	case TechTypeBackdoormaccmsv10:
 		return AttackCategoryWeb
-	case AttackTypeBackdoorphp:
+	case TechTypeBackdoorphp:
 		return AttackCategoryPHP
-	case AttackTypeBackdrop:
+	case TechTypeBackdrop:
 		return AttackCategoryWeb
-	case AttackTypeBackdropcmscve:
+	case TechTypeBackdropcmscve:
 		return AttackCategoryCVE
-	case AttackTypeBackdropcmscve2022:
+	case TechTypeBackdropcmscve2022:
 		return AttackCategoryCVE
-	case AttackTypeBackpack:
+	case TechTypeBackpack:
 		return AttackCategoryWeb
-	case AttackTypeBackup:
+	case TechTypeBackup:
 		return AttackCategoryWeb
-	case AttackTypeBackupGuardcve2021:
+	case TechTypeBackupGuardcve2021:
 		return AttackCategoryCVE
-	case AttackTypeBackupblisswpscan:
+	case TechTypeBackupblisswpscan:
 		return AttackCategoryWeb
-	case AttackTypeBackupbuddy:
+	case TechTypeBackupbuddy:
 		return AttackCategoryWeb
-	case AttackTypeBackupexposure:
+	case TechTypeBackupexposure:
 		return AttackCategoryWeb
-	case AttackTypeBackuplogin:
+	case TechTypeBackuplogin:
 		return AttackCategoryWeb
-	case AttackTypeBackups:
+	case TechTypeBackups:
 		return AttackCategoryWeb
-	case AttackTypeBackupscreenconnect:
+	case TechTypeBackupscreenconnect:
 		return AttackCategoryWeb
-	case AttackTypeBackupswordpress:
+	case TechTypeBackupswordpress:
 		return AttackCategoryWordPress
-	case AttackTypeBackupwordpress:
+	case TechTypeBackupwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeBacnetxss:
+	case TechTypeBacnetxss:
 		return AttackCategoryXSS
-	case AttackTypeBadarg:
+	case TechTypeBadarg:
 		return AttackCategoryWeb
-	case AttackTypeBadgeos:
+	case TechTypeBadgeos:
 		return AttackCategoryWeb
-	case AttackTypeBagisto:
+	case TechTypeBagisto:
 		return AttackCategoryWeb
-	case AttackTypeBalada:
+	case TechTypeBalada:
 		return AttackCategoryWeb
-	case AttackTypeBamboo:
+	case TechTypeBamboo:
 		return AttackCategoryWeb
-	case AttackTypeBamboomisconfig:
+	case TechTypeBamboomisconfig:
 		return AttackCategoryWeb
-	case AttackTypeBandcamposint:
+	case TechTypeBandcamposint:
 		return AttackCategoryOsint
-	case AttackTypeBandlabosint:
+	case TechTypeBandlabosint:
 		return AttackCategoryOsint
-	case AttackTypeBangresto:
+	case TechTypeBangresto:
 		return AttackCategoryWeb
-	case AttackTypeBangrestoProjectcve:
+	case TechTypeBangrestoProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeBarco:
+	case TechTypeBarco:
 		return AttackCategoryWeb
-	case AttackTypeBase64Encoderdecodercve:
+	case TechTypeBase64Encoderdecodercve:
 		return AttackCategoryCVE
-	case AttackTypeBaseapp:
+	case TechTypeBaseapp:
 		return AttackCategoryWeb
-	case AttackTypeBash:
+	case TechTypeBash:
 		return AttackCategoryWeb
-	case AttackTypeBasic:
+	case TechTypeBasic:
 		return AttackCategoryWeb
-	case AttackTypeBasixonlinecve:
+	case TechTypeBasixonlinecve:
 		return AttackCategoryCVE
-	case AttackTypeBatflatbloofox:
+	case TechTypeBatflatbloofox:
 		return AttackCategoryWeb
-	case AttackTypeBattlenet:
+	case TechTypeBattlenet:
 		return AttackCategoryWeb
-	case AttackTypeBazarr:
+	case TechTypeBazarr:
 		return AttackCategoryWeb
-	case AttackTypeBblogRuosint:
+	case TechTypeBblogRuosint:
 		return AttackCategoryOsint
-	case AttackTypeBdsmlrosint:
+	case TechTypeBdsmlrosint:
 		return AttackCategoryOsint
-	case AttackTypeBdsmsinglesosint:
+	case TechTypeBdsmsinglesosint:
 		return AttackCategoryOsint
-	case AttackTypeBeanshell:
+	case TechTypeBeanshell:
 		return AttackCategoryWeb
-	case AttackTypeBeanstalk:
+	case TechTypeBeanstalk:
 		return AttackCategoryWeb
-	case AttackTypeBeanstalktech:
+	case TechTypeBeanstalktech:
 		return AttackCategoryWeb
-	case AttackTypeBeardevcve:
+	case TechTypeBeardevcve:
 		return AttackCategoryCVE
-	case AttackTypeBeditapanel:
+	case TechTypeBeditapanel:
 		return AttackCategoryWeb
-	case AttackTypeBeego:
+	case TechTypeBeego:
 		return AttackCategoryWeb
-	case AttackTypeBehanceosint:
+	case TechTypeBehanceosint:
 		return AttackCategoryOsint
-	case AttackTypeBehat:
+	case TechTypeBehat:
 		return AttackCategoryWeb
-	case AttackTypeBelkincve2014:
+	case TechTypeBelkincve2014:
 		return AttackCategoryCVE
-	case AttackTypeBenjamin:
+	case TechTypeBenjamin:
 		return AttackCategoryWeb
-	case AttackTypeBentboxosint:
+	case TechTypeBentboxosint:
 		return AttackCategoryOsint
-	case AttackTypeBestbooks:
+	case TechTypeBestbooks:
 		return AttackCategoryWeb
-	case AttackTypeBestbuy:
+	case TechTypeBestbuy:
 		return AttackCategoryWeb
-	case AttackTypeBestwebsoft:
+	case TechTypeBestwebsoft:
 		return AttackCategoryWeb
-	case AttackTypeBestwebsoftcve:
+	case TechTypeBestwebsoftcve:
 		return AttackCategoryCVE
-	case AttackTypeBestwebsoftcve2017:
+	case TechTypeBestwebsoftcve2017:
 		return AttackCategoryCVE
-	case AttackTypeBesu:
+	case TechTypeBesu:
 		return AttackCategoryWeb
-	case AttackTypeBeyondtrust:
+	case TechTypeBeyondtrust:
 		return AttackCategoryWeb
-	case AttackTypeBeyondtrustpanel:
+	case TechTypeBeyondtrustpanel:
 		return AttackCategoryWeb
-	case AttackTypeBgp:
+	case TechTypeBgp:
 		return AttackCategoryWeb
-	case AttackTypeBhagavadgitatokenSpray:
+	case TechTypeBhagavadgitatokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBibletokenSpray:
+	case TechTypeBibletokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBibliopac:
+	case TechTypeBibliopac:
 		return AttackCategoryWeb
-	case AttackTypeBibliosoftcve:
+	case TechTypeBibliosoftcve:
 		return AttackCategoryCVE
-	case AttackTypeBigant:
+	case TechTypeBigant:
 		return AttackCategoryWeb
-	case AttackTypeBigantpanel:
+	case TechTypeBigantpanel:
 		return AttackCategoryWeb
-	case AttackTypeBigantsoftcve:
+	case TechTypeBigantsoftcve:
 		return AttackCategoryCVE
-	case AttackTypeBigantsoftcve2022:
+	case TechTypeBigantsoftcve2022:
 		return AttackCategoryCVE
-	case AttackTypeBigbluebuttonpanel:
+	case TechTypeBigbluebuttonpanel:
 		return AttackCategoryWeb
-	case AttackTypeBigbluebuttontech:
+	case TechTypeBigbluebuttontech:
 		return AttackCategoryWeb
-	case AttackTypeBigfixpanel:
+	case TechTypeBigfixpanel:
 		return AttackCategoryWeb
-	case AttackTypeBiggerpocketsosint:
+	case TechTypeBiggerpocketsosint:
 		return AttackCategoryOsint
-	case AttackTypeBigip:
+	case TechTypeBigip:
 		return AttackCategoryWeb
-	case AttackTypeBigipbigip:
+	case TechTypeBigipbigip:
 		return AttackCategoryWeb
-	case AttackTypeBigoLiveosint:
+	case TechTypeBigoLiveosint:
 		return AttackCategoryOsint
-	case AttackTypeBikemaposint:
+	case TechTypeBikemaposint:
 		return AttackCategoryOsint
-	case AttackTypeBillquick:
+	case TechTypeBillquick:
 		return AttackCategoryWeb
-	case AttackTypeBimidns:
+	case TechTypeBimidns:
 		return AttackCategoryDNS
-	case AttackTypeBimpososint:
+	case TechTypeBimpososint:
 		return AttackCategoryOsint
-	case AttackTypeBinancerecon:
+	case TechTypeBinancerecon:
 		return AttackCategoryWeb
-	case AttackTypeBinaryedge:
+	case TechTypeBinaryedge:
 		return AttackCategoryWeb
-	case AttackTypeBinatoneglobalcve2021:
+	case TechTypeBinatoneglobalcve2021:
 		return AttackCategoryCVE
-	case AttackTypeBing:
+	case TechTypeBing:
 		return AttackCategoryWeb
-	case AttackTypeBingmapstokenSpray:
+	case TechTypeBingmapstokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBinom:
+	case TechTypeBinom:
 		return AttackCategoryWeb
-	case AttackTypeBiolinkosint:
+	case TechTypeBiolinkosint:
 		return AttackCategoryOsint
-	case AttackTypeBiometrics:
+	case TechTypeBiometrics:
 		return AttackCategoryWeb
-	case AttackTypeBiostar:
+	case TechTypeBiostar:
 		return AttackCategoryWeb
-	case AttackTypeBiostar2:
+	case TechTypeBiostar2:
 		return AttackCategoryWeb
-	case AttackTypeBiotimepanel:
+	case TechTypeBiotimepanel:
 		return AttackCategoryIoT
-	case AttackTypeBiqscve2021:
+	case TechTypeBiqscve2021:
 		return AttackCategoryCVE
-	case AttackTypeBiqsdrive:
+	case TechTypeBiqsdrive:
 		return AttackCategoryWeb
-	case AttackTypeBitbucket:
+	case TechTypeBitbucket:
 		return AttackCategoryWeb
-	case AttackTypeBitbucketblackbox:
+	case TechTypeBitbucketblackbox:
 		return AttackCategoryWeb
-	case AttackTypeBitbucketosint:
+	case TechTypeBitbucketosint:
 		return AttackCategoryOsint
-	case AttackTypeBitchuteosint:
+	case TechTypeBitchuteosint:
 		return AttackCategoryOsint
-	case AttackTypeBitcoin:
+	case TechTypeBitcoin:
 		return AttackCategoryWeb
-	case AttackTypeBitcoinForumosint:
+	case TechTypeBitcoinForumosint:
 		return AttackCategoryOsint
-	case AttackTypeBitcoinaveragetokenSpray:
+	case TechTypeBitcoinaveragetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBitdefender:
+	case TechTypeBitdefender:
 		return AttackCategoryWeb
-	case AttackTypeBitdefenderpanel:
+	case TechTypeBitdefenderpanel:
 		return AttackCategoryWeb
-	case AttackTypeBitlybittrex:
+	case TechTypeBitlybittrex:
 		return AttackCategoryWeb
-	case AttackTypeBitlytokenSpray:
+	case TechTypeBitlytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBitquerytokenSpray:
+	case TechTypeBitquerytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBitratc2:
+	case TechTypeBitratc2:
 		return AttackCategoryWeb
-	case AttackTypeBitrisetokenSpray:
+	case TechTypeBitrisetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBitrix:
+	case TechTypeBitrix:
 		return AttackCategoryWeb
-	case AttackTypeBitrix24:
+	case TechTypeBitrix24:
 		return AttackCategoryWeb
-	case AttackTypeBitrix24Cve:
+	case TechTypeBitrix24Cve:
 		return AttackCategoryCVE
-	case AttackTypeBitrix24Cve2023:
+	case TechTypeBitrix24Cve2023:
 		return AttackCategoryCVE
-	case AttackTypeBittubeosint:
+	case TechTypeBittubeosint:
 		return AttackCategoryOsint
-	case AttackTypeBitvise:
+	case TechTypeBitvise:
 		return AttackCategoryWeb
-	case AttackTypeBitwarden:
+	case TechTypeBitwarden:
 		return AttackCategoryWeb
-	case AttackTypeBlackduck:
+	case TechTypeBlackduck:
 		return AttackCategoryWeb
-	case AttackTypeBlade:
+	case TechTypeBlade:
 		return AttackCategoryWeb
-	case AttackTypeBlender:
+	case TechTypeBlender:
 		return AttackCategoryWeb
-	case AttackTypeBlesta:
+	case TechTypeBlesta:
 		return AttackCategoryWeb
-	case AttackTypeBlind:
+	case TechTypeBlind:
 		return AttackCategoryWeb
-	case AttackTypeBlindSsrf:
+	case TechTypeBlindSsrf:
 		return AttackCategoryWeb
-	case AttackTypeBlindconfig:
+	case TechTypeBlindconfig:
 		return AttackCategoryWeb
-	case AttackTypeBlindcve:
+	case TechTypeBlindcve:
 		return AttackCategoryCVE
-	case AttackTypeBlindcve2021:
+	case TechTypeBlindcve2021:
 		return AttackCategoryCVE
-	case AttackTypeBlindssrf:
+	case TechTypeBlindssrf:
 		return AttackCategoryWeb
-	case AttackTypeBlipfmosint:
+	case TechTypeBlipfmosint:
 		return AttackCategoryOsint
-	case AttackTypeBlitapptokenSpray:
+	case TechTypeBlitapptokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBlms:
+	case TechTypeBlms:
 		return AttackCategoryWeb
-	case AttackTypeBlockchaintech:
+	case TechTypeBlockchaintech:
 		return AttackCategoryAI
-	case AttackTypeBlockchaintokenSpray:
+	case TechTypeBlockchaintokenSpray:
 		return AttackCategoryAI
-	case AttackTypeBlockfrosttokenSpray:
+	case TechTypeBlockfrosttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBlockseracve:
+	case TechTypeBlockseracve:
 		return AttackCategoryCVE
-	case AttackTypeBlocktestimonial:
+	case TechTypeBlocktestimonial:
 		return AttackCategoryWeb
-	case AttackTypeBlocktokenSpray:
+	case TechTypeBlocktokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBlogdesignerpack:
+	case TechTypeBlogdesignerpack:
 		return AttackCategoryWeb
-	case AttackTypeBlogenginecve:
+	case TechTypeBlogenginecve:
 		return AttackCategoryCVE
-	case AttackTypeBloggerosint:
+	case TechTypeBloggerosint:
 		return AttackCategoryOsint
-	case AttackTypeBlogiplosint:
+	case TechTypeBlogiplosint:
 		return AttackCategoryOsint
-	case AttackTypeBlogmarksosint:
+	case TechTypeBlogmarksosint:
 		return AttackCategoryOsint
-	case AttackTypeBlogspotosint:
+	case TechTypeBlogspotosint:
 		return AttackCategoryOsint
-	case AttackTypeBloofox:
+	case TechTypeBloofox:
 		return AttackCategoryWeb
-	case AttackTypeBludit:
+	case TechTypeBludit:
 		return AttackCategoryWeb
-	case AttackTypeBluecoat:
+	case TechTypeBluecoat:
 		return AttackCategoryWeb
-	case AttackTypeBlueflyingfishNoIpcve:
+	case TechTypeBlueflyingfishNoIpcve:
 		return AttackCategoryCVE
-	case AttackTypeBlueiris:
+	case TechTypeBlueiris:
 		return AttackCategoryWeb
-	case AttackTypeBmc:
+	case TechTypeBmc:
 		return AttackCategoryWeb
-	case AttackTypeBmcpanel:
+	case TechTypeBmcpanel:
 		return AttackCategoryWeb
-	case AttackTypeBoa:
+	case TechTypeBoa:
 		return AttackCategoryWeb
-	case AttackTypeBodybuildingcomosint:
+	case TechTypeBodybuildingcomosint:
 		return AttackCategoryOsint
-	case AttackTypeBokacve:
+	case TechTypeBokacve:
 		return AttackCategoryCVE
-	case AttackTypeBokbot:
+	case TechTypeBokbot:
 		return AttackCategoryWeb
-	case AttackTypeBoldThemescve2021:
+	case TechTypeBoldThemescve2021:
 		return AttackCategoryCVE
-	case AttackTypeBoldgridcve:
+	case TechTypeBoldgridcve:
 		return AttackCategoryCVE
-	case AttackTypeBoldgridcve2021:
+	case TechTypeBoldgridcve2021:
 		return AttackCategoryCVE
-	case AttackTypeBoldgridwpscan:
+	case TechTypeBoldgridwpscan:
 		return AttackCategoryWeb
-	case AttackTypeBologerwpscan:
+	case TechTypeBologerwpscan:
 		return AttackCategoryWeb
-	case AttackTypeBolt:
+	case TechTypeBolt:
 		return AttackCategoryWeb
-	case AttackTypeBoltcmspanel:
+	case TechTypeBoltcmspanel:
 		return AttackCategoryWeb
-	case AttackTypeBomgar:
+	case TechTypeBomgar:
 		return AttackCategoryWeb
-	case AttackTypeBomgarcve2021:
+	case TechTypeBomgarcve2021:
 		return AttackCategoryCVE
-	case AttackTypeBongaCamsosint:
+	case TechTypeBongaCamsosint:
 		return AttackCategoryOsint
-	case AttackTypeBonita:
+	case TechTypeBonita:
 		return AttackCategoryWeb
-	case AttackTypeBonitasoftcve2015:
+	case TechTypeBonitasoftcve2015:
 		return AttackCategoryCVE
-	case AttackTypeBonobo:
+	case TechTypeBonobo:
 		return AttackCategoryWeb
-	case AttackTypeBookcrossingosint:
+	case TechTypeBookcrossingosint:
 		return AttackCategoryOsint
-	case AttackTypeBooked:
+	case TechTypeBooked:
 		return AttackCategoryWeb
-	case AttackTypeBooking:
+	case TechTypeBooking:
 		return AttackCategoryWeb
-	case AttackTypeBookingCalendar:
+	case TechTypeBookingCalendar:
 		return AttackCategoryWeb
-	case AttackTypeBookstack:
+	case TechTypeBookstack:
 		return AttackCategoryWeb
-	case AttackTypeBookstackapppanel:
+	case TechTypeBookstackapppanel:
 		return AttackCategoryWeb
-	case AttackTypeBookstokenSpray:
+	case TechTypeBookstokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBoostifythemescve2021:
+	case TechTypeBoostifythemescve2021:
 		return AttackCategoryCVE
-	case AttackTypeBoostyosint:
+	case TechTypeBoostyosint:
 		return AttackCategoryOsint
-	case AttackTypeBoot:
+	case TechTypeBoot:
 		return AttackCategoryWeb
-	case AttackTypeBoothosint:
+	case TechTypeBoothosint:
 		return AttackCategoryOsint
-	case AttackTypeBouqueteditorProjectcve:
+	case TechTypeBouqueteditorProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeBowerexposure:
+	case TechTypeBowerexposure:
 		return AttackCategoryWeb
-	case AttackTypeBoxStorage:
+	case TechTypeBoxStorage:
 		return AttackCategoryWeb
-	case AttackTypeBoxtokenSpray:
+	case TechTypeBoxtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBpluginscve:
+	case TechTypeBpluginscve:
 		return AttackCategoryCVE
-	case AttackTypeBqecve2021:
+	case TechTypeBqecve2021:
 		return AttackCategoryCVE
-	case AttackTypeBrafton:
+	case TechTypeBrafton:
 		return AttackCategoryWeb
-	case AttackTypeBrandfolder:
+	case TechTypeBrandfolder:
 		return AttackCategoryWeb
-	case AttackTypeBrave:
+	case TechTypeBrave:
 		return AttackCategoryWeb
-	case AttackTypeBravenewcointokenSpray:
+	case TechTypeBravenewcointokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBravia:
+	case TechTypeBravia:
 		return AttackCategoryWeb
-	case AttackTypeBreachForumsosint:
+	case TechTypeBreachForumsosint:
 		return AttackCategoryOsint
-	case AttackTypeBricks:
+	case TechTypeBricks:
 		return AttackCategoryWeb
-	case AttackTypeBricksetosint:
+	case TechTypeBricksetosint:
 		return AttackCategoryOsint
-	case AttackTypeBrickstech:
+	case TechTypeBrickstech:
 		return AttackCategoryWeb
-	case AttackTypeBrighthr:
+	case TechTypeBrighthr:
 		return AttackCategoryWeb
-	case AttackTypeBrightsign:
+	case TechTypeBrightsign:
 		return AttackCategoryWeb
-	case AttackTypeBrizycve2022:
+	case TechTypeBrizycve2022:
 		return AttackCategoryCVE
-	case AttackTypeBroadcomsymantec:
+	case TechTypeBroadcomsymantec:
 		return AttackCategoryWeb
-	case AttackTypeBroker:
+	case TechTypeBroker:
 		return AttackCategoryWeb
-	case AttackTypeBrowserwebcve2016:
+	case TechTypeBrowserwebcve2016:
 		return AttackCategoryCVE
-	case AttackTypeBrowshottokenSpray:
+	case TechTypeBrowshottokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBruteforcejs:
+	case TechTypeBruteforcejs:
 		return AttackCategoryRCE
-	case AttackTypeBruteratel:
+	case TechTypeBruteratel:
 		return AttackCategoryWeb
-	case AttackTypeBucket:
+	case TechTypeBucket:
 		return AttackCategoryWeb
-	case AttackTypeBucketaura:
+	case TechTypeBucketaura:
 		return AttackCategoryWeb
-	case AttackTypeBucketaws:
+	case TechTypeBucketaws:
 		return AttackCategoryCloud
-	case AttackTypeBuckettakeovertakeovertakeover:
+	case TechTypeBuckettakeovertakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeBuckettech:
+	case TechTypeBuckettech:
 		return AttackCategoryWeb
-	case AttackTypeBuddy:
+	case TechTypeBuddy:
 		return AttackCategoryWeb
-	case AttackTypeBuddypresscve:
+	case TechTypeBuddypresscve:
 		return AttackCategoryCVE
-	case AttackTypeBueltgecve:
+	case TechTypeBueltgecve:
 		return AttackCategoryCVE
-	case AttackTypeBuffalo:
+	case TechTypeBuffalo:
 		return AttackCategoryWeb
-	case AttackTypeBugcrowdosint:
+	case TechTypeBugcrowdosint:
 		return AttackCategoryOsint
-	case AttackTypeBuildbot:
+	case TechTypeBuildbot:
 		return AttackCategoryWeb
-	case AttackTypeBuildkitetokenSpray:
+	case TechTypeBuildkitetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeBullwarkinjection:
+	case TechTypeBullwarkinjection:
 		return AttackCategoryWeb
-	case AttackTypeBumsys:
+	case TechTypeBumsys:
 		return AttackCategoryWeb
-	case AttackTypeBumsysProjectcve:
+	case TechTypeBumsysProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeBunexposure:
+	case TechTypeBunexposure:
 		return AttackCategoryWeb
-	case AttackTypeBunproosint:
+	case TechTypeBunproosint:
 		return AttackCategoryOsint
-	case AttackTypeBusiness:
+	case TechTypeBusiness:
 		return AttackCategoryWeb
-	case AttackTypeBusinesso:
+	case TechTypeBusinesso:
 		return AttackCategoryWeb
-	case AttackTypeBusybox:
+	case TechTypeBusybox:
 		return AttackCategoryWeb
-	case AttackTypeButtercmsc99:
+	case TechTypeButtercmsc99:
 		return AttackCategoryWeb
-	case AttackTypeBuymeacoffeeosint:
+	case TechTypeBuymeacoffeeosint:
 		return AttackCategoryOsint
-	case AttackTypeBuzzfeedosint:
+	case TechTypeBuzzfeedosint:
 		return AttackCategoryOsint
-	case AttackTypeBuzznetosint:
+	case TechTypeBuzznetosint:
 		return AttackCategoryOsint
-	case AttackTypeBws:
+	case TechTypeBws:
 		return AttackCategoryWeb
-	case AttackTypeBwsAdminpage:
+	case TechTypeBwsAdminpage:
 		return AttackCategoryWeb
-	case AttackTypeBwsAdpush:
+	case TechTypeBwsAdpush:
 		return AttackCategoryWeb
-	case AttackTypeBwsContactForm:
+	case TechTypeBwsContactForm:
 		return AttackCategoryWeb
-	case AttackTypeBwsCustomSearch:
+	case TechTypeBwsCustomSearch:
 		return AttackCategoryWeb
-	case AttackTypeBwsErrorLog:
+	case TechTypeBwsErrorLog:
 		return AttackCategoryWeb
-	case AttackTypeBwsGoogleAnalytics:
+	case TechTypeBwsGoogleAnalytics:
 		return AttackCategoryWeb
-	case AttackTypeBwsGoogleMaps:
+	case TechTypeBwsGoogleMaps:
 		return AttackCategoryWeb
-	case AttackTypeBwsHtaccess:
+	case TechTypeBwsHtaccess:
 		return AttackCategoryWeb
-	case AttackTypeBwsLinkedin:
+	case TechTypeBwsLinkedin:
 		return AttackCategoryWeb
-	case AttackTypeBwsPagination:
+	case TechTypeBwsPagination:
 		return AttackCategoryWeb
-	case AttackTypeBwsPdfPrint:
+	case TechTypeBwsPdfPrint:
 		return AttackCategoryWeb
-	case AttackTypeBwsPinterest:
+	case TechTypeBwsPinterest:
 		return AttackCategoryWeb
-	case AttackTypeBwsPromobar:
+	case TechTypeBwsPromobar:
 		return AttackCategoryWeb
-	case AttackTypeBwsRating:
+	case TechTypeBwsRating:
 		return AttackCategoryWeb
-	case AttackTypeBwsRealty:
+	case TechTypeBwsRealty:
 		return AttackCategoryWeb
-	case AttackTypeBwsSender:
+	case TechTypeBwsSender:
 		return AttackCategoryWeb
-	case AttackTypeBwsSmtp:
+	case TechTypeBwsSmtp:
 		return AttackCategoryWeb
-	case AttackTypeBwsSocialButtons:
+	case TechTypeBwsSocialButtons:
 		return AttackCategoryWeb
-	case AttackTypeBwsSocialLogin:
+	case TechTypeBwsSocialLogin:
 		return AttackCategoryWeb
-	case AttackTypeBwsSubscribers:
+	case TechTypeBwsSubscribers:
 		return AttackCategoryWeb
-	case AttackTypeBwsTestimonials:
+	case TechTypeBwsTestimonials:
 		return AttackCategoryWeb
-	case AttackTypeBwsTwitter:
+	case TechTypeBwsTwitter:
 		return AttackCategoryWeb
-	case AttackTypeBwsUpdater:
+	case TechTypeBwsUpdater:
 		return AttackCategoryWeb
-	case AttackTypeBwsUserRole:
+	case TechTypeBwsUserRole:
 		return AttackCategoryWeb
-	case AttackTypeBwsVisitorsOnline:
+	case TechTypeBwsVisitorsOnline:
 		return AttackCategoryWeb
-	case AttackTypeBwsXss:
+	case TechTypeBwsXss:
 		return AttackCategoryXSS
-	case AttackTypeBwsZendesk:
+	case TechTypeBwsZendesk:
 		return AttackCategoryWeb
-	case AttackTypeBynder:
+	case TechTypeBynder:
 		return AttackCategoryWeb
-	case AttackTypeBypass:
+	case TechTypeBypass:
 		return AttackCategoryWeb
-	case AttackTypeBypasscve:
+	case TechTypeBypasscve:
 		return AttackCategoryCVE
-	case AttackTypeBypasslfi:
+	case TechTypeBypasslfi:
 		return AttackCategoryWeb
-	case AttackTypeBypassssrf:
+	case TechTypeBypassssrf:
 		return AttackCategoryWeb
-	case AttackTypeBypasswordpress:
+	case TechTypeBypasswordpress:
 		return AttackCategoryWordPress
-	case AttackTypeC2:
+	case TechTypeC2:
 		return AttackCategoryWeb
-	case AttackTypeC2Nimsoft:
+	case TechTypeC2Nimsoft:
 		return AttackCategoryWeb
-	case AttackTypeC4:
+	case TechTypeC4:
 		return AttackCategoryWeb
-	case AttackTypeCaadns:
+	case TechTypeCaadns:
 		return AttackCategoryDNS
-	case AttackTypeCache:
+	case TechTypeCache:
 		return AttackCategoryWeb
-	case AttackTypeCachepanel:
+	case TechTypeCachepanel:
 		return AttackCategoryWeb
-	case AttackTypeCachet:
+	case TechTypeCachet:
 		return AttackCategoryWeb
-	case AttackTypeCacti:
+	case TechTypeCacti:
 		return AttackCategoryWeb
-	case AttackTypeCacticiamoreGateway:
+	case TechTypeCacticiamoreGateway:
 		return AttackCategoryWeb
-	case AttackTypeCaddy:
+	case TechTypeCaddy:
 		return AttackCategoryWeb
-	case AttackTypeCaddyservercve2022:
+	case TechTypeCaddyservercve2022:
 		return AttackCategoryCVE
-	case AttackTypeCafecitoosint:
+	case TechTypeCafecitoosint:
 		return AttackCategoryOsint
-	case AttackTypeCakephp:
+	case TechTypeCakephp:
 		return AttackCategoryPHP
-	case AttackTypeCal:
+	case TechTypeCal:
 		return AttackCategoryWeb
-	case AttackTypeCaldera:
+	case TechTypeCaldera:
 		return AttackCategoryWeb
-	case AttackTypeCaldotcomosint:
+	case TechTypeCaldotcomosint:
 		return AttackCategoryOsint
-	case AttackTypeCalendar:
+	case TechTypeCalendar:
 		return AttackCategoryWeb
-	case AttackTypeCalendarifictokenSpray:
+	case TechTypeCalendarifictokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCalendarix:
+	case TechTypeCalendarix:
 		return AttackCategoryWeb
-	case AttackTypeCalendlyrecon:
+	case TechTypeCalendlyrecon:
 		return AttackCategoryWeb
-	case AttackTypeCalendyosint:
+	case TechTypeCalendyosint:
 		return AttackCategoryOsint
-	case AttackTypeCalmisconfig:
+	case TechTypeCalmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeCambium:
+	case TechTypeCambium:
 		return AttackCategoryWeb
-	case AttackTypeCameoosint:
+	case TechTypeCameoosint:
 		return AttackCategoryOsint
-	case AttackTypeCamera:
+	case TechTypeCamera:
 		return AttackCategoryWeb
-	case AttackTypeCameracve2016:
+	case TechTypeCameracve2016:
 		return AttackCategoryCVE
-	case AttackTypeCameradvr:
+	case TechTypeCameradvr:
 		return AttackCategoryWeb
-	case AttackTypeCamerapanel:
+	case TechTypeCamerapanel:
 		return AttackCategoryWeb
-	case AttackTypeCampaignmonitortakeovertakeovertakeover:
+	case TechTypeCampaignmonitortakeovertakeovertakeover:
 		return AttackCategoryAI
-	case AttackTypeCamptocampcve:
+	case TechTypeCamptocampcve:
 		return AttackCategoryCVE
-	case AttackTypeCamtroncve:
+	case TechTypeCamtroncve:
 		return AttackCategoryCVE
-	case AttackTypeCamundachinaunicom:
+	case TechTypeCamundachinaunicom:
 		return AttackCategoryWeb
-	case AttackTypeCandidateApplicationFormProjectcve2015:
+	case TechTypeCandidateApplicationFormProjectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeCandidats:
+	case TechTypeCandidats:
 		return AttackCategoryWeb
-	case AttackTypeCanonical:
+	case TechTypeCanonical:
 		return AttackCategoryWeb
-	case AttackTypeCanonicalcve:
+	case TechTypeCanonicalcve:
 		return AttackCategoryCVE
-	case AttackTypeCanopydefaultLogin:
+	case TechTypeCanopydefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeCantocve:
+	case TechTypeCantocve:
 		return AttackCategoryCVE
-	case AttackTypeCaptcha:
+	case TechTypeCaptcha:
 		return AttackCategoryWeb
-	case AttackTypeCarRentalManagementSystemProject:
+	case TechTypeCarRentalManagementSystemProject:
 		return AttackCategoryWeb
-	case AttackTypeCarRentalManagementSystemProjectcve:
+	case TechTypeCarRentalManagementSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeCarRentalManagementSystemProjectcve2021:
+	case TechTypeCarRentalManagementSystemProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeCarbonmadeosint:
+	case TechTypeCarbonmadeosint:
 		return AttackCategoryOsint
-	case AttackTypeCareerhabrosint:
+	case TechTypeCareerhabrosint:
 		return AttackCategoryOsint
-	case AttackTypeCarel:
+	case TechTypeCarel:
 		return AttackCategoryWeb
-	case AttackTypeCareliot:
+	case TechTypeCareliot:
 		return AttackCategoryIoT
-	case AttackTypeCargocollectivetakeovertakeover:
+	case TechTypeCargocollectivetakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeCargoexposure:
+	case TechTypeCargoexposure:
 		return AttackCategoryWeb
-	case AttackTypeCaringbridgeosint:
+	case TechTypeCaringbridgeosint:
 		return AttackCategoryOsint
-	case AttackTypeCarrcommunicationscve:
+	case TechTypeCarrcommunicationscve:
 		return AttackCategoryCVE
-	case AttackTypeCarrdcoosint:
+	case TechTypeCarrdcoosint:
 		return AttackCategoryOsint
-	case AttackTypeCarrental:
+	case TechTypeCarrental:
 		return AttackCategoryWeb
-	case AttackTypeCarsSellerAutoClassifiedsScriptProjectcve2021:
+	case TechTypeCarsSellerAutoClassifiedsScriptProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeCartabandonmentpro:
+	case TechTypeCartabandonmentpro:
 		return AttackCategoryWeb
-	case AttackTypeCas:
+	case TechTypeCas:
 		return AttackCategoryWeb
-	case AttackTypeCasaos:
+	case TechTypeCasaos:
 		return AttackCategoryWeb
-	case AttackTypeCasbincasemanager:
+	case TechTypeCasbincasemanager:
 		return AttackCategoryWeb
-	case AttackTypeCasbincve:
+	case TechTypeCasbincve:
 		return AttackCategoryCVE
-	case AttackTypeCascve2021:
+	case TechTypeCascve2021:
 		return AttackCategoryCVE
-	case AttackTypeCasdoor:
+	case TechTypeCasdoor:
 		return AttackCategoryWeb
-	case AttackTypeCaseaware:
+	case TechTypeCaseaware:
 		return AttackCategoryWeb
-	case AttackTypeCashapposint:
+	case TechTypeCashapposint:
 		return AttackCategoryOsint
-	case AttackTypeCassandra:
+	case TechTypeCassandra:
 		return AttackCategoryWeb
-	case AttackTypeCassia:
+	case TechTypeCassia:
 		return AttackCategoryWeb
-	case AttackTypeCassianetworkscve:
+	case TechTypeCassianetworkscve:
 		return AttackCategoryCVE
-	case AttackTypeCastelexposure:
+	case TechTypeCastelexposure:
 		return AttackCategoryWeb
-	case AttackTypeCastingcallclubosint:
+	case TechTypeCastingcallclubosint:
 		return AttackCategoryOsint
-	case AttackTypeCatalogcreater:
+	case TechTypeCatalogcreater:
 		return AttackCategoryWeb
-	case AttackTypeCatchpluginscve:
+	case TechTypeCatchpluginscve:
 		return AttackCategoryCVE
-	case AttackTypeCatfishcmscnvd2019:
+	case TechTypeCatfishcmscnvd2019:
 		return AttackCategoryWeb
-	case AttackTypeCaucho:
+	case TechTypeCaucho:
 		return AttackCategoryWeb
-	case AttackTypeCcleaner:
+	case TechTypeCcleaner:
 		return AttackCategoryWeb
-	case AttackTypeCcmpanel:
+	case TechTypeCcmpanel:
 		return AttackCategoryWeb
-	case AttackTypeCdActionosint:
+	case TechTypeCdActionosint:
 		return AttackCategoryOsint
-	case AttackTypeCdaplosint:
+	case TechTypeCdaplosint:
 		return AttackCategoryOsint
-	case AttackTypeCdata:
+	case TechTypeCdata:
 		return AttackCategoryWeb
-	case AttackTypeCdg:
+	case TechTypeCdg:
 		return AttackCategoryWeb
-	case AttackTypeCdi:
+	case TechTypeCdi:
 		return AttackCategoryWeb
-	case AttackTypeCdist:
+	case TechTypeCdist:
 		return AttackCategoryWeb
-	case AttackTypeCdn:
+	case TechTypeCdn:
 		return AttackCategoryWeb
-	case AttackTypeCelebrus:
+	case TechTypeCelebrus:
 		return AttackCategoryWeb
-	case AttackTypeCentos:
+	case TechTypeCentos:
 		return AttackCategoryWeb
-	case AttackTypeCentospanel:
+	case TechTypeCentospanel:
 		return AttackCategoryWeb
-	case AttackTypeCentostech:
+	case TechTypeCentostech:
 		return AttackCategoryWeb
-	case AttackTypeCentreon:
+	case TechTypeCentreon:
 		return AttackCategoryWeb
-	case AttackTypeCerebropanel:
+	case TechTypeCerebropanel:
 		return AttackCategoryWeb
-	case AttackTypeCf7Skinscve2021:
+	case TechTypeCf7Skinscve2021:
 		return AttackCategoryCVE
-	case AttackTypeCgi:
+	case TechTypeCgi:
 		return AttackCategoryWeb
-	case AttackTypeCgiconfig:
+	case TechTypeCgiconfig:
 		return AttackCategoryWeb
-	case AttackTypeCgit:
+	case TechTypeCgit:
 		return AttackCategoryWeb
-	case AttackTypeCgitProjectcve2018:
+	case TechTypeCgitProjectcve2018:
 		return AttackCategoryCVE
-	case AttackTypeCgitProjectpanel:
+	case TechTypeCgitProjectpanel:
 		return AttackCategoryWeb
-	case AttackTypeChachethqcve:
+	case TechTypeChachethqcve:
 		return AttackCategoryCVE
-	case AttackTypeChamilo:
+	case TechTypeChamilo:
 		return AttackCategoryWeb
-	case AttackTypeChamilocve:
+	case TechTypeChamilocve:
 		return AttackCategoryCVE
-	case AttackTypeChampionatosint:
+	case TechTypeChampionatosint:
 		return AttackCategoryOsint
-	case AttackTypeChamskoosint:
+	case TechTypeChamskoosint:
 		return AttackCategoryOsint
-	case AttackTypeChangedetection:
+	case TechTypeChangedetection:
 		return AttackCategoryWeb
-	case AttackTypeChanjet:
+	case TechTypeChanjet:
 		return AttackCategoryWeb
-	case AttackTypeChanjetcve:
+	case TechTypeChanjetcve:
 		return AttackCategoryCVE
-	case AttackTypeChaos:
+	case TechTypeChaos:
 		return AttackCategoryWeb
-	case AttackTypeCharity:
+	case TechTypeCharity:
 		return AttackCategoryWeb
-	case AttackTypeChatgpt:
+	case TechTypeChatgpt:
 		return AttackCategoryWeb
-	case AttackTypeChaturbateosint:
+	case TechTypeChaturbateosint:
 		return AttackCategoryOsint
-	case AttackTypeChaty:
+	case TechTypeChaty:
 		return AttackCategoryWeb
-	case AttackTypeChecklistcve:
+	case TechTypeChecklistcve:
 		return AttackCategoryCVE
-	case AttackTypeCheckmarxlogin:
+	case TechTypeCheckmarxlogin:
 		return AttackCategoryWeb
-	case AttackTypeCheckpoint:
+	case TechTypeCheckpoint:
 		return AttackCategoryWeb
-	case AttackTypeCheckpointpanel:
+	case TechTypeCheckpointpanel:
 		return AttackCategoryWeb
-	case AttackTypeCheezburgerosint:
+	case TechTypeCheezburgerosint:
 		return AttackCategoryOsint
-	case AttackTypeChefiocredsStuffing:
+	case TechTypeChefiocredsStuffing:
 		return AttackCategoryWeb
-	case AttackTypeChemotargets:
+	case TechTypeChemotargets:
 		return AttackCategoryWeb
-	case AttackTypeCherokee:
+	case TechTypeCherokee:
 		return AttackCategoryWeb
-	case AttackTypeChesscomosint:
+	case TechTypeChesscomosint:
 		return AttackCategoryOsint
-	case AttackTypeCheveretotech:
+	case TechTypeCheveretotech:
 		return AttackCategoryWeb
-	case AttackTypeChillcreationscve2010:
+	case TechTypeChillcreationscve2010:
 		return AttackCategoryCVE
-	case AttackTypeChimpgroupcve2021:
+	case TechTypeChimpgroupcve2021:
 		return AttackCategoryCVE
-	case AttackTypeChiyu:
+	case TechTypeChiyu:
 		return AttackCategoryWeb
-	case AttackTypeChiyuTechcve2021:
+	case TechTypeChiyuTechcve2021:
 		return AttackCategoryCVE
-	case AttackTypeChomikujplosint:
+	case TechTypeChomikujplosint:
 		return AttackCategoryOsint
-	case AttackTypeChoom:
+	case TechTypeChoom:
 		return AttackCategoryWeb
-	case AttackTypeChopslider:
+	case TechTypeChopslider:
 		return AttackCategoryWeb
-	case AttackTypeChrisSimoncve:
+	case TechTypeChrisSimoncve:
 		return AttackCategoryCVE
-	case AttackTypeChrome:
+	case TechTypeChrome:
 		return AttackCategoryWeb
-	case AttackTypeChromecast:
+	case TechTypeChromecast:
 		return AttackCategoryWeb
-	case AttackTypeChromiummisconfig:
+	case TechTypeChromiummisconfig:
 		return AttackCategoryWeb
-	case AttackTypeChronoenginecve2021:
+	case TechTypeChronoenginecve2021:
 		return AttackCategoryCVE
-	case AttackTypeChronoforums:
+	case TechTypeChronoforums:
 		return AttackCategoryWeb
-	case AttackTypeChronos:
+	case TechTypeChronos:
 		return AttackCategoryWeb
-	case AttackTypeChuangtiancouchdbcrawlab:
+	case TechTypeChuangtiancouchdbcrawlab:
 		return AttackCategoryWeb
-	case AttackTypeChurchAdminProjectcve2015:
+	case TechTypeChurchAdminProjectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeChurchcrm:
+	case TechTypeChurchcrm:
 		return AttackCategoryWeb
-	case AttackTypeChyoaosint:
+	case TechTypeChyoaosint:
 		return AttackCategoryOsint
-	case AttackTypeChyrp:
+	case TechTypeChyrp:
 		return AttackCategoryWeb
-	case AttackTypeChyrpcve:
+	case TechTypeChyrpcve:
 		return AttackCategoryCVE
-	case AttackTypeCicd:
+	case TechTypeCicd:
 		return AttackCategoryWeb
-	case AttackTypeCicdblazor:
+	case TechTypeCicdblazor:
 		return AttackCategoryWeb
-	case AttackTypeCicdconfig:
+	case TechTypeCicdconfig:
 		return AttackCategoryWeb
-	case AttackTypeCicddetect:
+	case TechTypeCicddetect:
 		return AttackCategoryWeb
-	case AttackTypeCicddevops:
+	case TechTypeCicddevops:
 		return AttackCategoryWeb
-	case AttackTypeCicdexposure:
+	case TechTypeCicdexposure:
 		return AttackCategoryWeb
-	case AttackTypeCicdpanel:
+	case TechTypeCicdpanel:
 		return AttackCategoryWeb
-	case AttackTypeCicdqdpm:
+	case TechTypeCicdqdpm:
 		return AttackCategoryWeb
-	case AttackTypeCicdtech:
+	case TechTypeCicdtech:
 		return AttackCategoryWeb
-	case AttackTypeCiphertrustdefaultLogin:
+	case TechTypeCiphertrustdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeCiprianmpcve:
+	case TechTypeCiprianmpcve:
 		return AttackCategoryCVE
-	case AttackTypeCircarlife:
+	case TechTypeCircarlife:
 		return AttackCategoryWeb
-	case AttackTypeCircleciconfig:
+	case TechTypeCircleciconfig:
 		return AttackCategoryWeb
-	case AttackTypeCircleciexposure:
+	case TechTypeCircleciexposure:
 		return AttackCategoryWeb
-	case AttackTypeCirclecitokenSpray:
+	case TechTypeCirclecitokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCircontrol:
+	case TechTypeCircontrol:
 		return AttackCategoryWeb
-	case AttackTypeCircontrolcve:
+	case TechTypeCircontrolcve:
 		return AttackCategoryCVE
-	case AttackTypeCircontrolcve2018:
+	case TechTypeCircontrolcve2018:
 		return AttackCategoryCVE
-	case AttackTypeCisa:
+	case TechTypeCisa:
 		return AttackCategoryWeb
-	case AttackTypeCisco:
+	case TechTypeCisco:
 		return AttackCategoryWeb
-	case AttackTypeCiscocisco:
+	case TechTypeCiscocisco:
 		return AttackCategoryWeb
-	case AttackTypeCiscocve:
+	case TechTypeCiscocve:
 		return AttackCategoryCVE
-	case AttackTypeCiscocve2019:
+	case TechTypeCiscocve2019:
 		return AttackCategoryCVE
-	case AttackTypeCiscocve2020:
+	case TechTypeCiscocve2020:
 		return AttackCategoryCVE
-	case AttackTypeCiscocve2021:
+	case TechTypeCiscocve2021:
 		return AttackCategoryCVE
-	case AttackTypeCiscopanel:
+	case TechTypeCiscopanel:
 		return AttackCategoryWeb
-	case AttackTypeCitrix:
+	case TechTypeCitrix:
 		return AttackCategoryWeb
-	case AttackTypeCitrixcve:
+	case TechTypeCitrixcve:
 		return AttackCategoryCVE
-	case AttackTypeCitrixcve2020:
+	case TechTypeCitrixcve2020:
 		return AttackCategoryCVE
-	case AttackTypeCitrixcve2023:
+	case TechTypeCitrixcve2023:
 		return AttackCategoryCVE
-	case AttackTypeCitrixpanel:
+	case TechTypeCitrixpanel:
 		return AttackCategoryWeb
-	case AttackTypeCitrixshell:
+	case TechTypeCitrixshell:
 		return AttackCategoryWeb
-	case AttackTypeCitybook:
+	case TechTypeCitybook:
 		return AttackCategoryWeb
-	case AttackTypeCkeditorpanel:
+	case TechTypeCkeditorpanel:
 		return AttackCategoryWeb
-	case AttackTypeClamav:
+	case TechTypeClamav:
 		return AttackCategoryWeb
-	case AttackTypeClansphere:
+	case TechTypeClansphere:
 		return AttackCategoryWeb
-	case AttackTypeClave:
+	case TechTypeClave:
 		return AttackCategoryWeb
-	case AttackTypeCleanweb:
+	case TechTypeCleanweb:
 		return AttackCategoryWeb
-	case AttackTypeClearbittokenSpray:
+	case TechTypeClearbittokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeClearcom:
+	case TechTypeClearcom:
 		return AttackCategoryWeb
-	case AttackTypeClearfyCache:
+	case TechTypeClearfyCache:
 		return AttackCategoryWeb
-	case AttackTypeClickdeskcve:
+	case TechTypeClickdeskcve:
 		return AttackCategoryCVE
-	case AttackTypeClickhouse:
+	case TechTypeClickhouse:
 		return AttackCategoryWeb
-	case AttackTypeClickjacking:
+	case TechTypeClickjacking:
 		return AttackCategoryWeb
-	case AttackTypeClicksharedefaultLogin:
+	case TechTypeClicksharedefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeClickuptokenSpray:
+	case TechTypeClickuptokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeClientidbitbucket:
+	case TechTypeClientidbitbucket:
 		return AttackCategoryWeb
-	case AttackTypeClientiddiscord:
+	case TechTypeClientiddiscord:
 		return AttackCategoryWeb
-	case AttackTypeClimatejusticerocksMastodonInstanceosint:
+	case TechTypeClimatejusticerocksMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeCliniccasescve2021:
+	case TechTypeCliniccasescve2021:
 		return AttackCategoryCVE
-	case AttackTypeClinkOffice:
+	case TechTypeClinkOffice:
 		return AttackCategoryWeb
-	case AttackTypeClipbucket:
+	case TechTypeClipbucket:
 		return AttackCategoryWeb
-	case AttackTypeClockifytokenSpray:
+	case TechTypeClockifytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeClockwork:
+	case TechTypeClockwork:
 		return AttackCategoryWeb
-	case AttackTypeCloud:
+	case TechTypeCloud:
 		return AttackCategoryCloud
-	case AttackTypeCloudBoxzcms:
+	case TechTypeCloudBoxzcms:
 		return AttackCategoryCloud
-	case AttackTypeCloudEnum:
+	case TechTypeCloudEnum:
 		return AttackCategoryCloud
-	case AttackTypeCloudanalyticspanel:
+	case TechTypeCloudanalyticspanel:
 		return AttackCategoryCloud
-	case AttackTypeCloudcenter:
+	case TechTypeCloudcenter:
 		return AttackCategoryCloud
-	case AttackTypeCloudconverttokenSpray:
+	case TechTypeCloudconverttokenSpray:
 		return AttackCategoryCloud
-	case AttackTypeCloudcve:
+	case TechTypeCloudcve:
 		return AttackCategoryCloud
-	case AttackTypeClouderadefaultLogins:
+	case TechTypeClouderadefaultLogins:
 		return AttackCategoryCloud
-	case AttackTypeCloudflare:
+	case TechTypeCloudflare:
 		return AttackCategoryCloud
-	case AttackTypeCloudflareosint:
+	case TechTypeCloudflareosint:
 		return AttackCategoryCloud
-	case AttackTypeCloudflaretokenSpray:
+	case TechTypeCloudflaretokenSpray:
 		return AttackCategoryCloud
-	case AttackTypeCloudfront:
+	case TechTypeCloudfront:
 		return AttackCategoryCloud
-	case AttackTypeCloudinarycodeclimate:
+	case TechTypeCloudinarycodeclimate:
 		return AttackCategoryCloud
-	case AttackTypeCloudoa:
+	case TechTypeCloudoa:
 		return AttackCategoryCloud
-	case AttackTypeCloudpanel:
+	case TechTypeCloudpanel:
 		return AttackCategoryCloud
-	case AttackTypeCloudrconfig:
+	case TechTypeCloudrconfig:
 		return AttackCategoryCloud
-	case AttackTypeCloudron:
+	case TechTypeCloudron:
 		return AttackCategoryCloud
-	case AttackTypeCloudrun:
+	case TechTypeCloudrun:
 		return AttackCategoryCloud
-	case AttackTypeCloudtech:
+	case TechTypeCloudtech:
 		return AttackCategoryCloud
-	case AttackTypeCloudtrail:
+	case TechTypeCloudtrail:
 		return AttackCategoryCloud
-	case AttackTypeCloudveeam:
+	case TechTypeCloudveeam:
 		return AttackCategoryCloud
-	case AttackTypeCloudwatch:
+	case TechTypeCloudwatch:
 		return AttackCategoryCloud
-	case AttackTypeClubhouseosint:
+	case TechTypeClubhouseosint:
 		return AttackCategoryOsint
-	case AttackTypeCluster:
+	case TechTypeCluster:
 		return AttackCategoryWeb
-	case AttackTypeClusterdafricaosint:
+	case TechTypeClusterdafricaosint:
 		return AttackCategoryOsint
-	case AttackTypeClusterengine:
+	case TechTypeClusterengine:
 		return AttackCategoryWeb
-	case AttackTypeClusterenginekingsoft:
+	case TechTypeClusterenginekingsoft:
 		return AttackCategoryWeb
-	case AttackTypeClustering:
+	case TechTypeClustering:
 		return AttackCategoryWeb
-	case AttackTypeClusteringProjectcve2021:
+	case TechTypeClusteringProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeClusterpanel:
+	case TechTypeClusterpanel:
 		return AttackCategoryWeb
-	case AttackTypeCmd:
+	case TechTypeCmd:
 		return AttackCategoryWeb
-	case AttackTypeCmindscve2016:
+	case TechTypeCmindscve2016:
 		return AttackCategoryCVE
-	case AttackTypeCmpComingSoonMaintenance:
+	case TechTypeCmpComingSoonMaintenance:
 		return AttackCategoryAI
-	case AttackTypeCms:
+	case TechTypeCms:
 		return AttackCategoryWeb
-	case AttackTypeCmsMadeSimplemisconfig:
+	case TechTypeCmsMadeSimplemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeCmsTreePageViewProjectcve:
+	case TechTypeCmsTreePageViewProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeCmscve:
+	case TechTypeCmscve:
 		return AttackCategoryCVE
-	case AttackTypeCmscve2021:
+	case TechTypeCmscve2021:
 		return AttackCategoryCVE
-	case AttackTypeCmscvms:
+	case TechTypeCmscvms:
 		return AttackCategoryWeb
-	case AttackTypeCmsepp:
+	case TechTypeCmsepp:
 		return AttackCategoryWeb
-	case AttackTypeCmsfavicon:
+	case TechTypeCmsfavicon:
 		return AttackCategoryWeb
-	case AttackTypeCmsimplecve2008:
+	case TechTypeCmsimplecve2008:
 		return AttackCategoryCVE
-	case AttackTypeCmsinspur:
+	case TechTypeCmsinspur:
 		return AttackCategoryWeb
-	case AttackTypeCmsixcache:
+	case TechTypeCmsixcache:
 		return AttackCategoryWeb
-	case AttackTypeCmslotuscms:
+	case TechTypeCmslotuscms:
 		return AttackCategoryWeb
-	case AttackTypeCmsmadesimplecve:
+	case TechTypeCmsmadesimplecve:
 		return AttackCategoryCVE
-	case AttackTypeCmsmagento:
+	case TechTypeCmsmagento:
 		return AttackCategoryWeb
-	case AttackTypeCmsmisconfig:
+	case TechTypeCmsmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeCmspanel:
+	case TechTypeCmspanel:
 		return AttackCategoryWeb
-	case AttackTypeCmspodcastgenerator:
+	case TechTypeCmspodcastgenerator:
 		return AttackCategoryWeb
-	case AttackTypeCmsrconfig:
+	case TechTypeCmsrconfig:
 		return AttackCategoryWeb
-	case AttackTypeCmssmartbi:
+	case TechTypeCmssmartbi:
 		return AttackCategoryWeb
-	case AttackTypeCmssubrion:
+	case TechTypeCmssubrion:
 		return AttackCategoryWeb
-	case AttackTypeCmstacticscve:
+	case TechTypeCmstacticscve:
 		return AttackCategoryCVE
-	case AttackTypeCmstech:
+	case TechTypeCmstech:
 		return AttackCategoryWeb
-	case AttackTypeCmszzcms:
+	case TechTypeCmszzcms:
 		return AttackCategoryWeb
-	case AttackTypeCnetosint:
+	case TechTypeCnetosint:
 		return AttackCategoryOsint
-	case AttackTypeCnvd:
+	case TechTypeCnvd:
 		return AttackCategoryWeb
-	case AttackTypeCnvd2017:
+	case TechTypeCnvd2017:
 		return AttackCategoryWeb
-	case AttackTypeCnvd2019:
+	case TechTypeCnvd2019:
 		return AttackCategoryWeb
-	case AttackTypeCnvd2020:
+	case TechTypeCnvd2020:
 		return AttackCategoryWeb
-	case AttackTypeCnvd2021:
+	case TechTypeCnvd2021:
 		return AttackCategoryWeb
-	case AttackTypeCnvd2022:
+	case TechTypeCnvd2022:
 		return AttackCategoryWeb
-	case AttackTypeCnvd2023:
+	case TechTypeCnvd2023:
 		return AttackCategoryWeb
-	case AttackTypeCnvd2024:
+	case TechTypeCnvd2024:
 		return AttackCategoryWeb
-	case AttackTypeCnzxsoftdefaultLogin:
+	case TechTypeCnzxsoftdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeCobaltStrike:
+	case TechTypeCobaltStrike:
 		return AttackCategoryWeb
-	case AttackTypeCobaltStrikessl:
+	case TechTypeCobaltStrikessl:
 		return AttackCategoryWeb
-	case AttackTypeCobbler:
+	case TechTypeCobbler:
 		return AttackCategoryWeb
-	case AttackTypeCobblerProjectcve2021:
+	case TechTypeCobblerProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeCobblerdcve:
+	case TechTypeCobblerdcve:
 		return AttackCategoryCVE
-	case AttackTypeCobblerdpanel:
+	case TechTypeCobblerdpanel:
 		return AttackCategoryWeb
-	case AttackTypeCobub:
+	case TechTypeCobub:
 		return AttackCategoryWeb
-	case AttackTypeCocca:
+	case TechTypeCocca:
 		return AttackCategoryWeb
-	case AttackTypeCockpit:
+	case TechTypeCockpit:
 		return AttackCategoryWeb
-	case AttackTypeCockpittech:
+	case TechTypeCockpittech:
 		return AttackCategoryWeb
-	case AttackTypeCocoon:
+	case TechTypeCocoon:
 		return AttackCategoryWeb
-	case AttackTypeCoda:
+	case TechTypeCoda:
 		return AttackCategoryWeb
-	case AttackTypeCode:
+	case TechTypeCode:
 		return AttackCategoryWeb
-	case AttackTypeCodeAtlanticcve:
+	case TechTypeCodeAtlanticcve:
 		return AttackCategoryCVE
-	case AttackTypeCodeGaragecve2010:
+	case TechTypeCodeGaragecve2010:
 		return AttackCategoryCVE
-	case AttackTypeCode42:
+	case TechTypeCode42:
 		return AttackCategoryWeb
-	case AttackTypeCode42Codemeter:
+	case TechTypeCode42Codemeter:
 		return AttackCategoryWeb
-	case AttackTypeCodeasilycve:
+	case TechTypeCodeasilycve:
 		return AttackCategoryCVE
-	case AttackTypeCodeastrologycve:
+	case TechTypeCodeastrologycve:
 		return AttackCategoryCVE
-	case AttackTypeCodebasecloud:
+	case TechTypeCodebasecloud:
 		return AttackCategoryCloud
-	case AttackTypeCodebergosint:
+	case TechTypeCodebergosint:
 		return AttackCategoryOsint
-	case AttackTypeCodebuild:
+	case TechTypeCodebuild:
 		return AttackCategoryWeb
-	case AttackTypeCodecabincve:
+	case TechTypeCodecabincve:
 		return AttackCategoryCVE
-	case AttackTypeCodecademyosint:
+	case TechTypeCodecademyosint:
 		return AttackCategoryOsint
-	case AttackTypeCodecallcve2008:
+	case TechTypeCodecallcve2008:
 		return AttackCategoryCVE
-	case AttackTypeCodeception:
+	case TechTypeCodeception:
 		return AttackCategoryWeb
-	case AttackTypeCodedropzcve:
+	case TechTypeCodedropzcve:
 		return AttackCategoryCVE
-	case AttackTypeCodeermeneercve2023:
+	case TechTypeCodeermeneercve2023:
 		return AttackCategoryCVE
-	case AttackTypeCodeforcesosint:
+	case TechTypeCodeforcesosint:
 		return AttackCategoryRCE
-	case AttackTypeCodeigniter:
+	case TechTypeCodeigniter:
 		return AttackCategoryWeb
-	case AttackTypeCodeigniterexposure:
+	case TechTypeCodeigniterexposure:
 		return AttackCategoryWeb
-	case AttackTypeCodeignitertechtech:
+	case TechTypeCodeignitertechtech:
 		return AttackCategoryWeb
-	case AttackTypeCodekop:
+	case TechTypeCodekop:
 		return AttackCategoryWeb
-	case AttackTypeCodemenschencve:
+	case TechTypeCodemenschencve:
 		return AttackCategoryCVE
-	case AttackTypeCodemenschencve2023:
+	case TechTypeCodemenschencve2023:
 		return AttackCategoryCVE
-	case AttackTypeCodementorosint:
+	case TechTypeCodementorosint:
 		return AttackCategoryOsint
-	case AttackTypeCodemetermisconfig:
+	case TechTypeCodemetermisconfig:
 		return AttackCategoryWeb
-	case AttackTypeCodemiqcve2022:
+	case TechTypeCodemiqcve2022:
 		return AttackCategoryCVE
-	case AttackTypeCodepencloud:
+	case TechTypeCodepencloud:
 		return AttackCategoryCloud
-	case AttackTypeCoderpanel:
+	case TechTypeCoderpanel:
 		return AttackCategoryWeb
-	case AttackTypeCoderwallosint:
+	case TechTypeCoderwallosint:
 		return AttackCategoryOsint
-	case AttackTypeCodesnippetscve2021:
+	case TechTypeCodesnippetscve2021:
 		return AttackCategoryCVE
-	case AttackTypeCodestatstokenSpray:
+	case TechTypeCodestatstokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCodetipicve:
+	case TechTypeCodetipicve:
 		return AttackCategoryCVE
-	case AttackTypeCodewarsosint:
+	case TechTypeCodewarsosint:
 		return AttackCategoryOsint
-	case AttackTypeCodiscollectd:
+	case TechTypeCodiscollectd:
 		return AttackCategoryWeb
-	case AttackTypeCodoforumrce:
+	case TechTypeCodoforumrce:
 		return AttackCategoryRCE
-	case AttackTypeCodologiccve:
+	case TechTypeCodologiccve:
 		return AttackCategoryCVE
-	case AttackTypeCofax:
+	case TechTypeCofax:
 		return AttackCategoryWeb
-	case AttackTypeCofense:
+	case TechTypeCofense:
 		return AttackCategoryWeb
-	case AttackTypeCognito:
+	case TechTypeCognito:
 		return AttackCategoryWeb
-	case AttackTypeCohostosint:
+	case TechTypeCohostosint:
 		return AttackCategoryOsint
-	case AttackTypeCoinapitokenSpray:
+	case TechTypeCoinapitokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCoinlayertokenSpray:
+	case TechTypeCoinlayertokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCoinmarketcaptokenSpray:
+	case TechTypeCoinmarketcaptokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCoinrankingtokenSpray:
+	case TechTypeCoinrankingtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeColdfusion:
+	case TechTypeColdfusion:
 		return AttackCategoryWeb
-	case AttackTypeColdfusioncve2021:
+	case TechTypeColdfusioncve2021:
 		return AttackCategoryCVE
-	case AttackTypeCollectAndDeliverInterfaceForWoocommerceProjectcve:
+	case TechTypeCollectAndDeliverInterfaceForWoocommerceProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeCollegeManagementSystemProjectcve:
+	case TechTypeCollegeManagementSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeCollegemanagement:
+	case TechTypeCollegemanagement:
 		return AttackCategoryWeb
-	case AttackTypeCollibraProperties:
+	case TechTypeCollibraProperties:
 		return AttackCategoryWeb
-	case AttackTypeCollibraconfig:
+	case TechTypeCollibraconfig:
 		return AttackCategoryWeb
-	case AttackTypeCollnecve:
+	case TechTypeCollnecve:
 		return AttackCategoryCVE
-	case AttackTypeColourloversosint:
+	case TechTypeColourloversosint:
 		return AttackCategoryOsint
-	case AttackTypeColumbiasoft:
+	case TechTypeColumbiasoft:
 		return AttackCategoryWeb
-	case AttackTypeComPropertycve:
+	case TechTypeComPropertycve:
 		return AttackCategoryCVE
-	case AttackTypeComJanewscve:
+	case TechTypeComJanewscve:
 		return AttackCategoryCVE
-	case AttackTypeComboBlocks:
+	case TechTypeComboBlocks:
 		return AttackCategoryWeb
-	case AttackTypeCombodocve2015:
+	case TechTypeCombodocve2015:
 		return AttackCategoryCVE
-	case AttackTypeCombodopanel:
+	case TechTypeCombodopanel:
 		return AttackCategoryWeb
-	case AttackTypeComfortel:
+	case TechTypeComfortel:
 		return AttackCategoryWeb
-	case AttackTypeCommerceoracle:
+	case TechTypeCommerceoracle:
 		return AttackCategoryRCE
-	case AttackTypeCommoninjacve2022:
+	case TechTypeCommoninjacve2022:
 		return AttackCategoryCVE
-	case AttackTypeCommonsbooking:
+	case TechTypeCommonsbooking:
 		return AttackCategoryWeb
-	case AttackTypeCommscope:
+	case TechTypeCommscope:
 		return AttackCategoryWeb
-	case AttackTypeCommscopepanel:
+	case TechTypeCommscopepanel:
 		return AttackCategoryWeb
-	case AttackTypeCommunilinkcve2020:
+	case TechTypeCommunilinkcve2020:
 		return AttackCategoryCVE
-	case AttackTypeCommvault:
+	case TechTypeCommvault:
 		return AttackCategoryWeb
-	case AttackTypeComodo:
+	case TechTypeComodo:
 		return AttackCategoryWeb
-	case AttackTypeCompalex:
+	case TechTypeCompalex:
 		return AttackCategoryWeb
-	case AttackTypeCompaltech:
+	case TechTypeCompaltech:
 		return AttackCategoryWeb
-	case AttackTypeCompleteOnlineJobSearchSystemProjectcve:
+	case TechTypeCompleteOnlineJobSearchSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeCompleteviewpanel:
+	case TechTypeCompleteviewpanel:
 		return AttackCategoryWeb
-	case AttackTypeComposer:
+	case TechTypeComposer:
 		return AttackCategoryWeb
-	case AttackTypeConcourse:
+	case TechTypeConcourse:
 		return AttackCategoryWeb
-	case AttackTypeConcrete:
+	case TechTypeConcrete:
 		return AttackCategoryWeb
-	case AttackTypeConcrete5:
+	case TechTypeConcrete5:
 		return AttackCategoryWeb
-	case AttackTypeConcrete5Panel:
+	case TechTypeConcrete5Panel:
 		return AttackCategoryWeb
-	case AttackTypeConcretemisconfig:
+	case TechTypeConcretemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeCondfusion:
+	case TechTypeCondfusion:
 		return AttackCategoryWeb
-	case AttackTypeConductor:
+	case TechTypeConductor:
 		return AttackCategoryWeb
-	case AttackTypeConfig:
+	case TechTypeConfig:
 		return AttackCategoryWeb
-	case AttackTypeConfigamazon:
+	case TechTypeConfigamazon:
 		return AttackCategoryWeb
-	case AttackTypeConfigaxis:
+	case TechTypeConfigaxis:
 		return AttackCategoryWeb
-	case AttackTypeConfigconfig:
+	case TechTypeConfigconfig:
 		return AttackCategoryWeb
-	case AttackTypeConfigdevops:
+	case TechTypeConfigdevops:
 		return AttackCategoryWeb
-	case AttackTypeConfigdwsync:
+	case TechTypeConfigdwsync:
 		return AttackCategoryWeb
-	case AttackTypeConfigecology:
+	case TechTypeConfigecology:
 		return AttackCategoryWeb
-	case AttackTypeConfigecologyOa:
+	case TechTypeConfigecologyOa:
 		return AttackCategoryWeb
-	case AttackTypeConfigexposure:
+	case TechTypeConfigexposure:
 		return AttackCategoryWeb
-	case AttackTypeConfigmiscellaneous:
+	case TechTypeConfigmiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypeConfigmisconfig:
+	case TechTypeConfigmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeConfigmongodb:
+	case TechTypeConfigmongodb:
 		return AttackCategoryWeb
-	case AttackTypeConfigmysqld:
+	case TechTypeConfigmysqld:
 		return AttackCategorySqlInjection
-	case AttackTypeConfigpanel:
+	case TechTypeConfigpanel:
 		return AttackCategoryWeb
-	case AttackTypeConfigredirectthruk:
+	case TechTypeConfigredirectthruk:
 		return AttackCategoryWeb
-	case AttackTypeConfluence:
+	case TechTypeConfluence:
 		return AttackCategoryWeb
-	case AttackTypeConfluenceatlassian:
+	case TechTypeConfluenceatlassian:
 		return AttackCategoryWeb
-	case AttackTypeConfluencecve2015:
+	case TechTypeConfluencecve2015:
 		return AttackCategoryCVE
-	case AttackTypeConfluencemisconfig:
+	case TechTypeConfluencemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeConnect:
+	case TechTypeConnect:
 		return AttackCategoryWeb
-	case AttackTypeConnectCentralpanel:
+	case TechTypeConnectCentralpanel:
 		return AttackCategoryWeb
-	case AttackTypeConnectbox:
+	case TechTypeConnectbox:
 		return AttackCategoryWeb
-	case AttackTypeConnectsecure:
+	case TechTypeConnectsecure:
 		return AttackCategoryWeb
-	case AttackTypeConnectwise:
+	case TechTypeConnectwise:
 		return AttackCategoryWeb
-	case AttackTypeConnectwisemisconfig:
+	case TechTypeConnectwisemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeConnectwisetech:
+	case TechTypeConnectwisetech:
 		return AttackCategoryWeb
-	case AttackTypeConsole:
+	case TechTypeConsole:
 		return AttackCategoryWeb
-	case AttackTypeConsolepanel:
+	case TechTypeConsolepanel:
 		return AttackCategoryWeb
-	case AttackTypeConsoletech:
+	case TechTypeConsoletech:
 		return AttackCategoryWeb
-	case AttackTypeConsul:
+	case TechTypeConsul:
 		return AttackCategoryWeb
-	case AttackTypeContactForm:
+	case TechTypeContactForm:
 		return AttackCategoryWeb
-	case AttackTypeContactFormEntries:
+	case TechTypeContactFormEntries:
 		return AttackCategoryWeb
-	case AttackTypeContactFormMulti:
+	case TechTypeContactFormMulti:
 		return AttackCategoryWeb
-	case AttackTypeContactForm7CaptchaProjectcve:
+	case TechTypeContactForm7CaptchaProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeContactform:
+	case TechTypeContactform:
 		return AttackCategoryWeb
-	case AttackTypeContactossexosint:
+	case TechTypeContactossexosint:
 		return AttackCategoryOsint
-	case AttackTypeContainer:
+	case TechTypeContainer:
 		return AttackCategoryAI
-	case AttackTypeContainers:
+	case TechTypeContainers:
 		return AttackCategoryAI
-	case AttackTypeContainerspanel:
+	case TechTypeContainerspanel:
 		return AttackCategoryAI
-	case AttackTypeContao:
+	case TechTypeContao:
 		return AttackCategoryWeb
-	case AttackTypeContaopanel:
+	case TechTypeContaopanel:
 		return AttackCategoryWeb
-	case AttackTypeConteccve:
+	case TechTypeConteccve:
 		return AttackCategoryCVE
-	case AttackTypeConteccve2022:
+	case TechTypeConteccve2022:
 		return AttackCategoryCVE
-	case AttackTypeConteccve2023:
+	case TechTypeConteccve2023:
 		return AttackCategoryCVE
-	case AttackTypeContecpanel:
+	case TechTypeContecpanel:
 		return AttackCategoryWeb
-	case AttackTypeContempothemescve2021:
+	case TechTypeContempothemescve2021:
 		return AttackCategoryCVE
-	case AttackTypeContentCentralcontentkeeper:
+	case TechTypeContentCentralcontentkeeper:
 		return AttackCategoryWeb
-	case AttackTypeContentful:
+	case TechTypeContentful:
 		return AttackCategoryWeb
-	case AttackTypeContentify:
+	case TechTypeContentify:
 		return AttackCategoryWeb
-	case AttackTypeContestGallery:
+	case TechTypeContestGallery:
 		return AttackCategoryWeb
-	case AttackTypeContribsys:
+	case TechTypeContribsys:
 		return AttackCategoryWeb
-	case AttackTypeContribsyscve2021:
+	case TechTypeContribsyscve2021:
 		return AttackCategoryCVE
-	case AttackTypeContribsyspanel:
+	case TechTypeContribsyspanel:
 		return AttackCategoryWeb
-	case AttackTypeControlWebpanel:
+	case TechTypeControlWebpanel:
 		return AttackCategoryWeb
-	case AttackTypeControlWebpanelcve2022:
+	case TechTypeControlWebpanelcve2022:
 		return AttackCategoryCVE
-	case AttackTypeControlledAdminAccess:
+	case TechTypeControlledAdminAccess:
 		return AttackCategoryWeb
-	case AttackTypeController:
+	case TechTypeController:
 		return AttackCategoryWeb
-	case AttackTypeControlvercel:
+	case TechTypeControlvercel:
 		return AttackCategoryRCE
-	case AttackTypeContusVideoGallery:
+	case TechTypeContusVideoGallery:
 		return AttackCategoryWeb
-	case AttackTypeCookexcve:
+	case TechTypeCookexcve:
 		return AttackCategoryCVE
-	case AttackTypeCookie:
+	case TechTypeCookie:
 		return AttackCategoryWeb
-	case AttackTypeCookieinformationcve:
+	case TechTypeCookieinformationcve:
 		return AttackCategoryCVE
-	case AttackTypeCooperhewitttokenSpray:
+	case TechTypeCooperhewitttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCopyparty:
+	case TechTypeCopyparty:
 		return AttackCategoryWeb
-	case AttackTypeCopypartyProjectcve2023:
+	case TechTypeCopypartyProjectcve2023:
 		return AttackCategoryCVE
-	case AttackTypeCoreDumpgoogle:
+	case TechTypeCoreDumpgoogle:
 		return AttackCategoryWeb
-	case AttackTypeCorebos:
+	case TechTypeCorebos:
 		return AttackCategoryWeb
-	case AttackTypeCorebospanel:
+	case TechTypeCorebospanel:
 		return AttackCategoryWeb
-	case AttackTypeCorejoomlacve:
+	case TechTypeCorejoomlacve:
 		return AttackCategoryCVE
-	case AttackTypeCoremailexposure:
+	case TechTypeCoremailexposure:
 		return AttackCategoryMail
-	case AttackTypeCoroflotosint:
+	case TechTypeCoroflotosint:
 		return AttackCategoryOsint
-	case AttackTypeCoryLamlecve2013:
+	case TechTypeCoryLamlecve2013:
 		return AttackCategoryCVE
-	case AttackTypeCosta:
+	case TechTypeCosta:
 		return AttackCategoryWeb
-	case AttackTypeCouch:
+	case TechTypeCouch:
 		return AttackCategoryWeb
-	case AttackTypeCouchbasedrupal:
+	case TechTypeCouchbasedrupal:
 		return AttackCategoryWeb
-	case AttackTypeCouchbasetech:
+	case TechTypeCouchbasetech:
 		return AttackCategoryWeb
-	case AttackTypeCouchcms:
+	case TechTypeCouchcms:
 		return AttackCategoryWeb
-	case AttackTypeCouchdb:
+	case TechTypeCouchdb:
 		return AttackCategoryWeb
-	case AttackTypeCouchdbcox:
+	case TechTypeCouchdbcox:
 		return AttackCategoryWeb
-	case AttackTypeCouchsurfingosint:
+	case TechTypeCouchsurfingosint:
 		return AttackCategoryOsint
-	case AttackTypeCountPerDayProjectcve:
+	case TechTypeCountPerDayProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeCounteractcve:
+	case TechTypeCounteractcve:
 		return AttackCategoryCVE
-	case AttackTypeCovalenttokenSpray:
+	case TechTypeCovalenttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCovenant:
+	case TechTypeCovenant:
 		return AttackCategoryWeb
-	case AttackTypeCovenantc2:
+	case TechTypeCovenantc2:
 		return AttackCategoryWeb
-	case AttackTypeCoverity:
+	case TechTypeCoverity:
 		return AttackCategoryWeb
-	case AttackTypeCowboy:
+	case TechTypeCowboy:
 		return AttackCategoryWeb
-	case AttackTypeCowboys4Angelsosint:
+	case TechTypeCowboys4Angelsosint:
 		return AttackCategoryOsint
-	case AttackTypeCozmoslabscve:
+	case TechTypeCozmoslabscve:
 		return AttackCategoryCVE
-	case AttackTypeCpanel:
+	case TechTypeCpanel:
 		return AttackCategoryWeb
-	case AttackTypeCpanelpanel:
+	case TechTypeCpanelpanel:
 		return AttackCategoryWeb
-	case AttackTypeCph2:
+	case TechTypeCph2:
 		return AttackCategoryWeb
-	case AttackTypeCpulimit:
+	case TechTypeCpulimit:
 		return AttackCategoryWeb
-	case AttackTypeCql:
+	case TechTypeCql:
 		return AttackCategoryWeb
-	case AttackTypeCrackedIoosint:
+	case TechTypeCrackedIoosint:
 		return AttackCategoryOsint
-	case AttackTypeCrackedosint:
+	case TechTypeCrackedosint:
 		return AttackCategoryOsint
-	case AttackTypeCraftCmscve2021:
+	case TechTypeCraftCmscve2021:
 		return AttackCategoryCVE
-	case AttackTypeCraftcms:
+	case TechTypeCraftcms:
 		return AttackCategoryWeb
-	case AttackTypeCraftcmscve:
+	case TechTypeCraftcmscve:
 		return AttackCategoryCVE
-	case AttackTypeCraftcmscve2021:
+	case TechTypeCraftcmscve2021:
 		return AttackCategoryCVE
-	case AttackTypeCraftcmstech:
+	case TechTypeCraftcmstech:
 		return AttackCategoryWeb
-	case AttackTypeCraftercms:
+	case TechTypeCraftercms:
 		return AttackCategoryWeb
-	case AttackTypeCraftmypdftokenSpray:
+	case TechTypeCraftmypdftokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCratedb:
+	case TechTypeCratedb:
 		return AttackCategoryWeb
-	case AttackTypeCrawler:
+	case TechTypeCrawler:
 		return AttackCategoryWeb
-	case AttackTypeCreatioexposure:
+	case TechTypeCreatioexposure:
 		return AttackCategoryWeb
-	case AttackTypeCreativeitemcve:
+	case TechTypeCreativeitemcve:
 		return AttackCategoryCVE
-	case AttackTypeCreativeitemcve2023:
+	case TechTypeCreativeitemcve2023:
 		return AttackCategoryCVE
-	case AttackTypeCredential:
+	case TechTypeCredential:
 		return AttackCategoryWeb
-	case AttackTypeCredentialconfig:
+	case TechTypeCredentialconfig:
 		return AttackCategoryWeb
-	case AttackTypeCredsStuffing:
+	case TechTypeCredsStuffing:
 		return AttackCategoryWeb
-	case AttackTypeCrestron:
+	case TechTypeCrestron:
 		return AttackCategoryWeb
-	case AttackTypeCrestroncve:
+	case TechTypeCrestroncve:
 		return AttackCategoryCVE
-	case AttackTypeCrevadoosint:
+	case TechTypeCrevadoosint:
 		return AttackCategoryOsint
-	case AttackTypeCrlf:
+	case TechTypeCrlf:
 		return AttackCategoryWeb
-	case AttackTypeCrm:
+	case TechTypeCrm:
 		return AttackCategoryWeb
-	case AttackTypeCrmPerksForms:
+	case TechTypeCrmPerksForms:
 		return AttackCategoryWeb
-	case AttackTypeCrmeb:
+	case TechTypeCrmeb:
 		return AttackCategoryWeb
-	case AttackTypeCrmperkscve2021:
+	case TechTypeCrmperkscve2021:
 		return AttackCategoryCVE
-	case AttackTypeCrmperkscve2022:
+	case TechTypeCrmperkscve2022:
 		return AttackCategoryCVE
-	case AttackTypeCron:
+	case TechTypeCron:
 		return AttackCategoryWeb
-	case AttackTypeCrontab:
+	case TechTypeCrontab:
 		return AttackCategoryWeb
-	case AttackTypeCrowdinosint:
+	case TechTypeCrowdinosint:
 		return AttackCategoryOsint
-	case AttackTypeCrumb:
+	case TechTypeCrumb:
 		return AttackCategoryWeb
-	case AttackTypeCrushftp:
+	case TechTypeCrushftp:
 		return AttackCategoryWeb
-	case AttackTypeCrushftpdefaultLogin:
+	case TechTypeCrushftpdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeCrypto:
+	case TechTypeCrypto:
 		return AttackCategoryWeb
-	case AttackTypeCryptobox:
+	case TechTypeCryptobox:
 		return AttackCategoryWeb
-	case AttackTypeCryptocurrenciestokenSpray:
+	case TechTypeCryptocurrenciestokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCrystalcscart:
+	case TechTypeCrystalcscart:
 		return AttackCategoryWeb
-	case AttackTypeCsa:
+	case TechTypeCsa:
 		return AttackCategoryWeb
-	case AttackTypeCse:
+	case TechTypeCse:
 		return AttackCategoryWeb
-	case AttackTypeCseBookstoreProjectcve:
+	case TechTypeCseBookstoreProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeCsh:
+	case TechTypeCsh:
 		return AttackCategoryWeb
-	case AttackTypeCsodpanel:
+	case TechTypeCsodpanel:
 		return AttackCategoryWeb
-	case AttackTypeCspherecve2021:
+	case TechTypeCspherecve2021:
 		return AttackCategoryCVE
-	case AttackTypeCsrf:
+	case TechTypeCsrf:
 		return AttackCategoryWeb
-	case AttackTypeCsrfcve:
+	case TechTypeCsrfcve:
 		return AttackCategoryCVE
-	case AttackTypeCsrfguard:
+	case TechTypeCsrfguard:
 		return AttackCategoryWeb
-	case AttackTypeCsti:
+	case TechTypeCsti:
 		return AttackCategoryWeb
-	case AttackTypeCsv:
+	case TechTypeCsv:
 		return AttackCategoryWeb
-	case AttackTypeCsvtool:
+	case TechTypeCsvtool:
 		return AttackCategoryWeb
-	case AttackTypeCsz:
+	case TechTypeCsz:
 		return AttackCategoryWeb
-	case AttackTypeCtflearnosint:
+	case TechTypeCtflearnosint:
 		return AttackCategoryOsint
-	case AttackTypeCththemescve:
+	case TechTypeCththemescve:
 		return AttackCategoryCVE
-	case AttackTypeCti:
+	case TechTypeCti:
 		return AttackCategoryWeb
-	case AttackTypeCtidionaea:
+	case TechTypeCtidionaea:
 		return AttackCategoryWeb
-	case AttackTypeCtielasticpot:
+	case TechTypeCtielasticpot:
 		return AttackCategoryWeb
-	case AttackTypeCtipanel:
+	case TechTypeCtipanel:
 		return AttackCategoryWeb
-	case AttackTypeCtisnare:
+	case TechTypeCtisnare:
 		return AttackCategoryWeb
-	case AttackTypeCtitpot:
+	case TechTypeCtitpot:
 		return AttackCategoryWeb
-	case AttackTypeCtologcve:
+	case TechTypeCtologcve:
 		return AttackCategoryCVE
-	case AttackTypeCube:
+	case TechTypeCube:
 		return AttackCategoryWeb
-	case AttackTypeCube105:
+	case TechTypeCube105:
 		return AttackCategoryWeb
-	case AttackTypeCubebackupmisconfig:
+	case TechTypeCubebackupmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeCubecoderspanel:
+	case TechTypeCubecoderspanel:
 		return AttackCategoryWeb
-	case AttackTypeCucm:
+	case TechTypeCucm:
 		return AttackCategoryWeb
-	case AttackTypeCudatelpanel:
+	case TechTypeCudatelpanel:
 		return AttackCategoryWeb
-	case AttackTypeCults3Dosint:
+	case TechTypeCults3Dosint:
 		return AttackCategoryOsint
-	case AttackTypeCuppa:
+	case TechTypeCuppa:
 		return AttackCategoryWeb
-	case AttackTypeCuppacmscve:
+	case TechTypeCuppacmscve:
 		return AttackCategoryCVE
-	case AttackTypeCuppacmscve2022:
+	case TechTypeCuppacmscve2022:
 		return AttackCategoryCVE
-	case AttackTypeCups:
+	case TechTypeCups:
 		return AttackCategoryWeb
-	case AttackTypeCurcy:
+	case TechTypeCurcy:
 		return AttackCategoryWeb
-	case AttackTypeCuriouscatosint:
+	case TechTypeCuriouscatosint:
 		return AttackCategoryOsint
-	case AttackTypeCurrencyfreakstokenSpray:
+	case TechTypeCurrencyfreakstokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCurrencylayertokenSpray:
+	case TechTypeCurrencylayertokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCurrencyscooptokenSpray:
+	case TechTypeCurrencyscooptokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeCustom404Pro:
+	case TechTypeCustom404Pro:
 		return AttackCategoryWeb
-	case AttackTypeCustomizeLoginImage:
+	case TechTypeCustomizeLoginImage:
 		return AttackCategoryWeb
-	case AttackTypeCuteeditor:
+	case TechTypeCuteeditor:
 		return AttackCategoryWeb
-	case AttackTypeCutesoft:
+	case TechTypeCutesoft:
 		return AttackCategoryWeb
-	case AttackTypeCve:
+	case TechTypeCve:
 		return AttackCategoryCVE
-	case AttackTypeCve2000:
+	case TechTypeCve2000:
 		return AttackCategoryCVE
-	case AttackTypeCve2001:
+	case TechTypeCve2001:
 		return AttackCategoryCVE
-	case AttackTypeCve2002:
+	case TechTypeCve2002:
 		return AttackCategoryCVE
-	case AttackTypeCve2004:
+	case TechTypeCve2004:
 		return AttackCategoryCVE
-	case AttackTypeCve2005:
+	case TechTypeCve2005:
 		return AttackCategoryCVE
-	case AttackTypeCve2006:
+	case TechTypeCve2006:
 		return AttackCategoryCVE
-	case AttackTypeCve2007:
+	case TechTypeCve2007:
 		return AttackCategoryCVE
-	case AttackTypeCve2008:
+	case TechTypeCve2008:
 		return AttackCategoryCVE
-	case AttackTypeCve2009:
+	case TechTypeCve2009:
 		return AttackCategoryCVE
-	case AttackTypeCve2010:
+	case TechTypeCve2010:
 		return AttackCategoryCVE
-	case AttackTypeCve2011:
+	case TechTypeCve2011:
 		return AttackCategoryCVE
-	case AttackTypeCve2012:
+	case TechTypeCve2012:
 		return AttackCategoryCVE
-	case AttackTypeCve2013:
+	case TechTypeCve2013:
 		return AttackCategoryCVE
-	case AttackTypeCve2015:
+	case TechTypeCve2015:
 		return AttackCategoryCVE
-	case AttackTypeCve2016:
+	case TechTypeCve2016:
 		return AttackCategoryCVE
-	case AttackTypeCve2017:
+	case TechTypeCve2017:
 		return AttackCategoryCVE
-	case AttackTypeCve2018:
+	case TechTypeCve2018:
 		return AttackCategoryCVE
-	case AttackTypeCve2019:
+	case TechTypeCve2019:
 		return AttackCategoryCVE
-	case AttackTypeCve2020:
+	case TechTypeCve2020:
 		return AttackCategoryCVE
-	case AttackTypeCve2021:
+	case TechTypeCve2021:
 		return AttackCategoryCVE
-	case AttackTypeCve2022:
+	case TechTypeCve2022:
 		return AttackCategoryCVE
-	case AttackTypeCve2022Cve:
+	case TechTypeCve2022Cve:
 		return AttackCategoryCVE
-	case AttackTypeCve2023:
+	case TechTypeCve2023:
 		return AttackCategoryCVE
-	case AttackTypeCve2023Cve:
+	case TechTypeCve2023Cve:
 		return AttackCategoryCVE
-	case AttackTypeCve2024:
+	case TechTypeCve2024:
 		return AttackCategoryCVE
-	case AttackTypeCve2024Cve:
+	case TechTypeCve2024Cve:
 		return AttackCategoryCVE
-	case AttackTypeCvecve:
+	case TechTypeCvecve:
 		return AttackCategoryCVE
-	case AttackTypeCventpanel:
+	case TechTypeCventpanel:
 		return AttackCategoryCVE
-	case AttackTypeCves:
+	case TechTypeCves:
 		return AttackCategoryCVE
-	case AttackTypeCvnd2018:
+	case TechTypeCvnd2018:
 		return AttackCategoryWeb
-	case AttackTypeCvsweb:
+	case TechTypeCvsweb:
 		return AttackCategoryWeb
-	case AttackTypeCxpanel:
+	case TechTypeCxpanel:
 		return AttackCategoryWeb
-	case AttackTypeCybelesoftcve:
+	case TechTypeCybelesoftcve:
 		return AttackCategoryCVE
-	case AttackTypeCybelesoftcve2021:
+	case TechTypeCybelesoftcve2021:
 		return AttackCategoryCVE
-	case AttackTypeCybelesoftpanel:
+	case TechTypeCybelesoftpanel:
 		return AttackCategoryWeb
-	case AttackTypeCybelsoftcve:
+	case TechTypeCybelsoftcve:
 		return AttackCategoryCVE
-	case AttackTypeCyberchef:
+	case TechTypeCyberchef:
 		return AttackCategoryWeb
-	case AttackTypeCybercompanycve2014:
+	case TechTypeCybercompanycve2014:
 		return AttackCategoryCVE
-	case AttackTypeCybernetikzcve2021:
+	case TechTypeCybernetikzcve2021:
 		return AttackCategoryCVE
-	case AttackTypeCyberoam:
+	case TechTypeCyberoam:
 		return AttackCategoryWeb
-	case AttackTypeCyberoamworkscve:
+	case TechTypeCyberoamworkscve:
 		return AttackCategoryCVE
-	case AttackTypeCybrotechcve:
+	case TechTypeCybrotechcve:
 		return AttackCategoryCVE
-	case AttackTypeCypress:
+	case TechTypeCypress:
 		return AttackCategoryWeb
-	case AttackTypeCytoidosint:
+	case TechTypeCytoidosint:
 		return AttackCategoryOsint
-	case AttackTypeCzepolcve2014:
+	case TechTypeCzepolcve2014:
 		return AttackCategoryCVE
-	case AttackTypeDLink:
+	case TechTypeDLink:
 		return AttackCategoryWeb
-	case AttackTypeDLinkcve2015:
+	case TechTypeDLinkcve2015:
 		return AttackCategoryCVE
-	case AttackTypeDaggerhartlabcve2021:
+	case TechTypeDaggerhartlabcve2021:
 		return AttackCategoryCVE
-	case AttackTypeDahua:
+	case TechTypeDahua:
 		return AttackCategoryWeb
-	case AttackTypeDahuacnvd2018:
+	case TechTypeDahuacnvd2018:
 		return AttackCategoryWeb
-	case AttackTypeDahuasecuritycve2017:
+	case TechTypeDahuasecuritycve2017:
 		return AttackCategoryCVE
-	case AttackTypeDahuasecuritycve2021:
+	case TechTypeDahuasecuritycve2021:
 		return AttackCategoryCVE
-	case AttackTypeDahuasecuritycve2023:
+	case TechTypeDahuasecuritycve2023:
 		return AttackCategoryCVE
-	case AttackTypeDahuasecuritypanel:
+	case TechTypeDahuasecuritypanel:
 		return AttackCategoryWeb
-	case AttackTypeDailyPrayerTimeForMosques:
+	case TechTypeDailyPrayerTimeForMosques:
 		return AttackCategoryAI
-	case AttackTypeDailyPrayerTimeProjectcve:
+	case TechTypeDailyPrayerTimeProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeDailymotionosint:
+	case TechTypeDailymotionosint:
 		return AttackCategoryOsint
-	case AttackTypeDanieljamesscottcve:
+	case TechTypeDanieljamesscottcve:
 		return AttackCategoryCVE
-	case AttackTypeDapp:
+	case TechTypeDapp:
 		return AttackCategoryWeb
-	case AttackTypeDapr:
+	case TechTypeDapr:
 		return AttackCategoryWeb
-	case AttackTypeDarkcomet:
+	case TechTypeDarkcomet:
 		return AttackCategoryWeb
-	case AttackTypeDarktracepanel:
+	case TechTypeDarktracepanel:
 		return AttackCategoryWeb
-	case AttackTypeDarktrack:
+	case TechTypeDarktrack:
 		return AttackCategoryWeb
-	case AttackTypeDarudarosint:
+	case TechTypeDarudarosint:
 		return AttackCategoryOsint
-	case AttackTypeDasan:
+	case TechTypeDasan:
 		return AttackCategoryWeb
-	case AttackTypeDasannetworkscve:
+	case TechTypeDasannetworkscve:
 		return AttackCategoryCVE
-	case AttackTypeDash:
+	case TechTypeDash:
 		return AttackCategoryWeb
-	case AttackTypeDashboard:
+	case TechTypeDashboard:
 		return AttackCategoryWeb
-	case AttackTypeDashboardcasdoor:
+	case TechTypeDashboardcasdoor:
 		return AttackCategoryWeb
-	case AttackTypeDashboardmisconfig:
+	case TechTypeDashboardmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeDashboardnps:
+	case TechTypeDashboardnps:
 		return AttackCategoryWeb
-	case AttackTypeDashboardodoo:
+	case TechTypeDashboardodoo:
 		return AttackCategoryWeb
-	case AttackTypeDashboardpanel:
+	case TechTypeDashboardpanel:
 		return AttackCategoryWeb
-	case AttackTypeDashboardtypo3:
+	case TechTypeDashboardtypo3:
 		return AttackCategoryWeb
-	case AttackTypeDashdedecms:
+	case TechTypeDashdedecms:
 		return AttackCategoryWeb
-	case AttackTypeDashlane:
+	case TechTypeDashlane:
 		return AttackCategoryWeb
-	case AttackTypeDashy:
+	case TechTypeDashy:
 		return AttackCategoryWeb
-	case AttackTypeDast:
+	case TechTypeDast:
 		return AttackCategoryWeb
-	case AttackTypeDastangular:
+	case TechTypeDastangular:
 		return AttackCategoryWeb
-	case AttackTypeDastcmdi:
+	case TechTypeDastcmdi:
 		return AttackCategoryWeb
-	case AttackTypeDastdast:
+	case TechTypeDastdast:
 		return AttackCategoryWeb
-	case AttackTypeDastredirect:
+	case TechTypeDastredirect:
 		return AttackCategoryWeb
-	case AttackTypeDastrfi:
+	case TechTypeDastrfi:
 		return AttackCategoryWeb
-	case AttackTypeDastsqli:
+	case TechTypeDastsqli:
 		return AttackCategorySqlInjection
-	case AttackTypeDastssti:
+	case TechTypeDastssti:
 		return AttackCategoryWeb
-	case AttackTypeDastxss:
+	case TechTypeDastxss:
 		return AttackCategoryXSS
-	case AttackTypeDatabase:
+	case TechTypeDatabase:
 		return AttackCategoryWeb
-	case AttackTypeDatabasemisconfig:
+	case TechTypeDatabasemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeDatacube3:
+	case TechTypeDatacube3:
 		return AttackCategoryWeb
-	case AttackTypeDatadogcredsStuffing:
+	case TechTypeDatadogcredsStuffing:
 		return AttackCategoryWeb
-	case AttackTypeDatadoglogin:
+	case TechTypeDatadoglogin:
 		return AttackCategoryWeb
-	case AttackTypeDataeasedatahub:
+	case TechTypeDataeasedatahub:
 		return AttackCategoryWeb
-	case AttackTypeDataeasepanel:
+	case TechTypeDataeasepanel:
 		return AttackCategoryWeb
-	case AttackTypeDataikudell:
+	case TechTypeDataikudell:
 		return AttackCategoryAI
-	case AttackTypeDataikupanel:
+	case TechTypeDataikupanel:
 		return AttackCategoryAI
-	case AttackTypeDatataker:
+	case TechTypeDatataker:
 		return AttackCategoryWeb
-	case AttackTypeDateinasiaosint:
+	case TechTypeDateinasiaosint:
 		return AttackCategoryOsint
-	case AttackTypeDatezoneosint:
+	case TechTypeDatezoneosint:
 		return AttackCategoryOsint
-	case AttackTypeDatingruosint:
+	case TechTypeDatingruosint:
 		return AttackCategoryOsint
-	case AttackTypeDavantispanel:
+	case TechTypeDavantispanel:
 		return AttackCategoryWeb
-	case AttackTypeDavidlingrencve:
+	case TechTypeDavidlingrencve:
 		return AttackCategoryCVE
-	case AttackTypeDaybyday:
+	case TechTypeDaybyday:
 		return AttackCategoryWeb
-	case AttackTypeDaybydaycrmpanel:
+	case TechTypeDaybydaycrmpanel:
 		return AttackCategoryWeb
-	case AttackTypeDaylightstudioiot:
+	case TechTypeDaylightstudioiot:
 		return AttackCategoryIoT
-	case AttackTypeDb:
+	case TechTypeDb:
 		return AttackCategoryWeb
-	case AttackTypeDb2:
+	case TechTypeDb2:
 		return AttackCategoryWeb
-	case AttackTypeDbBackupProjectcve2014:
+	case TechTypeDbBackupProjectcve2014:
 		return AttackCategoryCVE
-	case AttackTypeDbeavergo:
+	case TechTypeDbeavergo:
 		return AttackCategoryWeb
-	case AttackTypeDbgate:
+	case TechTypeDbgate:
 		return AttackCategoryWeb
-	case AttackTypeDbttokenSpray:
+	case TechTypeDbttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeDc:
+	case TechTypeDc:
 		return AttackCategoryWeb
-	case AttackTypeDcmingyu:
+	case TechTypeDcmingyu:
 		return AttackCategoryWeb
-	case AttackTypeDcratssl:
+	case TechTypeDcratssl:
 		return AttackCategoryWeb
-	case AttackTypeDdownloaddebounce:
+	case TechTypeDdownloaddebounce:
 		return AttackCategoryWeb
-	case AttackTypeDeadboltrealor:
+	case TechTypeDeadboltrealor:
 		return AttackCategoryWeb
-	case AttackTypeDebiancve:
+	case TechTypeDebiancve:
 		return AttackCategoryCVE
-	case AttackTypeDebiancve2018:
+	case TechTypeDebiancve2018:
 		return AttackCategoryCVE
-	case AttackTypeDebug:
+	case TechTypeDebug:
 		return AttackCategoryWeb
-	case AttackTypeDebugapache:
+	case TechTypeDebugapache:
 		return AttackCategoryWeb
-	case AttackTypeDebugbottle:
+	case TechTypeDebugbottle:
 		return AttackCategoryWeb
-	case AttackTypeDebugglances:
+	case TechTypeDebugglances:
 		return AttackCategoryWeb
-	case AttackTypeDebuglogs:
+	case TechTypeDebuglogs:
 		return AttackCategoryWeb
-	case AttackTypeDebugnpm:
+	case TechTypeDebugnpm:
 		return AttackCategoryWeb
-	case AttackTypeDebugspxPhp:
+	case TechTypeDebugspxPhp:
 		return AttackCategoryPHP
-	case AttackTypeDebugtech:
+	case TechTypeDebugtech:
 		return AttackCategoryWeb
-	case AttackTypeDecisionCenter:
+	case TechTypeDecisionCenter:
 		return AttackCategoryWeb
-	case AttackTypeDecisionCenteribm:
+	case TechTypeDecisionCenteribm:
 		return AttackCategoryWeb
-	case AttackTypeDecisionCenterpanel:
+	case TechTypeDecisionCenterpanel:
 		return AttackCategoryWeb
-	case AttackTypeDecisionManager:
+	case TechTypeDecisionManager:
 		return AttackCategoryWeb
-	case AttackTypeDecisionServerdefaultLogin:
+	case TechTypeDecisionServerdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeDecisionServermaximo:
+	case TechTypeDecisionServermaximo:
 		return AttackCategoryWeb
-	case AttackTypeDecisionServertech:
+	case TechTypeDecisionServertech:
 		return AttackCategoryWeb
-	case AttackTypeDecryptwebcve:
+	case TechTypeDecryptwebcve:
 		return AttackCategoryCVE
-	case AttackTypeDedecms:
+	case TechTypeDedecms:
 		return AttackCategoryWeb
-	case AttackTypeDedecmscve:
+	case TechTypeDedecmscve:
 		return AttackCategoryCVE
-	case AttackTypeDedecmscve2017:
+	case TechTypeDedecmscve2017:
 		return AttackCategoryCVE
-	case AttackTypeDedecmsdedecms:
+	case TechTypeDedecmsdedecms:
 		return AttackCategoryWeb
-	case AttackTypeDeezer:
+	case TechTypeDeezer:
 		return AttackCategoryWeb
-	case AttackTypeDefaOnlineImageProtectorProjectcve2016:
+	case TechTypeDefaOnlineImageProtectorProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeDefacement:
+	case TechTypeDefacement:
 		return AttackCategoryWeb
-	case AttackTypeDefault:
+	case TechTypeDefault:
 		return AttackCategoryWeb
-	case AttackTypeDefaultJwtgit:
+	case TechTypeDefaultJwtgit:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogin:
+	case TechTypeDefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginapache:
+	case TechTypeDefaultLoginapache:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginarl:
+	case TechTypeDefaultLoginarl:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginciamoreGateway:
+	case TechTypeDefaultLoginciamoreGateway:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogincnvd:
+	case TechTypeDefaultLogincnvd:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogincobbler:
+	case TechTypeDefaultLogincobbler:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogincve2021:
+	case TechTypeDefaultLogincve2021:
 		return AttackCategoryCVE
-	case AttackTypeDefaultLogincve2023:
+	case TechTypeDefaultLogincve2023:
 		return AttackCategoryCVE
-	case AttackTypeDefaultLogindefaultLogin:
+	case TechTypeDefaultLogindefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogindefaultLogins:
+	case TechTypeDefaultLogindefaultLogins:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogindell:
+	case TechTypeDefaultLogindell:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogindigitalWatchdog:
+	case TechTypeDefaultLogindigitalWatchdog:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogindruid:
+	case TechTypeDefaultLogindruid:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogindvwa:
+	case TechTypeDefaultLogindvwa:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogineasyreport:
+	case TechTypeDefaultLogineasyreport:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginesafenet:
+	case TechTypeDefaultLoginesafenet:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginfeiyuxing:
+	case TechTypeDefaultLoginfeiyuxing:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginfuelcms:
+	case TechTypeDefaultLoginfuelcms:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogingitlab:
+	case TechTypeDefaultLogingitlab:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginglpi:
+	case TechTypeDefaultLoginglpi:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogingrafana:
+	case TechTypeDefaultLogingrafana:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginguacamole:
+	case TechTypeDefaultLoginguacamole:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginhongdian:
+	case TechTypeDefaultLoginhongdian:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginhortonworks:
+	case TechTypeDefaultLoginhortonworks:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginidemia:
+	case TechTypeDefaultLoginidemia:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginiptime:
+	case TechTypeDefaultLoginiptime:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginjboss:
+	case TechTypeDefaultLoginjboss:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginjenkins:
+	case TechTypeDefaultLoginjenkins:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginjinher:
+	case TechTypeDefaultLoginjinher:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginjupyterhub:
+	case TechTypeDefaultLoginjupyterhub:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginkafka:
+	case TechTypeDefaultLoginkafka:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginlucee:
+	case TechTypeDefaultLoginlucee:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginmantisbt:
+	case TechTypeDefaultLoginmantisbt:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginmisconfig:
+	case TechTypeDefaultLoginmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginnacos:
+	case TechTypeDefaultLoginnacos:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginnagios:
+	case TechTypeDefaultLoginnagios:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginnetsus:
+	case TechTypeDefaultLoginnetsus:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginnsicg:
+	case TechTypeDefaultLoginnsicg:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogino2Oa:
+	case TechTypeDefaultLogino2Oa:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginoctobercms:
+	case TechTypeDefaultLoginoctobercms:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginpanabit:
+	case TechTypeDefaultLoginpanabit:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginpanel:
+	case TechTypeDefaultLoginpanel:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginricoh:
+	case TechTypeDefaultLoginricoh:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginrseenet:
+	case TechTypeDefaultLoginrseenet:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginseeyon:
+	case TechTypeDefaultLoginseeyon:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginsmartbi:
+	case TechTypeDefaultLoginsmartbi:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginsolarwinds:
+	case TechTypeDefaultLoginsolarwinds:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginspectracom:
+	case TechTypeDefaultLoginspectracom:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginsupermicro:
+	case TechTypeDefaultLoginsupermicro:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginszhe:
+	case TechTypeDefaultLoginszhe:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogintimekeeper:
+	case TechTypeDefaultLogintimekeeper:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLogintomcat:
+	case TechTypeDefaultLogintomcat:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginwaysAc:
+	case TechTypeDefaultLoginwaysAc:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginwazuh:
+	case TechTypeDefaultLoginwazuh:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginxUi:
+	case TechTypeDefaultLoginxUi:
 		return AttackCategoryWeb
-	case AttackTypeDefaultLoginzmanda:
+	case TechTypeDefaultLoginzmanda:
 		return AttackCategoryWeb
-	case AttackTypeDefaultPage:
+	case TechTypeDefaultPage:
 		return AttackCategoryWeb
-	case AttackTypeDefaultPagetech:
+	case TechTypeDefaultPagetech:
 		return AttackCategoryWeb
-	case AttackTypeDefaulttech:
+	case TechTypeDefaulttech:
 		return AttackCategoryWeb
-	case AttackTypeDefectdojopanel:
+	case TechTypeDefectdojopanel:
 		return AttackCategoryWeb
-	case AttackTypeDefenderSecurity:
+	case TechTypeDefenderSecurity:
 		return AttackCategoryWeb
-	case AttackTypeDeimos:
+	case TechTypeDeimos:
 		return AttackCategoryWeb
-	case AttackTypeDeimosc2:
+	case TechTypeDeimosc2:
 		return AttackCategoryWeb
-	case AttackTypeDeliveroo:
+	case TechTypeDeliveroo:
 		return AttackCategoryWeb
-	case AttackTypeDell:
+	case TechTypeDell:
 		return AttackCategoryWeb
-	case AttackTypeDellpanel:
+	case TechTypeDellpanel:
 		return AttackCategoryWeb
-	case AttackTypeDellssrf:
+	case TechTypeDellssrf:
 		return AttackCategoryWeb
-	case AttackTypeDelltech:
+	case TechTypeDelltech:
 		return AttackCategoryWeb
-	case AttackTypeDeltapanel:
+	case TechTypeDeltapanel:
 		return AttackCategoryWeb
-	case AttackTypeDeltekcve:
+	case TechTypeDeltekcve:
 		return AttackCategoryCVE
-	case AttackTypeDeluge:
+	case TechTypeDeluge:
 		return AttackCategoryWeb
-	case AttackTypeDelugeTorrentpanel:
+	case TechTypeDelugeTorrentpanel:
 		return AttackCategoryWeb
-	case AttackTypeDemotywatoryosint:
+	case TechTypeDemotywatoryosint:
 		return AttackCategoryOsint
-	case AttackTypeDeployment:
+	case TechTypeDeployment:
 		return AttackCategoryWeb
-	case AttackTypeDepoposint:
+	case TechTypeDepoposint:
 		return AttackCategoryOsint
-	case AttackTypeDericam:
+	case TechTypeDericam:
 		return AttackCategoryWeb
-	case AttackTypeDeserialization:
+	case TechTypeDeserialization:
 		return AttackCategoryWeb
-	case AttackTypeDeserializationcve:
+	case TechTypeDeserializationcve:
 		return AttackCategoryCVE
-	case AttackTypeDeserializationsplash:
+	case TechTypeDeserializationsplash:
 		return AttackCategoryWeb
-	case AttackTypeDeserializationyonyou:
+	case TechTypeDeserializationyonyou:
 		return AttackCategoryWeb
-	case AttackTypeDesignmodocve:
+	case TechTypeDesignmodocve:
 		return AttackCategoryCVE
-	case AttackTypeDesignsandcodecve2016:
+	case TechTypeDesignsandcodecve2016:
 		return AttackCategoryCVE
-	case AttackTypeDesignspriationosint:
+	case TechTypeDesignspriationosint:
 		return AttackCategoryOsint
-	case AttackTypeDestructoidosint:
+	case TechTypeDestructoidosint:
 		return AttackCategoryOsint
-	case AttackTypeDetailstokenSpray:
+	case TechTypeDetailstokenSpray:
 		return AttackCategoryAI
-	case AttackTypeDetect:
+	case TechTypeDetect:
 		return AttackCategoryWeb
-	case AttackTypeDetectacrolinx:
+	case TechTypeDetectacrolinx:
 		return AttackCategoryWeb
-	case AttackTypeDetectadobe:
+	case TechTypeDetectadobe:
 		return AttackCategoryWeb
-	case AttackTypeDetectalfresco:
+	case TechTypeDetectalfresco:
 		return AttackCategoryWeb
-	case AttackTypeDetectanaqua:
+	case TechTypeDetectanaqua:
 		return AttackCategoryWeb
-	case AttackTypeDetectapi:
+	case TechTypeDetectapi:
 		return AttackCategoryWeb
-	case AttackTypeDetectboa:
+	case TechTypeDetectboa:
 		return AttackCategoryWeb
-	case AttackTypeDetectc2:
+	case TechTypeDetectc2:
 		return AttackCategoryWeb
-	case AttackTypeDetectcloudflare:
+	case TechTypeDetectcloudflare:
 		return AttackCategoryCloud
-	case AttackTypeDetectcms:
+	case TechTypeDetectcms:
 		return AttackCategoryWeb
-	case AttackTypeDetectdreambox:
+	case TechTypeDetectdreambox:
 		return AttackCategoryWeb
-	case AttackTypeDetectedb:
+	case TechTypeDetectedb:
 		return AttackCategoryWeb
-	case AttackTypeDetectgrails:
+	case TechTypeDetectgrails:
 		return AttackCategoryAI
-	case AttackTypeDetection:
+	case TechTypeDetection:
 		return AttackCategoryWeb
-	case AttackTypeDetectlivehelperchat:
+	case TechTypeDetectlivehelperchat:
 		return AttackCategoryWeb
-	case AttackTypeDetectmisconfig:
+	case TechTypeDetectmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeDetectopenbullet:
+	case TechTypeDetectopenbullet:
 		return AttackCategoryWeb
-	case AttackTypeDetectoracle:
+	case TechTypeDetectoracle:
 		return AttackCategoryWeb
-	case AttackTypeDetectpanel:
+	case TechTypeDetectpanel:
 		return AttackCategoryWeb
-	case AttackTypeDetectpanellogin:
+	case TechTypeDetectpanellogin:
 		return AttackCategoryWeb
-	case AttackTypeDetectpanelpanel:
+	case TechTypeDetectpanelpanel:
 		return AttackCategoryWeb
-	case AttackTypeDetectpiwigo:
+	case TechTypeDetectpiwigo:
 		return AttackCategoryWeb
-	case AttackTypeDetectpowercommanager:
+	case TechTypeDetectpowercommanager:
 		return AttackCategoryWeb
-	case AttackTypeDetectqmail:
+	case TechTypeDetectqmail:
 		return AttackCategoryMail
-	case AttackTypeDetectrat:
+	case TechTypeDetectrat:
 		return AttackCategoryWeb
-	case AttackTypeDetectsap:
+	case TechTypeDetectsap:
 		return AttackCategoryWeb
-	case AttackTypeDetectsevone:
+	case TechTypeDetectsevone:
 		return AttackCategoryWeb
-	case AttackTypeDetectsymantec:
+	case TechTypeDetectsymantec:
 		return AttackCategoryWeb
-	case AttackTypeDetecttech:
+	case TechTypeDetecttech:
 		return AttackCategoryWeb
-	case AttackTypeDetecttigase:
+	case TechTypeDetecttigase:
 		return AttackCategoryWeb
-	case AttackTypeDetecturbackup:
+	case TechTypeDetecturbackup:
 		return AttackCategoryWeb
-	case AttackTypeDetectversion:
+	case TechTypeDetectversion:
 		return AttackCategoryWeb
-	case AttackTypeDetectwoodwing:
+	case TechTypeDetectwoodwing:
 		return AttackCategoryWeb
-	case AttackTypeDevPucitEduPkcve:
+	case TechTypeDevPucitEduPkcve:
 		return AttackCategoryCVE
-	case AttackTypeDevalcms:
+	case TechTypeDevalcms:
 		return AttackCategoryWeb
-	case AttackTypeDevbunchcve:
+	case TechTypeDevbunchcve:
 		return AttackCategoryCVE
-	case AttackTypeDeviantartosint:
+	case TechTypeDeviantartosint:
 		return AttackCategoryOsint
-	case AttackTypeDeviantarttokenSpray:
+	case TechTypeDeviantarttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeDevops:
+	case TechTypeDevops:
 		return AttackCategoryWeb
-	case AttackTypeDevopscompliance:
+	case TechTypeDevopscompliance:
 		return AttackCategoryWeb
-	case AttackTypeDevopsconfig:
+	case TechTypeDevopsconfig:
 		return AttackCategoryWeb
-	case AttackTypeDevopsdocker:
+	case TechTypeDevopsdocker:
 		return AttackCategoryWeb
-	case AttackTypeDevopskeycloak:
+	case TechTypeDevopskeycloak:
 		return AttackCategoryWeb
-	case AttackTypeDevopsmisconfig:
+	case TechTypeDevopsmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeDevopstech:
+	case TechTypeDevopstech:
 		return AttackCategoryWeb
-	case AttackTypeDevrantosint:
+	case TechTypeDevrantosint:
 		return AttackCategoryOsint
-	case AttackTypeDevtoosint:
+	case TechTypeDevtoosint:
 		return AttackCategoryOsint
-	case AttackTypeDfgamesosint:
+	case TechTypeDfgamesosint:
 		return AttackCategoryOsint
-	case AttackTypeDgconfig:
+	case TechTypeDgconfig:
 		return AttackCategoryWeb
-	case AttackTypeDgexposure:
+	case TechTypeDgexposure:
 		return AttackCategoryWeb
-	case AttackTypeDgtl:
+	case TechTypeDgtl:
 		return AttackCategoryWeb
-	case AttackTypeDhtmlxcve2013:
+	case TechTypeDhtmlxcve2013:
 		return AttackCategoryCVE
-	case AttackTypeDiabloosint:
+	case TechTypeDiabloosint:
 		return AttackCategoryOsint
-	case AttackTypeDiagramscve:
+	case TechTypeDiagramscve:
 		return AttackCategoryCVE
-	case AttackTypeDiagramspanel:
+	case TechTypeDiagramspanel:
 		return AttackCategoryWeb
-	case AttackTypeDibizosint:
+	case TechTypeDibizosint:
 		return AttackCategoryOsint
-	case AttackTypeDiclosure:
+	case TechTypeDiclosure:
 		return AttackCategoryWeb
-	case AttackTypeDicoogledigitalocean:
+	case TechTypeDicoogledigitalocean:
 		return AttackCategoryWeb
-	case AttackTypeDigiprovecve:
+	case TechTypeDigiprovecve:
 		return AttackCategoryCVE
-	case AttackTypeDigitalOcean:
+	case TechTypeDigitalOcean:
 		return AttackCategoryWeb
-	case AttackTypeDigitalWatchdog:
+	case TechTypeDigitalWatchdog:
 		return AttackCategoryWeb
-	case AttackTypeDigitaldruidcve:
+	case TechTypeDigitaldruidcve:
 		return AttackCategoryCVE
-	case AttackTypeDigitaldruidcve2022:
+	case TechTypeDigitaldruidcve2022:
 		return AttackCategoryCVE
-	case AttackTypeDigitaldruidcve2023:
+	case TechTypeDigitaldruidcve2023:
 		return AttackCategoryCVE
-	case AttackTypeDigitalocean:
+	case TechTypeDigitalocean:
 		return AttackCategoryWeb
-	case AttackTypeDigitaloceantokenSpray:
+	case TechTypeDigitaloceantokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeDigitalrebar:
+	case TechTypeDigitalrebar:
 		return AttackCategoryWeb
-	case AttackTypeDigitalrebarxss:
+	case TechTypeDigitalrebarxss:
 		return AttackCategoryXSS
-	case AttackTypeDigitalspyosint:
+	case TechTypeDigitalspyosint:
 		return AttackCategoryOsint
-	case AttackTypeDigitalzoomstudiocve2014:
+	case TechTypeDigitalzoomstudiocve2014:
 		return AttackCategoryCVE
-	case AttackTypeDigitalzoomstudiocve2021:
+	case TechTypeDigitalzoomstudiocve2021:
 		return AttackCategoryCVE
-	case AttackTypeDiigoosint:
+	case TechTypeDiigoosint:
 		return AttackCategoryOsint
-	case AttackTypeDionesoftcve:
+	case TechTypeDionesoftcve:
 		return AttackCategoryCVE
-	case AttackTypeDir615:
+	case TechTypeDir615:
 		return AttackCategoryWeb
-	case AttackTypeDirectadmindirectum:
+	case TechTypeDirectadmindirectum:
 		return AttackCategoryWeb
-	case AttackTypeDirectionstokenSpray:
+	case TechTypeDirectionstokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeDirectorist:
+	case TechTypeDirectorist:
 		return AttackCategoryWeb
-	case AttackTypeDirectorpanel:
+	case TechTypeDirectorpanel:
 		return AttackCategoryWeb
-	case AttackTypeDirectus:
+	case TechTypeDirectus:
 		return AttackCategoryWeb
-	case AttackTypeDiris:
+	case TechTypeDiris:
 		return AttackCategoryWeb
-	case AttackTypeDirkBartleycve:
+	case TechTypeDirkBartleycve:
 		return AttackCategoryCVE
-	case AttackTypeDisabledrocksMastodonInstanceosint:
+	case TechTypeDisabledrocksMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeDisclosure:
+	case TechTypeDisclosure:
 		return AttackCategoryWeb
-	case AttackTypeDisclosurecgi:
+	case TechTypeDisclosurecgi:
 		return AttackCategoryWeb
-	case AttackTypeDisclosurechanjettplus:
+	case TechTypeDisclosurechanjettplus:
 		return AttackCategoryWeb
-	case AttackTypeDisclosurecnvd:
+	case TechTypeDisclosurecnvd:
 		return AttackCategoryWeb
-	case AttackTypeDisclosurecnvd2021:
+	case TechTypeDisclosurecnvd2021:
 		return AttackCategoryWeb
-	case AttackTypeDisclosureconfig:
+	case TechTypeDisclosureconfig:
 		return AttackCategoryWeb
-	case AttackTypeDisclosurecve:
+	case TechTypeDisclosurecve:
 		return AttackCategoryCVE
-	case AttackTypeDisclosurecve2019:
+	case TechTypeDisclosurecve2019:
 		return AttackCategoryCVE
-	case AttackTypeDisclosurecve2020:
+	case TechTypeDisclosurecve2020:
 		return AttackCategoryCVE
-	case AttackTypeDisclosuredotnetcms:
+	case TechTypeDisclosuredotnetcms:
 		return AttackCategoryWeb
-	case AttackTypeDisclosureexposure:
+	case TechTypeDisclosureexposure:
 		return AttackCategoryWeb
-	case AttackTypeDisclosurefatpipe:
+	case TechTypeDisclosurefatpipe:
 		return AttackCategoryWeb
-	case AttackTypeDisclosurefiles:
+	case TechTypeDisclosurefiles:
 		return AttackCategoryWeb
-	case AttackTypeDisclosuregitlab:
+	case TechTypeDisclosuregitlab:
 		return AttackCategoryWeb
-	case AttackTypeDisclosureplugin:
+	case TechTypeDisclosureplugin:
 		return AttackCategoryWeb
-	case AttackTypeDisclosureprestashop:
+	case TechTypeDisclosureprestashop:
 		return AttackCategoryWeb
-	case AttackTypeDisclosureqizhi:
+	case TechTypeDisclosureqizhi:
 		return AttackCategoryWeb
-	case AttackTypeDisclosuresqli:
+	case TechTypeDisclosuresqli:
 		return AttackCategorySqlInjection
-	case AttackTypeDisclosuretongda:
+	case TechTypeDisclosuretongda:
 		return AttackCategoryWeb
-	case AttackTypeDisclosureunauth:
+	case TechTypeDisclosureunauth:
 		return AttackCategoryWeb
-	case AttackTypeDisclosurewordpress:
+	case TechTypeDisclosurewordpress:
 		return AttackCategoryWordPress
-	case AttackTypeDisclosurewpTheme:
+	case TechTypeDisclosurewpTheme:
 		return AttackCategoryWeb
-	case AttackTypeDisclosurexss:
+	case TechTypeDisclosurexss:
 		return AttackCategoryXSS
-	case AttackTypeDisclosurezzzcms:
+	case TechTypeDisclosurezzzcms:
 		return AttackCategoryWeb
-	case AttackTypeDiscogsosint:
+	case TechTypeDiscogsosint:
 		return AttackCategoryOsint
-	case AttackTypeDiscord:
+	case TechTypeDiscord:
 		return AttackCategoryWeb
-	case AttackTypeDiscorddocker:
+	case TechTypeDiscorddocker:
 		return AttackCategoryWeb
-	case AttackTypeDiscourse:
+	case TechTypeDiscourse:
 		return AttackCategoryWeb
-	case AttackTypeDiscourselfw:
+	case TechTypeDiscourselfw:
 		return AttackCategoryWeb
-	case AttackTypeDiscourseosint:
+	case TechTypeDiscourseosint:
 		return AttackCategoryOsint
-	case AttackTypeDiscusselasticcoosint:
+	case TechTypeDiscusselasticcoosint:
 		return AttackCategoryOsint
-	case AttackTypeDiscusssocialMastodonInstanceosint:
+	case TechTypeDiscusssocialMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeDiscuz:
+	case TechTypeDiscuz:
 		return AttackCategoryWeb
-	case AttackTypeDisneyplus:
+	case TechTypeDisneyplus:
 		return AttackCategoryWeb
-	case AttackTypeDisqusosint:
+	case TechTypeDisqusosint:
 		return AttackCategoryOsint
-	case AttackTypeDissenterosint:
+	case TechTypeDissenterosint:
 		return AttackCategoryOsint
-	case AttackTypeDistance:
+	case TechTypeDistance:
 		return AttackCategoryWeb
-	case AttackTypeDistcc:
+	case TechTypeDistcc:
 		return AttackCategoryWeb
-	case AttackTypeDittyNewsTicker:
+	case TechTypeDittyNewsTicker:
 		return AttackCategoryWeb
-	case AttackTypeDividocve:
+	case TechTypeDividocve:
 		return AttackCategoryCVE
-	case AttackTypeDixell:
+	case TechTypeDixell:
 		return AttackCategoryWeb
-	case AttackTypeDjango:
+	case TechTypeDjango:
 		return AttackCategoryWeb
-	case AttackTypeDjangoconfig:
+	case TechTypeDjangoconfig:
 		return AttackCategoryWeb
-	case AttackTypeDjangocve:
+	case TechTypeDjangocve:
 		return AttackCategoryCVE
-	case AttackTypeDjangoprojectcve:
+	case TechTypeDjangoprojectcve:
 		return AttackCategoryCVE
-	case AttackTypeDjangoprojectcve2018:
+	case TechTypeDjangoprojectcve2018:
 		return AttackCategoryCVE
-	case AttackTypeDjangoprojectpanel:
+	case TechTypeDjangoprojectpanel:
 		return AttackCategoryWeb
-	case AttackTypeDjangotech:
+	case TechTypeDjangotech:
 		return AttackCategoryWeb
-	case AttackTypeDlink:
+	case TechTypeDlink:
 		return AttackCategoryWeb
-	case AttackTypeDlinkcve:
+	case TechTypeDlinkcve:
 		return AttackCategoryCVE
-	case AttackTypeDlinkcve2021:
+	case TechTypeDlinkcve2021:
 		return AttackCategoryCVE
-	case AttackTypeDlinkdefaultLogin:
+	case TechTypeDlinkdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeDlp:
+	case TechTypeDlp:
 		return AttackCategoryWeb
-	case AttackTypeDlppanel:
+	case TechTypeDlppanel:
 		return AttackCategoryWeb
-	case AttackTypeDmarcredirect:
+	case TechTypeDmarcredirect:
 		return AttackCategoryWeb
-	case AttackTypeDnn:
+	case TechTypeDnn:
 		return AttackCategoryWeb
-	case AttackTypeDnnsoftwarecve:
+	case TechTypeDnnsoftwarecve:
 		return AttackCategoryCVE
-	case AttackTypeDns:
+	case TechTypeDns:
 		return AttackCategoryDNS
-	case AttackTypeDnscloud:
+	case TechTypeDnscloud:
 		return AttackCategoryCloud
-	case AttackTypeDnsdns:
+	case TechTypeDnsdns:
 		return AttackCategoryDNS
-	case AttackTypeDnssecdns:
+	case TechTypeDnssecdns:
 		return AttackCategoryDNS
-	case AttackTypeDnstakeovertakeover:
+	case TechTypeDnstakeovertakeover:
 		return AttackCategoryDNS
-	case AttackTypeDocebopanel:
+	case TechTypeDocebopanel:
 		return AttackCategoryWeb
-	case AttackTypeDocker:
+	case TechTypeDocker:
 		return AttackCategoryWeb
-	case AttackTypeDockercloud:
+	case TechTypeDockercloud:
 		return AttackCategoryCloud
-	case AttackTypeDockerhubosint:
+	case TechTypeDockerhubosint:
 		return AttackCategoryOsint
-	case AttackTypeDockerlogs:
+	case TechTypeDockerlogs:
 		return AttackCategoryWeb
-	case AttackTypeDockermisconfig:
+	case TechTypeDockermisconfig:
 		return AttackCategoryWeb
-	case AttackTypeDockge:
+	case TechTypeDockge:
 		return AttackCategoryWeb
-	case AttackTypeDocs:
+	case TechTypeDocs:
 		return AttackCategoryWeb
-	case AttackTypeDoctorAppointmentSystem:
+	case TechTypeDoctorAppointmentSystem:
 		return AttackCategoryWeb
-	case AttackTypeDoctorAppointmentSystemProjectcve2021:
+	case TechTypeDoctorAppointmentSystemProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeDocumentcloudcve2015:
+	case TechTypeDocumentcloudcve2015:
 		return AttackCategoryCloud
-	case AttackTypeDocumentlocatorcve:
+	case TechTypeDocumentlocatorcve:
 		return AttackCategoryCVE
-	case AttackTypeDocumentorLite:
+	case TechTypeDocumentorLite:
 		return AttackCategoryWeb
-	case AttackTypeDocumentorProjectcve:
+	case TechTypeDocumentorProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeDogtag:
+	case TechTypeDogtag:
 		return AttackCategoryWeb
-	case AttackTypeDogtagpkicve:
+	case TechTypeDogtagpkicve:
 		return AttackCategoryCVE
-	case AttackTypeDoh:
+	case TechTypeDoh:
 		return AttackCategoryWeb
-	case AttackTypeDojoverseosint:
+	case TechTypeDojoverseosint:
 		return AttackCategoryOsint
-	case AttackTypeDokuwiki:
+	case TechTypeDokuwiki:
 		return AttackCategoryWeb
-	case AttackTypeDokuwikicve:
+	case TechTypeDokuwikicve:
 		return AttackCategoryCVE
-	case AttackTypeDolibarr:
+	case TechTypeDolibarr:
 		return AttackCategoryWeb
-	case AttackTypeDolibarrcve:
+	case TechTypeDolibarrcve:
 		return AttackCategoryCVE
-	case AttackTypeDolibarrdoris:
+	case TechTypeDolibarrdoris:
 		return AttackCategoryWeb
-	case AttackTypeDolphin:
+	case TechTypeDolphin:
 		return AttackCategoryWeb
-	case AttackTypeDolphinscheduler:
+	case TechTypeDolphinscheduler:
 		return AttackCategoryWeb
-	case AttackTypeDom:
+	case TechTypeDom:
 		return AttackCategoryWeb
-	case AttackTypeDomaincheckplugincve2021:
+	case TechTypeDomaincheckplugincve2021:
 		return AttackCategoryCVE
-	case AttackTypeDomainmod:
+	case TechTypeDomainmod:
 		return AttackCategoryAI
-	case AttackTypeDomino:
+	case TechTypeDomino:
 		return AttackCategoryWeb
-	case AttackTypeDomos:
+	case TechTypeDomos:
 		return AttackCategoryWeb
-	case AttackTypeDompdf:
+	case TechTypeDompdf:
 		return AttackCategoryWeb
-	case AttackTypeDompdfconfig:
+	case TechTypeDompdfconfig:
 		return AttackCategoryWeb
-	case AttackTypeDomphpcve2014:
+	case TechTypeDomphpcve2014:
 		return AttackCategoryPHP
-	case AttackTypeDomxsscnvd2021:
+	case TechTypeDomxsscnvd2021:
 		return AttackCategoryXSS
-	case AttackTypeDonationAlertsosint:
+	case TechTypeDonationAlertsosint:
 		return AttackCategoryOsint
-	case AttackTypeDontPanic:
+	case TechTypeDontPanic:
 		return AttackCategoryWeb
-	case AttackTypeDos:
+	case TechTypeDos:
 		return AttackCategoryWeb
-	case AttackTypeDoswordpresswordpress:
+	case TechTypeDoswordpresswordpress:
 		return AttackCategoryWordPress
-	case AttackTypeDotcardsosint:
+	case TechTypeDotcardsosint:
 		return AttackCategoryOsint
-	case AttackTypeDotclearpanel:
+	case TechTypeDotclearpanel:
 		return AttackCategoryWeb
-	case AttackTypeDotcms:
+	case TechTypeDotcms:
 		return AttackCategoryWeb
-	case AttackTypeDotcmscve:
+	case TechTypeDotcmscve:
 		return AttackCategoryCVE
-	case AttackTypeDotnet:
+	case TechTypeDotnet:
 		return AttackCategoryWeb
-	case AttackTypeDotnetblogenginecve:
+	case TechTypeDotnetblogenginecve:
 		return AttackCategoryCVE
-	case AttackTypeDotnetnuke:
+	case TechTypeDotnetnuke:
 		return AttackCategoryWeb
-	case AttackTypeDownload:
+	case TechTypeDownload:
 		return AttackCategoryWeb
-	case AttackTypeDownloadMonitor:
+	case TechTypeDownloadMonitor:
 		return AttackCategoryWeb
-	case AttackTypeDownloadcve2023:
+	case TechTypeDownloadcve2023:
 		return AttackCategoryCVE
-	case AttackTypeDozzle:
+	case TechTypeDozzle:
 		return AttackCategoryWeb
-	case AttackTypeDpi:
+	case TechTypeDpi:
 		return AttackCategoryWeb
-	case AttackTypeDplus:
+	case TechTypeDplus:
 		return AttackCategoryWeb
-	case AttackTypeDqs:
+	case TechTypeDqs:
 		return AttackCategoryWeb
-	case AttackTypeDradispanel:
+	case TechTypeDradispanel:
 		return AttackCategoryWeb
-	case AttackTypeDraftpresscve2021:
+	case TechTypeDraftpresscve2021:
 		return AttackCategoryCVE
-	case AttackTypeDraftpresscve2022:
+	case TechTypeDraftpresscve2022:
 		return AttackCategoryCVE
-	case AttackTypeDragonflyProjectcve2021:
+	case TechTypeDragonflyProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeDrawio:
+	case TechTypeDrawio:
 		return AttackCategoryWeb
-	case AttackTypeDraytek:
+	case TechTypeDraytek:
 		return AttackCategoryWeb
-	case AttackTypeDraytekcve:
+	case TechTypeDraytekcve:
 		return AttackCategoryCVE
-	case AttackTypeDreambox:
+	case TechTypeDreambox:
 		return AttackCategoryWeb
-	case AttackTypeDreamweaver:
+	case TechTypeDreamweaver:
 		return AttackCategoryWeb
-	case AttackTypeDribbbleosint:
+	case TechTypeDribbbleosint:
 		return AttackCategoryOsint
-	case AttackTypeDribbbletokenSpray:
+	case TechTypeDribbbletokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeDrillmisconfig:
+	case TechTypeDrillmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeDrive:
+	case TechTypeDrive:
 		return AttackCategoryWeb
-	case AttackTypeDroneci:
+	case TechTypeDroneci:
 		return AttackCategoryWeb
-	case AttackTypeDroneexposure:
+	case TechTypeDroneexposure:
 		return AttackCategoryWeb
-	case AttackTypeDronersosint:
+	case TechTypeDronersosint:
 		return AttackCategoryOsint
-	case AttackTypeDropbear:
+	case TechTypeDropbear:
 		return AttackCategoryWeb
-	case AttackTypeDropbox:
+	case TechTypeDropbox:
 		return AttackCategoryWeb
-	case AttackTypeDropboxtokenSpray:
+	case TechTypeDropboxtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeDruid:
+	case TechTypeDruid:
 		return AttackCategoryWeb
-	case AttackTypeDruidcve:
+	case TechTypeDruidcve:
 		return AttackCategoryCVE
-	case AttackTypeDruidcve2021:
+	case TechTypeDruidcve2021:
 		return AttackCategoryCVE
-	case AttackTypeDruidpanel:
+	case TechTypeDruidpanel:
 		return AttackCategoryWeb
-	case AttackTypeDrumosint:
+	case TechTypeDrumosint:
 		return AttackCategoryOsint
-	case AttackTypeDrupal:
+	case TechTypeDrupal:
 		return AttackCategoryWeb
-	case AttackTypeDrupalpanel:
+	case TechTypeDrupalpanel:
 		return AttackCategoryWeb
-	case AttackTypeDrupaltech:
+	case TechTypeDrupaltech:
 		return AttackCategoryWeb
-	case AttackTypeDsStore:
+	case TechTypeDsStore:
 		return AttackCategoryWeb
-	case AttackTypeDsr250:
+	case TechTypeDsr250:
 		return AttackCategoryWeb
-	case AttackTypeDss:
+	case TechTypeDss:
 		return AttackCategoryWeb
-	case AttackTypeDubbo:
+	case TechTypeDubbo:
 		return AttackCategoryWeb
-	case AttackTypeDuckdevcve2015:
+	case TechTypeDuckdevcve2015:
 		return AttackCategoryCVE
-	case AttackTypeDuckduckgo:
+	case TechTypeDuckduckgo:
 		return AttackCategoryWeb
-	case AttackTypeDukapresscve2014:
+	case TechTypeDukapresscve2014:
 		return AttackCategoryCVE
-	case AttackTypeDump:
+	case TechTypeDump:
 		return AttackCategoryWeb
-	case AttackTypeDuolingoosint:
+	case TechTypeDuolingoosint:
 		return AttackCategoryOsint
-	case AttackTypeDuplicator:
+	case TechTypeDuplicator:
 		return AttackCategoryWeb
-	case AttackTypeDuplicatorPro:
+	case TechTypeDuplicatorPro:
 		return AttackCategoryWeb
-	case AttackTypeDvdfab:
+	case TechTypeDvdfab:
 		return AttackCategoryWeb
-	case AttackTypeDvdfabcve:
+	case TechTypeDvdfabcve:
 		return AttackCategoryCVE
-	case AttackTypeDvr:
+	case TechTypeDvr:
 		return AttackCategoryWeb
-	case AttackTypeDvrcve:
+	case TechTypeDvrcve:
 		return AttackCategoryCVE
-	case AttackTypeDw:
+	case TechTypeDw:
 		return AttackCategoryWeb
-	case AttackTypeDwSpectrumrackn:
+	case TechTypeDwSpectrumrackn:
 		return AttackCategoryWeb
-	case AttackTypeDwboostercve:
+	case TechTypeDwboostercve:
 		return AttackCategoryCVE
-	case AttackTypeDwrecology:
+	case TechTypeDwrecology:
 		return AttackCategoryWeb
-	case AttackTypeDxplanning:
+	case TechTypeDxplanning:
 		return AttackCategoryWeb
-	case AttackTypeDynamic:
+	case TechTypeDynamic:
 		return AttackCategoryWeb
-	case AttackTypeDynamicweb:
+	case TechTypeDynamicweb:
 		return AttackCategoryWeb
-	case AttackTypeDynamicwebdynatrace:
+	case TechTypeDynamicwebdynatrace:
 		return AttackCategoryWeb
-	case AttackTypeDynamodb:
+	case TechTypeDynamodb:
 		return AttackCategoryWeb
-	case AttackTypeDzzoffice:
+	case TechTypeDzzoffice:
 		return AttackCategoryWeb
-	case AttackTypeEBusinessSuitecve2018:
+	case TechTypeEBusinessSuitecve2018:
 		return AttackCategoryCVE
-	case AttackTypeECology:
+	case TechTypeECology:
 		return AttackCategoryWeb
-	case AttackTypeEMobile:
+	case TechTypeEMobile:
 		return AttackCategoryWeb
-	case AttackTypeEMobilepanel:
+	case TechTypeEMobilepanel:
 		return AttackCategoryWeb
-	case AttackTypeEOffice:
+	case TechTypeEOffice:
 		return AttackCategoryWeb
-	case AttackTypeESearchProjectcve2016:
+	case TechTypeESearchProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeE2Pdf:
+	case TechTypeE2Pdf:
 		return AttackCategoryWeb
-	case AttackTypeEap:
+	case TechTypeEap:
 		return AttackCategoryWeb
-	case AttackTypeEarcu:
+	case TechTypeEarcu:
 		return AttackCategoryWeb
-	case AttackTypeEasy:
+	case TechTypeEasy:
 		return AttackCategoryWeb
-	case AttackTypeEasyDigitalDownloads:
+	case TechTypeEasyDigitalDownloads:
 		return AttackCategoryWeb
-	case AttackTypeEasyStudentResults:
+	case TechTypeEasyStudentResults:
 		return AttackCategoryWeb
-	case AttackTypeEasyWimisconfig:
+	case TechTypeEasyWimisconfig:
 		return AttackCategoryWeb
-	case AttackTypeEasyStudentResultsProjectcve:
+	case TechTypeEasyStudentResultsProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeEasyappointments:
+	case TechTypeEasyappointments:
 		return AttackCategoryWeb
-	case AttackTypeEasycorppanel:
+	case TechTypeEasycorppanel:
 		return AttackCategoryWeb
-	case AttackTypeEasycvr:
+	case TechTypeEasycvr:
 		return AttackCategoryWeb
-	case AttackTypeEasyenosint:
+	case TechTypeEasyenosint:
 		return AttackCategoryOsint
-	case AttackTypeEasyjob:
+	case TechTypeEasyjob:
 		return AttackCategoryWeb
-	case AttackTypeEasyncBooking:
+	case TechTypeEasyncBooking:
 		return AttackCategoryWeb
-	case AttackTypeEasyscripts:
+	case TechTypeEasyscripts:
 		return AttackCategoryWeb
-	case AttackTypeEasysocialfeedcve:
+	case TechTypeEasysocialfeedcve:
 		return AttackCategoryCVE
-	case AttackTypeEasyvista:
+	case TechTypeEasyvista:
 		return AttackCategoryWeb
-	case AttackTypeEatoncve:
+	case TechTypeEatoncve:
 		return AttackCategoryCVE
-	case AttackTypeEbay:
+	case TechTypeEbay:
 		return AttackCategoryWeb
-	case AttackTypeEbayStoresosint:
+	case TechTypeEbayStoresosint:
 		return AttackCategoryOsint
-	case AttackTypeEbayosint:
+	case TechTypeEbayosint:
 		return AttackCategoryOsint
-	case AttackTypeEbirdtokenSpray:
+	case TechTypeEbirdtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeEbook:
+	case TechTypeEbook:
 		return AttackCategoryWeb
-	case AttackTypeEbs:
+	case TechTypeEbs:
 		return AttackCategoryWeb
-	case AttackTypeEc2:
+	case TechTypeEc2:
 		return AttackCategoryWeb
-	case AttackTypeEclipsebirt:
+	case TechTypeEclipsebirt:
 		return AttackCategoryWeb
-	case AttackTypeEclipsecve:
+	case TechTypeEclipsecve:
 		return AttackCategoryCVE
-	case AttackTypeEclipsecve2021:
+	case TechTypeEclipsecve2021:
 		return AttackCategoryCVE
-	case AttackTypeEcoa:
+	case TechTypeEcoa:
 		return AttackCategoryWeb
-	case AttackTypeEcology:
+	case TechTypeEcology:
 		return AttackCategoryWeb
-	case AttackTypeEcologyOa:
+	case TechTypeEcologyOa:
 		return AttackCategoryWeb
-	case AttackTypeEcom:
+	case TechTypeEcom:
 		return AttackCategoryWeb
-	case AttackTypeEcommerceProductCatalog:
+	case TechTypeEcommerceProductCatalog:
 		return AttackCategoryRCE
-	case AttackTypeEcosys:
+	case TechTypeEcosys:
 		return AttackCategoryWeb
-	case AttackTypeEcshop:
+	case TechTypeEcshop:
 		return AttackCategoryWeb
-	case AttackTypeEcshopecsimagingpacs:
+	case TechTypeEcshopecsimagingpacs:
 		return AttackCategoryWeb
-	case AttackTypeEcstaticesafenet:
+	case TechTypeEcstaticesafenet:
 		return AttackCategoryWeb
-	case AttackTypeEcstaticnode:
+	case TechTypeEcstaticnode:
 		return AttackCategoryWeb
-	case AttackTypeEdb:
+	case TechTypeEdb:
 		return AttackCategoryWeb
-	case AttackTypeEdb3Cx:
+	case TechTypeEdb3Cx:
 		return AttackCategoryWeb
-	case AttackTypeEdbadobe:
+	case TechTypeEdbadobe:
 		return AttackCategoryWeb
-	case AttackTypeEdbaic:
+	case TechTypeEdbaic:
 		return AttackCategoryAI
-	case AttackTypeEdbbeyondtrust:
+	case TechTypeEdbbeyondtrust:
 		return AttackCategoryWeb
-	case AttackTypeEdbbscw:
+	case TechTypeEdbbscw:
 		return AttackCategoryWeb
-	case AttackTypeEdbcerio:
+	case TechTypeEdbcerio:
 		return AttackCategoryWeb
-	case AttackTypeEdbcisco:
+	case TechTypeEdbcisco:
 		return AttackCategoryWeb
-	case AttackTypeEdbcobbler:
+	case TechTypeEdbcobbler:
 		return AttackCategoryWeb
-	case AttackTypeEdbcommax:
+	case TechTypeEdbcommax:
 		return AttackCategoryWeb
-	case AttackTypeEdbconfig:
+	case TechTypeEdbconfig:
 		return AttackCategoryWeb
-	case AttackTypeEdbcve:
+	case TechTypeEdbcve:
 		return AttackCategoryCVE
-	case AttackTypeEdbcve2008:
+	case TechTypeEdbcve2008:
 		return AttackCategoryCVE
-	case AttackTypeEdbcve2009:
+	case TechTypeEdbcve2009:
 		return AttackCategoryCVE
-	case AttackTypeEdbcve2010:
+	case TechTypeEdbcve2010:
 		return AttackCategoryCVE
-	case AttackTypeEdbcve2013:
+	case TechTypeEdbcve2013:
 		return AttackCategoryCVE
-	case AttackTypeEdbcve2014:
+	case TechTypeEdbcve2014:
 		return AttackCategoryCVE
-	case AttackTypeEdbcve2015:
+	case TechTypeEdbcve2015:
 		return AttackCategoryCVE
-	case AttackTypeEdbcve2016:
+	case TechTypeEdbcve2016:
 		return AttackCategoryCVE
-	case AttackTypeEdbcve2017:
+	case TechTypeEdbcve2017:
 		return AttackCategoryCVE
-	case AttackTypeEdbcve2018:
+	case TechTypeEdbcve2018:
 		return AttackCategoryCVE
-	case AttackTypeEdbcve2019:
+	case TechTypeEdbcve2019:
 		return AttackCategoryCVE
-	case AttackTypeEdbcve2021:
+	case TechTypeEdbcve2021:
 		return AttackCategoryCVE
-	case AttackTypeEdbdebug:
+	case TechTypeEdbdebug:
 		return AttackCategoryWeb
-	case AttackTypeEdbdigitalWatchdog:
+	case TechTypeEdbdigitalWatchdog:
 		return AttackCategoryWeb
-	case AttackTypeEdbedb:
+	case TechTypeEdbedb:
 		return AttackCategoryWeb
-	case AttackTypeEdbexposure:
+	case TechTypeEdbexposure:
 		return AttackCategoryWeb
-	case AttackTypeEdbgraphql:
+	case TechTypeEdbgraphql:
 		return AttackCategoryWeb
-	case AttackTypeEdbhorde:
+	case TechTypeEdbhorde:
 		return AttackCategoryWeb
-	case AttackTypeEdbhuatian:
+	case TechTypeEdbhuatian:
 		return AttackCategoryWeb
-	case AttackTypeEdbicewarp:
+	case TechTypeEdbicewarp:
 		return AttackCategoryWeb
-	case AttackTypeEdbiot:
+	case TechTypeEdbiot:
 		return AttackCategoryIoT
-	case AttackTypeEdbiotcamera:
+	case TechTypeEdbiotcamera:
 		return AttackCategoryIoT
-	case AttackTypeEdbiotwebcam:
+	case TechTypeEdbiotwebcam:
 		return AttackCategoryIoT
-	case AttackTypeEdbjoomla:
+	case TechTypeEdbjoomla:
 		return AttackCategoryWeb
-	case AttackTypeEdblfi:
+	case TechTypeEdblfi:
 		return AttackCategoryWeb
-	case AttackTypeEdblogin:
+	case TechTypeEdblogin:
 		return AttackCategoryWeb
-	case AttackTypeEdbmagicflow:
+	case TechTypeEdbmagicflow:
 		return AttackCategoryWeb
-	case AttackTypeEdbmisconfig:
+	case TechTypeEdbmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeEdbmoodle:
+	case TechTypeEdbmoodle:
 		return AttackCategoryWeb
-	case AttackTypeEdbnetbeans:
+	case TechTypeEdbnetbeans:
 		return AttackCategoryWeb
-	case AttackTypeEdbnewsscript:
+	case TechTypeEdbnewsscript:
 		return AttackCategoryWeb
-	case AttackTypeEdboast:
+	case TechTypeEdboast:
 		return AttackCategoryWeb
-	case AttackTypeEdbokiko:
+	case TechTypeEdbokiko:
 		return AttackCategoryWeb
-	case AttackTypeEdbopencart:
+	case TechTypeEdbopencart:
 		return AttackCategoryWeb
-	case AttackTypeEdbopensns:
+	case TechTypeEdbopensns:
 		return AttackCategoryWeb
-	case AttackTypeEdbpacketstorm:
+	case TechTypeEdbpacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeEdbpanel:
+	case TechTypeEdbpanel:
 		return AttackCategoryWeb
-	case AttackTypeEdbpanelpanel:
+	case TechTypeEdbpanelpanel:
 		return AttackCategoryWeb
-	case AttackTypeEdbphpmyadmin:
+	case TechTypeEdbphpmyadmin:
 		return AttackCategoryPHP
-	case AttackTypeEdbpyspider:
+	case TechTypeEdbpyspider:
 		return AttackCategoryWeb
-	case AttackTypeEdbrce:
+	case TechTypeEdbrce:
 		return AttackCategoryRCE
-	case AttackTypeEdbrgUac:
+	case TechTypeEdbrgUac:
 		return AttackCategoryWeb
-	case AttackTypeEdbseacms:
+	case TechTypeEdbseacms:
 		return AttackCategoryWeb
-	case AttackTypeEdbsolarlog:
+	case TechTypeEdbsolarlog:
 		return AttackCategoryWeb
-	case AttackTypeEdbsqli:
+	case TechTypeEdbsqli:
 		return AttackCategorySqlInjection
-	case AttackTypeEdbssrf:
+	case TechTypeEdbssrf:
 		return AttackCategoryWeb
-	case AttackTypeEdbtech:
+	case TechTypeEdbtech:
 		return AttackCategoryWeb
-	case AttackTypeEdbthinkcmf:
+	case TechTypeEdbthinkcmf:
 		return AttackCategoryWeb
-	case AttackTypeEdbtotemomail:
+	case TechTypeEdbtotemomail:
 		return AttackCategoryMail
-	case AttackTypeEdbwordpress:
+	case TechTypeEdbwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeEdbwordpressxss:
+	case TechTypeEdbwordpressxss:
 		return AttackCategoryXSS
-	case AttackTypeEdbwp:
+	case TechTypeEdbwp:
 		return AttackCategoryWeb
-	case AttackTypeEdbwpPlugin:
+	case TechTypeEdbwpPlugin:
 		return AttackCategoryWeb
-	case AttackTypeEdbwpscan:
+	case TechTypeEdbwpscan:
 		return AttackCategoryWeb
-	case AttackTypeEdbxss:
+	case TechTypeEdbxss:
 		return AttackCategoryXSS
-	case AttackTypeEdbxxljob:
+	case TechTypeEdbxxljob:
 		return AttackCategoryWeb
-	case AttackTypeEdge:
+	case TechTypeEdge:
 		return AttackCategoryWeb
-	case AttackTypeEdgemax:
+	case TechTypeEdgemax:
 		return AttackCategoryWeb
-	case AttackTypeEdgeos:
+	case TechTypeEdgeos:
 		return AttackCategoryWeb
-	case AttackTypeEditoraem:
+	case TechTypeEditoraem:
 		return AttackCategoryWeb
-	case AttackTypeEdms:
+	case TechTypeEdms:
 		return AttackCategoryWeb
-	case AttackTypeEdxcve2022:
+	case TechTypeEdxcve2022:
 		return AttackCategoryCVE
-	case AttackTypeEe:
+	case TechTypeEe:
 		return AttackCategoryWeb
-	case AttackTypeEfak:
+	case TechTypeEfak:
 		return AttackCategoryWeb
-	case AttackTypeEgelasticsearch:
+	case TechTypeEgelasticsearch:
 		return AttackCategoryWeb
-	case AttackTypeEibiz:
+	case TechTypeEibiz:
 		return AttackCategoryWeb
-	case AttackTypeEims:
+	case TechTypeEims:
 		return AttackCategoryWeb
-	case AttackTypeEimsdahua:
+	case TechTypeEimsdahua:
 		return AttackCategoryWeb
-	case AttackTypeEis:
+	case TechTypeEis:
 		return AttackCategoryWeb
-	case AttackTypeEjbcamisconfig:
+	case TechTypeEjbcamisconfig:
 		return AttackCategoryWeb
-	case AttackTypeEjs:
+	case TechTypeEjs:
 		return AttackCategoryWeb
-	case AttackTypeEkoelemiz:
+	case TechTypeEkoelemiz:
 		return AttackCategoryWeb
-	case AttackTypeEkopanel:
+	case TechTypeEkopanel:
 		return AttackCategoryWeb
-	case AttackTypeEktron:
+	case TechTypeEktron:
 		return AttackCategoryWeb
-	case AttackTypeElastic:
+	case TechTypeElastic:
 		return AttackCategoryWeb
-	case AttackTypeElasticbeanstalkdns:
+	case TechTypeElasticbeanstalkdns:
 		return AttackCategoryDNS
-	case AttackTypeElasticcve:
+	case TechTypeElasticcve:
 		return AttackCategoryCVE
-	case AttackTypeElasticcve2014:
+	case TechTypeElasticcve2014:
 		return AttackCategoryCVE
-	case AttackTypeElasticcve2021:
+	case TechTypeElasticcve2021:
 		return AttackCategoryCVE
-	case AttackTypeElasticelastic:
+	case TechTypeElasticelastic:
 		return AttackCategoryWeb
-	case AttackTypeElasticpanel:
+	case TechTypeElasticpanel:
 		return AttackCategoryWeb
-	case AttackTypeElasticsearch:
+	case TechTypeElasticsearch:
 		return AttackCategoryWeb
-	case AttackTypeElasticsearchdefaultLogin:
+	case TechTypeElasticsearchdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeElbtidecve:
+	case TechTypeElbtidecve:
 		return AttackCategoryCVE
-	case AttackTypeEleanor:
+	case TechTypeEleanor:
 		return AttackCategoryWeb
-	case AttackTypeEleanorCmscve2014:
+	case TechTypeEleanorCmscve2014:
 		return AttackCategoryCVE
-	case AttackTypeElectron:
+	case TechTypeElectron:
 		return AttackCategoryWeb
-	case AttackTypeElegantThemescve:
+	case TechTypeElegantThemescve:
 		return AttackCategoryCVE
-	case AttackTypeElement:
+	case TechTypeElement:
 		return AttackCategoryWeb
-	case AttackTypeElementor:
+	case TechTypeElementor:
 		return AttackCategoryWeb
-	case AttackTypeElementorcve:
+	case TechTypeElementorcve:
 		return AttackCategoryCVE
-	case AttackTypeElevationtokenSpray:
+	case TechTypeElevationtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeElfinder:
+	case TechTypeElfinder:
 		return AttackCategoryWeb
-	case AttackTypeElfinderjndi:
+	case TechTypeElfinderjndi:
 		return AttackCategoryWeb
-	case AttackTypeElfindertech:
+	case TechTypeElfindertech:
 		return AttackCategoryWeb
-	case AttackTypeEli:
+	case TechTypeEli:
 		return AttackCategoryWeb
-	case AttackTypeEllipsisHumanPresenceTechnology:
+	case TechTypeEllipsisHumanPresenceTechnology:
 		return AttackCategoryWeb
-	case AttackTypeEllocoosint:
+	case TechTypeEllocoosint:
 		return AttackCategoryOsint
-	case AttackTypeElluciancve2023:
+	case TechTypeElluciancve2023:
 		return AttackCategoryCVE
-	case AttackTypeElmah:
+	case TechTypeElmah:
 		return AttackCategoryWeb
-	case AttackTypeElvish:
+	case TechTypeElvish:
 		return AttackCategoryWeb
-	case AttackTypeEmail:
+	case TechTypeEmail:
 		return AttackCategoryMail
-	case AttackTypeEmailSubscribers:
+	case TechTypeEmailSubscribers:
 		return AttackCategoryMail
-	case AttackTypeEmbedSwaggerProjectcve2022:
+	case TechTypeEmbedSwaggerProjectcve2022:
 		return AttackCategoryCVE
-	case AttackTypeEmbedthiscve:
+	case TechTypeEmbedthiscve:
 		return AttackCategoryCVE
-	case AttackTypeEmbedtokenSpray:
+	case TechTypeEmbedtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeEmby:
+	case TechTypeEmby:
 		return AttackCategoryWeb
-	case AttackTypeEmc:
+	case TechTypeEmc:
 		return AttackCategoryWeb
-	case AttackTypeEmerge:
+	case TechTypeEmerge:
 		return AttackCategoryWeb
-	case AttackTypeEmersonpanel:
+	case TechTypeEmersonpanel:
 		return AttackCategoryWeb
-	case AttackTypeEmessagepanel:
+	case TechTypeEmessagepanel:
 		return AttackCategoryWeb
-	case AttackTypeEmlog:
+	case TechTypeEmlog:
 		return AttackCategoryWeb
-	case AttackTypeEmobile:
+	case TechTypeEmobile:
 		return AttackCategoryWeb
-	case AttackTypeEmpire:
+	case TechTypeEmpire:
 		return AttackCategoryWeb
-	case AttackTypeEmpirecms:
+	case TechTypeEmpirecms:
 		return AttackCategoryWeb
-	case AttackTypeEmpirecmstech:
+	case TechTypeEmpirecmstech:
 		return AttackCategoryWeb
-	case AttackTypeEmployeeRecordsSystemProjectcve:
+	case TechTypeEmployeeRecordsSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeEmployment:
+	case TechTypeEmployment:
 		return AttackCategoryWeb
-	case AttackTypeEmqx:
+	case TechTypeEmqx:
 		return AttackCategoryWeb
-	case AttackTypeEmqxtech:
+	case TechTypeEmqxtech:
 		return AttackCategoryWeb
-	case AttackTypeEms:
+	case TechTypeEms:
 		return AttackCategoryWeb
-	case AttackTypeEmspanel:
+	case TechTypeEmspanel:
 		return AttackCategoryWeb
-	case AttackTypeEmulator:
+	case TechTypeEmulator:
 		return AttackCategoryWeb
-	case AttackTypeEncompass:
+	case TechTypeEncompass:
 		return AttackCategoryWeb
-	case AttackTypeEncryptionflutterwave:
+	case TechTypeEncryptionflutterwave:
 		return AttackCategoryWeb
-	case AttackTypeEndresscve2018:
+	case TechTypeEndresscve2018:
 		return AttackCategoryCVE
-	case AttackTypeEngadgetosint:
+	case TechTypeEngadgetosint:
 		return AttackCategoryOsint
-	case AttackTypeEngagepanel:
+	case TechTypeEngagepanel:
 		return AttackCategoryWeb
-	case AttackTypeEngcve2021:
+	case TechTypeEngcve2021:
 		return AttackCategoryCVE
-	case AttackTypeEngine:
+	case TechTypeEngine:
 		return AttackCategoryWeb
-	case AttackTypeEnglishWordpressAdminProjectcve2021:
+	case TechTypeEnglishWordpressAdminProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeEnscript:
+	case TechTypeEnscript:
 		return AttackCategoryWeb
-	case AttackTypeEnterpriseManager:
+	case TechTypeEnterpriseManager:
 		return AttackCategoryWeb
-	case AttackTypeEnterprisepacketstorm:
+	case TechTypeEnterprisepacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeEnterprisepanel:
+	case TechTypeEnterprisepanel:
 		return AttackCategoryWeb
-	case AttackTypeEnum:
+	case TechTypeEnum:
 		return AttackCategoryWeb
-	case AttackTypeEnumcitrix:
+	case TechTypeEnumcitrix:
 		return AttackCategoryWeb
-	case AttackTypeEnumenum:
+	case TechTypeEnumenum:
 		return AttackCategoryWeb
-	case AttackTypeEnumerationcve:
+	case TechTypeEnumerationcve:
 		return AttackCategoryCVE
-	case AttackTypeEnumjs:
+	case TechTypeEnumjs:
 		return AttackCategoryWeb
-	case AttackTypeEnummisconfig:
+	case TechTypeEnummisconfig:
 		return AttackCategoryWeb
-	case AttackTypeEnumnetwork:
+	case TechTypeEnumnetwork:
 		return AttackCategoryWeb
-	case AttackTypeEnumwordpress:
+	case TechTypeEnumwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeEnv:
+	case TechTypeEnv:
 		return AttackCategoryWeb
-	case AttackTypeEnvlfi:
+	case TechTypeEnvlfi:
 		return AttackCategoryWeb
-	case AttackTypeEnvmisconfig:
+	case TechTypeEnvmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeEnvoy:
+	case TechTypeEnvoy:
 		return AttackCategoryWeb
-	case AttackTypeEoffice:
+	case TechTypeEoffice:
 		return AttackCategoryWeb
-	case AttackTypeEos:
+	case TechTypeEos:
 		return AttackCategoryWeb
-	case AttackTypeEpiservercve:
+	case TechTypeEpiservercve:
 		return AttackCategoryCVE
-	case AttackTypeEpiserveriot:
+	case TechTypeEpiserveriot:
 		return AttackCategoryIoT
-	case AttackTypeEpm:
+	case TechTypeEpm:
 		return AttackCategoryWeb
-	case AttackTypeEpmd:
+	case TechTypeEpmd:
 		return AttackCategoryWeb
-	case AttackTypeEpmm:
+	case TechTypeEpmm:
 		return AttackCategoryWeb
-	case AttackTypeEpmmcve2023:
+	case TechTypeEpmmcve2023:
 		return AttackCategoryCVE
-	case AttackTypeEpornerosint:
+	case TechTypeEpornerosint:
 		return AttackCategoryOsint
-	case AttackTypeEprints:
+	case TechTypeEprints:
 		return AttackCategoryWeb
-	case AttackTypeEprintscve2021:
+	case TechTypeEprintscve2021:
 		return AttackCategoryCVE
-	case AttackTypeEpson:
+	case TechTypeEpson:
 		return AttackCategoryWeb
-	case AttackTypeEpsonpanel:
+	case TechTypeEpsonpanel:
 		return AttackCategoryWeb
-	case AttackTypeEpweb:
+	case TechTypeEpweb:
 		return AttackCategoryWeb
-	case AttackTypeEq3Cve:
+	case TechTypeEq3Cve:
 		return AttackCategoryCVE
-	case AttackTypeEq3Panel:
+	case TechTypeEq3Panel:
 		return AttackCategoryWeb
-	case AttackTypeErensoftcve:
+	case TechTypeErensoftcve:
 		return AttackCategoryCVE
-	case AttackTypeEricsson:
+	case TechTypeEricsson:
 		return AttackCategoryWeb
-	case AttackTypeEricssonlgcve:
+	case TechTypeEricssonlgcve:
 		return AttackCategoryCVE
-	case AttackTypeErigon:
+	case TechTypeErigon:
 		return AttackCategoryWeb
-	case AttackTypeEris:
+	case TechTypeEris:
 		return AttackCategoryWeb
-	case AttackTypeErlang:
+	case TechTypeErlang:
 		return AttackCategoryWeb
-	case AttackTypeErpNcyonyou:
+	case TechTypeErpNcyonyou:
 		return AttackCategoryWeb
-	case AttackTypeError:
+	case TechTypeError:
 		return AttackCategoryWeb
-	case AttackTypeErrorevent:
+	case TechTypeErrorevent:
 		return AttackCategoryWeb
-	case AttackTypeErrormisconfig:
+	case TechTypeErrormisconfig:
 		return AttackCategoryWeb
-	case AttackTypeErrorpagetech:
+	case TechTypeErrorpagetech:
 		return AttackCategoryWeb
-	case AttackTypeErrorxxe:
+	case TechTypeErrorxxe:
 		return AttackCategoryWeb
-	case AttackTypeErxes:
+	case TechTypeErxes:
 		return AttackCategoryWeb
-	case AttackTypeErxestech:
+	case TechTypeErxestech:
 		return AttackCategoryWeb
-	case AttackTypeEsafenet:
+	case TechTypeEsafenet:
 		return AttackCategoryWeb
-	case AttackTypeEset:
+	case TechTypeEset:
 		return AttackCategoryWeb
-	case AttackTypeEshop:
+	case TechTypeEshop:
 		return AttackCategoryWeb
-	case AttackTypeEspeasy:
+	case TechTypeEspeasy:
 		return AttackCategoryWeb
-	case AttackTypeEsphome:
+	case TechTypeEsphome:
 		return AttackCategoryWeb
-	case AttackTypeEspocrm:
+	case TechTypeEspocrm:
 		return AttackCategoryWeb
-	case AttackTypeEsripanel:
+	case TechTypeEsripanel:
 		return AttackCategoryWeb
-	case AttackTypeEsritech:
+	case TechTypeEsritech:
 		return AttackCategoryWeb
-	case AttackTypeEssentialBlocks:
+	case TechTypeEssentialBlocks:
 		return AttackCategoryWeb
-	case AttackTypeEssentialRealEstate:
+	case TechTypeEssentialRealEstate:
 		return AttackCategoryWeb
-	case AttackTypeEstatewpPlugin:
+	case TechTypeEstatewpPlugin:
 		return AttackCategoryWeb
-	case AttackTypeEstream:
+	case TechTypeEstream:
 		return AttackCategoryWeb
-	case AttackTypeEsxi:
+	case TechTypeEsxi:
 		return AttackCategoryWeb
-	case AttackTypeEtcd:
+	case TechTypeEtcd:
 		return AttackCategoryWeb
-	case AttackTypeEtcdexposure:
+	case TechTypeEtcdexposure:
 		return AttackCategoryWeb
-	case AttackTypeEtcdtech:
+	case TechTypeEtcdtech:
 		return AttackCategoryWeb
-	case AttackTypeEthereum:
+	case TechTypeEthereum:
 		return AttackCategoryWeb
-	case AttackTypeEtherpad:
+	case TechTypeEtherpad:
 		return AttackCategoryWeb
-	case AttackTypeEtherscantokenSpray:
+	case TechTypeEtherscantokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeEtoilewebdesigncve:
+	case TechTypeEtoilewebdesigncve:
 		return AttackCategoryCVE
-	case AttackTypeEtoroosint:
+	case TechTypeEtoroosint:
 		return AttackCategoryOsint
-	case AttackTypeEtsyosint:
+	case TechTypeEtsyosint:
 		return AttackCategoryOsint
-	case AttackTypeEurekamisconfig:
+	case TechTypeEurekamisconfig:
 		return AttackCategoryWeb
-	case AttackTypeEuropeanatokenSpray:
+	case TechTypeEuropeanatokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeEurotelexacqvision:
+	case TechTypeEurotelexacqvision:
 		return AttackCategoryWeb
-	case AttackTypeEvent:
+	case TechTypeEvent:
 		return AttackCategoryWeb
-	case AttackTypeEventManagementSystemProjectcve:
+	case TechTypeEventManagementSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeEventespressocve:
+	case TechTypeEventespressocve:
 		return AttackCategoryCVE
-	case AttackTypeEventon:
+	case TechTypeEventon:
 		return AttackCategoryWeb
-	case AttackTypeEventonLite:
+	case TechTypeEventonLite:
 		return AttackCategoryWeb
-	case AttackTypeEventtickets:
+	case TechTypeEventtickets:
 		return AttackCategoryWeb
-	case AttackTypeEventum:
+	case TechTypeEventum:
 		return AttackCategoryWeb
-	case AttackTypeEventumProjectcve:
+	case TechTypeEventumProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeEvernote:
+	case TechTypeEvernote:
 		return AttackCategoryWeb
-	case AttackTypeEverything:
+	case TechTypeEverything:
 		return AttackCategoryWeb
-	case AttackTypeEvilginx:
+	case TechTypeEvilginx:
 		return AttackCategoryWeb
-	case AttackTypeEvilginx2:
+	case TechTypeEvilginx2:
 		return AttackCategoryWeb
-	case AttackTypeEvilmartianscve:
+	case TechTypeEvilmartianscve:
 		return AttackCategoryCVE
-	case AttackTypeEvilmartianscve2023:
+	case TechTypeEvilmartianscve2023:
 		return AttackCategoryCVE
-	case AttackTypeEvlink:
+	case TechTypeEvlink:
 		return AttackCategoryWeb
-	case AttackTypeEvse:
+	case TechTypeEvse:
 		return AttackCategoryWeb
-	case AttackTypeExacqvision:
+	case TechTypeExacqvision:
 		return AttackCategoryWeb
-	case AttackTypeExchange:
+	case TechTypeExchange:
 		return AttackCategoryWeb
-	case AttackTypeExchangecve2021:
+	case TechTypeExchangecve2021:
 		return AttackCategoryCVE
-	case AttackTypeExchangepanel:
+	case TechTypeExchangepanel:
 		return AttackCategoryWeb
-	case AttackTypeExchangerateapitokenSpray:
+	case TechTypeExchangerateapitokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeExchangetokenSpray:
+	case TechTypeExchangetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeExim:
+	case TechTypeExim:
 		return AttackCategoryWeb
-	case AttackTypeExolis:
+	case TechTypeExolis:
 		return AttackCategoryWeb
-	case AttackTypeExpect:
+	case TechTypeExpect:
 		return AttackCategoryWeb
-	case AttackTypeExploitdb:
+	case TechTypeExploitdb:
 		return AttackCategoryWeb
-	case AttackTypeExpn:
+	case TechTypeExpn:
 		return AttackCategoryWeb
-	case AttackTypeExponentcmscve:
+	case TechTypeExponentcmscve:
 		return AttackCategoryCVE
-	case AttackTypeExposed:
+	case TechTypeExposed:
 		return AttackCategoryWeb
-	case AttackTypeExposure:
+	case TechTypeExposure:
 		return AttackCategoryWeb
-	case AttackTypeExposureadafruit:
+	case TechTypeExposureadafruit:
 		return AttackCategoryWeb
-	case AttackTypeExposureaem:
+	case TechTypeExposureaem:
 		return AttackCategoryWeb
-	case AttackTypeExposureapache:
+	case TechTypeExposureapache:
 		return AttackCategoryWeb
-	case AttackTypeExposureaws:
+	case TechTypeExposureaws:
 		return AttackCategoryCloud
-	case AttackTypeExposureazure:
+	case TechTypeExposureazure:
 		return AttackCategoryCloud
-	case AttackTypeExposurecnvd2021:
+	case TechTypeExposurecnvd2021:
 		return AttackCategoryWeb
-	case AttackTypeExposurecodecov:
+	case TechTypeExposurecodecov:
 		return AttackCategoryWeb
-	case AttackTypeExposureconfig:
+	case TechTypeExposureconfig:
 		return AttackCategoryWeb
-	case AttackTypeExposurecve:
+	case TechTypeExposurecve:
 		return AttackCategoryCVE
-	case AttackTypeExposurecve2017:
+	case TechTypeExposurecve2017:
 		return AttackCategoryCVE
-	case AttackTypeExposurecve2019:
+	case TechTypeExposurecve2019:
 		return AttackCategoryCVE
-	case AttackTypeExposurecve2021:
+	case TechTypeExposurecve2021:
 		return AttackCategoryCVE
-	case AttackTypeExposurecve2022:
+	case TechTypeExposurecve2022:
 		return AttackCategoryCVE
-	case AttackTypeExposurecve2023:
+	case TechTypeExposurecve2023:
 		return AttackCategoryCVE
-	case AttackTypeExposuredarkstat:
+	case TechTypeExposuredarkstat:
 		return AttackCategoryWeb
-	case AttackTypeExposuredatabricks:
+	case TechTypeExposuredatabricks:
 		return AttackCategoryWeb
-	case AttackTypeExposuredbeaver:
+	case TechTypeExposuredbeaver:
 		return AttackCategoryWeb
-	case AttackTypeExposuredebug:
+	case TechTypeExposuredebug:
 		return AttackCategoryWeb
-	case AttackTypeExposuredevops:
+	case TechTypeExposuredevops:
 		return AttackCategoryWeb
-	case AttackTypeExposuredigitalocean:
+	case TechTypeExposuredigitalocean:
 		return AttackCategoryWeb
-	case AttackTypeExposurediscord:
+	case TechTypeExposurediscord:
 		return AttackCategoryWeb
-	case AttackTypeExposureeasypost:
+	case TechTypeExposureeasypost:
 		return AttackCategoryWeb
-	case AttackTypeExposureedb:
+	case TechTypeExposureedb:
 		return AttackCategoryWeb
-	case AttackTypeExposureesmtp:
+	case TechTypeExposureesmtp:
 		return AttackCategoryWeb
-	case AttackTypeExposureexposure:
+	case TechTypeExposureexposure:
 		return AttackCategoryWeb
-	case AttackTypeExposurefacebook:
+	case TechTypeExposurefacebook:
 		return AttackCategoryWeb
-	case AttackTypeExposurefiles:
+	case TechTypeExposurefiles:
 		return AttackCategoryWeb
-	case AttackTypeExposurefirebase:
+	case TechTypeExposurefirebase:
 		return AttackCategoryWeb
-	case AttackTypeExposuregetsimple:
+	case TechTypeExposuregetsimple:
 		return AttackCategoryWeb
-	case AttackTypeExposuregithub:
+	case TechTypeExposuregithub:
 		return AttackCategoryWeb
-	case AttackTypeExposuregitlab:
+	case TechTypeExposuregitlab:
 		return AttackCategoryWeb
-	case AttackTypeExposureglpi:
+	case TechTypeExposureglpi:
 		return AttackCategoryWeb
-	case AttackTypeExposuregoogle:
+	case TechTypeExposuregoogle:
 		return AttackCategoryWeb
-	case AttackTypeExposurehackerone:
+	case TechTypeExposurehackerone:
 		return AttackCategoryWeb
-	case AttackTypeExposurehelm:
+	case TechTypeExposurehelm:
 		return AttackCategoryWeb
-	case AttackTypeExposurehuggingface:
+	case TechTypeExposurehuggingface:
 		return AttackCategoryWeb
-	case AttackTypeExposureinfoLeak:
+	case TechTypeExposureinfoLeak:
 		return AttackCategoryWeb
-	case AttackTypeExposureinstall:
+	case TechTypeExposureinstall:
 		return AttackCategoryWeb
-	case AttackTypeExposureiot:
+	case TechTypeExposureiot:
 		return AttackCategoryIoT
-	case AttackTypeExposurejboss:
+	case TechTypeExposurejboss:
 		return AttackCategoryWeb
-	case AttackTypeExposurejeecg:
+	case TechTypeExposurejeecg:
 		return AttackCategoryWeb
-	case AttackTypeExposurejetbrains:
+	case TechTypeExposurejetbrains:
 		return AttackCategoryAI
-	case AttackTypeExposurelaravel:
+	case TechTypeExposurelaravel:
 		return AttackCategoryWeb
-	case AttackTypeExposurelogs:
+	case TechTypeExposurelogs:
 		return AttackCategoryWeb
-	case AttackTypeExposurelomnido:
+	case TechTypeExposurelomnido:
 		return AttackCategoryWeb
-	case AttackTypeExposurelucee:
+	case TechTypeExposurelucee:
 		return AttackCategoryWeb
-	case AttackTypeExposuremagento:
+	case TechTypeExposuremagento:
 		return AttackCategoryWeb
-	case AttackTypeExposuremagnolia:
+	case TechTypeExposuremagnolia:
 		return AttackCategoryWeb
-	case AttackTypeExposuremilesight:
+	case TechTypeExposuremilesight:
 		return AttackCategoryWeb
-	case AttackTypeExposuremisconfig:
+	case TechTypeExposuremisconfig:
 		return AttackCategoryWeb
-	case AttackTypeExposuremongodb:
+	case TechTypeExposuremongodb:
 		return AttackCategoryWeb
-	case AttackTypeExposurenetrc:
+	case TechTypeExposurenetrc:
 		return AttackCategoryWeb
-	case AttackTypeExposurenewrelic:
+	case TechTypeExposurenewrelic:
 		return AttackCategoryWeb
-	case AttackTypeExposurenuget:
+	case TechTypeExposurenuget:
 		return AttackCategoryWeb
-	case AttackTypeExposureodbc:
+	case TechTypeExposureodbc:
 		return AttackCategoryWeb
-	case AttackTypeExposureopentsdb:
+	case TechTypeExposureopentsdb:
 		return AttackCategoryWeb
-	case AttackTypeExposurepacketstorm:
+	case TechTypeExposurepacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeExposurepanel:
+	case TechTypeExposurepanel:
 		return AttackCategoryWeb
-	case AttackTypeExposureparticle:
+	case TechTypeExposureparticle:
 		return AttackCategoryWeb
-	case AttackTypeExposurephpinfo:
+	case TechTypeExposurephpinfo:
 		return AttackCategoryPHP
-	case AttackTypeExposurepippoint:
+	case TechTypeExposurepippoint:
 		return AttackCategoryWeb
-	case AttackTypeExposureprivatekey:
+	case TechTypeExposureprivatekey:
 		return AttackCategoryWeb
-	case AttackTypeExposurepypi:
+	case TechTypeExposurepypi:
 		return AttackCategoryWeb
-	case AttackTypeExposureqihang:
+	case TechTypeExposureqihang:
 		return AttackCategoryWeb
-	case AttackTypeExposureqvisdvr:
+	case TechTypeExposureqvisdvr:
 		return AttackCategoryWeb
-	case AttackTypeExposureredis:
+	case TechTypeExposureredis:
 		return AttackCategoryWeb
-	case AttackTypeExposureroutes:
+	case TechTypeExposureroutes:
 		return AttackCategoryWeb
-	case AttackTypeExposureruijie:
+	case TechTypeExposureruijie:
 		return AttackCategoryWeb
-	case AttackTypeExposures:
+	case TechTypeExposures:
 		return AttackCategoryWeb
-	case AttackTypeExposuresanhuiSmg:
+	case TechTypeExposuresanhuiSmg:
 		return AttackCategoryWeb
-	case AttackTypeExposurescada:
+	case TechTypeExposurescada:
 		return AttackCategoryWeb
-	case AttackTypeExposuresegment:
+	case TechTypeExposuresegment:
 		return AttackCategoryWeb
-	case AttackTypeExposuresftp:
+	case TechTypeExposuresftp:
 		return AttackCategoryWeb
-	case AttackTypeExposureshoowbiz:
+	case TechTypeExposureshoowbiz:
 		return AttackCategoryWeb
-	case AttackTypeExposureshopify:
+	case TechTypeExposureshopify:
 		return AttackCategoryWeb
-	case AttackTypeExposuresphinx:
+	case TechTypeExposuresphinx:
 		return AttackCategoryWeb
-	case AttackTypeExposurespringboot:
+	case TechTypeExposurespringboot:
 		return AttackCategoryWeb
-	case AttackTypeExposuresquare:
+	case TechTypeExposuresquare:
 		return AttackCategoryWeb
-	case AttackTypeExposuretech:
+	case TechTypeExposuretech:
 		return AttackCategoryWeb
-	case AttackTypeExposuretelerik:
+	case TechTypeExposuretelerik:
 		return AttackCategoryWeb
-	case AttackTypeExposurethingsboard:
+	case TechTypeExposurethingsboard:
 		return AttackCategoryWeb
-	case AttackTypeExposuretoken:
+	case TechTypeExposuretoken:
 		return AttackCategoryWeb
-	case AttackTypeExposuretongda:
+	case TechTypeExposuretongda:
 		return AttackCategoryWeb
-	case AttackTypeExposuretraceback:
+	case TechTypeExposuretraceback:
 		return AttackCategoryWeb
-	case AttackTypeExposuretwitter:
+	case TechTypeExposuretwitter:
 		return AttackCategoryWeb
-	case AttackTypeExposurewebsheets:
+	case TechTypeExposurewebsheets:
 		return AttackCategoryWeb
-	case AttackTypeExposurewordpress:
+	case TechTypeExposurewordpress:
 		return AttackCategoryWordPress
-	case AttackTypeExposurewordpresslisting:
+	case TechTypeExposurewordpresslisting:
 		return AttackCategoryWordPress
-	case AttackTypeExposurewpscan:
+	case TechTypeExposurewpscan:
 		return AttackCategoryWeb
-	case AttackTypeExposurexproxy:
+	case TechTypeExposurexproxy:
 		return AttackCategoryWeb
-	case AttackTypeExposurexss:
+	case TechTypeExposurexss:
 		return AttackCategoryXSS
-	case AttackTypeExposureyellowfin:
+	case TechTypeExposureyellowfin:
 		return AttackCategoryWeb
-	case AttackTypeExposureyii:
+	case TechTypeExposureyii:
 		return AttackCategoryWeb
-	case AttackTypeExposureyonyou:
+	case TechTypeExposureyonyou:
 		return AttackCategoryWeb
-	case AttackTypeExpress:
+	case TechTypeExpress:
 		return AttackCategoryWeb
-	case AttackTypeExpressHandlebarsProject:
+	case TechTypeExpressHandlebarsProject:
 		return AttackCategoryWeb
-	case AttackTypeExpressionalsocialMastodonInstanceosint:
+	case TechTypeExpressionalsocialMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeExpressjs:
+	case TechTypeExpressjs:
 		return AttackCategoryWeb
-	case AttackTypeExpresstech:
+	case TechTypeExpresstech:
 		return AttackCategoryWeb
-	case AttackTypeExpresstechcve:
+	case TechTypeExpresstechcve:
 		return AttackCategoryCVE
-	case AttackTypeExpresstechcve2021:
+	case TechTypeExpresstechcve2021:
 		return AttackCategoryCVE
-	case AttackTypeExtensiveVcAddon:
+	case TechTypeExtensiveVcAddon:
 		return AttackCategoryWeb
-	case AttackTypeExternalMediaWithoutImport:
+	case TechTypeExternalMediaWithoutImport:
 		return AttackCategoryWeb
-	case AttackTypeExternalMediaWithoutImportProjectcve:
+	case TechTypeExternalMediaWithoutImportProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeExtplorercve:
+	case TechTypeExtplorercve:
 		return AttackCategoryCVE
-	case AttackTypeExtralunchmoneyosint:
+	case TechTypeExtralunchmoneyosint:
 		return AttackCategoryOsint
-	case AttackTypeExtremenetworkscve2020:
+	case TechTypeExtremenetworkscve2020:
 		return AttackCategoryCVE
-	case AttackTypeExtremepanel:
+	case TechTypeExtremepanel:
 		return AttackCategoryWeb
-	case AttackTypeEyecixcve:
+	case TechTypeEyecixcve:
 		return AttackCategoryCVE
-	case AttackTypeEyeemosint:
+	case TechTypeEyeemosint:
 		return AttackCategoryOsint
-	case AttackTypeEyelockcve:
+	case TechTypeEyelockcve:
 		return AttackCategoryCVE
-	case AttackTypeEyesofnetwork:
+	case TechTypeEyesofnetwork:
 		return AttackCategoryWeb
-	case AttackTypeEyesofnetworkoa:
+	case TechTypeEyesofnetworkoa:
 		return AttackCategoryWeb
-	case AttackTypeEyoucms:
+	case TechTypeEyoucms:
 		return AttackCategoryWeb
-	case AttackTypeEyoucmscve2023:
+	case TechTypeEyoucmscve2023:
 		return AttackCategoryCVE
-	case AttackTypeEyoucve2014:
+	case TechTypeEyoucve2014:
 		return AttackCategoryCVE
-	case AttackTypeEyoumail:
+	case TechTypeEyoumail:
 		return AttackCategoryMail
-	case AttackTypeEzlogin:
+	case TechTypeEzlogin:
 		return AttackCategoryWeb
-	case AttackTypeF3Osint:
+	case TechTypeF3Osint:
 		return AttackCategoryOsint
-	case AttackTypeF5:
+	case TechTypeF5:
 		return AttackCategoryWeb
-	case AttackTypeF5Blazor:
+	case TechTypeF5Blazor:
 		return AttackCategoryWeb
-	case AttackTypeF5Cve:
+	case TechTypeF5Cve:
 		return AttackCategoryCVE
-	case AttackTypeF5Cve2021:
+	case TechTypeF5Cve2021:
 		return AttackCategoryCVE
-	case AttackTypeF5Detect:
+	case TechTypeF5Detect:
 		return AttackCategoryWeb
-	case AttackTypeF5Panel:
+	case TechTypeF5Panel:
 		return AttackCategoryWeb
-	case AttackTypeFabrikar:
+	case TechTypeFabrikar:
 		return AttackCategoryWeb
-	case AttackTypeFabswingersosint:
+	case TechTypeFabswingersosint:
 		return AttackCategoryOsint
-	case AttackTypeFacadecve2021:
+	case TechTypeFacadecve2021:
 		return AttackCategoryCVE
-	case AttackTypeFacebook:
+	case TechTypeFacebook:
 		return AttackCategoryWeb
-	case AttackTypeFacebooktokenSpray:
+	case TechTypeFacebooktokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeFacturascripts:
+	case TechTypeFacturascripts:
 		return AttackCategoryWeb
-	case AttackTypeFaculty:
+	case TechTypeFaculty:
 		return AttackCategoryWeb
-	case AttackTypeFacultyEvaluationSystemProjectcve2023:
+	case TechTypeFacultyEvaluationSystemProjectcve2023:
 		return AttackCategoryCVE
-	case AttackTypeFaktopediaosint:
+	case TechTypeFaktopediaosint:
 		return AttackCategoryOsint
-	case AttackTypeFancentroosint:
+	case TechTypeFancentroosint:
 		return AttackCategoryOsint
-	case AttackTypeFancyproduct:
+	case TechTypeFancyproduct:
 		return AttackCategoryWeb
-	case AttackTypeFandalismosint:
+	case TechTypeFandalismosint:
 		return AttackCategoryOsint
-	case AttackTypeFandomosint:
+	case TechTypeFandomosint:
 		return AttackCategoryOsint
-	case AttackTypeFanpoposint:
+	case TechTypeFanpoposint:
 		return AttackCategoryOsint
-	case AttackTypeFanruan:
+	case TechTypeFanruan:
 		return AttackCategoryWeb
-	case AttackTypeFanruanoa:
+	case TechTypeFanruanoa:
 		return AttackCategoryWeb
-	case AttackTypeFanslyosint:
+	case TechTypeFanslyosint:
 		return AttackCategoryOsint
-	case AttackTypeFanwei:
+	case TechTypeFanwei:
 		return AttackCategoryWeb
-	case AttackTypeFanweicnvd:
+	case TechTypeFanweicnvd:
 		return AttackCategoryWeb
-	case AttackTypeFaradayfastapi:
+	case TechTypeFaradayfastapi:
 		return AttackCategoryWeb
-	case AttackTypeFarkascityosint:
+	case TechTypeFarkascityosint:
 		return AttackCategoryOsint
-	case AttackTypeFarkosint:
+	case TechTypeFarkosint:
 		return AttackCategoryOsint
-	case AttackTypeFaspex:
+	case TechTypeFaspex:
 		return AttackCategoryWeb
-	case AttackTypeFastcgi:
+	case TechTypeFastcgi:
 		return AttackCategoryWeb
-	case AttackTypeFastcgitech:
+	case TechTypeFastcgitech:
 		return AttackCategoryWeb
-	case AttackTypeFastjson:
+	case TechTypeFastjson:
 		return AttackCategoryWeb
-	case AttackTypeFastjsonfastjson:
+	case TechTypeFastjsonfastjson:
 		return AttackCategoryWeb
-	case AttackTypeFastlytokenSpray:
+	case TechTypeFastlytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeFastpanelpanel:
+	case TechTypeFastpanelpanel:
 		return AttackCategoryWeb
-	case AttackTypeFastvue:
+	case TechTypeFastvue:
 		return AttackCategoryWeb
-	case AttackTypeFatcatappscve:
+	case TechTypeFatcatappscve:
 		return AttackCategoryCVE
-	case AttackTypeFatpipe:
+	case TechTypeFatpipe:
 		return AttackCategoryWeb
-	case AttackTypeFatpipetech:
+	case TechTypeFatpipetech:
 		return AttackCategoryWeb
-	case AttackTypeFatsecretosint:
+	case TechTypeFatsecretosint:
 		return AttackCategoryOsint
-	case AttackTypeFatwire:
+	case TechTypeFatwire:
 		return AttackCategoryWeb
-	case AttackTypeFaust:
+	case TechTypeFaust:
 		return AttackCategoryWeb
-	case AttackTypeFavicon:
+	case TechTypeFavicon:
 		return AttackCategoryWeb
-	case AttackTypeFavicontechtech:
+	case TechTypeFavicontechtech:
 		return AttackCategoryWeb
-	case AttackTypeFcm:
+	case TechTypeFcm:
 		return AttackCategoryWeb
-	case AttackTypeFcvosint:
+	case TechTypeFcvosint:
 		return AttackCategoryOsint
-	case AttackTypeFe:
+	case TechTypeFe:
 		return AttackCategoryWeb
-	case AttackTypeFeaturificForWordpressProjectcve:
+	case TechTypeFeaturificForWordpressProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeFederatedpressMastodonInstanceosint:
+	case TechTypeFederatedpressMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeFedoraprojectcve2015:
+	case TechTypeFedoraprojectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeFedoratech:
+	case TechTypeFedoratech:
 		return AttackCategoryWeb
-	case AttackTypeFeedwordpressProjectcve2021:
+	case TechTypeFeedwordpressProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeFestivotokenSpray:
+	case TechTypeFestivotokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeFfserverexposure:
+	case TechTypeFfserverexposure:
 		return AttackCategoryWeb
-	case AttackTypeFhem:
+	case TechTypeFhem:
 		return AttackCategoryWeb
-	case AttackTypeFiberhomecve:
+	case TechTypeFiberhomecve:
 		return AttackCategoryCVE
-	case AttackTypeFieldthemescve2023:
+	case TechTypeFieldthemescve2023:
 		return AttackCategoryCVE
-	case AttackTypeFieluploadcve:
+	case TechTypeFieluploadcve:
 		return AttackCategoryCVE
-	case AttackTypeFigma:
+	case TechTypeFigma:
 		return AttackCategoryWeb
-	case AttackTypeFigmaosint:
+	case TechTypeFigmaosint:
 		return AttackCategoryOsint
-	case AttackTypeFile:
+	case TechTypeFile:
 		return AttackCategoryWeb
-	case AttackTypeFileDownload:
+	case TechTypeFileDownload:
 		return AttackCategoryWeb
-	case AttackTypeFileReadliferay:
+	case TechTypeFileReadliferay:
 		return AttackCategoryWeb
-	case AttackTypeFileUpload:
+	case TechTypeFileUpload:
 		return AttackCategoryWeb
-	case AttackTypeFileUploadecology:
+	case TechTypeFileUploadecology:
 		return AttackCategoryWeb
-	case AttackTypeFileUploadidoc:
+	case TechTypeFileUploadidoc:
 		return AttackCategoryWeb
-	case AttackTypeFileUploadjoomla:
+	case TechTypeFileUploadjoomla:
 		return AttackCategoryWeb
-	case AttackTypeFileUploadrce:
+	case TechTypeFileUploadrce:
 		return AttackCategoryRCE
-	case AttackTypeFileUploadweaver:
+	case TechTypeFileUploadweaver:
 		return AttackCategoryWeb
-	case AttackTypeFilebrowser:
+	case TechTypeFilebrowser:
 		return AttackCategoryWeb
-	case AttackTypeFileexposure:
+	case TechTypeFileexposure:
 		return AttackCategoryWeb
-	case AttackTypeFilemage:
+	case TechTypeFilemage:
 		return AttackCategoryWeb
-	case AttackTypeFileman:
+	case TechTypeFileman:
 		return AttackCategoryWeb
-	case AttackTypeFilemanager:
+	case TechTypeFilemanager:
 		return AttackCategoryWeb
-	case AttackTypeFilemanagerdefaultLogin:
+	case TechTypeFilemanagerdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeFilemanagerpanel:
+	case TechTypeFilemanagerpanel:
 		return AttackCategoryWeb
-	case AttackTypeFiles:
+	case TechTypeFiles:
 		return AttackCategoryWeb
-	case AttackTypeFilesatom:
+	case TechTypeFilesatom:
 		return AttackCategoryWeb
-	case AttackTypeFilesazure:
+	case TechTypeFilesazure:
 		return AttackCategoryCloud
-	case AttackTypeFilesbash:
+	case TechTypeFilesbash:
 		return AttackCategoryWeb
-	case AttackTypeFilescloud:
+	case TechTypeFilescloud:
 		return AttackCategoryCloud
-	case AttackTypeFilesconfig:
+	case TechTypeFilesconfig:
 		return AttackCategoryWeb
-	case AttackTypeFilesdevops:
+	case TechTypeFilesdevops:
 		return AttackCategoryWeb
-	case AttackTypeFilesdjango:
+	case TechTypeFilesdjango:
 		return AttackCategoryWeb
-	case AttackTypeFilesesocks5:
+	case TechTypeFilesesocks5:
 		return AttackCategoryWeb
-	case AttackTypeFilesexpose:
+	case TechTypeFilesexpose:
 		return AttackCategoryWeb
-	case AttackTypeFilesexposure:
+	case TechTypeFilesexposure:
 		return AttackCategoryWeb
-	case AttackTypeFilesfile:
+	case TechTypeFilesfile:
 		return AttackCategoryWeb
-	case AttackTypeFilesfiles:
+	case TechTypeFilesfiles:
 		return AttackCategoryWeb
-	case AttackTypeFilesgithub:
+	case TechTypeFilesgithub:
 		return AttackCategoryWeb
-	case AttackTypeFilesglpi:
+	case TechTypeFilesglpi:
 		return AttackCategoryWeb
-	case AttackTypeFilesgoogle:
+	case TechTypeFilesgoogle:
 		return AttackCategoryWeb
-	case AttackTypeFilesioncube:
+	case TechTypeFilesioncube:
 		return AttackCategoryWeb
-	case AttackTypeFileslibvirt:
+	case TechTypeFileslibvirt:
 		return AttackCategoryWeb
-	case AttackTypeFilesmisconfig:
+	case TechTypeFilesmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeFilesmsf:
+	case TechTypeFilesmsf:
 		return AttackCategoryWeb
-	case AttackTypeFilesnpm:
+	case TechTypeFilesnpm:
 		return AttackCategoryWeb
-	case AttackTypeFilesopenstack:
+	case TechTypeFilesopenstack:
 		return AttackCategoryWeb
-	case AttackTypeFilesoracle:
+	case TechTypeFilesoracle:
 		return AttackCategoryWeb
-	case AttackTypeFilesredmine:
+	case TechTypeFilesredmine:
 		return AttackCategoryWeb
-	case AttackTypeFilesruby:
+	case TechTypeFilesruby:
 		return AttackCategoryWeb
-	case AttackTypeFilessymfony:
+	case TechTypeFilessymfony:
 		return AttackCategoryWeb
-	case AttackTypeFiletransfergo:
+	case TechTypeFiletransfergo:
 		return AttackCategoryWeb
-	case AttackTypeFileupload:
+	case TechTypeFileupload:
 		return AttackCategoryWeb
-	case AttackTypeFileuploadcve:
+	case TechTypeFileuploadcve:
 		return AttackCategoryCVE
-	case AttackTypeFileuploadcve2021:
+	case TechTypeFileuploadcve2021:
 		return AttackCategoryCVE
-	case AttackTypeFileuploadcve2023:
+	case TechTypeFileuploadcve2023:
 		return AttackCategoryCVE
-	case AttackTypeFileuploadecology:
+	case TechTypeFileuploadecology:
 		return AttackCategoryWeb
-	case AttackTypeFileuploadprocessmaker:
+	case TechTypeFileuploadprocessmaker:
 		return AttackCategoryWeb
-	case AttackTypeFileuploadweaver:
+	case TechTypeFileuploadweaver:
 		return AttackCategoryWeb
-	case AttackTypeFileuploadwordpress:
+	case TechTypeFileuploadwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeFileuploadyonyou:
+	case TechTypeFileuploadyonyou:
 		return AttackCategoryWeb
-	case AttackTypeFilezilla:
+	case TechTypeFilezilla:
 		return AttackCategoryWeb
-	case AttackTypeFilmwebosint:
+	case TechTypeFilmwebosint:
 		return AttackCategoryWeb
-	case AttackTypeFilr:
+	case TechTypeFilr:
 		return AttackCategoryWeb
-	case AttackTypeFinance:
+	case TechTypeFinance:
 		return AttackCategoryFinance
-	case AttackTypeFind:
+	case TechTypeFind:
 		return AttackCategoryWeb
-	case AttackTypeFineArtAmericaosint:
+	case TechTypeFineArtAmericaosint:
 		return AttackCategoryOsint
-	case AttackTypeFinecmscve:
+	case TechTypeFinecmscve:
 		return AttackCategoryCVE
-	case AttackTypeFinecmscve2017:
+	case TechTypeFinecmscve2017:
 		return AttackCategoryCVE
-	case AttackTypeFinger:
+	case TechTypeFinger:
 		return AttackCategoryWeb
-	case AttackTypeFinicity:
+	case TechTypeFinicity:
 		return AttackCategoryWeb
-	case AttackTypeFinnhub:
+	case TechTypeFinnhub:
 		return AttackCategoryWeb
-	case AttackTypeFiori:
+	case TechTypeFiori:
 		return AttackCategoryWeb
-	case AttackTypeFiorisas:
+	case TechTypeFiorisas:
 		return AttackCategoryWeb
-	case AttackTypeFirebase:
+	case TechTypeFirebase:
 		return AttackCategoryWeb
-	case AttackTypeFirebasetech:
+	case TechTypeFirebasetech:
 		return AttackCategoryWeb
-	case AttackTypeFirefox:
+	case TechTypeFirefox:
 		return AttackCategoryWeb
-	case AttackTypeFirewall:
+	case TechTypeFirewall:
 		return AttackCategoryWeb
-	case AttackTypeFirewallpanel:
+	case TechTypeFirewallpanel:
 		return AttackCategoryWeb
-	case AttackTypeFirewalltech:
+	case TechTypeFirewalltech:
 		return AttackCategoryWeb
-	case AttackTypeFirmware:
+	case TechTypeFirmware:
 		return AttackCategoryWeb
-	case AttackTypeFish:
+	case TechTypeFish:
 		return AttackCategoryWeb
-	case AttackTypeFit2Cloudcve2023:
+	case TechTypeFit2Cloudcve2023:
 		return AttackCategoryCloud
-	case AttackTypeFiverrosint:
+	case TechTypeFiverrosint:
 		return AttackCategoryOsint
-	case AttackTypeFlahscookie:
+	case TechTypeFlahscookie:
 		return AttackCategoryWeb
-	case AttackTypeFlarummisconfig:
+	case TechTypeFlarummisconfig:
 		return AttackCategoryWeb
-	case AttackTypeFlask:
+	case TechTypeFlask:
 		return AttackCategoryWeb
-	case AttackTypeFlaskSecurityProjectcve2021:
+	case TechTypeFlaskSecurityProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeFlatnux:
+	case TechTypeFlatnux:
 		return AttackCategoryWeb
-	case AttackTypeFlatpm:
+	case TechTypeFlatpm:
 		return AttackCategoryWeb
-	case AttackTypeFlatpress:
+	case TechTypeFlatpress:
 		return AttackCategoryWeb
-	case AttackTypeFleet:
+	case TechTypeFleet:
 		return AttackCategoryWeb
-	case AttackTypeFleetcart:
+	case TechTypeFleetcart:
 		return AttackCategoryWeb
-	case AttackTypeFleetcartinstall:
+	case TechTypeFleetcartinstall:
 		return AttackCategoryWeb
-	case AttackTypeFlexbetakeovertakeover:
+	case TechTypeFlexbetakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeFlexnet:
+	case TechTypeFlexnet:
 		return AttackCategoryWeb
-	case AttackTypeFlexvnfpanel:
+	case TechTypeFlexvnfpanel:
 		return AttackCategoryWeb
-	case AttackTypeFlexvnftech:
+	case TechTypeFlexvnftech:
 		return AttackCategoryWeb
-	case AttackTypeFlexvnfvidyo:
+	case TechTypeFlexvnfvidyo:
 		return AttackCategoryWeb
-	case AttackTypeFlickrosint:
+	case TechTypeFlickrosint:
 		return AttackCategoryOsint
-	case AttackTypeFlickrtokenSpray:
+	case TechTypeFlickrtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeFlightpath:
+	case TechTypeFlightpath:
 		return AttackCategoryWeb
-	case AttackTypeFlightpathpanel:
+	case TechTypeFlightpathpanel:
 		return AttackCategoryWeb
-	case AttackTypeFlink:
+	case TechTypeFlink:
 		return AttackCategoryWeb
-	case AttackTypeFlinkpanel:
+	case TechTypeFlinkpanel:
 		return AttackCategoryWeb
-	case AttackTypeFlip:
+	case TechTypeFlip:
 		return AttackCategoryWeb
-	case AttackTypeFlipboardosint:
+	case TechTypeFlipboardosint:
 		return AttackCategoryOsint
-	case AttackTypeFlir:
+	case TechTypeFlir:
 		return AttackCategoryWeb
-	case AttackTypeFloc:
+	case TechTypeFloc:
 		return AttackCategoryWeb
-	case AttackTypeFlock:
+	case TechTypeFlock:
 		return AttackCategoryWeb
-	case AttackTypeFlowcipanel:
+	case TechTypeFlowcipanel:
 		return AttackCategoryWeb
-	case AttackTypeFlowcodeosint:
+	case TechTypeFlowcodeosint:
 		return AttackCategoryOsint
-	case AttackTypeFlowdashtokenSpray:
+	case TechTypeFlowdashtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeFlower:
+	case TechTypeFlower:
 		return AttackCategoryWeb
-	case AttackTypeFlowisecve:
+	case TechTypeFlowisecve:
 		return AttackCategoryCVE
-	case AttackTypeFlowmoncve:
+	case TechTypeFlowmoncve:
 		return AttackCategoryCVE
-	case AttackTypeFlureedbtech:
+	case TechTypeFlureedbtech:
 		return AttackCategoryWeb
-	case AttackTypeFlyteconsole:
+	case TechTypeFlyteconsole:
 		return AttackCategoryWeb
-	case AttackTypeFlytecve2022:
+	case TechTypeFlytecve2022:
 		return AttackCategoryCVE
-	case AttackTypeFlywayspringboot:
+	case TechTypeFlywayspringboot:
 		return AttackCategoryWeb
-	case AttackTypeFms:
+	case TechTypeFms:
 		return AttackCategoryWeb
-	case AttackTypeFodorsForumosint:
+	case TechTypeFodorsForumosint:
 		return AttackCategoryOsint
-	case AttackTypeFoliovisioncve2021:
+	case TechTypeFoliovisioncve2021:
 		return AttackCategoryCVE
-	case AttackTypeFontawesometokenSpray:
+	case TechTypeFontawesometokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeFontsy:
+	case TechTypeFontsy:
 		return AttackCategoryWeb
-	case AttackTypeFontsyProjectcve:
+	case TechTypeFontsyProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeFooblacve:
+	case TechTypeFooblacve:
 		return AttackCategoryCVE
-	case AttackTypeFooblacve2011:
+	case TechTypeFooblacve2011:
 		return AttackCategoryCVE
-	case AttackTypeFoogallery:
+	case TechTypeFoogallery:
 		return AttackCategoryWeb
-	case AttackTypeFoopluginscve:
+	case TechTypeFoopluginscve:
 		return AttackCategoryCVE
-	case AttackTypeFootprintspanel:
+	case TechTypeFootprintspanel:
 		return AttackCategoryWeb
-	case AttackTypeForcepointforcepoint:
+	case TechTypeForcepointforcepoint:
 		return AttackCategoryRCE
-	case AttackTypeForescout:
+	case TechTypeForescout:
 		return AttackCategoryWeb
-	case AttackTypeForgerockcve2021:
+	case TechTypeForgerockcve2021:
 		return AttackCategoryCVE
-	case AttackTypeForgerockpanel:
+	case TechTypeForgerockpanel:
 		return AttackCategoryWeb
-	case AttackTypeForm:
+	case TechTypeForm:
 		return AttackCategoryWeb
-	case AttackTypeFormalmsmisconfig:
+	case TechTypeFormalmsmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeFormcraft3:
+	case TechTypeFormcraft3:
 		return AttackCategoryWeb
-	case AttackTypeForminator:
+	case TechTypeForminator:
 		return AttackCategoryWeb
-	case AttackTypeForms:
+	case TechTypeForms:
 		return AttackCategoryWeb
-	case AttackTypeFortiappanel:
+	case TechTypeFortiappanel:
 		return AttackCategoryWeb
-	case AttackTypeFortiauthenticator:
+	case TechTypeFortiauthenticator:
 		return AttackCategoryWeb
-	case AttackTypeForticlient:
+	case TechTypeForticlient:
 		return AttackCategoryWeb
-	case AttackTypeFortiddos:
+	case TechTypeFortiddos:
 		return AttackCategoryWeb
-	case AttackTypeFortigate:
+	case TechTypeFortigate:
 		return AttackCategoryWeb
-	case AttackTypeFortigatepanel:
+	case TechTypeFortigatepanel:
 		return AttackCategoryWeb
-	case AttackTypeFortigates:
+	case TechTypeFortigates:
 		return AttackCategoryWeb
-	case AttackTypeFortilogger:
+	case TechTypeFortilogger:
 		return AttackCategoryWeb
-	case AttackTypeFortimail:
+	case TechTypeFortimail:
 		return AttackCategoryMail
-	case AttackTypeFortimanager:
+	case TechTypeFortimanager:
 		return AttackCategoryWeb
-	case AttackTypeFortinac:
+	case TechTypeFortinac:
 		return AttackCategoryWeb
-	case AttackTypeFortinet:
+	case TechTypeFortinet:
 		return AttackCategoryWeb
-	case AttackTypeFortinetcve:
+	case TechTypeFortinetcve:
 		return AttackCategoryCVE
-	case AttackTypeFortinetcve2017:
+	case TechTypeFortinetcve2017:
 		return AttackCategoryCVE
-	case AttackTypeFortinetcve2018:
+	case TechTypeFortinetcve2018:
 		return AttackCategoryCVE
-	case AttackTypeFortinetcve2021:
+	case TechTypeFortinetcve2021:
 		return AttackCategoryCVE
-	case AttackTypeFortinetpanel:
+	case TechTypeFortinetpanel:
 		return AttackCategoryWeb
-	case AttackTypeFortinetwpscan:
+	case TechTypeFortinetwpscan:
 		return AttackCategoryWeb
-	case AttackTypeFortios:
+	case TechTypeFortios:
 		return AttackCategoryWeb
-	case AttackTypeFortiospanel:
+	case TechTypeFortiospanel:
 		return AttackCategoryWeb
-	case AttackTypeFortiportal:
+	case TechTypeFortiportal:
 		return AttackCategoryWeb
-	case AttackTypeFortiproxy:
+	case TechTypeFortiproxy:
 		return AttackCategoryWeb
-	case AttackTypeFortisiempanel:
+	case TechTypeFortisiempanel:
 		return AttackCategoryWeb
-	case AttackTypeFortitokentokenSpray:
+	case TechTypeFortitokentokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeFortiweb:
+	case TechTypeFortiweb:
 		return AttackCategoryWeb
-	case AttackTypeFortiwlm:
+	case TechTypeFortiwlm:
 		return AttackCategoryWeb
-	case AttackTypeFortniteTrackerosint:
+	case TechTypeFortniteTrackerosint:
 		return AttackCategoryOsint
-	case AttackTypeFortracve:
+	case TechTypeFortracve:
 		return AttackCategoryCVE
-	case AttackTypeFortressaircraft:
+	case TechTypeFortressaircraft:
 		return AttackCategoryAI
-	case AttackTypeForum:
+	case TechTypeForum:
 		return AttackCategoryWeb
-	case AttackTypeForumpanel:
+	case TechTypeForumpanel:
 		return AttackCategoryWeb
-	case AttackTypeForumprawneorgosint:
+	case TechTypeForumprawneorgosint:
 		return AttackCategoryOsint
-	case AttackTypeFossdefaultLogin:
+	case TechTypeFossdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeFosstodonorgMastodonInstanceosint:
+	case TechTypeFosstodonorgMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeFotkaosint:
+	case TechTypeFotkaosint:
 		return AttackCategoryOsint
-	case AttackTypeFoursquareosint:
+	case TechTypeFoursquareosint:
 		return AttackCategoryOsint
-	case AttackTypeFox:
+	case TechTypeFox:
 		return AttackCategoryWeb
-	case AttackTypeFpd:
+	case TechTypeFpd:
 		return AttackCategoryWeb
-	case AttackTypeFpdcve:
+	case TechTypeFpdcve:
 		return AttackCategoryCVE
-	case AttackTypeFpdwp:
+	case TechTypeFpdwp:
 		return AttackCategoryWeb
-	case AttackTypeFractaliacve:
+	case TechTypeFractaliacve:
 		return AttackCategoryCVE
-	case AttackTypeFrangoteam:
+	case TechTypeFrangoteam:
 		return AttackCategoryWeb
-	case AttackTypeFranklinfrp:
+	case TechTypeFranklinfrp:
 		return AttackCategoryWeb
-	case AttackTypeFranklinfueling:
+	case TechTypeFranklinfueling:
 		return AttackCategoryWeb
-	case AttackTypeFree5Gc:
+	case TechTypeFree5Gc:
 		return AttackCategoryWeb
-	case AttackTypeFreehtmldesignscve:
+	case TechTypeFreehtmldesignscve:
 		return AttackCategoryCVE
-	case AttackTypeFreeipa:
+	case TechTypeFreeipa:
 		return AttackCategoryWeb
-	case AttackTypeFreeipafreepbx:
+	case TechTypeFreeipafreepbx:
 		return AttackCategoryWeb
-	case AttackTypeFreelancerosint:
+	case TechTypeFreelancerosint:
 		return AttackCategoryOsint
-	case AttackTypeFreelancetoindiacve2021:
+	case TechTypeFreelancetoindiacve2021:
 		return AttackCategoryCVE
-	case AttackTypeFreesoundosint:
+	case TechTypeFreesoundosint:
 		return AttackCategoryOsint
-	case AttackTypeFriendfinderXosint:
+	case TechTypeFriendfinderXosint:
 		return AttackCategoryOsint
-	case AttackTypeFriendfinderosint:
+	case TechTypeFriendfinderosint:
 		return AttackCategoryOsint
-	case AttackTypeFriendwebosint:
+	case TechTypeFriendwebosint:
 		return AttackCategoryWeb
-	case AttackTypeFrigate:
+	case TechTypeFrigate:
 		return AttackCategoryWeb
-	case AttackTypeFrontendUploaderProjectcve2014:
+	case TechTypeFrontendUploaderProjectcve2014:
 		return AttackCategoryCVE
-	case AttackTypeFrontpage:
+	case TechTypeFrontpage:
 		return AttackCategoryWeb
-	case AttackTypeFrontpagemisconfig:
+	case TechTypeFrontpagemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeFrontscan:
+	case TechTypeFrontscan:
 		return AttackCategoryWeb
-	case AttackTypeFroxlor:
+	case TechTypeFroxlor:
 		return AttackCategoryWeb
-	case AttackTypeFroxlorpanel:
+	case TechTypeFroxlorpanel:
 		return AttackCategoryWeb
-	case AttackTypeFroxlortech:
+	case TechTypeFroxlortech:
 		return AttackCategoryWeb
-	case AttackTypeFsecure:
+	case TechTypeFsecure:
 		return AttackCategoryWeb
-	case AttackTypeFsmlabscve2023:
+	case TechTypeFsmlabscve2023:
 		return AttackCategoryCVE
-	case AttackTypeFtm:
+	case TechTypeFtm:
 		return AttackCategoryWeb
-	case AttackTypeFtp:
+	case TechTypeFtp:
 		return AttackCategoryWeb
-	case AttackTypeFtpBackdoor:
+	case TechTypeFtpBackdoor:
 		return AttackCategoryWeb
-	case AttackTypeFtppanel:
+	case TechTypeFtppanel:
 		return AttackCategoryWeb
-	case AttackTypeFtptech:
+	case TechTypeFtptech:
 		return AttackCategoryWeb
-	case AttackTypeFuddorum:
+	case TechTypeFuddorum:
 		return AttackCategoryWeb
-	case AttackTypeFudforum:
+	case TechTypeFudforum:
 		return AttackCategoryWeb
-	case AttackTypeFudforumcve2021:
+	case TechTypeFudforumcve2021:
 		return AttackCategoryCVE
-	case AttackTypeFuelCms:
+	case TechTypeFuelCms:
 		return AttackCategoryWeb
-	case AttackTypeFuelcms:
+	case TechTypeFuelcms:
 		return AttackCategoryWeb
-	case AttackTypeFuji:
+	case TechTypeFuji:
 		return AttackCategoryWeb
-	case AttackTypeFujian:
+	case TechTypeFujian:
 		return AttackCategoryWeb
-	case AttackTypeFujitsu:
+	case TechTypeFujitsu:
 		return AttackCategoryWeb
-	case AttackTypeFullhunt:
+	case TechTypeFullhunt:
 		return AttackCategoryWeb
-	case AttackTypeFullworkscve:
+	case TechTypeFullworkscve:
 		return AttackCategoryCVE
-	case AttackTypeFullworkspluginscve2023:
+	case TechTypeFullworkspluginscve2023:
 		return AttackCategoryCVE
-	case AttackTypeFuraffinityosint:
+	case TechTypeFuraffinityosint:
 		return AttackCategoryOsint
-	case AttackTypeFurifficosint:
+	case TechTypeFurifficosint:
 		return AttackCategoryOsint
-	case AttackTypeFusion:
+	case TechTypeFusion:
 		return AttackCategoryWeb
-	case AttackTypeFusionBuilderProjectcve:
+	case TechTypeFusionBuilderProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeFusionauth:
+	case TechTypeFusionauth:
 		return AttackCategoryWeb
-	case AttackTypeFuxa:
+	case TechTypeFuxa:
 		return AttackCategoryWeb
-	case AttackTypeFuzz:
+	case TechTypeFuzz:
 		return AttackCategoryWeb
-	case AttackTypeFuzzaruba:
+	case TechTypeFuzzaruba:
 		return AttackCategoryWeb
-	case AttackTypeFuzzexposure:
+	case TechTypeFuzzexposure:
 		return AttackCategoryWeb
-	case AttackTypeFuzzgitlist:
+	case TechTypeFuzzgitlist:
 		return AttackCategoryWeb
-	case AttackTypeFuzzingcitrix:
+	case TechTypeFuzzingcitrix:
 		return AttackCategoryWeb
-	case AttackTypeFuzzingfuzz:
+	case TechTypeFuzzingfuzz:
 		return AttackCategoryWeb
-	case AttackTypeFuzzinggmail:
+	case TechTypeFuzzinggmail:
 		return AttackCategoryMail
-	case AttackTypeFuzzingiis:
+	case TechTypeFuzzingiis:
 		return AttackCategoryWeb
-	case AttackTypeFuzzinglinux:
+	case TechTypeFuzzinglinux:
 		return AttackCategoryWeb
-	case AttackTypeFuzzingssrf:
+	case TechTypeFuzzingssrf:
 		return AttackCategoryWeb
-	case AttackTypeFuzzingwaf:
+	case TechTypeFuzzingwaf:
 		return AttackCategoryWeb
-	case AttackTypeFuzzingwordpress:
+	case TechTypeFuzzingwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeFuzzjs:
+	case TechTypeFuzzjs:
 		return AttackCategoryWeb
-	case AttackTypeFuzzmisconfig:
+	case TechTypeFuzzmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeFuzztech:
+	case TechTypeFuzztech:
 		return AttackCategoryWeb
-	case AttackTypeFuzztongda:
+	case TechTypeFuzztongda:
 		return AttackCategoryWeb
-	case AttackTypeFuzzwordpress:
+	case TechTypeFuzzwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeFxwebdesigncve:
+	case TechTypeFxwebdesigncve:
 		return AttackCategoryCVE
-	case AttackTypeGAutoHyperlink:
+	case TechTypeGAutoHyperlink:
 		return AttackCategoryWeb
-	case AttackTypeG4JLaoneocve2010:
+	case TechTypeG4JLaoneocve2010:
 		return AttackCategoryCVE
-	case AttackTypeG5Themecve2022:
+	case TechTypeG5Themecve2022:
 		return AttackCategoryCVE
-	case AttackTypeGAutoHyperlinkProjectcve:
+	case TechTypeGAutoHyperlinkProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeGabia:
+	case TechTypeGabia:
 		return AttackCategoryWeb
-	case AttackTypeGabosint:
+	case TechTypeGabosint:
 		return AttackCategoryOsint
-	case AttackTypeGaleracve2021:
+	case TechTypeGaleracve2021:
 		return AttackCategoryCVE
-	case AttackTypeGallery:
+	case TechTypeGallery:
 		return AttackCategoryWeb
-	case AttackTypeGambitcve2021:
+	case TechTypeGambitcve2021:
 		return AttackCategoryCVE
-	case AttackTypeGameDebateosint:
+	case TechTypeGameDebateosint:
 		return AttackCategoryOsint
-	case AttackTypeGameconnectcve2015:
+	case TechTypeGameconnectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeGamespotosint:
+	case TechTypeGamespotosint:
 		return AttackCategoryOsint
-	case AttackTypeGanglia:
+	case TechTypeGanglia:
 		return AttackCategoryWeb
-	case AttackTypeGarageManagementSystemProjectcve:
+	case TechTypeGarageManagementSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeGaragemanagementsystem:
+	case TechTypeGaragemanagementsystem:
 		return AttackCategoryWeb
-	case AttackTypeGargoyle:
+	case TechTypeGargoyle:
 		return AttackCategoryWeb
-	case AttackTypeGarminConnectosint:
+	case TechTypeGarminConnectosint:
 		return AttackCategoryOsint
-	case AttackTypeGateone:
+	case TechTypeGateone:
 		return AttackCategoryWeb
-	case AttackTypeGateway:
+	case TechTypeGateway:
 		return AttackCategoryWeb
-	case AttackTypeGatewaypanos:
+	case TechTypeGatewaypanos:
 		return AttackCategoryWeb
-	case AttackTypeGatewaytech:
+	case TechTypeGatewaytech:
 		return AttackCategoryWeb
-	case AttackTypeGawk:
+	case TechTypeGawk:
 		return AttackCategoryWeb
-	case AttackTypeGcp:
+	case TechTypeGcp:
 		return AttackCategoryCloud
-	case AttackTypeGcpcloud:
+	case TechTypeGcpcloud:
 		return AttackCategoryCloud
-	case AttackTypeGcpcloudflare:
+	case TechTypeGcpcloudflare:
 		return AttackCategoryCloud
-	case AttackTypeGcpenum:
+	case TechTypeGcpenum:
 		return AttackCategoryCloud
-	case AttackTypeGcppacketstorm:
+	case TechTypeGcppacketstorm:
 		return AttackCategoryCloud
-	case AttackTypeGdidees:
+	case TechTypeGdidees:
 		return AttackCategoryWeb
-	case AttackTypeGecadcve:
+	case TechTypeGecadcve:
 		return AttackCategoryCVE
-	case AttackTypeGeddy:
+	case TechTypeGeddy:
 		return AttackCategoryWeb
-	case AttackTypeGeddyjs:
+	case TechTypeGeddyjs:
 		return AttackCategoryWeb
-	case AttackTypeGelembjukcve:
+	case TechTypeGelembjukcve:
 		return AttackCategoryCVE
-	case AttackTypeGemfurytakeover:
+	case TechTypeGemfurytakeover:
 		return AttackCategoryWeb
-	case AttackTypeGemwebpanel:
+	case TechTypeGemwebpanel:
 		return AttackCategoryWeb
-	case AttackTypeGeneric:
+	case TechTypeGeneric:
 		return AttackCategoryWeb
-	case AttackTypeGenericazure:
+	case TechTypeGenericazure:
 		return AttackCategoryCloud
-	case AttackTypeGenericcache:
+	case TechTypeGenericcache:
 		return AttackCategoryWeb
-	case AttackTypeGenericcors:
+	case TechTypeGenericcors:
 		return AttackCategoryWeb
-	case AttackTypeGenericedb:
+	case TechTypeGenericedb:
 		return AttackCategoryWeb
-	case AttackTypeGenericexposure:
+	case TechTypeGenericexposure:
 		return AttackCategoryWeb
-	case AttackTypeGenericgitea:
+	case TechTypeGenericgitea:
 		return AttackCategoryWeb
-	case AttackTypeGenericgithub:
+	case TechTypeGenericgithub:
 		return AttackCategoryWeb
-	case AttackTypeGenerichostheaderInjection:
+	case TechTypeGenerichostheaderInjection:
 		return AttackCategoryWeb
-	case AttackTypeGenericmisc:
+	case TechTypeGenericmisc:
 		return AttackCategoryWeb
-	case AttackTypeGenericmiscellaneous:
+	case TechTypeGenericmiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypeGenericmisconfig:
+	case TechTypeGenericmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeGenericoast:
+	case TechTypeGenericoast:
 		return AttackCategoryWeb
-	case AttackTypeGenericredirect:
+	case TechTypeGenericredirect:
 		return AttackCategoryWeb
-	case AttackTypeGenericxmlrpc:
+	case TechTypeGenericxmlrpc:
 		return AttackCategoryWeb
-	case AttackTypeGenericxss:
+	case TechTypeGenericxss:
 		return AttackCategoryXSS
-	case AttackTypeGenetechsolutions:
+	case TechTypeGenetechsolutions:
 		return AttackCategoryWeb
-	case AttackTypeGenetechsolutionscve:
+	case TechTypeGenetechsolutionscve:
 		return AttackCategoryCVE
-	case AttackTypeGenetechsolutionscve2015:
+	case TechTypeGenetechsolutionscve2015:
 		return AttackCategoryCVE
-	case AttackTypeGenetechsolutionscve2021:
+	case TechTypeGenetechsolutionscve2021:
 		return AttackCategoryCVE
-	case AttackTypeGenie:
+	case TechTypeGenie:
 		return AttackCategoryWeb
-	case AttackTypeGenieaccesscve:
+	case TechTypeGenieaccesscve:
 		return AttackCategoryCVE
-	case AttackTypeGenieacs:
+	case TechTypeGenieacs:
 		return AttackCategoryWeb
-	case AttackTypeGeniusocean:
+	case TechTypeGeniusocean:
 		return AttackCategoryWeb
-	case AttackTypeGeocachingosint:
+	case TechTypeGeocachingosint:
 		return AttackCategoryOsint
-	case AttackTypeGeocodetokenSpray:
+	case TechTypeGeocodetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeGeolocationtokenSpray:
+	case TechTypeGeolocationtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeGeoserver:
+	case TechTypeGeoserver:
 		return AttackCategoryWeb
-	case AttackTypeGeosolutionsgroupcve2022:
+	case TechTypeGeosolutionsgroupcve2022:
 		return AttackCategoryCVE
-	case AttackTypeGeowebserver:
+	case TechTypeGeowebserver:
 		return AttackCategoryWeb
-	case AttackTypeGerapy:
+	case TechTypeGerapy:
 		return AttackCategoryWeb
-	case AttackTypeGespagecve:
+	case TechTypeGespagecve:
 		return AttackCategoryCVE
-	case AttackTypeGespagepanel:
+	case TechTypeGespagepanel:
 		return AttackCategoryWeb
-	case AttackTypeGetSimpleCve2019:
+	case TechTypeGetSimpleCve2019:
 		return AttackCategoryCVE
-	case AttackTypeGetflightpathcve:
+	case TechTypeGetflightpathcve:
 		return AttackCategoryCVE
-	case AttackTypeGetgravcve:
+	case TechTypeGetgravcve:
 		return AttackCategoryCVE
-	case AttackTypeGetgravcve2018:
+	case TechTypeGetgravcve2018:
 		return AttackCategoryCVE
-	case AttackTypeGeth:
+	case TechTypeGeth:
 		return AttackCategoryWeb
-	case AttackTypeGetlassocve2023:
+	case TechTypeGetlassocve2023:
 		return AttackCategoryCVE
-	case AttackTypeGetmoneroosint:
+	case TechTypeGetmoneroosint:
 		return AttackCategoryOsint
-	case AttackTypeGetperfectsurveycve2021:
+	case TechTypeGetperfectsurveycve2021:
 		return AttackCategoryCVE
-	case AttackTypeGetresponsetakeover:
+	case TechTypeGetresponsetakeover:
 		return AttackCategoryWeb
-	case AttackTypeGetshieldsecurityhackerone:
+	case TechTypeGetshieldsecurityhackerone:
 		return AttackCategoryWeb
-	case AttackTypeGetsimple:
+	case TechTypeGetsimple:
 		return AttackCategoryWeb
-	case AttackTypeGetsimpletech:
+	case TechTypeGetsimpletech:
 		return AttackCategoryWeb
-	case AttackTypeGettrosint:
+	case TechTypeGettrosint:
 		return AttackCategoryOsint
-	case AttackTypeGeutebruck:
+	case TechTypeGeutebruck:
 		return AttackCategoryWeb
-	case AttackTypeGeutebrueckcve2021:
+	case TechTypeGeutebrueckcve2021:
 		return AttackCategoryCVE
-	case AttackTypeGfycatosint:
+	case TechTypeGfycatosint:
 		return AttackCategoryOsint
-	case AttackTypeGhost:
+	case TechTypeGhost:
 		return AttackCategoryWeb
-	case AttackTypeGhostcms:
+	case TechTypeGhostcms:
 		return AttackCategoryWeb
-	case AttackTypeGhosttakeover:
+	case TechTypeGhosttakeover:
 		return AttackCategoryWeb
-	case AttackTypeGianniTommasicve2009:
+	case TechTypeGianniTommasicve2009:
 		return AttackCategoryCVE
-	case AttackTypeGibbon:
+	case TechTypeGibbon:
 		return AttackCategoryWeb
-	case AttackTypeGibboneducve:
+	case TechTypeGibboneducve:
 		return AttackCategoryCVE
-	case AttackTypeGibboneducve2023:
+	case TechTypeGibboneducve2023:
 		return AttackCategoryCVE
-	case AttackTypeGiftVoucher:
+	case TechTypeGiftVoucher:
 		return AttackCategoryWeb
-	case AttackTypeGigapanosint:
+	case TechTypeGigapanosint:
 		return AttackCategoryOsint
-	case AttackTypeGilacmstech:
+	case TechTypeGilacmstech:
 		return AttackCategoryWeb
-	case AttackTypeGimp:
+	case TechTypeGimp:
 		return AttackCategoryWeb
-	case AttackTypeGiphyosint:
+	case TechTypeGiphyosint:
 		return AttackCategoryOsint
-	case AttackTypeGiphytokenSpray:
+	case TechTypeGiphytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeGirapanel:
+	case TechTypeGirapanel:
 		return AttackCategoryWeb
-	case AttackTypeGirlfriendsmeetosint:
+	case TechTypeGirlfriendsmeetosint:
 		return AttackCategoryOsint
-	case AttackTypeGist:
+	case TechTypeGist:
 		return AttackCategoryWeb
-	case AttackTypeGit:
+	case TechTypeGit:
 		return AttackCategoryWeb
-	case AttackTypeGitblitcve:
+	case TechTypeGitblitcve:
 		return AttackCategoryCVE
-	case AttackTypeGitblitgitea:
+	case TechTypeGitblitgitea:
 		return AttackCategoryWeb
-	case AttackTypeGitbook:
+	case TechTypeGitbook:
 		return AttackCategoryWeb
-	case AttackTypeGitbooktech:
+	case TechTypeGitbooktech:
 		return AttackCategoryWeb
-	case AttackTypeGitconfig:
+	case TechTypeGitconfig:
 		return AttackCategoryWeb
-	case AttackTypeGitea:
+	case TechTypeGitea:
 		return AttackCategoryWeb
-	case AttackTypeGiteacloud:
+	case TechTypeGiteacloud:
 		return AttackCategoryCloud
-	case AttackTypeGiteacve:
+	case TechTypeGiteacve:
 		return AttackCategoryCVE
-	case AttackTypeGiteagitlab:
+	case TechTypeGiteagitlab:
 		return AttackCategoryWeb
-	case AttackTypeGiteaosint:
+	case TechTypeGiteaosint:
 		return AttackCategoryOsint
-	case AttackTypeGiteatech:
+	case TechTypeGiteatech:
 		return AttackCategoryWeb
-	case AttackTypeGiteeosint:
+	case TechTypeGiteeosint:
 		return AttackCategoryOsint
-	case AttackTypeGitersosint:
+	case TechTypeGitersosint:
 		return AttackCategoryOsint
-	case AttackTypeGithub:
+	case TechTypeGithub:
 		return AttackCategoryWeb
-	case AttackTypeGithubcloud:
+	case TechTypeGithubcloud:
 		return AttackCategoryCloud
-	case AttackTypeGithubcve:
+	case TechTypeGithubcve:
 		return AttackCategoryCVE
-	case AttackTypeGithubosint:
+	case TechTypeGithubosint:
 		return AttackCategoryOsint
-	case AttackTypeGithubpanel:
+	case TechTypeGithubpanel:
 		return AttackCategoryWeb
-	case AttackTypeGithubtakeover:
+	case TechTypeGithubtakeover:
 		return AttackCategoryWeb
-	case AttackTypeGithubtokenSpray:
+	case TechTypeGithubtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeGitlab:
+	case TechTypeGitlab:
 		return AttackCategoryWeb
-	case AttackTypeGitlabcve:
+	case TechTypeGitlabcve:
 		return AttackCategoryCVE
-	case AttackTypeGitlabosint:
+	case TechTypeGitlabosint:
 		return AttackCategoryOsint
-	case AttackTypeGitlabpanel:
+	case TechTypeGitlabpanel:
 		return AttackCategoryWeb
-	case AttackTypeGitlabselfHosted:
+	case TechTypeGitlabselfHosted:
 		return AttackCategoryWeb
-	case AttackTypeGitlabtokenSpray:
+	case TechTypeGitlabtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeGitlist:
+	case TechTypeGitlist:
 		return AttackCategoryWeb
-	case AttackTypeGitter:
+	case TechTypeGitter:
 		return AttackCategoryWeb
-	case AttackTypeGive:
+	case TechTypeGive:
 		return AttackCategoryWeb
-	case AttackTypeGivesightcve2010:
+	case TechTypeGivesightcve2010:
 		return AttackCategoryCVE
-	case AttackTypeGivewpcve:
+	case TechTypeGivewpcve:
 		return AttackCategoryCVE
-	case AttackTypeGlances:
+	case TechTypeGlances:
 		return AttackCategoryWeb
-	case AttackTypeGlassfish:
+	case TechTypeGlassfish:
 		return AttackCategoryWeb
-	case AttackTypeGlassfishtech:
+	case TechTypeGlassfishtech:
 		return AttackCategoryWeb
-	case AttackTypeGlibc:
+	case TechTypeGlibc:
 		return AttackCategoryWeb
-	case AttackTypeGlobal:
+	case TechTypeGlobal:
 		return AttackCategoryWeb
-	case AttackTypeGlobalprotect:
+	case TechTypeGlobalprotect:
 		return AttackCategoryWeb
-	case AttackTypeGloocve:
+	case TechTypeGloocve:
 		return AttackCategoryCVE
-	case AttackTypeGloriatvosint:
+	case TechTypeGloriatvosint:
 		return AttackCategoryOsint
-	case AttackTypeGlowrootglpi:
+	case TechTypeGlowrootglpi:
 		return AttackCategoryWeb
-	case AttackTypeGlowrootlansweeper:
+	case TechTypeGlowrootlansweeper:
 		return AttackCategoryWeb
-	case AttackTypeGlpi:
+	case TechTypeGlpi:
 		return AttackCategoryWeb
-	case AttackTypeGlpiProjectcve:
+	case TechTypeGlpiProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeGlpiProjectcve2020:
+	case TechTypeGlpiProjectcve2020:
 		return AttackCategoryCVE
-	case AttackTypeGlpiProjectcve2021:
+	case TechTypeGlpiProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeGlpiProjectexposure:
+	case TechTypeGlpiProjectexposure:
 		return AttackCategoryWeb
-	case AttackTypeGlpimisconfig:
+	case TechTypeGlpimisconfig:
 		return AttackCategoryWeb
-	case AttackTypeGlpitech:
+	case TechTypeGlpitech:
 		return AttackCategoryWeb
-	case AttackTypeGmapfp:
+	case TechTypeGmapfp:
 		return AttackCategoryWeb
-	case AttackTypeGnPublisher:
+	case TechTypeGnPublisher:
 		return AttackCategoryWeb
-	case AttackTypeGnomeExtensionsosint:
+	case TechTypeGnomeExtensionsosint:
 		return AttackCategoryOsint
-	case AttackTypeGnpublishercve2023:
+	case TechTypeGnpublishercve2023:
 		return AttackCategoryCVE
-	case AttackTypeGnu:
+	case TechTypeGnu:
 		return AttackCategoryWeb
-	case AttackTypeGnuboard:
+	case TechTypeGnuboard:
 		return AttackCategoryWeb
-	case AttackTypeGnuboard5:
+	case TechTypeGnuboard5:
 		return AttackCategoryWeb
-	case AttackTypeGnuboardgnuboard:
+	case TechTypeGnuboardgnuboard:
 		return AttackCategoryWeb
-	case AttackTypeGnuboardtech:
+	case TechTypeGnuboardtech:
 		return AttackCategoryWeb
-	case AttackTypeGnucve:
+	case TechTypeGnucve:
 		return AttackCategoryCVE
-	case AttackTypeGnucve2014:
+	case TechTypeGnucve2014:
 		return AttackCategoryCVE
-	case AttackTypeGnupanel:
+	case TechTypeGnupanel:
 		return AttackCategoryWeb
-	case AttackTypeGo:
+	case TechTypeGo:
 		return AttackCategoryWeb
-	case AttackTypeGoIbax:
+	case TechTypeGoIbax:
 		return AttackCategoryWeb
-	case AttackTypeGoahead:
+	case TechTypeGoahead:
 		return AttackCategoryWeb
-	case AttackTypeGoanywhere:
+	case TechTypeGoanywhere:
 		return AttackCategoryWeb
-	case AttackTypeGocd:
+	case TechTypeGocd:
 		return AttackCategoryWeb
-	case AttackTypeGoexposure:
+	case TechTypeGoexposure:
 		return AttackCategoryWeb
-	case AttackTypeGofiletokenSpray:
+	case TechTypeGofiletokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeGogitscve2014:
+	case TechTypeGogitscve2014:
 		return AttackCategoryCVE
-	case AttackTypeGogoritascve:
+	case TechTypeGogoritascve:
 		return AttackCategoryCVE
-	case AttackTypeGogs:
+	case TechTypeGogs:
 		return AttackCategoryWeb
-	case AttackTypeGogsunauth:
+	case TechTypeGogsunauth:
 		return AttackCategoryWeb
-	case AttackTypeGohigheriscve:
+	case TechTypeGohigheriscve:
 		return AttackCategoryCVE
-	case AttackTypeGohiretakeover:
+	case TechTypeGohiretakeover:
 		return AttackCategoryWeb
-	case AttackTypeGoip:
+	case TechTypeGoip:
 		return AttackCategoryWeb
-	case AttackTypeGolang:
+	case TechTypeGolang:
 		return AttackCategoryWeb
-	case AttackTypeGoliathgoogle:
+	case TechTypeGoliathgoogle:
 		return AttackCategoryWeb
-	case AttackTypeGoodjobpanel:
+	case TechTypeGoodjobpanel:
 		return AttackCategoryWeb
-	case AttackTypeGoodlayers:
+	case TechTypeGoodlayers:
 		return AttackCategoryWeb
-	case AttackTypeGoodlayerslms:
+	case TechTypeGoodlayerslms:
 		return AttackCategoryWeb
-	case AttackTypeGoodoldwebcve:
+	case TechTypeGoodoldwebcve:
 		return AttackCategoryCVE
-	case AttackTypeGoogle:
+	case TechTypeGoogle:
 		return AttackCategoryWeb
-	case AttackTypeGoogleEarthgophish:
+	case TechTypeGoogleEarthgophish:
 		return AttackCategoryWeb
-	case AttackTypeGoogleMp3AudioPlayer:
+	case TechTypeGoogleMp3AudioPlayer:
 		return AttackCategoryWeb
-	case AttackTypeGoogleAdsenseProjectcve:
+	case TechTypeGoogleAdsenseProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeGoogleexposure:
+	case TechTypeGoogleexposure:
 		return AttackCategoryWeb
-	case AttackTypeGooglegoogle:
+	case TechTypeGooglegoogle:
 		return AttackCategoryWeb
-	case AttackTypeGooglegrafana:
+	case TechTypeGooglegrafana:
 		return AttackCategoryWeb
-	case AttackTypeGooglemaps:
+	case TechTypeGooglemaps:
 		return AttackCategoryWeb
-	case AttackTypeGoogletech:
+	case TechTypeGoogletech:
 		return AttackCategoryWeb
-	case AttackTypeGopher:
+	case TechTypeGopher:
 		return AttackCategoryWeb
-	case AttackTypeGophishpanel:
+	case TechTypeGophishpanel:
 		return AttackCategoryWeb
-	case AttackTypeGoresttokenSpray:
+	case TechTypeGoresttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeGot:
+	case TechTypeGot:
 		return AttackCategoryWeb
-	case AttackTypeGotify:
+	case TechTypeGotify:
 		return AttackCategoryWeb
-	case AttackTypeGotmls:
+	case TechTypeGotmls:
 		return AttackCategoryWeb
-	case AttackTypeGotwebtech:
+	case TechTypeGotwebtech:
 		return AttackCategoryWeb
-	case AttackTypeGozic2:
+	case TechTypeGozic2:
 		return AttackCategoryWeb
-	case AttackTypeGpcmiscellaneous:
+	case TechTypeGpcmiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypeGpoddernetosint:
+	case TechTypeGpoddernetosint:
 		return AttackCategoryOsint
-	case AttackTypeGpon:
+	case TechTypeGpon:
 		return AttackCategoryWeb
-	case AttackTypeGracemediaMediaPlayerProjectcve:
+	case TechTypeGracemediaMediaPlayerProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeGradio:
+	case TechTypeGradio:
 		return AttackCategoryWeb
-	case AttackTypeGradiocve:
+	case TechTypeGradiocve:
 		return AttackCategoryCVE
-	case AttackTypeGradiocve2021:
+	case TechTypeGradiocve2021:
 		return AttackCategoryCVE
-	case AttackTypeGradle:
+	case TechTypeGradle:
 		return AttackCategoryWeb
-	case AttackTypeGradlepanel:
+	case TechTypeGradlepanel:
 		return AttackCategoryWeb
-	case AttackTypeGrafana:
+	case TechTypeGrafana:
 		return AttackCategoryWeb
-	case AttackTypeGrafanacredsStuffing:
+	case TechTypeGrafanacredsStuffing:
 		return AttackCategoryWeb
-	case AttackTypeGrandnodecve:
+	case TechTypeGrandnodecve:
 		return AttackCategoryCVE
-	case AttackTypeGrandprofosint:
+	case TechTypeGrandprofosint:
 		return AttackCategoryOsint
-	case AttackTypeGraph:
+	case TechTypeGraph:
 		return AttackCategoryWeb
-	case AttackTypeGraphersolr:
+	case TechTypeGraphersolr:
 		return AttackCategoryWeb
-	case AttackTypeGraphicssocialMastodonInstanceosint:
+	case TechTypeGraphicssocialMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeGraphiql:
+	case TechTypeGraphiql:
 		return AttackCategoryWeb
-	case AttackTypeGraphite:
+	case TechTypeGraphite:
 		return AttackCategoryWeb
-	case AttackTypeGraphiteProjectcve:
+	case TechTypeGraphiteProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeGraphpaperpresscve:
+	case TechTypeGraphpaperpresscve:
 		return AttackCategoryPHP
-	case AttackTypeGraphql:
+	case TechTypeGraphql:
 		return AttackCategoryWeb
-	case AttackTypeGraphqlcve:
+	case TechTypeGraphqlcve:
 		return AttackCategoryCVE
-	case AttackTypeGraphqlgrav:
+	case TechTypeGraphqlgrav:
 		return AttackCategoryWeb
-	case AttackTypeGraphqlhiboss:
+	case TechTypeGraphqlhiboss:
 		return AttackCategoryWeb
-	case AttackTypeGraphqltech:
+	case TechTypeGraphqltech:
 		return AttackCategoryWeb
-	case AttackTypeGrav:
+	case TechTypeGrav:
 		return AttackCategoryWeb
-	case AttackTypeGravatarosint:
+	case TechTypeGravatarosint:
 		return AttackCategoryOsint
-	case AttackTypeGravitlcve:
+	case TechTypeGravitlcve:
 		return AttackCategoryCVE
-	case AttackTypeGraylog:
+	case TechTypeGraylog:
 		return AttackCategoryWeb
-	case AttackTypeGraylogtech:
+	case TechTypeGraylogtech:
 		return AttackCategoryWeb
-	case AttackTypeGrc:
+	case TechTypeGrc:
 		return AttackCategoryWeb
-	case AttackTypeGreatjoomlacve:
+	case TechTypeGreatjoomlacve:
 		return AttackCategoryCVE
-	case AttackTypeGreenbone:
+	case TechTypeGreenbone:
 		return AttackCategoryWeb
-	case AttackTypeGreentreelabscve:
+	case TechTypeGreentreelabscve:
 		return AttackCategoryCVE
-	case AttackTypeGridx:
+	case TechTypeGridx:
 		return AttackCategoryWeb
-	case AttackTypeGridxProjectcve2020:
+	case TechTypeGridxProjectcve2020:
 		return AttackCategoryCVE
-	case AttackTypeGroomify:
+	case TechTypeGroomify:
 		return AttackCategoryWeb
-	case AttackTypeGroupibpanel:
+	case TechTypeGroupibpanel:
 		return AttackCategoryWeb
-	case AttackTypeGroupware:
+	case TechTypeGroupware:
 		return AttackCategoryWeb
-	case AttackTypeGrowi:
+	case TechTypeGrowi:
 		return AttackCategoryWeb
-	case AttackTypeGrp:
+	case TechTypeGrp:
 		return AttackCategoryWeb
-	case AttackTypeGrupposcaicve:
+	case TechTypeGrupposcaicve:
 		return AttackCategoryCVE
-	case AttackTypeGryphon:
+	case TechTypeGryphon:
 		return AttackCategoryWeb
-	case AttackTypeGryphonconnectcve2021:
+	case TechTypeGryphonconnectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeGsmdefaultLogin:
+	case TechTypeGsmdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeGsoap:
+	case TechTypeGsoap:
 		return AttackCategoryWeb
-	case AttackTypeGstorage:
+	case TechTypeGstorage:
 		return AttackCategoryWeb
-	case AttackTypeGtranslatecve2020:
+	case TechTypeGtranslatecve2020:
 		return AttackCategoryCVE
-	case AttackTypeGuacamole:
+	case TechTypeGuacamole:
 		return AttackCategoryWeb
-	case AttackTypeGuard:
+	case TechTypeGuard:
 		return AttackCategoryWeb
-	case AttackTypeGumroadosint:
+	case TechTypeGumroadosint:
 		return AttackCategoryOsint
-	case AttackTypeGunicornhanwang:
+	case TechTypeGunicornhanwang:
 		return AttackCategoryWeb
-	case AttackTypeGuppy:
+	case TechTypeGuppy:
 		return AttackCategoryWeb
-	case AttackTypeGurock:
+	case TechTypeGurock:
 		return AttackCategoryWeb
-	case AttackTypeGvectorscve2018:
+	case TechTypeGvectorscve2018:
 		return AttackCategoryCVE
-	case AttackTypeGvectorscve2020:
+	case TechTypeGvectorscve2020:
 		return AttackCategoryCVE
-	case AttackTypeGvectorscve2021:
+	case TechTypeGvectorscve2021:
 		return AttackCategoryCVE
-	case AttackTypeGyrapanel:
+	case TechTypeGyrapanel:
 		return AttackCategoryWeb
-	case AttackTypeHSpherecve:
+	case TechTypeHSpherecve:
 		return AttackCategoryCVE
-	case AttackTypeH2:
+	case TechTypeH2:
 		return AttackCategoryWeb
-	case AttackTypeH2Ctech:
+	case TechTypeH2Ctech:
 		return AttackCategoryWeb
-	case AttackTypeH2Databasepanel:
+	case TechTypeH2Databasepanel:
 		return AttackCategoryWeb
-	case AttackTypeH2O:
+	case TechTypeH2O:
 		return AttackCategoryWeb
-	case AttackTypeH2O3:
+	case TechTypeH2O3:
 		return AttackCategoryWeb
-	case AttackTypeH3CImclfr:
+	case TechTypeH3CImclfr:
 		return AttackCategoryWeb
-	case AttackTypeH3Ccve:
+	case TechTypeH3Ccve:
 		return AttackCategoryCVE
-	case AttackTypeH3Ccve2023:
+	case TechTypeH3Ccve2023:
 		return AttackCategoryCVE
-	case AttackTypeH5S:
+	case TechTypeH5S:
 		return AttackCategoryWeb
-	case AttackTypeH5Sconsolecnvd:
+	case TechTypeH5Sconsolecnvd:
 		return AttackCategoryWeb
-	case AttackTypeHack5C2:
+	case TechTypeHack5C2:
 		return AttackCategoryWeb
-	case AttackTypeHackadayosint:
+	case TechTypeHackadayosint:
 		return AttackCategoryOsint
-	case AttackTypeHackenproofosint:
+	case TechTypeHackenproofosint:
 		return AttackCategoryOsint
-	case AttackTypeHackerNewsosint:
+	case TechTypeHackerNewsosint:
 		return AttackCategoryOsint
-	case AttackTypeHackerearthosint:
+	case TechTypeHackerearthosint:
 		return AttackCategoryOsint
-	case AttackTypeHackernoonosint:
+	case TechTypeHackernoonosint:
 		return AttackCategoryOsint
-	case AttackTypeHackerone:
+	case TechTypeHackerone:
 		return AttackCategoryWeb
-	case AttackTypeHackerone4D:
+	case TechTypeHackerone4D:
 		return AttackCategoryWeb
-	case AttackTypeHackeroneapache:
+	case TechTypeHackeroneapache:
 		return AttackCategoryWeb
-	case AttackTypeHackeronecve2019:
+	case TechTypeHackeronecve2019:
 		return AttackCategoryCVE
-	case AttackTypeHackeronecve2020:
+	case TechTypeHackeronecve2020:
 		return AttackCategoryCVE
-	case AttackTypeHackeronedevexpress:
+	case TechTypeHackeronedevexpress:
 		return AttackCategoryWeb
-	case AttackTypeHackeronefroxlor:
+	case TechTypeHackeronefroxlor:
 		return AttackCategoryWeb
-	case AttackTypeHackeronejenkinsjinher:
+	case TechTypeHackeronejenkinsjinher:
 		return AttackCategoryWeb
-	case AttackTypeHackeronelfi:
+	case TechTypeHackeronelfi:
 		return AttackCategoryWeb
-	case AttackTypeHackeroneosint:
+	case TechTypeHackeroneosint:
 		return AttackCategoryOsint
-	case AttackTypeHackeroneransomware:
+	case TechTypeHackeroneransomware:
 		return AttackCategoryWeb
-	case AttackTypeHackeronesqli:
+	case TechTypeHackeronesqli:
 		return AttackCategorySqlInjection
-	case AttackTypeHackeronetakeover:
+	case TechTypeHackeronetakeover:
 		return AttackCategoryWeb
-	case AttackTypeHackeronetakeovertakeover:
+	case TechTypeHackeronetakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeHackerrankosint:
+	case TechTypeHackerrankosint:
 		return AttackCategoryOsint
-	case AttackTypeHacksterosint:
+	case TechTypeHacksterosint:
 		return AttackCategoryOsint
-	case AttackTypeHacktivism:
+	case TechTypeHacktivism:
 		return AttackCategoryWeb
-	case AttackTypeHadoop:
+	case TechTypeHadoop:
 		return AttackCategoryWeb
-	case AttackTypeHadooppanel:
+	case TechTypeHadooppanel:
 		return AttackCategoryWeb
-	case AttackTypeHaivision:
+	case TechTypeHaivision:
 		return AttackCategoryAI
-	case AttackTypeHamahaosint:
+	case TechTypeHamahaosint:
 		return AttackCategoryOsint
-	case AttackTypeHangfirepanel:
+	case TechTypeHangfirepanel:
 		return AttackCategoryWeb
-	case AttackTypeHanimeosint:
+	case TechTypeHanimeosint:
 		return AttackCategoryOsint
-	case AttackTypeHanming:
+	case TechTypeHanming:
 		return AttackCategoryWeb
-	case AttackTypeHaproxy:
+	case TechTypeHaproxy:
 		return AttackCategoryWeb
-	case AttackTypeHaraj:
+	case TechTypeHaraj:
 		return AttackCategoryWeb
-	case AttackTypeHarbor:
+	case TechTypeHarbor:
 		return AttackCategoryWeb
-	case AttackTypeHarbortech:
+	case TechTypeHarbortech:
 		return AttackCategoryWeb
-	case AttackTypeHardyBarthcve:
+	case TechTypeHardyBarthcve:
 		return AttackCategoryCVE
-	case AttackTypeHarmistechnology:
+	case TechTypeHarmistechnology:
 		return AttackCategoryWeb
-	case AttackTypeHarmistechnologycve:
+	case TechTypeHarmistechnologycve:
 		return AttackCategoryCVE
-	case AttackTypeHarmony:
+	case TechTypeHarmony:
 		return AttackCategoryWeb
-	case AttackTypeHarvardarttokenSpray:
+	case TechTypeHarvardarttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeHashicorp:
+	case TechTypeHashicorp:
 		return AttackCategoryWeb
-	case AttackTypeHashicorpazure:
+	case TechTypeHashicorpazure:
 		return AttackCategoryCloud
-	case AttackTypeHashicorpconsul:
+	case TechTypeHashicorpconsul:
 		return AttackCategoryWeb
-	case AttackTypeHashicorpcve:
+	case TechTypeHashicorpcve:
 		return AttackCategoryCVE
-	case AttackTypeHashicorppanel:
+	case TechTypeHashicorppanel:
 		return AttackCategoryWeb
-	case AttackTypeHashicorptech:
+	case TechTypeHashicorptech:
 		return AttackCategoryWeb
-	case AttackTypeHashnodeosint:
+	case TechTypeHashnodeosint:
 		return AttackCategoryOsint
-	case AttackTypeHasura:
+	case TechTypeHasura:
 		return AttackCategoryWeb
-	case AttackTypeHatenablogtakeover:
+	case TechTypeHatenablogtakeover:
 		return AttackCategoryWeb
-	case AttackTypeHavoc:
+	case TechTypeHavoc:
 		return AttackCategoryWeb
-	case AttackTypeHavocc2:
+	case TechTypeHavocc2:
 		return AttackCategoryWeb
-	case AttackTypeHcCustomWpAdminUrl:
+	case TechTypeHcCustomWpAdminUrl:
 		return AttackCategoryWeb
-	case AttackTypeHcCustomWpAdminUrlProjectcve:
+	case TechTypeHcCustomWpAdminUrlProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeHcl:
+	case TechTypeHcl:
 		return AttackCategoryWeb
-	case AttackTypeHcm:
+	case TechTypeHcm:
 		return AttackCategoryWeb
-	case AttackTypeHcommonssocialMastodonInstanceosint:
+	case TechTypeHcommonssocialMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeHcpanywhereheroku:
+	case TechTypeHcpanywhereheroku:
 		return AttackCategoryWeb
-	case AttackTypeHdNetworkRealTimeMonitoringSystemProjectcve2021:
+	case TechTypeHdNetworkRealTimeMonitoringSystemProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeHdnetwork:
+	case TechTypeHdnetwork:
 		return AttackCategoryWeb
-	case AttackTypeHdwTubeProjectcve2016:
+	case TechTypeHdwTubeProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeHeader:
+	case TechTypeHeader:
 		return AttackCategoryWeb
-	case AttackTypeHeaderFooterCodeManager:
+	case TechTypeHeaderFooterCodeManager:
 		return AttackCategoryWeb
-	case AttackTypeHeaders:
+	case TechTypeHeaders:
 		return AttackCategoryWeb
-	case AttackTypeHeadless:
+	case TechTypeHeadless:
 		return AttackCategoryWeb
-	case AttackTypeHeadlesscve2022:
+	case TechTypeHeadlesscve2022:
 		return AttackCategoryCVE
-	case AttackTypeHeadlessosint:
+	case TechTypeHeadlessosint:
 		return AttackCategoryOsint
-	case AttackTypeHeadlessxss:
+	case TechTypeHeadlessxss:
 		return AttackCategoryXSS
-	case AttackTypeHeatTrackrProjectcve2016:
+	case TechTypeHeatTrackrProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeHeateorcve:
+	case TechTypeHeateorcve:
 		return AttackCategoryCVE
-	case AttackTypeHeateorcve2021:
+	case TechTypeHeateorcve2021:
 		return AttackCategoryCVE
-	case AttackTypeHeatorcve2023:
+	case TechTypeHeatorcve2023:
 		return AttackCategoryCVE
-	case AttackTypeHec:
+	case TechTypeHec:
 		return AttackCategoryWeb
-	case AttackTypeHelloprint:
+	case TechTypeHelloprint:
 		return AttackCategoryWeb
-	case AttackTypeHelmet:
+	case TechTypeHelmet:
 		return AttackCategoryWeb
-	case AttackTypeHelmetStoreShowroom:
+	case TechTypeHelmetStoreShowroom:
 		return AttackCategoryWeb
-	case AttackTypeHelmetStoreShowroomProjectcve:
+	case TechTypeHelmetStoreShowroomProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeHelmetStoreShowroomSiteProjectcve2022:
+	case TechTypeHelmetStoreShowroomSiteProjectcve2022:
 		return AttackCategoryCVE
-	case AttackTypeHelpdeskProProject:
+	case TechTypeHelpdeskProProject:
 		return AttackCategoryWeb
-	case AttackTypeHelpdeskmisconfig:
+	case TechTypeHelpdeskmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeHelpdesktableau:
+	case TechTypeHelpdesktableau:
 		return AttackCategoryWeb
-	case AttackTypeHelpdocstakeovertakeover:
+	case TechTypeHelpdocstakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeHelpprojectpanel:
+	case TechTypeHelpprojectpanel:
 		return AttackCategoryWeb
-	case AttackTypeHelpracetakeovertakeover:
+	case TechTypeHelpracetakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeHeroMapsProProjectcve:
+	case TechTypeHeroMapsProProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeHerokutokenSpray:
+	case TechTypeHerokutokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeHeropluginscve:
+	case TechTypeHeropluginscve:
 		return AttackCategoryCVE
-	case AttackTypeHestia:
+	case TechTypeHestia:
 		return AttackCategoryWeb
-	case AttackTypeHestiacp:
+	case TechTypeHestiacp:
 		return AttackCategoryWeb
-	case AttackTypeHestiacphighmail:
+	case TechTypeHestiacphighmail:
 		return AttackCategoryMail
-	case AttackTypeHetzner:
+	case TechTypeHetzner:
 		return AttackCategoryWeb
-	case AttackTypeHetznertech:
+	case TechTypeHetznertech:
 		return AttackCategoryWeb
-	case AttackTypeHeylinkosint:
+	case TechTypeHeylinkosint:
 		return AttackCategoryOsint
-	case AttackTypeHfs:
+	case TechTypeHfs:
 		return AttackCategoryWeb
-	case AttackTypeHgignore:
+	case TechTypeHgignore:
 		return AttackCategoryWeb
-	case AttackTypeHiberworldosint:
+	case TechTypeHiberworldosint:
 		return AttackCategoryOsint
-	case AttackTypeHighmail:
+	case TechTypeHighmail:
 		return AttackCategoryMail
-	case AttackTypeHihelloosint:
+	case TechTypeHihelloosint:
 		return AttackCategoryOsint
-	case AttackTypeHikvision:
+	case TechTypeHikvision:
 		return AttackCategoryWeb
-	case AttackTypeHikvisioncve:
+	case TechTypeHikvisioncve:
 		return AttackCategoryCVE
-	case AttackTypeHikvisionhoneypot:
+	case TechTypeHikvisionhoneypot:
 		return AttackCategoryWeb
-	case AttackTypeHikvisionscada:
+	case TechTypeHikvisionscada:
 		return AttackCategoryWeb
-	case AttackTypeHiraktokenSpray:
+	case TechTypeHiraktokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeHiring:
+	case TechTypeHiring:
 		return AttackCategoryWeb
-	case AttackTypeHistorianssocialMastodonInstanceosint:
+	case TechTypeHistorianssocialMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeHitachicve:
+	case TechTypeHitachicve:
 		return AttackCategoryCVE
-	case AttackTypeHitachicve2021:
+	case TechTypeHitachicve2021:
 		return AttackCategoryCVE
-	case AttackTypeHivemanager:
+	case TechTypeHivemanager:
 		return AttackCategoryWeb
-	case AttackTypeHiveos:
+	case TechTypeHiveos:
 		return AttackCategoryWeb
-	case AttackTypeHivequeuehp:
+	case TechTypeHivequeuehp:
 		return AttackCategoryWeb
-	case AttackTypeHkurlcve2021:
+	case TechTypeHkurlcve2021:
 		return AttackCategoryCVE
-	case AttackTypeHmcibm:
+	case TechTypeHmcibm:
 		return AttackCategoryWeb
-	case AttackTypeHms:
+	case TechTypeHms:
 		return AttackCategoryWeb
-	case AttackTypeHolidayapitokenSpray:
+	case TechTypeHolidayapitokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeHolmes:
+	case TechTypeHolmes:
 		return AttackCategoryWeb
-	case AttackTypeHomeAssistantpacketstorm:
+	case TechTypeHomeAssistantpacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeHomeassistant:
+	case TechTypeHomeassistant:
 		return AttackCategoryWeb
-	case AttackTypeHomeassistantpanel:
+	case TechTypeHomeassistantpanel:
 		return AttackCategoryWeb
-	case AttackTypeHomebridge:
+	case TechTypeHomebridge:
 		return AttackCategoryWeb
-	case AttackTypeHomedesign3Dosint:
+	case TechTypeHomedesign3Dosint:
 		return AttackCategoryOsint
-	case AttackTypeHomematic:
+	case TechTypeHomematic:
 		return AttackCategoryWeb
-	case AttackTypeHomer:
+	case TechTypeHomer:
 		return AttackCategoryWeb
-	case AttackTypeHometechsocialMastodonInstanceosint:
+	case TechTypeHometechsocialMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeHomeworkspanel:
+	case TechTypeHomeworkspanel:
 		return AttackCategoryWeb
-	case AttackTypeHoneypot:
+	case TechTypeHoneypot:
 		return AttackCategoryWeb
-	case AttackTypeHoneypotampguard:
+	case TechTypeHoneypotampguard:
 		return AttackCategoryWeb
-	case AttackTypeHoneywell:
+	case TechTypeHoneywell:
 		return AttackCategoryWeb
-	case AttackTypeHongdian:
+	case TechTypeHongdian:
 		return AttackCategoryWeb
-	case AttackTypeHongjing:
+	case TechTypeHongjing:
 		return AttackCategoryWeb
-	case AttackTypeHoobeosint:
+	case TechTypeHoobeosint:
 		return AttackCategoryOsint
-	case AttackTypeHookbot:
+	case TechTypeHookbot:
 		return AttackCategoryWeb
-	case AttackTypeHorde:
+	case TechTypeHorde:
 		return AttackCategoryWeb
-	case AttackTypeHorizon:
+	case TechTypeHorizon:
 		return AttackCategoryWeb
-	case AttackTypeHospital:
+	case TechTypeHospital:
 		return AttackCategoryWeb
-	case AttackTypeHospitalManagementSystemProjectcve:
+	case TechTypeHospitalManagementSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeHospitalManagementSystemProjectcve2022:
+	case TechTypeHospitalManagementSystemProjectcve2022:
 		return AttackCategoryCVE
-	case AttackTypeHospitalManagementSystemProjecthp:
+	case TechTypeHospitalManagementSystemProjecthp:
 		return AttackCategoryWeb
-	case AttackTypeHostheaderInjectionoptilink:
+	case TechTypeHostheaderInjectionoptilink:
 		return AttackCategoryWeb
-	case AttackTypeHostiotokenSpray:
+	case TechTypeHostiotokenSpray:
 		return AttackCategoryIoT
-	case AttackTypeHostuxsocialMastodonInstanceosint:
+	case TechTypeHostuxsocialMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeHotel:
+	case TechTypeHotel:
 		return AttackCategoryWeb
-	case AttackTypeHotelAndLodgeBookingManagementSystemProjectcve:
+	case TechTypeHotelAndLodgeBookingManagementSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeHoteldrui:
+	case TechTypeHoteldrui:
 		return AttackCategoryWeb
-	case AttackTypeHoteldruid:
+	case TechTypeHoteldruid:
 		return AttackCategoryWeb
-	case AttackTypeHouzzosint:
+	case TechTypeHouzzosint:
 		return AttackCategoryOsint
-	case AttackTypeHp:
+	case TechTypeHp:
 		return AttackCategoryWeb
-	case AttackTypeHpcve:
+	case TechTypeHpcve:
 		return AttackCategoryCVE
-	case AttackTypeHpcve2017:
+	case TechTypeHpcve2017:
 		return AttackCategoryCVE
-	case AttackTypeHpcve2021:
+	case TechTypeHpcve2021:
 		return AttackCategoryCVE
-	case AttackTypeHpdefaultLogin:
+	case TechTypeHpdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeHpe:
+	case TechTypeHpe:
 		return AttackCategoryWeb
-	case AttackTypeHpepanel:
+	case TechTypeHpepanel:
 		return AttackCategoryWeb
-	case AttackTypeHphpe:
+	case TechTypeHphpe:
 		return AttackCategoryPHP
-	case AttackTypeHpiot:
+	case TechTypeHpiot:
 		return AttackCategoryIoT
-	case AttackTypeHptech:
+	case TechTypeHptech:
 		return AttackCategoryWeb
-	case AttackTypeHsccve:
+	case TechTypeHsccve:
 		return AttackCategoryCVE
-	case AttackTypeHsphere:
+	case TechTypeHsphere:
 		return AttackCategoryWeb
-	case AttackTypeHspherepanelpanel:
+	case TechTypeHspherepanelpanel:
 		return AttackCategoryWeb
-	case AttackTypeHtml2PdftokenSpray:
+	case TechTypeHtml2PdftokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeHtml2Wp:
+	case TechTypeHtml2Wp:
 		return AttackCategoryWeb
-	case AttackTypeHtml2WpProjectcve:
+	case TechTypeHtml2WpProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeHtml5VideoPlayer:
+	case TechTypeHtml5VideoPlayer:
 		return AttackCategoryWeb
-	case AttackTypeHtmlcoderhelpercve:
+	case TechTypeHtmlcoderhelpercve:
 		return AttackCategoryCVE
-	case AttackTypeHtmli:
+	case TechTypeHtmli:
 		return AttackCategoryWeb
-	case AttackTypeHttp:
+	case TechTypeHttp:
 		return AttackCategoryWeb
-	case AttackTypeHttpbin:
+	case TechTypeHttpbin:
 		return AttackCategoryWeb
-	case AttackTypeHttpbrowser:
+	case TechTypeHttpbrowser:
 		return AttackCategoryWeb
-	case AttackTypeHttpd:
+	case TechTypeHttpd:
 		return AttackCategoryWeb
-	case AttackTypeHttpdjavascript:
+	case TechTypeHttpdjavascript:
 		return AttackCategoryWeb
-	case AttackTypeHttpservertech:
+	case TechTypeHttpservertech:
 		return AttackCategoryWeb
-	case AttackTypeHttpsibm:
+	case TechTypeHttpsibm:
 		return AttackCategoryWeb
-	case AttackTypeHuawei:
+	case TechTypeHuawei:
 		return AttackCategoryWeb
-	case AttackTypeHuaweiauthBypass:
+	case TechTypeHuaweiauthBypass:
 		return AttackCategoryWeb
-	case AttackTypeHuaweidefaultLogin:
+	case TechTypeHuaweidefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeHuaweihue:
+	case TechTypeHuaweihue:
 		return AttackCategoryWeb
-	case AttackTypeHuaweihuijietong:
+	case TechTypeHuaweihuijietong:
 		return AttackCategoryWeb
-	case AttackTypeHubpagesosint:
+	case TechTypeHubpagesosint:
 		return AttackCategoryOsint
-	case AttackTypeHubskiosint:
+	case TechTypeHubskiosint:
 		return AttackCategoryOsint
-	case AttackTypeHubspot:
+	case TechTypeHubspot:
 		return AttackCategoryWeb
-	case AttackTypeHubspottokenSpray:
+	case TechTypeHubspottokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeHuemagic:
+	case TechTypeHuemagic:
 		return AttackCategoryWeb
-	case AttackTypeHugegraph:
+	case TechTypeHugegraph:
 		return AttackCategoryWeb
-	case AttackTypeHuggingFaceosint:
+	case TechTypeHuggingFaceosint:
 		return AttackCategoryOsint
-	case AttackTypeHugoibm:
+	case TechTypeHugoibm:
 		return AttackCategoryWeb
-	case AttackTypeHuntertokenSpray:
+	case TechTypeHuntertokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeHuntr:
+	case TechTypeHuntr:
 		return AttackCategoryWeb
-	case AttackTypeHuntrcve:
+	case TechTypeHuntrcve:
 		return AttackCategoryCVE
-	case AttackTypeHuntrcve2022:
+	case TechTypeHuntrcve2022:
 		return AttackCategoryCVE
-	case AttackTypeHuntrkevinlab:
+	case TechTypeHuntrkevinlab:
 		return AttackCategoryWeb
-	case AttackTypeHuntrozeki:
+	case TechTypeHuntrozeki:
 		return AttackCategoryWeb
-	case AttackTypeHuntrxss:
+	case TechTypeHuntrxss:
 		return AttackCategoryXSS
-	case AttackTypeHuntryeswiki:
+	case TechTypeHuntryeswiki:
 		return AttackCategoryWeb
-	case AttackTypeHuntryunanbao:
+	case TechTypeHuntryunanbao:
 		return AttackCategoryWeb
-	case AttackTypeHybris:
+	case TechTypeHybris:
 		return AttackCategoryWeb
-	case AttackTypeHybrisibm:
+	case TechTypeHybrisibm:
 		return AttackCategoryWeb
-	case AttackTypeHydra:
+	case TechTypeHydra:
 		return AttackCategoryWeb
-	case AttackTypeHydraProjectpanel:
+	case TechTypeHydraProjectpanel:
 		return AttackCategoryWeb
-	case AttackTypeHyperic:
+	case TechTypeHyperic:
 		return AttackCategoryWeb
-	case AttackTypeHypertestpanel:
+	case TechTypeHypertestpanel:
 		return AttackCategoryWeb
-	case AttackTypeHytec:
+	case TechTypeHytec:
 		return AttackCategoryWeb
-	case AttackTypeIMscp:
+	case TechTypeIMscp:
 		return AttackCategoryWeb
-	case AttackTypeIPluginscve2021:
+	case TechTypeIPluginscve2021:
 		return AttackCategoryCVE
-	case AttackTypeI3Geo:
+	case TechTypeI3Geo:
 		return AttackCategoryWeb
-	case AttackTypeIam:
+	case TechTypeIam:
 		return AttackCategoryWeb
-	case AttackTypeIbax:
+	case TechTypeIbax:
 		return AttackCategoryWeb
-	case AttackTypeIbeniccve2021:
+	case TechTypeIbeniccve2021:
 		return AttackCategoryCVE
-	case AttackTypeIbm:
+	case TechTypeIbm:
 		return AttackCategoryWeb
-	case AttackTypeIbmDecisionRunneribm:
+	case TechTypeIbmDecisionRunneribm:
 		return AttackCategoryWeb
-	case AttackTypeIbmcve2005:
+	case TechTypeIbmcve2005:
 		return AttackCategoryCVE
-	case AttackTypeIbmibm:
+	case TechTypeIbmibm:
 		return AttackCategoryWeb
-	case AttackTypeIbmpanel:
+	case TechTypeIbmpanel:
 		return AttackCategoryWeb
-	case AttackTypeIbmtech:
+	case TechTypeIbmtech:
 		return AttackCategoryWeb
-	case AttackTypeIccPro:
+	case TechTypeIccPro:
 		return AttackCategoryWeb
-	case AttackTypeIcearp:
+	case TechTypeIcearp:
 		return AttackCategoryWeb
-	case AttackTypeIcecast:
+	case TechTypeIcecast:
 		return AttackCategoryWeb
-	case AttackTypeIcecasttech:
+	case TechTypeIcecasttech:
 		return AttackCategoryWeb
-	case AttackTypeIcedidc2:
+	case TechTypeIcedidc2:
 		return AttackCategoryWeb
-	case AttackTypeIceflow:
+	case TechTypeIceflow:
 		return AttackCategoryWeb
-	case AttackTypeIcegramcve:
+	case TechTypeIcegramcve:
 		return AttackCategoryCVE
-	case AttackTypeIcewarp:
+	case TechTypeIcewarp:
 		return AttackCategoryWeb
-	case AttackTypeIcewarpcve:
+	case TechTypeIcewarpcve:
 		return AttackCategoryCVE
-	case AttackTypeIcewarpcve2015:
+	case TechTypeIcewarpcve2015:
 		return AttackCategoryCVE
-	case AttackTypeIcewhalecve2023:
+	case TechTypeIcewhalecve2023:
 		return AttackCategoryCVE
-	case AttackTypeIcinga:
+	case TechTypeIcinga:
 		return AttackCategoryWeb
-	case AttackTypeIcingapanel:
+	case TechTypeIcingapanel:
 		return AttackCategoryWeb
-	case AttackTypeIclock:
+	case TechTypeIclock:
 		return AttackCategoryWeb
-	case AttackTypeIcloud:
+	case TechTypeIcloud:
 		return AttackCategoryCloud
-	case AttackTypeIconfinderosint:
+	case TechTypeIconfinderosint:
 		return AttackCategoryOsint
-	case AttackTypeIconfindertokenSpray:
+	case TechTypeIconfindertokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeIcqChatosint:
+	case TechTypeIcqChatosint:
 		return AttackCategoryOsint
-	case AttackTypeIcs:
+	case TechTypeIcs:
 		return AttackCategoryWeb
-	case AttackTypeIctpanel:
+	case TechTypeIctpanel:
 		return AttackCategoryWeb
-	case AttackTypeIctprotege:
+	case TechTypeIctprotege:
 		return AttackCategoryWeb
-	case AttackTypeIdangerocve:
+	case TechTypeIdangerocve:
 		return AttackCategoryCVE
-	case AttackTypeIdea:
+	case TechTypeIdea:
 		return AttackCategoryWeb
-	case AttackTypeIdehwebcve2023:
+	case TechTypeIdehwebcve2023:
 		return AttackCategoryCVE
-	case AttackTypeIdentityProvidercve:
+	case TechTypeIdentityProvidercve:
 		return AttackCategoryCVE
-	case AttackTypeIdentityguardexposure:
+	case TechTypeIdentityguardexposure:
 		return AttackCategoryWeb
-	case AttackTypeIdentityserver:
+	case TechTypeIdentityserver:
 		return AttackCategoryWeb
-	case AttackTypeIdera:
+	case TechTypeIdera:
 		return AttackCategoryWeb
-	case AttackTypeIdnovatecve2023:
+	case TechTypeIdnovatecve2023:
 		return AttackCategoryCVE
-	case AttackTypeIdor:
+	case TechTypeIdor:
 		return AttackCategoryWeb
-	case AttackTypeIdrac:
+	case TechTypeIdrac:
 		return AttackCategoryWeb
-	case AttackTypeIds:
+	case TechTypeIds:
 		return AttackCategoryWeb
-	case AttackTypeIfSurfalertProject:
+	case TechTypeIfSurfalertProject:
 		return AttackCategoryWeb
-	case AttackTypeIfeelwebcve2022:
+	case TechTypeIfeelwebcve2022:
 		return AttackCategoryCVE
-	case AttackTypeIframe:
+	case TechTypeIframe:
 		return AttackCategoryWeb
-	case AttackTypeIftttosint:
+	case TechTypeIftttosint:
 		return AttackCategoryOsint
-	case AttackTypeIfunnyosint:
+	case TechTypeIfunnyosint:
 		return AttackCategoryOsint
-	case AttackTypeIfw8Cve:
+	case TechTypeIfw8Cve:
 		return AttackCategoryCVE
-	case AttackTypeIgniterealtimecve:
+	case TechTypeIgniterealtimecve:
 		return AttackCategoryCVE
-	case AttackTypeIgniterealtimepanel:
+	case TechTypeIgniterealtimepanel:
 		return AttackCategoryWeb
-	case AttackTypeIgnitiontech:
+	case TechTypeIgnitiontech:
 		return AttackCategoryWeb
-	case AttackTypeIgromaniaosint:
+	case TechTypeIgromaniaosint:
 		return AttackCategoryOsint
-	case AttackTypeIgs:
+	case TechTypeIgs:
 		return AttackCategoryWeb
-	case AttackTypeIgssap:
+	case TechTypeIgssap:
 		return AttackCategoryWeb
-	case AttackTypeIiop:
+	case TechTypeIiop:
 		return AttackCategoryWeb
-	case AttackTypeIis:
+	case TechTypeIis:
 		return AttackCategoryWeb
-	case AttackTypeIissharepoint:
+	case TechTypeIissharepoint:
 		return AttackCategorySSH
-	case AttackTypeIistech:
+	case TechTypeIistech:
 		return AttackCategoryWeb
-	case AttackTypeIjoomlacve:
+	case TechTypeIjoomlacve:
 		return AttackCategoryCVE
-	case AttackTypeIlch:
+	case TechTypeIlch:
 		return AttackCategoryWeb
-	case AttackTypeIlias:
+	case TechTypeIlias:
 		return AttackCategoryWeb
-	case AttackTypeIliaspanel:
+	case TechTypeIliaspanel:
 		return AttackCategoryWeb
-	case AttackTypeIlo:
+	case TechTypeIlo:
 		return AttackCategoryWeb
-	case AttackTypeIlo4:
+	case TechTypeIlo4:
 		return AttackCategoryWeb
-	case AttackTypeIloimgproxy:
+	case TechTypeIloimgproxy:
 		return AttackCategoryWeb
-	case AttackTypeIlovegrowingmarijuanaosint:
+	case TechTypeIlovegrowingmarijuanaosint:
 		return AttackCategoryOsint
-	case AttackTypeImageOptimizerWd:
+	case TechTypeImageOptimizerWd:
 		return AttackCategoryWeb
-	case AttackTypeImagefaposint:
+	case TechTypeImagefaposint:
 		return AttackCategoryOsint
-	case AttackTypeImagelycve:
+	case TechTypeImagelycve:
 		return AttackCategoryCVE
-	case AttackTypeImagements:
+	case TechTypeImagements:
 		return AttackCategoryWeb
-	case AttackTypeImagementsProjectcve2021:
+	case TechTypeImagementsProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeImageshackosint:
+	case TechTypeImageshackosint:
 		return AttackCategoryOsint
-	case AttackTypeImap:
+	case TechTypeImap:
 		return AttackCategoryWeb
-	case AttackTypeImcat:
+	case TechTypeImcat:
 		return AttackCategoryWeb
-	case AttackTypeImgbbosint:
+	case TechTypeImgbbosint:
 		return AttackCategoryOsint
-	case AttackTypeImgproxy:
+	case TechTypeImgproxy:
 		return AttackCategoryWeb
-	case AttackTypeImgsrcruosint:
+	case TechTypeImgsrcruosint:
 		return AttackCategoryOsint
-	case AttackTypeImgurosint:
+	case TechTypeImgurosint:
 		return AttackCategoryOsint
-	case AttackTypeImmich:
+	case TechTypeImmich:
 		return AttackCategoryWeb
-	case AttackTypeImpalaapache:
+	case TechTypeImpalaapache:
 		return AttackCategoryWeb
-	case AttackTypeImplecodecve2021:
+	case TechTypeImplecodecve2021:
 		return AttackCategoryCVE
-	case AttackTypeImportLegacyMediaProjectcve2014:
+	case TechTypeImportLegacyMediaProjectcve2014:
 		return AttackCategoryCVE
-	case AttackTypeImpresscms:
+	case TechTypeImpresscms:
 		return AttackCategoryWeb
-	case AttackTypeImpresscmstech:
+	case TechTypeImpresscmstech:
 		return AttackCategoryWeb
-	case AttackTypeImpresspagesmisconfig:
+	case TechTypeImpresspagesmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeImprivata:
+	case TechTypeImprivata:
 		return AttackCategoryWeb
-	case AttackTypeImprovmxtokenSpray:
+	case TechTypeImprovmxtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeInaturalistosint:
+	case TechTypeInaturalistosint:
 		return AttackCategoryOsint
-	case AttackTypeIncappticConnectpanel:
+	case TechTypeIncappticConnectpanel:
 		return AttackCategoryWeb
-	case AttackTypeIncomcms:
+	case TechTypeIncomcms:
 		return AttackCategoryWeb
-	case AttackTypeIncomcmsProjectcve:
+	case TechTypeIncomcmsProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeIncsubcve:
+	case TechTypeIncsubcve:
 		return AttackCategoryCVE
-	case AttackTypeInd780:
+	case TechTypeInd780:
 		return AttackCategoryWeb
-	case AttackTypeIndegy:
+	case TechTypeIndegy:
 		return AttackCategoryWeb
-	case AttackTypeIndependentAcademiaosint:
+	case TechTypeIndependentAcademiaosint:
 		return AttackCategoryOsint
-	case AttackTypeIndexistoProjectcve2016:
+	case TechTypeIndexistoProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeInertialfatecve2009:
+	case TechTypeInertialfatecve2009:
 		return AttackCategoryCVE
-	case AttackTypeInetutils:
+	case TechTypeInetutils:
 		return AttackCategoryWeb
-	case AttackTypeInfinitewp:
+	case TechTypeInfinitewp:
 		return AttackCategoryWeb
-	case AttackTypeInfluxdatacve:
+	case TechTypeInfluxdatacve:
 		return AttackCategoryCVE
-	case AttackTypeInfluxdatapanel:
+	case TechTypeInfluxdatapanel:
 		return AttackCategoryWeb
-	case AttackTypeInfluxdb:
+	case TechTypeInfluxdb:
 		return AttackCategoryWeb
-	case AttackTypeInfo:
+	case TechTypeInfo:
 		return AttackCategoryWeb
-	case AttackTypeInfoKey:
+	case TechTypeInfoKey:
 		return AttackCategoryWeb
-	case AttackTypeInfoLeak:
+	case TechTypeInfoLeak:
 		return AttackCategoryWeb
-	case AttackTypeInfoLeakcve:
+	case TechTypeInfoLeakcve:
 		return AttackCategoryCVE
-	case AttackTypeInfoLeakcve2021:
+	case TechTypeInfoLeakcve2021:
 		return AttackCategoryCVE
-	case AttackTypeInfoLeakdefaultLogin:
+	case TechTypeInfoLeakdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeInfoLeaklandray:
+	case TechTypeInfoLeaklandray:
 		return AttackCategoryWeb
-	case AttackTypeInfoLeaklfi:
+	case TechTypeInfoLeaklfi:
 		return AttackCategoryWeb
-	case AttackTypeInfoLeakseeyon:
+	case TechTypeInfoLeakseeyon:
 		return AttackCategoryWeb
-	case AttackTypeInfographicAndListBuilderIlist:
+	case TechTypeInfographicAndListBuilderIlist:
 		return AttackCategoryWeb
-	case AttackTypeInfoleaklaravel:
+	case TechTypeInfoleaklaravel:
 		return AttackCategoryWeb
-	case AttackTypeInfusionsoftProjectcve2016:
+	case TechTypeInfusionsoftProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeInglorion:
+	case TechTypeInglorion:
 		return AttackCategoryWeb
-	case AttackTypeInjection:
+	case TechTypeInjection:
 		return AttackCategoryWeb
-	case AttackTypeInjectioncrlf:
+	case TechTypeInjectioncrlf:
 		return AttackCategoryWeb
-	case AttackTypeInjectioncve:
+	case TechTypeInjectioncve:
 		return AttackCategoryCVE
-	case AttackTypeInjectioncve2018:
+	case TechTypeInjectioncve2018:
 		return AttackCategoryCVE
-	case AttackTypeInjectioncve2021:
+	case TechTypeInjectioncve2021:
 		return AttackCategoryCVE
-	case AttackTypeInjectioncve2022:
+	case TechTypeInjectioncve2022:
 		return AttackCategoryCVE
-	case AttackTypeInjectionxss:
+	case TechTypeInjectionxss:
 		return AttackCategoryXSS
-	case AttackTypeInkbunnyosint:
+	case TechTypeInkbunnyosint:
 		return AttackCategoryOsint
-	case AttackTypeInpostGallery:
+	case TechTypeInpostGallery:
 		return AttackCategoryWeb
-	case AttackTypeInsanejournalosint:
+	case TechTypeInsanejournalosint:
 		return AttackCategoryOsint
-	case AttackTypeInsight:
+	case TechTypeInsight:
 		return AttackCategoryWeb
-	case AttackTypeInspireuicve2023:
+	case TechTypeInspireuicve2023:
 		return AttackCategoryCVE
-	case AttackTypeInspur:
+	case TechTypeInspur:
 		return AttackCategoryWeb
-	case AttackTypeInspurcve:
+	case TechTypeInspurcve:
 		return AttackCategoryCVE
-	case AttackTypeInstagram:
+	case TechTypeInstagram:
 		return AttackCategoryWeb
-	case AttackTypeInstagramPhpApiProjectcve2019:
+	case TechTypeInstagramPhpApiProjectcve2019:
 		return AttackCategoryPHP
-	case AttackTypeInstagramosint:
+	case TechTypeInstagramosint:
 		return AttackCategoryOsint
-	case AttackTypeInstall:
+	case TechTypeInstall:
 		return AttackCategoryWeb
-	case AttackTypeInstallcve2015:
+	case TechTypeInstallcve2015:
 		return AttackCategoryCVE
-	case AttackTypeInstalldzzoffice:
+	case TechTypeInstalldzzoffice:
 		return AttackCategoryWeb
-	case AttackTypeInstaller:
+	case TechTypeInstaller:
 		return AttackCategoryWeb
-	case AttackTypeInstallermisconfig:
+	case TechTypeInstallermisconfig:
 		return AttackCategoryWeb
-	case AttackTypeInstallerpanel:
+	case TechTypeInstallerpanel:
 		return AttackCategoryWeb
-	case AttackTypeInstallerturbo:
+	case TechTypeInstallerturbo:
 		return AttackCategoryWeb
-	case AttackTypeInstallerunauth:
+	case TechTypeInstallerunauth:
 		return AttackCategoryWeb
-	case AttackTypeInstallinstall:
+	case TechTypeInstallinstall:
 		return AttackCategoryWeb
-	case AttackTypeInstallmisconfig:
+	case TechTypeInstallmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeInstallpanel:
+	case TechTypeInstallpanel:
 		return AttackCategoryWeb
-	case AttackTypeInstallsabnzbd:
+	case TechTypeInstallsabnzbd:
 		return AttackCategoryWeb
-	case AttackTypeInstalltrilium:
+	case TechTypeInstalltrilium:
 		return AttackCategoryWeb
-	case AttackTypeInstatusscan:
+	case TechTypeInstatusscan:
 		return AttackCategoryWeb
-	case AttackTypeInstructablesosint:
+	case TechTypeInstructablesosint:
 		return AttackCategoryOsint
-	case AttackTypeInstructurecve:
+	case TechTypeInstructurecve:
 		return AttackCategoryCVE
-	case AttackTypeInstrusive:
+	case TechTypeInstrusive:
 		return AttackCategoryWeb
-	case AttackTypeInstrusiveauthBypass:
+	case TechTypeInstrusiveauthBypass:
 		return AttackCategoryWeb
-	case AttackTypeInstrusivecve:
+	case TechTypeInstrusivecve:
 		return AttackCategoryCVE
-	case AttackTypeIntegrateGoogleDrivecve:
+	case TechTypeIntegrateGoogleDrivecve:
 		return AttackCategoryCVE
-	case AttackTypeIntel:
+	case TechTypeIntel:
 		return AttackCategoryWeb
-	case AttackTypeIntelbras:
+	case TechTypeIntelbras:
 		return AttackCategoryWeb
-	case AttackTypeIntelbrascve2021:
+	case TechTypeIntelbrascve2021:
 		return AttackCategoryCVE
-	case AttackTypeIntelbraspanel:
+	case TechTypeIntelbraspanel:
 		return AttackCategoryWeb
-	case AttackTypeIntellectcve2018:
+	case TechTypeIntellectcve2018:
 		return AttackCategoryCVE
-	case AttackTypeIntellian:
+	case TechTypeIntellian:
 		return AttackCategoryWeb
-	case AttackTypeIntelliantechcve:
+	case TechTypeIntelliantechcve:
 		return AttackCategoryCVE
-	case AttackTypeIntelliantechpanel:
+	case TechTypeIntelliantechpanel:
 		return AttackCategoryWeb
-	case AttackTypeIntelliantscve:
+	case TechTypeIntelliantscve:
 		return AttackCategoryCVE
-	case AttackTypeIntelliantssugarcrm:
+	case TechTypeIntelliantssugarcrm:
 		return AttackCategoryWeb
-	case AttackTypeIntelliflashpanel:
+	case TechTypeIntelliflashpanel:
 		return AttackCategoryWeb
-	case AttackTypeIntellifuel:
+	case TechTypeIntellifuel:
 		return AttackCategoryWeb
-	case AttackTypeIntellislot:
+	case TechTypeIntellislot:
 		return AttackCategoryWeb
-	case AttackTypeIntelx:
+	case TechTypeIntelx:
 		return AttackCategoryWeb
-	case AttackTypeInteract:
+	case TechTypeInteract:
 		return AttackCategoryWeb
-	case AttackTypeInteractshintercom:
+	case TechTypeInteractshintercom:
 		return AttackCategoryWeb
-	case AttackTypeInteractsoftware:
+	case TechTypeInteractsoftware:
 		return AttackCategoryWeb
-	case AttackTypeIntercomtakeovertakeover:
+	case TechTypeIntercomtakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeIntercomtokenSpray:
+	case TechTypeIntercomtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeInternetArchiveAccountosint:
+	case TechTypeInternetArchiveAccountosint:
 		return AttackCategoryOsint
-	case AttackTypeInternetArchiveUserSearchosint:
+	case TechTypeInternetArchiveUserSearchosint:
 		return AttackCategoryOsint
-	case AttackTypeInterpalsosint:
+	case TechTypeInterpalsosint:
 		return AttackCategoryOsint
-	case AttackTypeIntigritiosint:
+	case TechTypeIntigritiosint:
 		return AttackCategoryOsint
-	case AttackTypeIntouchcve:
+	case TechTypeIntouchcve:
 		return AttackCategoryCVE
-	case AttackTypeIntrospection:
+	case TechTypeIntrospection:
 		return AttackCategoryWeb
-	case AttackTypeIntrusive:
+	case TechTypeIntrusive:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveapache:
+	case TechTypeIntrusiveapache:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivearcade:
+	case TechTypeIntrusivearcade:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivebeanshell:
+	case TechTypeIntrusivebeanshell:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivecarel:
+	case TechTypeIntrusivecarel:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivecnvd:
+	case TechTypeIntrusivecnvd:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveconfig:
+	case TechTypeIntrusiveconfig:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveconfluence:
+	case TechTypeIntrusiveconfluence:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivecve:
+	case TechTypeIntrusivecve:
 		return AttackCategoryCVE
-	case AttackTypeIntrusivecve2013:
+	case TechTypeIntrusivecve2013:
 		return AttackCategoryCVE
-	case AttackTypeIntrusivecve2015:
+	case TechTypeIntrusivecve2015:
 		return AttackCategoryCVE
-	case AttackTypeIntrusivecve2016:
+	case TechTypeIntrusivecve2016:
 		return AttackCategoryCVE
-	case AttackTypeIntrusivecve2017:
+	case TechTypeIntrusivecve2017:
 		return AttackCategoryCVE
-	case AttackTypeIntrusivecve2018:
+	case TechTypeIntrusivecve2018:
 		return AttackCategoryCVE
-	case AttackTypeIntrusivecve2019:
+	case TechTypeIntrusivecve2019:
 		return AttackCategoryCVE
-	case AttackTypeIntrusivecve2020:
+	case TechTypeIntrusivecve2020:
 		return AttackCategoryCVE
-	case AttackTypeIntrusivecve2021:
+	case TechTypeIntrusivecve2021:
 		return AttackCategoryCVE
-	case AttackTypeIntrusivecve2022:
+	case TechTypeIntrusivecve2022:
 		return AttackCategoryCVE
-	case AttackTypeIntrusivecve2023:
+	case TechTypeIntrusivecve2023:
 		return AttackCategoryCVE
-	case AttackTypeIntrusivedahua:
+	case TechTypeIntrusivedahua:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivedetect:
+	case TechTypeIntrusivedetect:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivedlink:
+	case TechTypeIntrusivedlink:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivedlinkdoorgets:
+	case TechTypeIntrusivedlinkdoorgets:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveebridge:
+	case TechTypeIntrusiveebridge:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveecology:
+	case TechTypeIntrusiveecology:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveemqx:
+	case TechTypeIntrusiveemqx:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveexposure:
+	case TechTypeIntrusiveexposure:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivefileupload:
+	case TechTypeIntrusivefileupload:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivefinereport:
+	case TechTypeIntrusivefinereport:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivehikvision:
+	case TechTypeIntrusivehikvision:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivekingsoft:
+	case TechTypeIntrusivekingsoft:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveleanValue:
+	case TechTypeIntrusiveleanValue:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivelfi:
+	case TechTypeIntrusivelfi:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveluftguitar:
+	case TechTypeIntrusiveluftguitar:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivemicrosoft:
+	case TechTypeIntrusivemicrosoft:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivemisconfig:
+	case TechTypeIntrusivemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivenetmizer:
+	case TechTypeIntrusivenetmizer:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivenode:
+	case TechTypeIntrusivenode:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveoast:
+	case TechTypeIntrusiveoast:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivepacketstorm:
+	case TechTypeIntrusivepacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivepanel:
+	case TechTypeIntrusivepanel:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivepentaho:
+	case TechTypeIntrusivepentaho:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivephp:
+	case TechTypeIntrusivephp:
 		return AttackCategoryPHP
-	case AttackTypeIntrusivephpmemcached:
+	case TechTypeIntrusivephpmemcached:
 		return AttackCategoryPHP
-	case AttackTypeIntrusiveqihang:
+	case TechTypeIntrusiveqihang:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiverce:
+	case TechTypeIntrusiverce:
 		return AttackCategoryRCE
-	case AttackTypeIntrusivereddit:
+	case TechTypeIntrusivereddit:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveredirect:
+	case TechTypeIntrusiveredirect:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivesangfor:
+	case TechTypeIntrusivesangfor:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveseeyon:
+	case TechTypeIntrusiveseeyon:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivesqli:
+	case TechTypeIntrusivesqli:
 		return AttackCategorySqlInjection
-	case AttackTypeIntrusivetech:
+	case TechTypeIntrusivetech:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivethinkphp:
+	case TechTypeIntrusivethinkphp:
 		return AttackCategoryPHP
-	case AttackTypeIntrusivetibco:
+	case TechTypeIntrusivetibco:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivetokenSpray:
+	case TechTypeIntrusivetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivetongda:
+	case TechTypeIntrusivetongda:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivetopsec:
+	case TechTypeIntrusivetopsec:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivewanhu:
+	case TechTypeIntrusivewanhu:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveweaver:
+	case TechTypeIntrusiveweaver:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivewordpress:
+	case TechTypeIntrusivewordpress:
 		return AttackCategoryWordPress
-	case AttackTypeIntrusivewpPlugin:
+	case TechTypeIntrusivewpPlugin:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivexss:
+	case TechTypeIntrusivexss:
 		return AttackCategoryXSS
-	case AttackTypeIntrusiveyeswiki:
+	case TechTypeIntrusiveyeswiki:
 		return AttackCategoryWeb
-	case AttackTypeIntrusiveyonyou:
+	case TechTypeIntrusiveyonyou:
 		return AttackCategoryWeb
-	case AttackTypeIntrusivezhiyuan:
+	case TechTypeIntrusivezhiyuan:
 		return AttackCategoryWeb
-	case AttackTypeInvictimisconfig:
+	case TechTypeInvictimisconfig:
 		return AttackCategoryWeb
-	case AttackTypeInvoicemisconfig:
+	case TechTypeInvoicemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeIonice:
+	case TechTypeIonice:
 		return AttackCategoryWeb
-	case AttackTypeIos:
+	case TechTypeIos:
 		return AttackCategoryWeb
-	case AttackTypeIot:
+	case TechTypeIot:
 		return AttackCategoryIoT
-	case AttackTypeIotavtech:
+	case TechTypeIotavtech:
 		return AttackCategoryIoT
-	case AttackTypeIotbackdoor:
+	case TechTypeIotbackdoor:
 		return AttackCategoryIoT
-	case AttackTypeIotcache:
+	case TechTypeIotcache:
 		return AttackCategoryIoT
-	case AttackTypeIotcloud:
+	case TechTypeIotcloud:
 		return AttackCategoryCloud
-	case AttackTypeIotconfig:
+	case TechTypeIotconfig:
 		return AttackCategoryIoT
-	case AttackTypeIotcve:
+	case TechTypeIotcve:
 		return AttackCategoryCVE
-	case AttackTypeIotcve2017:
+	case TechTypeIotcve2017:
 		return AttackCategoryCVE
-	case AttackTypeIotcve2021:
+	case TechTypeIotcve2021:
 		return AttackCategoryCVE
-	case AttackTypeIotcve2023:
+	case TechTypeIotcve2023:
 		return AttackCategoryCVE
-	case AttackTypeIotdefaultLogin:
+	case TechTypeIotdefaultLogin:
 		return AttackCategoryIoT
-	case AttackTypeIotexposure:
+	case TechTypeIotexposure:
 		return AttackCategoryIoT
-	case AttackTypeIotiot:
+	case TechTypeIotiot:
 		return AttackCategoryIoT
-	case AttackTypeIotlogin:
+	case TechTypeIotlogin:
 		return AttackCategoryIoT
-	case AttackTypeIotmagnolia:
+	case TechTypeIotmagnolia:
 		return AttackCategoryIoT
-	case AttackTypeIotmisconfig:
+	case TechTypeIotmisconfig:
 		return AttackCategoryIoT
-	case AttackTypeIotmofi:
+	case TechTypeIotmofi:
 		return AttackCategoryIoT
-	case AttackTypeIotnetis:
+	case TechTypeIotnetis:
 		return AttackCategoryIoT
-	case AttackTypeIotpanel:
+	case TechTypeIotpanel:
 		return AttackCategoryIoT
-	case AttackTypeIotrouter:
+	case TechTypeIotrouter:
 		return AttackCategoryIoT
-	case AttackTypeIotsap:
+	case TechTypeIotsap:
 		return AttackCategoryIoT
-	case AttackTypeIotsefile:
+	case TechTypeIotsefile:
 		return AttackCategoryIoT
-	case AttackTypeIottarga:
+	case TechTypeIottarga:
 		return AttackCategoryIoT
-	case AttackTypeIotupnp:
+	case TechTypeIotupnp:
 		return AttackCategoryIoT
-	case AttackTypeIpSeriescve2023:
+	case TechTypeIpSeriescve2023:
 		return AttackCategoryCVE
-	case AttackTypeIp2WhoistokenSpray:
+	case TechTypeIp2WhoistokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeIpanel:
+	case TechTypeIpanel:
 		return AttackCategoryWeb
-	case AttackTypeIpconfigurecve:
+	case TechTypeIpconfigurecve:
 		return AttackCategoryCVE
-	case AttackTypeIpconfigurepanel:
+	case TechTypeIpconfigurepanel:
 		return AttackCategoryWeb
-	case AttackTypeIpdatatokenSpray:
+	case TechTypeIpdatatokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeIpdiva:
+	case TechTypeIpdiva:
 		return AttackCategoryWeb
-	case AttackTypeIpfindtokenSpray:
+	case TechTypeIpfindtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeIpinfotokenSpray:
+	case TechTypeIpinfotokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeIplanet:
+	case TechTypeIplanet:
 		return AttackCategoryWeb
-	case AttackTypeIplanetcve2020:
+	case TechTypeIplanetcve2020:
 		return AttackCategoryCVE
-	case AttackTypeIpstacktokenSpray:
+	case TechTypeIpstacktokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeIptime:
+	case TechTypeIptime:
 		return AttackCategoryWeb
-	case AttackTypeIptvtekon:
+	case TechTypeIptvtekon:
 		return AttackCategoryWeb
-	case AttackTypeIpvpn:
+	case TechTypeIpvpn:
 		return AttackCategoryVPN
-	case AttackTypeIqBlockCountry:
+	case TechTypeIqBlockCountry:
 		return AttackCategoryWeb
-	case AttackTypeIqoniccve:
+	case TechTypeIqoniccve:
 		return AttackCategoryCVE
-	case AttackTypeIr:
+	case TechTypeIr:
 		return AttackCategoryWeb
-	case AttackTypeIsams:
+	case TechTypeIsams:
 		return AttackCategoryWeb
-	case AttackTypeIsecure:
+	case TechTypeIsecure:
 		return AttackCategoryWeb
-	case AttackTypeIserver:
+	case TechTypeIserver:
 		return AttackCategoryWeb
-	case AttackTypeIsg1000Microsoft:
+	case TechTypeIsg1000Microsoft:
 		return AttackCategoryWeb
-	case AttackTypeIsgcnvd2021:
+	case TechTypeIsgcnvd2021:
 		return AttackCategoryWeb
-	case AttackTypeIsmygirlosint:
+	case TechTypeIsmygirlosint:
 		return AttackCategoryOsint
-	case AttackTypeIspconfigjboss:
+	case TechTypeIspconfigjboss:
 		return AttackCategoryWeb
-	case AttackTypeIspy:
+	case TechTypeIspy:
 		return AttackCategoryWeb
-	case AttackTypeIspyconnectcve2022:
+	case TechTypeIspyconnectcve2022:
 		return AttackCategoryCVE
-	case AttackTypeIspytech:
+	case TechTypeIspytech:
 		return AttackCategoryWeb
-	case AttackTypeIssuuosint:
+	case TechTypeIssuuosint:
 		return AttackCategoryOsint
-	case AttackTypeIstatpanel:
+	case TechTypeIstatpanel:
 		return AttackCategoryWeb
-	case AttackTypeItchioosint:
+	case TechTypeItchioosint:
 		return AttackCategoryOsint
-	case AttackTypeIterabletokenSpray:
+	case TechTypeIterabletokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeIthemescve:
+	case TechTypeIthemescve:
 		return AttackCategoryCVE
-	case AttackTypeIthemescve2020:
+	case TechTypeIthemescve2020:
 		return AttackCategoryCVE
-	case AttackTypeIthemeswpscan:
+	case TechTypeIthemeswpscan:
 		return AttackCategoryWeb
-	case AttackTypeItop:
+	case TechTypeItop:
 		return AttackCategoryWeb
-	case AttackTypeIucntokenSpray:
+	case TechTypeIucntokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeIvanti:
+	case TechTypeIvanti:
 		return AttackCategoryWeb
-	case AttackTypeIvanticve:
+	case TechTypeIvanticve:
 		return AttackCategoryCVE
-	case AttackTypeIvantipanel:
+	case TechTypeIvantipanel:
 		return AttackCategoryWeb
-	case AttackTypeIvms:
+	case TechTypeIvms:
 		return AttackCategoryWeb
-	case AttackTypeIworkcve2010:
+	case TechTypeIworkcve2010:
 		return AttackCategoryCVE
-	case AttackTypeIwsGeoFormFields:
+	case TechTypeIwsGeoFormFields:
 		return AttackCategoryWeb
-	case AttackTypeIwsGeoFormFieldsProjectcve:
+	case TechTypeIwsGeoFormFieldsProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeIxbusweb:
+	case TechTypeIxbusweb:
 		return AttackCategoryWeb
-	case AttackTypeIxcache:
+	case TechTypeIxcache:
 		return AttackCategoryWeb
-	case AttackTypeIxsystemspanel:
+	case TechTypeIxsystemspanel:
 		return AttackCategoryWeb
-	case AttackTypeJ2Eelinux:
+	case TechTypeJ2Eelinux:
 		return AttackCategoryWeb
-	case AttackTypeJ2Eexxe:
+	case TechTypeJ2Eexxe:
 		return AttackCategoryWeb
-	case AttackTypeJabber:
+	case TechTypeJabber:
 		return AttackCategoryWeb
-	case AttackTypeJabbers:
+	case TechTypeJabbers:
 		return AttackCategoryWeb
-	case AttackTypeJalios:
+	case TechTypeJalios:
 		return AttackCategoryWeb
-	case AttackTypeJamf:
+	case TechTypeJamf:
 		return AttackCategoryWeb
-	case AttackTypeJamfcve:
+	case TechTypeJamfcve:
 		return AttackCategoryCVE
-	case AttackTypeJamfjamf:
+	case TechTypeJamfjamf:
 		return AttackCategoryWeb
-	case AttackTypeJanguocve2010:
+	case TechTypeJanguocve2010:
 		return AttackCategoryCVE
-	case AttackTypeJapandictosint:
+	case TechTypeJapandictosint:
 		return AttackCategoryOsint
-	case AttackTypeJarm:
+	case TechTypeJarm:
 		return AttackCategoryWeb
-	case AttackTypeJasperreport:
+	case TechTypeJasperreport:
 		return AttackCategoryWeb
-	case AttackTypeJasperserver:
+	case TechTypeJasperserver:
 		return AttackCategoryWeb
-	case AttackTypeJaspersoft:
+	case TechTypeJaspersoft:
 		return AttackCategoryWeb
-	case AttackTypeJava:
+	case TechTypeJava:
 		return AttackCategoryWeb
-	case AttackTypeJavacve:
+	case TechTypeJavacve:
 		return AttackCategoryCVE
-	case AttackTypeJavafaces:
+	case TechTypeJavafaces:
 		return AttackCategoryWeb
-	case AttackTypeJavajoomla:
+	case TechTypeJavajoomla:
 		return AttackCategoryWeb
-	case AttackTypeJavamelody:
+	case TechTypeJavamelody:
 		return AttackCategoryWeb
-	case AttackTypeJavamelodyjeewms:
+	case TechTypeJavamelodyjeewms:
 		return AttackCategoryWeb
-	case AttackTypeJavascriptexposure:
+	case TechTypeJavascriptexposure:
 		return AttackCategoryWeb
-	case AttackTypeJboss:
+	case TechTypeJboss:
 		return AttackCategoryWeb
-	case AttackTypeJbossjeecgBoot:
+	case TechTypeJbossjeecgBoot:
 		return AttackCategoryWeb
-	case AttackTypeJbpm:
+	case TechTypeJbpm:
 		return AttackCategoryWeb
-	case AttackTypeJbzdosint:
+	case TechTypeJbzdosint:
 		return AttackCategoryOsint
-	case AttackTypeJc6:
+	case TechTypeJc6:
 		return AttackCategoryWeb
-	case AttackTypeJcmspanel:
+	case TechTypeJcmspanel:
 		return AttackCategoryWeb
-	case AttackTypeJeFormCreatorcve:
+	case TechTypeJeFormCreatorcve:
 		return AttackCategoryCVE
-	case AttackTypeJedox:
+	case TechTypeJedox:
 		return AttackCategoryWeb
-	case AttackTypeJeecg:
+	case TechTypeJeecg:
 		return AttackCategoryWeb
-	case AttackTypeJeecgP3BizChatProject:
+	case TechTypeJeecgP3BizChatProject:
 		return AttackCategoryWeb
-	case AttackTypeJeedom:
+	case TechTypeJeedom:
 		return AttackCategoryWeb
-	case AttackTypeJeedomcve:
+	case TechTypeJeedomcve:
 		return AttackCategoryCVE
-	case AttackTypeJeesns:
+	case TechTypeJeesns:
 		return AttackCategoryWeb
-	case AttackTypeJejaplosint:
+	case TechTypeJejaplosint:
 		return AttackCategoryOsint
-	case AttackTypeJellyfin:
+	case TechTypeJellyfin:
 		return AttackCategoryWeb
-	case AttackTypeJellyfintech:
+	case TechTypeJellyfintech:
 		return AttackCategoryWeb
-	case AttackTypeJellyseerr:
+	case TechTypeJellyseerr:
 		return AttackCategoryWeb
-	case AttackTypeJenkins:
+	case TechTypeJenkins:
 		return AttackCategoryWeb
-	case AttackTypeJenkinscve:
+	case TechTypeJenkinscve:
 		return AttackCategoryCVE
-	case AttackTypeJenkinscve2020:
+	case TechTypeJenkinscve2020:
 		return AttackCategoryCVE
-	case AttackTypeJenkinspanel:
+	case TechTypeJenkinspanel:
 		return AttackCategoryWeb
-	case AttackTypeJenzabar:
+	case TechTypeJenzabar:
 		return AttackCategoryWeb
-	case AttackTypeJetbrains:
+	case TechTypeJetbrains:
 		return AttackCategoryAI
-	case AttackTypeJetbrainsconfig:
+	case TechTypeJetbrainsconfig:
 		return AttackCategoryAI
-	case AttackTypeJetbrainscve:
+	case TechTypeJetbrainscve:
 		return AttackCategoryCVE
-	case AttackTypeJetbrainsmisconfig:
+	case TechTypeJetbrainsmisconfig:
 		return AttackCategoryAI
-	case AttackTypeJetbrainstakeovertakeovertakeover:
+	case TechTypeJetbrainstakeovertakeovertakeover:
 		return AttackCategoryAI
-	case AttackTypeJetty:
+	case TechTypeJetty:
 		return AttackCategoryWeb
-	case AttackTypeJettytech:
+	case TechTypeJettytech:
 		return AttackCategoryWeb
-	case AttackTypeJeuxvideoosint:
+	case TechTypeJeuxvideoosint:
 		return AttackCategoryOsint
-	case AttackTypeJfaGomisconfig:
+	case TechTypeJfaGomisconfig:
 		return AttackCategoryWeb
-	case AttackTypeJfrog:
+	case TechTypeJfrog:
 		return AttackCategoryWeb
-	case AttackTypeJfrogcve:
+	case TechTypeJfrogcve:
 		return AttackCategoryCVE
-	case AttackTypeJgraph:
+	case TechTypeJgraph:
 		return AttackCategoryWeb
-	case AttackTypeJh404LoggerProjectcve2021:
+	case TechTypeJh404LoggerProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeJhipstertech:
+	case TechTypeJhipstertech:
 		return AttackCategoryWeb
-	case AttackTypeJinfornet:
+	case TechTypeJinfornet:
 		return AttackCategoryWeb
-	case AttackTypeJira:
+	case TechTypeJira:
 		return AttackCategoryWeb
-	case AttackTypeJiraatlassian:
+	case TechTypeJiraatlassian:
 		return AttackCategoryWeb
-	case AttackTypeJiracve:
+	case TechTypeJiracve:
 		return AttackCategoryCVE
-	case AttackTypeJirajolokia:
+	case TechTypeJirajolokia:
 		return AttackCategoryWeb
-	case AttackTypeJiratech:
+	case TechTypeJiratech:
 		return AttackCategoryWeb
-	case AttackTypeJitsi:
+	case TechTypeJitsi:
 		return AttackCategoryWeb
-	case AttackTypeJitsitech:
+	case TechTypeJitsitech:
 		return AttackCategoryWeb
-	case AttackTypeJivesoftwarecve2021:
+	case TechTypeJivesoftwarecve2021:
 		return AttackCategoryCVE
-	case AttackTypeJk:
+	case TechTypeJk:
 		return AttackCategoryWeb
-	case AttackTypeJmarketkafdrop:
+	case TechTypeJmarketkafdrop:
 		return AttackCategoryWeb
-	case AttackTypeJmeter:
+	case TechTypeJmeter:
 		return AttackCategoryWeb
-	case AttackTypeJmx:
+	case TechTypeJmx:
 		return AttackCategoryWeb
-	case AttackTypeJndi:
+	case TechTypeJndi:
 		return AttackCategoryWeb
-	case AttackTypeJnewscve2021:
+	case TechTypeJnewscve2021:
 		return AttackCategoryCVE
-	case AttackTypeJnoj:
+	case TechTypeJnoj:
 		return AttackCategoryWeb
-	case AttackTypeJobmonster:
+	case TechTypeJobmonster:
 		return AttackCategoryWeb
-	case AttackTypeJobs:
+	case TechTypeJobs:
 		return AttackCategoryWeb
-	case AttackTypeJobsearch:
+	case TechTypeJobsearch:
 		return AttackCategoryWeb
-	case AttackTypeJoeMonsterosint:
+	case TechTypeJoeMonsterosint:
 		return AttackCategoryOsint
-	case AttackTypeJoedolsoncve2023:
+	case TechTypeJoedolsoncve2023:
 		return AttackCategoryCVE
-	case AttackTypeJoelrowleycve:
+	case TechTypeJoelrowleycve:
 		return AttackCategoryCVE
-	case AttackTypeJogetpanel:
+	case TechTypeJogetpanel:
 		return AttackCategoryWeb
-	case AttackTypeJohnmccollumcve2010:
+	case TechTypeJohnmccollumcve2010:
 		return AttackCategoryCVE
-	case AttackTypeJohnniejodelljrcve2023:
+	case TechTypeJohnniejodelljrcve2023:
 		return AttackCategoryCVE
-	case AttackTypeJohnsoncontrolscve2020:
+	case TechTypeJohnsoncontrolscve2020:
 		return AttackCategoryCVE
-	case AttackTypeJoinmastodoncve:
+	case TechTypeJoinmastodoncve:
 		return AttackCategoryCVE
-	case AttackTypeJolokia:
+	case TechTypeJolokia:
 		return AttackCategoryWeb
-	case AttackTypeJolokiacve:
+	case TechTypeJolokiacve:
 		return AttackCategoryCVE
-	case AttackTypeJolokiatech:
+	case TechTypeJolokiatech:
 		return AttackCategoryWeb
-	case AttackTypeJoobicve:
+	case TechTypeJoobicve:
 		return AttackCategoryCVE
-	case AttackTypeJooforgecve:
+	case TechTypeJooforgecve:
 		return AttackCategoryCVE
-	case AttackTypeJoombrijoomla:
+	case TechTypeJoombrijoomla:
 		return AttackCategoryWeb
-	case AttackTypeJoomla:
+	case TechTypeJoomla:
 		return AttackCategoryWeb
-	case AttackTypeJoomlaResearchcve2010:
+	case TechTypeJoomlaResearchcve2010:
 		return AttackCategoryCVE
-	case AttackTypeJoomlaBatjocve:
+	case TechTypeJoomlaBatjocve:
 		return AttackCategoryCVE
-	case AttackTypeJoomlaCve2018:
+	case TechTypeJoomlaCve2018:
 		return AttackCategoryCVE
-	case AttackTypeJoomlacomponentInetlankacve:
+	case TechTypeJoomlacomponentInetlankacve:
 		return AttackCategoryCVE
-	case AttackTypeJoomlacomponentInetlankacve2010:
+	case TechTypeJoomlacomponentInetlankacve2010:
 		return AttackCategoryCVE
-	case AttackTypeJoomlacve:
+	case TechTypeJoomlacve:
 		return AttackCategoryCVE
-	case AttackTypeJoomladevops:
+	case TechTypeJoomladevops:
 		return AttackCategoryWeb
-	case AttackTypeJoomlamartcve:
+	case TechTypeJoomlamartcve:
 		return AttackCategoryCVE
-	case AttackTypeJoomlamiscellaneous:
+	case TechTypeJoomlamiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypeJoomlamocve:
+	case TechTypeJoomlamocve:
 		return AttackCategoryCVE
-	case AttackTypeJoomlamocve2010:
+	case TechTypeJoomlamocve2010:
 		return AttackCategoryCVE
-	case AttackTypeJoomlanookcve:
+	case TechTypeJoomlanookcve:
 		return AttackCategoryCVE
-	case AttackTypeJoomlapanel:
+	case TechTypeJoomlapanel:
 		return AttackCategoryWeb
-	case AttackTypeJoomlartcve:
+	case TechTypeJoomlartcve:
 		return AttackCategoryCVE
-	case AttackTypeJoomlartcve2010:
+	case TechTypeJoomlartcve2010:
 		return AttackCategoryCVE
-	case AttackTypeJoomlaserviceprovidercve2016:
+	case TechTypeJoomlaserviceprovidercve2016:
 		return AttackCategoryCVE
-	case AttackTypeJoomlashowroomcve:
+	case TechTypeJoomlashowroomcve:
 		return AttackCategoryCVE
-	case AttackTypeJoomlatag:
+	case TechTypeJoomlatag:
 		return AttackCategoryWeb
-	case AttackTypeJoomlaworkscve:
+	case TechTypeJoomlaworkscve:
 		return AttackCategoryCVE
-	case AttackTypeJoommasterscve2023:
+	case TechTypeJoommasterscve2023:
 		return AttackCategoryCVE
-	case AttackTypeJoomsportSportsLeagueResultsManagement:
+	case TechTypeJoomsportSportsLeagueResultsManagement:
 		return AttackCategoryWeb
-	case AttackTypeJorani:
+	case TechTypeJorani:
 		return AttackCategoryWeb
-	case AttackTypeJoraniProjectcve:
+	case TechTypeJoraniProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeJotformlinkedin:
+	case TechTypeJotformlinkedin:
 		return AttackCategoryWeb
-	case AttackTypeJpcertcve:
+	case TechTypeJpcertcve:
 		return AttackCategoryCVE
-	case AttackTypeJquery:
+	case TechTypeJquery:
 		return AttackCategoryWeb
-	case AttackTypeJqueryfiletreeProjectcve2017:
+	case TechTypeJqueryfiletreeProjectcve2017:
 		return AttackCategoryCVE
-	case AttackTypeJs:
+	case TechTypeJs:
 		return AttackCategoryWeb
-	case AttackTypeJsapi:
+	case TechTypeJsapi:
 		return AttackCategoryWeb
-	case AttackTypeJsconfig:
+	case TechTypeJsconfig:
 		return AttackCategoryWeb
-	case AttackTypeJsf:
+	case TechTypeJsf:
 		return AttackCategoryWeb
-	case AttackTypeJsfiddleosint:
+	case TechTypeJsfiddleosint:
 		return AttackCategoryOsint
-	case AttackTypeJsherp:
+	case TechTypeJsherp:
 		return AttackCategoryWeb
-	case AttackTypeJsjs:
+	case TechTypeJsjs:
 		return AttackCategoryWeb
-	case AttackTypeJsmol2Wp:
+	case TechTypeJsmol2Wp:
 		return AttackCategoryWeb
-	case AttackTypeJsmol2WpProjectcve:
+	case TechTypeJsmol2WpProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeJsmol2WpProjectcve2018:
+	case TechTypeJsmol2WpProjectcve2018:
 		return AttackCategoryCVE
-	case AttackTypeJsonbintokenSpray:
+	case TechTypeJsonbintokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeJsp:
+	case TechTypeJsp:
 		return AttackCategoryWeb
-	case AttackTypeJspxcmstech:
+	case TechTypeJspxcmstech:
 		return AttackCategoryWeb
-	case AttackTypeJuddi:
+	case TechTypeJuddi:
 		return AttackCategoryWeb
-	case AttackTypeJulia:
+	case TechTypeJulia:
 		return AttackCategoryWeb
-	case AttackTypeJumpcloudtokenSpray:
+	case TechTypeJumpcloudtokenSpray:
 		return AttackCategoryCloud
-	case AttackTypeJumpserver:
+	case TechTypeJumpserver:
 		return AttackCategoryWeb
-	case AttackTypeJumpserverpanel:
+	case TechTypeJumpserverpanel:
 		return AttackCategoryWeb
-	case AttackTypeJuniper:
+	case TechTypeJuniper:
 		return AttackCategoryWeb
-	case AttackTypeJunoscve:
+	case TechTypeJunoscve:
 		return AttackCategoryCVE
-	case AttackTypeJupyter:
+	case TechTypeJupyter:
 		return AttackCategoryWeb
-	case AttackTypeJupyterlab:
+	case TechTypeJupyterlab:
 		return AttackCategoryWeb
-	case AttackTypeJustfanskeo:
+	case TechTypeJustfanskeo:
 		return AttackCategoryWeb
-	case AttackTypeJustforfansosint:
+	case TechTypeJustforfansosint:
 		return AttackCategoryOsint
-	case AttackTypeJustwriting:
+	case TechTypeJustwriting:
 		return AttackCategoryWeb
-	case AttackTypeJustwritingProjectcve2021:
+	case TechTypeJustwritingProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeJvideodirectcve:
+	case TechTypeJvideodirectcve:
 		return AttackCategoryCVE
-	case AttackTypeJvm:
+	case TechTypeJvm:
 		return AttackCategoryWeb
-	case AttackTypeJvtwitter:
+	case TechTypeJvtwitter:
 		return AttackCategoryWeb
-	case AttackTypeJwt:
+	case TechTypeJwt:
 		return AttackCategoryWeb
-	case AttackTypeJwtnamedprocess:
+	case TechTypeJwtnamedprocess:
 		return AttackCategoryWeb
-	case AttackTypeK8S:
+	case TechTypeK8S:
 		return AttackCategoryWeb
-	case AttackTypeK8Sexposure:
+	case TechTypeK8Sexposure:
 		return AttackCategoryWeb
-	case AttackTypeK8Sexposureexposure:
+	case TechTypeK8Sexposureexposure:
 		return AttackCategoryWeb
-	case AttackTypeKadenceBlocks:
+	case TechTypeKadenceBlocks:
 		return AttackCategoryWeb
-	case AttackTypeKaes:
+	case TechTypeKaes:
 		return AttackCategoryWeb
-	case AttackTypeKafdropkibana:
+	case TechTypeKafdropkibana:
 		return AttackCategoryWeb
-	case AttackTypeKafka:
+	case TechTypeKafka:
 		return AttackCategoryWeb
-	case AttackTypeKaggleosint:
+	case TechTypeKaggleosint:
 		return AttackCategoryOsint
-	case AttackTypeKakao:
+	case TechTypeKakao:
 		return AttackCategoryWeb
-	case AttackTypeKanboarddefaultLogin:
+	case TechTypeKanboarddefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeKanboardpanel:
+	case TechTypeKanboardpanel:
 		return AttackCategoryWeb
-	case AttackTypeKanevcve:
+	case TechTypeKanevcve:
 		return AttackCategoryCVE
-	case AttackTypeKanichcve2010:
+	case TechTypeKanichcve2010:
 		return AttackCategoryCVE
-	case AttackTypeKarabinosint:
+	case TechTypeKarabinosint:
 		return AttackCategoryOsint
-	case AttackTypeKarafapache:
+	case TechTypeKarafapache:
 		return AttackCategoryWeb
-	case AttackTypeKarafkylin:
+	case TechTypeKarafkylin:
 		return AttackCategoryWeb
-	case AttackTypeKarma:
+	case TechTypeKarma:
 		return AttackCategoryWeb
-	case AttackTypeKarmaProject:
+	case TechTypeKarmaProject:
 		return AttackCategoryWeb
-	case AttackTypeKartatopiacve:
+	case TechTypeKartatopiacve:
 		return AttackCategoryCVE
-	case AttackTypeKaseyacve2015:
+	case TechTypeKaseyacve2015:
 		return AttackCategoryCVE
-	case AttackTypeKasm:
+	case TechTypeKasm:
 		return AttackCategoryWeb
-	case AttackTypeKaspersky:
+	case TechTypeKaspersky:
 		return AttackCategoryWeb
-	case AttackTypeKaswaraProjectcve2021:
+	case TechTypeKaswaraProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeKatzcve2014:
+	case TechTypeKatzcve2014:
 		return AttackCategoryCVE
-	case AttackTypeKavita:
+	case TechTypeKavita:
 		return AttackCategoryWeb
-	case AttackTypeKavitapanel:
+	case TechTypeKavitapanel:
 		return AttackCategoryWeb
-	case AttackTypeKavitareadercve2022:
+	case TechTypeKavitareadercve2022:
 		return AttackCategoryCVE
-	case AttackTypeKayak:
+	case TechTypeKayak:
 		return AttackCategoryWeb
-	case AttackTypeKazulahcve2010:
+	case TechTypeKazulahcve2010:
 		return AttackCategoryCVE
-	case AttackTypeKedacom:
+	case TechTypeKedacom:
 		return AttackCategoryWeb
-	case AttackTypeKeenetic:
+	case TechTypeKeenetic:
 		return AttackCategoryWeb
-	case AttackTypeKeepass:
+	case TechTypeKeepass:
 		return AttackCategoryWeb
-	case AttackTypeKeepersecurity:
+	case TechTypeKeepersecurity:
 		return AttackCategoryWeb
-	case AttackTypeKekingcve:
+	case TechTypeKekingcve:
 		return AttackCategoryCVE
-	case AttackTypeKekingcve2022:
+	case TechTypeKekingcve2022:
 		return AttackCategoryCVE
-	case AttackTypeKekinglandray:
+	case TechTypeKekinglandray:
 		return AttackCategoryWeb
-	case AttackTypeKemaicommax:
+	case TechTypeKemaicommax:
 		return AttackCategoryAI
-	case AttackTypeKenesto:
+	case TechTypeKenesto:
 		return AttackCategoryWeb
-	case AttackTypeKentico:
+	case TechTypeKentico:
 		return AttackCategoryWeb
-	case AttackTypeKenticopanel:
+	case TechTypeKenticopanel:
 		return AttackCategoryWeb
-	case AttackTypeKerbynet:
+	case TechTypeKerbynet:
 		return AttackCategoryWeb
-	case AttackTypeKeriopanel:
+	case TechTypeKeriopanel:
 		return AttackCategoryWeb
-	case AttackTypeKernel:
+	case TechTypeKernel:
 		return AttackCategoryWeb
-	case AttackTypeKettleleostream:
+	case TechTypeKettleleostream:
 		return AttackCategoryWeb
-	case AttackTypeKettlepanel:
+	case TechTypeKettlepanel:
 		return AttackCategoryWeb
-	case AttackTypeKev:
+	case TechTypeKev:
 		return AttackCategoryWeb
-	case AttackTypeKevapache:
+	case TechTypeKevapache:
 		return AttackCategoryWeb
-	case AttackTypeKevcisco:
+	case TechTypeKevcisco:
 		return AttackCategoryWeb
-	case AttackTypeKevcve:
+	case TechTypeKevcve:
 		return AttackCategoryCVE
-	case AttackTypeKevcve2015:
+	case TechTypeKevcve2015:
 		return AttackCategoryCVE
-	case AttackTypeKevcve2016:
+	case TechTypeKevcve2016:
 		return AttackCategoryCVE
-	case AttackTypeKevcve2017:
+	case TechTypeKevcve2017:
 		return AttackCategoryCVE
-	case AttackTypeKevcve2018:
+	case TechTypeKevcve2018:
 		return AttackCategoryCVE
-	case AttackTypeKevcve2020:
+	case TechTypeKevcve2020:
 		return AttackCategoryCVE
-	case AttackTypeKevcve2021:
+	case TechTypeKevcve2021:
 		return AttackCategoryCVE
-	case AttackTypeKevcve2022:
+	case TechTypeKevcve2022:
 		return AttackCategoryCVE
-	case AttackTypeKevcve2023:
+	case TechTypeKevcve2023:
 		return AttackCategoryCVE
-	case AttackTypeKevdom:
+	case TechTypeKevdom:
 		return AttackCategoryWeb
-	case AttackTypeKevedb:
+	case TechTypeKevedb:
 		return AttackCategoryWeb
-	case AttackTypeKevempirecms:
+	case TechTypeKevempirecms:
 		return AttackCategoryWeb
-	case AttackTypeKevfatpipe:
+	case TechTypeKevfatpipe:
 		return AttackCategoryWeb
-	case AttackTypeKevflirAx8:
+	case TechTypeKevflirAx8:
 		return AttackCategoryWeb
-	case AttackTypeKevgsm:
+	case TechTypeKevgsm:
 		return AttackCategoryWeb
-	case AttackTypeKevhackerone:
+	case TechTypeKevhackerone:
 		return AttackCategoryWeb
-	case AttackTypeKevhsphere:
+	case TechTypeKevhsphere:
 		return AttackCategoryWeb
-	case AttackTypeKevinlabiot:
+	case TechTypeKevinlabiot:
 		return AttackCategoryIoT
-	case AttackTypeKevjenkinsdevops:
+	case TechTypeKevjenkinsdevops:
 		return AttackCategoryWeb
-	case AttackTypeKevjoomla:
+	case TechTypeKevjoomla:
 		return AttackCategoryWeb
-	case AttackTypeKevlfi:
+	case TechTypeKevlfi:
 		return AttackCategoryWeb
-	case AttackTypeKevmcafee:
+	case TechTypeKevmcafee:
 		return AttackCategoryWeb
-	case AttackTypeKevmoodle:
+	case TechTypeKevmoodle:
 		return AttackCategoryWeb
-	case AttackTypeKevoa:
+	case TechTypeKevoa:
 		return AttackCategoryWeb
-	case AttackTypeKevopensis:
+	case TechTypeKevopensis:
 		return AttackCategoryWeb
-	case AttackTypeKevpacketstorm:
+	case TechTypeKevpacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeKevshellshock:
+	case TechTypeKevshellshock:
 		return AttackCategoryWeb
-	case AttackTypeKevshiro:
+	case TechTypeKevshiro:
 		return AttackCategoryWeb
-	case AttackTypeKevsolr:
+	case TechTypeKevsolr:
 		return AttackCategoryWeb
-	case AttackTypeKevsponip:
+	case TechTypeKevsponip:
 		return AttackCategoryWeb
-	case AttackTypeKevssrf:
+	case TechTypeKevssrf:
 		return AttackCategoryWeb
-	case AttackTypeKevvoyager:
+	case TechTypeKevvoyager:
 		return AttackCategoryWeb
-	case AttackTypeKevwanhu:
+	case TechTypeKevwanhu:
 		return AttackCategoryWeb
-	case AttackTypeKevxss:
+	case TechTypeKevxss:
 		return AttackCategoryXSS
-	case AttackTypeKey:
+	case TechTypeKey:
 		return AttackCategoryWeb
-	case AttackTypeKeybase:
+	case TechTypeKeybase:
 		return AttackCategoryWeb
-	case AttackTypeKeybaseosint:
+	case TechTypeKeybaseosint:
 		return AttackCategoryOsint
-	case AttackTypeKeycloak:
+	case TechTypeKeycloak:
 		return AttackCategoryWeb
-	case AttackTypeKeys:
+	case TechTypeKeys:
 		return AttackCategoryWeb
-	case AttackTypeKeysgocardless:
+	case TechTypeKeysgocardless:
 		return AttackCategoryWeb
-	case AttackTypeKeystone:
+	case TechTypeKeystone:
 		return AttackCategoryWeb
-	case AttackTypeKeystonejscve:
+	case TechTypeKeystonejscve:
 		return AttackCategoryCVE
-	case AttackTypeKfm:
+	case TechTypeKfm:
 		return AttackCategoryWeb
-	case AttackTypeKfmProjectcve:
+	case TechTypeKfmProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeKfmpanel:
+	case TechTypeKfmpanel:
 		return AttackCategoryWeb
-	case AttackTypeKibana:
+	case TechTypeKibana:
 		return AttackCategoryWeb
-	case AttackTypeKiboitcve2021:
+	case TechTypeKiboitcve2021:
 		return AttackCategoryCVE
-	case AttackTypeKibokolabscve2023:
+	case TechTypeKibokolabscve2023:
 		return AttackCategoryCVE
-	case AttackTypeKickstarterosint:
+	case TechTypeKickstarterosint:
 		return AttackCategoryOsint
-	case AttackTypeKikosint:
+	case TechTypeKikosint:
 		return AttackCategoryOsint
-	case AttackTypeKindeditor:
+	case TechTypeKindeditor:
 		return AttackCategoryWeb
-	case AttackTypeKindsoftcve:
+	case TechTypeKindsoftcve:
 		return AttackCategoryCVE
-	case AttackTypeKingThemecve:
+	case TechTypeKingThemecve:
 		return AttackCategoryCVE
-	case AttackTypeKingsoftkodexplorer:
+	case TechTypeKingsoftkodexplorer:
 		return AttackCategoryWeb
-	case AttackTypeKipinosint:
+	case TechTypeKipinosint:
 		return AttackCategoryOsint
-	case AttackTypeKironacve:
+	case TechTypeKironacve:
 		return AttackCategoryCVE
-	case AttackTypeKiteworks:
+	case TechTypeKiteworks:
 		return AttackCategoryWeb
-	case AttackTypeKivicareClinicManagementSystem:
+	case TechTypeKivicareClinicManagementSystem:
 		return AttackCategoryWeb
-	case AttackTypeKkfileview:
+	case TechTypeKkfileview:
 		return AttackCategoryWeb
-	case AttackTypeKkfileviewkeo:
+	case TechTypeKkfileviewkeo:
 		return AttackCategoryWeb
-	case AttackTypeKlog:
+	case TechTypeKlog:
 		return AttackCategoryWeb
-	case AttackTypeKlogservercve:
+	case TechTypeKlogservercve:
 		return AttackCategoryCVE
-	case AttackTypeKlr300N:
+	case TechTypeKlr300N:
 		return AttackCategoryWeb
-	case AttackTypeKmcInformationSystemscve2017:
+	case TechTypeKmcInformationSystemscve2017:
 		return AttackCategoryCVE
-	case AttackTypeKmsaws:
+	case TechTypeKmsaws:
 		return AttackCategoryCloud
-	case AttackTypeKnowage:
+	case TechTypeKnowage:
 		return AttackCategoryWeb
-	case AttackTypeKnowledgetree:
+	case TechTypeKnowledgetree:
 		return AttackCategoryWeb
-	case AttackTypeKnowyourmemeosint:
+	case TechTypeKnowyourmemeosint:
 		return AttackCategoryOsint
-	case AttackTypeKnrAuthorListWidget:
+	case TechTypeKnrAuthorListWidget:
 		return AttackCategoryWeb
-	case AttackTypeKoFiosint:
+	case TechTypeKoFiosint:
 		return AttackCategoryOsint
-	case AttackTypeKodi:
+	case TechTypeKodi:
 		return AttackCategoryWeb
-	case AttackTypeKoel:
+	case TechTypeKoel:
 		return AttackCategoryWeb
-	case AttackTypeKohacve2015:
+	case TechTypeKohacve2015:
 		return AttackCategoryCVE
-	case AttackTypeKong:
+	case TechTypeKong:
 		return AttackCategoryWeb
-	case AttackTypeKonga:
+	case TechTypeKonga:
 		return AttackCategoryWeb
-	case AttackTypeKongaProjectcve2021:
+	case TechTypeKongaProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeKonghqcve:
+	case TechTypeKonghqcve:
 		return AttackCategoryCVE
-	case AttackTypeKongregateosint:
+	case TechTypeKongregateosint:
 		return AttackCategoryOsint
-	case AttackTypeKongtech:
+	case TechTypeKongtech:
 		return AttackCategoryWeb
-	case AttackTypeKopano:
+	case TechTypeKopano:
 		return AttackCategoryWeb
-	case AttackTypeKotburgerosint:
+	case TechTypeKotburgerosint:
 		return AttackCategoryOsint
-	case AttackTypeKraken:
+	case TechTypeKraken:
 		return AttackCategoryWeb
-	case AttackTypeKramer:
+	case TechTypeKramer:
 		return AttackCategoryWeb
-	case AttackTypeKrameravcve2021:
+	case TechTypeKrameravcve2021:
 		return AttackCategoryCVE
-	case AttackTypeKronospanel:
+	case TechTypeKronospanel:
 		return AttackCategoryWeb
-	case AttackTypeKrweb:
+	case TechTypeKrweb:
 		return AttackCategoryWeb
-	case AttackTypeKsoayonyou:
+	case TechTypeKsoayonyou:
 		return AttackCategoryWeb
-	case AttackTypeKube:
+	case TechTypeKube:
 		return AttackCategoryWeb
-	case AttackTypeKubeStateMetrics:
+	case TechTypeKubeStateMetrics:
 		return AttackCategoryWeb
-	case AttackTypeKubeconfig:
+	case TechTypeKubeconfig:
 		return AttackCategoryWeb
-	case AttackTypeKubecostldap:
+	case TechTypeKubecostldap:
 		return AttackCategoryWeb
-	case AttackTypeKubelet:
+	case TechTypeKubelet:
 		return AttackCategoryWeb
-	case AttackTypeKubelettech:
+	case TechTypeKubelettech:
 		return AttackCategoryWeb
-	case AttackTypeKubeoperator:
+	case TechTypeKubeoperator:
 		return AttackCategoryWeb
-	case AttackTypeKubepi:
+	case TechTypeKubepi:
 		return AttackCategoryWeb
-	case AttackTypeKubernetes:
+	case TechTypeKubernetes:
 		return AttackCategoryWeb
-	case AttackTypeKubernetesb2Bbuilder:
+	case TechTypeKubernetesb2Bbuilder:
 		return AttackCategoryWeb
-	case AttackTypeKuberneteskubernetes:
+	case TechTypeKuberneteskubernetes:
 		return AttackCategoryWeb
-	case AttackTypeKuberneteskyan:
+	case TechTypeKuberneteskyan:
 		return AttackCategoryWeb
-	case AttackTypeKubernetespanel:
+	case TechTypeKubernetespanel:
 		return AttackCategoryWeb
-	case AttackTypeKubetech:
+	case TechTypeKubetech:
 		return AttackCategoryWeb
-	case AttackTypeKubeview:
+	case TechTypeKubeview:
 		return AttackCategoryWeb
-	case AttackTypeKubeviewProjectcve:
+	case TechTypeKubeviewProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeKubeviewProjectpanel:
+	case TechTypeKubeviewProjectpanel:
 		return AttackCategoryWeb
-	case AttackTypeKuma:
+	case TechTypeKuma:
 		return AttackCategoryWeb
-	case AttackTypeKunalnagarcve:
+	case TechTypeKunalnagarcve:
 		return AttackCategoryCVE
-	case AttackTypeKvmpanel:
+	case TechTypeKvmpanel:
 		return AttackCategoryWeb
-	case AttackTypeKwejkplosint:
+	case TechTypeKwejkplosint:
 		return AttackCategoryOsint
-	case AttackTypeKybernetikacve:
+	case TechTypeKybernetikacve:
 		return AttackCategoryCVE
-	case AttackTypeKylin:
+	case TechTypeKylin:
 		return AttackCategoryWeb
-	case AttackTypeKyocera:
+	case TechTypeKyocera:
 		return AttackCategoryWeb
-	case AttackTypeKyoceracve:
+	case TechTypeKyoceracve:
 		return AttackCategoryCVE
-	case AttackTypeLaSourisVertecve2010:
+	case TechTypeLaSourisVertecve2010:
 		return AttackCategoryCVE
-	case AttackTypeLabelStudiocve2023:
+	case TechTypeLabelStudiocve2023:
 		return AttackCategoryCVE
-	case AttackTypeLabkey:
+	case TechTypeLabkey:
 		return AttackCategoryWeb
-	case AttackTypeLabkeycve:
+	case TechTypeLabkeycve:
 		return AttackCategoryCVE
-	case AttackTypeLabkeypanel:
+	case TechTypeLabkeypanel:
 		return AttackCategoryWeb
-	case AttackTypeLaborator:
+	case TechTypeLaborator:
 		return AttackCategoryWeb
-	case AttackTypeLabstackcve:
+	case TechTypeLabstackcve:
 		return AttackCategoryCVE
-	case AttackTypeLabtech:
+	case TechTypeLabtech:
 		return AttackCategoryWeb
-	case AttackTypeLabtechSoftwarepanel:
+	case TechTypeLabtechSoftwarepanel:
 		return AttackCategoryWeb
-	case AttackTypeLacie:
+	case TechTypeLacie:
 		return AttackCategoryWeb
-	case AttackTypeLamp:
+	case TechTypeLamp:
 		return AttackCategoryWeb
-	case AttackTypeLancom:
+	case TechTypeLancom:
 		return AttackCategoryWeb
-	case AttackTypeLandSoftwarecve2021:
+	case TechTypeLandSoftwarecve2021:
 		return AttackCategoryCVE
-	case AttackTypeLandesktech:
+	case TechTypeLandesktech:
 		return AttackCategoryWeb
-	case AttackTypeLandray:
+	case TechTypeLandray:
 		return AttackCategoryWeb
-	case AttackTypeLandrayoalansweeper:
+	case TechTypeLandrayoalansweeper:
 		return AttackCategoryWeb
-	case AttackTypeLanproxy:
+	case TechTypeLanproxy:
 		return AttackCategoryWeb
-	case AttackTypeLanproxyProjectcve2021:
+	case TechTypeLanproxyProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeLansweepercve:
+	case TechTypeLansweepercve:
 		return AttackCategoryCVE
-	case AttackTypeLantronix:
+	case TechTypeLantronix:
 		return AttackCategoryWeb
-	case AttackTypeLantronixpanel:
+	case TechTypeLantronixpanel:
 		return AttackCategoryWeb
-	case AttackTypeLaravel:
+	case TechTypeLaravel:
 		return AttackCategoryWeb
-	case AttackTypeLaravelconfig:
+	case TechTypeLaravelconfig:
 		return AttackCategoryWeb
-	case AttackTypeLastpass:
+	case TechTypeLastpass:
 		return AttackCategoryWeb
-	case AttackTypeLatency:
+	case TechTypeLatency:
 		return AttackCategoryWeb
-	case AttackTypeLaunchdarklytokenSpray:
+	case TechTypeLaunchdarklytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeLaurentDestailleurcve:
+	case TechTypeLaurentDestailleurcve:
 		return AttackCategoryCVE
-	case AttackTypeLayer5Cve2021:
+	case TechTypeLayer5Cve2021:
 		return AttackCategoryCVE
-	case AttackTypeLayerslider:
+	case TechTypeLayerslider:
 		return AttackCategoryWeb
-	case AttackTypeLdap:
+	case TechTypeLdap:
 		return AttackCategoryWeb
-	case AttackTypeLdapWpLoginIntegrationWithActiveDirectory:
+	case TechTypeLdapWpLoginIntegrationWithActiveDirectory:
 		return AttackCategoryWeb
-	case AttackTypeLdapcve:
+	case TechTypeLdapcve:
 		return AttackCategoryCVE
-	case AttackTypeLdappanel:
+	case TechTypeLdappanel:
 		return AttackCategoryWeb
-	case AttackTypeLeadpagesdns:
+	case TechTypeLeadpagesdns:
 		return AttackCategoryDNS
-	case AttackTypeLeaguemanager:
+	case TechTypeLeaguemanager:
 		return AttackCategoryWeb
-	case AttackTypeLeak:
+	case TechTypeLeak:
 		return AttackCategoryWeb
-	case AttackTypeLeanixtokenSpray:
+	case TechTypeLeanixtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeLearndashcve:
+	case TechTypeLearndashcve:
 		return AttackCategoryCVE
-	case AttackTypeLearndashwpscan:
+	case TechTypeLearndashwpscan:
 		return AttackCategoryWeb
-	case AttackTypeLearningManagementSystem:
+	case TechTypeLearningManagementSystem:
 		return AttackCategoryWeb
-	case AttackTypeLearnpress:
+	case TechTypeLearnpress:
 		return AttackCategoryWeb
-	case AttackTypeLemlisttakeovertakeover:
+	case TechTypeLemlisttakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeLenovopanel:
+	case TechTypeLenovopanel:
 		return AttackCategoryWeb
-	case AttackTypeLeostreamlibrenms:
+	case TechTypeLeostreamlibrenms:
 		return AttackCategoryWeb
-	case AttackTypeLeothemecve2023:
+	case TechTypeLeothemecve2023:
 		return AttackCategoryCVE
-	case AttackTypeLevelfourdevelopmentcve2014:
+	case TechTypeLevelfourdevelopmentcve2014:
 		return AttackCategoryCVE
-	case AttackTypeLexmarkcve2023:
+	case TechTypeLexmarkcve2023:
 		return AttackCategoryCVE
-	case AttackTypeLfd:
+	case TechTypeLfd:
 		return AttackCategoryWeb
-	case AttackTypeLfi:
+	case TechTypeLfi:
 		return AttackCategoryWeb
-	case AttackTypeLfiaspose:
+	case TechTypeLfiaspose:
 		return AttackCategoryWeb
-	case AttackTypeLfiauthBypass:
+	case TechTypeLfiauthBypass:
 		return AttackCategoryWeb
-	case AttackTypeLfiavcon6:
+	case TechTypeLfiavcon6:
 		return AttackCategoryWeb
-	case AttackTypeLficnvd:
+	case TechTypeLficnvd:
 		return AttackCategoryWeb
-	case AttackTypeLficnvd2019:
+	case TechTypeLficnvd2019:
 		return AttackCategoryWeb
-	case AttackTypeLficnvd2021:
+	case TechTypeLficnvd2021:
 		return AttackCategoryWeb
-	case AttackTypeLficve:
+	case TechTypeLficve:
 		return AttackCategoryCVE
-	case AttackTypeLficve2016:
+	case TechTypeLficve2016:
 		return AttackCategoryCVE
-	case AttackTypeLficve2017:
+	case TechTypeLficve2017:
 		return AttackCategoryCVE
-	case AttackTypeLficve2020:
+	case TechTypeLficve2020:
 		return AttackCategoryCVE
-	case AttackTypeLficve2021:
+	case TechTypeLficve2021:
 		return AttackCategoryCVE
-	case AttackTypeLficve2022:
+	case TechTypeLficve2022:
 		return AttackCategoryCVE
-	case AttackTypeLficve2023:
+	case TechTypeLficve2023:
 		return AttackCategoryCVE
-	case AttackTypeLfiecology:
+	case TechTypeLfiecology:
 		return AttackCategoryWeb
-	case AttackTypeLfifanwei:
+	case TechTypeLfifanwei:
 		return AttackCategoryWeb
-	case AttackTypeLfifinecms:
+	case TechTypeLfifinecms:
 		return AttackCategoryWeb
-	case AttackTypeLfifroxlor:
+	case TechTypeLfifroxlor:
 		return AttackCategoryWeb
-	case AttackTypeLfigzforum:
+	case TechTypeLfigzforum:
 		return AttackCategoryWeb
-	case AttackTypeLfihanta:
+	case TechTypeLfihanta:
 		return AttackCategoryWeb
-	case AttackTypeLfihikvision:
+	case TechTypeLfihikvision:
 		return AttackCategoryWeb
-	case AttackTypeLfihjtcloud:
+	case TechTypeLfihjtcloud:
 		return AttackCategoryCloud
-	case AttackTypeLfihomeautomation:
+	case TechTypeLfihomeautomation:
 		return AttackCategoryWeb
-	case AttackTypeLfihongfan:
+	case TechTypeLfihongfan:
 		return AttackCategoryWeb
-	case AttackTypeLfihuawei:
+	case TechTypeLfihuawei:
 		return AttackCategoryWeb
-	case AttackTypeLfihuiwen:
+	case TechTypeLfihuiwen:
 		return AttackCategoryWeb
-	case AttackTypeLfihuntr:
+	case TechTypeLfihuntr:
 		return AttackCategoryWeb
-	case AttackTypeLfiidoc:
+	case TechTypeLfiidoc:
 		return AttackCategoryWeb
-	case AttackTypeLfiiot:
+	case TechTypeLfiiot:
 		return AttackCategoryIoT
-	case AttackTypeLfijfrogjreport:
+	case TechTypeLfijfrogjreport:
 		return AttackCategoryWeb
-	case AttackTypeLfikavita:
+	case TechTypeLfikavita:
 		return AttackCategoryWeb
-	case AttackTypeLfikingsoft:
+	case TechTypeLfikingsoft:
 		return AttackCategoryWeb
-	case AttackTypeLfikiwitcms:
+	case TechTypeLfikiwitcms:
 		return AttackCategoryWeb
-	case AttackTypeLfilandray:
+	case TechTypeLfilandray:
 		return AttackCategoryWeb
-	case AttackTypeLfilfi:
+	case TechTypeLfilfi:
 		return AttackCategoryWeb
-	case AttackTypeLfimicrostrategy:
+	case TechTypeLfimicrostrategy:
 		return AttackCategoryWeb
-	case AttackTypeLfimyucms:
+	case TechTypeLfimyucms:
 		return AttackCategoryWeb
-	case AttackTypeLfinacos:
+	case TechTypeLfinacos:
 		return AttackCategoryWeb
-	case AttackTypeLfinatshell:
+	case TechTypeLfinatshell:
 		return AttackCategoryWeb
-	case AttackTypeLfioracle:
+	case TechTypeLfioracle:
 		return AttackCategoryWeb
-	case AttackTypeLfipacketstorm:
+	case TechTypeLfipacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeLfipanabit:
+	case TechTypeLfipanabit:
 		return AttackCategoryWeb
-	case AttackTypeLfiphuket:
+	case TechTypeLfiphuket:
 		return AttackCategoryWeb
-	case AttackTypeLfirce:
+	case TechTypeLfirce:
 		return AttackCategoryRCE
-	case AttackTypeLfisecgate:
+	case TechTypeLfisecgate:
 		return AttackCategoryWeb
-	case AttackTypeLfisenayan:
+	case TechTypeLfisenayan:
 		return AttackCategoryWeb
-	case AttackTypeLfisqli:
+	case TechTypeLfisqli:
 		return AttackCategorySqlInjection
-	case AttackTypeLfissrf:
+	case TechTypeLfissrf:
 		return AttackCategoryWeb
-	case AttackTypeLfithinkcmf:
+	case TechTypeLfithinkcmf:
 		return AttackCategoryWeb
-	case AttackTypeLfitongda:
+	case TechTypeLfitongda:
 		return AttackCategoryWeb
-	case AttackTypeLfiunauth:
+	case TechTypeLfiunauth:
 		return AttackCategoryWeb
-	case AttackTypeLfivulhub:
+	case TechTypeLfivulhub:
 		return AttackCategoryWeb
-	case AttackTypeLfiwanhu:
+	case TechTypeLfiwanhu:
 		return AttackCategoryWeb
-	case AttackTypeLfiweaver:
+	case TechTypeLfiweaver:
 		return AttackCategoryWeb
-	case AttackTypeLfiwordpress:
+	case TechTypeLfiwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeLfixss:
+	case TechTypeLfixss:
 		return AttackCategoryXSS
-	case AttackTypeLfiyonyou:
+	case TechTypeLfiyonyou:
 		return AttackCategoryWeb
-	case AttackTypeLfizend:
+	case TechTypeLfizend:
 		return AttackCategoryWeb
-	case AttackTypeLfprojects:
+	case TechTypeLfprojects:
 		return AttackCategoryWeb
-	case AttackTypeLfprojectscve:
+	case TechTypeLfprojectscve:
 		return AttackCategoryCVE
-	case AttackTypeLfprojectscve2023:
+	case TechTypeLfprojectscve2023:
 		return AttackCategoryCVE
-	case AttackTypeLfprojectspacketstorm:
+	case TechTypeLfprojectspacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeLfprojectswpscan:
+	case TechTypeLfprojectswpscan:
 		return AttackCategoryWeb
-	case AttackTypeLfr:
+	case TechTypeLfr:
 		return AttackCategoryWeb
-	case AttackTypeLfrcve:
+	case TechTypeLfrcve:
 		return AttackCategoryCVE
-	case AttackTypeLfrcve2023:
+	case TechTypeLfrcve2023:
 		return AttackCategoryCVE
-	case AttackTypeLfrduomicms:
+	case TechTypeLfrduomicms:
 		return AttackCategoryWeb
-	case AttackTypeLfrecology:
+	case TechTypeLfrecology:
 		return AttackCategoryWeb
-	case AttackTypeLfrrails:
+	case TechTypeLfrrails:
 		return AttackCategoryAI
-	case AttackTypeLfrresin:
+	case TechTypeLfrresin:
 		return AttackCategoryWeb
-	case AttackTypeLfrrockmongo:
+	case TechTypeLfrrockmongo:
 		return AttackCategoryWeb
-	case AttackTypeLftp:
+	case TechTypeLftp:
 		return AttackCategoryWeb
-	case AttackTypeLgNas:
+	case TechTypeLgNas:
 		return AttackCategoryWeb
-	case AttackTypeLgate:
+	case TechTypeLgate:
 		return AttackCategoryWeb
-	case AttackTypeLgcve2018:
+	case TechTypeLgcve2018:
 		return AttackCategoryCVE
-	case AttackTypeLibertytech:
+	case TechTypeLibertytech:
 		return AttackCategoryWeb
-	case AttackTypeLibrarythingosint:
+	case TechTypeLibrarythingosint:
 		return AttackCategoryOsint
-	case AttackTypeLibreOffice:
+	case TechTypeLibreOffice:
 		return AttackCategoryWeb
-	case AttackTypeLibrenmsmisconfig:
+	case TechTypeLibrenmsmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeLibrephotos:
+	case TechTypeLibrephotos:
 		return AttackCategoryWeb
-	case AttackTypeLibrespeed:
+	case TechTypeLibrespeed:
 		return AttackCategoryWeb
-	case AttackTypeLibretoothgrMastodonInstanceosint:
+	case TechTypeLibretoothgrMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeLicense:
+	case TechTypeLicense:
 		return AttackCategoryWeb
-	case AttackTypeLichessosint:
+	case TechTypeLichessosint:
 		return AttackCategoryOsint
-	case AttackTypeLiferay:
+	case TechTypeLiferay:
 		return AttackCategoryWeb
-	case AttackTypeLiftoffsoftwarecve:
+	case TechTypeLiftoffsoftwarecve:
 		return AttackCategoryCVE
-	case AttackTypeLigeo:
+	case TechTypeLigeo:
 		return AttackCategoryWeb
-	case AttackTypeLigeoArchivescve:
+	case TechTypeLigeoArchivescve:
 		return AttackCategoryCVE
-	case AttackTypeLightdash:
+	case TechTypeLightdash:
 		return AttackCategoryWeb
-	case AttackTypeLighter:
+	case TechTypeLighter:
 		return AttackCategoryWeb
-	case AttackTypeLighttpd:
+	case TechTypeLighttpd:
 		return AttackCategoryWeb
-	case AttackTypeLighttpdtech:
+	case TechTypeLighttpdtech:
 		return AttackCategoryWeb
-	case AttackTypeLikebtnLikeButton:
+	case TechTypeLikebtnLikeButton:
 		return AttackCategoryWeb
-	case AttackTypeLikebtnLikeButtonProjectcve:
+	case TechTypeLikebtnLikeButtonProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeLikeevideoosint:
+	case TechTypeLikeevideoosint:
 		return AttackCategoryOsint
-	case AttackTypeLikeshop:
+	case TechTypeLikeshop:
 		return AttackCategoryWeb
-	case AttackTypeLimesurvey:
+	case TechTypeLimesurvey:
 		return AttackCategoryWeb
-	case AttackTypeLimesurveycve2020:
+	case TechTypeLimesurveycve2020:
 		return AttackCategoryCVE
-	case AttackTypeLimesurveytech:
+	case TechTypeLimesurveytech:
 		return AttackCategoryWeb
-	case AttackTypeLimitLoginAttemptsProjectcve:
+	case TechTypeLimitLoginAttemptsProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeLimittokenSpray:
+	case TechTypeLimittokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeLinCms:
+	case TechTypeLinCms:
 		return AttackCategoryWeb
-	case AttackTypeLinear:
+	case TechTypeLinear:
 		return AttackCategoryWeb
-	case AttackTypeLineosint:
+	case TechTypeLineosint:
 		return AttackCategoryOsint
-	case AttackTypeLinkedin:
+	case TechTypeLinkedin:
 		return AttackCategoryWeb
-	case AttackTypeLinkedintokenSpray:
+	case TechTypeLinkedintokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeLinkerd:
+	case TechTypeLinkerd:
 		return AttackCategoryWeb
-	case AttackTypeLinkerdlivehelperchat:
+	case TechTypeLinkerdlivehelperchat:
 		return AttackCategoryWeb
-	case AttackTypeLinksys:
+	case TechTypeLinksys:
 		return AttackCategoryWeb
-	case AttackTypeLinktap:
+	case TechTypeLinktap:
 		return AttackCategoryWeb
-	case AttackTypeLinktreeosint:
+	case TechTypeLinktreeosint:
 		return AttackCategoryOsint
-	case AttackTypeLinkworks:
+	case TechTypeLinkworks:
 		return AttackCategoryWeb
-	case AttackTypeLinshare:
+	case TechTypeLinshare:
 		return AttackCategoryWeb
-	case AttackTypeLinux:
+	case TechTypeLinux:
 		return AttackCategoryWeb
-	case AttackTypeLinuxcve:
+	case TechTypeLinuxcve:
 		return AttackCategoryCVE
-	case AttackTypeLinuxfoundationcve:
+	case TechTypeLinuxfoundationcve:
 		return AttackCategoryCVE
-	case AttackTypeLinuxfoundationtech:
+	case TechTypeLinuxfoundationtech:
 		return AttackCategoryWeb
-	case AttackTypeLinuxjs:
+	case TechTypeLinuxjs:
 		return AttackCategoryWeb
-	case AttackTypeLinuxlfi:
+	case TechTypeLinuxlfi:
 		return AttackCategoryWeb
-	case AttackTypeLinuxorgruosint:
+	case TechTypeLinuxorgruosint:
 		return AttackCategoryOsint
-	case AttackTypeLinuxvmware:
+	case TechTypeLinuxvmware:
 		return AttackCategoryWeb
-	case AttackTypeLionwiki:
+	case TechTypeLionwiki:
 		return AttackCategoryWeb
-	case AttackTypeLiquibasemisconfig:
+	case TechTypeLiquibasemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeLispeltuutcve2010:
+	case TechTypeLispeltuutcve2010:
 		return AttackCategoryCVE
-	case AttackTypeListing:
+	case TechTypeListing:
 		return AttackCategoryWeb
-	case AttackTypeListingcve:
+	case TechTypeListingcve:
 		return AttackCategoryCVE
-	case AttackTypeListinglivebos:
+	case TechTypeListinglivebos:
 		return AttackCategoryWeb
-	case AttackTypeListingnetsweeper:
+	case TechTypeListingnetsweeper:
 		return AttackCategoryWeb
-	case AttackTypeListingpacketstorm:
+	case TechTypeListingpacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeListingwordpress:
+	case TechTypeListingwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeListingwpPlugin:
+	case TechTypeListingwpPlugin:
 		return AttackCategoryWeb
-	case AttackTypeListingxss:
+	case TechTypeListingxss:
 		return AttackCategoryXSS
-	case AttackTypeListserv:
+	case TechTypeListserv:
 		return AttackCategoryWeb
-	case AttackTypeLite:
+	case TechTypeLite:
 		return AttackCategoryWeb
-	case AttackTypeLitmindclubMastodonInstanceosint:
+	case TechTypeLitmindclubMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeLivejournalosint:
+	case TechTypeLivejournalosint:
 		return AttackCategoryOsint
-	case AttackTypeLivemasterruosint:
+	case TechTypeLivemasterruosint:
 		return AttackCategoryOsint
-	case AttackTypeLivezilla:
+	case TechTypeLivezilla:
 		return AttackCategoryWeb
-	case AttackTypeLivezillacve:
+	case TechTypeLivezillacve:
 		return AttackCategoryCVE
-	case AttackTypeLjappscve:
+	case TechTypeLjappscve:
 		return AttackCategoryCVE
-	case AttackTypeLlm:
+	case TechTypeLlm:
 		return AttackCategoryWeb
-	case AttackTypeLms:
+	case TechTypeLms:
 		return AttackCategoryWeb
-	case AttackTypeLoadmastercve:
+	case TechTypeLoadmastercve:
 		return AttackCategoryCVE
-	case AttackTypeLoancms:
+	case TechTypeLoancms:
 		return AttackCategoryWeb
-	case AttackTypeLobstersosint:
+	case TechTypeLobstersosint:
 		return AttackCategoryOsint
-	case AttackTypeLobtokenSpray:
+	case TechTypeLobtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeLocal:
+	case TechTypeLocal:
 		return AttackCategoryWeb
-	case AttackTypeLocalcode:
+	case TechTypeLocalcode:
 		return AttackCategoryWeb
-	case AttackTypeLocalimap:
+	case TechTypeLocalimap:
 		return AttackCategoryWeb
-	case AttackTypeLocalizeMyPostProjectcve:
+	case TechTypeLocalizeMyPostProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeLocationstokenSpray:
+	case TechTypeLocationstokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeLocklizard:
+	case TechTypeLocklizard:
 		return AttackCategoryWeb
-	case AttackTypeLockself:
+	case TechTypeLockself:
 		return AttackCategoryWeb
-	case AttackTypeLocust:
+	case TechTypeLocust:
 		return AttackCategoryWeb
-	case AttackTypeLog:
+	case TechTypeLog:
 		return AttackCategoryWeb
-	case AttackTypeLog4J:
+	case TechTypeLog4J:
 		return AttackCategoryWeb
-	case AttackTypeLoganalyzer:
+	case TechTypeLoganalyzer:
 		return AttackCategoryWeb
-	case AttackTypeLogger1000:
+	case TechTypeLogger1000:
 		return AttackCategoryWeb
-	case AttackTypeLogin:
+	case TechTypeLogin:
 		return AttackCategoryWeb
-	case AttackTypeLoginAsCustomerOrUser:
+	case TechTypeLoginAsCustomerOrUser:
 		return AttackCategoryWeb
-	case AttackTypeLoginBypass:
+	case TechTypeLoginBypass:
 		return AttackCategoryWeb
-	case AttackTypeLoginCheck:
+	case TechTypeLoginCheck:
 		return AttackCategoryWeb
-	case AttackTypeLoginWithPhonenumber:
+	case TechTypeLoginWithPhonenumber:
 		return AttackCategoryWeb
-	case AttackTypeLoginapereo:
+	case TechTypeLoginapereo:
 		return AttackCategoryWeb
-	case AttackTypeLogindocs:
+	case TechTypeLogindocs:
 		return AttackCategoryWeb
-	case AttackTypeLoginedb:
+	case TechTypeLoginedb:
 		return AttackCategoryWeb
-	case AttackTypeLoginissabel:
+	case TechTypeLoginissabel:
 		return AttackCategoryWeb
-	case AttackTypeLoginlogin:
+	case TechTypeLoginlogin:
 		return AttackCategoryWeb
-	case AttackTypeLoginoracle:
+	case TechTypeLoginoracle:
 		return AttackCategoryWeb
-	case AttackTypeLoginpagespeed:
+	case TechTypeLoginpagespeed:
 		return AttackCategoryWeb
-	case AttackTypeLoginpanabit:
+	case TechTypeLoginpanabit:
 		return AttackCategoryWeb
-	case AttackTypeLoginpanel:
+	case TechTypeLoginpanel:
 		return AttackCategoryWeb
-	case AttackTypeLoginpanelcamunda:
+	case TechTypeLoginpanelcamunda:
 		return AttackCategoryWeb
-	case AttackTypeLoginpanelsecmail:
+	case TechTypeLoginpanelsecmail:
 		return AttackCategoryMail
-	case AttackTypeLoginphp:
+	case TechTypeLoginphp:
 		return AttackCategoryPHP
-	case AttackTypeLoginrce:
+	case TechTypeLoginrce:
 		return AttackCategoryRCE
-	case AttackTypeLoginsequoiadb:
+	case TechTypeLoginsequoiadb:
 		return AttackCategoryWeb
-	case AttackTypeLoginsharefile:
+	case TechTypeLoginsharefile:
 		return AttackCategoryWeb
-	case AttackTypeLoginsymantec:
+	case TechTypeLoginsymantec:
 		return AttackCategoryWeb
-	case AttackTypeLogintech:
+	case TechTypeLogintech:
 		return AttackCategoryWeb
-	case AttackTypeLoginunifi:
+	case TechTypeLoginunifi:
 		return AttackCategoryWeb
-	case AttackTypeLoginuptime:
+	case TechTypeLoginuptime:
 		return AttackCategoryWeb
-	case AttackTypeLoginwatchguard:
+	case TechTypeLoginwatchguard:
 		return AttackCategoryWeb
-	case AttackTypeLogitech:
+	case TechTypeLogitech:
 		return AttackCategoryWeb
-	case AttackTypeLogontracer:
+	case TechTypeLogontracer:
 		return AttackCategoryWeb
-	case AttackTypeLogs:
+	case TechTypeLogs:
 		return AttackCategoryWeb
-	case AttackTypeLogsexposure:
+	case TechTypeLogsexposure:
 		return AttackCategoryWeb
-	case AttackTypeLogslogs:
+	case TechTypeLogslogs:
 		return AttackCategoryWeb
-	case AttackTypeLogsoracle:
+	case TechTypeLogsoracle:
 		return AttackCategoryWeb
-	case AttackTypeLogsphpstorm:
+	case TechTypeLogsphpstorm:
 		return AttackCategoryPHP
-	case AttackTypeLogsredv:
+	case TechTypeLogsredv:
 		return AttackCategoryWeb
-	case AttackTypeLogssarg:
+	case TechTypeLogssarg:
 		return AttackCategoryWeb
-	case AttackTypeLogstash:
+	case TechTypeLogstash:
 		return AttackCategoryWeb
-	case AttackTypeLogwp:
+	case TechTypeLogwp:
 		return AttackCategoryWeb
-	case AttackTypeLokalisetokenSpray:
+	case TechTypeLokalisetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeLokomedia:
+	case TechTypeLokomedia:
 		return AttackCategoryWeb
-	case AttackTypeLookerpanel:
+	case TechTypeLookerpanel:
 		return AttackCategoryWeb
-	case AttackTypeLooneytunables:
+	case TechTypeLooneytunables:
 		return AttackCategoryWeb
-	case AttackTypeLoqateexposure:
+	case TechTypeLoqateexposure:
 		return AttackCategoryWeb
-	case AttackTypeLoqatetokenSpray:
+	case TechTypeLoqatetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeLorexpanel:
+	case TechTypeLorexpanel:
 		return AttackCategoryWeb
-	case AttackTypeLorshMastodonInstanceosint:
+	case TechTypeLorshMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeLotus:
+	case TechTypeLotus:
 		return AttackCategoryWeb
-	case AttackTypeLotusCoreCmsProjectcve:
+	case TechTypeLotusCoreCmsProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeLotustech:
+	case TechTypeLotustech:
 		return AttackCategoryWeb
-	case AttackTypeLoveRuosint:
+	case TechTypeLoveRuosint:
 		return AttackCategoryOsint
-	case AttackTypeLowcygierplosint:
+	case TechTypeLowcygierplosint:
 		return AttackCategoryOsint
-	case AttackTypeLoxonepanel:
+	case TechTypeLoxonepanel:
 		return AttackCategoryWeb
-	case AttackTypeLoytec:
+	case TechTypeLoytec:
 		return AttackCategoryWeb
-	case AttackTypeLoyteciot:
+	case TechTypeLoyteciot:
 		return AttackCategoryIoT
-	case AttackTypeLsoftcve:
+	case TechTypeLsoftcve:
 		return AttackCategoryCVE
-	case AttackTypeLtrace:
+	case TechTypeLtrace:
 		return AttackCategoryWeb
-	case AttackTypeLua:
+	case TechTypeLua:
 		return AttackCategoryWeb
-	case AttackTypeLucee:
+	case TechTypeLucee:
 		return AttackCategoryWeb
-	case AttackTypeLuceepanel:
+	case TechTypeLuceepanel:
 		return AttackCategoryWeb
-	case AttackTypeLuceetech:
+	case TechTypeLuceetech:
 		return AttackCategoryWeb
-	case AttackTypeLucipanel:
+	case TechTypeLucipanel:
 		return AttackCategoryWeb
-	case AttackTypeLucymagento:
+	case TechTypeLucymagento:
 		return AttackCategoryWeb
-	case AttackTypeLumis:
+	case TechTypeLumis:
 		return AttackCategoryWeb
-	case AttackTypeLuracast:
+	case TechTypeLuracast:
 		return AttackCategoryWeb
-	case AttackTypeLutron:
+	case TechTypeLutron:
 		return AttackCategoryWeb
-	case AttackTypeLychee:
+	case TechTypeLychee:
 		return AttackCategoryWeb
-	case AttackTypeLylmeSpage:
+	case TechTypeLylmeSpage:
 		return AttackCategoryWeb
-	case AttackTypeMFilespanel:
+	case TechTypeMFilespanel:
 		return AttackCategoryWeb
-	case AttackTypeM0R0Ncve2010:
+	case TechTypeM0R0Ncve2010:
 		return AttackCategoryCVE
-	case AttackTypeMacaddresslookuptokenSpray:
+	case TechTypeMacaddresslookuptokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeMacc2:
+	case TechTypeMacc2:
 		return AttackCategoryWeb
-	case AttackTypeMachform:
+	case TechTypeMachform:
 		return AttackCategoryWeb
-	case AttackTypeMachproweb:
+	case TechTypeMachproweb:
 		return AttackCategoryWeb
-	case AttackTypeMacshell:
+	case TechTypeMacshell:
 		return AttackCategoryWeb
-	case AttackTypeMaestro:
+	case TechTypeMaestro:
 		return AttackCategoryWeb
-	case AttackTypeMagaChatosint:
+	case TechTypeMagaChatosint:
 		return AttackCategoryOsint
-	case AttackTypeMagabookosint:
+	case TechTypeMagabookosint:
 		return AttackCategoryOsint
-	case AttackTypeMagento:
+	case TechTypeMagento:
 		return AttackCategoryWeb
-	case AttackTypeMagentoServercve2015:
+	case TechTypeMagentoServercve2015:
 		return AttackCategoryCVE
-	case AttackTypeMagentocve:
+	case TechTypeMagentocve:
 		return AttackCategoryCVE
-	case AttackTypeMagixosint:
+	case TechTypeMagixosint:
 		return AttackCategoryOsint
-	case AttackTypeMagmagento:
+	case TechTypeMagmagento:
 		return AttackCategoryWeb
-	case AttackTypeMagmi:
+	case TechTypeMagmi:
 		return AttackCategoryWeb
-	case AttackTypeMagmiProject:
+	case TechTypeMagmiProject:
 		return AttackCategoryWeb
-	case AttackTypeMagmiProjectcve:
+	case TechTypeMagmiProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeMagmiProjectcve2020:
+	case TechTypeMagmiProjectcve2020:
 		return AttackCategoryCVE
-	case AttackTypeMagnusbilling:
+	case TechTypeMagnusbilling:
 		return AttackCategoryWeb
-	case AttackTypeMagnussolutioncve:
+	case TechTypeMagnussolutioncve:
 		return AttackCategoryCVE
-	case AttackTypeMaian:
+	case TechTypeMaian:
 		return AttackCategoryAI
-	case AttackTypeMaianscriptworldcve:
+	case TechTypeMaianscriptworldcve:
 		return AttackCategoryCVE
-	case AttackTypeMaiantech:
+	case TechTypeMaiantech:
 		return AttackCategoryAI
-	case AttackTypeMail:
+	case TechTypeMail:
 		return AttackCategoryMail
-	case AttackTypeMailMastaProjectcve2016:
+	case TechTypeMailMastaProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeMailboxvalidatortokenSpray:
+	case TechTypeMailboxvalidatortokenSpray:
 		return AttackCategoryMail
-	case AttackTypeMailchimp:
+	case TechTypeMailchimp:
 		return AttackCategoryMail
-	case AttackTypeMailchimpmailgun:
+	case TechTypeMailchimpmailgun:
 		return AttackCategoryMail
-	case AttackTypeMailchimpwp:
+	case TechTypeMailchimpwp:
 		return AttackCategoryMail
-	case AttackTypeMailer:
+	case TechTypeMailer:
 		return AttackCategoryMail
-	case AttackTypeMailerpanel:
+	case TechTypeMailerpanel:
 		return AttackCategoryMail
-	case AttackTypeMailguntokenSpray:
+	case TechTypeMailguntokenSpray:
 		return AttackCategoryMail
-	case AttackTypeMailhog:
+	case TechTypeMailhog:
 		return AttackCategoryMail
-	case AttackTypeMailinspector:
+	case TechTypeMailinspector:
 		return AttackCategoryMail
-	case AttackTypeMaillistosint:
+	case TechTypeMaillistosint:
 		return AttackCategoryMail
-	case AttackTypeMailman:
+	case TechTypeMailman:
 		return AttackCategoryMail
-	case AttackTypeMailmap:
+	case TechTypeMailmap:
 		return AttackCategoryMail
-	case AttackTypeMailpanel:
+	case TechTypeMailpanel:
 		return AttackCategoryMail
-	case AttackTypeMailwatchpanel:
+	case TechTypeMailwatchpanel:
 		return AttackCategoryMail
-	case AttackTypeMaipu:
+	case TechTypeMaipu:
 		return AttackCategoryAI
-	case AttackTypeMajordomo:
+	case TechTypeMajordomo:
 		return AttackCategoryWeb
-	case AttackTypeMajordomo2:
+	case TechTypeMajordomo2:
 		return AttackCategoryWeb
-	case AttackTypeMalsharetokenSpray:
+	case TechTypeMalsharetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeMaltrail:
+	case TechTypeMaltrail:
 		return AttackCategoryAI
-	case AttackTypeMalware:
+	case TechTypeMalware:
 		return AttackCategoryWeb
-	case AttackTypeMalwarebazaar:
+	case TechTypeMalwarebazaar:
 		return AttackCategoryWeb
-	case AttackTypeMalwarebytes:
+	case TechTypeMalwarebytes:
 		return AttackCategoryWeb
-	case AttackTypeManage:
+	case TechTypeManage:
 		return AttackCategoryWeb
-	case AttackTypeManageengine:
+	case TechTypeManageengine:
 		return AttackCategoryWeb
-	case AttackTypeManageenginepanel:
+	case TechTypeManageenginepanel:
 		return AttackCategoryWeb
-	case AttackTypeManagementpanel:
+	case TechTypeManagementpanel:
 		return AttackCategoryWeb
-	case AttackTypeManager:
+	case TechTypeManager:
 		return AttackCategoryWeb
-	case AttackTypeManagerservicedesk:
+	case TechTypeManagerservicedesk:
 		return AttackCategoryWeb
-	case AttackTypeMantisbt:
+	case TechTypeMantisbt:
 		return AttackCategoryWeb
-	case AttackTypeMantisbtpanel:
+	case TechTypeMantisbtpanel:
 		return AttackCategoryWeb
-	case AttackTypeManyvidsosint:
+	case TechTypeManyvidsosint:
 		return AttackCategoryOsint
-	case AttackTypeMapbox:
+	case TechTypeMapbox:
 		return AttackCategoryWeb
-	case AttackTypeMapboxtokenSpray:
+	case TechTypeMapboxtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeMapmytracksosint:
+	case TechTypeMapmytracksosint:
 		return AttackCategoryOsint
-	case AttackTypeMappingMultipleUrlsRedirectSamePageProjectcve:
+	case TechTypeMappingMultipleUrlsRedirectSamePageProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeMappress:
+	case TechTypeMappress:
 		return AttackCategoryWeb
-	case AttackTypeMappressprocve2022:
+	case TechTypeMappressprocve2022:
 		return AttackCategoryCVE
-	case AttackTypeMapproxy:
+	case TechTypeMapproxy:
 		return AttackCategoryWeb
-	case AttackTypeMaps:
+	case TechTypeMaps:
 		return AttackCategoryWeb
-	case AttackTypeMapstodonspaceMastodonInstanceosint:
+	case TechTypeMapstodonspaceMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeMapstokenSpray:
+	case TechTypeMapstokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeMara:
+	case TechTypeMara:
 		return AttackCategoryWeb
-	case AttackTypeMaraCmsProjectcve:
+	case TechTypeMaraCmsProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeMariadb:
+	case TechTypeMariadb:
 		return AttackCategoryWeb
-	case AttackTypeMarkdown:
+	case TechTypeMarkdown:
 		return AttackCategoryWeb
-	case AttackTypeMarmosetcve2021:
+	case TechTypeMarmosetcve2021:
 		return AttackCategoryCVE
-	case AttackTypeMarocNlosint:
+	case TechTypeMarocNlosint:
 		return AttackCategoryOsint
-	case AttackTypeMarshmallowosint:
+	case TechTypeMarshmallowosint:
 		return AttackCategoryOsint
-	case AttackTypeMartechosint:
+	case TechTypeMartechosint:
 		return AttackCategoryOsint
-	case AttackTypeMarvikshop:
+	case TechTypeMarvikshop:
 		return AttackCategoryWeb
-	case AttackTypeMasa:
+	case TechTypeMasa:
 		return AttackCategoryWeb
-	case AttackTypeMasacmscve:
+	case TechTypeMasacmscve:
 		return AttackCategoryCVE
-	case AttackTypeMassageAnywhereosint:
+	case TechTypeMassageAnywhereosint:
 		return AttackCategoryOsint
-	case AttackTypeMasselinkcve2010:
+	case TechTypeMasselinkcve2010:
 		return AttackCategoryCVE
-	case AttackTypeMaster:
+	case TechTypeMaster:
 		return AttackCategoryWeb
-	case AttackTypeMasterElements:
+	case TechTypeMasterElements:
 		return AttackCategoryWeb
-	case AttackTypeMasteriyocve2023:
+	case TechTypeMasteriyocve2023:
 		return AttackCategoryCVE
-	case AttackTypeMastoaiosint:
+	case TechTypeMastoaiosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodon:
+	case TechTypeMastodon:
 		return AttackCategoryWeb
-	case AttackTypeMastodon101010Plosint:
+	case TechTypeMastodon101010Plosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonApiosint:
+	case TechTypeMastodonApiosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonChaossocialosint:
+	case TechTypeMastodonChaossocialosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonClimatejusticerocksosint:
+	case TechTypeMastodonClimatejusticerocksosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonCountersocialosint:
+	case TechTypeMastodonCountersocialosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonDefconosint:
+	case TechTypeMastodonDefconosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonEuVoiceosint:
+	case TechTypeMastodonEuVoiceosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonMastodonosint:
+	case TechTypeMastodonMastodonosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonMeowsocialosint:
+	case TechTypeMastodonMeowsocialosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonMstdnioosint:
+	case TechTypeMastodonMstdnioosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonPolsocialosint:
+	case TechTypeMastodonPolsocialosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonRigczclubosint:
+	case TechTypeMastodonRigczclubosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonSocialTchncsosint:
+	case TechTypeMastodonSocialTchncsosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonTflnetplosint:
+	case TechTypeMastodonTflnetplosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonTootcommunityosint:
+	case TechTypeMastodonTootcommunityosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonbooksnetMastodonInstanceosint:
+	case TechTypeMastodonbooksnetMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodonchasedemdevMastodonInstanceosint:
+	case TechTypeMastodonchasedemdevMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeMastodononlineosint:
+	case TechTypeMastodononlineosint:
 		return AttackCategoryOsint
-	case AttackTypeMastonycMastodonInstanceosint:
+	case TechTypeMastonycMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeMastownMastodonInstanceosint:
+	case TechTypeMastownMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeMatamkocve2010:
+	case TechTypeMatamkocve2010:
 		return AttackCategoryCVE
-	case AttackTypeMatbaocve2023:
+	case TechTypeMatbaocve2023:
 		return AttackCategoryCVE
-	case AttackTypeMatomo:
+	case TechTypeMatomo:
 		return AttackCategoryWeb
-	case AttackTypeMatrix:
+	case TechTypeMatrix:
 		return AttackCategoryWeb
-	case AttackTypeMatrixtech:
+	case TechTypeMatrixtech:
 		return AttackCategoryWeb
-	case AttackTypeMatrixtokenSpray:
+	case TechTypeMatrixtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeMautic:
+	case TechTypeMautic:
 		return AttackCategoryWeb
-	case AttackTypeMauticmisconfig:
+	case TechTypeMauticmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeMawk:
+	case TechTypeMawk:
 		return AttackCategoryWeb
-	case AttackTypeMaxForwardserror:
+	case TechTypeMaxForwardserror:
 		return AttackCategoryWeb
-	case AttackTypeMaxsite:
+	case TechTypeMaxsite:
 		return AttackCategoryWeb
-	case AttackTypeMaxumcve:
+	case TechTypeMaxumcve:
 		return AttackCategoryCVE
-	case AttackTypeMbean:
+	case TechTypeMbean:
 		return AttackCategoryWeb
-	case AttackTypeMcafee:
+	case TechTypeMcafee:
 		return AttackCategoryWeb
-	case AttackTypeMcafeecve:
+	case TechTypeMcafeecve:
 		return AttackCategoryCVE
-	case AttackTypeMcloud:
+	case TechTypeMcloud:
 		return AttackCategoryCloud
-	case AttackTypeMcms:
+	case TechTypeMcms:
 		return AttackCategoryWeb
-	case AttackTypeMcnameMinecraftosint:
+	case TechTypeMcnameMinecraftosint:
 		return AttackCategoryOsint
-	case AttackTypeMcuuidMinecraftosint:
+	case TechTypeMcuuidMinecraftosint:
 		return AttackCategoryOsint
-	case AttackTypeMcviecnvd:
+	case TechTypeMcviecnvd:
 		return AttackCategoryWeb
-	case AttackTypeMdb:
+	case TechTypeMdb:
 		return AttackCategoryWeb
-	case AttackTypeMdcYoutubeDownloaderProject:
+	case TechTypeMdcYoutubeDownloaderProject:
 		return AttackCategoryWeb
-	case AttackTypeMdmjamf:
+	case TechTypeMdmjamf:
 		return AttackCategoryWeb
-	case AttackTypeMdmtech:
+	case TechTypeMdmtech:
 		return AttackCategoryWeb
-	case AttackTypeMedia:
+	case TechTypeMedia:
 		return AttackCategoryWeb
-	case AttackTypeMediaLibraryAssistant:
+	case TechTypeMediaLibraryAssistant:
 		return AttackCategoryWeb
-	case AttackTypeMediaServer:
+	case TechTypeMediaServer:
 		return AttackCategoryWeb
-	case AttackTypeMediakitsosint:
+	case TechTypeMediakitsosint:
 		return AttackCategoryOsint
-	case AttackTypeMediationpanel:
+	case TechTypeMediationpanel:
 		return AttackCategoryWeb
-	case AttackTypeMediumish:
+	case TechTypeMediumish:
 		return AttackCategoryWeb
-	case AttackTypeMediumosint:
+	case TechTypeMediumosint:
 		return AttackCategoryOsint
-	case AttackTypeMeduzaStealer:
+	case TechTypeMeduzaStealer:
 		return AttackCategoryWeb
-	case AttackTypeMedyczkaplosint:
+	case TechTypeMedyczkaplosint:
 		return AttackCategoryOsint
-	case AttackTypeMeetMeosint:
+	case TechTypeMeetMeosint:
 		return AttackCategoryOsint
-	case AttackTypeMega:
+	case TechTypeMega:
 		return AttackCategoryWeb
-	case AttackTypeMegamodelsplosint:
+	case TechTypeMegamodelsplosint:
 		return AttackCategoryOsint
-	case AttackTypeMegatechcve:
+	case TechTypeMegatechcve:
 		return AttackCategoryCVE
-	case AttackTypeMegawpscan:
+	case TechTypeMegawpscan:
 		return AttackCategoryWeb
-	case AttackTypeMehanoidcve:
+	case TechTypeMehanoidcve:
 		return AttackCategoryCVE
-	case AttackTypeMemberHero:
+	case TechTypeMemberHero:
 		return AttackCategoryWeb
-	case AttackTypeMemberherocve2022:
+	case TechTypeMemberherocve2022:
 		return AttackCategoryCVE
-	case AttackTypeMembershipDatabase:
+	case TechTypeMembershipDatabase:
 		return AttackCategoryWeb
-	case AttackTypeMembershipDatabaseProjectcve2023:
+	case TechTypeMembershipDatabaseProjectcve2023:
 		return AttackCategoryCVE
-	case AttackTypeMemcached:
+	case TechTypeMemcached:
 		return AttackCategoryWeb
-	case AttackTypeMemcachedcve:
+	case TechTypeMemcachedcve:
 		return AttackCategoryCVE
-	case AttackTypeMemory:
+	case TechTypeMemory:
 		return AttackCategoryWeb
-	case AttackTypeMemoryPipes:
+	case TechTypeMemoryPipes:
 		return AttackCategoryWeb
-	case AttackTypeMemorycve2023:
+	case TechTypeMemorycve2023:
 		return AttackCategoryCVE
-	case AttackTypeMemos:
+	case TechTypeMemos:
 		return AttackCategoryWeb
-	case AttackTypeMemriseosint:
+	case TechTypeMemriseosint:
 		return AttackCategoryOsint
-	case AttackTypeMeraki:
+	case TechTypeMeraki:
 		return AttackCategoryWeb
-	case AttackTypeMercurialexposure:
+	case TechTypeMercurialexposure:
 		return AttackCategoryWeb
-	case AttackTypeMercurialmisconfig:
+	case TechTypeMercurialmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeMercusyscve:
+	case TechTypeMercusyscve:
 		return AttackCategoryCVE
-	case AttackTypeMerlin:
+	case TechTypeMerlin:
 		return AttackCategoryWeb
-	case AttackTypeMeshcentralpanel:
+	case TechTypeMeshcentralpanel:
 		return AttackCategoryWeb
-	case AttackTypeMesospanel:
+	case TechTypeMesospanel:
 		return AttackCategoryWeb
-	case AttackTypeMessageMeosint:
+	case TechTypeMessageMeosint:
 		return AttackCategoryOsint
-	case AttackTypeMessaging:
+	case TechTypeMessaging:
 		return AttackCategoryWeb
-	case AttackTypeMessagingtokenSpray:
+	case TechTypeMessagingtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeMessenger:
+	case TechTypeMessenger:
 		return AttackCategoryWeb
-	case AttackTypeMetabase:
+	case TechTypeMetabase:
 		return AttackCategoryWeb
-	case AttackTypeMetacriticosint:
+	case TechTypeMetacriticosint:
 		return AttackCategoryOsint
-	case AttackTypeMetadataexposure:
+	case TechTypeMetadataexposure:
 		return AttackCategoryWeb
-	case AttackTypeMetagausscve:
+	case TechTypeMetagausscve:
 		return AttackCategoryCVE
-	case AttackTypeMetagausscve2021:
+	case TechTypeMetagausscve2021:
 		return AttackCategoryCVE
-	case AttackTypeMetaphorcreationscve:
+	case TechTypeMetaphorcreationscve:
 		return AttackCategoryCVE
-	case AttackTypeMetaphorcreationscve2023:
+	case TechTypeMetaphorcreationscve2023:
 		return AttackCategoryCVE
-	case AttackTypeMetasploit:
+	case TechTypeMetasploit:
 		return AttackCategoryWeb
-	case AttackTypeMetasploitc2:
+	case TechTypeMetasploitc2:
 		return AttackCategoryWeb
-	case AttackTypeMetaview:
+	case TechTypeMetaview:
 		return AttackCategoryWeb
-	case AttackTypeMeteortakeover:
+	case TechTypeMeteortakeover:
 		return AttackCategoryWeb
-	case AttackTypeMetersphere:
+	case TechTypeMetersphere:
 		return AttackCategoryWeb
-	case AttackTypeMeterspherepanel:
+	case TechTypeMeterspherepanel:
 		return AttackCategoryWeb
-	case AttackTypeMetform:
+	case TechTypeMetform:
 		return AttackCategoryWeb
-	case AttackTypeMetinfo:
+	case TechTypeMetinfo:
 		return AttackCategoryWeb
-	case AttackTypeMfGigCalendarProjectcve:
+	case TechTypeMfGigCalendarProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeMfGigCalendarProjectcve2012:
+	case TechTypeMfGigCalendarProjectcve2012:
 		return AttackCategoryCVE
-	case AttackTypeMflow:
+	case TechTypeMflow:
 		return AttackCategoryWeb
-	case AttackTypeMgrng:
+	case TechTypeMgrng:
 		return AttackCategoryWeb
-	case AttackTypeMgtCommerce:
+	case TechTypeMgtCommerce:
 		return AttackCategoryRCE
-	case AttackTypeMgtCommercepanel:
+	case TechTypeMgtCommercepanel:
 		return AttackCategoryRCE
-	case AttackTypeMhsoftwarecve:
+	case TechTypeMhsoftwarecve:
 		return AttackCategoryCVE
-	case AttackTypeMi:
+	case TechTypeMi:
 		return AttackCategoryWeb
-	case AttackTypeMicollab:
+	case TechTypeMicollab:
 		return AttackCategoryWeb
-	case AttackTypeMiconfig:
+	case TechTypeMiconfig:
 		return AttackCategoryWeb
-	case AttackTypeMicro:
+	case TechTypeMicro:
 		return AttackCategoryWeb
-	case AttackTypeMicroUserServicetokenSpray:
+	case TechTypeMicroUserServicetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeMicrocenter:
+	case TechTypeMicrocenter:
 		return AttackCategoryWeb
-	case AttackTypeMicrochipcve:
+	case TechTypeMicrochipcve:
 		return AttackCategoryCVE
-	case AttackTypeMicrochipedb:
+	case TechTypeMicrochipedb:
 		return AttackCategoryWeb
-	case AttackTypeMicrofinance:
+	case TechTypeMicrofinance:
 		return AttackCategoryFinance
-	case AttackTypeMicrofinanceManagementSystemProjectcve:
+	case TechTypeMicrofinanceManagementSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeMicrofocus:
+	case TechTypeMicrofocus:
 		return AttackCategoryWeb
-	case AttackTypeMicrofocuscve2020:
+	case TechTypeMicrofocuscve2020:
 		return AttackCategoryCVE
-	case AttackTypeMicroservice:
+	case TechTypeMicroservice:
 		return AttackCategoryWeb
-	case AttackTypeMicrosoft:
+	case TechTypeMicrosoft:
 		return AttackCategoryWeb
-	case AttackTypeMicrosoftTeams:
+	case TechTypeMicrosoftTeams:
 		return AttackCategoryWeb
-	case AttackTypeMicrosoftTechnetCommunityosint:
+	case TechTypeMicrosoftTechnetCommunityosint:
 		return AttackCategoryOsint
-	case AttackTypeMicrosoftcve:
+	case TechTypeMicrosoftcve:
 		return AttackCategoryCVE
-	case AttackTypeMicrosoftcve2008:
+	case TechTypeMicrosoftcve2008:
 		return AttackCategoryCVE
-	case AttackTypeMicrosoftcve2017:
+	case TechTypeMicrosoftcve2017:
 		return AttackCategoryCVE
-	case AttackTypeMicrosoftcve2020:
+	case TechTypeMicrosoftcve2020:
 		return AttackCategoryCVE
-	case AttackTypeMicrosoftcve2021:
+	case TechTypeMicrosoftcve2021:
 		return AttackCategoryCVE
-	case AttackTypeMicrosoftcve2023:
+	case TechTypeMicrosoftcve2023:
 		return AttackCategoryCVE
-	case AttackTypeMicrosoftexposure:
+	case TechTypeMicrosoftexposure:
 		return AttackCategoryWeb
-	case AttackTypeMicrosoftmicrostrategy:
+	case TechTypeMicrosoftmicrostrategy:
 		return AttackCategoryWeb
-	case AttackTypeMicrosoftofficekeeper:
+	case TechTypeMicrosoftofficekeeper:
 		return AttackCategoryWeb
-	case AttackTypeMicrosoftpanel:
+	case TechTypeMicrosoftpanel:
 		return AttackCategoryWeb
-	case AttackTypeMicrosofttech:
+	case TechTypeMicrosofttech:
 		return AttackCategoryWeb
-	case AttackTypeMicrosofttokenSpray:
+	case TechTypeMicrosofttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeMicrostrategy:
+	case TechTypeMicrostrategy:
 		return AttackCategoryWeb
-	case AttackTypeMicroweber:
+	case TechTypeMicroweber:
 		return AttackCategoryWeb
-	case AttackTypeMicrowebercve:
+	case TechTypeMicrowebercve:
 		return AttackCategoryCVE
-	case AttackTypeMicrowebercve2022:
+	case TechTypeMicrowebercve2022:
 		return AttackCategoryCVE
-	case AttackTypeMicroweberwpscan:
+	case TechTypeMicroweberwpscan:
 		return AttackCategoryWeb
-	case AttackTypeMida:
+	case TechTypeMida:
 		return AttackCategoryWeb
-	case AttackTypeMidasolutionscve:
+	case TechTypeMidasolutionscve:
 		return AttackCategoryCVE
-	case AttackTypeMiddleware:
+	case TechTypeMiddleware:
 		return AttackCategoryWeb
-	case AttackTypeMikejolleycve:
+	case TechTypeMikejolleycve:
 		return AttackCategoryCVE
-	case AttackTypeMikovinycve:
+	case TechTypeMikovinycve:
 		return AttackCategoryCVE
-	case AttackTypeMikrotik:
+	case TechTypeMikrotik:
 		return AttackCategoryWeb
-	case AttackTypeMikrotikedb:
+	case TechTypeMikrotikedb:
 		return AttackCategoryWeb
-	case AttackTypeMikrotikpanel:
+	case TechTypeMikrotikpanel:
 		return AttackCategoryWeb
-	case AttackTypeMikrotiktech:
+	case TechTypeMikrotiktech:
 		return AttackCategoryWeb
-	case AttackTypeMilesight:
+	case TechTypeMilesight:
 		return AttackCategoryWeb
-	case AttackTypeMincve2021:
+	case TechTypeMincve2021:
 		return AttackCategoryCVE
-	case AttackTypeMindpalettecve:
+	case TechTypeMindpalettecve:
 		return AttackCategoryCVE
-	case AttackTypeMindsosint:
+	case TechTypeMindsosint:
 		return AttackCategoryOsint
-	case AttackTypeMinecraft:
+	case TechTypeMinecraft:
 		return AttackCategoryWeb
-	case AttackTypeMinecraftListosint:
+	case TechTypeMinecraftListosint:
 		return AttackCategoryOsint
-	case AttackTypeMingsoftcve:
+	case TechTypeMingsoftcve:
 		return AttackCategoryCVE
-	case AttackTypeMiniHttpd:
+	case TechTypeMiniHttpd:
 		return AttackCategoryWeb
-	case AttackTypeMinimousemirai:
+	case TechTypeMinimousemirai:
 		return AttackCategoryAI
-	case AttackTypeMining:
+	case TechTypeMining:
 		return AttackCategoryWeb
-	case AttackTypeMinio:
+	case TechTypeMinio:
 		return AttackCategoryWeb
-	case AttackTypeMiniomobotix:
+	case TechTypeMiniomobotix:
 		return AttackCategoryWeb
-	case AttackTypeMiniopanel:
+	case TechTypeMiniopanel:
 		return AttackCategoryWeb
-	case AttackTypeMiniorangecve:
+	case TechTypeMiniorangecve:
 		return AttackCategoryCVE
-	case AttackTypeMiniwebHttpServerProjectpanel:
+	case TechTypeMiniwebHttpServerProjectpanel:
 		return AttackCategoryWeb
-	case AttackTypeMiniwork:
+	case TechTypeMiniwork:
 		return AttackCategoryWeb
-	case AttackTypeMintmeosint:
+	case TechTypeMintmeosint:
 		return AttackCategoryOsint
-	case AttackTypeMiracletech:
+	case TechTypeMiracletech:
 		return AttackCategoryWeb
-	case AttackTypeMirai:
+	case TechTypeMirai:
 		return AttackCategoryAI
-	case AttackTypeMiraicve2021:
+	case TechTypeMiraicve2021:
 		return AttackCategoryCVE
-	case AttackTypeMirasys:
+	case TechTypeMirasys:
 		return AttackCategoryWeb
-	case AttackTypeMisc:
+	case TechTypeMisc:
 		return AttackCategoryWeb
-	case AttackTypeMiscellaneousmiscellaneous:
+	case TechTypeMiscellaneousmiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypeMiscform:
+	case TechTypeMiscform:
 		return AttackCategoryWeb
-	case AttackTypeMiscmalware:
+	case TechTypeMiscmalware:
 		return AttackCategoryWeb
-	case AttackTypeMiscmisc:
+	case TechTypeMiscmisc:
 		return AttackCategoryWeb
-	case AttackTypeMiscmiscellaneous:
+	case TechTypeMiscmiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypeMiscmisconfig:
+	case TechTypeMiscmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeMisconfig:
+	case TechTypeMisconfig:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigadobe:
+	case TechTypeMisconfigadobe:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigaem:
+	case TechTypeMisconfigaem:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigakamai:
+	case TechTypeMisconfigakamai:
 		return AttackCategoryAI
-	case AttackTypeMisconfigapache:
+	case TechTypeMisconfigapache:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigatlassian:
+	case TechTypeMisconfigatlassian:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigbootstrap:
+	case TechTypeMisconfigbootstrap:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigcache:
+	case TechTypeMisconfigcache:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigchatgpt:
+	case TechTypeMisconfigchatgpt:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigcobbler:
+	case TechTypeMisconfigcobbler:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigcodeigniter:
+	case TechTypeMisconfigcodeigniter:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigconfig:
+	case TechTypeMisconfigconfig:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigcrlf:
+	case TechTypeMisconfigcrlf:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigdashboard:
+	case TechTypeMisconfigdashboard:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigdebug:
+	case TechTypeMisconfigdebug:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigdjango:
+	case TechTypeMisconfigdjango:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigdocker:
+	case TechTypeMisconfigdocker:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigdoris:
+	case TechTypeMisconfigdoris:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigdruid:
+	case TechTypeMisconfigdruid:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigdrupal:
+	case TechTypeMisconfigdrupal:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigeasyimage:
+	case TechTypeMisconfigeasyimage:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigetherpad:
+	case TechTypeMisconfigetherpad:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigexposure:
+	case TechTypeMisconfigexposure:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigfileupload:
+	case TechTypeMisconfigfileupload:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigfirebase:
+	case TechTypeMisconfigfirebase:
 		return AttackCategoryWeb
-	case AttackTypeMisconfiggitlab:
+	case TechTypeMisconfiggitlab:
 		return AttackCategoryWeb
-	case AttackTypeMisconfiggo:
+	case TechTypeMisconfiggo:
 		return AttackCategoryWeb
-	case AttackTypeMisconfiggraphql:
+	case TechTypeMisconfiggraphql:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigh2O3:
+	case TechTypeMisconfigh2O3:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigh3C:
+	case TechTypeMisconfigh3C:
 		return AttackCategoryWeb
-	case AttackTypeMisconfighackerone:
+	case TechTypeMisconfighackerone:
 		return AttackCategoryWeb
-	case AttackTypeMisconfighaproxy:
+	case TechTypeMisconfighaproxy:
 		return AttackCategoryWeb
-	case AttackTypeMisconfighp:
+	case TechTypeMisconfighp:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigibm:
+	case TechTypeMisconfigibm:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigicewarp:
+	case TechTypeMisconfigicewarp:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigimgproxy:
+	case TechTypeMisconfigimgproxy:
 		return AttackCategoryWeb
-	case AttackTypeMisconfiginstall:
+	case TechTypeMisconfiginstall:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigjboss:
+	case TechTypeMisconfigjboss:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigjolokia:
+	case TechTypeMisconfigjolokia:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigjs:
+	case TechTypeMisconfigjs:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigjupyter:
+	case TechTypeMisconfigjupyter:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigk8:
+	case TechTypeMisconfigk8:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigkafka:
+	case TechTypeMisconfigkafka:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigkubeflow:
+	case TechTypeMisconfigkubeflow:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigkubernetes:
+	case TechTypeMisconfigkubernetes:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigliferay:
+	case TechTypeMisconfigliferay:
 		return AttackCategoryWeb
-	case AttackTypeMisconfiglogs:
+	case TechTypeMisconfiglogs:
 		return AttackCategoryWeb
-	case AttackTypeMisconfiglvm:
+	case TechTypeMisconfiglvm:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigmisconfig:
+	case TechTypeMisconfigmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigmisconfigartifactory:
+	case TechTypeMisconfigmisconfigartifactory:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigmisconfigdebug:
+	case TechTypeMisconfigmisconfigdebug:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigmisconfigmisconfigunauth:
+	case TechTypeMisconfigmisconfigmisconfigunauth:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigmongo:
+	case TechTypeMisconfigmongo:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigmongoshake:
+	case TechTypeMisconfigmongoshake:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigmsExchange:
+	case TechTypeMisconfigmsExchange:
 		return AttackCategoryWeb
-	case AttackTypeMisconfignetdata:
+	case TechTypeMisconfignetdata:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigngrok:
+	case TechTypeMisconfigngrok:
 		return AttackCategoryWeb
-	case AttackTypeMisconfignodejs:
+	case TechTypeMisconfignodejs:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigpanel:
+	case TechTypeMisconfigpanel:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigphishing:
+	case TechTypeMisconfigphishing:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigphp:
+	case TechTypeMisconfigphp:
 		return AttackCategoryPHP
-	case AttackTypeMisconfigphpmyadmin:
+	case TechTypeMisconfigphpmyadmin:
 		return AttackCategoryPHP
-	case AttackTypeMisconfigplastic:
+	case TechTypeMisconfigplastic:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigpostgres:
+	case TechTypeMisconfigpostgres:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigprometheus:
+	case TechTypeMisconfigprometheus:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigredirect:
+	case TechTypeMisconfigredirect:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigruijie:
+	case TechTypeMisconfigruijie:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigs3:
+	case TechTypeMisconfigs3:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigsap:
+	case TechTypeMisconfigsap:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigservicenow:
+	case TechTypeMisconfigservicenow:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigsitecore:
+	case TechTypeMisconfigsitecore:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigsonarqube:
+	case TechTypeMisconfigsonarqube:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigspringboot:
+	case TechTypeMisconfigspringboot:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigssl:
+	case TechTypeMisconfigssl:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigssrf:
+	case TechTypeMisconfigssrf:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigsymfony:
+	case TechTypeMisconfigsymfony:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigtech:
+	case TechTypeMisconfigtech:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigtensorflow:
+	case TechTypeMisconfigtensorflow:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigthinkphp:
+	case TechTypeMisconfigthinkphp:
 		return AttackCategoryPHP
-	case AttackTypeMisconfigtongda:
+	case TechTypeMisconfigtongda:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigtypo3:
+	case TechTypeMisconfigtypo3:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigunauth:
+	case TechTypeMisconfigunauth:
 		return AttackCategoryWeb
-	case AttackTypeMisconfiguration:
+	case TechTypeMisconfiguration:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigwamp:
+	case TechTypeMisconfigwamp:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigwebalizer:
+	case TechTypeMisconfigwebalizer:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigwebdav:
+	case TechTypeMisconfigwebdav:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigwerkzeug:
+	case TechTypeMisconfigwerkzeug:
 		return AttackCategoryWeb
-	case AttackTypeMisconfigwordpress:
+	case TechTypeMisconfigwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeMisconfigxss:
+	case TechTypeMisconfigxss:
 		return AttackCategoryXSS
-	case AttackTypeMiscwebftp:
+	case TechTypeMiscwebftp:
 		return AttackCategoryWeb
-	case AttackTypeMismatchedssl:
+	case TechTypeMismatchedssl:
 		return AttackCategoryWeb
-	case AttackTypeMisppanel:
+	case TechTypeMisppanel:
 		return AttackCategoryWeb
-	case AttackTypeMistrzowieosint:
+	case TechTypeMistrzowieosint:
 		return AttackCategoryOsint
-	case AttackTypeMitel:
+	case TechTypeMitel:
 		return AttackCategoryWeb
-	case AttackTypeMitelcve:
+	case TechTypeMitelcve:
 		return AttackCategoryCVE
-	case AttackTypeMitelpanel:
+	case TechTypeMitelpanel:
 		return AttackCategoryWeb
-	case AttackTypeMitric:
+	case TechTypeMitric:
 		return AttackCategoryWeb
-	case AttackTypeMixiosint:
+	case TechTypeMixiosint:
 		return AttackCategoryOsint
-	case AttackTypeMixlrosint:
+	case TechTypeMixlrosint:
 		return AttackCategoryOsint
-	case AttackTypeMixosint:
+	case TechTypeMixosint:
 		return AttackCategoryOsint
-	case AttackTypeMj2Cve:
+	case TechTypeMj2Cve:
 		return AttackCategoryCVE
-	case AttackTypeMjdmcve:
+	case TechTypeMjdmcve:
 		return AttackCategoryCVE
-	case AttackTypeMkdocs:
+	case TechTypeMkdocs:
 		return AttackCategoryWeb
-	case AttackTypeMl:
+	case TechTypeMl:
 		return AttackCategoryWeb
-	case AttackTypeMlcve:
+	case TechTypeMlcve:
 		return AttackCategoryCVE
-	case AttackTypeMlflow:
+	case TechTypeMlflow:
 		return AttackCategoryWeb
-	case AttackTypeMlwebtechnologiescve2018:
+	case TechTypeMlwebtechnologiescve2018:
 		return AttackCategoryCVE
-	case AttackTypeMmorpgosint:
+	case TechTypeMmorpgosint:
 		return AttackCategoryOsint
-	case AttackTypeMmsPippcve:
+	case TechTypeMmsPippcve:
 		return AttackCategoryCVE
-	case AttackTypeMntTechcve:
+	case TechTypeMntTechcve:
 		return AttackCategoryCVE
-	case AttackTypeMobile:
+	case TechTypeMobile:
 		return AttackCategoryWeb
-	case AttackTypeMobileiron:
+	case TechTypeMobileiron:
 		return AttackCategoryWeb
-	case AttackTypeMobileironpanel:
+	case TechTypeMobileironpanel:
 		return AttackCategoryWeb
-	case AttackTypeMobileviewpointcve:
+	case TechTypeMobileviewpointcve:
 		return AttackCategoryCVE
-	case AttackTypeMobiproxy:
+	case TechTypeMobiproxy:
 		return AttackCategoryWeb
-	case AttackTypeMobsfmisconfig:
+	case TechTypeMobsfmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeModDbosint:
+	case TechTypeModDbosint:
 		return AttackCategoryOsint
-	case AttackTypeModJkcve:
+	case TechTypeModJkcve:
 		return AttackCategoryCVE
-	case AttackTypeModProxy:
+	case TechTypeModProxy:
 		return AttackCategoryWeb
-	case AttackTypeModeldb:
+	case TechTypeModeldb:
 		return AttackCategoryWeb
-	case AttackTypeModem:
+	case TechTypeModem:
 		return AttackCategoryWeb
-	case AttackTypeModernEventsCalendarLite:
+	case TechTypeModernEventsCalendarLite:
 		return AttackCategoryWeb
-	case AttackTypeModoboa:
+	case TechTypeModoboa:
 		return AttackCategoryWeb
-	case AttackTypeModuweb:
+	case TechTypeModuweb:
 		return AttackCategoryWeb
-	case AttackTypeModxcve2010:
+	case TechTypeModxcve2010:
 		return AttackCategoryCVE
-	case AttackTypeMoin:
+	case TechTypeMoin:
 		return AttackCategoryWeb
-	case AttackTypeMoinmoin:
+	case TechTypeMoinmoin:
 		return AttackCategoryWeb
-	case AttackTypeMojarra:
+	case TechTypeMojarra:
 		return AttackCategoryWeb
-	case AttackTypeMojoauthtokenSpray:
+	case TechTypeMojoauthtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeMojoportal:
+	case TechTypeMojoportal:
 		return AttackCategoryWeb
-	case AttackTypeMojoportaltech:
+	case TechTypeMojoportaltech:
 		return AttackCategoryWeb
-	case AttackTypeMoleculer:
+	case TechTypeMoleculer:
 		return AttackCategoryWeb
-	case AttackTypeMondaytokenSpray:
+	case TechTypeMondaytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeMoneysavingexpertosint:
+	case TechTypeMoneysavingexpertosint:
 		return AttackCategoryOsint
-	case AttackTypeMongo:
+	case TechTypeMongo:
 		return AttackCategoryWeb
-	case AttackTypeMongoExpress:
+	case TechTypeMongoExpress:
 		return AttackCategoryWeb
-	case AttackTypeMongoExpressProject:
+	case TechTypeMongoExpressProject:
 		return AttackCategoryWeb
-	case AttackTypeMongodb:
+	case TechTypeMongodb:
 		return AttackCategoryWeb
-	case AttackTypeMongodbmonitorix:
+	case TechTypeMongodbmonitorix:
 		return AttackCategoryWeb
-	case AttackTypeMongoosetech:
+	case TechTypeMongoosetech:
 		return AttackCategoryWeb
-	case AttackTypeMonitor:
+	case TechTypeMonitor:
 		return AttackCategoryWeb
-	case AttackTypeMonitoring:
+	case TechTypeMonitoring:
 		return AttackCategoryWeb
-	case AttackTypeMonitoringaero:
+	case TechTypeMonitoringaero:
 		return AttackCategoryWeb
-	case AttackTypeMonitormisconfig:
+	case TechTypeMonitormisconfig:
 		return AttackCategoryWeb
-	case AttackTypeMonitorr:
+	case TechTypeMonitorr:
 		return AttackCategoryWeb
-	case AttackTypeMonitorrProject:
+	case TechTypeMonitorrProject:
 		return AttackCategoryWeb
-	case AttackTypeMonitorrcve:
+	case TechTypeMonitorrcve:
 		return AttackCategoryCVE
-	case AttackTypeMonitorrcve2020:
+	case TechTypeMonitorrcve2020:
 		return AttackCategoryCVE
-	case AttackTypeMonstra:
+	case TechTypeMonstra:
 		return AttackCategoryWeb
-	case AttackTypeMonstracmstech:
+	case TechTypeMonstracmstech:
 		return AttackCategoryWeb
-	case AttackTypeMonstracve:
+	case TechTypeMonstracve:
 		return AttackCategoryCVE
-	case AttackTypeMonstracve2020:
+	case TechTypeMonstracve2020:
 		return AttackCategoryCVE
-	case AttackTypeMonstrapanel:
+	case TechTypeMonstrapanel:
 		return AttackCategoryWeb
-	case AttackTypeMontalacve2015:
+	case TechTypeMontalacve2015:
 		return AttackCategoryCVE
-	case AttackTypeMontalacve2021:
+	case TechTypeMontalacve2021:
 		return AttackCategoryCVE
-	case AttackTypeMoodating:
+	case TechTypeMoodating:
 		return AttackCategoryWeb
-	case AttackTypeMoodle:
+	case TechTypeMoodle:
 		return AttackCategoryWeb
-	case AttackTypeMoodlemiscellaneous:
+	case TechTypeMoodlemiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypeMoonpay:
+	case TechTypeMoonpay:
 		return AttackCategoryWeb
-	case AttackTypeMoosocial:
+	case TechTypeMoosocial:
 		return AttackCategoryWeb
-	case AttackTypeMoosocialcve:
+	case TechTypeMoosocialcve:
 		return AttackCategoryCVE
-	case AttackTypeMoosocialcve2023:
+	case TechTypeMoosocialcve2023:
 		return AttackCategoryCVE
-	case AttackTypeMooveagencycve:
+	case TechTypeMooveagencycve:
 		return AttackCategoryCVE
-	case AttackTypeMooveagencycve2021:
+	case TechTypeMooveagencycve2021:
 		return AttackCategoryCVE
-	case AttackTypeMosparo:
+	case TechTypeMosparo:
 		return AttackCategoryWeb
-	case AttackTypeMostra:
+	case TechTypeMostra:
 		return AttackCategoryWeb
-	case AttackTypeMostracms:
+	case TechTypeMostracms:
 		return AttackCategoryWeb
-	case AttackTypeMotioneye:
+	case TechTypeMotioneye:
 		return AttackCategoryWeb
-	case AttackTypeMotioneyeProjectcve:
+	case TechTypeMotioneyeProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeMotoTrekscve:
+	case TechTypeMotoTrekscve:
 		return AttackCategoryCVE
-	case AttackTypeMotokillerosint:
+	case TechTypeMotokillerosint:
 		return AttackCategoryOsint
-	case AttackTypeMotopressHotelBooking:
+	case TechTypeMotopressHotelBooking:
 		return AttackCategoryWeb
-	case AttackTypeMotopresscve:
+	case TechTypeMotopresscve:
 		return AttackCategoryCVE
-	case AttackTypeMotorola:
+	case TechTypeMotorola:
 		return AttackCategoryWeb
-	case AttackTypeMovable:
+	case TechTypeMovable:
 		return AttackCategoryWeb
-	case AttackTypeMovabletech:
+	case TechTypeMovabletech:
 		return AttackCategoryWeb
-	case AttackTypeMoveit:
+	case TechTypeMoveit:
 		return AttackCategoryWeb
-	case AttackTypeMoveittech:
+	case TechTypeMoveittech:
 		return AttackCategoryWeb
-	case AttackTypeMoviesProjectcve2014:
+	case TechTypeMoviesProjectcve2014:
 		return AttackCategoryCVE
-	case AttackTypeMoxfieldosint:
+	case TechTypeMoxfieldosint:
 		return AttackCategoryOsint
-	case AttackTypeMozilla:
+	case TechTypeMozilla:
 		return AttackCategoryWeb
-	case AttackTypeMpftvc:
+	case TechTypeMpftvc:
 		return AttackCategoryWeb
-	case AttackTypeMpsec:
+	case TechTypeMpsec:
 		return AttackCategoryWeb
-	case AttackTypeMqtt:
+	case TechTypeMqtt:
 		return AttackCategoryWeb
-	case AttackTypeMrtgtech:
+	case TechTypeMrtgtech:
 		return AttackCategoryWeb
-	case AttackTypeMsExchange:
+	case TechTypeMsExchange:
 		return AttackCategoryWeb
-	case AttackTypeMsf:
+	case TechTypeMsf:
 		return AttackCategoryWeb
-	case AttackTypeMsfcve:
+	case TechTypeMsfcve:
 		return AttackCategoryCVE
-	case AttackTypeMsfmisconfig:
+	case TechTypeMsfmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeMsmq:
+	case TechTypeMsmq:
 		return AttackCategoryWeb
-	case AttackTypeMsmswitch:
+	case TechTypeMsmswitch:
 		return AttackCategoryWeb
-	case AttackTypeMsmtpexposure:
+	case TechTypeMsmtpexposure:
 		return AttackCategoryWeb
-	case AttackTypeMspcontrolpanel:
+	case TechTypeMspcontrolpanel:
 		return AttackCategoryWeb
-	case AttackTypeMssql:
+	case TechTypeMssql:
 		return AttackCategorySqlInjection
-	case AttackTypeMstoreApi:
+	case TechTypeMstoreApi:
 		return AttackCategoryWeb
-	case AttackTypeMtcve2021:
+	case TechTypeMtcve2021:
 		return AttackCategoryCVE
-	case AttackTypeMthememusicstore:
+	case TechTypeMthememusicstore:
 		return AttackCategoryWeb
-	case AttackTypeMuckRackosint:
+	case TechTypeMuckRackosint:
 		return AttackCategoryOsint
-	case AttackTypeMuhttpd:
+	case TechTypeMuhttpd:
 		return AttackCategoryWeb
-	case AttackTypeMultiRestaurantTableReservationSystemProjectcve:
+	case TechTypeMultiRestaurantTableReservationSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeMultilaser:
+	case TechTypeMultilaser:
 		return AttackCategoryWeb
-	case AttackTypeMultisafepay:
+	case TechTypeMultisafepay:
 		return AttackCategoryWeb
-	case AttackTypeMultitime:
+	case TechTypeMultitime:
 		return AttackCategoryWeb
-	case AttackTypeMura:
+	case TechTypeMura:
 		return AttackCategoryWeb
-	case AttackTypeMuraCmsmisconfig:
+	case TechTypeMuraCmsmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeMurasoftwarecve:
+	case TechTypeMurasoftwarecve:
 		return AttackCategoryCVE
-	case AttackTypeMusiciansocialMastodonInstanceosint:
+	case TechTypeMusiciansocialMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeMusictravelerosint:
+	case TechTypeMusictravelerosint:
 		return AttackCategoryOsint
-	case AttackTypeMxdns:
+	case TechTypeMxdns:
 		return AttackCategoryDNS
-	case AttackTypeMyCalendar:
+	case TechTypeMyCalendar:
 		return AttackCategoryWeb
-	case AttackTypeMyInstantsosint:
+	case TechTypeMyInstantsosint:
 		return AttackCategoryOsint
-	case AttackTypeMyCalendarProjectcve:
+	case TechTypeMyCalendarProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeMyanimelistosint:
+	case TechTypeMyanimelistosint:
 		return AttackCategoryOsint
-	case AttackTypeMyanimelisttokenSpray:
+	case TechTypeMyanimelisttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeMybb:
+	case TechTypeMybb:
 		return AttackCategoryWeb
-	case AttackTypeMyblogcve:
+	case TechTypeMyblogcve:
 		return AttackCategoryCVE
-	case AttackTypeMybuildercomosint:
+	case TechTypeMybuildercomosint:
 		return AttackCategoryOsint
-	case AttackTypeMycloud:
+	case TechTypeMycloud:
 		return AttackCategoryCloud
-	case AttackTypeMyeventoncve:
+	case TechTypeMyeventoncve:
 		return AttackCategoryCVE
-	case AttackTypeMyeventoncve2023:
+	case TechTypeMyeventoncve2023:
 		return AttackCategoryCVE
-	case AttackTypeMyfactory:
+	case TechTypeMyfactory:
 		return AttackCategoryWeb
-	case AttackTypeMyfitnesspalAuthorosint:
+	case TechTypeMyfitnesspalAuthorosint:
 		return AttackCategoryOsint
-	case AttackTypeMyfitnesspalCommunityosint:
+	case TechTypeMyfitnesspalCommunityosint:
 		return AttackCategoryOsint
-	case AttackTypeMylittleadmin:
+	case TechTypeMylittleadmin:
 		return AttackCategoryWeb
-	case AttackTypeMylittlebackuppanel:
+	case TechTypeMylittlebackuppanel:
 		return AttackCategoryWeb
-	case AttackTypeMylotosint:
+	case TechTypeMylotosint:
 		return AttackCategoryOsint
-	case AttackTypeMymfansosint:
+	case TechTypeMymfansosint:
 		return AttackCategoryOsint
-	case AttackTypeMypixsProjectcve2015:
+	case TechTypeMypixsProjectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeMyportfolioosint:
+	case TechTypeMyportfolioosint:
 		return AttackCategoryOsint
-	case AttackTypeMyspaceosint:
+	case TechTypeMyspaceosint:
 		return AttackCategoryOsint
-	case AttackTypeMyspreadshoposint:
+	case TechTypeMyspreadshoposint:
 		return AttackCategoryOsint
-	case AttackTypeMysql:
+	case TechTypeMysql:
 		return AttackCategorySqlInjection
-	case AttackTypeMysqldumper:
+	case TechTypeMysqldumper:
 		return AttackCategorySqlInjection
-	case AttackTypeMysqlexposure:
+	case TechTypeMysqlexposure:
 		return AttackCategorySqlInjection
-	case AttackTypeMysqlfastjson:
+	case TechTypeMysqlfastjson:
 		return AttackCategorySqlInjection
-	case AttackTypeMysqlpanel:
+	case TechTypeMysqlpanel:
 		return AttackCategorySqlInjection
-	case AttackTypeMysticStealer:
+	case TechTypeMysticStealer:
 		return AttackCategoryWeb
-	case AttackTypeMystrom:
+	case TechTypeMystrom:
 		return AttackCategoryWeb
-	case AttackTypeMythic:
+	case TechTypeMythic:
 		return AttackCategoryWeb
-	case AttackTypeMythicc2:
+	case TechTypeMythicc2:
 		return AttackCategoryWeb
-	case AttackTypeMyvuehelpcasaos:
+	case TechTypeMyvuehelpcasaos:
 		return AttackCategoryWeb
-	case AttackTypeNCentralpanel:
+	case TechTypeNCentralpanel:
 		return AttackCategoryWeb
-	case AttackTypeNMediaWoocommerceCheckoutFields:
+	case TechTypeNMediaWoocommerceCheckoutFields:
 		return AttackCategoryRCE
-	case AttackTypeN8N:
+	case TechTypeN8N:
 		return AttackCategoryWeb
-	case AttackTypeNacos:
+	case TechTypeNacos:
 		return AttackCategoryWeb
-	case AttackTypeNacostech:
+	case TechTypeNacostech:
 		return AttackCategoryWeb
-	case AttackTypeNagios:
+	case TechTypeNagios:
 		return AttackCategoryWeb
-	case AttackTypeNagiosXipanel:
+	case TechTypeNagiosXipanel:
 		return AttackCategoryWeb
-	case AttackTypeNagioscve:
+	case TechTypeNagioscve:
 		return AttackCategoryCVE
-	case AttackTypeNagioscve2021:
+	case TechTypeNagioscve2021:
 		return AttackCategoryCVE
-	case AttackTypeNagiospanel:
+	case TechTypeNagiospanel:
 		return AttackCategoryWeb
-	case AttackTypeNagiosxi:
+	case TechTypeNagiosxi:
 		return AttackCategoryWeb
-	case AttackTypeNagiosxicve:
+	case TechTypeNagiosxicve:
 		return AttackCategoryCVE
-	case AttackTypeNagiosximisconfig:
+	case TechTypeNagiosximisconfig:
 		return AttackCategoryWeb
-	case AttackTypeNagvispanel:
+	case TechTypeNagvispanel:
 		return AttackCategoryWeb
-	case AttackTypeNaijaPlanetosint:
+	case TechTypeNaijaPlanetosint:
 		return AttackCategoryOsint
-	case AttackTypeNairalandosint:
+	case TechTypeNairalandosint:
 		return AttackCategoryOsint
-	case AttackTypeNajeebmedia:
+	case TechTypeNajeebmedia:
 		return AttackCategoryWeb
-	case AttackTypeNarnooDistributor:
+	case TechTypeNarnooDistributor:
 		return AttackCategoryWeb
-	case AttackTypeNarnooDistributorProjectcve:
+	case TechTypeNarnooDistributorProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeNas:
+	case TechTypeNas:
 		return AttackCategoryWeb
-	case AttackTypeNasos:
+	case TechTypeNasos:
 		return AttackCategoryWeb
-	case AttackTypeNasoscve:
+	case TechTypeNasoscve:
 		return AttackCategoryCVE
-	case AttackTypeNaswuzhicms:
+	case TechTypeNaswuzhicms:
 		return AttackCategoryWeb
-	case AttackTypeNatemail:
+	case TechTypeNatemail:
 		return AttackCategoryMail
-	case AttackTypeNaturalnewsosint:
+	case TechTypeNaturalnewsosint:
 		return AttackCategoryOsint
-	case AttackTypeNaver:
+	case TechTypeNaver:
 		return AttackCategoryWeb
-	case AttackTypeNaverosint:
+	case TechTypeNaverosint:
 		return AttackCategoryOsint
-	case AttackTypeNavicat:
+	case TechTypeNavicat:
 		return AttackCategoryWeb
-	case AttackTypeNavigate:
+	case TechTypeNavigate:
 		return AttackCategoryWeb
-	case AttackTypeNaviwebscve:
+	case TechTypeNaviwebscve:
 		return AttackCategoryCVE
-	case AttackTypeNawk:
+	case TechTypeNawk:
 		return AttackCategoryWeb
-	case AttackTypeNazgulcve:
+	case TechTypeNazgulcve:
 		return AttackCategoryCVE
-	case AttackTypeNbrruijie:
+	case TechTypeNbrruijie:
 		return AttackCategoryWeb
-	case AttackTypeNc:
+	case TechTypeNc:
 		return AttackCategoryWeb
-	case AttackTypeNc2Cve2015:
+	case TechTypeNc2Cve2015:
 		return AttackCategoryCVE
-	case AttackTypeNcast:
+	case TechTypeNcast:
 		return AttackCategoryWeb
-	case AttackTypeNcastProjectwpscan:
+	case TechTypeNcastProjectwpscan:
 		return AttackCategoryWeb
-	case AttackTypeNcbi:
+	case TechTypeNcbi:
 		return AttackCategoryWeb
-	case AttackTypeNcomputing:
+	case TechTypeNcomputing:
 		return AttackCategoryWeb
-	case AttackTypeNconfneo4J:
+	case TechTypeNconfneo4J:
 		return AttackCategoryWeb
-	case AttackTypeNdkSteppingpack:
+	case TechTypeNdkSteppingpack:
 		return AttackCategoryWeb
-	case AttackTypeNdkdesigncve2023:
+	case TechTypeNdkdesigncve2023:
 		return AttackCategoryCVE
-	case AttackTypeNearbytokenSpray:
+	case TechTypeNearbytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeNedi:
+	case TechTypeNedi:
 		return AttackCategoryWeb
-	case AttackTypeNeobox:
+	case TechTypeNeobox:
 		return AttackCategoryWeb
-	case AttackTypeNeocase:
+	case TechTypeNeocase:
 		return AttackCategoryWeb
-	case AttackTypeNeos:
+	case TechTypeNeos:
 		return AttackCategoryWeb
-	case AttackTypeNerdgraphtokenSpray:
+	case TechTypeNerdgraphtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeNessus:
+	case TechTypeNessus:
 		return AttackCategoryWeb
-	case AttackTypeNetbiblio:
+	case TechTypeNetbiblio:
 		return AttackCategoryWeb
-	case AttackTypeNetdatawebserver:
+	case TechTypeNetdatawebserver:
 		return AttackCategoryWeb
-	case AttackTypeNetflix:
+	case TechTypeNetflix:
 		return AttackCategoryWeb
-	case AttackTypeNetfortris:
+	case TechTypeNetfortris:
 		return AttackCategoryWeb
-	case AttackTypeNetfortriscve:
+	case TechTypeNetfortriscve:
 		return AttackCategoryCVE
-	case AttackTypeNetfortriscve2017:
+	case TechTypeNetfortriscve2017:
 		return AttackCategoryCVE
-	case AttackTypeNetgatecve:
+	case TechTypeNetgatecve:
 		return AttackCategoryCVE
-	case AttackTypeNetgear:
+	case TechTypeNetgear:
 		return AttackCategoryWeb
-	case AttackTypeNetgearcve2016:
+	case TechTypeNetgearcve2016:
 		return AttackCategoryCVE
-	case AttackTypeNetgearpanel:
+	case TechTypeNetgearpanel:
 		return AttackCategoryWeb
-	case AttackTypeNetgearxss:
+	case TechTypeNetgearxss:
 		return AttackCategoryXSS
-	case AttackTypeNetgenie:
+	case TechTypeNetgenie:
 		return AttackCategoryWeb
-	case AttackTypeNethermind:
+	case TechTypeNethermind:
 		return AttackCategoryWeb
-	case AttackTypeNetic:
+	case TechTypeNetic:
 		return AttackCategoryWeb
-	case AttackTypeNetis:
+	case TechTypeNetis:
 		return AttackCategoryWeb
-	case AttackTypeNetlifypanel:
+	case TechTypeNetlifypanel:
 		return AttackCategoryWeb
-	case AttackTypeNetlifytakeover:
+	case TechTypeNetlifytakeover:
 		return AttackCategoryWeb
-	case AttackTypeNetlifytokenSpray:
+	case TechTypeNetlifytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeNetmaker:
+	case TechTypeNetmaker:
 		return AttackCategoryWeb
-	case AttackTypeNetmanrockmongo:
+	case TechTypeNetmanrockmongo:
 		return AttackCategoryWeb
-	case AttackTypeNetmask:
+	case TechTypeNetmask:
 		return AttackCategoryWeb
-	case AttackTypeNetmaskProject:
+	case TechTypeNetmaskProject:
 		return AttackCategoryWeb
-	case AttackTypeNetrispanel:
+	case TechTypeNetrispanel:
 		return AttackCategoryWeb
-	case AttackTypeNetscaler:
+	case TechTypeNetscaler:
 		return AttackCategoryWeb
-	case AttackTypeNetscaller:
+	case TechTypeNetscaller:
 		return AttackCategoryWeb
-	case AttackTypeNetsparkermisconfig:
+	case TechTypeNetsparkermisconfig:
 		return AttackCategoryWeb
-	case AttackTypeNetsparkerpanel:
+	case TechTypeNetsparkerpanel:
 		return AttackCategoryWeb
-	case AttackTypeNetsus:
+	case TechTypeNetsus:
 		return AttackCategoryWeb
-	case AttackTypeNetsweeper:
+	case TechTypeNetsweeper:
 		return AttackCategoryWeb
-	case AttackTypeNetsweepernps:
+	case TechTypeNetsweepernps:
 		return AttackCategoryWeb
-	case AttackTypeNette:
+	case TechTypeNette:
 		return AttackCategoryWeb
-	case AttackTypeNetvibesosint:
+	case TechTypeNetvibesosint:
 		return AttackCategoryOsint
-	case AttackTypeNetweaver:
+	case TechTypeNetweaver:
 		return AttackCategoryWeb
-	case AttackTypeNetwork:
+	case TechTypeNetwork:
 		return AttackCategoryWeb
-	case AttackTypeNetworkdbtokenSpray:
+	case TechTypeNetworkdbtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeNetworkdns:
+	case TechTypeNetworkdns:
 		return AttackCategoryDNS
-	case AttackTypeNetworkedb:
+	case TechTypeNetworkedb:
 		return AttackCategoryWeb
-	case AttackTypeNetworkenum:
+	case TechTypeNetworkenum:
 		return AttackCategoryWeb
-	case AttackTypeNetworkjs:
+	case TechTypeNetworkjs:
 		return AttackCategoryWeb
-	case AttackTypeNetworkpanel:
+	case TechTypeNetworkpanel:
 		return AttackCategoryWeb
-	case AttackTypeNetworkssh:
+	case TechTypeNetworkssh:
 		return AttackCategorySSH
-	case AttackTypeNever5Cve:
+	case TechTypeNever5Cve:
 		return AttackCategoryCVE
-	case AttackTypeNevmacve:
+	case TechTypeNevmacve:
 		return AttackCategoryCVE
-	case AttackTypeNewYearFireworkProjectcve:
+	case TechTypeNewYearFireworkProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeNewgroundsosint:
+	case TechTypeNewgroundsosint:
 		return AttackCategoryOsint
-	case AttackTypeNewmeetosint:
+	case TechTypeNewmeetosint:
 		return AttackCategoryOsint
-	case AttackTypeNewrelic:
+	case TechTypeNewrelic:
 		return AttackCategoryWeb
-	case AttackTypeNewrelicnotolytix:
+	case TechTypeNewrelicnotolytix:
 		return AttackCategoryWeb
-	case AttackTypeNewsletter:
+	case TechTypeNewsletter:
 		return AttackCategoryWeb
-	case AttackTypeNewspaper:
+	case TechTypeNewspaper:
 		return AttackCategoryWeb
-	case AttackTypeNewstatpress:
+	case TechTypeNewstatpress:
 		return AttackCategoryWeb
-	case AttackTypeNewstatpressProjectcve2015:
+	case TechTypeNewstatpressProjectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeNewstatpressProjectcve2022:
+	case TechTypeNewstatpressProjectcve2022:
 		return AttackCategoryCVE
-	case AttackTypeNextTerminal:
+	case TechTypeNextTerminal:
 		return AttackCategoryWeb
-	case AttackTypeNextchatwpscan:
+	case TechTypeNextchatwpscan:
 		return AttackCategoryWeb
-	case AttackTypeNextcloud:
+	case TechTypeNextcloud:
 		return AttackCategoryCloud
-	case AttackTypeNextgen:
+	case TechTypeNextgen:
 		return AttackCategoryWeb
-	case AttackTypeNextgenGallery:
+	case TechTypeNextgenGallery:
 		return AttackCategoryWeb
-	case AttackTypeNextjs:
+	case TechTypeNextjs:
 		return AttackCategoryWeb
-	case AttackTypeNextnexus:
+	case TechTypeNextnexus:
 		return AttackCategoryWeb
-	case AttackTypeNexus:
+	case TechTypeNexus:
 		return AttackCategoryWeb
-	case AttackTypeNexusdb:
+	case TechTypeNexusdb:
 		return AttackCategoryWeb
-	case AttackTypeNexusphp:
+	case TechTypeNexusphp:
 		return AttackCategoryPHP
-	case AttackTypeNexustech:
+	case TechTypeNexustech:
 		return AttackCategoryWeb
-	case AttackTypeNginx:
+	case TechTypeNginx:
 		return AttackCategoryWeb
-	case AttackTypeNginxconfig:
+	case TechTypeNginxconfig:
 		return AttackCategoryWeb
-	case AttackTypeNginxedb:
+	case TechTypeNginxedb:
 		return AttackCategoryWeb
-	case AttackTypeNginxexposure:
+	case TechTypeNginxexposure:
 		return AttackCategoryWeb
-	case AttackTypeNginxnginx:
+	case TechTypeNginxnginx:
 		return AttackCategoryWeb
-	case AttackTypeNginxtech:
+	case TechTypeNginxtech:
 		return AttackCategoryWeb
-	case AttackTypeNginxwebui:
+	case TechTypeNginxwebui:
 		return AttackCategoryWeb
-	case AttackTypeNgroktakeovertakeovertakeover:
+	case TechTypeNgroktakeovertakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeNh:
+	case TechTypeNh:
 		return AttackCategoryWeb
-	case AttackTypeNi:
+	case TechTypeNi:
 		return AttackCategoryWeb
-	case AttackTypeNiagara:
+	case TechTypeNiagara:
 		return AttackCategoryWeb
-	case AttackTypeNice:
+	case TechTypeNice:
 		return AttackCategoryWeb
-	case AttackTypeNiceforyoucve:
+	case TechTypeNiceforyoucve:
 		return AttackCategoryCVE
-	case AttackTypeNifi:
+	case TechTypeNifi:
 		return AttackCategoryWeb
-	case AttackTypeNifitech:
+	case TechTypeNifitech:
 		return AttackCategoryWeb
-	case AttackTypeNihbuatjajanosint:
+	case TechTypeNihbuatjajanosint:
 		return AttackCategoryOsint
-	case AttackTypeNihcve:
+	case TechTypeNihcve:
 		return AttackCategoryCVE
-	case AttackTypeNimble:
+	case TechTypeNimble:
 		return AttackCategoryWeb
-	case AttackTypeNimplant:
+	case TechTypeNimplant:
 		return AttackCategoryWeb
-	case AttackTypeNinja:
+	case TechTypeNinja:
 		return AttackCategoryWeb
-	case AttackTypeNinjaForms:
+	case TechTypeNinjaForms:
 		return AttackCategoryWeb
-	case AttackTypeNinjaformacve2018:
+	case TechTypeNinjaformacve2018:
 		return AttackCategoryCVE
-	case AttackTypeNinjaformscve2021:
+	case TechTypeNinjaformscve2021:
 		return AttackCategoryCVE
-	case AttackTypeNinjaformscve2023:
+	case TechTypeNinjaformscve2023:
 		return AttackCategoryCVE
-	case AttackTypeNirwebSupport:
+	case TechTypeNirwebSupport:
 		return AttackCategoryWeb
-	case AttackTypeNirwebcve2022:
+	case TechTypeNirwebcve2022:
 		return AttackCategoryCVE
-	case AttackTypeNitecrewMastodonInstanceosint:
+	case TechTypeNitecrewMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeNitely:
+	case TechTypeNitely:
 		return AttackCategoryWeb
-	case AttackTypeNiteothemescve:
+	case TechTypeNiteothemescve:
 		return AttackCategoryCVE
-	case AttackTypeNj2000DefaultLogin:
+	case TechTypeNj2000DefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeNnruosint:
+	case TechTypeNnruosint:
 		return AttackCategoryOsint
-	case AttackTypeNocodb:
+	case TechTypeNocodb:
 		return AttackCategoryWeb
-	case AttackTypeNode:
+	case TechTypeNode:
 		return AttackCategoryWeb
-	case AttackTypeNodeRed:
+	case TechTypeNodeRed:
 		return AttackCategoryWeb
-	case AttackTypeNodeRedDashboard:
+	case TechTypeNodeRedDashboard:
 		return AttackCategoryWeb
-	case AttackTypeNodeRedDashboardnotion:
+	case TechTypeNodeRedDashboardnotion:
 		return AttackCategoryWeb
-	case AttackTypeNodeSrvProject:
+	case TechTypeNodeSrvProject:
 		return AttackCategoryWeb
-	case AttackTypeNodeJs:
+	case TechTypeNodeJs:
 		return AttackCategoryWeb
-	case AttackTypeNodeJscve:
+	case TechTypeNodeJscve:
 		return AttackCategoryCVE
-	case AttackTypeNodeJscve2015:
+	case TechTypeNodeJscve2015:
 		return AttackCategoryCVE
-	case AttackTypeNodeJscve2018:
+	case TechTypeNodeJscve2018:
 		return AttackCategoryCVE
-	case AttackTypeNodeJscve2019:
+	case TechTypeNodeJscve2019:
 		return AttackCategoryCVE
-	case AttackTypeNodeJscve2021:
+	case TechTypeNodeJscve2021:
 		return AttackCategoryCVE
-	case AttackTypeNodeJscve2022:
+	case TechTypeNodeJscve2022:
 		return AttackCategoryCVE
-	case AttackTypeNodeJscve2023:
+	case TechTypeNodeJscve2023:
 		return AttackCategoryCVE
-	case AttackTypeNodebb:
+	case TechTypeNodebb:
 		return AttackCategoryWeb
-	case AttackTypeNodejs:
+	case TechTypeNodejs:
 		return AttackCategoryWeb
-	case AttackTypeNodenpm:
+	case TechTypeNodenpm:
 		return AttackCategoryWeb
-	case AttackTypeNodered:
+	case TechTypeNodered:
 		return AttackCategoryWeb
-	case AttackTypeNodogsplashcve2023:
+	case TechTypeNodogsplashcve2023:
 		return AttackCategoryCVE
-	case AttackTypeNoescapepanel:
+	case TechTypeNoescapepanel:
 		return AttackCategoryWeb
-	case AttackTypeNoothemecve:
+	case TechTypeNoothemecve:
 		return AttackCategoryCVE
-	case AttackTypeNopcommerce:
+	case TechTypeNopcommerce:
 		return AttackCategoryRCE
-	case AttackTypeNoptincve2021:
+	case TechTypeNoptincve2021:
 		return AttackCategoryCVE
-	case AttackTypeNordex:
+	case TechTypeNordex:
 		return AttackCategoryWeb
-	case AttackTypeNordpass:
+	case TechTypeNordpass:
 		return AttackCategoryWeb
-	case AttackTypeNormhostpanel:
+	case TechTypeNormhostpanel:
 		return AttackCategoryWeb
-	case AttackTypeNortek:
+	case TechTypeNortek:
 		return AttackCategoryWeb
-	case AttackTypeNortekcontrol:
+	case TechTypeNortekcontrol:
 		return AttackCategoryWeb
-	case AttackTypeNortekcontrolcve:
+	case TechTypeNortekcontrolcve:
 		return AttackCategoryCVE
-	case AttackTypeNortekcontrolcve2022:
+	case TechTypeNortekcontrolcve2022:
 		return AttackCategoryCVE
-	case AttackTypeNortekcontrolpanel:
+	case TechTypeNortekcontrolpanel:
 		return AttackCategoryWeb
-	case AttackTypeNorton:
+	case TechTypeNorton:
 		return AttackCategoryWeb
-	case AttackTypeNosql:
+	case TechTypeNosql:
 		return AttackCategorySqlInjection
-	case AttackTypeNosqli:
+	case TechTypeNosqli:
 		return AttackCategorySqlInjection
-	case AttackTypeNotabugosint:
+	case TechTypeNotabugosint:
 		return AttackCategoryOsint
-	case AttackTypeNotebook:
+	case TechTypeNotebook:
 		return AttackCategoryWeb
-	case AttackTypeNoteosint:
+	case TechTypeNoteosint:
 		return AttackCategoryOsint
-	case AttackTypeNotificationx:
+	case TechTypeNotificationx:
 		return AttackCategoryWeb
-	case AttackTypeNotificationxSqlInjectionwpscan:
+	case TechTypeNotificationxSqlInjectionwpscan:
 		return AttackCategorySqlInjection
-	case AttackTypeNotion:
+	case TechTypeNotion:
 		return AttackCategoryWeb
-	case AttackTypeNovius:
+	case TechTypeNovius:
 		return AttackCategoryWeb
-	case AttackTypeNoviusOs:
+	case TechTypeNoviusOs:
 		return AttackCategoryWeb
-	case AttackTypeNovnc:
+	case TechTypeNovnc:
 		return AttackCategoryWeb
-	case AttackTypeNovncpanel:
+	case TechTypeNovncpanel:
 		return AttackCategoryWeb
-	case AttackTypeNovus:
+	case TechTypeNovus:
 		return AttackCategoryWeb
-	case AttackTypeNownodestokenSpray:
+	case TechTypeNownodestokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeNozominp:
+	case TechTypeNozominp:
 		return AttackCategoryWeb
-	case AttackTypeNperf:
+	case TechTypeNperf:
 		return AttackCategoryWeb
-	case AttackTypeNpm:
+	case TechTypeNpm:
 		return AttackCategoryWeb
-	case AttackTypeNpmexposure:
+	case TechTypeNpmexposure:
 		return AttackCategoryWeb
-	case AttackTypeNpmjsosint:
+	case TechTypeNpmjsosint:
 		return AttackCategoryOsint
-	case AttackTypeNpmtokenSpray:
+	case TechTypeNpmtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeNportnsq:
+	case TechTypeNportnsq:
 		return AttackCategoryWeb
-	case AttackTypeNsdns:
+	case TechTypeNsdns:
 		return AttackCategoryDNS
-	case AttackTypeNsenter:
+	case TechTypeNsenter:
 		return AttackCategoryWeb
-	case AttackTypeNsquacve:
+	case TechTypeNsquacve:
 		return AttackCategoryCVE
-	case AttackTypeNtop:
+	case TechTypeNtop:
 		return AttackCategoryWeb
-	case AttackTypeNtopng:
+	case TechTypeNtopng:
 		return AttackCategoryWeb
-	case AttackTypeNtopngcve2021:
+	case TechTypeNtopngcve2021:
 		return AttackCategoryCVE
-	case AttackTypeNuget:
+	case TechTypeNuget:
 		return AttackCategoryWeb
-	case AttackTypeNuovo:
+	case TechTypeNuovo:
 		return AttackCategoryWeb
-	case AttackTypeNutanix:
+	case TechTypeNutanix:
 		return AttackCategoryWeb
-	case AttackTypeNuuo:
+	case TechTypeNuuo:
 		return AttackCategoryWeb
-	case AttackTypeNuuocve2022:
+	case TechTypeNuuocve2022:
 		return AttackCategoryCVE
-	case AttackTypeNuuorce:
+	case TechTypeNuuorce:
 		return AttackCategoryRCE
-	case AttackTypeNuxeo:
+	case TechTypeNuxeo:
 		return AttackCategoryWeb
-	case AttackTypeNuxeopanel:
+	case TechTypeNuxeopanel:
 		return AttackCategoryWeb
-	case AttackTypeNuxtjshuntr:
+	case TechTypeNuxtjshuntr:
 		return AttackCategoryWeb
-	case AttackTypeNuxtjsrce:
+	case TechTypeNuxtjsrce:
 		return AttackCategoryRCE
-	case AttackTypeNvrmini:
+	case TechTypeNvrmini:
 		return AttackCategoryWeb
-	case AttackTypeNvrsolo:
+	case TechTypeNvrsolo:
 		return AttackCategoryWeb
-	case AttackTypeNweb2Fax:
+	case TechTypeNweb2Fax:
 		return AttackCategoryWeb
-	case AttackTypeNystudio107:
+	case TechTypeNystudio107:
 		return AttackCategoryWeb
-	case AttackTypeNystudio107Panel:
+	case TechTypeNystudio107Panel:
 		return AttackCategoryWeb
-	case AttackTypeNytimestokenSpray:
+	case TechTypeNytimestokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeNzbgetpanel:
+	case TechTypeNzbgetpanel:
 		return AttackCategoryWeb
-	case AttackTypeO2:
+	case TechTypeO2:
 		return AttackCategoryWeb
-	case AttackTypeOa:
+	case TechTypeOa:
 		return AttackCategoryWeb
-	case AttackTypeOaecology:
+	case TechTypeOaecology:
 		return AttackCategoryWeb
-	case AttackTypeOahms:
+	case TechTypeOahms:
 		return AttackCategoryWeb
-	case AttackTypeOam:
+	case TechTypeOam:
 		return AttackCategoryWeb
-	case AttackTypeOas:
+	case TechTypeOas:
 		return AttackCategoryWeb
-	case AttackTypeOast:
+	case TechTypeOast:
 		return AttackCategoryWeb
-	case AttackTypeOastcluster:
+	case TechTypeOastcluster:
 		return AttackCategoryWeb
-	case AttackTypeOastcopyparty:
+	case TechTypeOastcopyparty:
 		return AttackCategoryWeb
-	case AttackTypeOastcve:
+	case TechTypeOastcve:
 		return AttackCategoryCVE
-	case AttackTypeOastcve2016:
+	case TechTypeOastcve2016:
 		return AttackCategoryCVE
-	case AttackTypeOastcve2017:
+	case TechTypeOastcve2017:
 		return AttackCategoryCVE
-	case AttackTypeOastcve2020:
+	case TechTypeOastcve2020:
 		return AttackCategoryCVE
-	case AttackTypeOastcve2021:
+	case TechTypeOastcve2021:
 		return AttackCategoryCVE
-	case AttackTypeOastcve2023:
+	case TechTypeOastcve2023:
 		return AttackCategoryCVE
-	case AttackTypeOastedb:
+	case TechTypeOastedb:
 		return AttackCategoryWeb
-	case AttackTypeOastfastjson:
+	case TechTypeOastfastjson:
 		return AttackCategoryWeb
-	case AttackTypeOastfinereport:
+	case TechTypeOastfinereport:
 		return AttackCategoryWeb
-	case AttackTypeOasthikvision:
+	case TechTypeOasthikvision:
 		return AttackCategoryWeb
-	case AttackTypeOastiot:
+	case TechTypeOastiot:
 		return AttackCategoryIoT
-	case AttackTypeOastlandray:
+	case TechTypeOastlandray:
 		return AttackCategoryWeb
-	case AttackTypeOastlog4J:
+	case TechTypeOastlog4J:
 		return AttackCategoryWeb
-	case AttackTypeOastmagentomagentomagentometersphere:
+	case TechTypeOastmagentomagentomagentometersphere:
 		return AttackCategoryWeb
-	case AttackTypeOastmetinfo:
+	case TechTypeOastmetinfo:
 		return AttackCategoryWeb
-	case AttackTypeOastmiscellaneous:
+	case TechTypeOastmiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypeOastmpsec:
+	case TechTypeOastmpsec:
 		return AttackCategoryWeb
-	case AttackTypeOastrce:
+	case TechTypeOastrce:
 		return AttackCategoryRCE
-	case AttackTypeOastsangfor:
+	case TechTypeOastsangfor:
 		return AttackCategoryWeb
-	case AttackTypeOastseeyon:
+	case TechTypeOastseeyon:
 		return AttackCategoryWeb
-	case AttackTypeOastsqli:
+	case TechTypeOastsqli:
 		return AttackCategorySqlInjection
-	case AttackTypeOastsslvpn:
+	case TechTypeOastsslvpn:
 		return AttackCategoryVPN
-	case AttackTypeOastssrf:
+	case TechTypeOastssrf:
 		return AttackCategoryWeb
-	case AttackTypeOasttplus:
+	case TechTypeOasttplus:
 		return AttackCategoryWeb
-	case AttackTypeOastunauth:
+	case TechTypeOastunauth:
 		return AttackCategoryWeb
-	case AttackTypeOastvmware:
+	case TechTypeOastvmware:
 		return AttackCategoryWeb
-	case AttackTypeOastwebui:
+	case TechTypeOastwebui:
 		return AttackCategoryWeb
-	case AttackTypeOastzzzcms:
+	case TechTypeOastzzzcms:
 		return AttackCategoryWeb
-	case AttackTypeOauth:
+	case TechTypeOauth:
 		return AttackCategoryWeb
-	case AttackTypeOauth2:
+	case TechTypeOauth2:
 		return AttackCategoryWeb
-	case AttackTypeOauthstackhawk:
+	case TechTypeOauthstackhawk:
 		return AttackCategoryWeb
-	case AttackTypeOauthtech:
+	case TechTypeOauthtech:
 		return AttackCategoryWeb
-	case AttackTypeObcs:
+	case TechTypeObcs:
 		return AttackCategoryWeb
-	case AttackTypeObiz:
+	case TechTypeObiz:
 		return AttackCategoryWeb
-	case AttackTypeObjectinjectionpacketstorm:
+	case TechTypeObjectinjectionpacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeObr:
+	case TechTypeObr:
 		return AttackCategoryWeb
-	case AttackTypeObsidiancve:
+	case TechTypeObsidiancve:
 		return AttackCategoryCVE
-	case AttackTypeOceanExtra:
+	case TechTypeOceanExtra:
 		return AttackCategoryWeb
-	case AttackTypeOceanwpcve2021:
+	case TechTypeOceanwpcve2021:
 		return AttackCategoryCVE
-	case AttackTypeOcomon:
+	case TechTypeOcomon:
 		return AttackCategoryWeb
-	case AttackTypeOcomonProjectocsInventory:
+	case TechTypeOcomonProjectocsInventory:
 		return AttackCategoryWeb
-	case AttackTypeOctobercms:
+	case TechTypeOctobercms:
 		return AttackCategoryWeb
-	case AttackTypeOctobercmstech:
+	case TechTypeOctobercmstech:
 		return AttackCategoryWeb
-	case AttackTypeOctoprint:
+	case TechTypeOctoprint:
 		return AttackCategoryWeb
-	case AttackTypeOdm:
+	case TechTypeOdm:
 		return AttackCategoryWeb
-	case AttackTypeOdoo:
+	case TechTypeOdoo:
 		return AttackCategoryWeb
-	case AttackTypeOdoopanel:
+	case TechTypeOdoopanel:
 		return AttackCategoryWeb
-	case AttackTypeOdudecve2022:
+	case TechTypeOdudecve2022:
 		return AttackCategoryCVE
-	case AttackTypeOecmsProjectcve:
+	case TechTypeOecmsProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeOembedwordpress:
+	case TechTypeOembedwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeOfbiz:
+	case TechTypeOfbiz:
 		return AttackCategoryWeb
-	case AttackTypeOfbizcve2020:
+	case TechTypeOfbizcve2020:
 		return AttackCategoryCVE
-	case AttackTypeOffice:
+	case TechTypeOffice:
 		return AttackCategoryWeb
-	case AttackTypeOfficeWebapps:
+	case TechTypeOfficeWebapps:
 		return AttackCategoryWeb
-	case AttackTypeOffice365:
+	case TechTypeOffice365:
 		return AttackCategoryWeb
-	case AttackTypeOfficeserver:
+	case TechTypeOfficeserver:
 		return AttackCategoryWeb
-	case AttackTypeOgc:
+	case TechTypeOgc:
 		return AttackCategoryWeb
-	case AttackTypeOglaszamy24Hplosint:
+	case TechTypeOglaszamy24Hplosint:
 		return AttackCategoryOsint
-	case AttackTypeOgnl:
+	case TechTypeOgnl:
 		return AttackCategoryWeb
-	case AttackTypeOgnlcve2013:
+	case TechTypeOgnlcve2013:
 		return AttackCategoryCVE
-	case AttackTypeOguggosint:
+	case TechTypeOguggosint:
 		return AttackCategoryOsint
-	case AttackTypeOidc:
+	case TechTypeOidc:
 		return AttackCategoryWeb
-	case AttackTypeOidctech:
+	case TechTypeOidctech:
 		return AttackCategoryWeb
-	case AttackTypeOjs:
+	case TechTypeOjs:
 		return AttackCategoryWeb
-	case AttackTypeOjstech:
+	case TechTypeOjstech:
 		return AttackCategoryWeb
-	case AttackTypeOki:
+	case TechTypeOki:
 		return AttackCategoryWeb
-	case AttackTypeOkidokiosint:
+	case TechTypeOkidokiosint:
 		return AttackCategoryOsint
-	case AttackTypeOkruosint:
+	case TechTypeOkruosint:
 		return AttackCategoryOsint
-	case AttackTypeOkta:
+	case TechTypeOkta:
 		return AttackCategoryWeb
-	case AttackTypeOliver:
+	case TechTypeOliver:
 		return AttackCategoryWeb
-	case AttackTypeOlivettitech:
+	case TechTypeOlivettitech:
 		return AttackCategoryWeb
-	case AttackTypeOllama:
+	case TechTypeOllama:
 		return AttackCategoryWeb
-	case AttackTypeOltpanel:
+	case TechTypeOltpanel:
 		return AttackCategoryWeb
-	case AttackTypeOlxosint:
+	case TechTypeOlxosint:
 		return AttackCategoryOsint
-	case AttackTypeOmi:
+	case TechTypeOmi:
 		return AttackCategoryWeb
-	case AttackTypeOmletosint:
+	case TechTypeOmletosint:
 		return AttackCategoryOsint
-	case AttackTypeOmnia:
+	case TechTypeOmnia:
 		return AttackCategoryWeb
-	case AttackTypeOmniampxpanel:
+	case TechTypeOmniampxpanel:
 		return AttackCategoryWeb
-	case AttackTypeOmnitech:
+	case TechTypeOmnitech:
 		return AttackCategoryWeb
-	case AttackTypeOnPrem:
+	case TechTypeOnPrem:
 		return AttackCategoryWeb
-	case AttackTypeOneblogtech:
+	case TechTypeOneblogtech:
 		return AttackCategoryWeb
-	case AttackTypeOneidentitypanel:
+	case TechTypeOneidentitypanel:
 		return AttackCategoryWeb
-	case AttackTypeOneinstackmisconfig:
+	case TechTypeOneinstackmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeOnelogintokenSpray:
+	case TechTypeOnelogintokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeOnion:
+	case TechTypeOnion:
 		return AttackCategoryWeb
-	case AttackTypeOnkyo:
+	case TechTypeOnkyo:
 		return AttackCategoryWeb
-	case AttackTypeOnlineFireReporting:
+	case TechTypeOnlineFireReporting:
 		return AttackCategoryWeb
-	case AttackTypeOnlineShoppingSystemAdvancedProjectcve2021:
+	case TechTypeOnlineShoppingSystemAdvancedProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeOnlineEventBookingAndReservationSystemProjectcve:
+	case TechTypeOnlineEventBookingAndReservationSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeOnlineEventBookingAndReservationSystemProjectcve2021:
+	case TechTypeOnlineEventBookingAndReservationSystemProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeOnlineFireReportingSystemProjectcve:
+	case TechTypeOnlineFireReportingSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeOnlineFireReportingSystemProjectcve2022:
+	case TechTypeOnlineFireReportingSystemProjectcve2022:
 		return AttackCategoryCVE
-	case AttackTypeOnlineSecurityGuardsHiringSystemProjectcve2023:
+	case TechTypeOnlineSecurityGuardsHiringSystemProjectcve2023:
 		return AttackCategoryCVE
-	case AttackTypeOnlyoffice:
+	case TechTypeOnlyoffice:
 		return AttackCategoryWeb
-	case AttackTypeOnlyofficemisconfig:
+	case TechTypeOnlyofficemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeOnyphetokenSpray:
+	case TechTypeOnyphetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeOobcve:
+	case TechTypeOobcve:
 		return AttackCategoryCVE
-	case AttackTypeOos:
+	case TechTypeOos:
 		return AttackCategoryWeb
-	case AttackTypeOoscve:
+	case TechTypeOoscve:
 		return AttackCategoryCVE
-	case AttackTypeOpache:
+	case TechTypeOpache:
 		return AttackCategoryWeb
-	case AttackTypeOpenEmrcve:
+	case TechTypeOpenEmrcve:
 		return AttackCategoryCVE
-	case AttackTypeOpenEmrcve2023:
+	case TechTypeOpenEmrcve2023:
 		return AttackCategoryCVE
-	case AttackTypeOpenEmropenerp:
+	case TechTypeOpenEmropenerp:
 		return AttackCategoryWeb
-	case AttackTypeOpenRedirect:
+	case TechTypeOpenRedirect:
 		return AttackCategoryWeb
-	case AttackTypeOpenSchool:
+	case TechTypeOpenSchool:
 		return AttackCategoryWeb
-	case AttackTypeOpenXchangecve:
+	case TechTypeOpenXchangecve:
 		return AttackCategoryCVE
-	case AttackTypeOpenXchangepanel:
+	case TechTypeOpenXchangepanel:
 		return AttackCategoryWeb
-	case AttackTypeOpenai:
+	case TechTypeOpenai:
 		return AttackCategoryAI
-	case AttackTypeOpenaitokenSpray:
+	case TechTypeOpenaitokenSpray:
 		return AttackCategoryAI
-	case AttackTypeOpenam:
+	case TechTypeOpenam:
 		return AttackCategoryWeb
-	case AttackTypeOpenautomationsoftwarecve2022:
+	case TechTypeOpenautomationsoftwarecve2022:
 		return AttackCategoryCVE
-	case AttackTypeOpenbbcve2005:
+	case TechTypeOpenbbcve2005:
 		return AttackCategoryCVE
-	case AttackTypeOpenbmcs:
+	case TechTypeOpenbmcs:
 		return AttackCategoryWeb
-	case AttackTypeOpenbmcsssrf:
+	case TechTypeOpenbmcsssrf:
 		return AttackCategoryWeb
-	case AttackTypeOpenbsdcve:
+	case TechTypeOpenbsdcve:
 		return AttackCategoryCVE
-	case AttackTypeOpenbsdjs:
+	case TechTypeOpenbsdjs:
 		return AttackCategoryWeb
-	case AttackTypeOpencart:
+	case TechTypeOpencart:
 		return AttackCategoryWeb
-	case AttackTypeOpencartpanel:
+	case TechTypeOpencartpanel:
 		return AttackCategoryWeb
-	case AttackTypeOpencastpanel:
+	case TechTypeOpencastpanel:
 		return AttackCategoryWeb
-	case AttackTypeOpencats:
+	case TechTypeOpencats:
 		return AttackCategoryWeb
-	case AttackTypeOpencatsdefaultLogin:
+	case TechTypeOpencatsdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeOpencatspanel:
+	case TechTypeOpencatspanel:
 		return AttackCategoryWeb
-	case AttackTypeOpencms:
+	case TechTypeOpencms:
 		return AttackCategoryWeb
-	case AttackTypeOpencmscve:
+	case TechTypeOpencmscve:
 		return AttackCategoryCVE
-	case AttackTypeOpencmscve2023:
+	case TechTypeOpencmscve2023:
 		return AttackCategoryCVE
-	case AttackTypeOpencollectiveosint:
+	case TechTypeOpencollectiveosint:
 		return AttackCategoryOsint
-	case AttackTypeOpencpu:
+	case TechTypeOpencpu:
 		return AttackCategoryWeb
-	case AttackTypeOpenedx:
+	case TechTypeOpenedx:
 		return AttackCategoryWeb
-	case AttackTypeOpenemr:
+	case TechTypeOpenemr:
 		return AttackCategoryWeb
-	case AttackTypeOpenemrinstall:
+	case TechTypeOpenemrinstall:
 		return AttackCategoryWeb
-	case AttackTypeOpenethereum:
+	case TechTypeOpenethereum:
 		return AttackCategoryWeb
-	case AttackTypeOpenfire:
+	case TechTypeOpenfire:
 		return AttackCategoryWeb
-	case AttackTypeOpenframe:
+	case TechTypeOpenframe:
 		return AttackCategoryWeb
-	case AttackTypeOpengearpanel:
+	case TechTypeOpengearpanel:
 		return AttackCategoryWeb
-	case AttackTypeOpengraphrtokenSpray:
+	case TechTypeOpengraphrtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeOpenhabtech:
+	case TechTypeOpenhabtech:
 		return AttackCategoryWeb
-	case AttackTypeOpenid:
+	case TechTypeOpenid:
 		return AttackCategoryWeb
-	case AttackTypeOpenmage:
+	case TechTypeOpenmage:
 		return AttackCategoryWeb
-	case AttackTypeOpenmediavaultoracle:
+	case TechTypeOpenmediavaultoracle:
 		return AttackCategoryWeb
-	case AttackTypeOpenmetadata:
+	case TechTypeOpenmetadata:
 		return AttackCategoryWeb
-	case AttackTypeOpennebula:
+	case TechTypeOpennebula:
 		return AttackCategoryWeb
-	case AttackTypeOpennms:
+	case TechTypeOpennms:
 		return AttackCategoryWeb
-	case AttackTypeOpennmspanel:
+	case TechTypeOpennmspanel:
 		return AttackCategoryWeb
-	case AttackTypeOpenpageranktokenSpray:
+	case TechTypeOpenpageranktokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeOpenproject:
+	case TechTypeOpenproject:
 		return AttackCategoryWeb
-	case AttackTypeOpenrestytech:
+	case TechTypeOpenrestytech:
 		return AttackCategoryWeb
-	case AttackTypeOpensearch:
+	case TechTypeOpensearch:
 		return AttackCategoryWeb
-	case AttackTypeOpenshift:
+	case TechTypeOpenshift:
 		return AttackCategoryWeb
-	case AttackTypeOpensis:
+	case TechTypeOpensis:
 		return AttackCategoryWeb
-	case AttackTypeOpensiscve2021:
+	case TechTypeOpensiscve2021:
 		return AttackCategoryCVE
-	case AttackTypeOpensmtpd:
+	case TechTypeOpensmtpd:
 		return AttackCategoryWeb
-	case AttackTypeOpensourceosint:
+	case TechTypeOpensourceosint:
 		return AttackCategoryRCE
-	case AttackTypeOpenssh:
+	case TechTypeOpenssh:
 		return AttackCategorySSH
-	case AttackTypeOpenssltech:
+	case TechTypeOpenssltech:
 		return AttackCategoryWeb
-	case AttackTypeOpensso:
+	case TechTypeOpensso:
 		return AttackCategoryWeb
-	case AttackTypeOpenstack:
+	case TechTypeOpenstack:
 		return AttackCategoryWeb
-	case AttackTypeOpenstackcve2021:
+	case TechTypeOpenstackcve2021:
 		return AttackCategoryCVE
-	case AttackTypeOpenstackexposure:
+	case TechTypeOpenstackexposure:
 		return AttackCategoryWeb
-	case AttackTypeOpenstreetmaposint:
+	case TechTypeOpenstreetmaposint:
 		return AttackCategoryOsint
-	case AttackTypeOpensymphonycve2007:
+	case TechTypeOpensymphonycve2007:
 		return AttackCategoryCVE
-	case AttackTypeOpentext:
+	case TechTypeOpentext:
 		return AttackCategoryWeb
-	case AttackTypeOpentouch:
+	case TechTypeOpentouch:
 		return AttackCategoryWeb
-	case AttackTypeOpentsdb:
+	case TechTypeOpentsdb:
 		return AttackCategoryWeb
-	case AttackTypeOpenvas:
+	case TechTypeOpenvas:
 		return AttackCategoryWeb
-	case AttackTypeOpenvpn:
+	case TechTypeOpenvpn:
 		return AttackCategoryVPN
-	case AttackTypeOpenvzpanel:
+	case TechTypeOpenvzpanel:
 		return AttackCategoryWeb
-	case AttackTypeOpenweathertokenSpray:
+	case TechTypeOpenweathertokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeOpenwebui:
+	case TechTypeOpenwebui:
 		return AttackCategoryWeb
-	case AttackTypeOpenwire:
+	case TechTypeOpenwire:
 		return AttackCategoryWeb
-	case AttackTypeOpenwrt:
+	case TechTypeOpenwrt:
 		return AttackCategoryWeb
-	case AttackTypeOpenx:
+	case TechTypeOpenx:
 		return AttackCategoryWeb
-	case AttackTypeOpera:
+	case TechTypeOpera:
 		return AttackCategoryWeb
-	case AttackTypeOpggosint:
+	case TechTypeOpggosint:
 		return AttackCategoryOsint
-	case AttackTypeOpinio:
+	case TechTypeOpinio:
 		return AttackCategoryWeb
-	case AttackTypeOpm:
+	case TechTypeOpm:
 		return AttackCategoryWeb
-	case AttackTypeOpms:
+	case TechTypeOpms:
 		return AttackCategoryWeb
-	case AttackTypeOpnsense:
+	case TechTypeOpnsense:
 		return AttackCategoryWeb
-	case AttackTypeOpnsensecve:
+	case TechTypeOpnsensecve:
 		return AttackCategoryCVE
-	case AttackTypeOpsgenietokenSpray:
+	case TechTypeOpsgenietokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeOpsview:
+	case TechTypeOpsview:
 		return AttackCategoryWeb
-	case AttackTypeOptergycve:
+	case TechTypeOptergycve:
 		return AttackCategoryCVE
-	case AttackTypeOptimizely:
+	case TechTypeOptimizely:
 		return AttackCategoryWeb
-	case AttackTypeOptimizelytokenSpray:
+	case TechTypeOptimizelytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeOptimizingmatterscve:
+	case TechTypeOptimizingmatterscve:
 		return AttackCategoryCVE
-	case AttackTypeOracle:
+	case TechTypeOracle:
 		return AttackCategoryWeb
-	case AttackTypeOracleconfig:
+	case TechTypeOracleconfig:
 		return AttackCategoryWeb
-	case AttackTypeOraclecve:
+	case TechTypeOraclecve:
 		return AttackCategoryCVE
-	case AttackTypeOraclecve2013:
+	case TechTypeOraclecve2013:
 		return AttackCategoryCVE
-	case AttackTypeOracletech:
+	case TechTypeOracletech:
 		return AttackCategoryWeb
-	case AttackTypeOrangeforum:
+	case TechTypeOrangeforum:
 		return AttackCategoryWeb
-	case AttackTypeOrangehrmmisconfig:
+	case TechTypeOrangehrmmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeOrangescrum:
+	case TechTypeOrangescrum:
 		return AttackCategoryWeb
-	case AttackTypeOrbintelligencetokenSpray:
+	case TechTypeOrbintelligencetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeOrbiteam:
+	case TechTypeOrbiteam:
 		return AttackCategoryWeb
-	case AttackTypeOrbysosint:
+	case TechTypeOrbysosint:
 		return AttackCategoryOsint
-	case AttackTypeOrchard:
+	case TechTypeOrchard:
 		return AttackCategoryWeb
-	case AttackTypeOrchardmisconfig:
+	case TechTypeOrchardmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeOrchardprojectcve2011:
+	case TechTypeOrchardprojectcve2011:
 		return AttackCategoryCVE
-	case AttackTypeOrchestratorcve2021:
+	case TechTypeOrchestratorcve2021:
 		return AttackCategoryCVE
-	case AttackTypeOrchid:
+	case TechTypeOrchid:
 		return AttackCategoryWeb
-	case AttackTypeOrcus:
+	case TechTypeOrcus:
 		return AttackCategoryWeb
-	case AttackTypeOrcusratc2:
+	case TechTypeOrcusratc2:
 		return AttackCategoryWeb
-	case AttackTypeOrpakpanel:
+	case TechTypeOrpakpanel:
 		return AttackCategoryWeb
-	case AttackTypeOs:
+	case TechTypeOs:
 		return AttackCategoryWeb
-	case AttackTypeOs4Ed:
+	case TechTypeOs4Ed:
 		return AttackCategoryWeb
-	case AttackTypeOs4Edcve:
+	case TechTypeOs4Edcve:
 		return AttackCategoryCVE
-	case AttackTypeOs4Edpanel:
+	case TechTypeOs4Edpanel:
 		return AttackCategoryWeb
-	case AttackTypeOsclasscve2014:
+	case TechTypeOsclasscve2014:
 		return AttackCategoryCVE
-	case AttackTypeOscommerce:
+	case TechTypeOscommerce:
 		return AttackCategoryRCE
-	case AttackTypeOsgeocve2021:
+	case TechTypeOsgeocve2021:
 		return AttackCategoryCVE
-	case AttackTypeOsgeocve2023:
+	case TechTypeOsgeocve2023:
 		return AttackCategoryCVE
-	case AttackTypeOsgeopacketstorm:
+	case TechTypeOsgeopacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeOsgeotech:
+	case TechTypeOsgeotech:
 		return AttackCategoryWeb
-	case AttackTypeOsghs:
+	case TechTypeOsghs:
 		return AttackCategoryWeb
-	case AttackTypeOsint:
+	case TechTypeOsint:
 		return AttackCategoryOsint
-	case AttackTypeOsintArchived:
+	case TechTypeOsintArchived:
 		return AttackCategoryOsint
-	case AttackTypeOsintArt:
+	case TechTypeOsintArt:
 		return AttackCategoryOsint
-	case AttackTypeOsintBlog:
+	case TechTypeOsintBlog:
 		return AttackCategoryOsint
-	case AttackTypeOsintBusiness:
+	case TechTypeOsintBusiness:
 		return AttackCategoryOsint
-	case AttackTypeOsintCoding:
+	case TechTypeOsintCoding:
 		return AttackCategoryOsint
-	case AttackTypeOsintDating:
+	case TechTypeOsintDating:
 		return AttackCategoryOsint
-	case AttackTypeOsintFinance:
+	case TechTypeOsintFinance:
 		return AttackCategoryOsint
-	case AttackTypeOsintGaming:
+	case TechTypeOsintGaming:
 		return AttackCategoryOsint
-	case AttackTypeOsintHealth:
+	case TechTypeOsintHealth:
 		return AttackCategoryOsint
-	case AttackTypeOsintHobby:
+	case TechTypeOsintHobby:
 		return AttackCategoryOsint
-	case AttackTypeOsintImage:
+	case TechTypeOsintImage:
 		return AttackCategoryOsint
-	case AttackTypeOsintImages:
+	case TechTypeOsintImages:
 		return AttackCategoryOsint
-	case AttackTypeOsintMisc:
+	case TechTypeOsintMisc:
 		return AttackCategoryOsint
-	case AttackTypeOsintMusic:
+	case TechTypeOsintMusic:
 		return AttackCategoryOsint
-	case AttackTypeOsintNews:
+	case TechTypeOsintNews:
 		return AttackCategoryOsint
-	case AttackTypeOsintP2P:
+	case TechTypeOsintP2P:
 		return AttackCategoryOsint
-	case AttackTypeOsintPolitical:
+	case TechTypeOsintPolitical:
 		return AttackCategoryOsint
-	case AttackTypeOsintPorn:
+	case TechTypeOsintPorn:
 		return AttackCategoryOsint
-	case AttackTypeOsintShopping:
+	case TechTypeOsintShopping:
 		return AttackCategoryOsint
-	case AttackTypeOsintSocial:
+	case TechTypeOsintSocial:
 		return AttackCategoryOsint
-	case AttackTypeOsintSocialosint:
+	case TechTypeOsintSocialosint:
 		return AttackCategoryOsint
-	case AttackTypeOsintTech:
+	case TechTypeOsintTech:
 		return AttackCategoryOsint
-	case AttackTypeOsintVideo:
+	case TechTypeOsintVideo:
 		return AttackCategoryOsint
-	case AttackTypeOsintosint:
+	case TechTypeOsintosint:
 		return AttackCategoryOsint
-	case AttackTypeOsintphishing:
+	case TechTypeOsintphishing:
 		return AttackCategoryOsint
-	case AttackTypeOsjs:
+	case TechTypeOsjs:
 		return AttackCategoryWeb
-	case AttackTypeOsnexus:
+	case TechTypeOsnexus:
 		return AttackCategoryWeb
-	case AttackTypeOsquery:
+	case TechTypeOsquery:
 		return AttackCategoryWeb
-	case AttackTypeOss:
+	case TechTypeOss:
 		return AttackCategoryWeb
-	case AttackTypeOsscache:
+	case TechTypeOsscache:
 		return AttackCategoryWeb
-	case AttackTypeOsscve:
+	case TechTypeOsscve:
 		return AttackCategoryCVE
-	case AttackTypeOsscve2020:
+	case TechTypeOsscve2020:
 		return AttackCategoryCVE
-	case AttackTypeOsscve2021:
+	case TechTypeOsscve2021:
 		return AttackCategoryCVE
-	case AttackTypeOssdedecmsdedecms:
+	case TechTypeOssdedecmsdedecms:
 		return AttackCategoryWeb
-	case AttackTypeOssdubbo:
+	case TechTypeOssdubbo:
 		return AttackCategoryWeb
-	case AttackTypeOssgeoserver:
+	case TechTypeOssgeoserver:
 		return AttackCategoryWeb
-	case AttackTypeOsshuatian:
+	case TechTypeOsshuatian:
 		return AttackCategorySSH
-	case AttackTypeOsshuawei:
+	case TechTypeOsshuawei:
 		return AttackCategorySSH
-	case AttackTypeOssjndi:
+	case TechTypeOssjndi:
 		return AttackCategoryWeb
-	case AttackTypeOssjolokia:
+	case TechTypeOssjolokia:
 		return AttackCategoryWeb
-	case AttackTypeOssjsf:
+	case TechTypeOssjsf:
 		return AttackCategoryWeb
-	case AttackTypeOssmida:
+	case TechTypeOssmida:
 		return AttackCategoryWeb
-	case AttackTypeOssmisconfig:
+	case TechTypeOssmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeOssofbiz:
+	case TechTypeOssofbiz:
 		return AttackCategoryWeb
-	case AttackTypeOssoracle:
+	case TechTypeOssoracle:
 		return AttackCategoryWeb
-	case AttackTypeOsspanel:
+	case TechTypeOsspanel:
 		return AttackCategoryWeb
-	case AttackTypeOsssurreal:
+	case TechTypeOsssurreal:
 		return AttackCategoryWeb
-	case AttackTypeOsstech:
+	case TechTypeOsstech:
 		return AttackCategoryWeb
-	case AttackTypeOssxss:
+	case TechTypeOssxss:
 		return AttackCategoryXSS
-	case AttackTypeOsticket:
+	case TechTypeOsticket:
 		return AttackCategoryWeb
-	case AttackTypeOsticketpanel:
+	case TechTypeOsticketpanel:
 		return AttackCategoryWeb
-	case AttackTypeOsuosint:
+	case TechTypeOsuosint:
 		return AttackCategoryOsint
-	case AttackTypeOtobo:
+	case TechTypeOtobo:
 		return AttackCategoryWeb
-	case AttackTypeOtobopanel:
+	case TechTypeOtobopanel:
 		return AttackCategoryWeb
-	case AttackTypeOturiacve:
+	case TechTypeOturiacve:
 		return AttackCategoryCVE
-	case AttackTypeOurFreedomBookosint:
+	case TechTypeOurFreedomBookosint:
 		return AttackCategoryOsint
-	case AttackTypeOurmgmt3Panel:
+	case TechTypeOurmgmt3Panel:
 		return AttackCategoryWeb
-	case AttackTypeOurphp:
+	case TechTypeOurphp:
 		return AttackCategoryPHP
-	case AttackTypeOurphpcve2023:
+	case TechTypeOurphpcve2023:
 		return AttackCategoryPHP
-	case AttackTypeOutsystems:
+	case TechTypeOutsystems:
 		return AttackCategoryWeb
-	case AttackTypeOverflow:
+	case TechTypeOverflow:
 		return AttackCategoryWeb
-	case AttackTypeOverseerr:
+	case TechTypeOverseerr:
 		return AttackCategoryWeb
-	case AttackTypeOvirt:
+	case TechTypeOvirt:
 		return AttackCategoryWeb
-	case AttackTypeOvirttech:
+	case TechTypeOvirttech:
 		return AttackCategoryWeb
-	case AttackTypeOvpn:
+	case TechTypeOvpn:
 		return AttackCategoryVPN
-	case AttackTypeOwa:
+	case TechTypeOwa:
 		return AttackCategoryWeb
-	case AttackTypeOwasptech:
+	case TechTypeOwasptech:
 		return AttackCategoryWeb
-	case AttackTypeOwlyosint:
+	case TechTypeOwlyosint:
 		return AttackCategoryOsint
-	case AttackTypeOwncloud:
+	case TechTypeOwncloud:
 		return AttackCategoryCloud
-	case AttackTypeOxid:
+	case TechTypeOxid:
 		return AttackCategoryWeb
-	case AttackTypePa11Ynode:
+	case TechTypePa11Ynode:
 		return AttackCategoryWeb
-	case AttackTypePacketstorm:
+	case TechTypePacketstorm:
 		return AttackCategoryWeb
-	case AttackTypePacketstormblueOcean:
+	case TechTypePacketstormblueOcean:
 		return AttackCategoryWeb
-	case AttackTypePacketstormcrlf:
+	case TechTypePacketstormcrlf:
 		return AttackCategoryWeb
-	case AttackTypePacketstormcve:
+	case TechTypePacketstormcve:
 		return AttackCategoryCVE
-	case AttackTypePacketstormcve2014:
+	case TechTypePacketstormcve2014:
 		return AttackCategoryCVE
-	case AttackTypePacketstormcve2015:
+	case TechTypePacketstormcve2015:
 		return AttackCategoryCVE
-	case AttackTypePacketstormcve2018:
+	case TechTypePacketstormcve2018:
 		return AttackCategoryCVE
-	case AttackTypePacketstormcve2019:
+	case TechTypePacketstormcve2019:
 		return AttackCategoryCVE
-	case AttackTypePacketstormcve2020:
+	case TechTypePacketstormcve2020:
 		return AttackCategoryCVE
-	case AttackTypePacketstormcve2021:
+	case TechTypePacketstormcve2021:
 		return AttackCategoryCVE
-	case AttackTypePacketstormcve2022:
+	case TechTypePacketstormcve2022:
 		return AttackCategoryCVE
-	case AttackTypePacketstormcve2023:
+	case TechTypePacketstormcve2023:
 		return AttackCategoryCVE
-	case AttackTypePacketstormedb:
+	case TechTypePacketstormedb:
 		return AttackCategoryWeb
-	case AttackTypePacketstormglobaldomains:
+	case TechTypePacketstormglobaldomains:
 		return AttackCategoryAI
-	case AttackTypePacketstormglodon:
+	case TechTypePacketstormglodon:
 		return AttackCategoryWeb
-	case AttackTypePacketstormhiawatha:
+	case TechTypePacketstormhiawatha:
 		return AttackCategoryWeb
-	case AttackTypePacketstormiot:
+	case TechTypePacketstormiot:
 		return AttackCategoryIoT
-	case AttackTypePacketstormkhodrochi:
+	case TechTypePacketstormkhodrochi:
 		return AttackCategoryWeb
-	case AttackTypePacketstormlfi:
+	case TechTypePacketstormlfi:
 		return AttackCategoryWeb
-	case AttackTypePacketstormnode:
+	case TechTypePacketstormnode:
 		return AttackCategoryWeb
-	case AttackTypePacketstormodoo:
+	case TechTypePacketstormodoo:
 		return AttackCategoryWeb
-	case AttackTypePacketstormpacketstorm:
+	case TechTypePacketstormpacketstorm:
 		return AttackCategoryWeb
-	case AttackTypePacketstormruijie:
+	case TechTypePacketstormruijie:
 		return AttackCategoryWeb
-	case AttackTypePacketstormspidercontrol:
+	case TechTypePacketstormspidercontrol:
 		return AttackCategoryWeb
-	case AttackTypePacketstormwisegiga:
+	case TechTypePacketstormwisegiga:
 		return AttackCategoryWeb
-	case AttackTypePacketstormwordpress:
+	case TechTypePacketstormwordpress:
 		return AttackCategoryWordPress
-	case AttackTypePacketstrom:
+	case TechTypePacketstrom:
 		return AttackCategoryWeb
-	case AttackTypePacs:
+	case TechTypePacs:
 		return AttackCategoryWeb
-	case AttackTypePacsone:
+	case TechTypePacsone:
 		return AttackCategoryWeb
-	case AttackTypePaesslercve:
+	case TechTypePaesslercve:
 		return AttackCategoryCVE
-	case AttackTypePageBuilderAdd:
+	case TechTypePageBuilderAdd:
 		return AttackCategoryWeb
-	case AttackTypePageLayoutBuilderProjectcve2016:
+	case TechTypePageLayoutBuilderProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypePagecdntokenSpray:
+	case TechTypePagecdntokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePagekit:
+	case TechTypePagekit:
 		return AttackCategoryWeb
-	case AttackTypePagerdutytokenSpray:
+	case TechTypePagerdutytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePagespeedtech:
+	case TechTypePagespeedtech:
 		return AttackCategoryWeb
-	case AttackTypePahtool:
+	case TechTypePahtool:
 		return AttackCategoryWeb
-	case AttackTypePaidMembershipsPro:
+	case TechTypePaidMembershipsPro:
 		return AttackCategoryAI
-	case AttackTypePairdrop:
+	case TechTypePairdrop:
 		return AttackCategoryAI
-	case AttackTypePalletsprojects:
+	case TechTypePalletsprojects:
 		return AttackCategoryWeb
-	case AttackTypePalnetosint:
+	case TechTypePalnetosint:
 		return AttackCategoryOsint
-	case AttackTypePaloaltonetworkscve:
+	case TechTypePaloaltonetworkscve:
 		return AttackCategoryCVE
-	case AttackTypePaloaltonetworkscve2017:
+	case TechTypePaloaltonetworkscve2017:
 		return AttackCategoryCVE
-	case AttackTypePaloaltonetworkscve2020:
+	case TechTypePaloaltonetworkscve2020:
 		return AttackCategoryCVE
-	case AttackTypePaloaltonetworkspanel:
+	case TechTypePaloaltonetworkspanel:
 		return AttackCategoryWeb
-	case AttackTypePam:
+	case TechTypePam:
 		return AttackCategoryWeb
-	case AttackTypePan:
+	case TechTypePan:
 		return AttackCategoryWeb
-	case AttackTypePanOs:
+	case TechTypePanOs:
 		return AttackCategoryWeb
-	case AttackTypePanabitdefaultLogin:
+	case TechTypePanabitdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypePanasonic:
+	case TechTypePanasonic:
 		return AttackCategoryWeb
-	case AttackTypePanda:
+	case TechTypePanda:
 		return AttackCategoryWeb
-	case AttackTypePandaPodsRepeaterFieldProjectcve2022:
+	case TechTypePandaPodsRepeaterFieldProjectcve2022:
 		return AttackCategoryCVE
-	case AttackTypePandora:
+	case TechTypePandora:
 		return AttackCategoryWeb
-	case AttackTypePandoraFmsmisconfig:
+	case TechTypePandoraFmsmisconfig:
 		return AttackCategoryWeb
-	case AttackTypePandorafms:
+	case TechTypePandorafms:
 		return AttackCategoryWeb
-	case AttackTypePandorafmscve2020:
+	case TechTypePandorafmscve2020:
 		return AttackCategoryCVE
-	case AttackTypePandorafmspanel:
+	case TechTypePandorafmspanel:
 		return AttackCategoryWeb
-	case AttackTypePaneil:
+	case TechTypePaneil:
 		return AttackCategoryWeb
-	case AttackTypePanel:
+	case TechTypePanel:
 		return AttackCategoryWeb
-	case AttackTypePanelacti:
+	case TechTypePanelacti:
 		return AttackCategoryWeb
-	case AttackTypePanelaxigen:
+	case TechTypePanelaxigen:
 		return AttackCategoryWeb
-	case AttackTypePanelbeyondtrust:
+	case TechTypePanelbeyondtrust:
 		return AttackCategoryWeb
-	case AttackTypePanelc2:
+	case TechTypePanelc2:
 		return AttackCategoryWeb
-	case AttackTypePanelcacti:
+	case TechTypePanelcacti:
 		return AttackCategoryWeb
-	case AttackTypePanelcassia:
+	case TechTypePanelcassia:
 		return AttackCategoryWeb
-	case AttackTypePanelcaton:
+	case TechTypePanelcaton:
 		return AttackCategoryWeb
-	case AttackTypePaneldiscuz:
+	case TechTypePaneldiscuz:
 		return AttackCategoryWeb
-	case AttackTypePaneledb:
+	case TechTypePaneledb:
 		return AttackCategoryWeb
-	case AttackTypePanelexagrid:
+	case TechTypePanelexagrid:
 		return AttackCategoryWeb
-	case AttackTypePanelexposure:
+	case TechTypePanelexposure:
 		return AttackCategoryWeb
-	case AttackTypePanelfemtocell:
+	case TechTypePanelfemtocell:
 		return AttackCategoryWeb
-	case AttackTypePanelfrp:
+	case TechTypePanelfrp:
 		return AttackCategoryWeb
-	case AttackTypePanelgraphite:
+	case TechTypePanelgraphite:
 		return AttackCategoryWeb
-	case AttackTypePanelhorde:
+	case TechTypePanelhorde:
 		return AttackCategoryWeb
-	case AttackTypePaneliot:
+	case TechTypePaneliot:
 		return AttackCategoryIoT
-	case AttackTypePanelmagento:
+	case TechTypePanelmagento:
 		return AttackCategoryWeb
-	case AttackTypePanelmagnolia:
+	case TechTypePanelmagnolia:
 		return AttackCategoryWeb
-	case AttackTypePanelmisconfigconfig:
+	case TechTypePanelmisconfigconfig:
 		return AttackCategoryWeb
-	case AttackTypePanelms:
+	case TechTypePanelms:
 		return AttackCategoryWeb
-	case AttackTypePaneloctoprint:
+	case TechTypePaneloctoprint:
 		return AttackCategoryWeb
-	case AttackTypePanelopenadmin:
+	case TechTypePanelopenadmin:
 		return AttackCategoryWeb
-	case AttackTypePaneloracle:
+	case TechTypePaneloracle:
 		return AttackCategoryWeb
-	case AttackTypePanelpanel:
+	case TechTypePanelpanel:
 		return AttackCategoryWeb
-	case AttackTypePanelsecnetAc:
+	case TechTypePanelsecnetAc:
 		return AttackCategoryWeb
-	case AttackTypePanelsunbird:
+	case TechTypePanelsunbird:
 		return AttackCategoryWeb
-	case AttackTypePanelsymantec:
+	case TechTypePanelsymantec:
 		return AttackCategoryWeb
-	case AttackTypePaneltech:
+	case TechTypePaneltech:
 		return AttackCategoryWeb
-	case AttackTypePanelunauth:
+	case TechTypePanelunauth:
 		return AttackCategoryWeb
-	case AttackTypePanelwebmail:
+	case TechTypePanelwebmail:
 		return AttackCategoryWeb
-	case AttackTypePanos:
+	case TechTypePanos:
 		return AttackCategoryWeb
-	case AttackTypePantselpanel:
+	case TechTypePantselpanel:
 		return AttackCategoryWeb
-	case AttackTypePapercut:
+	case TechTypePapercut:
 		return AttackCategoryWeb
-	case AttackTypePapercutcve2023:
+	case TechTypePapercutcve2023:
 		return AttackCategoryCVE
-	case AttackTypeParallels:
+	case TechTypeParallels:
 		return AttackCategoryWeb
-	case AttackTypeParallelsblackboard:
+	case TechTypeParallelsblackboard:
 		return AttackCategoryWeb
-	case AttackTypeParamountplus:
+	case TechTypeParamountplus:
 		return AttackCategoryWeb
-	case AttackTypeParentlink:
+	case TechTypeParentlink:
 		return AttackCategoryWeb
-	case AttackTypeParlerArchivedPostsosint:
+	case TechTypeParlerArchivedPostsosint:
 		return AttackCategoryOsint
-	case AttackTypeParlerArchivedProfileosint:
+	case TechTypeParlerArchivedProfileosint:
 		return AttackCategoryOsint
-	case AttackTypeParlerosint:
+	case TechTypeParlerosint:
 		return AttackCategoryOsint
-	case AttackTypeParse:
+	case TechTypeParse:
 		return AttackCategoryWeb
-	case AttackTypeParseplatformpanel:
+	case TechTypeParseplatformpanel:
 		return AttackCategoryWeb
-	case AttackTypeParsiFontProjectcve2016:
+	case TechTypeParsiFontProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeParticletokenSpray:
+	case TechTypeParticletokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePascom:
+	case TechTypePascom:
 		return AttackCategoryWeb
-	case AttackTypePascomCloudPhoneSystemcve2021:
+	case TechTypePascomCloudPhoneSystemcve2021:
 		return AttackCategoryCloud
-	case AttackTypePassbolt:
+	case TechTypePassbolt:
 		return AttackCategoryWeb
-	case AttackTypePassive:
+	case TechTypePassive:
 		return AttackCategoryWeb
-	case AttackTypePassivecve:
+	case TechTypePassivecve:
 		return AttackCategoryCVE
-	case AttackTypePassword:
+	case TechTypePassword:
 		return AttackCategoryWeb
-	case AttackTypePasswordalibaba:
+	case TechTypePasswordalibaba:
 		return AttackCategoryWeb
-	case AttackTypePasswordmanager:
+	case TechTypePasswordmanager:
 		return AttackCategoryWeb
-	case AttackTypePasswordssrf:
+	case TechTypePasswordssrf:
 		return AttackCategoryWeb
-	case AttackTypePastebinosint:
+	case TechTypePastebinosint:
 		return AttackCategoryOsint
-	case AttackTypePastebintokenSpray:
+	case TechTypePastebintokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePatchosint:
+	case TechTypePatchosint:
 		return AttackCategoryOsint
-	case AttackTypePath:
+	case TechTypePath:
 		return AttackCategoryWeb
-	case AttackTypePatheon:
+	case TechTypePatheon:
 		return AttackCategoryWeb
-	case AttackTypePathtraversal:
+	case TechTypePathtraversal:
 		return AttackCategoryWeb
-	case AttackTypePatientslikemeosint:
+	case TechTypePatientslikemeosint:
 		return AttackCategoryOsint
-	case AttackTypePatreon:
+	case TechTypePatreon:
 		return AttackCategoryWeb
-	case AttackTypePatreonConnect:
+	case TechTypePatreonConnect:
 		return AttackCategoryWeb
-	case AttackTypePatreonosint:
+	case TechTypePatreonosint:
 		return AttackCategoryOsint
-	case AttackTypePatriotsWinosint:
+	case TechTypePatriotsWinosint:
 		return AttackCategoryIoT
-	case AttackTypePatroniteosint:
+	case TechTypePatroniteosint:
 		return AttackCategoryOsint
-	case AttackTypePatsatechcve2018:
+	case TechTypePatsatechcve2018:
 		return AttackCategoryCVE
-	case AttackTypePattoncve2023:
+	case TechTypePattoncve2023:
 		return AttackCategoryCVE
-	case AttackTypePauplecve:
+	case TechTypePauplecve:
 		return AttackCategoryCVE
-	case AttackTypePayara:
+	case TechTypePayara:
 		return AttackCategoryWeb
-	case AttackTypePayaratech:
+	case TechTypePayaratech:
 		return AttackCategoryWeb
-	case AttackTypePayeezycve:
+	case TechTypePayeezycve:
 		return AttackCategoryCVE
-	case AttackTypePaymentGatewayForTelcellcve:
+	case TechTypePaymentGatewayForTelcellcve:
 		return AttackCategoryCVE
-	case AttackTypePaypal:
+	case TechTypePaypal:
 		return AttackCategoryWeb
-	case AttackTypePaypalexposure:
+	case TechTypePaypalexposure:
 		return AttackCategoryWeb
-	case AttackTypePaypalosint:
+	case TechTypePaypalosint:
 		return AttackCategoryOsint
-	case AttackTypePaypaltokenSpray:
+	case TechTypePaypaltokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePayrollexposure:
+	case TechTypePayrollexposure:
 		return AttackCategoryWeb
-	case AttackTypePaysysprocve:
+	case TechTypePaysysprocve:
 		return AttackCategoryCVE
-	case AttackTypePaytmPayments:
+	case TechTypePaytmPayments:
 		return AttackCategoryWeb
-	case AttackTypePaytmcve:
+	case TechTypePaytmcve:
 		return AttackCategoryCVE
-	case AttackTypePaytmcve2022:
+	case TechTypePaytmcve2022:
 		return AttackCategoryCVE
-	case AttackTypePbootcmstech:
+	case TechTypePbootcmstech:
 		return AttackCategoryWeb
-	case AttackTypePcdn:
+	case TechTypePcdn:
 		return AttackCategoryWeb
-	case AttackTypePcgamerosint:
+	case TechTypePcgamerosint:
 		return AttackCategoryOsint
-	case AttackTypePcloud:
+	case TechTypePcloud:
 		return AttackCategoryCloud
-	case AttackTypePcoippanel:
+	case TechTypePcoippanel:
 		return AttackCategoryWeb
-	case AttackTypePcoiptech:
+	case TechTypePcoiptech:
 		return AttackCategoryWeb
-	case AttackTypePcoweb:
+	case TechTypePcoweb:
 		return AttackCategoryWeb
-	case AttackTypePcpartpickerosint:
+	case TechTypePcpartpickerosint:
 		return AttackCategoryOsint
-	case AttackTypePdfGeneratorForWp:
+	case TechTypePdfGeneratorForWp:
 		return AttackCategoryWeb
-	case AttackTypePdflayertokenSpray:
+	case TechTypePdflayertokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePdi:
+	case TechTypePdi:
 		return AttackCategoryWeb
-	case AttackTypePega:
+	case TechTypePega:
 		return AttackCategoryWeb
-	case AttackTypePegapanel:
+	case TechTypePegapanel:
 		return AttackCategoryWeb
-	case AttackTypePegatech:
+	case TechTypePegatech:
 		return AttackCategoryWeb
-	case AttackTypePeingosint:
+	case TechTypePeingosint:
 		return AttackCategoryOsint
-	case AttackTypePelco:
+	case TechTypePelco:
 		return AttackCategoryWeb
-	case AttackTypePendinginstallvzw:
+	case TechTypePendinginstallvzw:
 		return AttackCategoryWeb
-	case AttackTypePendotokenSpray:
+	case TechTypePendotokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePentaho:
+	case TechTypePentaho:
 		return AttackCategoryWeb
-	case AttackTypePentahopanel:
+	case TechTypePentahopanel:
 		return AttackCategoryWeb
-	case AttackTypePentasecuritycve:
+	case TechTypePentasecuritycve:
 		return AttackCategoryCVE
-	case AttackTypePeoplesoft:
+	case TechTypePeoplesoft:
 		return AttackCategoryWeb
-	case AttackTypePerchacve:
+	case TechTypePerchacve:
 		return AttackCategoryCVE
-	case AttackTypePerchacve2010:
+	case TechTypePerchacve2010:
 		return AttackCategoryCVE
-	case AttackTypePerfsonar:
+	case TechTypePerfsonar:
 		return AttackCategoryWeb
-	case AttackTypePerfsonarcve:
+	case TechTypePerfsonarcve:
 		return AttackCategoryCVE
-	case AttackTypePeriscopeosint:
+	case TechTypePeriscopeosint:
 		return AttackCategoryOsint
-	case AttackTypePerl:
+	case TechTypePerl:
 		return AttackCategoryWeb
-	case AttackTypePermalinkManagerLiteProjectcve:
+	case TechTypePermalinkManagerLiteProjectcve:
 		return AttackCategoryCVE
-	case AttackTypePermissions:
+	case TechTypePermissions:
 		return AttackCategoryWeb
-	case AttackTypePersispanel:
+	case TechTypePersispanel:
 		return AttackCategoryWeb
-	case AttackTypePersonalDictionary:
+	case TechTypePersonalDictionary:
 		return AttackCategoryWeb
-	case AttackTypePeterHocherlcve2010:
+	case TechTypePeterHocherlcve2010:
 		return AttackCategoryCVE
-	case AttackTypePetfindertokenSpray:
+	case TechTypePetfindertokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePettingzoocoMastodonInstanceosint:
+	case TechTypePettingzoocoMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypePewexosint:
+	case TechTypePewexosint:
 		return AttackCategoryOsint
-	case AttackTypePexec:
+	case TechTypePexec:
 		return AttackCategoryWeb
-	case AttackTypePexip:
+	case TechTypePexip:
 		return AttackCategoryWeb
-	case AttackTypePfblockerng:
+	case TechTypePfblockerng:
 		return AttackCategoryWeb
-	case AttackTypePfsense:
+	case TechTypePfsense:
 		return AttackCategoryWeb
-	case AttackTypePfsenseunauth:
+	case TechTypePfsenseunauth:
 		return AttackCategoryWeb
-	case AttackTypePgadmin:
+	case TechTypePgadmin:
 		return AttackCategoryWeb
-	case AttackTypePghero:
+	case TechTypePghero:
 		return AttackCategoryWeb
-	case AttackTypePhabricator:
+	case TechTypePhabricator:
 		return AttackCategoryWeb
-	case AttackTypePhacilitypanel:
+	case TechTypePhacilitypanel:
 		return AttackCategoryWeb
-	case AttackTypePhalcondevops:
+	case TechTypePhalcondevops:
 		return AttackCategoryWeb
-	case AttackTypePhilipspanel:
+	case TechTypePhilipspanel:
 		return AttackCategoryWeb
-	case AttackTypePhishing:
+	case TechTypePhishing:
 		return AttackCategoryWeb
-	case AttackTypePhoenix:
+	case TechTypePhoenix:
 		return AttackCategoryWeb
-	case AttackTypePhoenixframeworkcve2017:
+	case TechTypePhoenixframeworkcve2017:
 		return AttackCategoryCVE
-	case AttackTypePhonepePaymentSolutions:
+	case TechTypePhonepePaymentSolutions:
 		return AttackCategoryWeb
-	case AttackTypePhonepecve:
+	case TechTypePhonepecve:
 		return AttackCategoryCVE
-	case AttackTypePhoronix:
+	case TechTypePhoronix:
 		return AttackCategoryWeb
-	case AttackTypePhoronixMediapanel:
+	case TechTypePhoronixMediapanel:
 		return AttackCategoryWeb
-	case AttackTypePhoto:
+	case TechTypePhoto:
 		return AttackCategoryWeb
-	case AttackTypePhotoGallery:
+	case TechTypePhotoGallery:
 		return AttackCategoryWeb
-	case AttackTypePhotoblocks:
+	case TechTypePhotoblocks:
 		return AttackCategoryWeb
-	case AttackTypePhotoblocksGallery:
+	case TechTypePhotoblocksGallery:
 		return AttackCategoryWeb
-	case AttackTypePhotostation:
+	case TechTypePhotostation:
 		return AttackCategoryWeb
-	case AttackTypePhototokenSpray:
+	case TechTypePhototokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePhotoxhibitProjectcve2016:
+	case TechTypePhotoxhibitProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypePhp:
+	case TechTypePhp:
 		return AttackCategoryPHP
-	case AttackTypePhpFusioncve:
+	case TechTypePhpFusioncve:
 		return AttackCategoryPHP
-	case AttackTypePhpFusiontech:
+	case TechTypePhpFusiontech:
 		return AttackCategoryPHP
-	case AttackTypePhpMod:
+	case TechTypePhpMod:
 		return AttackCategoryPHP
-	case AttackTypePhpProxycve2018:
+	case TechTypePhpProxycve2018:
 		return AttackCategoryPHP
-	case AttackTypePhpmychat:
+	case TechTypePhpmychat:
 		return AttackCategoryPHP
-	case AttackTypePhpCurlClassProjectcve2021:
+	case TechTypePhpCurlClassProjectcve2021:
 		return AttackCategoryPHP
-	case AttackTypePhpbb:
+	case TechTypePhpbb:
 		return AttackCategoryPHP
-	case AttackTypePhpcli:
+	case TechTypePhpcli:
 		return AttackCategoryPHP
-	case AttackTypePhpcollab:
+	case TechTypePhpcollab:
 		return AttackCategoryPHP
-	case AttackTypePhpconfig:
+	case TechTypePhpconfig:
 		return AttackCategoryPHP
-	case AttackTypePhpcsconfig:
+	case TechTypePhpcsconfig:
 		return AttackCategoryPHP
-	case AttackTypePhpcve:
+	case TechTypePhpcve:
 		return AttackCategoryPHP
-	case AttackTypePhpdebug:
+	case TechTypePhpdebug:
 		return AttackCategoryPHP
-	case AttackTypePhpdevops:
+	case TechTypePhpdevops:
 		return AttackCategoryPHP
-	case AttackTypePhpexposure:
+	case TechTypePhpexposure:
 		return AttackCategoryPHP
-	case AttackTypePhpfastcache:
+	case TechTypePhpfastcache:
 		return AttackCategoryPHP
-	case AttackTypePhpfusion:
+	case TechTypePhpfusion:
 		return AttackCategoryPHP
-	case AttackTypePhpgedview:
+	case TechTypePhpgedview:
 		return AttackCategoryPHP
-	case AttackTypePhpgurukulcve:
+	case TechTypePhpgurukulcve:
 		return AttackCategoryPHP
-	case AttackTypePhpgurukulcve2020:
+	case TechTypePhpgurukulcve2020:
 		return AttackCategoryPHP
-	case AttackTypePhpgurukulcve2022:
+	case TechTypePhpgurukulcve2022:
 		return AttackCategoryPHP
-	case AttackTypePhpgurukulcve2023:
+	case TechTypePhpgurukulcve2023:
 		return AttackCategoryPHP
-	case AttackTypePhpgurukulpacketstorm:
+	case TechTypePhpgurukulpacketstorm:
 		return AttackCategoryPHP
-	case AttackTypePhpinfo:
+	case TechTypePhpinfo:
 		return AttackCategoryPHP
-	case AttackTypePhpinfoexposure:
+	case TechTypePhpinfoexposure:
 		return AttackCategoryPHP
-	case AttackTypePhpinfowordpress:
+	case TechTypePhpinfowordpress:
 		return AttackCategoryPHP
-	case AttackTypePhpipam:
+	case TechTypePhpipam:
 		return AttackCategoryPHP
-	case AttackTypePhpipammisconfig:
+	case TechTypePhpipammisconfig:
 		return AttackCategoryPHP
-	case AttackTypePhpjabber:
+	case TechTypePhpjabber:
 		return AttackCategoryPHP
-	case AttackTypePhpjabberscve:
+	case TechTypePhpjabberscve:
 		return AttackCategoryPHP
-	case AttackTypePhpjabberscve2023:
+	case TechTypePhpjabberscve2023:
 		return AttackCategoryPHP
-	case AttackTypePhpldapadmin:
+	case TechTypePhpldapadmin:
 		return AttackCategoryPHP
-	case AttackTypePhplist:
+	case TechTypePhplist:
 		return AttackCategoryPHP
-	case AttackTypePhpmailerProjectcve2016:
+	case TechTypePhpmailerProjectcve2016:
 		return AttackCategoryPHP
-	case AttackTypePhpminiadminpanel:
+	case TechTypePhpminiadminpanel:
 		return AttackCategoryPHP
-	case AttackTypePhpmyadmin:
+	case TechTypePhpmyadmin:
 		return AttackCategoryPHP
-	case AttackTypePhpmyadminpanel:
+	case TechTypePhpmyadminpanel:
 		return AttackCategoryPHP
-	case AttackTypePhpmyadminpowerjob:
+	case TechTypePhpmyadminpowerjob:
 		return AttackCategoryPHP
-	case AttackTypePhpmyfaq:
+	case TechTypePhpmyfaq:
 		return AttackCategoryPHP
-	case AttackTypePhpmyfaqcve2023:
+	case TechTypePhpmyfaqcve2023:
 		return AttackCategoryPHP
-	case AttackTypePhpnow:
+	case TechTypePhpnow:
 		return AttackCategoryPHP
-	case AttackTypePhppgadmin:
+	case TechTypePhppgadmin:
 		return AttackCategoryPHP
-	case AttackTypePhppgadminProjectpichome:
+	case TechTypePhppgadminProjectpichome:
 		return AttackCategoryPHP
-	case AttackTypePhppgadmintech:
+	case TechTypePhppgadmintech:
 		return AttackCategoryPHP
-	case AttackTypePhpphp:
+	case TechTypePhpphp:
 		return AttackCategoryPHP
-	case AttackTypePhpsec:
+	case TechTypePhpsec:
 		return AttackCategoryPHP
-	case AttackTypePhpshowtime:
+	case TechTypePhpshowtime:
 		return AttackCategoryPHP
-	case AttackTypePhpsocialnetworkcve2021:
+	case TechTypePhpsocialnetworkcve2021:
 		return AttackCategoryPHP
-	case AttackTypePhpsysinfoexposure:
+	case TechTypePhpsysinfoexposure:
 		return AttackCategoryPHP
-	case AttackTypePhpunit:
+	case TechTypePhpunit:
 		return AttackCategoryPHP
-	case AttackTypePhpunitProjectcve:
+	case TechTypePhpunitProjectcve:
 		return AttackCategoryPHP
-	case AttackTypePhpwiki:
+	case TechTypePhpwiki:
 		return AttackCategoryPHP
-	case AttackTypePhpwind:
+	case TechTypePhpwind:
 		return AttackCategoryPHP
-	case AttackTypePhuket:
+	case TechTypePhuket:
 		return AttackCategoryWeb
-	case AttackTypePhuketCmslfi:
+	case TechTypePhuketCmslfi:
 		return AttackCategoryWeb
-	case AttackTypePhuketCmsxss:
+	case TechTypePhuketCmsxss:
 		return AttackCategoryXSS
-	case AttackTypePiano:
+	case TechTypePiano:
 		return AttackCategoryWeb
-	case AttackTypePianoLedVisualizerProjectcve:
+	case TechTypePianoLedVisualizerProjectcve:
 		return AttackCategoryCVE
-	case AttackTypePickpluginscve2021:
+	case TechTypePickpluginscve2021:
 		return AttackCategoryCVE
-	case AttackTypePicsartosint:
+	case TechTypePicsartosint:
 		return AttackCategoryOsint
-	case AttackTypePie:
+	case TechTypePie:
 		return AttackCategoryWeb
-	case AttackTypePieRegister:
+	case TechTypePieRegister:
 		return AttackCategoryWeb
-	case AttackTypePiekielniosint:
+	case TechTypePiekielniosint:
 		return AttackCategoryOsint
-	case AttackTypePieregister:
+	case TechTypePieregister:
 		return AttackCategoryWeb
-	case AttackTypePihole:
+	case TechTypePihole:
 		return AttackCategoryWeb
-	case AttackTypePikabuosint:
+	case TechTypePikabuosint:
 		return AttackCategoryOsint
-	case AttackTypePillowfortosint:
+	case TechTypePillowfortosint:
 		return AttackCategoryOsint
-	case AttackTypePiluscart:
+	case TechTypePiluscart:
 		return AttackCategoryWeb
-	case AttackTypePinatatokenSpray:
+	case TechTypePinatatokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePingdomtakeovertakeover:
+	case TechTypePingdomtakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypePinkbikeosint:
+	case TechTypePinkbikeosint:
 		return AttackCategoryOsint
-	case AttackTypePinterest:
+	case TechTypePinterest:
 		return AttackCategoryWeb
-	case AttackTypePinterestosint:
+	case TechTypePinterestosint:
 		return AttackCategoryOsint
-	case AttackTypePip:
+	case TechTypePip:
 		return AttackCategoryWeb
-	case AttackTypePiratebay:
+	case TechTypePiratebay:
 		return AttackCategoryWeb
-	case AttackTypePirelli:
+	case TechTypePirelli:
 		return AttackCategoryWeb
-	case AttackTypePireospay:
+	case TechTypePireospay:
 		return AttackCategoryWeb
-	case AttackTypePivotalSoftwarecve:
+	case TechTypePivotalSoftwarecve:
 		return AttackCategoryCVE
-	case AttackTypePivotalcve2016:
+	case TechTypePivotalcve2016:
 		return AttackCategoryCVE
-	case AttackTypePivotaltrackertokenSpray:
+	case TechTypePivotaltrackertokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePiwigo:
+	case TechTypePiwigo:
 		return AttackCategoryWeb
-	case AttackTypePiwik:
+	case TechTypePiwik:
 		return AttackCategoryWeb
-	case AttackTypePixelfedsocialosint:
+	case TechTypePixelfedsocialosint:
 		return AttackCategoryOsint
-	case AttackTypePixie:
+	case TechTypePixie:
 		return AttackCategoryWeb
-	case AttackTypePkpLib:
+	case TechTypePkpLib:
 		return AttackCategoryWeb
-	case AttackTypePlace:
+	case TechTypePlace:
 		return AttackCategoryWeb
-	case AttackTypePlacecve2021:
+	case TechTypePlacecve2021:
 		return AttackCategoryCVE
-	case AttackTypePlaceos:
+	case TechTypePlaceos:
 		return AttackCategoryWeb
-	case AttackTypePlaces:
+	case TechTypePlaces:
 		return AttackCategoryWeb
-	case AttackTypePlainviewpluginscve2023:
+	case TechTypePlainviewpluginscve2023:
 		return AttackCategoryCVE
-	case AttackTypePlanet:
+	case TechTypePlanet:
 		return AttackCategoryWeb
-	case AttackTypePlanetestreampanel:
+	case TechTypePlanetestreampanel:
 		return AttackCategoryWeb
-	case AttackTypePlanon:
+	case TechTypePlanon:
 		return AttackCategoryWeb
-	case AttackTypePlanonsoftwarecve2018:
+	case TechTypePlanonsoftwarecve2018:
 		return AttackCategoryCVE
-	case AttackTypePlasticpanel:
+	case TechTypePlasticpanel:
 		return AttackCategoryWeb
-	case AttackTypePlatformioconfig:
+	case TechTypePlatformioconfig:
 		return AttackCategoryWeb
-	case AttackTypePlatziosint:
+	case TechTypePlatziosint:
 		return AttackCategoryOsint
-	case AttackTypePlausible:
+	case TechTypePlausible:
 		return AttackCategoryWeb
-	case AttackTypePlayable:
+	case TechTypePlayable:
 		return AttackCategoryWeb
-	case AttackTypePlaysms:
+	case TechTypePlaysms:
 		return AttackCategoryWeb
-	case AttackTypePlaystationNetworkosint:
+	case TechTypePlaystationNetworkosint:
 		return AttackCategoryOsint
-	case AttackTypePlaytube:
+	case TechTypePlaytube:
 		return AttackCategoryWeb
-	case AttackTypePlc:
+	case TechTypePlc:
 		return AttackCategoryWeb
-	case AttackTypePlesk:
+	case TechTypePlesk:
 		return AttackCategoryWeb
-	case AttackTypePleskexposure:
+	case TechTypePleskexposure:
 		return AttackCategoryWeb
-	case AttackTypePlesktech:
+	case TechTypePlesktech:
 		return AttackCategoryWeb
-	case AttackTypePlone:
+	case TechTypePlone:
 		return AttackCategoryWeb
-	case AttackTypePlugin:
+	case TechTypePlugin:
 		return AttackCategoryWeb
-	case AttackTypePluginPlanetcve:
+	case TechTypePluginPlanetcve:
 		return AttackCategoryCVE
-	case AttackTypePluginPlanetcve2021:
+	case TechTypePluginPlanetcve2021:
 		return AttackCategoryCVE
-	case AttackTypePluginbazaarcve:
+	case TechTypePluginbazaarcve:
 		return AttackCategoryCVE
-	case AttackTypePlugincve2015:
+	case TechTypePlugincve2015:
 		return AttackCategoryCVE
-	case AttackTypePlugincve2020:
+	case TechTypePlugincve2020:
 		return AttackCategoryCVE
-	case AttackTypePlugincve2021:
+	case TechTypePlugincve2021:
 		return AttackCategoryCVE
-	case AttackTypePluginlfi:
+	case TechTypePluginlfi:
 		return AttackCategoryWeb
-	case AttackTypePluginopscve2021:
+	case TechTypePluginopscve2021:
 		return AttackCategoryCVE
-	case AttackTypePluginsMarketcve:
+	case TechTypePluginsMarketcve:
 		return AttackCategoryCVE
-	case AttackTypePluginsMarketcve2023:
+	case TechTypePluginsMarketcve2023:
 		return AttackCategoryCVE
-	case AttackTypePlugins360Cve:
+	case TechTypePlugins360Cve:
 		return AttackCategoryCVE
-	case AttackTypePlugins360Cve2021:
+	case TechTypePlugins360Cve2021:
 		return AttackCategoryCVE
-	case AttackTypePlugintech:
+	case TechTypePlugintech:
 		return AttackCategoryWeb
-	case AttackTypePluginuscve:
+	case TechTypePluginuscve:
 		return AttackCategoryCVE
-	case AttackTypePluginuscve2021:
+	case TechTypePluginuscve2021:
 		return AttackCategoryCVE
-	case AttackTypePluginuscve2022:
+	case TechTypePluginuscve2022:
 		return AttackCategoryCVE
-	case AttackTypePluginwordpress:
+	case TechTypePluginwordpress:
 		return AttackCategoryWordPress
-	case AttackTypePluginwpscan:
+	case TechTypePluginwpscan:
 		return AttackCategoryWeb
-	case AttackTypePlurkosint:
+	case TechTypePlurkosint:
 		return AttackCategoryOsint
-	case AttackTypePlusnet:
+	case TechTypePlusnet:
 		return AttackCategoryWeb
-	case AttackTypePm43:
+	case TechTypePm43:
 		return AttackCategoryWeb
-	case AttackTypePmb:
+	case TechTypePmb:
 		return AttackCategoryWeb
-	case AttackTypePmbProject:
+	case TechTypePmbProject:
 		return AttackCategoryWeb
-	case AttackTypePmbxss:
+	case TechTypePmbxss:
 		return AttackCategoryXSS
-	case AttackTypePmmmisconfig:
+	case TechTypePmmmisconfig:
 		return AttackCategoryWeb
-	case AttackTypePnpmexposure:
+	case TechTypePnpmexposure:
 		return AttackCategoryWeb
-	case AttackTypePocketbase:
+	case TechTypePocketbase:
 		return AttackCategoryWeb
-	case AttackTypePodcastChannelsProjectcve2014:
+	case TechTypePodcastChannelsProjectcve2014:
 		return AttackCategoryCVE
-	case AttackTypePodlovePodcastingPluginForWordpress:
+	case TechTypePodlovePodcastingPluginForWordpress:
 		return AttackCategoryWordPress
-	case AttackTypePodlovecve:
+	case TechTypePodlovecve:
 		return AttackCategoryCVE
-	case AttackTypePods:
+	case TechTypePods:
 		return AttackCategoryWeb
-	case AttackTypePodstech:
+	case TechTypePodstech:
 		return AttackCategoryWeb
-	case AttackTypePoisoning:
+	case TechTypePoisoning:
 		return AttackCategoryWeb
-	case AttackTypePokecosint:
+	case TechTypePokecosint:
 		return AttackCategoryOsint
-	case AttackTypePokemonshowdownosint:
+	case TechTypePokemonshowdownosint:
 		return AttackCategoryOsint
-	case AttackTypePokerstrategyosint:
+	case TechTypePokerstrategyosint:
 		return AttackCategoryOsint
-	case AttackTypePolarisft:
+	case TechTypePolarisft:
 		return AttackCategoryWeb
-	case AttackTypePolchatplosint:
+	case TechTypePolchatplosint:
 		return AttackCategoryOsint
-	case AttackTypePolicja2009Osint:
+	case TechTypePolicja2009Osint:
 		return AttackCategoryOsint
-	case AttackTypePollEverywhereosint:
+	case TechTypePollEverywhereosint:
 		return AttackCategoryOsint
-	case AttackTypePollbotrce:
+	case TechTypePollbotrce:
 		return AttackCategoryRCE
-	case AttackTypePollsWidget:
+	case TechTypePollsWidget:
 		return AttackCategoryWeb
-	case AttackTypePolycomedb:
+	case TechTypePolycomedb:
 		return AttackCategoryWeb
-	case AttackTypePolyglotcmdi:
+	case TechTypePolyglotcmdi:
 		return AttackCategoryWeb
-	case AttackTypePolygonosint:
+	case TechTypePolygonosint:
 		return AttackCategoryOsint
-	case AttackTypePolyworkosint:
+	case TechTypePolyworkosint:
 		return AttackCategoryOsint
-	case AttackTypePoms:
+	case TechTypePoms:
 		return AttackCategoryWeb
-	case AttackTypePondolFormmailProjectcve2016:
+	case TechTypePondolFormmailProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypePop3:
+	case TechTypePop3:
 		return AttackCategoryWeb
-	case AttackTypePoplosint:
+	case TechTypePoplosint:
 		return AttackCategoryOsint
-	case AttackTypePopup:
+	case TechTypePopup:
 		return AttackCategoryWeb
-	case AttackTypePopupBuilder:
+	case TechTypePopupBuilder:
 		return AttackCategoryWeb
-	case AttackTypePopupMaker:
+	case TechTypePopupMaker:
 		return AttackCategoryWeb
-	case AttackTypePornhubPornStarsosint:
+	case TechTypePornhubPornStarsosint:
 		return AttackCategoryOsint
-	case AttackTypePornhubUsersosint:
+	case TechTypePornhubUsersosint:
 		return AttackCategoryOsint
-	case AttackTypePortainer:
+	case TechTypePortainer:
 		return AttackCategoryAI
-	case AttackTypePortal:
+	case TechTypePortal:
 		return AttackCategoryWeb
-	case AttackTypePortalpanel:
+	case TechTypePortalpanel:
 		return AttackCategoryWeb
-	case AttackTypePortmap:
+	case TechTypePortmap:
 		return AttackCategoryWeb
-	case AttackTypePortraitArchivShop:
+	case TechTypePortraitArchivShop:
 		return AttackCategoryAI
-	case AttackTypePos:
+	case TechTypePos:
 		return AttackCategoryWeb
-	case AttackTypePosh:
+	case TechTypePosh:
 		return AttackCategoryWeb
-	case AttackTypePoshc2:
+	case TechTypePoshc2:
 		return AttackCategoryWeb
-	case AttackTypePoshmarkosint:
+	case TechTypePoshmarkosint:
 		return AttackCategoryOsint
-	case AttackTypePosimythcve2021:
+	case TechTypePosimythcve2021:
 		return AttackCategoryCVE
-	case AttackTypePostStatusNotifierLite:
+	case TechTypePostStatusNotifierLite:
 		return AttackCategoryWeb
-	case AttackTypePostcrossingosint:
+	case TechTypePostcrossingosint:
 		return AttackCategoryOsint
-	case AttackTypePoste:
+	case TechTypePoste:
 		return AttackCategoryWeb
-	case AttackTypePostemisconfig:
+	case TechTypePostemisconfig:
 		return AttackCategoryWeb
-	case AttackTypePostgres:
+	case TechTypePostgres:
 		return AttackCategoryWeb
-	case AttackTypePostgresql:
+	case TechTypePostgresql:
 		return AttackCategorySqlInjection
-	case AttackTypePosthogpanel:
+	case TechTypePosthogpanel:
 		return AttackCategoryWeb
-	case AttackTypePostmancloud:
+	case TechTypePostmancloud:
 		return AttackCategoryCloud
-	case AttackTypePostmarktokenSpray:
+	case TechTypePostmarktokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePostmessage:
+	case TechTypePostmessage:
 		return AttackCategoryWeb
-	case AttackTypePostnewsosint:
+	case TechTypePostnewsosint:
 		return AttackCategoryOsint
-	case AttackTypePowerchute:
+	case TechTypePowerchute:
 		return AttackCategoryWeb
-	case AttackTypePowercreator:
+	case TechTypePowercreator:
 		return AttackCategoryWeb
-	case AttackTypePoweredbygaysocialMastodonInstanceosint:
+	case TechTypePoweredbygaysocialMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypePowerjob:
+	case TechTypePowerjob:
 		return AttackCategoryWeb
-	case AttackTypePowerjobcve2023:
+	case TechTypePowerjobcve2023:
 		return AttackCategoryCVE
-	case AttackTypePowerjobpanel:
+	case TechTypePowerjobpanel:
 		return AttackCategoryWeb
-	case AttackTypePowershellUniversalprtg:
+	case TechTypePowershellUniversalprtg:
 		return AttackCategoryWeb
-	case AttackTypePowertek:
+	case TechTypePowertek:
 		return AttackCategoryWeb
-	case AttackTypePowertekpduscve2022:
+	case TechTypePowertekpduscve2022:
 		return AttackCategoryCVE
-	case AttackTypePpfeufercve2012:
+	case TechTypePpfeufercve2012:
 		return AttackCategoryCVE
-	case AttackTypePprofphpstorm:
+	case TechTypePprofphpstorm:
 		return AttackCategoryPHP
-	case AttackTypePremiocve:
+	case TechTypePremiocve:
 		return AttackCategoryCVE
-	case AttackTypePremiocve2021:
+	case TechTypePremiocve2021:
 		return AttackCategoryCVE
-	case AttackTypePresspagecve:
+	case TechTypePresspagecve:
 		return AttackCategoryCVE
-	case AttackTypePresstigerscve2020:
+	case TechTypePresstigerscve2020:
 		return AttackCategoryCVE
-	case AttackTypePrestahome:
+	case TechTypePrestahome:
 		return AttackCategoryWeb
-	case AttackTypePrestashop:
+	case TechTypePrestashop:
 		return AttackCategoryWeb
-	case AttackTypePrestashopModule:
+	case TechTypePrestashopModule:
 		return AttackCategoryWeb
-	case AttackTypePrestashopcve:
+	case TechTypePrestashopcve:
 		return AttackCategoryCVE
-	case AttackTypePrestashopcve2021:
+	case TechTypePrestashopcve2021:
 		return AttackCategoryCVE
-	case AttackTypePrestashopintrusive:
+	case TechTypePrestashopintrusive:
 		return AttackCategoryWeb
-	case AttackTypePrestashopsecsslvpn:
+	case TechTypePrestashopsecsslvpn:
 		return AttackCategoryVPN
-	case AttackTypePrestashoptech:
+	case TechTypePrestashoptech:
 		return AttackCategoryWeb
-	case AttackTypePrestshop:
+	case TechTypePrestshop:
 		return AttackCategoryWeb
-	case AttackTypePrettyUrl:
+	case TechTypePrettyUrl:
 		return AttackCategoryWeb
-	case AttackTypePrettyUrlProjectcve2023:
+	case TechTypePrettyUrlProjectcve2023:
 		return AttackCategoryCVE
-	case AttackTypePrexviewtokenSpray:
+	case TechTypePrexviewtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypePricingDealsForWoocommerce:
+	case TechTypePricingDealsForWoocommerce:
 		return AttackCategoryRCE
-	case AttackTypePrimeMover:
+	case TechTypePrimeMover:
 		return AttackCategoryWeb
-	case AttackTypePrimefaces:
+	case TechTypePrimefaces:
 		return AttackCategoryWeb
-	case AttackTypePrimetek:
+	case TechTypePrimetek:
 		return AttackCategoryWeb
-	case AttackTypePrinter:
+	case TechTypePrinter:
 		return AttackCategoryWeb
-	case AttackTypePrinteraxis:
+	case TechTypePrinteraxis:
 		return AttackCategoryWeb
-	case AttackTypePrintercve2023:
+	case TechTypePrintercve2023:
 		return AttackCategoryCVE
-	case AttackTypePrinteriotiot:
+	case TechTypePrinteriotiot:
 		return AttackCategoryIoT
-	case AttackTypePrinterlogin:
+	case TechTypePrinterlogin:
 		return AttackCategoryWeb
-	case AttackTypePrintermiscellaneous:
+	case TechTypePrintermiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypePrinterpanel:
+	case TechTypePrinterpanel:
 		return AttackCategoryWeb
-	case AttackTypePrintersamsung:
+	case TechTypePrintersamsung:
 		return AttackCategoryWeb
-	case AttackTypePrintertech:
+	case TechTypePrintertech:
 		return AttackCategoryWeb
-	case AttackTypePrintmonitor:
+	case TechTypePrintmonitor:
 		return AttackCategoryWeb
-	case AttackTypePrismaindustrialecve:
+	case TechTypePrismaindustrialecve:
 		return AttackCategoryCVE
-	case AttackTypePrismatic:
+	case TechTypePrismatic:
 		return AttackCategoryWeb
-	case AttackTypePrismaweb:
+	case TechTypePrismaweb:
 		return AttackCategoryWeb
-	case AttackTypePrivatebin:
+	case TechTypePrivatebin:
 		return AttackCategoryWeb
-	case AttackTypePrivesc:
+	case TechTypePrivesc:
 		return AttackCategoryPrivEsc
-	case AttackTypePrivxpanel:
+	case TechTypePrivxpanel:
 		return AttackCategoryWeb
-	case AttackTypeProcesswire:
+	case TechTypeProcesswire:
 		return AttackCategoryWeb
-	case AttackTypeProcesswirepanel:
+	case TechTypeProcesswirepanel:
 		return AttackCategoryWeb
-	case AttackTypeProducthuntosint:
+	case TechTypeProducthuntosint:
 		return AttackCategoryOsint
-	case AttackTypeProfilegrid:
+	case TechTypeProfilegrid:
 		return AttackCategoryWeb
-	case AttackTypeProfittrailermisconfig:
+	case TechTypeProfittrailermisconfig:
 		return AttackCategoryAI
-	case AttackTypeProftpd:
+	case TechTypeProftpd:
 		return AttackCategoryWeb
-	case AttackTypeProftpdexposure:
+	case TechTypeProftpdexposure:
 		return AttackCategoryWeb
-	case AttackTypeProgress:
+	case TechTypeProgress:
 		return AttackCategoryWeb
-	case AttackTypeProgressadiscon:
+	case TechTypeProgressadiscon:
 		return AttackCategoryWeb
-	case AttackTypeProgresscve2017:
+	case TechTypeProgresscve2017:
 		return AttackCategoryCVE
-	case AttackTypeProgresscve2023:
+	case TechTypeProgresscve2023:
 		return AttackCategoryCVE
-	case AttackTypeProgresspanel:
+	case TechTypeProgresspanel:
 		return AttackCategoryWeb
-	case AttackTypeProgresssiteomat:
+	case TechTypeProgresssiteomat:
 		return AttackCategoryWeb
-	case AttackTypeProjectdiscoverytokenSpray:
+	case TechTypeProjectdiscoverytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeProjector:
+	case TechTypeProjector:
 		return AttackCategoryWeb
-	case AttackTypeProjectsend:
+	case TechTypeProjectsend:
 		return AttackCategoryWeb
-	case AttackTypeProjectsendinstall:
+	case TechTypeProjectsendinstall:
 		return AttackCategoryWeb
-	case AttackTypePrometheus:
+	case TechTypePrometheus:
 		return AttackCategoryWeb
-	case AttackTypePrometheuspanel:
+	case TechTypePrometheuspanel:
 		return AttackCategoryWeb
-	case AttackTypePromodjosint:
+	case TechTypePromodjosint:
 		return AttackCategoryOsint
-	case AttackTypePromtail:
+	case TechTypePromtail:
 		return AttackCategoryAI
-	case AttackTypePronounspageosint:
+	case TechTypePronounspageosint:
 		return AttackCategoryOsint
-	case AttackTypePronounyosint:
+	case TechTypePronounyosint:
 		return AttackCategoryOsint
-	case AttackTypeProofpoint:
+	case TechTypeProofpoint:
 		return AttackCategoryWeb
-	case AttackTypeProperfractioncve2021:
+	case TechTypeProperfractioncve2021:
 		return AttackCategoryCVE
-	case AttackTypePropertiesruby:
+	case TechTypePropertiesruby:
 		return AttackCategoryWeb
-	case AttackTypeProseosint:
+	case TechTypeProseosint:
 		return AttackCategoryOsint
-	case AttackTypeProton:
+	case TechTypeProton:
 		return AttackCategoryWeb
-	case AttackTypePrototype:
+	case TechTypePrototype:
 		return AttackCategoryWeb
-	case AttackTypeProtractor:
+	case TechTypeProtractor:
 		return AttackCategoryWeb
-	case AttackTypeProvectuspanel:
+	case TechTypeProvectuspanel:
 		return AttackCategoryWeb
-	case AttackTypeProxmox:
+	case TechTypeProxmox:
 		return AttackCategoryWeb
-	case AttackTypeProxy:
+	case TechTypeProxy:
 		return AttackCategoryWeb
-	case AttackTypeProxyatlassian:
+	case TechTypeProxyatlassian:
 		return AttackCategoryWeb
-	case AttackTypeProxycrawltokenSpray:
+	case TechTypeProxycrawltokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeProxycve2018:
+	case TechTypeProxycve2018:
 		return AttackCategoryCVE
-	case AttackTypeProxydevops:
+	case TechTypeProxydevops:
 		return AttackCategoryWeb
-	case AttackTypeProxykingdomtokenSpray:
+	case TechTypeProxykingdomtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeProxymisconfig:
+	case TechTypeProxymisconfig:
 		return AttackCategoryWeb
-	case AttackTypeProxypanel:
+	case TechTypeProxypanel:
 		return AttackCategoryWeb
-	case AttackTypeProxytech:
+	case TechTypeProxytech:
 		return AttackCategoryWeb
-	case AttackTypePrtg:
+	case TechTypePrtg:
 		return AttackCategoryWeb
-	case AttackTypePrtgnode:
+	case TechTypePrtgnode:
 		return AttackCategoryWeb
-	case AttackTypePrvplosint:
+	case TechTypePrvplosint:
 		return AttackCategoryOsint
-	case AttackTypePsalm:
+	case TechTypePsalm:
 		return AttackCategoryWeb
-	case AttackTypePsql:
+	case TechTypePsql:
 		return AttackCategorySqlInjection
-	case AttackTypePsstaudioosint:
+	case TechTypePsstaudioosint:
 		return AttackCategoryOsint
-	case AttackTypePtrdns:
+	case TechTypePtrdns:
 		return AttackCategoryDNS
-	case AttackTypePublicKnowledgeProjectcve:
+	case TechTypePublicKnowledgeProjectcve:
 		return AttackCategoryCVE
-	case AttackTypePublickeyflutterwave:
+	case TechTypePublickeyflutterwave:
 		return AttackCategoryWeb
-	case AttackTypePublicosint:
+	case TechTypePublicosint:
 		return AttackCategoryOsint
-	case AttackTypePubsec:
+	case TechTypePubsec:
 		return AttackCategoryWeb
-	case AttackTypePucitEducve:
+	case TechTypePucitEducve:
 		return AttackCategoryCVE
-	case AttackTypePulmicredsStuffing:
+	case TechTypePulmicredsStuffing:
 		return AttackCategoryWeb
-	case AttackTypePulsar:
+	case TechTypePulsar:
 		return AttackCategoryWeb
-	case AttackTypePulsar360:
+	case TechTypePulsar360:
 		return AttackCategoryWeb
-	case AttackTypePulsarui:
+	case TechTypePulsarui:
 		return AttackCategoryWeb
-	case AttackTypePulse:
+	case TechTypePulse:
 		return AttackCategoryWeb
-	case AttackTypePulsesecure:
+	case TechTypePulsesecure:
 		return AttackCategoryWeb
-	case AttackTypePulsesecurepanel:
+	case TechTypePulsesecurepanel:
 		return AttackCategoryWeb
-	case AttackTypePuppet:
+	case TechTypePuppet:
 		return AttackCategoryWeb
-	case AttackTypePuppetdbcve2020:
+	case TechTypePuppetdbcve2020:
 		return AttackCategoryCVE
-	case AttackTypePuppetdbinjection:
+	case TechTypePuppetdbinjection:
 		return AttackCategoryWeb
-	case AttackTypePupyc2:
+	case TechTypePupyc2:
 		return AttackCategoryWeb
-	case AttackTypePurchaseOrder:
+	case TechTypePurchaseOrder:
 		return AttackCategoryWeb
-	case AttackTypePurchaseOrderManagementSystem:
+	case TechTypePurchaseOrderManagementSystem:
 		return AttackCategoryWeb
-	case AttackTypePurchaseOrderManagementProjectcve:
+	case TechTypePurchaseOrderManagementProjectcve:
 		return AttackCategoryCVE
-	case AttackTypePurchaseOrderManagementProjectcve2023:
+	case TechTypePurchaseOrderManagementProjectcve2023:
 		return AttackCategoryCVE
-	case AttackTypePurchaseOrderManagementSystemProjectcve:
+	case TechTypePurchaseOrderManagementSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypePurchaseOrderManagementSystemProjectcve2021:
+	case TechTypePurchaseOrderManagementSystemProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypePurchaseOrderManagementSystemProjectcve2023:
+	case TechTypePurchaseOrderManagementSystemProjectcve2023:
 		return AttackCategoryCVE
-	case AttackTypePurestoragepanel:
+	case TechTypePurestoragepanel:
 		return AttackCategoryWeb
-	case AttackTypePurethemescve2021:
+	case TechTypePurethemescve2021:
 		return AttackCategoryCVE
-	case AttackTypePushgatewaypanel:
+	case TechTypePushgatewaypanel:
 		return AttackCategoryWeb
-	case AttackTypePutty:
+	case TechTypePutty:
 		return AttackCategoryWeb
-	case AttackTypePyload:
+	case TechTypePyload:
 		return AttackCategoryWeb
-	case AttackTypePyloadrabbitmq:
+	case TechTypePyloadrabbitmq:
 		return AttackCategoryWeb
-	case AttackTypePypicloudpanel:
+	case TechTypePypicloudpanel:
 		return AttackCategoryCloud
-	case AttackTypePypiosint:
+	case TechTypePypiosint:
 		return AttackCategoryOsint
-	case AttackTypePypiserver:
+	case TechTypePypiserver:
 		return AttackCategoryWeb
-	case AttackTypePypiserverredcap:
+	case TechTypePypiserverredcap:
 		return AttackCategoryWeb
-	case AttackTypePyproject:
+	case TechTypePyproject:
 		return AttackCategoryWeb
-	case AttackTypePython:
+	case TechTypePython:
 		return AttackCategoryWeb
-	case AttackTypePythoncve:
+	case TechTypePythoncve:
 		return AttackCategoryCVE
-	case AttackTypePythonpanel:
+	case TechTypePythonpanel:
 		return AttackCategoryWeb
-	case AttackTypeQantumthemescve2021:
+	case TechTypeQantumthemescve2021:
 		return AttackCategoryCVE
-	case AttackTypeQbittorrent:
+	case TechTypeQbittorrent:
 		return AttackCategoryWeb
-	case AttackTypeQcubed:
+	case TechTypeQcubed:
 		return AttackCategoryWeb
-	case AttackTypeQcubedrce:
+	case TechTypeQcubedrce:
 		return AttackCategoryRCE
-	case AttackTypeQdpm:
+	case TechTypeQdpm:
 		return AttackCategoryWeb
-	case AttackTypeQlik:
+	case TechTypeQlik:
 		return AttackCategoryWeb
-	case AttackTypeQlikpanel:
+	case TechTypeQlikpanel:
 		return AttackCategoryWeb
-	case AttackTypeQlikview:
+	case TechTypeQlikview:
 		return AttackCategoryWeb
-	case AttackTypeQloapps:
+	case TechTypeQloapps:
 		return AttackCategoryWeb
-	case AttackTypeQmailProjectpanel:
+	case TechTypeQmailProjectpanel:
 		return AttackCategoryMail
-	case AttackTypeQnap:
+	case TechTypeQnap:
 		return AttackCategoryWeb
-	case AttackTypeQnappanel:
+	case TechTypeQnappanel:
 		return AttackCategoryWeb
-	case AttackTypeQsan:
+	case TechTypeQsan:
 		return AttackCategoryWeb
-	case AttackTypeQts:
+	case TechTypeQts:
 		return AttackCategoryWeb
-	case AttackTypeQtspanel:
+	case TechTypeQtspanel:
 		return AttackCategoryWeb
-	case AttackTypeQualcomm:
+	case TechTypeQualcomm:
 		return AttackCategoryWeb
-	case AttackTypeQualtricspanel:
+	case TechTypeQualtricspanel:
 		return AttackCategoryWeb
-	case AttackTypeQuantum:
+	case TechTypeQuantum:
 		return AttackCategoryWeb
-	case AttackTypeQuantumcloudcve:
+	case TechTypeQuantumcloudcve:
 		return AttackCategoryCloud
-	case AttackTypeQuasarssl:
+	case TechTypeQuasarssl:
 		return AttackCategoryWeb
-	case AttackTypeQueerosint:
+	case TechTypeQueerosint:
 		return AttackCategoryOsint
-	case AttackTypeQuerysolcve2021:
+	case TechTypeQuerysolcve2021:
 		return AttackCategoryCVE
-	case AttackTypeQuestdb:
+	case TechTypeQuestdb:
 		return AttackCategoryWeb
-	case AttackTypeQuickEventManager:
+	case TechTypeQuickEventManager:
 		return AttackCategoryWeb
-	case AttackTypeQuickcms:
+	case TechTypeQuickcms:
 		return AttackCategoryWeb
-	case AttackTypeQuilium:
+	case TechTypeQuilium:
 		return AttackCategoryWeb
-	case AttackTypeQuiptokenSpray:
+	case TechTypeQuiptokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeQuitterplosint:
+	case TechTypeQuitterplosint:
 		return AttackCategoryOsint
-	case AttackTypeQuixplorer:
+	case TechTypeQuixplorer:
 		return AttackCategoryWeb
-	case AttackTypeQuixplorerProjectcve:
+	case TechTypeQuixplorerProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeQuiz:
+	case TechTypeQuiz:
 		return AttackCategoryWeb
-	case AttackTypeQuora:
+	case TechTypeQuora:
 		return AttackCategoryWeb
-	case AttackTypeQuoraosint:
+	case TechTypeQuoraosint:
 		return AttackCategoryOsint
-	case AttackTypeQuts:
+	case TechTypeQuts:
 		return AttackCategoryWeb
-	case AttackTypeQuttera:
+	case TechTypeQuttera:
 		return AttackCategoryWeb
-	case AttackTypeQvidiumrabbitmq:
+	case TechTypeQvidiumrabbitmq:
 		return AttackCategoryWeb
-	case AttackTypeQwizOnlineQuizzesAndFlashcards:
+	case TechTypeQwizOnlineQuizzesAndFlashcards:
 		return AttackCategoryWeb
-	case AttackTypeRSeenet:
+	case TechTypeRSeenet:
 		return AttackCategoryWeb
-	case AttackTypeRabbitmq:
+	case TechTypeRabbitmq:
 		return AttackCategoryWeb
-	case AttackTypeRackn:
+	case TechTypeRackn:
 		return AttackCategoryWeb
-	case AttackTypeRacksnetpanel:
+	case TechTypeRacksnetpanel:
 		return AttackCategoryWeb
-	case AttackTypeRackstation:
+	case TechTypeRackstation:
 		return AttackCategoryWeb
-	case AttackTypeRackupconfig:
+	case TechTypeRackupconfig:
 		return AttackCategoryWeb
-	case AttackTypeRaddlemeosint:
+	case TechTypeRaddlemeosint:
 		return AttackCategoryOsint
-	case AttackTypeRadius:
+	case TechTypeRadius:
 		return AttackCategoryWeb
-	case AttackTypeRadykalcve:
+	case TechTypeRadykalcve:
 		return AttackCategoryCVE
-	case AttackTypeRaiden:
+	case TechTypeRaiden:
 		return AttackCategoryAI
-	case AttackTypeRails:
+	case TechTypeRails:
 		return AttackCategoryAI
-	case AttackTypeRailsdevops:
+	case TechTypeRailsdevops:
 		return AttackCategoryAI
-	case AttackTypeRailsdjango:
+	case TechTypeRailsdjango:
 		return AttackCategoryAI
-	case AttackTypeRailspyramid:
+	case TechTypeRailspyramid:
 		return AttackCategoryAI
-	case AttackTypeRailsredis:
+	case TechTypeRailsredis:
 		return AttackCategoryAI
-	case AttackTypeRainbowPortalcve:
+	case TechTypeRainbowPortalcve:
 		return AttackCategoryCVE
-	case AttackTypeRainbowfishsoftwarecve:
+	case TechTypeRainbowfishsoftwarecve:
 		return AttackCategoryCVE
-	case AttackTypeRainloop:
+	case TechTypeRainloop:
 		return AttackCategoryAI
-	case AttackTypeRake:
+	case TechTypeRake:
 		return AttackCategoryWeb
-	case AttackTypeRakefile:
+	case TechTypeRakefile:
 		return AttackCategoryWeb
-	case AttackTypeRancher:
+	case TechTypeRancher:
 		return AttackCategoryWeb
-	case AttackTypeRanger:
+	case TechTypeRanger:
 		return AttackCategoryWeb
-	case AttackTypeRangertech:
+	case TechTypeRangertech:
 		return AttackCategoryWeb
-	case AttackTypeRantliosint:
+	case TechTypeRantliosint:
 		return AttackCategoryOsint
-	case AttackTypeRapid7Panel:
+	case TechTypeRapid7Panel:
 		return AttackCategoryWeb
-	case AttackTypeRas:
+	case TechTypeRas:
 		return AttackCategoryWeb
-	case AttackTypeRaspap:
+	case TechTypeRaspap:
 		return AttackCategoryWeb
-	case AttackTypeRaspberrymatic:
+	case TechTypeRaspberrymatic:
 		return AttackCategoryWeb
-	case AttackTypeRaspberrypanel:
+	case TechTypeRaspberrypanel:
 		return AttackCategoryWeb
-	case AttackTypeRat:
+	case TechTypeRat:
 		return AttackCategoryWeb
-	case AttackTypeRatc2:
+	case TechTypeRatc2:
 		return AttackCategoryWeb
-	case AttackTypeRay:
+	case TechTypeRay:
 		return AttackCategoryWeb
-	case AttackTypeRayProjectcve:
+	case TechTypeRayProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeRayguncve2017:
+	case TechTypeRayguncve2017:
 		return AttackCategoryCVE
-	case AttackTypeRaymisconfig:
+	case TechTypeRaymisconfig:
 		return AttackCategoryWeb
-	case AttackTypeRazer:
+	case TechTypeRazer:
 		return AttackCategoryWeb
-	case AttackTypeRazor:
+	case TechTypeRazor:
 		return AttackCategoryWeb
-	case AttackTypeRazorpayreact:
+	case TechTypeRazorpayreact:
 		return AttackCategoryWeb
-	case AttackTypeRc:
+	case TechTypeRc:
 		return AttackCategoryWeb
-	case AttackTypeRcdevs:
+	case TechTypeRcdevs:
 		return AttackCategoryWeb
-	case AttackTypeRce:
+	case TechTypeRce:
 		return AttackCategoryRCE
-	case AttackTypeRcechamilo:
+	case TechTypeRcechamilo:
 		return AttackCategoryRCE
-	case AttackTypeRcecloud:
+	case TechTypeRcecloud:
 		return AttackCategoryCloud
-	case AttackTypeRcecnvd:
+	case TechTypeRcecnvd:
 		return AttackCategoryRCE
-	case AttackTypeRcecnvd2023:
+	case TechTypeRcecnvd2023:
 		return AttackCategoryRCE
-	case AttackTypeRcecve:
+	case TechTypeRcecve:
 		return AttackCategoryCVE
-	case AttackTypeRcecve2009:
+	case TechTypeRcecve2009:
 		return AttackCategoryCVE
-	case AttackTypeRcecve2015:
+	case TechTypeRcecve2015:
 		return AttackCategoryCVE
-	case AttackTypeRcecve2017:
+	case TechTypeRcecve2017:
 		return AttackCategoryCVE
-	case AttackTypeRcecve2018:
+	case TechTypeRcecve2018:
 		return AttackCategoryCVE
-	case AttackTypeRcecve2020:
+	case TechTypeRcecve2020:
 		return AttackCategoryCVE
-	case AttackTypeRcecve2021:
+	case TechTypeRcecve2021:
 		return AttackCategoryCVE
-	case AttackTypeRcecve2023:
+	case TechTypeRcecve2023:
 		return AttackCategoryCVE
-	case AttackTypeRcecve2024:
+	case TechTypeRcecve2024:
 		return AttackCategoryCVE
-	case AttackTypeRceedb:
+	case TechTypeRceedb:
 		return AttackCategoryRCE
-	case AttackTypeRcehasura:
+	case TechTypeRcehasura:
 		return AttackCategoryRCE
-	case AttackTypeRcehjtcloud:
+	case TechTypeRcehjtcloud:
 		return AttackCategoryCloud
-	case AttackTypeRceinterlib:
+	case TechTypeRceinterlib:
 		return AttackCategoryRCE
-	case AttackTypeRcejenkins:
+	case TechTypeRcejenkins:
 		return AttackCategoryRCE
-	case AttackTypeRcejs:
+	case TechTypeRcejs:
 		return AttackCategoryRCE
-	case AttackTypeRcekevinlab:
+	case TechTypeRcekevinlab:
 		return AttackCategoryRCE
-	case AttackTypeRcelandray:
+	case TechTypeRcelandray:
 		return AttackCategoryRCE
-	case AttackTypeRcelaravel:
+	case TechTypeRcelaravel:
 		return AttackCategoryRCE
-	case AttackTypeRcelfi:
+	case TechTypeRcelfi:
 		return AttackCategoryRCE
-	case AttackTypeRcelfr:
+	case TechTypeRcelfr:
 		return AttackCategoryRCE
-	case AttackTypeRcelucee:
+	case TechTypeRcelucee:
 		return AttackCategoryRCE
-	case AttackTypeRcenetgear:
+	case TechTypeRcenetgear:
 		return AttackCategoryRCE
-	case AttackTypeRcenetmizer:
+	case TechTypeRcenetmizer:
 		return AttackCategoryRCE
-	case AttackTypeRcensasg:
+	case TechTypeRcensasg:
 		return AttackCategoryRCE
-	case AttackTypeRceopenv500:
+	case TechTypeRceopenv500:
 		return AttackCategoryRCE
-	case AttackTypeRceopenvpn:
+	case TechTypeRceopenvpn:
 		return AttackCategoryRCE
-	case AttackTypeRcepacketstorm:
+	case TechTypeRcepacketstorm:
 		return AttackCategoryRCE
-	case AttackTypeRcereflected:
+	case TechTypeRcereflected:
 		return AttackCategoryRCE
-	case AttackTypeRceruijie:
+	case TechTypeRceruijie:
 		return AttackCategoryRCE
-	case AttackTypeRcesangfor:
+	case TechTypeRcesangfor:
 		return AttackCategoryRCE
-	case AttackTypeRceseacms:
+	case TechTypeRceseacms:
 		return AttackCategoryRCE
-	case AttackTypeRcespringboot:
+	case TechTypeRcespringboot:
 		return AttackCategoryRCE
-	case AttackTypeRcesqli:
+	case TechTypeRcesqli:
 		return AttackCategoryRCE
-	case AttackTypeRcetamronos:
+	case TechTypeRcetamronos:
 		return AttackCategoryRCE
-	case AttackTypeRcethinkcmf:
+	case TechTypeRcethinkcmf:
 		return AttackCategoryRCE
-	case AttackTypeRcethinkphp:
+	case TechTypeRcethinkphp:
 		return AttackCategoryPHP
-	case AttackTypeRcetongda:
+	case TechTypeRcetongda:
 		return AttackCategoryRCE
-	case AttackTypeRcevbulletin:
+	case TechTypeRcevbulletin:
 		return AttackCategoryRCE
-	case AttackTypeRcewordpress:
+	case TechTypeRcewordpress:
 		return AttackCategoryRCE
-	case AttackTypeRcexss:
+	case TechTypeRcexss:
 		return AttackCategoryXSS
-	case AttackTypeRceyapi:
+	case TechTypeRceyapi:
 		return AttackCategoryRCE
-	case AttackTypeRceyeswiki:
+	case TechTypeRceyeswiki:
 		return AttackCategoryRCE
-	case AttackTypeRconfig:
+	case TechTypeRconfig:
 		return AttackCategoryWeb
-	case AttackTypeRconfigExposure:
+	case TechTypeRconfigExposure:
 		return AttackCategoryWeb
-	case AttackTypeRconfigcve:
+	case TechTypeRconfigcve:
 		return AttackCategoryCVE
-	case AttackTypeRcoscve:
+	case TechTypeRcoscve:
 		return AttackCategoryCVE
-	case AttackTypeRdap:
+	case TechTypeRdap:
 		return AttackCategoryWeb
-	case AttackTypeRdp:
+	case TechTypeRdp:
 		return AttackCategoryWeb
-	case AttackTypeRds:
+	case TechTypeRds:
 		return AttackCategoryWeb
-	case AttackTypeReadme:
+	case TechTypeReadme:
 		return AttackCategoryWeb
-	case AttackTypeReadmetakeover:
+	case TechTypeReadmetakeover:
 		return AttackCategoryWeb
-	case AttackTypeReadthedocstakeover:
+	case TechTypeReadthedocstakeover:
 		return AttackCategoryWeb
-	case AttackTypeReadtomyshoe:
+	case TechTypeReadtomyshoe:
 		return AttackCategoryWeb
-	case AttackTypeReadtomyshoeProjectcve:
+	case TechTypeReadtomyshoeProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeRealestatewpscan:
+	case TechTypeRealestatewpscan:
 		return AttackCategoryWeb
-	case AttackTypeRealgimm:
+	case TechTypeRealgimm:
 		return AttackCategoryWeb
-	case AttackTypeReality:
+	case TechTypeReality:
 		return AttackCategoryWeb
-	case AttackTypeRealtek:
+	case TechTypeRealtek:
 		return AttackCategoryWeb
-	case AttackTypeRealteo:
+	case TechTypeRealteo:
 		return AttackCategoryWeb
-	case AttackTypeRealtynacve:
+	case TechTypeRealtynacve:
 		return AttackCategoryCVE
-	case AttackTypeReblogmeosint:
+	case TechTypeReblogmeosint:
 		return AttackCategoryOsint
-	case AttackTypeRebuild:
+	case TechTypeRebuild:
 		return AttackCategoryWeb
-	case AttackTypeReclycve:
+	case TechTypeReclycve:
 		return AttackCategoryCVE
-	case AttackTypeRecon:
+	case TechTypeRecon:
 		return AttackCategoryWeb
-	case AttackTypeRecrystallize:
+	case TechTypeRecrystallize:
 		return AttackCategoryWeb
-	case AttackTypeRedGatepanel:
+	case TechTypeRedGatepanel:
 		return AttackCategoryWeb
-	case AttackTypeRedash:
+	case TechTypeRedash:
 		return AttackCategoryWeb
-	case AttackTypeRedashpanel:
+	case TechTypeRedashpanel:
 		return AttackCategoryWeb
-	case AttackTypeRedbubbleosint:
+	case TechTypeRedbubbleosint:
 		return AttackCategoryOsint
-	case AttackTypeRedcomponentcve:
+	case TechTypeRedcomponentcve:
 		return AttackCategoryCVE
-	case AttackTypeReddit:
+	case TechTypeReddit:
 		return AttackCategoryWeb
-	case AttackTypeRedditosint:
+	case TechTypeRedditosint:
 		return AttackCategoryOsint
-	case AttackTypeRedfish:
+	case TechTypeRedfish:
 		return AttackCategoryWeb
-	case AttackTypeRedgifsosint:
+	case TechTypeRedgifsosint:
 		return AttackCategoryOsint
-	case AttackTypeRedhat:
+	case TechTypeRedhat:
 		return AttackCategoryWeb
-	case AttackTypeRedhatapache:
+	case TechTypeRedhatapache:
 		return AttackCategoryWeb
-	case AttackTypeRedhatcve:
+	case TechTypeRedhatcve:
 		return AttackCategoryCVE
-	case AttackTypeRedhatcve2021:
+	case TechTypeRedhatcve2021:
 		return AttackCategoryCVE
-	case AttackTypeRedhatpanel:
+	case TechTypeRedhatpanel:
 		return AttackCategoryWeb
-	case AttackTypeRedhattech:
+	case TechTypeRedhattech:
 		return AttackCategoryWeb
-	case AttackTypeRedirect:
+	case TechTypeRedirect:
 		return AttackCategoryWeb
-	case AttackTypeRedirectcve:
+	case TechTypeRedirectcve:
 		return AttackCategoryCVE
-	case AttackTypeRedirectcve2017:
+	case TechTypeRedirectcve2017:
 		return AttackCategoryCVE
-	case AttackTypeRedirectcve2021:
+	case TechTypeRedirectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeRedirectcve2023:
+	case TechTypeRedirectcve2023:
 		return AttackCategoryCVE
-	case AttackTypeRedirectdedecms:
+	case TechTypeRedirectdedecms:
 		return AttackCategoryWeb
-	case AttackTypeRedirecthongfan:
+	case TechTypeRedirecthongfan:
 		return AttackCategoryWeb
-	case AttackTypeRedirecticewarp:
+	case TechTypeRedirecticewarp:
 		return AttackCategoryWeb
-	case AttackTypeRedirectjndi:
+	case TechTypeRedirectjndi:
 		return AttackCategoryWeb
-	case AttackTypeRedirectxss:
+	case TechTypeRedirectxss:
 		return AttackCategoryXSS
-	case AttackTypeRedis:
+	case TechTypeRedis:
 		return AttackCategoryWeb
-	case AttackTypeRedisinsight:
+	case TechTypeRedisinsight:
 		return AttackCategoryWeb
-	case AttackTypeRedispanel:
+	case TechTypeRedispanel:
 		return AttackCategoryWeb
-	case AttackTypeRedlion:
+	case TechTypeRedlion:
 		return AttackCategoryWeb
-	case AttackTypeRedmine:
+	case TechTypeRedmine:
 		return AttackCategoryWeb
-	case AttackTypeRedminetech:
+	case TechTypeRedminetech:
 		return AttackCategoryWeb
-	case AttackTypeReduxcve2021:
+	case TechTypeReduxcve2021:
 		return AttackCategoryCVE
-	case AttackTypeRedwood:
+	case TechTypeRedwood:
 		return AttackCategoryWeb
-	case AttackTypeRefresh:
+	case TechTypeRefresh:
 		return AttackCategoryWeb
-	case AttackTypeRefsheetosint:
+	case TechTypeRefsheetosint:
 		return AttackCategoryOsint
-	case AttackTypeRegify:
+	case TechTypeRegify:
 		return AttackCategoryWeb
-	case AttackTypeRegister:
+	case TechTypeRegister:
 		return AttackCategoryWeb
-	case AttackTypeRegistrationmagic:
+	case TechTypeRegistrationmagic:
 		return AttackCategoryWeb
-	case AttackTypeRegistrationsForTheEventsCalendar:
+	case TechTypeRegistrationsForTheEventsCalendar:
 		return AttackCategoryWeb
-	case AttackTypeRegistrysqli:
+	case TechTypeRegistrysqli:
 		return AttackCategorySqlInjection
-	case AttackTypeRejetto:
+	case TechTypeRejetto:
 		return AttackCategoryWeb
-	case AttackTypeRejettocve2014:
+	case TechTypeRejettocve2014:
 		return AttackCategoryCVE
-	case AttackTypeRelatedposts:
+	case TechTypeRelatedposts:
 		return AttackCategoryWeb
-	case AttackTypeRelevanssi:
+	case TechTypeRelevanssi:
 		return AttackCategoryWeb
-	case AttackTypeRemedy:
+	case TechTypeRemedy:
 		return AttackCategoryWeb
-	case AttackTypeRemkon:
+	case TechTypeRemkon:
 		return AttackCategoryWeb
-	case AttackTypeRemoting:
+	case TechTypeRemoting:
 		return AttackCategoryWeb
-	case AttackTypeReolink:
+	case TechTypeReolink:
 		return AttackCategoryWeb
-	case AttackTypeRepeater:
+	case TechTypeRepeater:
 		return AttackCategoryWeb
-	case AttackTypeRepetier:
+	case TechTypeRepetier:
 		return AttackCategoryWeb
-	case AttackTypeRepetierServercve:
+	case TechTypeRepetierServercve:
 		return AttackCategoryCVE
-	case AttackTypeRepetierServerpanel:
+	case TechTypeRepetierServerpanel:
 		return AttackCategoryWeb
-	case AttackTypeReport:
+	case TechTypeReport:
 		return AttackCategoryWeb
-	case AttackTypeReportico:
+	case TechTypeReportico:
 		return AttackCategoryWeb
-	case AttackTypeReprise:
+	case TechTypeReprise:
 		return AttackCategoryWeb
-	case AttackTypeReprisesoftwarecve:
+	case TechTypeReprisesoftwarecve:
 		return AttackCategoryCVE
-	case AttackTypeReprisesoftwarecve2021:
+	case TechTypeReprisesoftwarecve2021:
 		return AttackCategoryCVE
-	case AttackTypeReputeinfosystemscve:
+	case TechTypeReputeinfosystemscve:
 		return AttackCategoryCVE
-	case AttackTypeReqlogiccve:
+	case TechTypeReqlogiccve:
 		return AttackCategoryCVE
-	case AttackTypeRequestsBaskets:
+	case TechTypeRequestsBaskets:
 		return AttackCategoryWeb
-	case AttackTypeResearchgateosint:
+	case TechTypeResearchgateosint:
 		return AttackCategoryOsint
-	case AttackTypeResin:
+	case TechTypeResin:
 		return AttackCategoryWeb
-	case AttackTypeResourcespace:
+	case TechTypeResourcespace:
 		return AttackCategoryRCE
-	case AttackTypeResponsiveMegaMenuProProjectcve2018:
+	case TechTypeResponsiveMegaMenuProProjectcve2018:
 		return AttackCategoryCVE
-	case AttackTypeRest:
+	case TechTypeRest:
 		return AttackCategoryWeb
-	case AttackTypeRestler:
+	case TechTypeRestler:
 		return AttackCategoryWeb
-	case AttackTypeResumesActorsaccessosint:
+	case TechTypeResumesActorsaccessosint:
 		return AttackCategoryOsint
-	case AttackTypeRethinkdb:
+	case TechTypeRethinkdb:
 		return AttackCategoryWeb
-	case AttackTypeRetoolpanel:
+	case TechTypeRetoolpanel:
 		return AttackCategoryWeb
-	case AttackTypeRevealjs:
+	case TechTypeRevealjs:
 		return AttackCategoryWeb
-	case AttackTypeRevive:
+	case TechTypeRevive:
 		return AttackCategoryWeb
-	case AttackTypeReviveAdservercve:
+	case TechTypeReviveAdservercve:
 		return AttackCategoryCVE
-	case AttackTypeReviveAdservercve2021:
+	case TechTypeReviveAdservercve2021:
 		return AttackCategoryCVE
-	case AttackTypeReviveAdserverpanel:
+	case TechTypeReviveAdserverpanel:
 		return AttackCategoryWeb
-	case AttackTypeReviveSascve:
+	case TechTypeReviveSascve:
 		return AttackCategoryCVE
-	case AttackTypeRevmakxcve2020:
+	case TechTypeRevmakxcve2020:
 		return AttackCategoryCVE
-	case AttackTypeRevokedssl:
+	case TechTypeRevokedssl:
 		return AttackCategoryWeb
-	case AttackTypeRevolutosint:
+	case TechTypeRevolutosint:
 		return AttackCategoryOsint
-	case AttackTypeRevslider:
+	case TechTypeRevslider:
 		return AttackCategoryWeb
-	case AttackTypeRfi:
+	case TechTypeRfi:
 		return AttackCategoryWeb
-	case AttackTypeRfitongda:
+	case TechTypeRfitongda:
 		return AttackCategoryWeb
-	case AttackTypeRfixss:
+	case TechTypeRfixss:
 		return AttackCategoryXSS
-	case AttackTypeRhadamanthys:
+	case TechTypeRhadamanthys:
 		return AttackCategoryWeb
-	case AttackTypeRhymixtech:
+	case TechTypeRhymixtech:
 		return AttackCategoryWeb
-	case AttackTypeRiak:
+	case TechTypeRiak:
 		return AttackCategoryWeb
-	case AttackTypeRichfacesexposure:
+	case TechTypeRichfacesexposure:
 		return AttackCategoryWeb
-	case AttackTypeRijksmuseumtokenSpray:
+	case TechTypeRijksmuseumtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeRiseuppanel:
+	case TechTypeRiseuppanel:
 		return AttackCategoryWeb
-	case AttackTypeRiskruosint:
+	case TechTypeRiskruosint:
 		return AttackCategoryOsint
-	case AttackTypeRlm:
+	case TechTypeRlm:
 		return AttackCategoryWeb
-	case AttackTypeRlwrap:
+	case TechTypeRlwrap:
 		return AttackCategoryWeb
-	case AttackTypeRmc:
+	case TechTypeRmc:
 		return AttackCategoryWeb
-	case AttackTypeRmi:
+	case TechTypeRmi:
 		return AttackCategoryWeb
-	case AttackTypeRoadstokenSpray:
+	case TechTypeRoadstokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeRobertaBramski:
+	case TechTypeRobertaBramski:
 		return AttackCategoryWeb
-	case AttackTypeRobertoAloicve:
+	case TechTypeRobertoAloicve:
 		return AttackCategoryCVE
-	case AttackTypeRoblox:
+	case TechTypeRoblox:
 		return AttackCategoryWeb
-	case AttackTypeRobloxosint:
+	case TechTypeRobloxosint:
 		return AttackCategoryOsint
-	case AttackTypeRoboform:
+	case TechTypeRoboform:
 		return AttackCategoryWeb
-	case AttackTypeRobomongo:
+	case TechTypeRobomongo:
 		return AttackCategoryWeb
-	case AttackTypeRobotCpacve2016:
+	case TechTypeRobotCpacve2016:
 		return AttackCategoryCVE
-	case AttackTypeRocketChat:
+	case TechTypeRocketChat:
 		return AttackCategoryWeb
-	case AttackTypeRocketChatcve:
+	case TechTypeRocketChatcve:
 		return AttackCategoryCVE
-	case AttackTypeRocketchat:
+	case TechTypeRocketchat:
 		return AttackCategoryWeb
-	case AttackTypeRocketmq:
+	case TechTypeRocketmq:
 		return AttackCategoryWeb
-	case AttackTypeRocketthemecve:
+	case TechTypeRocketthemecve:
 		return AttackCategoryCVE
-	case AttackTypeRocklobstercve2020:
+	case TechTypeRocklobstercve2020:
 		return AttackCategoryCVE
-	case AttackTypeRollupjsexposure:
+	case TechTypeRollupjsexposure:
 		return AttackCategoryWeb
-	case AttackTypeRoomAlert:
+	case TechTypeRoomAlert:
 		return AttackCategoryWeb
-	case AttackTypeRosariosiscve2021:
+	case TechTypeRosariosiscve2021:
 		return AttackCategoryCVE
-	case AttackTypeRosariosisroundcube:
+	case TechTypeRosariosisroundcube:
 		return AttackCategoryWeb
-	case AttackTypeRoteador:
+	case TechTypeRoteador:
 		return AttackCategoryWeb
-	case AttackTypeRoundupwpcve2021:
+	case TechTypeRoundupwpcve2021:
 		return AttackCategoryCVE
-	case AttackTypeRouter:
+	case TechTypeRouter:
 		return AttackCategoryWeb
-	case AttackTypeRoutercve:
+	case TechTypeRoutercve:
 		return AttackCategoryCVE
-	case AttackTypeRoutercve2018:
+	case TechTypeRoutercve2018:
 		return AttackCategoryCVE
-	case AttackTypeRoutercve2019:
+	case TechTypeRoutercve2019:
 		return AttackCategoryCVE
-	case AttackTypeRoutercve2021:
+	case TechTypeRoutercve2021:
 		return AttackCategoryCVE
-	case AttackTypeRoutercve2022:
+	case TechTypeRoutercve2022:
 		return AttackCategoryCVE
-	case AttackTypeRouteredb:
+	case TechTypeRouteredb:
 		return AttackCategoryWeb
-	case AttackTypeRouterfeifeicms:
+	case TechTypeRouterfeifeicms:
 		return AttackCategoryWeb
-	case AttackTypeRouteribm:
+	case TechTypeRouteribm:
 		return AttackCategoryWeb
-	case AttackTypeRoutermisconfig:
+	case TechTypeRoutermisconfig:
 		return AttackCategoryWeb
-	case AttackTypeRouternetgear:
+	case TechTypeRouternetgear:
 		return AttackCategoryWeb
-	case AttackTypeRouteros:
+	case TechTypeRouteros:
 		return AttackCategoryWeb
-	case AttackTypeRouterpanel:
+	case TechTypeRouterpanel:
 		return AttackCategoryWeb
-	case AttackTypeRouterruijie:
+	case TechTypeRouterruijie:
 		return AttackCategoryWeb
-	case AttackTypeRouters:
+	case TechTypeRouters:
 		return AttackCategoryWeb
-	case AttackTypeRouterservicenow:
+	case TechTypeRouterservicenow:
 		return AttackCategoryWeb
-	case AttackTypeRoutertongda:
+	case TechTypeRoutertongda:
 		return AttackCategoryWeb
-	case AttackTypeRoutetokenSpray:
+	case TechTypeRoutetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeRoxy:
+	case TechTypeRoxy:
 		return AttackCategoryWeb
-	case AttackTypeRoxyWicve:
+	case TechTypeRoxyWicve:
 		return AttackCategoryCVE
-	case AttackTypeRoxyfilemancve2018:
+	case TechTypeRoxyfilemancve2018:
 		return AttackCategoryCVE
-	case AttackTypeRoxyfilemanroyalevent:
+	case TechTypeRoxyfilemanroyalevent:
 		return AttackCategoryWeb
-	case AttackTypeRoyalElementorAddons:
+	case TechTypeRoyalElementorAddons:
 		return AttackCategoryWeb
-	case AttackTypeRoyalMail:
+	case TechTypeRoyalMail:
 		return AttackCategoryMail
-	case AttackTypeRoyalevent:
+	case TechTypeRoyalevent:
 		return AttackCategoryWeb
-	case AttackTypeRpcbind:
+	case TechTypeRpcbind:
 		return AttackCategoryWeb
-	case AttackTypeRpcms:
+	case TechTypeRpcms:
 		return AttackCategoryWeb
-	case AttackTypeRpm:
+	case TechTypeRpm:
 		return AttackCategoryWeb
-	case AttackTypeRpmdb:
+	case TechTypeRpmdb:
 		return AttackCategoryWeb
-	case AttackTypeRpmtech:
+	case TechTypeRpmtech:
 		return AttackCategoryWeb
-	case AttackTypeRpmverify:
+	case TechTypeRpmverify:
 		return AttackCategoryWeb
-	case AttackTypeRsapanel:
+	case TechTypeRsapanel:
 		return AttackCategoryWeb
-	case AttackTypeRsb:
+	case TechTypeRsb:
 		return AttackCategoryWeb
-	case AttackTypeRseenet:
+	case TechTypeRseenet:
 		return AttackCategoryWeb
-	case AttackTypeRseenettech:
+	case TechTypeRseenettech:
 		return AttackCategoryWeb
-	case AttackTypeRsiosint:
+	case TechTypeRsiosint:
 		return AttackCategoryOsint
-	case AttackTypeRss:
+	case TechTypeRss:
 		return AttackCategoryWeb
-	case AttackTypeRsshubaws:
+	case TechTypeRsshubaws:
 		return AttackCategoryCloud
-	case AttackTypeRstudio:
+	case TechTypeRstudio:
 		return AttackCategoryWeb
-	case AttackTypeRstudiocve2022:
+	case TechTypeRstudiocve2022:
 		return AttackCategoryCVE
-	case AttackTypeRstudiopanel:
+	case TechTypeRstudiopanel:
 		return AttackCategoryWeb
-	case AttackTypeRsvpmaker:
+	case TechTypeRsvpmaker:
 		return AttackCategoryWeb
-	case AttackTypeRsync:
+	case TechTypeRsync:
 		return AttackCategoryWeb
-	case AttackTypeRsyncd:
+	case TechTypeRsyncd:
 		return AttackCategoryWeb
-	case AttackTypeRtN16DefaultLogin:
+	case TechTypeRtN16DefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeRtmWebpanel:
+	case TechTypeRtmWebpanel:
 		return AttackCategoryWeb
-	case AttackTypeRtsp:
+	case TechTypeRtsp:
 		return AttackCategoryWeb
-	case AttackTypeRu123Rfosint:
+	case TechTypeRu123Rfosint:
 		return AttackCategoryOsint
-	case AttackTypeRubedo:
+	case TechTypeRubedo:
 		return AttackCategoryWeb
-	case AttackTypeRubedoProjectcve2018:
+	case TechTypeRubedoProjectcve2018:
 		return AttackCategoryCVE
-	case AttackTypeRuby:
+	case TechTypeRuby:
 		return AttackCategoryWeb
-	case AttackTypeRubygemsosint:
+	case TechTypeRubygemsosint:
 		return AttackCategoryOsint
-	case AttackTypeRubyonrailscve:
+	case TechTypeRubyonrailscve:
 		return AttackCategoryCVE
-	case AttackTypeRubyonrailscve2015:
+	case TechTypeRubyonrailscve2015:
 		return AttackCategoryCVE
-	case AttackTypeRubyonrailscve2021:
+	case TechTypeRubyonrailscve2021:
 		return AttackCategoryCVE
-	case AttackTypeRubyruijie:
+	case TechTypeRubyruijie:
 		return AttackCategoryWeb
-	case AttackTypeRubysalesforce:
+	case TechTypeRubysalesforce:
 		return AttackCategoryRCE
-	case AttackTypeRuckus:
+	case TechTypeRuckus:
 		return AttackCategoryWeb
-	case AttackTypeRuckusdefaultLogin:
+	case TechTypeRuckusdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeRuckuswirelesscve:
+	case TechTypeRuckuswirelesscve:
 		return AttackCategoryCVE
-	case AttackTypeRuckuswirelesspanel:
+	case TechTypeRuckuswirelesspanel:
 		return AttackCategoryWeb
-	case AttackTypeRudder:
+	case TechTypeRudder:
 		return AttackCategoryWeb
-	case AttackTypeRudderstack:
+	case TechTypeRudderstack:
 		return AttackCategoryWeb
-	case AttackTypeRudloff:
+	case TechTypeRudloff:
 		return AttackCategoryWeb
-	case AttackTypeRuifangTechcve:
+	case TechTypeRuifangTechcve:
 		return AttackCategoryCVE
-	case AttackTypeRuijie:
+	case TechTypeRuijie:
 		return AttackCategoryWeb
-	case AttackTypeRuijieamazon:
+	case TechTypeRuijieamazon:
 		return AttackCategoryWeb
-	case AttackTypeRuijienetworkscve:
+	case TechTypeRuijienetworkscve:
 		return AttackCategoryCVE
-	case AttackTypeRuijiepassword:
+	case TechTypeRuijiepassword:
 		return AttackCategoryWeb
-	case AttackTypeRujjie:
+	case TechTypeRujjie:
 		return AttackCategoryWeb
-	case AttackTypeRukovoditel:
+	case TechTypeRukovoditel:
 		return AttackCategoryWeb
-	case AttackTypeRumblechannelosint:
+	case TechTypeRumblechannelosint:
 		return AttackCategoryOsint
-	case AttackTypeRumbleuserosint:
+	case TechTypeRumbleuserosint:
 		return AttackCategoryOsint
-	case AttackTypeRunParts:
+	case TechTypeRunParts:
 		return AttackCategoryWeb
-	case AttackTypeRunatlantispanel:
+	case TechTypeRunatlantispanel:
 		return AttackCategoryWeb
-	case AttackTypeRuncloud:
+	case TechTypeRuncloud:
 		return AttackCategoryCloud
-	case AttackTypeRundeck:
+	case TechTypeRundeck:
 		return AttackCategoryWeb
-	case AttackTypeRundeckpanel:
+	case TechTypeRundeckpanel:
 		return AttackCategoryWeb
-	case AttackTypeRunner:
+	case TechTypeRunner:
 		return AttackCategoryWeb
-	case AttackTypeRuoyi:
+	case TechTypeRuoyi:
 		return AttackCategoryWeb
-	case AttackTypeRusticipanel:
+	case TechTypeRusticipanel:
 		return AttackCategoryWeb
-	case AttackTypeRwebserverpanel:
+	case TechTypeRwebserverpanel:
 		return AttackCategoryWeb
-	case AttackTypeRxss:
+	case TechTypeRxss:
 		return AttackCategoryXSS
-	case AttackTypeS3:
+	case TechTypeS3:
 		return AttackCategoryWeb
-	case AttackTypeS3VideoProjectcve2016:
+	case TechTypeS3VideoProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeSafebrowsingtokenSpray:
+	case TechTypeSafebrowsingtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeSafenet:
+	case TechTypeSafenet:
 		return AttackCategoryWeb
-	case AttackTypeSage:
+	case TechTypeSage:
 		return AttackCategoryWeb
-	case AttackTypeSahiprocve:
+	case TechTypeSahiprocve:
 		return AttackCategoryCVE
-	case AttackTypeSalesagilitycve:
+	case TechTypeSalesagilitycve:
 		return AttackCategoryCVE
-	case AttackTypeSalesforce:
+	case TechTypeSalesforce:
 		return AttackCategoryRCE
-	case AttackTypeSalesforceexposure:
+	case TechTypeSalesforceexposure:
 		return AttackCategoryRCE
-	case AttackTypeSaliaPlcc:
+	case TechTypeSaliaPlcc:
 		return AttackCategoryWeb
-	case AttackTypeSalon24Osint:
+	case TechTypeSalon24Osint:
 		return AttackCategoryOsint
-	case AttackTypeSaltapi:
+	case TechTypeSaltapi:
 		return AttackCategoryWeb
-	case AttackTypeSaltguipanel:
+	case TechTypeSaltguipanel:
 		return AttackCategoryWeb
-	case AttackTypeSaltstack:
+	case TechTypeSaltstack:
 		return AttackCategoryWeb
-	case AttackTypeSaltstackpanel:
+	case TechTypeSaltstackpanel:
 		return AttackCategoryWeb
-	case AttackTypeSamba:
+	case TechTypeSamba:
 		return AttackCategoryWeb
-	case AttackTypeSambaexposure:
+	case TechTypeSambaexposure:
 		return AttackCategoryWeb
-	case AttackTypeSambaiot:
+	case TechTypeSambaiot:
 		return AttackCategoryIoT
-	case AttackTypeSaml:
+	case TechTypeSaml:
 		return AttackCategoryWeb
-	case AttackTypeSamsung:
+	case TechTypeSamsung:
 		return AttackCategoryWeb
-	case AttackTypeSamsungpanel:
+	case TechTypeSamsungpanel:
 		return AttackCategoryWeb
-	case AttackTypeSamsungrce:
+	case TechTypeSamsungrce:
 		return AttackCategoryRCE
-	case AttackTypeSandhillsdevcve2023:
+	case TechTypeSandhillsdevcve2023:
 		return AttackCategoryCVE
-	case AttackTypeSangfor:
+	case TechTypeSangfor:
 		return AttackCategoryWeb
-	case AttackTypeSangforlfi:
+	case TechTypeSangforlfi:
 		return AttackCategoryWeb
-	case AttackTypeSangforsangfor:
+	case TechTypeSangforsangfor:
 		return AttackCategoryWeb
-	case AttackTypeSangomafriendica:
+	case TechTypeSangomafriendica:
 		return AttackCategoryWeb
-	case AttackTypeSap:
+	case TechTypeSap:
 		return AttackCategoryWeb
-	case AttackTypeSapcve2021:
+	case TechTypeSapcve2021:
 		return AttackCategoryCVE
-	case AttackTypeSappanel:
+	case TechTypeSappanel:
 		return AttackCategoryWeb
-	case AttackTypeSaprouter:
+	case TechTypeSaprouter:
 		return AttackCategoryWeb
-	case AttackTypeSapsar2Html:
+	case TechTypeSapsar2Html:
 		return AttackCategoryWeb
-	case AttackTypeSaracartershowosint:
+	case TechTypeSaracartershowosint:
 		return AttackCategoryOsint
-	case AttackTypeSas:
+	case TechTypeSas:
 		return AttackCategoryWeb
-	case AttackTypeSash:
+	case TechTypeSash:
 		return AttackCategoryWeb
-	case AttackTypeSass:
+	case TechTypeSass:
 		return AttackCategoryWeb
-	case AttackTypeSassyredirect:
+	case TechTypeSassyredirect:
 		return AttackCategoryWeb
-	case AttackTypeSatellian:
+	case TechTypeSatellian:
 		return AttackCategoryWeb
-	case AttackTypeSatellitepanel:
+	case TechTypeSatellitepanel:
 		return AttackCategoryWeb
-	case AttackTypeSatispanel:
+	case TechTypeSatispanel:
 		return AttackCategoryWeb
-	case AttackTypeSauter:
+	case TechTypeSauter:
 		return AttackCategoryWeb
-	case AttackTypeSavepagetokenSpray:
+	case TechTypeSavepagetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeScada:
+	case TechTypeScada:
 		return AttackCategoryWeb
-	case AttackTypeScadapanel:
+	case TechTypeScadapanel:
 		return AttackCategoryWeb
-	case AttackTypeScalarpanel:
+	case TechTypeScalarpanel:
 		return AttackCategoryWeb
-	case AttackTypeScaniitokenSpray:
+	case TechTypeScaniitokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeSceditortech:
+	case TechTypeSceditortech:
 		return AttackCategoryWeb
-	case AttackTypeSchneiderElectriccve:
+	case TechTypeSchneiderElectriccve:
 		return AttackCategoryCVE
-	case AttackTypeSchneiderElectriccve2021:
+	case TechTypeSchneiderElectriccve2021:
 		return AttackCategoryCVE
-	case AttackTypeSchneiderElectricewm:
+	case TechTypeSchneiderElectricewm:
 		return AttackCategoryWeb
-	case AttackTypeSchneiderElectricpanel:
+	case TechTypeSchneiderElectricpanel:
 		return AttackCategoryWeb
-	case AttackTypeSchneiderElectricpritunl:
+	case TechTypeSchneiderElectricpritunl:
 		return AttackCategoryWeb
-	case AttackTypeSchoolDormitoryManagementSystemProjectcve:
+	case TechTypeSchoolDormitoryManagementSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeSchoolDormitoryManagementSystemProjectcve2022:
+	case TechTypeSchoolDormitoryManagementSystemProjectcve2022:
 		return AttackCategoryCVE
-	case AttackTypeSchoolsAlertManagementScriptProjectcve2018:
+	case TechTypeSchoolsAlertManagementScriptProjectcve2018:
 		return AttackCategoryCVE
-	case AttackTypeScimono:
+	case TechTypeScimono:
 		return AttackCategoryWeb
-	case AttackTypeSco:
+	case TechTypeSco:
 		return AttackCategoryWeb
-	case AttackTypeScoremeProjectcve2016:
+	case TechTypeScoremeProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeScoutwikiosint:
+	case TechTypeScoutwikiosint:
 		return AttackCategoryOsint
-	case AttackTypeScraperapitokenSpray:
+	case TechTypeScraperapitokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeScraperboxtokenSpray:
+	case TechTypeScraperboxtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeScrapestacktokenSpray:
+	case TechTypeScrapestacktokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeScrapinganttokenSpray:
+	case TechTypeScrapinganttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeScrapingdogtokenSpray:
+	case TechTypeScrapingdogtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeScratchosint:
+	case TechTypeScratchosint:
 		return AttackCategoryOsint
-	case AttackTypeScreenconnect:
+	case TechTypeScreenconnect:
 		return AttackCategoryWeb
-	case AttackTypeScreenshotapirecon:
+	case TechTypeScreenshotapirecon:
 		return AttackCategoryWeb
-	case AttackTypeScribble:
+	case TechTypeScribble:
 		return AttackCategoryWeb
-	case AttackTypeScriptcasepanel:
+	case TechTypeScriptcasepanel:
 		return AttackCategoryWeb
-	case AttackTypeScrutinizer:
+	case TechTypeScrutinizer:
 		return AttackCategoryWeb
-	case AttackTypeScs:
+	case TechTypeScs:
 		return AttackCategoryWeb
-	case AttackTypeSdwandefaultLogin:
+	case TechTypeSdwandefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeSdwanpanel:
+	case TechTypeSdwanpanel:
 		return AttackCategoryWeb
-	case AttackTypeSeHtml5AlbumAudioPlayerProjectcve:
+	case TechTypeSeHtml5AlbumAudioPlayerProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeSeafilepanel:
+	case TechTypeSeafilepanel:
 		return AttackCategoryWeb
-	case AttackTypeSeagate:
+	case TechTypeSeagate:
 		return AttackCategoryWeb
-	case AttackTypeSearch:
+	case TechTypeSearch:
 		return AttackCategoryWeb
-	case AttackTypeSearchbloxcve:
+	case TechTypeSearchbloxcve:
 		return AttackCategoryCVE
-	case AttackTypeSearchreplacedb2:
+	case TechTypeSearchreplacedb2:
 		return AttackCategoryWeb
-	case AttackTypeSearchtokenSpray:
+	case TechTypeSearchtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeSearchwpLiveAjaxSearch:
+	case TechTypeSearchwpLiveAjaxSearch:
 		return AttackCategoryWeb
-	case AttackTypeSearchwpcve:
+	case TechTypeSearchwpcve:
 		return AttackCategoryCVE
-	case AttackTypeSeatreg:
+	case TechTypeSeatreg:
 		return AttackCategoryWeb
-	case AttackTypeSebercve:
+	case TechTypeSebercve:
 		return AttackCategoryCVE
-	case AttackTypeSeclists:
+	case TechTypeSeclists:
 		return AttackCategoryWeb
-	case AttackTypeSeclistscve:
+	case TechTypeSeclistscve:
 		return AttackCategoryCVE
-	case AttackTypeSeclistscve2014:
+	case TechTypeSeclistscve2014:
 		return AttackCategoryCVE
-	case AttackTypeSeclistscve2015:
+	case TechTypeSeclistscve2015:
 		return AttackCategoryCVE
-	case AttackTypeSeclistscve2016:
+	case TechTypeSeclistscve2016:
 		return AttackCategoryCVE
-	case AttackTypeSeclistscve2021:
+	case TechTypeSeclistscve2021:
 		return AttackCategoryCVE
-	case AttackTypeSeclistshue:
+	case TechTypeSeclistshue:
 		return AttackCategoryWeb
-	case AttackTypeSeclistsprestashop:
+	case TechTypeSeclistsprestashop:
 		return AttackCategoryWeb
-	case AttackTypeSecnet:
+	case TechTypeSecnet:
 		return AttackCategoryWeb
-	case AttackTypeSecnetsupershell:
+	case TechTypeSecnetsupershell:
 		return AttackCategoryWeb
-	case AttackTypeSecret:
+	case TechTypeSecret:
 		return AttackCategoryWeb
-	case AttackTypeSecretasana:
+	case TechTypeSecretasana:
 		return AttackCategoryWeb
-	case AttackTypeSecretatlassian:
+	case TechTypeSecretatlassian:
 		return AttackCategoryWeb
-	case AttackTypeSecretexposure:
+	case TechTypeSecretexposure:
 		return AttackCategoryWeb
-	case AttackTypeSecretkeyclojars:
+	case TechTypeSecretkeyclojars:
 		return AttackCategoryWeb
-	case AttackTypeSecretkeyframeio:
+	case TechTypeSecretkeyframeio:
 		return AttackCategoryWeb
-	case AttackTypeSecudoscve:
+	case TechTypeSecudoscve:
 		return AttackCategoryCVE
-	case AttackTypeSecuitech:
+	case TechTypeSecuitech:
 		return AttackCategoryWeb
-	case AttackTypeSecureCopyContentProtection:
+	case TechTypeSecureCopyContentProtection:
 		return AttackCategoryWeb
-	case AttackTypeSecureDonationosint:
+	case TechTypeSecureDonationosint:
 		return AttackCategoryOsint
-	case AttackTypeSecurenvoy:
+	case TechTypeSecurenvoy:
 		return AttackCategoryWeb
-	case AttackTypeSecurenvoysecurepoint:
+	case TechTypeSecurenvoysecurepoint:
 		return AttackCategoryWeb
-	case AttackTypeSecurepoint:
+	case TechTypeSecurepoint:
 		return AttackCategoryWeb
-	case AttackTypeSecurepointcve:
+	case TechTypeSecurepointcve:
 		return AttackCategoryCVE
-	case AttackTypeSecuretransport:
+	case TechTypeSecuretransport:
 		return AttackCategoryWeb
-	case AttackTypeSecuretransportpanel:
+	case TechTypeSecuretransportpanel:
 		return AttackCategoryWeb
-	case AttackTypeSecurimageWpFixedProjectcve2021:
+	case TechTypeSecurimageWpFixedProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeSecurity:
+	case TechTypeSecurity:
 		return AttackCategoryWeb
-	case AttackTypeSecurityonionsolutionsunauth:
+	case TechTypeSecurityonionsolutionsunauth:
 		return AttackCategoryWeb
-	case AttackTypeSecurityspy:
+	case TechTypeSecurityspy:
 		return AttackCategoryWeb
-	case AttackTypeSecuritytrails:
+	case TechTypeSecuritytrails:
 		return AttackCategoryAI
-	case AttackTypeSeeddms:
+	case TechTypeSeeddms:
 		return AttackCategoryWeb
-	case AttackTypeSeeddmsseeyon:
+	case TechTypeSeeddmsseeyon:
 		return AttackCategoryWeb
-	case AttackTypeSeeyon:
+	case TechTypeSeeyon:
 		return AttackCategoryWeb
-	case AttackTypeSeeyonOa:
+	case TechTypeSeeyonOa:
 		return AttackCategoryWeb
-	case AttackTypeSeeyoncnvd:
+	case TechTypeSeeyoncnvd:
 		return AttackCategoryWeb
-	case AttackTypeSeeyonsqlipacketstorm:
+	case TechTypeSeeyonsqlipacketstorm:
 		return AttackCategorySqlInjection
-	case AttackTypeSeeyonzhiyuan:
+	case TechTypeSeeyonzhiyuan:
 		return AttackCategoryWeb
-	case AttackTypeSegmenttokenSpray:
+	case TechTypeSegmenttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeSelea:
+	case TechTypeSelea:
 		return AttackCategoryWeb
-	case AttackTypeSeleapanel:
+	case TechTypeSeleapanel:
 		return AttackCategoryWeb
-	case AttackTypeSeleatarga:
+	case TechTypeSeleatarga:
 		return AttackCategoryWeb
-	case AttackTypeSelectAllCategories:
+	case TechTypeSelectAllCategories:
 		return AttackCategoryWeb
-	case AttackTypeSelenium:
+	case TechTypeSelenium:
 		return AttackCategoryWeb
-	case AttackTypeSeleniummisconfig:
+	case TechTypeSeleniummisconfig:
 		return AttackCategoryWeb
-	case AttackTypeSeleniumpanelpanel:
+	case TechTypeSeleniumpanelpanel:
 		return AttackCategoryWeb
-	case AttackTypeSelfHosted:
+	case TechTypeSelfHosted:
 		return AttackCategoryWeb
-	case AttackTypeSelfSignedssl:
+	case TechTypeSelfSignedssl:
 		return AttackCategoryWeb
-	case AttackTypeSelfcheck:
+	case TechTypeSelfcheck:
 		return AttackCategoryWeb
-	case AttackTypeSemaphore:
+	case TechTypeSemaphore:
 		return AttackCategoryWeb
-	case AttackTypeSendgrid:
+	case TechTypeSendgrid:
 		return AttackCategoryWeb
-	case AttackTypeSendgridshopify:
+	case TechTypeSendgridshopify:
 		return AttackCategoryWeb
-	case AttackTypeSenepornoosint:
+	case TechTypeSenepornoosint:
 		return AttackCategoryOsint
-	case AttackTypeSenseiLms:
+	case TechTypeSenseiLms:
 		return AttackCategoryWeb
-	case AttackTypeSensiolabscve2015:
+	case TechTypeSensiolabscve2015:
 		return AttackCategoryCVE
-	case AttackTypeSensor:
+	case TechTypeSensor:
 		return AttackCategoryWeb
-	case AttackTypeSensu:
+	case TechTypeSensu:
 		return AttackCategoryWeb
-	case AttackTypeSentimenteosint:
+	case TechTypeSentimenteosint:
 		return AttackCategoryOsint
-	case AttackTypeSentinel:
+	case TechTypeSentinel:
 		return AttackCategoryWeb
-	case AttackTypeSentinelonepanel:
+	case TechTypeSentinelonepanel:
 		return AttackCategoryWeb
-	case AttackTypeSentry:
+	case TechTypeSentry:
 		return AttackCategoryWeb
-	case AttackTypeSeo:
+	case TechTypeSeo:
 		return AttackCategoryWeb
-	case AttackTypeSeoclerksosint:
+	case TechTypeSeoclerksosint:
 		return AttackCategoryOsint
-	case AttackTypeSeopanel:
+	case TechTypeSeopanel:
 		return AttackCategoryWeb
-	case AttackTypeSeowon:
+	case TechTypeSeowon:
 		return AttackCategoryWeb
-	case AttackTypeSeowonintechcve:
+	case TechTypeSeowonintechcve:
 		return AttackCategoryCVE
-	case AttackTypeSequoiadbshowdoc:
+	case TechTypeSequoiadbshowdoc:
 		return AttackCategoryWeb
-	case AttackTypeSercomm:
+	case TechTypeSercomm:
 		return AttackCategoryWeb
-	case AttackTypeSerpstackrecon:
+	case TechTypeSerpstackrecon:
 		return AttackCategoryWeb
-	case AttackTypeServUcve:
+	case TechTypeServUcve:
 		return AttackCategoryCVE
-	case AttackTypeServer:
+	case TechTypeServer:
 		return AttackCategoryWeb
-	case AttackTypeServercve:
+	case TechTypeServercve:
 		return AttackCategoryCVE
-	case AttackTypeServergrafana:
+	case TechTypeServergrafana:
 		return AttackCategoryWeb
-	case AttackTypeServerstatusexposure:
+	case TechTypeServerstatusexposure:
 		return AttackCategoryWeb
-	case AttackTypeService:
+	case TechTypeService:
 		return AttackCategoryWeb
-	case AttackTypeServicecnvd:
+	case TechTypeServicecnvd:
 		return AttackCategoryWeb
-	case AttackTypeServicedesk:
+	case TechTypeServicedesk:
 		return AttackCategoryWeb
-	case AttackTypeServicedns:
+	case TechTypeServicedns:
 		return AttackCategoryDNS
-	case AttackTypeServicelucee:
+	case TechTypeServicelucee:
 		return AttackCategoryWeb
-	case AttackTypeServicenow:
+	case TechTypeServicenow:
 		return AttackCategoryWeb
-	case AttackTypeServicenowmisconfig:
+	case TechTypeServicenowmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeServicepanel:
+	case TechTypeServicepanel:
 		return AttackCategoryWeb
-	case AttackTypeServicetech:
+	case TechTypeServicetech:
 		return AttackCategoryWeb
-	case AttackTypeServicewebsphere:
+	case TechTypeServicewebsphere:
 		return AttackCategoryWeb
-	case AttackTypeServmaskcve:
+	case TechTypeServmaskcve:
 		return AttackCategoryCVE
-	case AttackTypeSessionexposure:
+	case TechTypeSessionexposure:
 		return AttackCategoryWeb
-	case AttackTypeSetlistfmosint:
+	case TechTypeSetlistfmosint:
 		return AttackCategoryOsint
-	case AttackTypeSetup:
+	case TechTypeSetup:
 		return AttackCategoryWeb
-	case AttackTypeSetuplogs:
+	case TechTypeSetuplogs:
 		return AttackCategoryWeb
-	case AttackTypeSetupmisconfig:
+	case TechTypeSetupmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeSetupstruts:
+	case TechTypeSetupstruts:
 		return AttackCategoryWeb
-	case AttackTypeSetupwpscan:
+	case TechTypeSetupwpscan:
 		return AttackCategoryWeb
-	case AttackTypeSexworkerosint:
+	case TechTypeSexworkerosint:
 		return AttackCategoryOsint
-	case AttackTypeSfdosint:
+	case TechTypeSfdosint:
 		return AttackCategoryOsint
-	case AttackTypeSftp:
+	case TechTypeSftp:
 		return AttackCategoryWeb
-	case AttackTypeSgicve:
+	case TechTypeSgicve:
 		return AttackCategoryCVE
-	case AttackTypeSgppanel:
+	case TechTypeSgppanel:
 		return AttackCategoryWeb
-	case AttackTypeShad0W:
+	case TechTypeShad0W:
 		return AttackCategoryWeb
-	case AttackTypeShadowebcve2020:
+	case TechTypeShadowebcve2020:
 		return AttackCategoryCVE
-	case AttackTypeShadowpadc2:
+	case TechTypeShadowpadc2:
 		return AttackCategoryWeb
-	case AttackTypeShaniiWritesosint:
+	case TechTypeShaniiWritesosint:
 		return AttackCategoryOsint
-	case AttackTypeShardingsphere:
+	case TechTypeShardingsphere:
 		return AttackCategoryWeb
-	case AttackTypeShards:
+	case TechTypeShards:
 		return AttackCategoryWeb
-	case AttackTypeShareaholiccve:
+	case TechTypeShareaholiccve:
 		return AttackCategoryCVE
-	case AttackTypeSharecenter:
+	case TechTypeSharecenter:
 		return AttackCategoryWeb
-	case AttackTypeSharefile:
+	case TechTypeSharefile:
 		return AttackCategoryWeb
-	case AttackTypeSharefiletech:
+	case TechTypeSharefiletech:
 		return AttackCategoryWeb
-	case AttackTypeSharepoint:
+	case TechTypeSharepoint:
 		return AttackCategoryWeb
-	case AttackTypeSharepointServer:
+	case TechTypeSharepointServer:
 		return AttackCategoryWeb
-	case AttackTypeSharepointconfig:
+	case TechTypeSharepointconfig:
 		return AttackCategoryWeb
-	case AttackTypeSharingsphere:
+	case TechTypeSharingsphere:
 		return AttackCategoryWeb
-	case AttackTypeShell:
+	case TechTypeShell:
 		return AttackCategoryWeb
-	case AttackTypeShellinaboxProjectpanelsicom:
+	case TechTypeShellinaboxProjectpanelsicom:
 		return AttackCategoryWeb
-	case AttackTypeShellshock:
+	case TechTypeShellshock:
 		return AttackCategoryWeb
-	case AttackTypeShenyu:
+	case TechTypeShenyu:
 		return AttackCategoryWeb
-	case AttackTypeShenyucve:
+	case TechTypeShenyucve:
 		return AttackCategoryCVE
-	case AttackTypeShesfreakyosint:
+	case TechTypeShesfreakyosint:
 		return AttackCategoryOsint
-	case AttackTypeShibboleth:
+	case TechTypeShibboleth:
 		return AttackCategoryWeb
-	case AttackTypeShieldSecurity:
+	case TechTypeShieldSecurity:
 		return AttackCategoryWeb
-	case AttackTypeShindigmicrocomputers:
+	case TechTypeShindigmicrocomputers:
 		return AttackCategoryWeb
-	case AttackTypeShirneCmsProjectcve:
+	case TechTypeShirneCmsProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeShirnecms:
+	case TechTypeShirnecms:
 		return AttackCategoryWeb
-	case AttackTypeShiro:
+	case TechTypeShiro:
 		return AttackCategoryWeb
-	case AttackTypeShirotech:
+	case TechTypeShirotech:
 		return AttackCategoryWeb
-	case AttackTypeShodan:
+	case TechTypeShodan:
 		return AttackCategoryWeb
-	case AttackTypeShopexcve2021:
+	case TechTypeShopexcve2021:
 		return AttackCategoryCVE
-	case AttackTypeShopify:
+	case TechTypeShopify:
 		return AttackCategoryWeb
-	case AttackTypeShopifyosint:
+	case TechTypeShopifyosint:
 		return AttackCategoryOsint
-	case AttackTypeShopizertech:
+	case TechTypeShopizertech:
 		return AttackCategoryWeb
-	case AttackTypeShoppable:
+	case TechTypeShoppable:
 		return AttackCategoryWeb
-	case AttackTypeShopware:
+	case TechTypeShopware:
 		return AttackCategoryWeb
-	case AttackTypeShopxo:
+	case TechTypeShopxo:
 		return AttackCategoryWeb
-	case AttackTypeShoretel:
+	case TechTypeShoretel:
 		return AttackCategoryWeb
-	case AttackTypeShortIotakeovertakeovertakeover:
+	case TechTypeShortIotakeovertakeovertakeover:
 		return AttackCategoryIoT
-	case AttackTypeShortcode:
+	case TechTypeShortcode:
 		return AttackCategoryWeb
-	case AttackTypeShortpixelAdaptiveImages:
+	case TechTypeShortpixelAdaptiveImages:
 		return AttackCategoryWeb
-	case AttackTypeShortpixelcve:
+	case TechTypeShortpixelcve:
 		return AttackCategoryCVE
-	case AttackTypeShowAllCommentsInOnePage:
+	case TechTypeShowAllCommentsInOnePage:
 		return AttackCategoryWeb
-	case AttackTypeShowcase:
+	case TechTypeShowcase:
 		return AttackCategoryWeb
-	case AttackTypeShowdoc:
+	case TechTypeShowdoc:
 		return AttackCategoryWeb
-	case AttackTypeShutterstockosint:
+	case TechTypeShutterstockosint:
 		return AttackCategoryOsint
-	case AttackTypeSidekiq:
+	case TechTypeSidekiq:
 		return AttackCategoryWeb
-	case AttackTypeSiebel:
+	case TechTypeSiebel:
 		return AttackCategoryWeb
-	case AttackTypeSiemens:
+	case TechTypeSiemens:
 		return AttackCategoryWeb
-	case AttackTypeSiemenscve:
+	case TechTypeSiemenscve:
 		return AttackCategoryCVE
-	case AttackTypeSierrawirelesspanel:
+	case TechTypeSierrawirelesspanel:
 		return AttackCategoryWeb
-	case AttackTypeSigbcve:
+	case TechTypeSigbcve:
 		return AttackCategoryCVE
-	case AttackTypeSigbcve2023:
+	case TechTypeSigbcve2023:
 		return AttackCategoryCVE
-	case AttackTypeSignal:
+	case TechTypeSignal:
 		return AttackCategoryWeb
-	case AttackTypeSignet:
+	case TechTypeSignet:
 		return AttackCategoryWeb
-	case AttackTypeSila:
+	case TechTypeSila:
 		return AttackCategoryWeb
-	case AttackTypeSilenttrinity:
+	case TechTypeSilenttrinity:
 		return AttackCategoryWeb
-	case AttackTypeSilverback:
+	case TechTypeSilverback:
 		return AttackCategoryWeb
-	case AttackTypeSimpelReserverenProjectcve2016:
+	case TechTypeSimpelReserverenProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeSimpleFileList:
+	case TechTypeSimpleFileList:
 		return AttackCategoryWeb
-	case AttackTypeSimpleImageManipulatorProjectcve:
+	case TechTypeSimpleImageManipulatorProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeSimpleLinkDirectory:
+	case TechTypeSimpleLinkDirectory:
 		return AttackCategoryWeb
-	case AttackTypeSimpleMembershipPlugincve:
+	case TechTypeSimpleMembershipPlugincve:
 		return AttackCategoryCVE
-	case AttackTypeSimpleTask:
+	case TechTypeSimpleTask:
 		return AttackCategoryWeb
-	case AttackTypeSimpleUrls:
+	case TechTypeSimpleUrls:
 		return AttackCategoryWeb
-	case AttackTypeSimpleClientManagementSystemProjectcve2021:
+	case TechTypeSimpleClientManagementSystemProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeSimpleOnlinePiggeryManagementSystemProjectcve:
+	case TechTypeSimpleOnlinePiggeryManagementSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeSimpleTaskManagingSystemProjectcve:
+	case TechTypeSimpleTaskManagingSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeSimpleclientmanagement:
+	case TechTypeSimpleclientmanagement:
 		return AttackCategoryWeb
-	case AttackTypeSimplecrm:
+	case TechTypeSimplecrm:
 		return AttackCategoryWeb
-	case AttackTypeSimplefilelistcve:
+	case TechTypeSimplefilelistcve:
 		return AttackCategoryCVE
-	case AttackTypeSimplefilelistcve2022:
+	case TechTypeSimplefilelistcve2022:
 		return AttackCategoryCVE
-	case AttackTypeSimpleimportproductProjectcve:
+	case TechTypeSimpleimportproductProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeSimplerealtythemecve:
+	case TechTypeSimplerealtythemecve:
 		return AttackCategoryCVE
-	case AttackTypeSimplesamlphp:
+	case TechTypeSimplesamlphp:
 		return AttackCategoryPHP
-	case AttackTypeSimplyScheduleAppointments:
+	case TechTypeSimplyScheduleAppointments:
 		return AttackCategoryWeb
-	case AttackTypeSinema:
+	case TechTypeSinema:
 		return AttackCategoryWeb
-	case AttackTypeSisinformatikcve:
+	case TechTypeSisinformatikcve:
 		return AttackCategoryCVE
-	case AttackTypeSiteOffline:
+	case TechTypeSiteOffline:
 		return AttackCategoryWeb
-	case AttackTypeSitecore:
+	case TechTypeSitecore:
 		return AttackCategoryWeb
-	case AttackTypeSitecoresitefinity:
+	case TechTypeSitecoresitefinity:
 		return AttackCategoryWeb
-	case AttackTypeSiteeditorcve:
+	case TechTypeSiteeditorcve:
 		return AttackCategoryCVE
-	case AttackTypeSiteengine:
+	case TechTypeSiteengine:
 		return AttackCategoryWeb
-	case AttackTypeSitemap:
+	case TechTypeSitemap:
 		return AttackCategoryWeb
-	case AttackTypeSitemapProjectcve2022:
+	case TechTypeSitemapProjectcve2022:
 		return AttackCategoryCVE
-	case AttackTypeSitemapmiscellaneous:
+	case TechTypeSitemapmiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypeSiteminderslstudio:
+	case TechTypeSiteminderslstudio:
 		return AttackCategoryWeb
-	case AttackTypeSiterecovery:
+	case TechTypeSiterecovery:
 		return AttackCategoryWeb
-	case AttackTypeSixapartcve2021:
+	case TechTypeSixapartcve2021:
 		return AttackCategoryCVE
-	case AttackTypeSixapartpanel:
+	case TechTypeSixapartpanel:
 		return AttackCategoryWeb
-	case AttackTypeSkautBazarProject:
+	case TechTypeSkautBazarProject:
 		return AttackCategoryWeb
-	case AttackTypeSkebosint:
+	case TechTypeSkebosint:
 		return AttackCategoryOsint
-	case AttackTypeSkeepers:
+	case TechTypeSkeepers:
 		return AttackCategoryWeb
-	case AttackTypeSkillshareosint:
+	case TechTypeSkillshareosint:
 		return AttackCategoryOsint
-	case AttackTypeSky:
+	case TechTypeSky:
 		return AttackCategoryWeb
-	case AttackTypeSkycaiji:
+	case TechTypeSkycaiji:
 		return AttackCategoryAI
-	case AttackTypeSkycaijipanel:
+	case TechTypeSkycaijipanel:
 		return AttackCategoryAI
-	case AttackTypeSkype:
+	case TechTypeSkype:
 		return AttackCategoryWeb
-	case AttackTypeSkyrockosint:
+	case TechTypeSkyrockosint:
 		return AttackCategoryOsint
-	case AttackTypeSkysacve2011:
+	case TechTypeSkysacve2011:
 		return AttackCategoryCVE
-	case AttackTypeSkyscanner:
+	case TechTypeSkyscanner:
 		return AttackCategoryWeb
-	case AttackTypeSkywalking:
+	case TechTypeSkywalking:
 		return AttackCategoryWeb
-	case AttackTypeSlack:
+	case TechTypeSlack:
 		return AttackCategoryWeb
-	case AttackTypeSlackexposure:
+	case TechTypeSlackexposure:
 		return AttackCategoryWeb
-	case AttackTypeSlackholesosint:
+	case TechTypeSlackholesosint:
 		return AttackCategoryOsint
-	case AttackTypeSlacktokenSpray:
+	case TechTypeSlacktokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeSlantosint:
+	case TechTypeSlantosint:
 		return AttackCategoryOsint
-	case AttackTypeSlickremixcve:
+	case TechTypeSlickremixcve:
 		return AttackCategoryCVE
-	case AttackTypeSlideshareosint:
+	case TechTypeSlideshareosint:
 		return AttackCategoryOsint
-	case AttackTypeSlidesosint:
+	case TechTypeSlidesosint:
 		return AttackCategoryOsint
-	case AttackTypeSlimssofneta:
+	case TechTypeSlimssofneta:
 		return AttackCategoryWeb
-	case AttackTypeSlingpanel:
+	case TechTypeSlingpanel:
 		return AttackCategoryWeb
-	case AttackTypeSliver:
+	case TechTypeSliver:
 		return AttackCategoryWeb
-	case AttackTypeSlocumpanel:
+	case TechTypeSlocumpanel:
 		return AttackCategoryWeb
-	case AttackTypeSls:
+	case TechTypeSls:
 		return AttackCategoryWeb
-	case AttackTypeSlsh:
+	case TechTypeSlsh:
 		return AttackCategoryWeb
-	case AttackTypeSlurm:
+	case TechTypeSlurm:
 		return AttackCategoryWeb
-	case AttackTypeSma1000Cve:
+	case TechTypeSma1000Cve:
 		return AttackCategoryCVE
-	case AttackTypeSmart:
+	case TechTypeSmart:
 		return AttackCategoryWeb
-	case AttackTypeSmartManagerForWpECommerce:
+	case TechTypeSmartManagerForWpECommerce:
 		return AttackCategoryRCE
-	case AttackTypeSmartOffice:
+	case TechTypeSmartOffice:
 		return AttackCategoryWeb
-	case AttackTypeSmartS45F:
+	case TechTypeSmartS45F:
 		return AttackCategoryWeb
-	case AttackTypeSmartblog:
+	case TechTypeSmartblog:
 		return AttackCategoryWeb
-	case AttackTypeSmartdatasoftcve2021:
+	case TechTypeSmartdatasoftcve2021:
 		return AttackCategoryCVE
-	case AttackTypeSmarterstats:
+	case TechTypeSmarterstats:
 		return AttackCategoryWeb
-	case AttackTypeSmartertoolscve:
+	case TechTypeSmartertoolscve:
 		return AttackCategoryCVE
-	case AttackTypeSmartertrack:
+	case TechTypeSmartertrack:
 		return AttackCategoryWeb
-	case AttackTypeSmartgateway:
+	case TechTypeSmartgateway:
 		return AttackCategoryWeb
-	case AttackTypeSmartnode:
+	case TechTypeSmartnode:
 		return AttackCategoryWeb
-	case AttackTypeSmartofficepayrollcve:
+	case TechTypeSmartofficepayrollcve:
 		return AttackCategoryCVE
-	case AttackTypeSmartpingpanel:
+	case TechTypeSmartpingpanel:
 		return AttackCategoryWeb
-	case AttackTypeSmartsense:
+	case TechTypeSmartsense:
 		return AttackCategoryWeb
-	case AttackTypeSmartsheettokenSpray:
+	case TechTypeSmartsheettokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeSmartstore:
+	case TechTypeSmartstore:
 		return AttackCategoryWeb
-	case AttackTypeSmartstorecve2020:
+	case TechTypeSmartstorecve2020:
 		return AttackCategoryCVE
-	case AttackTypeSmartupload:
+	case TechTypeSmartupload:
 		return AttackCategoryWeb
-	case AttackTypeSmartypantspluginscve2021:
+	case TechTypeSmartypantspluginscve2021:
 		return AttackCategoryCVE
-	case AttackTypeSmartzone:
+	case TechTypeSmartzone:
 		return AttackCategoryWeb
-	case AttackTypeSmashballooncve2021:
+	case TechTypeSmashballooncve2021:
 		return AttackCategoryCVE
-	case AttackTypeSmashrunosint:
+	case TechTypeSmashrunosint:
 		return AttackCategoryOsint
-	case AttackTypeSmb:
+	case TechTypeSmb:
 		return AttackCategoryWeb
-	case AttackTypeSmelsyosint:
+	case TechTypeSmelsyosint:
 		return AttackCategoryOsint
-	case AttackTypeSmf:
+	case TechTypeSmf:
 		return AttackCategoryWeb
-	case AttackTypeSmh:
+	case TechTypeSmh:
 		return AttackCategoryWeb
-	case AttackTypeSmi:
+	case TechTypeSmi:
 		return AttackCategoryWeb
-	case AttackTypeSmokeping:
+	case TechTypeSmokeping:
 		return AttackCategoryWeb
-	case AttackTypeSms:
+	case TechTypeSms:
 		return AttackCategoryWeb
-	case AttackTypeSmtp:
+	case TechTypeSmtp:
 		return AttackCategoryWeb
-	case AttackTypeSmtp2Gopanel:
+	case TechTypeSmtp2Gopanel:
 		return AttackCategoryWeb
-	case AttackTypeSmtppanel:
+	case TechTypeSmtppanel:
 		return AttackCategoryWeb
-	case AttackTypeSmuggling:
+	case TechTypeSmuggling:
 		return AttackCategoryWeb
-	case AttackTypeSmugmugosint:
+	case TechTypeSmugmugosint:
 		return AttackCategoryOsint
-	case AttackTypeSmugmugtakeover:
+	case TechTypeSmugmugtakeover:
 		return AttackCategoryWeb
-	case AttackTypeSmuleosint:
+	case TechTypeSmuleosint:
 		return AttackCategoryOsint
-	case AttackTypeSnapchatStoriesosint:
+	case TechTypeSnapchatStoriesosint:
 		return AttackCategoryOsint
-	case AttackTypeSnapchatosint:
+	case TechTypeSnapchatosint:
 		return AttackCategoryOsint
-	case AttackTypeSnapcomms:
+	case TechTypeSnapcomms:
 		return AttackCategoryWeb
-	case AttackTypeSnapcreekcve:
+	case TechTypeSnapcreekcve:
 		return AttackCategoryCVE
-	case AttackTypeSnapdropstem:
+	case TechTypeSnapdropstem:
 		return AttackCategoryWeb
-	case AttackTypeSni:
+	case TechTypeSni:
 		return AttackCategoryWeb
-	case AttackTypeSnipeItspaCart:
+	case TechTypeSnipeItspaCart:
 		return AttackCategoryWeb
-	case AttackTypeSnipeit:
+	case TechTypeSnipeit:
 		return AttackCategoryWeb
-	case AttackTypeSnipfeedosint:
+	case TechTypeSnipfeedosint:
 		return AttackCategoryOsint
-	case AttackTypeSniplets:
+	case TechTypeSniplets:
 		return AttackCategoryWeb
-	case AttackTypeSnipletscve2008:
+	case TechTypeSnipletscve2008:
 		return AttackCategoryCVE
-	case AttackTypeSns:
+	case TechTypeSns:
 		return AttackCategoryWeb
-	case AttackTypeSoa:
+	case TechTypeSoa:
 		return AttackCategoryWeb
-	case AttackTypeSoadns:
+	case TechTypeSoadns:
 		return AttackCategoryDNS
-	case AttackTypeSoapexposure:
+	case TechTypeSoapexposure:
 		return AttackCategoryWeb
-	case AttackTypeSoar:
+	case TechTypeSoar:
 		return AttackCategoryWeb
-	case AttackTypeSocat:
+	case TechTypeSocat:
 		return AttackCategoryWeb
-	case AttackTypeSoccitizen4Euosint:
+	case TechTypeSoccitizen4Euosint:
 		return AttackCategoryOsint
-	case AttackTypeSocialMsdnosint:
+	case TechTypeSocialMsdnosint:
 		return AttackCategoryOsint
-	case AttackTypeSocialWarfare:
+	case TechTypeSocialWarfare:
 		return AttackCategoryWeb
-	case AttackTypeSocialbunddeosint:
+	case TechTypeSocialbunddeosint:
 		return AttackCategoryOsint
-	case AttackTypeSock:
+	case TechTypeSock:
 		return AttackCategoryWeb
-	case AttackTypeSocomec:
+	case TechTypeSocomec:
 		return AttackCategoryWeb
-	case AttackTypeSoftaculous:
+	case TechTypeSoftaculous:
 		return AttackCategoryWeb
-	case AttackTypeSoftaculouspanel:
+	case TechTypeSoftaculouspanel:
 		return AttackCategoryWeb
-	case AttackTypeSoftether:
+	case TechTypeSoftether:
 		return AttackCategoryWeb
-	case AttackTypeSoftetherpanel:
+	case TechTypeSoftetherpanel:
 		return AttackCategoryWeb
-	case AttackTypeSoftlimit:
+	case TechTypeSoftlimit:
 		return AttackCategoryWeb
-	case AttackTypeSoftrtakeover:
+	case TechTypeSoftrtakeover:
 		return AttackCategoryWeb
-	case AttackTypeSoftvelumcve2019:
+	case TechTypeSoftvelumcve2019:
 		return AttackCategoryCVE
-	case AttackTypeSoftwareRealtynacve:
+	case TechTypeSoftwareRealtynacve:
 		return AttackCategoryCVE
-	case AttackTypeSoftwarepublicocve:
+	case TechTypeSoftwarepublicocve:
 		return AttackCategoryCVE
-	case AttackTypeSoftwarepublicocve2022:
+	case TechTypeSoftwarepublicocve2022:
 		return AttackCategoryCVE
-	case AttackTypeSofurryosint:
+	case TechTypeSofurryosint:
 		return AttackCategoryOsint
-	case AttackTypeSolaricve2021:
+	case TechTypeSolaricve2021:
 		return AttackCategoryCVE
-	case AttackTypeSolarview:
+	case TechTypeSolarview:
 		return AttackCategoryWeb
-	case AttackTypeSolarwinds:
+	case TechTypeSolarwinds:
 		return AttackCategoryWeb
-	case AttackTypeSolarwindspanel:
+	case TechTypeSolarwindspanel:
 		return AttackCategoryWeb
-	case AttackTypeSolarwindssolarwinds:
+	case TechTypeSolarwindssolarwinds:
 		return AttackCategoryWeb
-	case AttackTypeSolikickosint:
+	case TechTypeSolikickosint:
 		return AttackCategoryOsint
-	case AttackTypeSolman:
+	case TechTypeSolman:
 		return AttackCategoryWeb
-	case AttackTypeSolobyosint:
+	case TechTypeSolobyosint:
 		return AttackCategoryOsint
-	case AttackTypeSolotoosint:
+	case TechTypeSolotoosint:
 		return AttackCategoryOsint
-	case AttackTypeSolr:
+	case TechTypeSolr:
 		return AttackCategoryWeb
-	case AttackTypeSomansa:
+	case TechTypeSomansa:
 		return AttackCategoryWeb
-	case AttackTypeSonarcloudtokenSpray:
+	case TechTypeSonarcloudtokenSpray:
 		return AttackCategoryCloud
-	case AttackTypeSonarqube:
+	case TechTypeSonarqube:
 		return AttackCategoryWeb
-	case AttackTypeSonarqubesoplanning:
+	case TechTypeSonarqubesoplanning:
 		return AttackCategoryWeb
-	case AttackTypeSonarqubesquare:
+	case TechTypeSonarqubesquare:
 		return AttackCategoryWeb
-	case AttackTypeSonarsourcecve2020:
+	case TechTypeSonarsourcecve2020:
 		return AttackCategoryCVE
-	case AttackTypeSonarsourcepanel:
+	case TechTypeSonarsourcepanel:
 		return AttackCategoryRCE
-	case AttackTypeSonatype:
+	case TechTypeSonatype:
 		return AttackCategoryWeb
-	case AttackTypeSonatypecve:
+	case TechTypeSonatypecve:
 		return AttackCategoryCVE
-	case AttackTypeSonicwall:
+	case TechTypeSonicwall:
 		return AttackCategoryWeb
-	case AttackTypeSonicwallpanel:
+	case TechTypeSonicwallpanel:
 		return AttackCategoryWeb
-	case AttackTypeSonicwalltech:
+	case TechTypeSonicwalltech:
 		return AttackCategoryWeb
-	case AttackTypeSony:
+	case TechTypeSony:
 		return AttackCategoryWeb
-	case AttackTypeSonybrowserless:
+	case TechTypeSonybrowserless:
 		return AttackCategoryWeb
-	case AttackTypeSophos:
+	case TechTypeSophos:
 		return AttackCategoryWeb
-	case AttackTypeSophoscve:
+	case TechTypeSophoscve:
 		return AttackCategoryCVE
-	case AttackTypeSophosdlink:
+	case TechTypeSophosdlink:
 		return AttackCategoryWeb
-	case AttackTypeSophospanel:
+	case TechTypeSophospanel:
 		return AttackCategoryWeb
-	case AttackTypeSoplanning:
+	case TechTypeSoplanning:
 		return AttackCategoryWeb
-	case AttackTypeSound4:
+	case TechTypeSound4:
 		return AttackCategoryWeb
-	case AttackTypeSoundcloudosint:
+	case TechTypeSoundcloudosint:
 		return AttackCategoryCloud
-	case AttackTypeSouposint:
+	case TechTypeSouposint:
 		return AttackCategoryOsint
-	case AttackTypeSourceafricaProjectcve2015:
+	case TechTypeSourceafricaProjectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeSourcebans:
+	case TechTypeSourcebans:
 		return AttackCategoryRCE
-	case AttackTypeSourcecodester:
+	case TechTypeSourcecodester:
 		return AttackCategoryRCE
-	case AttackTypeSourceforgeosint:
+	case TechTypeSourceforgeosint:
 		return AttackCategoryRCE
-	case AttackTypeSpClientDocumentManager:
+	case TechTypeSpClientDocumentManager:
 		return AttackCategoryWeb
-	case AttackTypeSpaCart:
+	case TechTypeSpaCart:
 		return AttackCategoryWeb
-	case AttackTypeSpacelogic:
+	case TechTypeSpacelogic:
 		return AttackCategoryWeb
-	case AttackTypeSpam:
+	case TechTypeSpam:
 		return AttackCategoryWeb
-	case AttackTypeSpamtitan:
+	case TechTypeSpamtitan:
 		return AttackCategoryWeb
-	case AttackTypeSpark:
+	case TechTypeSpark:
 		return AttackCategoryWeb
-	case AttackTypeSparkcve:
+	case TechTypeSparkcve:
 		return AttackCategoryCVE
-	case AttackTypeSpartacustech:
+	case TechTypeSpartacustech:
 		return AttackCategoryWeb
-	case AttackTypeSpeakerDeckosint:
+	case TechTypeSpeakerDeckosint:
 		return AttackCategoryOsint
-	case AttackTypeSpeakout:
+	case TechTypeSpeakout:
 		return AttackCategoryWeb
-	case AttackTypeSpeakoutEmailPetitions:
+	case TechTypeSpeakoutEmailPetitions:
 		return AttackCategoryMail
-	case AttackTypeSpeakoutEmailPetitionsProjectwpscan:
+	case TechTypeSpeakoutEmailPetitionsProjectwpscan:
 		return AttackCategoryMail
-	case AttackTypeSpectrum:
+	case TechTypeSpectrum:
 		return AttackCategoryWeb
-	case AttackTypeSpectrumrackn:
+	case TechTypeSpectrumrackn:
 		return AttackCategoryWeb
-	case AttackTypeSpeed:
+	case TechTypeSpeed:
 		return AttackCategoryWeb
-	case AttackTypeSpeedrunosint:
+	case TechTypeSpeedrunosint:
 		return AttackCategoryOsint
-	case AttackTypeSpfdns:
+	case TechTypeSpfdns:
 		return AttackCategoryDNS
-	case AttackTypeSphiderpanel:
+	case TechTypeSphiderpanel:
 		return AttackCategoryWeb
-	case AttackTypeSphinxonline:
+	case TechTypeSphinxonline:
 		return AttackCategoryWeb
-	case AttackTypeSphinxsearch:
+	case TechTypeSphinxsearch:
 		return AttackCategoryWeb
-	case AttackTypeSpiceworksosint:
+	case TechTypeSpiceworksosint:
 		return AttackCategoryOsint
-	case AttackTypeSpiderEventCalendar:
+	case TechTypeSpiderEventCalendar:
 		return AttackCategoryWeb
-	case AttackTypeSpiderflow:
+	case TechTypeSpiderflow:
 		return AttackCategoryWeb
-	case AttackTypeSpiderfootpanel:
+	case TechTypeSpiderfootpanel:
 		return AttackCategoryWeb
-	case AttackTypeSpinnakertech:
+	case TechTypeSpinnakertech:
 		return AttackCategoryWeb
-	case AttackTypeSpip:
+	case TechTypeSpip:
 		return AttackCategoryWeb
-	case AttackTypeSpipcve2016:
+	case TechTypeSpipcve2016:
 		return AttackCategoryCVE
-	case AttackTypeSpirit:
+	case TechTypeSpirit:
 		return AttackCategoryWeb
-	case AttackTypeSpiritProjectcve:
+	case TechTypeSpiritProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeSplash:
+	case TechTypeSplash:
 		return AttackCategoryWeb
-	case AttackTypeSplunk:
+	case TechTypeSplunk:
 		return AttackCategoryWeb
-	case AttackTypeSplunkcve:
+	case TechTypeSplunkcve:
 		return AttackCategoryCVE
-	case AttackTypeSplunkpanel:
+	case TechTypeSplunkpanel:
 		return AttackCategoryWeb
-	case AttackTypeSplunkstackstorm:
+	case TechTypeSplunkstackstorm:
 		return AttackCategoryWeb
-	case AttackTypeSpnegomiscellaneous:
+	case TechTypeSpnegomiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypeSporcleosint:
+	case TechTypeSporcleosint:
 		return AttackCategoryOsint
-	case AttackTypeSpotify:
+	case TechTypeSpotify:
 		return AttackCategoryWeb
-	case AttackTypeSpotifyosint:
+	case TechTypeSpotifyosint:
 		return AttackCategoryOsint
-	case AttackTypeSpotifytokenSpray:
+	case TechTypeSpotifytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeSpotweb:
+	case TechTypeSpotweb:
 		return AttackCategoryWeb
-	case AttackTypeSpotwebProjectcve:
+	case TechTypeSpotwebProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeSpotwebProjectcve2021:
+	case TechTypeSpotwebProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeSpotwebProjectpanel:
+	case TechTypeSpotwebProjectpanel:
 		return AttackCategoryWeb
-	case AttackTypeSpreadsheetReader:
+	case TechTypeSpreadsheetReader:
 		return AttackCategoryWeb
-	case AttackTypeSpring:
+	case TechTypeSpring:
 		return AttackCategoryWeb
-	case AttackTypeSpringBootActuatorLogviewProjectcve:
+	case TechTypeSpringBootActuatorLogviewProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeSpringblade:
+	case TechTypeSpringblade:
 		return AttackCategoryWeb
-	case AttackTypeSpringboot:
+	case TechTypeSpringboot:
 		return AttackCategoryWeb
-	case AttackTypeSpringcloud:
+	case TechTypeSpringcloud:
 		return AttackCategoryCloud
-	case AttackTypeSpringframework:
+	case TechTypeSpringframework:
 		return AttackCategoryWeb
-	case AttackTypeSpringsignagecve2013:
+	case TechTypeSpringsignagecve2013:
 		return AttackCategoryCVE
-	case AttackTypeSpringtech:
+	case TechTypeSpringtech:
 		return AttackCategoryWeb
-	case AttackTypeSprintfultakeover:
+	case TechTypeSprintfultakeover:
 		return AttackCategoryWeb
-	case AttackTypeSpxopenview:
+	case TechTypeSpxopenview:
 		return AttackCategoryWeb
-	case AttackTypeSql:
+	case TechTypeSql:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlbuddysquirrelmail:
+	case TechTypeSqlbuddysquirrelmail:
 		return AttackCategorySqlInjection
-	case AttackTypeSqli:
+	case TechTypeSqli:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliadobe:
+	case TechTypeSqliadobe:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliaws:
+	case TechTypeSqliaws:
 		return AttackCategoryCloud
-	case AttackTypeSqlibackdoor:
+	case TechTypeSqlibackdoor:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlichanjet:
+	case TechTypeSqlichanjet:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlicmseasy:
+	case TechTypeSqlicmseasy:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlicnvd:
+	case TechTypeSqlicnvd:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlicnvd2021:
+	case TechTypeSqlicnvd2021:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlicode:
+	case TechTypeSqlicode:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlicve:
+	case TechTypeSqlicve:
 		return AttackCategoryCVE
-	case AttackTypeSqlicve2014:
+	case TechTypeSqlicve2014:
 		return AttackCategoryCVE
-	case AttackTypeSqlicve2017:
+	case TechTypeSqlicve2017:
 		return AttackCategoryCVE
-	case AttackTypeSqlicve2020:
+	case TechTypeSqlicve2020:
 		return AttackCategoryCVE
-	case AttackTypeSqlicve2021:
+	case TechTypeSqlicve2021:
 		return AttackCategoryCVE
-	case AttackTypeSqlicve2022:
+	case TechTypeSqlicve2022:
 		return AttackCategoryCVE
-	case AttackTypeSqlicve2023:
+	case TechTypeSqlicve2023:
 		return AttackCategoryCVE
-	case AttackTypeSqlidom:
+	case TechTypeSqlidom:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlidzzoffice:
+	case TechTypeSqlidzzoffice:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlieMobile:
+	case TechTypeSqlieMobile:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliecology:
+	case TechTypeSqliecology:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliedb:
+	case TechTypeSqliedb:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlietouch:
+	case TechTypeSqlietouch:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliewebs:
+	case TechTypeSqliewebs:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliexposure:
+	case TechTypeSqliexposure:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliflatpress:
+	case TechTypeSqliflatpress:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlihms:
+	case TechTypeSqlihms:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlihongfan:
+	case TechTypeSqlihongfan:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliintrusive:
+	case TechTypeSqliintrusive:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlijinhe:
+	case TechTypeSqlijinhe:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlilandray:
+	case TechTypeSqlilandray:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlilfi:
+	case TechTypeSqlilfi:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlimisconfig:
+	case TechTypeSqlimisconfig:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliopencti:
+	case TechTypeSqliopencti:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlipacketstorm:
+	case TechTypeSqlipacketstorm:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlipanel:
+	case TechTypeSqlipanel:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlirocketchat:
+	case TechTypeSqlirocketchat:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlischneider:
+	case TechTypeSqlischneider:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliseeyon:
+	case TechTypeSqliseeyon:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlisqli:
+	case TechTypeSqlisqli:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlissrf:
+	case TechTypeSqlissrf:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlissti:
+	case TechTypeSqlissti:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlite:
+	case TechTypeSqlite:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlite3:
+	case TechTypeSqlite3:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlitenable:
+	case TechTypeSqlitenable:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlititanit:
+	case TechTypeSqlititanit:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlitongda:
+	case TechTypeSqlitongda:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliunauth:
+	case TechTypeSqliunauth:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliwanhu:
+	case TechTypeSqliwanhu:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliwapples:
+	case TechTypeSqliwapples:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliweaver:
+	case TechTypeSqliweaver:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliwordpress:
+	case TechTypeSqliwordpress:
 		return AttackCategorySqlInjection
-	case AttackTypeSqliwpscan:
+	case TechTypeSqliwpscan:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlixss:
+	case TechTypeSqlixss:
 		return AttackCategoryXSS
-	case AttackTypeSqliyonyou:
+	case TechTypeSqliyonyou:
 		return AttackCategorySqlInjection
-	case AttackTypeSqlizimbra:
+	case TechTypeSqlizimbra:
 		return AttackCategorySqlInjection
-	case AttackTypeSqltech:
+	case TechTypeSqltech:
 		return AttackCategorySqlInjection
-	case AttackTypeSquadcasttakeover:
+	case TechTypeSquadcasttakeover:
 		return AttackCategoryWeb
-	case AttackTypeSquarerecon:
+	case TechTypeSquarerecon:
 		return AttackCategoryWeb
-	case AttackTypeSquidex:
+	case TechTypeSquidex:
 		return AttackCategoryWeb
-	case AttackTypeSquidexIocve:
+	case TechTypeSquidexIocve:
 		return AttackCategoryCVE
-	case AttackTypeSquirrellycve2021:
+	case TechTypeSquirrellycve2021:
 		return AttackCategoryCVE
-	case AttackTypeSquirrelmail:
+	case TechTypeSquirrelmail:
 		return AttackCategoryMail
-	case AttackTypeSquirrelmailcve:
+	case TechTypeSquirrelmailcve:
 		return AttackCategoryCVE
-	case AttackTypeSqwebmail:
+	case TechTypeSqwebmail:
 		return AttackCategoryWeb
-	case AttackTypeSri:
+	case TechTypeSri:
 		return AttackCategoryWeb
-	case AttackTypeSsh:
+	case TechTypeSsh:
 		return AttackCategorySSH
-	case AttackTypeSshAgent:
+	case TechTypeSshAgent:
 		return AttackCategorySSH
-	case AttackTypeSshconfig:
+	case TechTypeSshconfig:
 		return AttackCategorySSH
-	case AttackTypeSshexposure:
+	case TechTypeSshexposure:
 		return AttackCategorySSH
-	case AttackTypeSshpass:
+	case TechTypeSshpass:
 		return AttackCategorySSH
-	case AttackTypeSsi:
+	case TechTypeSsi:
 		return AttackCategoryWeb
-	case AttackTypeSsl:
+	case TechTypeSsl:
 		return AttackCategoryWeb
-	case AttackTypeSslmate:
+	case TechTypeSslmate:
 		return AttackCategoryWeb
-	case AttackTypeSslpanel:
+	case TechTypeSslpanel:
 		return AttackCategoryWeb
-	case AttackTypeSsltlstech:
+	case TechTypeSsltlstech:
 		return AttackCategoryWeb
-	case AttackTypeSso:
+	case TechTypeSso:
 		return AttackCategoryWeb
-	case AttackTypeSsrf:
+	case TechTypeSsrf:
 		return AttackCategoryWeb
-	case AttackTypeSsrfcve:
+	case TechTypeSsrfcve:
 		return AttackCategoryCVE
-	case AttackTypeSsrfcve2020:
+	case TechTypeSsrfcve2020:
 		return AttackCategoryCVE
-	case AttackTypeSsrfcve2021:
+	case TechTypeSsrfcve2021:
 		return AttackCategoryCVE
-	case AttackTypeSsrfcve2023:
+	case TechTypeSsrfcve2023:
 		return AttackCategoryCVE
-	case AttackTypeSsrfgrafana:
+	case TechTypeSsrfgrafana:
 		return AttackCategoryWeb
-	case AttackTypeSsrflfi:
+	case TechTypeSsrflfi:
 		return AttackCategoryWeb
-	case AttackTypeSsrfmicroweber:
+	case TechTypeSsrfmicroweber:
 		return AttackCategoryWeb
-	case AttackTypeSsrfueditor:
+	case TechTypeSsrfueditor:
 		return AttackCategoryWeb
-	case AttackTypeSssssssscve:
+	case TechTypeSssssssscve:
 		return AttackCategoryCVE
-	case AttackTypeSsti:
+	case TechTypeSsti:
 		return AttackCategoryWeb
-	case AttackTypeSsticve:
+	case TechTypeSsticve:
 		return AttackCategoryCVE
-	case AttackTypeStackoverflowosint:
+	case TechTypeStackoverflowosint:
 		return AttackCategoryOsint
-	case AttackTypeStackpostsmisconfig:
+	case TechTypeStackpostsmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeStackpostssteve:
+	case TechTypeStackpostssteve:
 		return AttackCategoryWeb
-	case AttackTypeStageshowProjectcve2015:
+	case TechTypeStageshowProjectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeStagilcve:
+	case TechTypeStagilcve:
 		return AttackCategoryCVE
-	case AttackTypeStagilcve2023:
+	case TechTypeStagilcve2023:
 		return AttackCategoryCVE
-	case AttackTypeStarttls:
+	case TechTypeStarttls:
 		return AttackCategoryWeb
-	case AttackTypeStatamic:
+	case TechTypeStatamic:
 		return AttackCategoryWeb
-	case AttackTypeStatistics:
+	case TechTypeStatistics:
 		return AttackCategoryWeb
-	case AttackTypeStats:
+	case TechTypeStats:
 		return AttackCategoryWeb
-	case AttackTypeStatus:
+	case TechTypeStatus:
 		return AttackCategoryWeb
-	case AttackTypeStatusexposure:
+	case TechTypeStatusexposure:
 		return AttackCategoryWeb
-	case AttackTypeStatusnginx:
+	case TechTypeStatusnginx:
 		return AttackCategoryWeb
-	case AttackTypeStatusnode:
+	case TechTypeStatusnode:
 		return AttackCategoryWeb
-	case AttackTypeStatusnomad:
+	case TechTypeStatusnomad:
 		return AttackCategoryWeb
-	case AttackTypeStatusstatus:
+	case TechTypeStatusstatus:
 		return AttackCategoryWeb
-	case AttackTypeStatustech:
+	case TechTypeStatustech:
 		return AttackCategoryWeb
-	case AttackTypeStcve2014:
+	case TechTypeStcve2014:
 		return AttackCategoryCVE
-	case AttackTypeStd42Cve:
+	case TechTypeStd42Cve:
 		return AttackCategoryCVE
-	case AttackTypeStd42Cve2021:
+	case TechTypeStd42Cve2021:
 		return AttackCategoryCVE
-	case AttackTypeStdbuf:
+	case TechTypeStdbuf:
 		return AttackCategoryWeb
-	case AttackTypeStealer:
+	case TechTypeStealer:
 		return AttackCategoryWeb
-	case AttackTypeSteam:
+	case TechTypeSteam:
 		return AttackCategoryWeb
-	case AttackTypeSteamosint:
+	case TechTypeSteamosint:
 		return AttackCategoryOsint
-	case AttackTypeSteemitosint:
+	case TechTypeSteemitosint:
 		return AttackCategoryOsint
-	case AttackTypeStellerosint:
+	case TechTypeStellerosint:
 		return AttackCategoryOsint
-	case AttackTypeSterling:
+	case TechTypeSterling:
 		return AttackCategoryWeb
-	case AttackTypeStestr:
+	case TechTypeStestr:
 		return AttackCategoryWeb
-	case AttackTypeStevepanel:
+	case TechTypeStevepanel:
 		return AttackCategoryWeb
-	case AttackTypeStevestructurizr:
+	case TechTypeStevestructurizr:
 		return AttackCategoryWeb
-	case AttackTypeStms:
+	case TechTypeStms:
 		return AttackCategoryWeb
-	case AttackTypeStockTicker:
+	case TechTypeStockTicker:
 		return AttackCategoryWeb
-	case AttackTypeStonerssocialMastodonInstanceosint:
+	case TechTypeStonerssocialMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeStopbadbots:
+	case TechTypeStopbadbots:
 		return AttackCategoryWeb
-	case AttackTypeStorage:
+	case TechTypeStorage:
 		return AttackCategoryWeb
-	case AttackTypeStoragecve2021:
+	case TechTypeStoragecve2021:
 		return AttackCategoryCVE
-	case AttackTypeStorageimm:
+	case TechTypeStorageimm:
 		return AttackCategoryWeb
-	case AttackTypeStoragetech:
+	case TechTypeStoragetech:
 		return AttackCategoryWeb
-	case AttackTypeStoredXss:
+	case TechTypeStoredXss:
 		return AttackCategoryXSS
-	case AttackTypeStorefront:
+	case TechTypeStorefront:
 		return AttackCategoryWeb
-	case AttackTypeStorybook:
+	case TechTypeStorybook:
 		return AttackCategoryWeb
-	case AttackTypeStorycorpsosint:
+	case TechTypeStorycorpsosint:
 		return AttackCategoryOsint
-	case AttackTypeStrace:
+	case TechTypeStrace:
 		return AttackCategoryWeb
-	case AttackTypeStrangerstudioscve:
+	case TechTypeStrangerstudioscve:
 		return AttackCategoryCVE
-	case AttackTypeStrangerstudioscve2021:
+	case TechTypeStrangerstudioscve2021:
 		return AttackCategoryCVE
-	case AttackTypeStrapi:
+	case TechTypeStrapi:
 		return AttackCategoryWeb
-	case AttackTypeStravatokenSpray:
+	case TechTypeStravatokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeStreamelementsosint:
+	case TechTypeStreamelementsosint:
 		return AttackCategoryOsint
-	case AttackTypeStreamlabsosint:
+	case TechTypeStreamlabsosint:
 		return AttackCategoryOsint
-	case AttackTypeStreetviewtokenSpray:
+	case TechTypeStreetviewtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeStridercd:
+	case TechTypeStridercd:
 		return AttackCategoryWeb
-	case AttackTypeStriderpanel:
+	case TechTypeStriderpanel:
 		return AttackCategoryWeb
-	case AttackTypeStrikinglytakeovertakeovertakeover:
+	case TechTypeStrikinglytakeovertakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeStripchatosint:
+	case TechTypeStripchatosint:
 		return AttackCategoryOsint
-	case AttackTypeStripeexposure:
+	case TechTypeStripeexposure:
 		return AttackCategoryWeb
-	case AttackTypeStripetelegram:
+	case TechTypeStripetelegram:
 		return AttackCategoryWeb
-	case AttackTypeStripetokenSpray:
+	case TechTypeStripetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeStructurizr:
+	case TechTypeStructurizr:
 		return AttackCategoryWeb
-	case AttackTypeStruts:
+	case TechTypeStruts:
 		return AttackCategoryWeb
-	case AttackTypeStruts2:
+	case TechTypeStruts2:
 		return AttackCategoryWeb
-	case AttackTypeStrutscve:
+	case TechTypeStrutscve:
 		return AttackCategoryCVE
-	case AttackTypeStrutscve2017:
+	case TechTypeStrutscve2017:
 		return AttackCategoryCVE
-	case AttackTypeStylemixthemescve:
+	case TechTypeStylemixthemescve:
 		return AttackCategoryCVE
-	case AttackTypeStytchtokenSpray:
+	case TechTypeStytchtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeSubmitty:
+	case TechTypeSubmitty:
 		return AttackCategoryWeb
-	case AttackTypeSubrion:
+	case TechTypeSubrion:
 		return AttackCategoryWeb
-	case AttackTypeSubscribestarosint:
+	case TechTypeSubscribestarosint:
 		return AttackCategoryOsint
-	case AttackTypeSubtlewebinccve:
+	case TechTypeSubtlewebinccve:
 		return AttackCategoryCVE
-	case AttackTypeSucuri:
+	case TechTypeSucuri:
 		return AttackCategoryWeb
-	case AttackTypeSudo:
+	case TechTypeSudo:
 		return AttackCategoryWeb
-	case AttackTypeSudoProjectcve:
+	case TechTypeSudoProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeSudoProjectpacketstorm:
+	case TechTypeSudoProjectpacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeSugar:
+	case TechTypeSugar:
 		return AttackCategoryWeb
-	case AttackTypeSugarcrm:
+	case TechTypeSugarcrm:
 		return AttackCategoryWeb
-	case AttackTypeSuitecrm:
+	case TechTypeSuitecrm:
 		return AttackCategoryWeb
-	case AttackTypeSuiteofficeweb365:
+	case TechTypeSuiteofficeweb365:
 		return AttackCategoryWeb
-	case AttackTypeSukebeinyaasiosint:
+	case TechTypeSukebeinyaasiosint:
 		return AttackCategoryOsint
-	case AttackTypeSumo:
+	case TechTypeSumo:
 		return AttackCategoryWeb
-	case AttackTypeSumowebtools:
+	case TechTypeSumowebtools:
 		return AttackCategoryWeb
-	case AttackTypeSunflower:
+	case TechTypeSunflower:
 		return AttackCategoryWeb
-	case AttackTypeSungrowpanel:
+	case TechTypeSungrowpanel:
 		return AttackCategoryWeb
-	case AttackTypeSunhillo:
+	case TechTypeSunhillo:
 		return AttackCategoryWeb
-	case AttackTypeSunshine:
+	case TechTypeSunshine:
 		return AttackCategoryWeb
-	case AttackTypeSunshinephotocartcve2022:
+	case TechTypeSunshinephotocartcve2022:
 		return AttackCategoryCVE
-	case AttackTypeSupachaiTeasakulcve:
+	case TechTypeSupachaiTeasakulcve:
 		return AttackCategoryCVE
-	case AttackTypeSuperSocializer:
+	case TechTypeSuperSocializer:
 		return AttackCategoryWeb
-	case AttackTypeSuperadminpanel:
+	case TechTypeSuperadminpanel:
 		return AttackCategoryWeb
-	case AttackTypeSupermicro:
+	case TechTypeSupermicro:
 		return AttackCategoryWeb
-	case AttackTypeSuperset:
+	case TechTypeSuperset:
 		return AttackCategoryWeb
-	case AttackTypeSupershell:
+	case TechTypeSupershell:
 		return AttackCategoryWeb
-	case AttackTypeSupersign:
+	case TechTypeSupersign:
 		return AttackCategoryWeb
-	case AttackTypeSuperstorefinderWp:
+	case TechTypeSuperstorefinderWp:
 		return AttackCategoryWeb
-	case AttackTypeSupervisor:
+	case TechTypeSupervisor:
 		return AttackCategoryWeb
-	case AttackTypeSupervisordcve:
+	case TechTypeSupervisordcve:
 		return AttackCategoryCVE
-	case AttackTypeSuperwebmailer:
+	case TechTypeSuperwebmailer:
 		return AttackCategoryWeb
-	case AttackTypeSuperwebmailercve2020:
+	case TechTypeSuperwebmailercve2020:
 		return AttackCategoryCVE
-	case AttackTypeSupportcandy:
+	case TechTypeSupportcandy:
 		return AttackCategoryWeb
-	case AttackTypeSupportivekoalatokenSpray:
+	case TechTypeSupportivekoalatokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeSuprema:
+	case TechTypeSuprema:
 		return AttackCategoryWeb
-	case AttackTypeSupremainccve:
+	case TechTypeSupremainccve:
 		return AttackCategoryCVE
-	case AttackTypeSupsysticcve:
+	case TechTypeSupsysticcve:
 		return AttackCategoryCVE
-	case AttackTypeSupsysticcve2021:
+	case TechTypeSupsysticcve2021:
 		return AttackCategoryCVE
-	case AttackTypeSureline:
+	case TechTypeSureline:
 		return AttackCategoryWeb
-	case AttackTypeSurveysparrowtakeovertakeover:
+	case TechTypeSurveysparrowtakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeSusepanel:
+	case TechTypeSusepanel:
 		return AttackCategoryWeb
-	case AttackTypeSuzuriosint:
+	case TechTypeSuzuriosint:
 		return AttackCategoryOsint
-	case AttackTypeSv3C:
+	case TechTypeSv3C:
 		return AttackCategoryWeb
-	case AttackTypeSvg:
+	case TechTypeSvg:
 		return AttackCategoryWeb
-	case AttackTypeSvn:
+	case TechTypeSvn:
 		return AttackCategoryWeb
-	case AttackTypeSvnserveconfig:
+	case TechTypeSvnserveconfig:
 		return AttackCategoryWeb
-	case AttackTypeSvnvscode:
+	case TechTypeSvnvscode:
 		return AttackCategoryWeb
-	case AttackTypeSwagger:
+	case TechTypeSwagger:
 		return AttackCategoryWeb
-	case AttackTypeSwaggerexposure:
+	case TechTypeSwaggerexposure:
 		return AttackCategoryWeb
-	case AttackTypeSwimTeamProjectcve2015:
+	case TechTypeSwimTeamProjectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeSwitch:
+	case TechTypeSwitch:
 		return AttackCategoryWeb
-	case AttackTypeSwitching:
+	case TechTypeSwitching:
 		return AttackCategoryWeb
-	case AttackTypeSyfadis:
+	case TechTypeSyfadis:
 		return AttackCategoryWeb
-	case AttackTypeSygnoos:
+	case TechTypeSygnoos:
 		return AttackCategoryWeb
-	case AttackTypeSymantec:
+	case TechTypeSymantec:
 		return AttackCategoryWeb
-	case AttackTypeSymanteccve:
+	case TechTypeSymanteccve:
 		return AttackCategoryCVE
-	case AttackTypeSymfony:
+	case TechTypeSymfony:
 		return AttackCategoryWeb
-	case AttackTypeSymfonyconfig:
+	case TechTypeSymfonyconfig:
 		return AttackCategoryWeb
-	case AttackTypeSymfonyexposure:
+	case TechTypeSymfonyexposure:
 		return AttackCategoryWeb
-	case AttackTypeSymmetricom:
+	case TechTypeSymmetricom:
 		return AttackCategoryWeb
-	case AttackTypeSympa:
+	case TechTypeSympa:
 		return AttackCategoryWeb
-	case AttackTypeSynacorcve:
+	case TechTypeSynacorcve:
 		return AttackCategoryCVE
-	case AttackTypeSynacorcve2018:
+	case TechTypeSynacorcve2018:
 		return AttackCategoryCVE
-	case AttackTypeSynacorcve2019:
+	case TechTypeSynacorcve2019:
 		return AttackCategoryCVE
-	case AttackTypeSynacorcve2020:
+	case TechTypeSynacorcve2020:
 		return AttackCategoryCVE
-	case AttackTypeSynacorpanel:
+	case TechTypeSynacorpanel:
 		return AttackCategoryWeb
-	case AttackTypeSynametricspanel:
+	case TechTypeSynametricspanel:
 		return AttackCategoryWeb
-	case AttackTypeSynapsemeilisearch:
+	case TechTypeSynapsemeilisearch:
 		return AttackCategoryWeb
-	case AttackTypeSynapsepanel:
+	case TechTypeSynapsepanel:
 		return AttackCategoryWeb
-	case AttackTypeSync:
+	case TechTypeSync:
 		return AttackCategoryWeb
-	case AttackTypeSyncserver:
+	case TechTypeSyncserver:
 		return AttackCategoryWeb
-	case AttackTypeSyncthing:
+	case TechTypeSyncthing:
 		return AttackCategoryWeb
-	case AttackTypeSyncthru:
+	case TechTypeSyncthru:
 		return AttackCategoryWeb
-	case AttackTypeSynnefologin:
+	case TechTypeSynnefologin:
 		return AttackCategoryWeb
-	case AttackTypeSynology:
+	case TechTypeSynology:
 		return AttackCategoryWeb
-	case AttackTypeSynopsyspanel:
+	case TechTypeSynopsyspanel:
 		return AttackCategoryWeb
-	case AttackTypeSyntacticscve:
+	case TechTypeSyntacticscve:
 		return AttackCategoryCVE
-	case AttackTypeSysaid:
+	case TechTypeSysaid:
 		return AttackCategoryAI
-	case AttackTypeSysaidcve2021:
+	case TechTypeSysaidcve2021:
 		return AttackCategoryCVE
-	case AttackTypeSyslog:
+	case TechTypeSyslog:
 		return AttackCategoryWeb
-	case AttackTypeSyslogcve2021:
+	case TechTypeSyslogcve2021:
 		return AttackCategoryCVE
-	case AttackTypeSystem:
+	case TechTypeSystem:
 		return AttackCategoryWeb
-	case AttackTypeSysteminformation:
+	case TechTypeSysteminformation:
 		return AttackCategoryWeb
-	case AttackTypeSystemmanagerpanel:
+	case TechTypeSystemmanagerpanel:
 		return AttackCategoryWeb
-	case AttackTypeSzmerinfoosint:
+	case TechTypeSzmerinfoosint:
 		return AttackCategoryOsint
-	case AttackTypeT3:
+	case TechTypeT3:
 		return AttackCategoryWeb
-	case AttackTypeTableau:
+	case TechTypeTableau:
 		return AttackCategoryWeb
-	case AttackTypeTableausoftwarepanel:
+	case TechTypeTableausoftwarepanel:
 		return AttackCategoryWeb
-	case AttackTypeTableautechtech:
+	case TechTypeTableautechtech:
 		return AttackCategoryWeb
-	case AttackTypeTablereservation:
+	case TechTypeTablereservation:
 		return AttackCategoryWeb
-	case AttackTypeTablesome:
+	case TechTypeTablesome:
 		return AttackCategoryWeb
-	case AttackTypeTabletoptournamentosint:
+	case TechTypeTabletoptournamentosint:
 		return AttackCategoryOsint
-	case AttackTypeTagdivcve2022:
+	case TechTypeTagdivcve2022:
 		return AttackCategoryCVE
-	case AttackTypeTaggedosint:
+	case TechTypeTaggedosint:
 		return AttackCategoryOsint
-	case AttackTypeTaigadefi:
+	case TechTypeTaigadefi:
 		return AttackCategoryAI
-	case AttackTypeTailon:
+	case TechTypeTailon:
 		return AttackCategoryAI
-	case AttackTypeTaiwanesepacketstorm:
+	case TechTypeTaiwanesepacketstorm:
 		return AttackCategoryAI
-	case AttackTypeTakeover:
+	case TechTypeTakeover:
 		return AttackCategoryWeb
-	case AttackTypeTakeoverdns:
+	case TechTypeTakeoverdns:
 		return AttackCategoryDNS
-	case AttackTypeTalelincve:
+	case TechTypeTalelincve:
 		return AttackCategoryCVE
-	case AttackTypeTalrootamronos:
+	case TechTypeTalrootamronos:
 		return AttackCategoryWeb
-	case AttackTypeTamlyncreativecve2010:
+	case TechTypeTamlyncreativecve2010:
 		return AttackCategoryCVE
-	case AttackTypeTamtamosint:
+	case TechTypeTamtamosint:
 		return AttackCategoryOsint
-	case AttackTypeTanukiplosint:
+	case TechTypeTanukiplosint:
 		return AttackCategoryOsint
-	case AttackTypeTapestry:
+	case TechTypeTapestry:
 		return AttackCategoryWeb
-	case AttackTypeTapestrycve2021:
+	case TechTypeTapestrycve2021:
 		return AttackCategoryCVE
-	case AttackTypeTapitagosint:
+	case TechTypeTapitagosint:
 		return AttackCategoryOsint
-	case AttackTypeTappyosint:
+	case TechTypeTappyosint:
 		return AttackCategoryOsint
-	case AttackTypeTar:
+	case TechTypeTar:
 		return AttackCategoryWeb
-	case AttackTypeTarantella:
+	case TechTypeTarantella:
 		return AttackCategoryWeb
-	case AttackTypeTargaiot:
+	case TechTypeTargaiot:
 		return AttackCategoryIoT
-	case AttackTypeTarget:
+	case TechTypeTarget:
 		return AttackCategoryWeb
-	case AttackTypeTaringaosint:
+	case TechTypeTaringaosint:
 		return AttackCategoryOsint
-	case AttackTypeTaskrabbitosint:
+	case TechTypeTaskrabbitosint:
 		return AttackCategoryOsint
-	case AttackTypeTasmota:
+	case TechTypeTasmota:
 		return AttackCategoryWeb
-	case AttackTypeTastyignitermisconfig:
+	case TechTypeTastyignitermisconfig:
 		return AttackCategoryWeb
-	case AttackTypeTautulli:
+	case TechTypeTautulli:
 		return AttackCategoryWeb
-	case AttackTypeTaxonomiesChangeCheckboxToRadioButtons:
+	case TechTypeTaxonomiesChangeCheckboxToRadioButtons:
 		return AttackCategoryWeb
-	case AttackTypeTbk:
+	case TechTypeTbk:
 		return AttackCategoryWeb
-	case AttackTypeTbkvisioncve2019:
+	case TechTypeTbkvisioncve2019:
 		return AttackCategoryCVE
-	case AttackTypeTcexam:
+	case TechTypeTcexam:
 		return AttackCategoryWeb
-	case AttackTypeTcpadbhoney:
+	case TechTypeTcpadbhoney:
 		return AttackCategoryWeb
-	case AttackTypeTcpc2:
+	case TechTypeTcpc2:
 		return AttackCategoryWeb
-	case AttackTypeTcpclockwatch:
+	case TechTypeTcpclockwatch:
 		return AttackCategoryWeb
-	case AttackTypeTcpconpot:
+	case TechTypeTcpconpot:
 		return AttackCategoryWeb
-	case AttackTypeTcpcowrie:
+	case TechTypeTcpcowrie:
 		return AttackCategoryWeb
-	case AttackTypeTcpcve:
+	case TechTypeTcpcve:
 		return AttackCategoryCVE
-	case AttackTypeTcpcve2015:
+	case TechTypeTcpcve2015:
 		return AttackCategoryCVE
-	case AttackTypeTcpcve2017:
+	case TechTypeTcpcve2017:
 		return AttackCategoryCVE
-	case AttackTypeTcpcve2022:
+	case TechTypeTcpcve2022:
 		return AttackCategoryCVE
-	case AttackTypeTcpdemon:
+	case TechTypeTcpdemon:
 		return AttackCategoryWeb
-	case AttackTypeTcpdionaea:
+	case TechTypeTcpdionaea:
 		return AttackCategoryWeb
-	case AttackTypeTcpganglia:
+	case TechTypeTcpganglia:
 		return AttackCategoryWeb
-	case AttackTypeTcpgaspot:
+	case TechTypeTcpgaspot:
 		return AttackCategoryWeb
-	case AttackTypeTcpjarm:
+	case TechTypeTcpjarm:
 		return AttackCategoryWeb
-	case AttackTypeTcpmail:
+	case TechTypeTcpmail:
 		return AttackCategoryMail
-	case AttackTypeTcpmailoney:
+	case TechTypeTcpmailoney:
 		return AttackCategoryMail
-	case AttackTypeTcpnetwork:
+	case TechTypeTcpnetwork:
 		return AttackCategoryWeb
-	case AttackTypeTcppacketstorm:
+	case TechTypeTcppacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeTcpredis:
+	case TechTypeTcpredis:
 		return AttackCategoryWeb
-	case AttackTypeTcpseclists:
+	case TechTypeTcpseclists:
 		return AttackCategoryWeb
-	case AttackTypeTcpsentry:
+	case TechTypeTcpsentry:
 		return AttackCategoryWeb
-	case AttackTypeTcptokenSpray:
+	case TechTypeTcptokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeTcsh:
+	case TechTypeTcsh:
 		return AttackCategoryWeb
-	case AttackTypeTeamcity:
+	case TechTypeTeamcity:
 		return AttackCategoryWeb
-	case AttackTypeTeamforge:
+	case TechTypeTeamforge:
 		return AttackCategoryWeb
-	case AttackTypeTeampass:
+	case TechTypeTeampass:
 		return AttackCategoryWeb
-	case AttackTypeTeampasspanel:
+	case TechTypeTeampasspanel:
 		return AttackCategoryWeb
-	case AttackTypeTeamspeak3:
+	case TechTypeTeamspeak3:
 		return AttackCategoryWeb
-	case AttackTypeTeamtreehouseosint:
+	case TechTypeTeamtreehouseosint:
 		return AttackCategoryOsint
-	case AttackTypeTeamviewer:
+	case TechTypeTeamviewer:
 		return AttackCategoryWeb
-	case AttackTypeTeamworktakeovertakeovertakeover:
+	case TechTypeTeamworktakeovertakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeTech:
+	case TechTypeTech:
 		return AttackCategoryWeb
-	case AttackTypeTechadobe:
+	case TechTypeTechadobe:
 		return AttackCategoryWeb
-	case AttackTypeTechaem:
+	case TechTypeTechaem:
 		return AttackCategoryWeb
-	case AttackTypeTechakamai:
+	case TechTypeTechakamai:
 		return AttackCategoryAI
-	case AttackTypeTechapache:
+	case TechTypeTechapache:
 		return AttackCategoryWeb
-	case AttackTypeTechaws:
+	case TechTypeTechaws:
 		return AttackCategoryCloud
-	case AttackTypeTechburp:
+	case TechTypeTechburp:
 		return AttackCategoryWeb
-	case AttackTypeTechcloudfoundry:
+	case TechTypeTechcloudfoundry:
 		return AttackCategoryCloud
-	case AttackTypeTechfastjson:
+	case TechTypeTechfastjson:
 		return AttackCategoryWeb
-	case AttackTypeTechiot:
+	case TechTypeTechiot:
 		return AttackCategoryIoT
-	case AttackTypeTechiparapheur:
+	case TechTypeTechiparapheur:
 		return AttackCategoryWeb
-	case AttackTypeTechmagento:
+	case TechTypeTechmagento:
 		return AttackCategoryWeb
-	case AttackTypeTechmicrosoft:
+	case TechTypeTechmicrosoft:
 		return AttackCategoryWeb
-	case AttackTypeTechnocrackerscve:
+	case TechTypeTechnocrackerscve:
 		return AttackCategoryCVE
-	case AttackTypeTechoracle:
+	case TechTypeTechoracle:
 		return AttackCategoryWeb
-	case AttackTypeTechpanel:
+	case TechTypeTechpanel:
 		return AttackCategoryWeb
-	case AttackTypeTechprotocol:
+	case TechTypeTechprotocol:
 		return AttackCategoryWeb
-	case AttackTypeTechpuppet:
+	case TechTypeTechpuppet:
 		return AttackCategoryWeb
-	case AttackTypeTechsamsung:
+	case TechTypeTechsamsung:
 		return AttackCategoryWeb
-	case AttackTypeTechsap:
+	case TechTypeTechsap:
 		return AttackCategoryWeb
-	case AttackTypeTechsitecore:
+	case TechTypeTechsitecore:
 		return AttackCategoryWeb
-	case AttackTypeTechsogo:
+	case TechTypeTechsogo:
 		return AttackCategoryWeb
-	case AttackTypeTechtech:
+	case TechTypeTechtech:
 		return AttackCategoryWeb
-	case AttackTypeTechtechtech:
+	case TechTypeTechtechtech:
 		return AttackCategoryWeb
-	case AttackTypeTechthinkphp:
+	case TechTypeTechthinkphp:
 		return AttackCategoryPHP
-	case AttackTypeTechvmware:
+	case TechTypeTechvmware:
 		return AttackCategoryWeb
-	case AttackTypeTechwaf:
+	case TechTypeTechwaf:
 		return AttackCategoryWeb
-	case AttackTypeTechymhome:
+	case TechTypeTechymhome:
 		return AttackCategoryWeb
-	case AttackTypeTeclibEditioncve:
+	case TechTypeTeclibEditioncve:
 		return AttackCategoryCVE
-	case AttackTypeTecnickcve2021:
+	case TechTypeTecnickcve2021:
 		return AttackCategoryCVE
-	case AttackTypeTecrailcve:
+	case TechTypeTecrailcve:
 		return AttackCategoryCVE
-	case AttackTypeTectuus:
+	case TechTypeTectuus:
 		return AttackCategoryWeb
-	case AttackTypeTeddygirlsosint:
+	case TechTypeTeddygirlsosint:
 		return AttackCategoryOsint
-	case AttackTypeTeespringosint:
+	case TechTypeTeespringosint:
 		return AttackCategoryOsint
-	case AttackTypeTeknikosint:
+	case TechTypeTeknikosint:
 		return AttackCategoryOsint
-	case AttackTypeTekton:
+	case TechTypeTekton:
 		return AttackCategoryWeb
-	case AttackTypeTelaen:
+	case TechTypeTelaen:
 		return AttackCategoryWeb
-	case AttackTypeTelaenProjectcve2013:
+	case TechTypeTelaenProjectcve2013:
 		return AttackCategoryCVE
-	case AttackTypeTelecom:
+	case TechTypeTelecom:
 		return AttackCategoryWeb
-	case AttackTypeTelegram:
+	case TechTypeTelegram:
 		return AttackCategoryWeb
-	case AttackTypeTelegramosint:
+	case TechTypeTelegramosint:
 		return AttackCategoryOsint
-	case AttackTypeTelerik:
+	case TechTypeTelerik:
 		return AttackCategoryWeb
-	case AttackTypeTelesquare:
+	case TechTypeTelesquare:
 		return AttackCategoryWeb
-	case AttackTypeTelesquarepanel:
+	case TechTypeTelesquarepanel:
 		return AttackCategoryWeb
-	case AttackTypeTellonymosint:
+	case TechTypeTellonymosint:
 		return AttackCategoryOsint
-	case AttackTypeTelnet:
+	case TechTypeTelnet:
 		return AttackCategoryWeb
-	case AttackTypeTelosalliancecve:
+	case TechTypeTelosalliancecve:
 		return AttackCategoryCVE
-	case AttackTypeTeltonika:
+	case TechTypeTeltonika:
 		return AttackCategoryWeb
-	case AttackTypeTembosocialpanel:
+	case TechTypeTembosocialpanel:
 		return AttackCategoryWeb
-	case AttackTypeTemenos:
+	case TechTypeTemenos:
 		return AttackCategoryWeb
-	case AttackTypeTemenoscve2023:
+	case TechTypeTemenoscve2023:
 		return AttackCategoryCVE
-	case AttackTypeTemenospanel:
+	case TechTypeTemenospanel:
 		return AttackCategoryWeb
-	case AttackTypeTemplatecookiecve:
+	case TechTypeTemplatecookiecve:
 		return AttackCategoryCVE
-	case AttackTypeTemplateinvaderscve:
+	case TechTypeTemplateinvaderscve:
 		return AttackCategoryCVE
-	case AttackTypeTemporal:
+	case TechTypeTemporal:
 		return AttackCategoryWeb
-	case AttackTypeTenable:
+	case TechTypeTenable:
 		return AttackCategoryWeb
-	case AttackTypeTenablecve:
+	case TechTypeTenablecve:
 		return AttackCategoryCVE
-	case AttackTypeTenablecve2019:
+	case TechTypeTenablecve2019:
 		return AttackCategoryCVE
-	case AttackTypeTenablecve2021:
+	case TechTypeTenablecve2021:
 		return AttackCategoryCVE
-	case AttackTypeTenableexposure:
+	case TechTypeTenableexposure:
 		return AttackCategoryWeb
-	case AttackTypeTenablenetdata:
+	case TechTypeTenablenetdata:
 		return AttackCategoryWeb
-	case AttackTypeTenablepanel:
+	case TechTypeTenablepanel:
 		return AttackCategoryWeb
-	case AttackTypeTencent3Dprint:
+	case TechTypeTencent3Dprint:
 		return AttackCategoryWeb
-	case AttackTypeTencentwireguard:
+	case TechTypeTencentwireguard:
 		return AttackCategoryWeb
-	case AttackTypeTenda:
+	case TechTypeTenda:
 		return AttackCategoryWeb
-	case AttackTypeTendapanel:
+	case TechTypeTendapanel:
 		return AttackCategoryWeb
-	case AttackTypeTengine:
+	case TechTypeTengine:
 		return AttackCategoryWeb
-	case AttackTypeTenorosint:
+	case TechTypeTenorosint:
 		return AttackCategoryOsint
-	case AttackTypeTensorboard:
+	case TechTypeTensorboard:
 		return AttackCategoryWeb
-	case AttackTypeTeraChartsPluginProjectcve2014:
+	case TechTypeTeraChartsPluginProjectcve2014:
 		return AttackCategoryCVE
-	case AttackTypeTeradekpanel:
+	case TechTypeTeradekpanel:
 		return AttackCategoryWeb
-	case AttackTypeTeradici:
+	case TechTypeTeradici:
 		return AttackCategoryWeb
-	case AttackTypeTermtalk:
+	case TechTypeTermtalk:
 		return AttackCategoryWeb
-	case AttackTypeTernariacve:
+	case TechTypeTernariacve:
 		return AttackCategoryCVE
-	case AttackTypeTernariacve2010:
+	case TechTypeTernariacve2010:
 		return AttackCategoryCVE
-	case AttackTypeTerraMastercve:
+	case TechTypeTerraMastercve:
 		return AttackCategoryCVE
-	case AttackTypeTerraMastercve2020:
+	case TechTypeTerraMastercve2020:
 		return AttackCategoryCVE
-	case AttackTypeTerraboard:
+	case TechTypeTerraboard:
 		return AttackCategoryWeb
-	case AttackTypeTerraform:
+	case TechTypeTerraform:
 		return AttackCategoryWeb
-	case AttackTypeTerraformpanel:
+	case TechTypeTerraformpanel:
 		return AttackCategoryWeb
-	case AttackTypeTerramaster:
+	case TechTypeTerramaster:
 		return AttackCategoryWeb
-	case AttackTypeTeslamate:
+	case TechTypeTeslamate:
 		return AttackCategoryWeb
-	case AttackTypeTestrail:
+	case TechTypeTestrail:
 		return AttackCategoryAI
-	case AttackTypeTestrailcve2021:
+	case TechTypeTestrailcve2021:
 		return AttackCategoryCVE
-	case AttackTypeText4Shell:
+	case TechTypeText4Shell:
 		return AttackCategoryWeb
-	case AttackTypeTexttokenSpray:
+	case TechTypeTexttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeTf2BackpackExaminerosint:
+	case TechTypeTf2BackpackExaminerosint:
 		return AttackCategoryOsint
-	case AttackTypeTftp:
+	case TechTypeTftp:
 		return AttackCategoryWeb
-	case AttackTypeThales:
+	case TechTypeThales:
 		return AttackCategoryWeb
-	case AttackTypeThePlusAddonsForElementor:
+	case TechTypeThePlusAddonsForElementor:
 		return AttackCategoryWeb
-	case AttackTypeThecatapitokenSpray:
+	case TechTypeThecatapitokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeThedaylightstudiocve2018:
+	case TechTypeThedaylightstudiocve2018:
 		return AttackCategoryCVE
-	case AttackTypeThedaylightstudiocve2020:
+	case TechTypeThedaylightstudiocve2020:
 		return AttackCategoryCVE
-	case AttackTypeThedigitalcraft:
+	case TechTypeThedigitalcraft:
 		return AttackCategoryWeb
-	case AttackTypeThedigitalcraftcve:
+	case TechTypeThedigitalcraftcve:
 		return AttackCategoryCVE
-	case AttackTypeThedogapitokenSpray:
+	case TechTypeThedogapitokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeThefactorycve:
+	case TechTypeThefactorycve:
 		return AttackCategoryCVE
-	case AttackTypeThefactorycve2010:
+	case TechTypeThefactorycve2010:
 		return AttackCategoryCVE
-	case AttackTypeThegatewaypunditosint:
+	case TechTypeThegatewaypunditosint:
 		return AttackCategoryOsint
-	case AttackTypeTheguardianosint:
+	case TechTypeTheguardianosint:
 		return AttackCategoryOsint
-	case AttackTypeTheme:
+	case TechTypeTheme:
 		return AttackCategoryWeb
-	case AttackTypeThemeFusion:
+	case TechTypeThemeFusion:
 		return AttackCategoryWeb
-	case AttackTypeThemeforestosint:
+	case TechTypeThemeforestosint:
 		return AttackCategoryOsint
-	case AttackTypeThemefusion:
+	case TechTypeThemefusion:
 		return AttackCategoryWeb
-	case AttackTypeThemeinprogresscve2020:
+	case TechTypeThemeinprogresscve2020:
 		return AttackCategoryCVE
-	case AttackTypeThemeisle:
+	case TechTypeThemeisle:
 		return AttackCategoryWeb
-	case AttackTypeThemeislecve:
+	case TechTypeThemeislecve:
 		return AttackCategoryCVE
-	case AttackTypeThemeumcve:
+	case TechTypeThemeumcve:
 		return AttackCategoryCVE
-	case AttackTypeThemeumcve2023:
+	case TechTypeThemeumcve2023:
 		return AttackCategoryCVE
-	case AttackTypeThenewsletterplugin:
+	case TechTypeThenewsletterplugin:
 		return AttackCategoryWeb
-	case AttackTypeThenewsletterplugincve2023:
+	case TechTypeThenewsletterplugincve2023:
 		return AttackCategoryCVE
-	case AttackTypeThetattooforumosint:
+	case TechTypeThetattooforumosint:
 		return AttackCategoryOsint
-	case AttackTypeThimpresscve:
+	case TechTypeThimpresscve:
 		return AttackCategoryCVE
-	case AttackTypeThimpresswpscan:
+	case TechTypeThimpresswpscan:
 		return AttackCategoryWeb
-	case AttackTypeThinfinity:
+	case TechTypeThinfinity:
 		return AttackCategoryWeb
-	case AttackTypeThinkadmin:
+	case TechTypeThinkadmin:
 		return AttackCategoryWeb
-	case AttackTypeThinkcmf:
+	case TechTypeThinkcmf:
 		return AttackCategoryWeb
-	case AttackTypeThinkphp:
+	case TechTypeThinkphp:
 		return AttackCategoryPHP
-	case AttackTypeThinkserver:
+	case TechTypeThinkserver:
 		return AttackCategoryWeb
-	case AttackTypeThinkupthemescve:
+	case TechTypeThinkupthemescve:
 		return AttackCategoryCVE
-	case AttackTypeThinvnc:
+	case TechTypeThinvnc:
 		return AttackCategoryWeb
-	case AttackTypeThorstenRiesscve2010:
+	case TechTypeThorstenRiesscve2010:
 		return AttackCategoryCVE
-	case AttackTypeThoughtworkscve:
+	case TechTypeThoughtworkscve:
 		return AttackCategoryCVE
-	case AttackTypeThoughtworksgocron:
+	case TechTypeThoughtworksgocron:
 		return AttackCategoryWeb
-	case AttackTypeThreadsosint:
+	case TechTypeThreadsosint:
 		return AttackCategoryOsint
-	case AttackTypeThreatqthruk:
+	case TechTypeThreatqthruk:
 		return AttackCategoryWeb
-	case AttackTypeThree:
+	case TechTypeThree:
 		return AttackCategoryWeb
-	case AttackTypeThruk:
+	case TechTypeThruk:
 		return AttackCategoryWeb
-	case AttackTypeThunderbird:
+	case TechTypeThunderbird:
 		return AttackCategoryWeb
-	case AttackTypeTiWoocommerceWishlist:
+	case TechTypeTiWoocommerceWishlist:
 		return AttackCategoryRCE
-	case AttackTypeTibco:
+	case TechTypeTibco:
 		return AttackCategoryWeb
-	case AttackTypeTibcocve:
+	case TechTypeTibcocve:
 		return AttackCategoryCVE
-	case AttackTypeTibcojboss:
+	case TechTypeTibcojboss:
 		return AttackCategoryWeb
-	case AttackTypeTicketMaster:
+	case TechTypeTicketMaster:
 		return AttackCategoryWeb
-	case AttackTypeTicketmastertokenSpray:
+	case TechTypeTicketmastertokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeTidb:
+	case TechTypeTidb:
 		return AttackCategoryWeb
-	case AttackTypeTidioFormProjectcve2016:
+	case TechTypeTidioFormProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeTidioGalleryProjectcve2016:
+	case TechTypeTidioGalleryProjectcve2016:
 		return AttackCategoryCVE
-	case AttackTypeTielabscve2021:
+	case TechTypeTielabscve2021:
 		return AttackCategoryCVE
-	case AttackTypeTieline:
+	case TechTypeTieline:
 		return AttackCategoryWeb
-	case AttackTypeTiempocom:
+	case TechTypeTiempocom:
 		return AttackCategoryWeb
-	case AttackTypeTiempocve:
+	case TechTypeTiempocve:
 		return AttackCategoryCVE
-	case AttackTypeTika:
+	case TechTypeTika:
 		return AttackCategoryWeb
-	case AttackTypeTikicve:
+	case TechTypeTikicve:
 		return AttackCategoryCVE
-	case AttackTypeTikicve2011:
+	case TechTypeTikicve2011:
 		return AttackCategoryCVE
-	case AttackTypeTikipanel:
+	case TechTypeTikipanel:
 		return AttackCategoryWeb
-	case AttackTypeTikiwiki:
+	case TechTypeTikiwiki:
 		return AttackCategoryWeb
-	case AttackTypeTikiwikiedb:
+	case TechTypeTikiwikiedb:
 		return AttackCategoryWeb
-	case AttackTypeTiktok:
+	case TechTypeTiktok:
 		return AttackCategoryWeb
-	case AttackTypeTiktokosint:
+	case TechTypeTiktokosint:
 		return AttackCategoryOsint
-	case AttackTypeTildezoneMastodonInstanceosint:
+	case TechTypeTildezoneMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeTileserver:
+	case TechTypeTileserver:
 		return AttackCategoryWeb
-	case AttackTypeTime:
+	case TechTypeTime:
 		return AttackCategoryWeb
-	case AttackTypeTimeBased:
+	case TechTypeTimeBased:
 		return AttackCategoryWeb
-	case AttackTypeTimeclock:
+	case TechTypeTimeclock:
 		return AttackCategoryWeb
-	case AttackTypeTimekeeper:
+	case TechTypeTimekeeper:
 		return AttackCategoryWeb
-	case AttackTypeTimelycve:
+	case TechTypeTimelycve:
 		return AttackCategoryCVE
-	case AttackTypeTimeout:
+	case TechTypeTimeout:
 		return AttackCategoryWeb
-	case AttackTypeTimesheet:
+	case TechTypeTimesheet:
 		return AttackCategoryWeb
-	case AttackTypeTimesheetNextGenProjectcve2019:
+	case TechTypeTimesheetNextGenProjectcve2019:
 		return AttackCategoryCVE
-	case AttackTypeTimezone74Cms:
+	case TechTypeTimezone74Cms:
 		return AttackCategoryWeb
-	case AttackTypeTinderosint:
+	case TechTypeTinderosint:
 		return AttackCategoryOsint
-	case AttackTypeTinktokenSpray:
+	case TechTypeTinktokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeTiny:
+	case TechTypeTiny:
 		return AttackCategoryWeb
-	case AttackTypeTinyRss:
+	case TechTypeTinyRss:
 		return AttackCategoryWeb
-	case AttackTypeTinyJavaWebServerProjectcve2021:
+	case TechTypeTinyJavaWebServerProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeTinymcewpPlugin:
+	case TechTypeTinymcewpPlugin:
 		return AttackCategoryWeb
-	case AttackTypeTinypngtokenSpray:
+	case TechTypeTinypngtokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeTitanFramework:
+	case TechTypeTitanFramework:
 		return AttackCategoryWeb
-	case AttackTypeTitanhqpanel:
+	case TechTypeTitanhqpanel:
 		return AttackCategoryWeb
-	case AttackTypeTitannit:
+	case TechTypeTitannit:
 		return AttackCategoryWeb
-	case AttackTypeTitleExperimentsFreeProjectcve2022:
+	case TechTypeTitleExperimentsFreeProjectcve2022:
 		return AttackCategoryCVE
-	case AttackTypeTitoolcve:
+	case TechTypeTitoolcve:
 		return AttackCategoryCVE
-	case AttackTypeTixeo:
+	case TechTypeTixeo:
 		return AttackCategoryWeb
-	case AttackTypeTjws:
+	case TechTypeTjws:
 		return AttackCategoryWeb
-	case AttackTypeTlr:
+	case TechTypeTlr:
 		return AttackCategoryWeb
-	case AttackTypeTls:
+	case TechTypeTls:
 		return AttackCategoryWeb
-	case AttackTypeTlsc2:
+	case TechTypeTlsc2:
 		return AttackCategoryWeb
-	case AttackTypeTlsssl:
+	case TechTypeTlsssl:
 		return AttackCategoryWeb
-	case AttackTypeTmate:
+	case TechTypeTmate:
 		return AttackCategoryWeb
-	case AttackTypeTmdbosint:
+	case TechTypeTmdbosint:
 		return AttackCategoryOsint
-	case AttackTypeTns:
+	case TechTypeTns:
 		return AttackCategoryWeb
-	case AttackTypeTodoisttokenSpray:
+	case TechTypeTodoisttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeToken:
+	case TechTypeToken:
 		return AttackCategoryWeb
-	case AttackTypeTokenSpray:
+	case TechTypeTokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeTokenSpraytokenSpray:
+	case TechTypeTokenSpraytokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeTokenbeamer:
+	case TechTypeTokenbeamer:
 		return AttackCategoryWeb
-	case AttackTypeTokendigitalocean:
+	case TechTypeTokendigitalocean:
 		return AttackCategoryWeb
-	case AttackTypeTokenexposure:
+	case TechTypeTokenexposure:
 		return AttackCategoryWeb
-	case AttackTypeTokenexposurenpm:
+	case TechTypeTokenexposurenpm:
 		return AttackCategoryWeb
-	case AttackTypeTokenflickr:
+	case TechTypeTokenflickr:
 		return AttackCategoryWeb
-	case AttackTypeTokennewrelic:
+	case TechTypeTokennewrelic:
 		return AttackCategoryWeb
-	case AttackTypeTokenpostman:
+	case TechTypeTokenpostman:
 		return AttackCategoryWeb
-	case AttackTypeTokenreact:
+	case TechTypeTokenreact:
 		return AttackCategoryWeb
-	case AttackTypeTokens:
+	case TechTypeTokens:
 		return AttackCategoryWeb
-	case AttackTypeTokensadobe:
+	case TechTypeTokensadobe:
 		return AttackCategoryWeb
-	case AttackTypeTokensageEncryption:
+	case TechTypeTokensageEncryption:
 		return AttackCategoryWeb
-	case AttackTypeTokensairtable:
+	case TechTypeTokensairtable:
 		return AttackCategoryAI
-	case AttackTypeTokensalgolia:
+	case TechTypeTokensalgolia:
 		return AttackCategoryWeb
-	case AttackTypeTokensalibaba:
+	case TechTypeTokensalibaba:
 		return AttackCategoryWeb
-	case AttackTypeTokensaxiom:
+	case TechTypeTokensaxiom:
 		return AttackCategoryWeb
-	case AttackTypeTokensazure:
+	case TechTypeTokensazure:
 		return AttackCategoryCloud
-	case AttackTypeTokensbitbucket:
+	case TechTypeTokensbitbucket:
 		return AttackCategoryWeb
-	case AttackTypeTokenscoinbase:
+	case TechTypeTokenscoinbase:
 		return AttackCategoryWeb
-	case AttackTypeTokensconfluent:
+	case TechTypeTokensconfluent:
 		return AttackCategoryWeb
-	case AttackTypeTokenscontentful:
+	case TechTypeTokenscontentful:
 		return AttackCategoryWeb
-	case AttackTypeTokenscrates:
+	case TechTypeTokenscrates:
 		return AttackCategoryWeb
-	case AttackTypeTokensdatadog:
+	case TechTypeTokensdatadog:
 		return AttackCategoryWeb
-	case AttackTypeTokensdependency:
+	case TechTypeTokensdependency:
 		return AttackCategoryWeb
-	case AttackTypeTokensdoppler:
+	case TechTypeTokensdoppler:
 		return AttackCategoryWeb
-	case AttackTypeTokensdroneci:
+	case TechTypeTokensdroneci:
 		return AttackCategoryWeb
-	case AttackTypeTokensdropbox:
+	case TechTypeTokensdropbox:
 		return AttackCategoryWeb
-	case AttackTypeTokensduffel:
+	case TechTypeTokensduffel:
 		return AttackCategoryWeb
-	case AttackTypeTokensdynatrace:
+	case TechTypeTokensdynatrace:
 		return AttackCategoryWeb
-	case AttackTypeTokenseasypost:
+	case TechTypeTokenseasypost:
 		return AttackCategoryWeb
-	case AttackTypeTokensetsy:
+	case TechTypeTokensetsy:
 		return AttackCategoryWeb
-	case AttackTypeTokensexposure:
+	case TechTypeTokensexposure:
 		return AttackCategoryWeb
-	case AttackTypeTokensfastly:
+	case TechTypeTokensfastly:
 		return AttackCategoryWeb
-	case AttackTypeTokensfigma:
+	case TechTypeTokensfigma:
 		return AttackCategoryWeb
-	case AttackTypeTokensflutterwave:
+	case TechTypeTokensflutterwave:
 		return AttackCategoryWeb
-	case AttackTypeTokensfreshbooks:
+	case TechTypeTokensfreshbooks:
 		return AttackCategoryWeb
-	case AttackTypeTokensgrafana:
+	case TechTypeTokensgrafana:
 		return AttackCategoryWeb
-	case AttackTypeTokenshashicorp:
+	case TechTypeTokenshashicorp:
 		return AttackCategoryWeb
-	case AttackTypeTokensheroku:
+	case TechTypeTokensheroku:
 		return AttackCategoryWeb
-	case AttackTypeTokensjenkins:
+	case TechTypeTokensjenkins:
 		return AttackCategoryWeb
-	case AttackTypeTokenslinkedin:
+	case TechTypeTokenslinkedin:
 		return AttackCategoryWeb
-	case AttackTypeTokensnewrelic:
+	case TechTypeTokensnewrelic:
 		return AttackCategoryWeb
-	case AttackTypeTokensokta:
+	case TechTypeTokensokta:
 		return AttackCategoryWeb
-	case AttackTypeTokensopenai:
+	case TechTypeTokensopenai:
 		return AttackCategoryAI
-	case AttackTypeTokensreact:
+	case TechTypeTokensreact:
 		return AttackCategoryWeb
-	case AttackTypeTokensrubygems:
+	case TechTypeTokensrubygems:
 		return AttackCategoryWeb
-	case AttackTypeTokenssauce:
+	case TechTypeTokenssauce:
 		return AttackCategoryWeb
-	case AttackTypeTokenstruenas:
+	case TechTypeTokenstruenas:
 		return AttackCategoryWeb
-	case AttackTypeTokenstwilio:
+	case TechTypeTokenstwilio:
 		return AttackCategoryWeb
-	case AttackTypeTokenstwitter:
+	case TechTypeTokenstwitter:
 		return AttackCategoryWeb
-	case AttackTypeTokenswechat:
+	case TechTypeTokenswechat:
 		return AttackCategoryWeb
-	case AttackTypeTokenswireguard:
+	case TechTypeTokenswireguard:
 		return AttackCategoryWeb
-	case AttackTypeTokentugboat:
+	case TechTypeTokentugboat:
 		return AttackCategoryWeb
-	case AttackTypeTokenzendesk:
+	case TechTypeTokenzendesk:
 		return AttackCategoryWeb
-	case AttackTypeToko:
+	case TechTypeToko:
 		return AttackCategoryWeb
-	case AttackTypeTomcat:
+	case TechTypeTomcat:
 		return AttackCategoryWeb
-	case AttackTypeTomcatapollo:
+	case TechTypeTomcatapollo:
 		return AttackCategoryWeb
-	case AttackTypeTomcatcve:
+	case TechTypeTomcatcve:
 		return AttackCategoryCVE
-	case AttackTypeTomcatjetty:
+	case TechTypeTomcatjetty:
 		return AttackCategoryWeb
-	case AttackTypeTooljetdefaultLogin:
+	case TechTypeTooljetdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeTooljetpanel:
+	case TechTypeTooljetpanel:
 		return AttackCategoryWeb
-	case AttackTypeToolkitexposure:
+	case TechTypeToolkitexposure:
 		return AttackCategoryWeb
-	case AttackTypeTootingchMastodonInstanceosint:
+	case TechTypeTootingchMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeTop100:
+	case TechTypeTop100:
 		return AttackCategoryWeb
-	case AttackTypeTop200Tech:
+	case TechTypeTop200Tech:
 		return AttackCategoryWeb
-	case AttackTypeTop200Wordpress:
+	case TechTypeTop200Wordpress:
 		return AttackCategoryWordPress
-	case AttackTypeTopacm:
+	case TechTypeTopacm:
 		return AttackCategoryWeb
-	case AttackTypeTopapplb:
+	case TechTypeTopapplb:
 		return AttackCategoryWeb
-	case AttackTypeTopsec:
+	case TechTypeTopsec:
 		return AttackCategoryWeb
-	case AttackTypeTor:
+	case TechTypeTor:
 		return AttackCategoryWeb
-	case AttackTypeTorchboxpanel:
+	case TechTypeTorchboxpanel:
 		return AttackCategoryWeb
-	case AttackTypeTorify:
+	case TechTypeTorify:
 		return AttackCategoryWeb
-	case AttackTypeTornado:
+	case TechTypeTornado:
 		return AttackCategoryWeb
-	case AttackTypeTorsocks:
+	case TechTypeTorsocks:
 		return AttackCategoryWeb
-	case AttackTypeTos:
+	case TechTypeTos:
 		return AttackCategoryWeb
-	case AttackTypeTotaljs:
+	case TechTypeTotaljs:
 		return AttackCategoryWeb
-	case AttackTypeTotalwarosint:
+	case TechTypeTotalwarosint:
 		return AttackCategoryOsint
-	case AttackTypeTotemomail:
+	case TechTypeTotemomail:
 		return AttackCategoryMail
-	case AttackTypeTotemotracer:
+	case TechTypeTotemotracer:
 		return AttackCategoryWeb
-	case AttackTypeTotolink:
+	case TechTypeTotolink:
 		return AttackCategoryWeb
-	case AttackTypeToxconfig:
+	case TechTypeToxconfig:
 		return AttackCategoryWeb
-	case AttackTypeToyhouseosint:
+	case TechTypeToyhouseosint:
 		return AttackCategoryOsint
-	case AttackTypeTpLinkcve:
+	case TechTypeTpLinkcve:
 		return AttackCategoryCVE
-	case AttackTypeTpLinkcve2015:
+	case TechTypeTpLinkcve2015:
 		return AttackCategoryCVE
-	case AttackTypeTplink:
+	case TechTypeTplink:
 		return AttackCategoryWeb
-	case AttackTypeTplus:
+	case TechTypeTplus:
 		return AttackCategoryWeb
-	case AttackTypeTplusyonyou:
+	case TechTypeTplusyonyou:
 		return AttackCategoryWeb
-	case AttackTypeTracenode:
+	case TechTypeTracenode:
 		return AttackCategoryWeb
-	case AttackTypeTracing:
+	case TechTypeTracing:
 		return AttackCategoryWeb
-	case AttackTypeTracker:
+	case TechTypeTracker:
 		return AttackCategoryWeb
-	case AttackTypeTracking:
+	case TechTypeTracking:
 		return AttackCategoryWeb
-	case AttackTypeTrackmanialadderosint:
+	case TechTypeTrackmanialadderosint:
 		return AttackCategoryOsint
-	case AttackTypeTrading212:
+	case TechTypeTrading212:
 		return AttackCategoryWeb
-	case AttackTypeTradingviewosint:
+	case TechTypeTradingviewosint:
 		return AttackCategoryOsint
-	case AttackTypeTraefik:
+	case TechTypeTraefik:
 		return AttackCategoryWeb
-	case AttackTypeTraefikpanel:
+	case TechTypeTraefikpanel:
 		return AttackCategoryWeb
-	case AttackTypeTraggo:
+	case TechTypeTraggo:
 		return AttackCategoryWeb
-	case AttackTypeTraktosint:
+	case TechTypeTraktosint:
 		return AttackCategoryOsint
-	case AttackTypeTrane:
+	case TechTypeTrane:
 		return AttackCategoryWeb
-	case AttackTypeTransmission:
+	case TechTypeTransmission:
 		return AttackCategoryWeb
-	case AttackTypeTransposh:
+	case TechTypeTransposh:
 		return AttackCategoryWeb
-	case AttackTypeTransposhcve2021:
+	case TechTypeTransposhcve2021:
 		return AttackCategoryCVE
-	case AttackTypeTrassir:
+	case TechTypeTrassir:
 		return AttackCategoryWeb
-	case AttackTypeTravelpayoutscve:
+	case TechTypeTravelpayoutscve:
 		return AttackCategoryCVE
-	case AttackTypeTravelwpPlugin:
+	case TechTypeTravelwpPlugin:
 		return AttackCategoryWeb
-	case AttackTypeTraversal:
+	case TechTypeTraversal:
 		return AttackCategoryWeb
-	case AttackTypeTraversalaspcms:
+	case TechTypeTraversalaspcms:
 		return AttackCategoryWeb
-	case AttackTypeTraversalcve2017:
+	case TechTypeTraversalcve2017:
 		return AttackCategoryCVE
-	case AttackTypeTraversalcve2020:
+	case TechTypeTraversalcve2020:
 		return AttackCategoryCVE
-	case AttackTypeTraversalcve2021:
+	case TechTypeTraversalcve2021:
 		return AttackCategoryCVE
-	case AttackTypeTraversalcve2022:
+	case TechTypeTraversalcve2022:
 		return AttackCategoryCVE
-	case AttackTypeTraversaledb:
+	case TechTypeTraversaledb:
 		return AttackCategoryWeb
-	case AttackTypeTraversalglobaldomains:
+	case TechTypeTraversalglobaldomains:
 		return AttackCategoryAI
-	case AttackTypeTraversalkingdeeErp:
+	case TechTypeTraversalkingdeeErp:
 		return AttackCategoryWeb
-	case AttackTypeTravistokenSpray:
+	case TechTypeTravistokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeTreeview:
+	case TechTypeTreeview:
 		return AttackCategoryWeb
-	case AttackTypeTreexml:
+	case TechTypeTreexml:
 		return AttackCategoryWeb
-	case AttackTypeTrelloosint:
+	case TechTypeTrelloosint:
 		return AttackCategoryOsint
-	case AttackTypeTrellotokenSpray:
+	case TechTypeTrellotokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeTrendMicro:
+	case TechTypeTrendMicro:
 		return AttackCategoryWeb
-	case AttackTypeTrendmicrocve2016:
+	case TechTypeTrendmicrocve2016:
 		return AttackCategoryCVE
-	case AttackTypeTrendnetcve2021:
+	case TechTypeTrendnetcve2021:
 		return AttackCategoryCVE
-	case AttackTypeTrendnetlogin:
+	case TechTypeTrendnetlogin:
 		return AttackCategoryWeb
-	case AttackTypeTribalsystemszenml:
+	case TechTypeTribalsystemszenml:
 		return AttackCategoryWeb
-	case AttackTypeTribe29Panel:
+	case TechTypeTribe29Panel:
 		return AttackCategoryWeb
-	case AttackTypeTriconsolecve2021:
+	case TechTypeTriconsolecve2021:
 		return AttackCategoryCVE
-	case AttackTypeTricve2021:
+	case TechTypeTricve2021:
 		return AttackCategoryCVE
-	case AttackTypeTrilithic:
+	case TechTypeTrilithic:
 		return AttackCategoryWeb
-	case AttackTypeTrilium:
+	case TechTypeTrilium:
 		return AttackCategoryWeb
-	case AttackTypeTriliumProjectcve:
+	case TechTypeTriliumProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeTrino:
+	case TechTypeTrino:
 		return AttackCategoryWeb
-	case AttackTypeTrip:
+	case TechTypeTrip:
 		return AttackCategoryWeb
-	case AttackTypeTripadvisorosint:
+	case TechTypeTripadvisorosint:
 		return AttackCategoryOsint
-	case AttackTypeTrixbox:
+	case TechTypeTrixbox:
 		return AttackCategoryWeb
-	case AttackTypeTruenas:
+	case TechTypeTruenas:
 		return AttackCategoryWeb
-	case AttackTypeTruerankercve2021:
+	case TechTypeTruerankercve2021:
 		return AttackCategoryCVE
-	case AttackTypeTrumanicve2021:
+	case TechTypeTrumanicve2021:
 		return AttackCategoryCVE
-	case AttackTypeTruthSocialosint:
+	case TechTypeTruthSocialosint:
 		return AttackCategoryOsint
-	case AttackTypeTryhackmeosint:
+	case TechTypeTryhackmeosint:
 		return AttackCategoryOsint
-	case AttackTypeTshirtecommerce:
+	case TechTypeTshirtecommerce:
 		return AttackCategoryRCE
-	case AttackTypeTufinexposure:
+	case TechTypeTufinexposure:
 		return AttackCategoryWeb
-	case AttackTypeTukaanicode:
+	case TechTypeTukaanicode:
 		return AttackCategoryWeb
-	case AttackTypeTumblrosint:
+	case TechTypeTumblrosint:
 		return AttackCategoryOsint
-	case AttackTypeTunefindosint:
+	case TechTypeTunefindosint:
 		return AttackCategoryOsint
-	case AttackTypeTup:
+	case TechTypeTup:
 		return AttackCategoryWeb
-	case AttackTypeTurbocrmphp:
+	case TechTypeTurbocrmphp:
 		return AttackCategoryPHP
-	case AttackTypeTurnkey:
+	case TechTypeTurnkey:
 		return AttackCategoryWeb
-	case AttackTypeTutor:
+	case TechTypeTutor:
 		return AttackCategoryWeb
-	case AttackTypeTutorlms:
+	case TechTypeTutorlms:
 		return AttackCategoryWeb
-	case AttackTypeTuxedo:
+	case TechTypeTuxedo:
 		return AttackCategoryWeb
-	case AttackTypeTvtcve2019:
+	case TechTypeTvtcve2019:
 		return AttackCategoryCVE
-	case AttackTypeTwigueditor:
+	case TechTypeTwigueditor:
 		return AttackCategoryWeb
-	case AttackTypeTwisted:
+	case TechTypeTwisted:
 		return AttackCategoryWeb
-	case AttackTypeTwitcastingosint:
+	case TechTypeTwitcastingosint:
 		return AttackCategoryOsint
-	case AttackTypeTwitch:
+	case TechTypeTwitch:
 		return AttackCategoryWeb
-	case AttackTypeTwitchosint:
+	case TechTypeTwitchosint:
 		return AttackCategoryOsint
-	case AttackTypeTwitteeTextTweet:
+	case TechTypeTwitteeTextTweet:
 		return AttackCategoryWeb
-	case AttackTypeTwitterArchivedProfileosint:
+	case TechTypeTwitterArchivedProfileosint:
 		return AttackCategoryOsint
-	case AttackTypeTwitterArchivedTweetsosint:
+	case TechTypeTwitterArchivedTweetsosint:
 		return AttackCategoryOsint
-	case AttackTypeTwitterServer:
+	case TechTypeTwitterServer:
 		return AttackCategoryWeb
-	case AttackTypeTwittercve:
+	case TechTypeTwittercve:
 		return AttackCategoryCVE
-	case AttackTypeTwitterosint:
+	case TechTypeTwitterosint:
 		return AttackCategoryOsint
-	case AttackTypeTwittertokenSpray:
+	case TechTypeTwittertokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeTwproosint:
+	case TechTypeTwproosint:
 		return AttackCategoryOsint
-	case AttackTypeTxjiacve2018:
+	case TechTypeTxjiacve2018:
 		return AttackCategoryCVE
-	case AttackTypeTxtdns:
+	case TechTypeTxtdns:
 		return AttackCategoryDNS
-	case AttackTypeTypo3:
+	case TechTypeTypo3:
 		return AttackCategoryWeb
-	case AttackTypeTypo3Cve:
+	case TechTypeTypo3Cve:
 		return AttackCategoryCVE
-	case AttackTypeTypo3Panel:
+	case TechTypeTypo3Panel:
 		return AttackCategoryWeb
-	case AttackTypeTypo3Tech:
+	case TechTypeTypo3Tech:
 		return AttackCategoryWeb
-	case AttackTypeU5Cms:
+	case TechTypeU5Cms:
 		return AttackCategoryWeb
-	case AttackTypeU8Crm:
+	case TechTypeU8Crm:
 		return AttackCategoryWeb
-	case AttackTypeUber:
+	case TechTypeUber:
 		return AttackCategoryWeb
-	case AttackTypeUberflip:
+	case TechTypeUberflip:
 		return AttackCategoryWeb
-	case AttackTypeUbersmithmisconfig:
+	case TechTypeUbersmithmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeUbigeoPeru:
+	case TechTypeUbigeoPeru:
 		return AttackCategoryWeb
-	case AttackTypeUbigeoDePeruParaWoocommerceProjectcve:
+	case TechTypeUbigeoDePeruParaWoocommerceProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeUbiquitipanel:
+	case TechTypeUbiquitipanel:
 		return AttackCategoryWeb
-	case AttackTypeUbisoftosint:
+	case TechTypeUbisoftosint:
 		return AttackCategoryOsint
-	case AttackTypeUbnt:
+	case TechTypeUbnt:
 		return AttackCategoryWeb
-	case AttackTypeUbuntu:
+	case TechTypeUbuntu:
 		return AttackCategoryWeb
-	case AttackTypeUcmdb:
+	case TechTypeUcmdb:
 		return AttackCategoryWeb
-	case AttackTypeUcppanel:
+	case TechTypeUcppanel:
 		return AttackCategoryWeb
-	case AttackTypeUcs:
+	case TechTypeUcs:
 		return AttackCategoryWeb
-	case AttackTypeUdemyosint:
+	case TechTypeUdemyosint:
 		return AttackCategoryOsint
-	case AttackTypeUdp:
+	case TechTypeUdp:
 		return AttackCategoryWeb
-	case AttackTypeUdraw:
+	case TechTypeUdraw:
 		return AttackCategoryWeb
-	case AttackTypeUefconnectosint:
+	case TechTypeUefconnectosint:
 		return AttackCategoryOsint
-	case AttackTypeUfida:
+	case TechTypeUfida:
 		return AttackCategoryWeb
-	case AttackTypeUi:
+	case TechTypeUi:
 		return AttackCategoryWeb
-	case AttackTypeUidosint:
+	case TechTypeUidosint:
 		return AttackCategoryOsint
-	case AttackTypeUipanel:
+	case TechTypeUipanel:
 		return AttackCategoryWeb
-	case AttackTypeUipath:
+	case TechTypeUipath:
 		return AttackCategoryWeb
-	case AttackTypeUiuxdevsocialMastodonInstanceosint:
+	case TechTypeUiuxdevsocialMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeUlanzi:
+	case TechTypeUlanzi:
 		return AttackCategoryWeb
-	case AttackTypeUlterius:
+	case TechTypeUlterius:
 		return AttackCategoryWeb
-	case AttackTypeUltimateFaqs:
+	case TechTypeUltimateFaqs:
 		return AttackCategoryWeb
-	case AttackTypeUltimateMember:
+	case TechTypeUltimateMember:
 		return AttackCategoryWeb
-	case AttackTypeUltimateWeatherProjectcve2014:
+	case TechTypeUltimateWeatherProjectcve2014:
 		return AttackCategoryCVE
-	case AttackTypeUltimatemembercve2023:
+	case TechTypeUltimatemembercve2023:
 		return AttackCategoryCVE
-	case AttackTypeUltrasDiaryosint:
+	case TechTypeUltrasDiaryosint:
 		return AttackCategoryOsint
-	case AttackTypeUlubplosint:
+	case TechTypeUlubplosint:
 		return AttackCategoryOsint
-	case AttackTypeUmami:
+	case TechTypeUmami:
 		return AttackCategoryWeb
-	case AttackTypeUmbraco:
+	case TechTypeUmbraco:
 		return AttackCategoryWeb
-	case AttackTypeUmbracocve2015:
+	case TechTypeUmbracocve2015:
 		return AttackCategoryCVE
-	case AttackTypeUmbracohoteldruid:
+	case TechTypeUmbracohoteldruid:
 		return AttackCategoryWeb
-	case AttackTypeUnauth:
+	case TechTypeUnauth:
 		return AttackCategoryWeb
-	case AttackTypeUnauthapache:
+	case TechTypeUnauthapache:
 		return AttackCategoryWeb
-	case AttackTypeUnauthbeyondtrust:
+	case TechTypeUnauthbeyondtrust:
 		return AttackCategoryWeb
-	case AttackTypeUnauthcelery:
+	case TechTypeUnauthcelery:
 		return AttackCategoryWeb
-	case AttackTypeUnauthcms:
+	case TechTypeUnauthcms:
 		return AttackCategoryWeb
-	case AttackTypeUnauthcve:
+	case TechTypeUnauthcve:
 		return AttackCategoryCVE
-	case AttackTypeUnauthcve2018:
+	case TechTypeUnauthcve2018:
 		return AttackCategoryCVE
-	case AttackTypeUnauthcve2019:
+	case TechTypeUnauthcve2019:
 		return AttackCategoryCVE
-	case AttackTypeUnauthcve2020:
+	case TechTypeUnauthcve2020:
 		return AttackCategoryCVE
-	case AttackTypeUnauthcve2021:
+	case TechTypeUnauthcve2021:
 		return AttackCategoryCVE
-	case AttackTypeUnauthcve2022:
+	case TechTypeUnauthcve2022:
 		return AttackCategoryCVE
-	case AttackTypeUnauthcve2023:
+	case TechTypeUnauthcve2023:
 		return AttackCategoryCVE
-	case AttackTypeUnauthenticated:
+	case TechTypeUnauthenticated:
 		return AttackCategoryWeb
-	case AttackTypeUnauthenticatedagegate:
+	case TechTypeUnauthenticatedagegate:
 		return AttackCategoryWeb
-	case AttackTypeUnauthenticatedcve2023:
+	case TechTypeUnauthenticatedcve2023:
 		return AttackCategoryCVE
-	case AttackTypeUnauthexposure:
+	case TechTypeUnauthexposure:
 		return AttackCategoryWeb
-	case AttackTypeUnauthgitlab:
+	case TechTypeUnauthgitlab:
 		return AttackCategoryWeb
-	case AttackTypeUnauthgroupoffice:
+	case TechTypeUnauthgroupoffice:
 		return AttackCategoryWeb
-	case AttackTypeUnauthh3C:
+	case TechTypeUnauthh3C:
 		return AttackCategoryWeb
-	case AttackTypeUnauthhashicorp:
+	case TechTypeUnauthhashicorp:
 		return AttackCategoryWeb
-	case AttackTypeUnauthjoomla:
+	case TechTypeUnauthjoomla:
 		return AttackCategoryWeb
-	case AttackTypeUnauthlfi:
+	case TechTypeUnauthlfi:
 		return AttackCategoryWeb
-	case AttackTypeUnauthlucee:
+	case TechTypeUnauthlucee:
 		return AttackCategoryWeb
-	case AttackTypeUnauthmisconfig:
+	case TechTypeUnauthmisconfig:
 		return AttackCategoryWeb
-	case AttackTypeUnauthpacketstorm:
+	case TechTypeUnauthpacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeUnauthpacsone:
+	case TechTypeUnauthpacsone:
 		return AttackCategoryWeb
-	case AttackTypeUnauthpanel:
+	case TechTypeUnauthpanel:
 		return AttackCategoryWeb
-	case AttackTypeUnauthpanels:
+	case TechTypeUnauthpanels:
 		return AttackCategoryWeb
-	case AttackTypeUnauthportainer:
+	case TechTypeUnauthportainer:
 		return AttackCategoryAI
-	case AttackTypeUnauthresin:
+	case TechTypeUnauthresin:
 		return AttackCategoryWeb
-	case AttackTypeUnauthseeyon:
+	case TechTypeUnauthseeyon:
 		return AttackCategoryWeb
-	case AttackTypeUnauthspark:
+	case TechTypeUnauthspark:
 		return AttackCategoryWeb
-	case AttackTypeUnauthtech:
+	case TechTypeUnauthtech:
 		return AttackCategoryWeb
-	case AttackTypeUnauthtendat:
+	case TechTypeUnauthtendat:
 		return AttackCategoryWeb
-	case AttackTypeUnauththanos:
+	case TechTypeUnauththanos:
 		return AttackCategoryWeb
-	case AttackTypeUnauthunauth:
+	case TechTypeUnauthunauth:
 		return AttackCategoryWeb
-	case AttackTypeUnauthvulhub:
+	case TechTypeUnauthvulhub:
 		return AttackCategoryWeb
-	case AttackTypeUnauthwp:
+	case TechTypeUnauthwp:
 		return AttackCategoryWeb
-	case AttackTypeUnauthwpPlugin:
+	case TechTypeUnauthwpPlugin:
 		return AttackCategoryWeb
-	case AttackTypeUnauthxss:
+	case TechTypeUnauthxss:
 		return AttackCategoryXSS
-	case AttackTypeUnauthyonyou:
+	case TechTypeUnauthyonyou:
 		return AttackCategoryWeb
-	case AttackTypeUnbitcve:
+	case TechTypeUnbitcve:
 		return AttackCategoryCVE
-	case AttackTypeUncannyLearndashToolkit:
+	case TechTypeUncannyLearndashToolkit:
 		return AttackCategoryWeb
-	case AttackTypeUnderconstructionProjectcve:
+	case TechTypeUnderconstructionProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeUnibox:
+	case TechTypeUnibox:
 		return AttackCategoryWeb
-	case AttackTypeUnifi:
+	case TechTypeUnifi:
 		return AttackCategoryWeb
-	case AttackTypeUnigui:
+	case TechTypeUnigui:
 		return AttackCategoryWeb
-	case AttackTypeUniguitech:
+	case TechTypeUniguitech:
 		return AttackCategoryWeb
-	case AttackTypeUnisharp:
+	case TechTypeUnisharp:
 		return AttackCategoryWeb
-	case AttackTypeUnity:
+	case TechTypeUnity:
 		return AttackCategoryWeb
-	case AttackTypeUniversal:
+	case TechTypeUniversal:
 		return AttackCategoryWeb
-	case AttackTypeUnleash:
+	case TechTypeUnleash:
 		return AttackCategoryWeb
-	case AttackTypeUnleashed:
+	case TechTypeUnleashed:
 		return AttackCategoryWeb
-	case AttackTypeUnraidcve:
+	case TechTypeUnraidcve:
 		return AttackCategoryCVE
-	case AttackTypeUnshare:
+	case TechTypeUnshare:
 		return AttackCategoryWeb
-	case AttackTypeUnsplashosint:
+	case TechTypeUnsplashosint:
 		return AttackCategoryOsint
-	case AttackTypeUntangle:
+	case TechTypeUntangle:
 		return AttackCategoryWeb
-	case AttackTypeUntappdosint:
+	case TechTypeUntappdosint:
 		return AttackCategoryOsint
-	case AttackTypeUntrustedssl:
+	case TechTypeUntrustedssl:
 		return AttackCategoryWeb
-	case AttackTypeUnyson:
+	case TechTypeUnyson:
 		return AttackCategoryWeb
-	case AttackTypeUpcpanel:
+	case TechTypeUpcpanel:
 		return AttackCategoryWeb
-	case AttackTypeUpdraftplus:
+	case TechTypeUpdraftplus:
 		return AttackCategoryWeb
-	case AttackTypeUpload:
+	case TechTypeUpload:
 		return AttackCategoryWeb
-	case AttackTypeUps:
+	case TechTypeUps:
 		return AttackCategoryWeb
-	case AttackTypeUptimetakeovertakeover:
+	case TechTypeUptimetakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeUpward:
+	case TechTypeUpward:
 		return AttackCategoryWeb
-	case AttackTypeUrlscantokenSpray:
+	case TechTypeUrlscantokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeUroseviccve:
+	case TechTypeUroseviccve:
 		return AttackCategoryCVE
-	case AttackTypeUsaLifeosint:
+	case TechTypeUsaLifeosint:
 		return AttackCategoryOsint
-	case AttackTypeUscEShop:
+	case TechTypeUscEShop:
 		return AttackCategoryWeb
-	case AttackTypeUsememospanel:
+	case TechTypeUsememospanel:
 		return AttackCategoryWeb
-	case AttackTypeUserManagementvanguard:
+	case TechTypeUserManagementvanguard:
 		return AttackCategoryWeb
-	case AttackTypeUserMeta:
+	case TechTypeUserMeta:
 		return AttackCategoryWeb
-	case AttackTypeUsername:
+	case TechTypeUsername:
 		return AttackCategoryWeb
-	case AttackTypeUsersUltra:
+	case TechTypeUsersUltra:
 		return AttackCategoryWeb
-	case AttackTypeUserstacktokenSpray:
+	case TechTypeUserstacktokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeUsersultracve2022:
+	case TechTypeUsersultracve2022:
 		return AttackCategoryCVE
-	case AttackTypeUservoice:
+	case TechTypeUservoice:
 		return AttackCategoryWeb
-	case AttackTypeUtilitypanelpanel:
+	case TechTypeUtilitypanelpanel:
 		return AttackCategoryWeb
-	case AttackTypeUtipioosint:
+	case TechTypeUtipioosint:
 		return AttackCategoryOsint
-	case AttackTypeUtm:
+	case TechTypeUtm:
 		return AttackCategoryWeb
-	case AttackTypeUvdesk:
+	case TechTypeUvdesk:
 		return AttackCategoryWeb
-	case AttackTypeUwsgi:
+	case TechTypeUwsgi:
 		return AttackCategoryWeb
-	case AttackTypeUwuaiosint:
+	case TechTypeUwuaiosint:
 		return AttackCategoryOsint
-	case AttackTypeUwumarketosint:
+	case TechTypeUwumarketosint:
 		return AttackCategoryOsint
-	case AttackTypeV2924Panel:
+	case TechTypeV2924Panel:
 		return AttackCategoryWeb
-	case AttackTypeV2X:
+	case TechTypeV2X:
 		return AttackCategoryWeb
-	case AttackTypeVagrant:
+	case TechTypeVagrant:
 		return AttackCategoryWeb
-	case AttackTypeVamprosint:
+	case TechTypeVamprosint:
 		return AttackCategoryOsint
-	case AttackTypeVarktechcve:
+	case TechTypeVarktechcve:
 		return AttackCategoryCVE
-	case AttackTypeVarnishunauth:
+	case TechTypeVarnishunauth:
 		return AttackCategoryWeb
-	case AttackTypeVault:
+	case TechTypeVault:
 		return AttackCategoryWeb
-	case AttackTypeVbulletin:
+	case TechTypeVbulletin:
 		return AttackCategoryWeb
-	case AttackTypeVbulletincve:
+	case TechTypeVbulletincve:
 		return AttackCategoryCVE
-	case AttackTypeVbulletincve2019:
+	case TechTypeVbulletincve2019:
 		return AttackCategoryCVE
-	case AttackTypeVbulletintech:
+	case TechTypeVbulletintech:
 		return AttackCategoryWeb
-	case AttackTypeVbulletinventrilo:
+	case TechTypeVbulletinventrilo:
 		return AttackCategoryWeb
-	case AttackTypeVcenter:
+	case TechTypeVcenter:
 		return AttackCategoryWeb
-	case AttackTypeVcentercve:
+	case TechTypeVcentercve:
 		return AttackCategoryCVE
-	case AttackTypeVcenterpanel:
+	case TechTypeVcenterpanel:
 		return AttackCategoryWeb
-	case AttackTypeVcloudpanel:
+	case TechTypeVcloudpanel:
 		return AttackCategoryCloud
-	case AttackTypeVeeam:
+	case TechTypeVeeam:
 		return AttackCategoryWeb
-	case AttackTypeVeeamveriz0Wn:
+	case TechTypeVeeamveriz0Wn:
 		return AttackCategoryWeb
-	case AttackTypeVeederRoot:
+	case TechTypeVeederRoot:
 		return AttackCategoryWeb
-	case AttackTypeVehicleServiceManagementSystemProjectcve:
+	case TechTypeVehicleServiceManagementSystemProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeVehicleServiceManagementSystemProjectcve2021:
+	case TechTypeVehicleServiceManagementSystemProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeVelotismartProjectcve2018:
+	case TechTypeVelotismartProjectcve2018:
 		return AttackCategoryCVE
-	case AttackTypeVenmoosint:
+	case TechTypeVenmoosint:
 		return AttackCategoryOsint
-	case AttackTypeVenomrat:
+	case TechTypeVenomrat:
 		return AttackCategoryWeb
-	case AttackTypeVerceltakeover:
+	case TechTypeVerceltakeover:
 		return AttackCategoryRCE
-	case AttackTypeVerceltokenSpray:
+	case TechTypeVerceltokenSpray:
 		return AttackCategoryRCE
-	case AttackTypeVerify:
+	case TechTypeVerify:
 		return AttackCategoryWeb
-	case AttackTypeVerintcve2021:
+	case TechTypeVerintcve2021:
 		return AttackCategoryCVE
-	case AttackTypeVerizon:
+	case TechTypeVerizon:
 		return AttackCategoryWeb
-	case AttackTypeVernemq:
+	case TechTypeVernemq:
 		return AttackCategoryWeb
-	case AttackTypeVeronalabscve:
+	case TechTypeVeronalabscve:
 		return AttackCategoryCVE
-	case AttackTypeVeronalabscve2021:
+	case TechTypeVeronalabscve2021:
 		return AttackCategoryCVE
-	case AttackTypeVeronalabscve2022:
+	case TechTypeVeronalabscve2022:
 		return AttackCategoryCVE
-	case AttackTypeVeroosint:
+	case TechTypeVeroosint:
 		return AttackCategoryOsint
-	case AttackTypeVersa:
+	case TechTypeVersa:
 		return AttackCategoryWeb
-	case AttackTypeVersatech:
+	case TechTypeVersatech:
 		return AttackCategoryWeb
-	case AttackTypeVersion:
+	case TechTypeVersion:
 		return AttackCategoryWeb
-	case AttackTypeVertaaicve:
+	case TechTypeVertaaicve:
 		return AttackCategoryCVE
-	case AttackTypeVertexpanel:
+	case TechTypeVertexpanel:
 		return AttackCategoryWeb
-	case AttackTypeVfbprocve2022:
+	case TechTypeVfbprocve2022:
 		return AttackCategoryCVE
-	case AttackTypeVfs:
+	case TechTypeVfs:
 		return AttackCategoryWeb
-	case AttackTypeVgm:
+	case TechTypeVgm:
 		return AttackCategoryWeb
-	case AttackTypeVi:
+	case TechTypeVi:
 		return AttackCategoryWeb
-	case AttackTypeViaware:
+	case TechTypeViaware:
 		return AttackCategoryWeb
-	case AttackTypeVibemicrosoft:
+	case TechTypeVibemicrosoft:
 		return AttackCategoryWeb
-	case AttackTypeVibilagareosint:
+	case TechTypeVibilagareosint:
 		return AttackCategoryOsint
-	case AttackTypeViddlerosint:
+	case TechTypeViddlerosint:
 		return AttackCategoryOsint
-	case AttackTypeVideo:
+	case TechTypeVideo:
 		return AttackCategoryWeb
-	case AttackTypeVideoListManagerProjectcve2023:
+	case TechTypeVideoListManagerProjectcve2023:
 		return AttackCategoryCVE
-	case AttackTypeVideousermanualswpscan:
+	case TechTypeVideousermanualswpscan:
 		return AttackCategoryWeb
-	case AttackTypeVideoxpertvmware:
+	case TechTypeVideoxpertvmware:
 		return AttackCategoryWeb
-	case AttackTypeVidyopanel:
+	case TechTypeVidyopanel:
 		return AttackCategoryWeb
-	case AttackTypeViessmanncve:
+	case TechTypeViessmanncve:
 		return AttackCategoryCVE
-	case AttackTypeView:
+	case TechTypeView:
 		return AttackCategoryWeb
-	case AttackTypeViewlinccve:
+	case TechTypeViewlinccve:
 		return AttackCategoryCVE
-	case AttackTypeViewpoint:
+	case TechTypeViewpoint:
 		return AttackCategoryWeb
-	case AttackTypeViewpointvisionhub:
+	case TechTypeViewpointvisionhub:
 		return AttackCategoryWeb
-	case AttackTypeVigorconnect:
+	case TechTypeVigorconnect:
 		return AttackCategoryWeb
-	case AttackTypeVim:
+	case TechTypeVim:
 		return AttackCategoryWeb
-	case AttackTypeVimeoosint:
+	case TechTypeVimeoosint:
 		return AttackCategoryOsint
-	case AttackTypeViminfo:
+	case TechTypeViminfo:
 		return AttackCategoryWeb
-	case AttackTypeVinchin:
+	case TechTypeVinchin:
 		return AttackCategoryWeb
-	case AttackTypeVineosint:
+	case TechTypeVineosint:
 		return AttackCategoryOsint
-	case AttackTypeVipBlogosint:
+	case TechTypeVipBlogosint:
 		return AttackCategoryOsint
-	case AttackTypeViper:
+	case TechTypeViper:
 		return AttackCategoryWeb
-	case AttackTypeVironeer:
+	case TechTypeVironeer:
 		return AttackCategoryWeb
-	case AttackTypeVirtua:
+	case TechTypeVirtua:
 		return AttackCategoryWeb
-	case AttackTypeVirtualSmartzonemisconfig:
+	case TechTypeVirtualSmartzonemisconfig:
 		return AttackCategoryWeb
-	case AttackTypeVirtualui:
+	case TechTypeVirtualui:
 		return AttackCategoryWeb
-	case AttackTypeVirtuasoftwarecve2021:
+	case TechTypeVirtuasoftwarecve2021:
 		return AttackCategoryCVE
-	case AttackTypeVirtuasoftwarepanel:
+	case TechTypeVirtuasoftwarepanel:
 		return AttackCategoryWeb
-	case AttackTypeVirustotalosint:
+	case TechTypeVirustotalosint:
 		return AttackCategoryOsint
-	case AttackTypeVirustotaltokenSpray:
+	case TechTypeVirustotaltokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeVisionpanel:
+	case TechTypeVisionpanel:
 		return AttackCategoryWeb
-	case AttackTypeVisnesscardosint:
+	case TechTypeVisnesscardosint:
 		return AttackCategoryOsint
-	case AttackTypeVisocreacve:
+	case TechTypeVisocreacve:
 		return AttackCategoryCVE
-	case AttackTypeVissercve:
+	case TechTypeVissercve:
 		return AttackCategoryCVE
-	case AttackTypeVistaweb:
+	case TechTypeVistaweb:
 		return AttackCategoryWeb
-	case AttackTypeVisualStudioCode:
+	case TechTypeVisualStudioCode:
 		return AttackCategoryWeb
-	case AttackTypeVisualToolscve2021:
+	case TechTypeVisualToolscve2021:
 		return AttackCategoryCVE
-	case AttackTypeVisualshortcodescve2014:
+	case TechTypeVisualshortcodescve2014:
 		return AttackCategoryCVE
-	case AttackTypeVisualstudio:
+	case TechTypeVisualstudio:
 		return AttackCategoryWeb
-	case AttackTypeVisualtools:
+	case TechTypeVisualtools:
 		return AttackCategoryWeb
-	case AttackTypeVite:
+	case TechTypeVite:
 		return AttackCategoryWeb
-	case AttackTypeVitogate:
+	case TechTypeVitogate:
 		return AttackCategoryWeb
-	case AttackTypeVivinoosint:
+	case TechTypeVivinoosint:
 		return AttackCategoryOsint
-	case AttackTypeVivotex:
+	case TechTypeVivotex:
 		return AttackCategoryWeb
-	case AttackTypeVklworldMastodonInstanceosint:
+	case TechTypeVklworldMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeVkosint:
+	case TechTypeVkosint:
 		return AttackCategoryOsint
-	case AttackTypeVlcMedia:
+	case TechTypeVlcMedia:
 		return AttackCategoryWeb
-	case AttackTypeVms:
+	case TechTypeVms:
 		return AttackCategoryWeb
-	case AttackTypeVmstioMastodonInstanceosint:
+	case TechTypeVmstioMastodonInstanceosint:
 		return AttackCategoryOsint
-	case AttackTypeVmware:
+	case TechTypeVmware:
 		return AttackCategoryWeb
-	case AttackTypeVmwarecve:
+	case TechTypeVmwarecve:
 		return AttackCategoryCVE
-	case AttackTypeVmwarecve2021:
+	case TechTypeVmwarecve2021:
 		return AttackCategoryCVE
-	case AttackTypeVmwarecve2022:
+	case TechTypeVmwarecve2022:
 		return AttackCategoryCVE
-	case AttackTypeVmwarehorizon:
+	case TechTypeVmwarehorizon:
 		return AttackCategoryWeb
-	case AttackTypeVmwarepanel:
+	case TechTypeVmwarepanel:
 		return AttackCategoryWeb
-	case AttackTypeVmwarevmware:
+	case TechTypeVmwarevmware:
 		return AttackCategoryWeb
-	case AttackTypeVnc:
+	case TechTypeVnc:
 		return AttackCategoryWeb
-	case AttackTypeVodafone:
+	case TechTypeVodafone:
 		return AttackCategoryWeb
-	case AttackTypeVodafonepanel:
+	case TechTypeVodafonepanel:
 		return AttackCategoryWeb
-	case AttackTypeVoice123Osint:
+	case TechTypeVoice123Osint:
 		return AttackCategoryOsint
-	case AttackTypeVoicescomosint:
+	case TechTypeVoicescomosint:
 		return AttackCategoryOsint
-	case AttackTypeVoid:
+	case TechTypeVoid:
 		return AttackCategoryWeb
-	case AttackTypeVoidtools:
+	case TechTypeVoidtools:
 		return AttackCategoryWeb
-	case AttackTypeVoip:
+	case TechTypeVoip:
 		return AttackCategoryWeb
-	case AttackTypeVoip74Cms:
+	case TechTypeVoip74Cms:
 		return AttackCategoryWeb
-	case AttackTypeVoipmonitor:
+	case TechTypeVoipmonitor:
 		return AttackCategoryWeb
-	case AttackTypeVoipmonitorcve2021:
+	case TechTypeVoipmonitorcve2021:
 		return AttackCategoryCVE
-	case AttackTypeVoippanel:
+	case TechTypeVoippanel:
 		return AttackCategoryWeb
-	case AttackTypeVpc:
+	case TechTypeVpc:
 		return AttackCategoryWeb
-	case AttackTypeVpn:
+	case TechTypeVpn:
 		return AttackCategoryVPN
-	case AttackTypeVpncisco:
+	case TechTypeVpncisco:
 		return AttackCategoryVPN
-	case AttackTypeVpnlogin:
+	case TechTypeVpnlogin:
 		return AttackCategoryVPN
-	case AttackTypeVpnopenvpn:
+	case TechTypeVpnopenvpn:
 		return AttackCategoryVPN
-	case AttackTypeVpnpacketstorm:
+	case TechTypeVpnpacketstorm:
 		return AttackCategoryVPN
-	case AttackTypeVpnpanel:
+	case TechTypeVpnpanel:
 		return AttackCategoryVPN
-	case AttackTypeVpnpulse:
+	case TechTypeVpnpulse:
 		return AttackCategoryVPN
-	case AttackTypeVrCalendarSync:
+	case TechTypeVrCalendarSync:
 		return AttackCategoryWeb
-	case AttackTypeVrCalendarProjectcve:
+	case TechTypeVrCalendarProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeVrealize:
+	case TechTypeVrealize:
 		return AttackCategoryWeb
-	case AttackTypeVrealizecve2021:
+	case TechTypeVrealizecve2021:
 		return AttackCategoryCVE
-	case AttackTypeVrealizevue:
+	case TechTypeVrealizevue:
 		return AttackCategoryWeb
-	case AttackTypeVscode:
+	case TechTypeVscode:
 		return AttackCategoryWeb
-	case AttackTypeVscoosint:
+	case TechTypeVscoosint:
 		return AttackCategoryOsint
-	case AttackTypeVsftpd:
+	case TechTypeVsftpd:
 		return AttackCategoryWeb
-	case AttackTypeVsftpdProject:
+	case TechTypeVsftpdProject:
 		return AttackCategoryWeb
-	case AttackTypeVsphere:
+	case TechTypeVsphere:
 		return AttackCategoryWeb
-	case AttackTypeVtiger:
+	case TechTypeVtiger:
 		return AttackCategoryWeb
-	case AttackTypeVulhub:
+	case TechTypeVulhub:
 		return AttackCategoryWeb
-	case AttackTypeVulhubcve2016:
+	case TechTypeVulhubcve2016:
 		return AttackCategoryCVE
-	case AttackTypeVulhubcve2018:
+	case TechTypeVulhubcve2018:
 		return AttackCategoryCVE
-	case AttackTypeVulhubcve2019:
+	case TechTypeVulhubcve2019:
 		return AttackCategoryCVE
-	case AttackTypeVulhubdefaultLogin:
+	case TechTypeVulhubdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeVulhubfastjson:
+	case TechTypeVulhubfastjson:
 		return AttackCategoryWeb
-	case AttackTypeVultr:
+	case TechTypeVultr:
 		return AttackCategoryWeb
-	case AttackTypeW3TotalCache:
+	case TechTypeW3TotalCache:
 		return AttackCategoryWeb
-	case AttackTypeWaf:
+	case TechTypeWaf:
 		return AttackCategoryWeb
-	case AttackTypeWago:
+	case TechTypeWago:
 		return AttackCategoryWeb
-	case AttackTypeWagopanel:
+	case TechTypeWagopanel:
 		return AttackCategoryWeb
-	case AttackTypeWagtail:
+	case TechTypeWagtail:
 		return AttackCategoryAI
-	case AttackTypeWakatimetokenSpray:
+	case TechTypeWakatimetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeWallixpanel:
+	case TechTypeWallixpanel:
 		return AttackCategoryWeb
-	case AttackTypeWalmart:
+	case TechTypeWalmart:
 		return AttackCategoryWeb
-	case AttackTypeWamp:
+	case TechTypeWamp:
 		return AttackCategoryWeb
-	case AttackTypeWampserver:
+	case TechTypeWampserver:
 		return AttackCategoryWeb
-	case AttackTypeWampserverpanel:
+	case TechTypeWampserverpanel:
 		return AttackCategoryWeb
-	case AttackTypeWaneloosint:
+	case TechTypeWaneloosint:
 		return AttackCategoryOsint
-	case AttackTypeWanhu:
+	case TechTypeWanhu:
 		return AttackCategoryWeb
-	case AttackTypeWapples:
+	case TechTypeWapples:
 		return AttackCategoryWeb
-	case AttackTypeWarfareplugins:
+	case TechTypeWarfareplugins:
 		return AttackCategoryWeb
-	case AttackTypeWarriorforumosint:
+	case TechTypeWarriorforumosint:
 		return AttackCategoryOsint
-	case AttackTypeWatcher:
+	case TechTypeWatcher:
 		return AttackCategoryWeb
-	case AttackTypeWatchguardpanel:
+	case TechTypeWatchguardpanel:
 		return AttackCategoryWeb
-	case AttackTypeWatchmemorecomosint:
+	case TechTypeWatchmemorecomosint:
 		return AttackCategoryOsint
-	case AttackTypeWatchmyfeedosint:
+	case TechTypeWatchmyfeedosint:
 		return AttackCategoryOsint
-	case AttackTypeWatershedpanel:
+	case TechTypeWatershedpanel:
 		return AttackCategoryWeb
-	case AttackTypeWattpadosint:
+	case TechTypeWattpadosint:
 		return AttackCategoryOsint
-	case AttackTypeWatu:
+	case TechTypeWatu:
 		return AttackCategoryWeb
-	case AttackTypeWavemaker:
+	case TechTypeWavemaker:
 		return AttackCategoryWeb
-	case AttackTypeWavlink:
+	case TechTypeWavlink:
 		return AttackCategoryWeb
-	case AttackTypeWavlinkcve:
+	case TechTypeWavlinkcve:
 		return AttackCategoryCVE
-	case AttackTypeWazuh:
+	case TechTypeWazuh:
 		return AttackCategoryWeb
-	case AttackTypeWbce:
+	case TechTypeWbce:
 		return AttackCategoryWeb
-	case AttackTypeWbcecms:
+	case TechTypeWbcecms:
 		return AttackCategoryWeb
-	case AttackTypeWbcecve:
+	case TechTypeWbcecve:
 		return AttackCategoryCVE
-	case AttackTypeWcMultivendorMarketplace:
+	case TechTypeWcMultivendorMarketplace:
 		return AttackCategoryWeb
-	case AttackTypeWcloverscve:
+	case TechTypeWcloverscve:
 		return AttackCategoryCVE
-	case AttackTypeWcs:
+	case TechTypeWcs:
 		return AttackCategoryWeb
-	case AttackTypeWcscve2018:
+	case TechTypeWcscve2018:
 		return AttackCategoryCVE
-	case AttackTypeWd:
+	case TechTypeWd:
 		return AttackCategoryWeb
-	case AttackTypeWdcloud:
+	case TechTypeWdcloud:
 		return AttackCategoryCloud
-	case AttackTypeWdja:
+	case TechTypeWdja:
 		return AttackCategoryWeb
-	case AttackTypeWeasylosint:
+	case TechTypeWeasylosint:
 		return AttackCategoryOsint
-	case AttackTypeWeather:
+	case TechTypeWeather:
 		return AttackCategoryWeb
-	case AttackTypeWeaver:
+	case TechTypeWeaver:
 		return AttackCategoryWeb
-	case AttackTypeWeaverecology:
+	case TechTypeWeaverecology:
 		return AttackCategoryWeb
-	case AttackTypeWebAccess:
+	case TechTypeWebAccess:
 		return AttackCategoryWeb
-	case AttackTypeWebBased:
+	case TechTypeWebBased:
 		return AttackCategoryWeb
-	case AttackTypeWebControl:
+	case TechTypeWebControl:
 		return AttackCategoryWeb
-	case AttackTypeWebDirectoryFreecve:
+	case TechTypeWebDirectoryFreecve:
 		return AttackCategoryCVE
-	case AttackTypeWebDispatcher:
+	case TechTypeWebDispatcher:
 		return AttackCategoryWeb
-	case AttackTypeWebDoradopacketstorm:
+	case TechTypeWebDoradopacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeWebSuitetech:
+	case TechTypeWebSuitetech:
 		return AttackCategoryWeb
-	case AttackTypeWebViewer:
+	case TechTypeWebViewer:
 		return AttackCategoryWeb
-	case AttackTypeWeb2Py:
+	case TechTypeWeb2Py:
 		return AttackCategoryWeb
-	case AttackTypeWeb3:
+	case TechTypeWeb3:
 		return AttackCategoryWeb
-	case AttackTypeWeb3Storage:
+	case TechTypeWeb3Storage:
 		return AttackCategoryWeb
-	case AttackTypeWebadm:
+	case TechTypeWebadm:
 		return AttackCategoryWeb
-	case AttackTypeWebadmin:
+	case TechTypeWebadmin:
 		return AttackCategoryWeb
-	case AttackTypeWebadmincve:
+	case TechTypeWebadmincve:
 		return AttackCategoryCVE
-	case AttackTypeWebadmintech:
+	case TechTypeWebadmintech:
 		return AttackCategoryWeb
-	case AttackTypeWebalizer:
+	case TechTypeWebalizer:
 		return AttackCategoryWeb
-	case AttackTypeWebalizerexposure:
+	case TechTypeWebalizerexposure:
 		return AttackCategoryWeb
-	case AttackTypeWebassembly:
+	case TechTypeWebassembly:
 		return AttackCategoryWeb
-	case AttackTypeWebasyst:
+	case TechTypeWebasyst:
 		return AttackCategoryWeb
-	case AttackTypeWebcalendar:
+	case TechTypeWebcalendar:
 		return AttackCategoryWeb
-	case AttackTypeWebcam:
+	case TechTypeWebcam:
 		return AttackCategoryWeb
-	case AttackTypeWebcamiot:
+	case TechTypeWebcamiot:
 		return AttackCategoryIoT
-	case AttackTypeWebcentertech:
+	case TechTypeWebcentertech:
 		return AttackCategoryWeb
-	case AttackTypeWebclientpanel:
+	case TechTypeWebclientpanel:
 		return AttackCategoryWeb
-	case AttackTypeWebcomco:
+	case TechTypeWebcomco:
 		return AttackCategoryWeb
-	case AttackTypeWebcontrol:
+	case TechTypeWebcontrol:
 		return AttackCategoryWeb
-	case AttackTypeWebcrafticcve:
+	case TechTypeWebcrafticcve:
 		return AttackCategoryCVE
-	case AttackTypeWebctrl:
+	case TechTypeWebctrl:
 		return AttackCategoryWeb
-	case AttackTypeWebdesi9Cve:
+	case TechTypeWebdesi9Cve:
 		return AttackCategoryCVE
-	case AttackTypeWebeditioncve2014:
+	case TechTypeWebeditioncve2014:
 		return AttackCategoryCVE
-	case AttackTypeWebeditors:
+	case TechTypeWebeditors:
 		return AttackCategoryWeb
-	case AttackTypeWebencecve:
+	case TechTypeWebencecve:
 		return AttackCategoryCVE
-	case AttackTypeWeberrcve:
+	case TechTypeWeberrcve:
 		return AttackCategoryCVE
-	case AttackTypeWebex:
+	case TechTypeWebex:
 		return AttackCategoryWeb
-	case AttackTypeWebextokenSpray:
+	case TechTypeWebextokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeWebgrind:
+	case TechTypeWebgrind:
 		return AttackCategoryWeb
-	case AttackTypeWebgrindProjectcve:
+	case TechTypeWebgrindProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeWebigniterssrf:
+	case TechTypeWebigniterssrf:
 		return AttackCategoryWeb
-	case AttackTypeWebkulQloapps:
+	case TechTypeWebkulQloapps:
 		return AttackCategoryWeb
-	case AttackTypeWebkulcve:
+	case TechTypeWebkulcve:
 		return AttackCategoryCVE
-	case AttackTypeWebkulcve2010:
+	case TechTypeWebkulcve2010:
 		return AttackCategoryCVE
-	case AttackTypeWebkulcve2023:
+	case TechTypeWebkulcve2023:
 		return AttackCategoryCVE
-	case AttackTypeWeblizarcve:
+	case TechTypeWeblizarcve:
 		return AttackCategoryCVE
-	case AttackTypeWeblogic:
+	case TechTypeWeblogic:
 		return AttackCategoryWeb
-	case AttackTypeWeblogiccve:
+	case TechTypeWeblogiccve:
 		return AttackCategoryCVE
-	case AttackTypeWebmail:
+	case TechTypeWebmail:
 		return AttackCategoryWeb
-	case AttackTypeWebmailcve2023:
+	case TechTypeWebmailcve2023:
 		return AttackCategoryCVE
-	case AttackTypeWebmethodwebmin:
+	case TechTypeWebmethodwebmin:
 		return AttackCategoryWeb
-	case AttackTypeWebmin:
+	case TechTypeWebmin:
 		return AttackCategoryWeb
-	case AttackTypeWebminedb:
+	case TechTypeWebminedb:
 		return AttackCategoryWeb
-	case AttackTypeWebmoduleEe:
+	case TechTypeWebmoduleEe:
 		return AttackCategoryWeb
-	case AttackTypeWebnms:
+	case TechTypeWebnms:
 		return AttackCategoryWeb
-	case AttackTypeWebnuscve:
+	case TechTypeWebnuscve:
 		return AttackCategoryCVE
-	case AttackTypeWebnuscve2021:
+	case TechTypeWebnuscve2021:
 		return AttackCategoryCVE
-	case AttackTypeWeboftrusttokenSpray:
+	case TechTypeWeboftrusttokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeWebpConverterForMediaProjectcve2021:
+	case TechTypeWebpConverterForMediaProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeWebpagetest:
+	case TechTypeWebpagetest:
 		return AttackCategoryWeb
-	case AttackTypeWebpagetestpanel:
+	case TechTypeWebpagetestpanel:
 		return AttackCategoryWeb
-	case AttackTypeWebpconverter:
+	case TechTypeWebpconverter:
 		return AttackCategoryWeb
-	case AttackTypeWebportcve:
+	case TechTypeWebportcve:
 		return AttackCategoryCVE
-	case AttackTypeWebpwechat:
+	case TechTypeWebpwechat:
 		return AttackCategoryWeb
-	case AttackTypeWebrootwebshell4:
+	case TechTypeWebrootwebshell4:
 		return AttackCategoryWeb
-	case AttackTypeWebserver:
+	case TechTypeWebserver:
 		return AttackCategoryWeb
-	case AttackTypeWebserveraxigen:
+	case TechTypeWebserveraxigen:
 		return AttackCategoryWeb
-	case AttackTypeWebserverpanel:
+	case TechTypeWebserverpanel:
 		return AttackCategoryWeb
-	case AttackTypeWebservertech:
+	case TechTypeWebservertech:
 		return AttackCategoryWeb
-	case AttackTypeWebshell:
+	case TechTypeWebshell:
 		return AttackCategoryWeb
-	case AttackTypeWebsitepanel:
+	case TechTypeWebsitepanel:
 		return AttackCategoryWeb
-	case AttackTypeWebsocket:
+	case TechTypeWebsocket:
 		return AttackCategoryWeb
-	case AttackTypeWebsockettech:
+	case TechTypeWebsockettech:
 		return AttackCategoryWeb
-	case AttackTypeWebsphere:
+	case TechTypeWebsphere:
 		return AttackCategoryWeb
-	case AttackTypeWebspherecve:
+	case TechTypeWebspherecve:
 		return AttackCategoryCVE
-	case AttackTypeWebsvn:
+	case TechTypeWebsvn:
 		return AttackCategoryWeb
-	case AttackTypeWebtareas:
+	case TechTypeWebtareas:
 		return AttackCategoryWeb
-	case AttackTypeWebtareasProjectcve:
+	case TechTypeWebtareasProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeWebtitan:
+	case TechTypeWebtitan:
 		return AttackCategoryWeb
-	case AttackTypeWebtools:
+	case TechTypeWebtools:
 		return AttackCategoryWeb
-	case AttackTypeWebtoprintcve:
+	case TechTypeWebtoprintcve:
 		return AttackCategoryCVE
-	case AttackTypeWebtransferclient:
+	case TechTypeWebtransferclient:
 		return AttackCategoryWeb
-	case AttackTypeWebtrees:
+	case TechTypeWebtrees:
 		return AttackCategoryWeb
-	case AttackTypeWebui:
+	case TechTypeWebui:
 		return AttackCategoryWeb
-	case AttackTypeWebuzo:
+	case TechTypeWebuzo:
 		return AttackCategoryWeb
-	case AttackTypeWebviewerpanel:
+	case TechTypeWebviewerpanel:
 		return AttackCategoryWeb
-	case AttackTypeWebviewumami:
+	case TechTypeWebviewumami:
 		return AttackCategoryWeb
-	case AttackTypeWechatBrodcastProjectcve:
+	case TechTypeWechatBrodcastProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeWeeblyosint:
+	case TechTypeWeeblyosint:
 		return AttackCategoryOsint
-	case AttackTypeWeglottokenSpray:
+	case TechTypeWeglottokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeWegoosint:
+	case TechTypeWegoosint:
 		return AttackCategoryOsint
-	case AttackTypeWeheartitosint:
+	case TechTypeWeheartitosint:
 		return AttackCategoryOsint
-	case AttackTypeWeiboosint:
+	case TechTypeWeiboosint:
 		return AttackCategoryOsint
-	case AttackTypeWeiphp:
+	case TechTypeWeiphp:
 		return AttackCategoryPHP
-	case AttackTypeWeiphpedb:
+	case TechTypeWeiphpedb:
 		return AttackCategoryPHP
-	case AttackTypeWeixin:
+	case TechTypeWeixin:
 		return AttackCategoryWeb
-	case AttackTypeWelaunchcve:
+	case TechTypeWelaunchcve:
 		return AttackCategoryCVE
-	case AttackTypeWelaunchcve2022:
+	case TechTypeWelaunchcve2022:
 		return AttackCategoryCVE
-	case AttackTypeWerkzeugtech:
+	case TechTypeWerkzeugtech:
 		return AttackCategoryWeb
-	case AttackTypeWesternDigitalcve:
+	case TechTypeWesternDigitalcve:
 		return AttackCategoryCVE
-	case AttackTypeWesternDigitalcve2016:
+	case TechTypeWesternDigitalcve2016:
 		return AttackCategoryCVE
-	case AttackTypeWesternDigitalpanel:
+	case TechTypeWesternDigitalpanel:
 		return AttackCategoryWeb
-	case AttackTypeWesterndealcve2013:
+	case TechTypeWesterndealcve2013:
 		return AttackCategoryCVE
-	case AttackTypeWetransfer:
+	case TechTypeWetransfer:
 		return AttackCategoryWeb
-	case AttackTypeWetransferosint:
+	case TechTypeWetransferosint:
 		return AttackCategoryOsint
-	case AttackTypeWftpservercve:
+	case TechTypeWftpservercve:
 		return AttackCategoryCVE
-	case AttackTypeWget:
+	case TechTypeWget:
 		return AttackCategoryWeb
-	case AttackTypeWhatsapp:
+	case TechTypeWhatsapp:
 		return AttackCategoryWeb
-	case AttackTypeWhm:
+	case TechTypeWhm:
 		return AttackCategoryWeb
-	case AttackTypeWhmcs:
+	case TechTypeWhmcs:
 		return AttackCategoryWeb
-	case AttackTypeWhois:
+	case TechTypeWhois:
 		return AttackCategoryWeb
-	case AttackTypeWibupanel:
+	case TechTypeWibupanel:
 		return AttackCategoryWeb
-	case AttackTypeWidget:
+	case TechTypeWidget:
 		return AttackCategoryWeb
-	case AttackTypeWielebenwircve:
+	case TechTypeWielebenwircve:
 		return AttackCategoryCVE
-	case AttackTypeWifiiot:
+	case TechTypeWifiiot:
 		return AttackCategoryIoT
-	case AttackTypeWifiskywildfly:
+	case TechTypeWifiskywildfly:
 		return AttackCategoryWeb
-	case AttackTypeWikiJs:
+	case TechTypeWikiJs:
 		return AttackCategoryWeb
-	case AttackTypeWikidotosint:
+	case TechTypeWikidotosint:
 		return AttackCategoryOsint
-	case AttackTypeWikipedia:
+	case TechTypeWikipedia:
 		return AttackCategoryWeb
-	case AttackTypeWikipediaosint:
+	case TechTypeWikipediaosint:
 		return AttackCategoryOsint
-	case AttackTypeWikitech:
+	case TechTypeWikitech:
 		return AttackCategoryWeb
-	case AttackTypeWildcard:
+	case TechTypeWildcard:
 		return AttackCategoryWeb
-	case AttackTypeWildfly:
+	case TechTypeWildfly:
 		return AttackCategoryWeb
-	case AttackTypeWildix:
+	case TechTypeWildix:
 		return AttackCategoryWeb
-	case AttackTypeWimkinPublicprofileosint:
+	case TechTypeWimkinPublicprofileosint:
 		return AttackCategoryOsint
-	case AttackTypeWindows:
+	case TechTypeWindows:
 		return AttackCategoryWeb
-	case AttackTypeWindowscve:
+	case TechTypeWindowscve:
 		return AttackCategoryCVE
-	case AttackTypeWindowscve2023:
+	case TechTypeWindowscve2023:
 		return AttackCategoryCVE
-	case AttackTypeWindowslfi:
+	case TechTypeWindowslfi:
 		return AttackCategoryWeb
-	case AttackTypeWindowsmiscellaneous:
+	case TechTypeWindowsmiscellaneous:
 		return AttackCategoryWeb
-	case AttackTypeWindowsonlinefarm:
+	case TechTypeWindowsonlinefarm:
 		return AttackCategoryWeb
-	case AttackTypeWing:
+	case TechTypeWing:
 		return AttackCategoryWeb
-	case AttackTypeWingFtp:
+	case TechTypeWingFtp:
 		return AttackCategoryWeb
-	case AttackTypeWinscp:
+	case TechTypeWinscp:
 		return AttackCategoryWeb
-	case AttackTypeWintercmscve:
+	case TechTypeWintercmscve:
 		return AttackCategoryCVE
-	case AttackTypeWipro:
+	case TechTypeWipro:
 		return AttackCategoryWeb
-	case AttackTypeWireclubosint:
+	case TechTypeWireclubosint:
 		return AttackCategoryOsint
-	case AttackTypeWirelessiot:
+	case TechTypeWirelessiot:
 		return AttackCategoryIoT
-	case AttackTypeWirenpanel:
+	case TechTypeWirenpanel:
 		return AttackCategoryWeb
-	case AttackTypeWishlistrosint:
+	case TechTypeWishlistrosint:
 		return AttackCategoryOsint
-	case AttackTypeWishpondtakeover:
+	case TechTypeWishpondtakeover:
 		return AttackCategoryWeb
-	case AttackTypeWithsecuref5:
+	case TechTypeWithsecuref5:
 		return AttackCategoryWeb
-	case AttackTypeWixtakeover:
+	case TechTypeWixtakeover:
 		return AttackCategoryWeb
-	case AttackTypeWizard:
+	case TechTypeWizard:
 		return AttackCategoryWeb
-	case AttackTypeWl500DefaultLogin:
+	case TechTypeWl500DefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeWl520Guiot:
+	case TechTypeWl520Guiot:
 		return AttackCategoryIoT
-	case AttackTypeWms:
+	case TechTypeWms:
 		return AttackCategoryWeb
-	case AttackTypeWmt:
+	case TechTypeWmt:
 		return AttackCategoryWeb
-	case AttackTypeWmw:
+	case TechTypeWmw:
 		return AttackCategoryWeb
-	case AttackTypeWocOrderAlert:
+	case TechTypeWocOrderAlert:
 		return AttackCategoryWeb
-	case AttackTypeWolniSlowianieosint:
+	case TechTypeWolniSlowianieosint:
 		return AttackCategoryOsint
-	case AttackTypeWondercmstech:
+	case TechTypeWondercmstech:
 		return AttackCategoryWeb
-	case AttackTypeWooBulkPriceUpdate:
+	case TechTypeWooBulkPriceUpdate:
 		return AttackCategoryWeb
-	case AttackTypeWooOrderExportLite:
+	case TechTypeWooOrderExportLite:
 		return AttackCategoryWeb
-	case AttackTypeWoocommerce:
+	case TechTypeWoocommerce:
 		return AttackCategoryRCE
-	case AttackTypeWoocommerceForJapan:
+	case TechTypeWoocommerceForJapan:
 		return AttackCategoryRCE
-	case AttackTypeWoocommercecve2022:
+	case TechTypeWoocommercecve2022:
 		return AttackCategoryCVE
-	case AttackTypeWoocommercewordpress:
+	case TechTypeWoocommercewordpress:
 		return AttackCategoryRCE
-	case AttackTypeWoocommercewpscan:
+	case TechTypeWoocommercewpscan:
 		return AttackCategoryRCE
-	case AttackTypeWoocs:
+	case TechTypeWoocs:
 		return AttackCategoryWeb
-	case AttackTypeWoodwing:
+	case TechTypeWoodwing:
 		return AttackCategoryWeb
-	case AttackTypeWoody:
+	case TechTypeWoody:
 		return AttackCategoryWeb
-	case AttackTypeWooyun:
+	case TechTypeWooyun:
 		return AttackCategoryWeb
-	case AttackTypeWooyunyonyou:
+	case TechTypeWooyunyonyou:
 		return AttackCategoryWeb
-	case AttackTypeWordcloudtokenSpray:
+	case TechTypeWordcloudtokenSpray:
 		return AttackCategoryCloud
-	case AttackTypeWordfence:
+	case TechTypeWordfence:
 		return AttackCategoryWeb
-	case AttackTypeWordfencewordpress:
+	case TechTypeWordfencewordpress:
 		return AttackCategoryWordPress
-	case AttackTypeWordnikosint:
+	case TechTypeWordnikosint:
 		return AttackCategoryOsint
-	case AttackTypeWordniktokenSpray:
+	case TechTypeWordniktokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeWordpress:
+	case TechTypeWordpress:
 		return AttackCategoryWordPress
-	case AttackTypeWordpressCountrySelector:
+	case TechTypeWordpressCountrySelector:
 		return AttackCategoryWordPress
-	case AttackTypeWordpressSupportosint:
+	case TechTypeWordpressSupportosint:
 		return AttackCategoryWordPress
-	case AttackTypeWordpressToolbar:
+	case TechTypeWordpressToolbar:
 		return AttackCategoryWordPress
-	case AttackTypeWordpressIntegratorProjectcve:
+	case TechTypeWordpressIntegratorProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeWordpresscve:
+	case TechTypeWordpresscve:
 		return AttackCategoryCVE
-	case AttackTypeWordpresscve2015:
+	case TechTypeWordpresscve2015:
 		return AttackCategoryCVE
-	case AttackTypeWordpresscve2021:
+	case TechTypeWordpresscve2021:
 		return AttackCategoryCVE
-	case AttackTypeWordpresscve2022:
+	case TechTypeWordpresscve2022:
 		return AttackCategoryCVE
-	case AttackTypeWordpresscve2023:
+	case TechTypeWordpresscve2023:
 		return AttackCategoryCVE
-	case AttackTypeWordpressinstall:
+	case TechTypeWordpressinstall:
 		return AttackCategoryWordPress
-	case AttackTypeWordpressosint:
+	case TechTypeWordpressosint:
 		return AttackCategoryWordPress
-	case AttackTypeWordpresspanel:
+	case TechTypeWordpresspanel:
 		return AttackCategoryWordPress
-	case AttackTypeWordpressredirect:
+	case TechTypeWordpressredirect:
 		return AttackCategoryWordPress
-	case AttackTypeWordpresswoocommerce:
+	case TechTypeWordpresswoocommerce:
 		return AttackCategoryRCE
-	case AttackTypeWordpresswordpress:
+	case TechTypeWordpresswordpress:
 		return AttackCategoryWordPress
-	case AttackTypeWordpresswordpressedb:
+	case TechTypeWordpresswordpressedb:
 		return AttackCategoryWordPress
-	case AttackTypeWordpresswordpresshackerone:
+	case TechTypeWordpresswordpresshackerone:
 		return AttackCategorySSH
-	case AttackTypeWordpresswp:
+	case TechTypeWordpresswp:
 		return AttackCategoryWordPress
-	case AttackTypeWordpresswpPlugin:
+	case TechTypeWordpresswpPlugin:
 		return AttackCategoryWordPress
-	case AttackTypeWordpresswpscan:
+	case TechTypeWordpresswpscan:
 		return AttackCategoryWordPress
-	case AttackTypeWordpressxss:
+	case TechTypeWordpressxss:
 		return AttackCategoryXSS
-	case AttackTypeWorkcentretech:
+	case TechTypeWorkcentretech:
 		return AttackCategoryWeb
-	case AttackTypeWorkerman:
+	case TechTypeWorkerman:
 		return AttackCategoryWeb
-	case AttackTypeWorkreap:
+	case TechTypeWorkreap:
 		return AttackCategoryWeb
-	case AttackTypeWorkresourcespanel:
+	case TechTypeWorkresourcespanel:
 		return AttackCategoryRCE
-	case AttackTypeWorkshopstrapi:
+	case TechTypeWorkshopstrapi:
 		return AttackCategoryWeb
-	case AttackTypeWorkspace:
+	case TechTypeWorkspace:
 		return AttackCategoryWeb
-	case AttackTypeWorkspaceone:
+	case TechTypeWorkspaceone:
 		return AttackCategoryWeb
-	case AttackTypeWowCompanycve2021:
+	case TechTypeWowCompanycve2021:
 		return AttackCategoryCVE
-	case AttackTypeWowcms:
+	case TechTypeWowcms:
 		return AttackCategoryWeb
-	case AttackTypeWowheadosint:
+	case TechTypeWowheadosint:
 		return AttackCategoryOsint
-	case AttackTypeWowjoomlacve:
+	case TechTypeWowjoomlacve:
 		return AttackCategoryCVE
-	case AttackTypeWowondermisconfig:
+	case TechTypeWowondermisconfig:
 		return AttackCategoryWeb
-	case AttackTypeWowthemescve2021:
+	case TechTypeWowthemescve2021:
 		return AttackCategoryCVE
-	case AttackTypeWowza:
+	case TechTypeWowza:
 		return AttackCategoryWeb
-	case AttackTypeWowzapanel:
+	case TechTypeWowzapanel:
 		return AttackCategoryWeb
-	case AttackTypeWp:
+	case TechTypeWp:
 		return AttackCategoryWeb
-	case AttackTypeWpAttachmentExport:
+	case TechTypeWpAttachmentExport:
 		return AttackCategoryWeb
-	case AttackTypeWpAutomaticcve:
+	case TechTypeWpAutomaticcve:
 		return AttackCategoryCVE
-	case AttackTypeWpAutosuggest:
+	case TechTypeWpAutosuggest:
 		return AttackCategoryWeb
-	case AttackTypeWpBan:
+	case TechTypeWpBan:
 		return AttackCategoryWeb
-	case AttackTypeWpBanProjectcve:
+	case TechTypeWpBanProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeWpBuycve:
+	case TechTypeWpBuycve:
 		return AttackCategoryCVE
-	case AttackTypeWpCli:
+	case TechTypeWpCli:
 		return AttackCategoryWeb
-	case AttackTypeWpEcommercecve:
+	case TechTypeWpEcommercecve:
 		return AttackCategoryCVE
-	case AttackTypeWpExperimentsFree:
+	case TechTypeWpExperimentsFree:
 		return AttackCategoryWeb
-	case AttackTypeWpFastestCache:
+	case TechTypeWpFastestCache:
 		return AttackCategoryWeb
-	case AttackTypeWpFundraisingDonation:
+	case TechTypeWpFundraisingDonation:
 		return AttackCategoryAI
-	case AttackTypeWpGdprCompliance:
+	case TechTypeWpGdprCompliance:
 		return AttackCategoryWeb
-	case AttackTypeWpGuppycve2021:
+	case TechTypeWpGuppycve2021:
 		return AttackCategoryCVE
-	case AttackTypeWpHelperLite:
+	case TechTypeWpHelperLite:
 		return AttackCategoryWeb
-	case AttackTypeWpJobsearch:
+	case TechTypeWpJobsearch:
 		return AttackCategoryWeb
-	case AttackTypeWpLimitFailedLoginAttempts:
+	case TechTypeWpLimitFailedLoginAttempts:
 		return AttackCategoryAI
-	case AttackTypeWpPaytmPay:
+	case TechTypeWpPaytmPay:
 		return AttackCategoryWeb
-	case AttackTypeWpPlugin:
+	case TechTypeWpPlugin:
 		return AttackCategoryWeb
-	case AttackTypeWpPlugincve:
+	case TechTypeWpPlugincve:
 		return AttackCategoryCVE
-	case AttackTypeWpPluginshortpixel:
+	case TechTypeWpPluginshortpixel:
 		return AttackCategoryWeb
-	case AttackTypeWpPluginsqli:
+	case TechTypeWpPluginsqli:
 		return AttackCategorySqlInjection
-	case AttackTypeWpPluginwordpress:
+	case TechTypeWpPluginwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeWpPluginwordpresslogs:
+	case TechTypeWpPluginwordpresslogs:
 		return AttackCategoryWordPress
-	case AttackTypeWpPluginwp:
+	case TechTypeWpPluginwp:
 		return AttackCategoryWeb
-	case AttackTypeWpPluginwpPlugin:
+	case TechTypeWpPluginwpPlugin:
 		return AttackCategoryWeb
-	case AttackTypeWpPluginwpscan:
+	case TechTypeWpPluginwpscan:
 		return AttackCategoryWeb
-	case AttackTypeWpPluginxss:
+	case TechTypeWpPluginxss:
 		return AttackCategoryXSS
-	case AttackTypeWpScan:
+	case TechTypeWpScan:
 		return AttackCategoryWeb
-	case AttackTypeWpShoutboxLiveChat:
+	case TechTypeWpShoutboxLiveChat:
 		return AttackCategoryWeb
-	case AttackTypeWpSlimstat:
+	case TechTypeWpSlimstat:
 		return AttackCategoryWeb
-	case AttackTypeWpSmartContracts:
+	case TechTypeWpSmartContracts:
 		return AttackCategoryWeb
-	case AttackTypeWpStatistics:
+	case TechTypeWpStatistics:
 		return AttackCategoryWeb
-	case AttackTypeWpStatsManager:
+	case TechTypeWpStatsManager:
 		return AttackCategoryWeb
-	case AttackTypeWpTheme:
+	case TechTypeWpTheme:
 		return AttackCategoryWeb
-	case AttackTypeWpThemewordpress:
+	case TechTypeWpThemewordpress:
 		return AttackCategoryWordPress
-	case AttackTypeWpThemewpPlugin:
+	case TechTypeWpThemewpPlugin:
 		return AttackCategoryWeb
-	case AttackTypeWpTripadvisorReviewSlider:
+	case TechTypeWpTripadvisorReviewSlider:
 		return AttackCategoryWeb
-	case AttackTypeWpUpg:
+	case TechTypeWpUpg:
 		return AttackCategoryWeb
-	case AttackTypeWpUser:
+	case TechTypeWpUser:
 		return AttackCategoryWeb
-	case AttackTypeWpVideoGalleryFree:
+	case TechTypeWpVideoGalleryFree:
 		return AttackCategoryWeb
-	case AttackTypeWpVideoGalleryFreeProjectcve:
+	case TechTypeWpVideoGalleryFreeProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeWpAccessibilityHelperProjectcve:
+	case TechTypeWpAccessibilityHelperProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeWpAttachmentExportProjectcve2015:
+	case TechTypeWpAttachmentExportProjectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeWpContentSourceControlProjectcve2014:
+	case TechTypeWpContentSourceControlProjectcve2014:
 		return AttackCategoryCVE
-	case AttackTypeWpLiveChatShoutboxProjectcve2023:
+	case TechTypeWpLiveChatShoutboxProjectcve2023:
 		return AttackCategoryCVE
-	case AttackTypeWpUserProjectcve:
+	case TechTypeWpUserProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeWpVisitorStatisticsRealTimeTrafficProjectcve2021:
+	case TechTypeWpVisitorStatisticsRealTimeTrafficProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeWpa:
+	case TechTypeWpa:
 		return AttackCategoryWeb
-	case AttackTypeWpa2Misconfig:
+	case TechTypeWpa2Misconfig:
 		return AttackCategoryWeb
-	case AttackTypeWpaffiliatemanagercve2021:
+	case TechTypeWpaffiliatemanagercve2021:
 		return AttackCategoryCVE
-	case AttackTypeWpbShowCore:
+	case TechTypeWpbShowCore:
 		return AttackCategoryWeb
-	case AttackTypeWpbShowCoreProjectcve2022:
+	case TechTypeWpbShowCoreProjectcve2022:
 		return AttackCategoryCVE
-	case AttackTypeWpbakery:
+	case TechTypeWpbakery:
 		return AttackCategoryWeb
-	case AttackTypeWpcargo:
+	case TechTypeWpcargo:
 		return AttackCategoryWeb
-	case AttackTypeWpcentral:
+	case TechTypeWpcentral:
 		return AttackCategoryWeb
-	case AttackTypeWpchillcve:
+	case TechTypeWpchillcve:
 		return AttackCategoryCVE
-	case AttackTypeWpcoursesplugincve:
+	case TechTypeWpcoursesplugincve:
 		return AttackCategoryCVE
-	case AttackTypeWpcve:
+	case TechTypeWpcve:
 		return AttackCategoryCVE
-	case AttackTypeWpdevartcve:
+	case TechTypeWpdevartcve:
 		return AttackCategoryCVE
-	case AttackTypeWpdevartcve2021:
+	case TechTypeWpdevartcve2021:
 		return AttackCategoryCVE
-	case AttackTypeWpdevartcve2023:
+	case TechTypeWpdevartcve2023:
 		return AttackCategoryCVE
-	case AttackTypeWpdevelopercve2022:
+	case TechTypeWpdevelopercve2022:
 		return AttackCategoryCVE
-	case AttackTypeWpdevelopercve2023:
+	case TechTypeWpdevelopercve2023:
 		return AttackCategoryCVE
-	case AttackTypeWpdeveloperwpscan:
+	case TechTypeWpdeveloperwpscan:
 		return AttackCategoryWeb
-	case AttackTypeWpdownloadmanagercve:
+	case TechTypeWpdownloadmanagercve:
 		return AttackCategoryCVE
-	case AttackTypeWpedb:
+	case TechTypeWpedb:
 		return AttackCategoryWeb
-	case AttackTypeWpexpertscve:
+	case TechTypeWpexpertscve:
 		return AttackCategoryCVE
-	case AttackTypeWpfastestcachecve:
+	case TechTypeWpfastestcachecve:
 		return AttackCategoryCVE
-	case AttackTypeWpify:
+	case TechTypeWpify:
 		return AttackCategoryWeb
-	case AttackTypeWplisting:
+	case TechTypeWplisting:
 		return AttackCategoryWeb
-	case AttackTypeWpmailstercve:
+	case TechTypeWpmailstercve:
 		return AttackCategoryCVE
-	case AttackTypeWpmanageninjacve:
+	case TechTypeWpmanageninjacve:
 		return AttackCategoryCVE
-	case AttackTypeWpmetcve:
+	case TechTypeWpmetcve:
 		return AttackCategoryCVE
-	case AttackTypeWpml:
+	case TechTypeWpml:
 		return AttackCategoryWeb
-	case AttackTypeWpmlcve:
+	case TechTypeWpmlcve:
 		return AttackCategoryCVE
-	case AttackTypeWpmshttp:
+	case TechTypeWpmshttp:
 		return AttackCategoryWeb
-	case AttackTypeWpmsrce:
+	case TechTypeWpmsrce:
 		return AttackCategoryRCE
-	case AttackTypeWpmudevpacketstorm:
+	case TechTypeWpmudevpacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeWpovernightcve:
+	case TechTypeWpovernightcve:
 		return AttackCategoryCVE
-	case AttackTypeWpqa:
+	case TechTypeWpqa:
 		return AttackCategoryWeb
-	case AttackTypeWpquery:
+	case TechTypeWpquery:
 		return AttackCategoryWeb
-	case AttackTypeWprealizecve2023:
+	case TechTypeWprealizecve2023:
 		return AttackCategoryCVE
-	case AttackTypeWpredirect:
+	case TechTypeWpredirect:
 		return AttackCategoryWeb
-	case AttackTypeWprssaggregatorcve:
+	case TechTypeWprssaggregatorcve:
 		return AttackCategoryCVE
-	case AttackTypeWprubycve2021:
+	case TechTypeWprubycve2021:
 		return AttackCategoryCVE
-	case AttackTypeWpscan:
+	case TechTypeWpscan:
 		return AttackCategoryWeb
-	case AttackTypeWpscanauthenticated:
+	case TechTypeWpscanauthenticated:
 		return AttackCategoryWeb
-	case AttackTypeWpscanavcon6:
+	case TechTypeWpscanavcon6:
 		return AttackCategoryWeb
-	case AttackTypeWpscancve:
+	case TechTypeWpscancve:
 		return AttackCategoryCVE
-	case AttackTypeWpscancve2008:
+	case TechTypeWpscancve2008:
 		return AttackCategoryCVE
-	case AttackTypeWpscancve2021:
+	case TechTypeWpscancve2021:
 		return AttackCategoryCVE
-	case AttackTypeWpscanlfi:
+	case TechTypeWpscanlfi:
 		return AttackCategoryWeb
-	case AttackTypeWpscanpacketstorm:
+	case TechTypeWpscanpacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeWpscanrce:
+	case TechTypeWpscanrce:
 		return AttackCategoryRCE
-	case AttackTypeWpscansqli:
+	case TechTypeWpscansqli:
 		return AttackCategorySqlInjection
-	case AttackTypeWpscanwordpress:
+	case TechTypeWpscanwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeWpscanwp:
+	case TechTypeWpscanwp:
 		return AttackCategoryWeb
-	case AttackTypeWpscanwpPlugin:
+	case TechTypeWpscanwpPlugin:
 		return AttackCategoryWeb
-	case AttackTypeWpscanwpTheme:
+	case TechTypeWpscanwpTheme:
 		return AttackCategoryWeb
-	case AttackTypeWpscanwpscan:
+	case TechTypeWpscanwpscan:
 		return AttackCategoryWeb
-	case AttackTypeWpscanxss:
+	case TechTypeWpscanxss:
 		return AttackCategoryXSS
-	case AttackTypeWpsecurityauditlogcve:
+	case TechTypeWpsecurityauditlogcve:
 		return AttackCategoryCVE
-	case AttackTypeWpserveurcve:
+	case TechTypeWpserveurcve:
 		return AttackCategoryCVE
-	case AttackTypeWpsmartcontractscve2022:
+	case TechTypeWpsmartcontractscve2022:
 		return AttackCategoryCVE
-	case AttackTypeWpsolrcve:
+	case TechTypeWpsolrcve:
 		return AttackCategoryCVE
-	case AttackTypeWpsqli:
+	case TechTypeWpsqli:
 		return AttackCategorySqlInjection
-	case AttackTypeWpswingscve:
+	case TechTypeWpswingscve:
 		return AttackCategoryCVE
-	case AttackTypeWpsymposiumprocve2015:
+	case TechTypeWpsymposiumprocve2015:
 		return AttackCategoryCVE
-	case AttackTypeWptaskforcecve:
+	case TechTypeWptaskforcecve:
 		return AttackCategoryCVE
-	case AttackTypeWptech:
+	case TechTypeWptech:
 		return AttackCategoryWeb
-	case AttackTypeWptimecapsulecve:
+	case TechTypeWptimecapsulecve:
 		return AttackCategoryCVE
-	case AttackTypeWptouch:
+	case TechTypeWptouch:
 		return AttackCategoryWeb
-	case AttackTypeWptrafficanalyzercve:
+	case TechTypeWptrafficanalyzercve:
 		return AttackCategoryCVE
-	case AttackTypeWpvividcve:
+	case TechTypeWpvividcve:
 		return AttackCategoryCVE
-	case AttackTypeWpwatu:
+	case TechTypeWpwatu:
 		return AttackCategoryWeb
-	case AttackTypeWpwaxcve:
+	case TechTypeWpwaxcve:
 		return AttackCategoryCVE
-	case AttackTypeWpwaxpacketstorm:
+	case TechTypeWpwaxpacketstorm:
 		return AttackCategoryWeb
-	case AttackTypeWpwordpress:
+	case TechTypeWpwordpress:
 		return AttackCategoryWordPress
-	case AttackTypeWpwpPlugin:
+	case TechTypeWpwpPlugin:
 		return AttackCategoryWeb
-	case AttackTypeWpwpscan:
+	case TechTypeWpwpscan:
 		return AttackCategoryWeb
-	case AttackTypeWpxss:
+	case TechTypeWpxss:
 		return AttackCategoryXSS
-	case AttackTypeWrteamcve:
+	case TechTypeWrteamcve:
 		return AttackCategoryCVE
-	case AttackTypeWsFtp:
+	case TechTypeWsFtp:
 		return AttackCategoryWeb
-	case AttackTypeWsftp:
+	case TechTypeWsftp:
 		return AttackCategoryWeb
-	case AttackTypeWso2:
+	case TechTypeWso2:
 		return AttackCategoryWeb
-	case AttackTypeWso2Cve:
+	case TechTypeWso2Cve:
 		return AttackCategoryCVE
-	case AttackTypeWso2Tech:
+	case TechTypeWso2Tech:
 		return AttackCategoryWeb
-	case AttackTypeWso2Xerox:
+	case TechTypeWso2Xerox:
 		return AttackCategoryWeb
-	case AttackTypeWuzhicmstech:
+	case TechTypeWuzhicmstech:
 		return AttackCategoryWeb
-	case AttackTypeWwbncve:
+	case TechTypeWwbncve:
 		return AttackCategoryCVE
-	case AttackTypeWwbncve2022:
+	case TechTypeWwbncve2022:
 		return AttackCategoryCVE
-	case AttackTypeWwwXmlSitemapGeneratorOrg:
+	case TechTypeWwwXmlSitemapGeneratorOrg:
 		return AttackCategoryWeb
-	case AttackTypeWykoposint:
+	case TechTypeWykoposint:
 		return AttackCategoryOsint
-	case AttackTypeWyrestorm:
+	case TechTypeWyrestorm:
 		return AttackCategoryWeb
-	case AttackTypeXRay:
+	case TechTypeXRay:
 		return AttackCategoryWeb
-	case AttackTypeXWrtopenwrt:
+	case TechTypeXWrtopenwrt:
 		return AttackCategoryWeb
-	case AttackTypeXampp:
+	case TechTypeXampp:
 		return AttackCategoryWeb
-	case AttackTypeXamr:
+	case TechTypeXamr:
 		return AttackCategoryWeb
-	case AttackTypeXangaosint:
+	case TechTypeXangaosint:
 		return AttackCategoryOsint
-	case AttackTypeXargs:
+	case TechTypeXargs:
 		return AttackCategoryWeb
-	case AttackTypeXbackbone:
+	case TechTypeXbackbone:
 		return AttackCategoryWeb
-	case AttackTypeXboxGamertagosint:
+	case TechTypeXboxGamertagosint:
 		return AttackCategoryOsint
-	case AttackTypeXceedium:
+	case TechTypeXceedium:
 		return AttackCategoryWeb
-	case AttackTypeXdcmscve:
+	case TechTypeXdcmscve:
 		return AttackCategoryCVE
-	case AttackTypeXdebug:
+	case TechTypeXdebug:
 		return AttackCategoryWeb
-	case AttackTypeXdgUserDir:
+	case TechTypeXdgUserDir:
 		return AttackCategoryWeb
-	case AttackTypeXdspanel:
+	case TechTypeXdspanel:
 		return AttackCategoryWeb
-	case AttackTypeXeams:
+	case TechTypeXeams:
 		return AttackCategoryWeb
-	case AttackTypeXenforotech:
+	case TechTypeXenforotech:
 		return AttackCategoryWeb
-	case AttackTypeXenmobile:
+	case TechTypeXenmobile:
 		return AttackCategoryWeb
-	case AttackTypeXenmobilecve:
+	case TechTypeXenmobilecve:
 		return AttackCategoryCVE
-	case AttackTypeXerox:
+	case TechTypeXerox:
 		return AttackCategoryWeb
-	case AttackTypeXfinitypanel:
+	case TechTypeXfinitypanel:
 		return AttackCategoryWeb
-	case AttackTypeXhamsterosint:
+	case TechTypeXhamsterosint:
 		return AttackCategoryOsint
-	case AttackTypeXiaomicve:
+	case TechTypeXiaomicve:
 		return AttackCategoryCVE
-	case AttackTypeXiaomipanel:
+	case TechTypeXiaomipanel:
 		return AttackCategoryWeb
-	case AttackTypeXibocmsxnat:
+	case TechTypeXibocmsxnat:
 		return AttackCategoryWeb
-	case AttackTypeXingosint:
+	case TechTypeXingosint:
 		return AttackCategoryOsint
-	case AttackTypeXintianqing:
+	case TechTypeXintianqing:
 		return AttackCategoryWeb
-	case AttackTypeXinuoscve:
+	case TechTypeXinuoscve:
 		return AttackCategoryCVE
-	case AttackTypeXiunocnvd:
+	case TechTypeXiunocnvd:
 		return AttackCategoryWeb
-	case AttackTypeXlight:
+	case TechTypeXlight:
 		return AttackCategoryWeb
-	case AttackTypeXmall:
+	case TechTypeXmall:
 		return AttackCategoryWeb
-	case AttackTypeXml:
+	case TechTypeXml:
 		return AttackCategoryWeb
-	case AttackTypeXmlchart:
+	case TechTypeXmlchart:
 		return AttackCategoryWeb
-	case AttackTypeXmlrpc:
+	case TechTypeXmlrpc:
 		return AttackCategoryWeb
-	case AttackTypeXmlrpcwordpresswp:
+	case TechTypeXmlrpcwordpresswp:
 		return AttackCategoryWordPress
-	case AttackTypeXmlsitemapgeneratorcve:
+	case TechTypeXmlsitemapgeneratorcve:
 		return AttackCategoryCVE
-	case AttackTypeXmlswfcve:
+	case TechTypeXmlswfcve:
 		return AttackCategoryCVE
-	case AttackTypeXmpp:
+	case TechTypeXmpp:
 		return AttackCategoryWeb
-	case AttackTypeXnatxploitspy:
+	case TechTypeXnatxploitspy:
 		return AttackCategoryWeb
-	case AttackTypeXoops:
+	case TechTypeXoops:
 		return AttackCategoryWeb
-	case AttackTypeXoopspanel:
+	case TechTypeXoopspanel:
 		return AttackCategoryWeb
-	case AttackTypeXray:
+	case TechTypeXray:
 		return AttackCategoryWeb
-	case AttackTypeXss:
+	case TechTypeXss:
 		return AttackCategoryXSS
-	case AttackTypeXssaspose:
+	case TechTypeXssaspose:
 		return AttackCategoryXSS
-	case AttackTypeXsscLodop:
+	case TechTypeXsscLodop:
 		return AttackCategoryXSS
-	case AttackTypeXsscache:
+	case TechTypeXsscache:
 		return AttackCategoryXSS
-	case AttackTypeXsscomaiRas:
+	case TechTypeXsscomaiRas:
 		return AttackCategoryXSS
-	case AttackTypeXsscve:
+	case TechTypeXsscve:
 		return AttackCategoryXSS
-	case AttackTypeXsscve2005:
+	case TechTypeXsscve2005:
 		return AttackCategoryXSS
-	case AttackTypeXsscve2014:
+	case TechTypeXsscve2014:
 		return AttackCategoryXSS
-	case AttackTypeXsscve2015:
+	case TechTypeXsscve2015:
 		return AttackCategoryXSS
-	case AttackTypeXsscve2016:
+	case TechTypeXsscve2016:
 		return AttackCategoryXSS
-	case AttackTypeXsscve2017:
+	case TechTypeXsscve2017:
 		return AttackCategoryXSS
-	case AttackTypeXsscve2018:
+	case TechTypeXsscve2018:
 		return AttackCategoryXSS
-	case AttackTypeXsscve2019:
+	case TechTypeXsscve2019:
 		return AttackCategoryXSS
-	case AttackTypeXsscve2020:
+	case TechTypeXsscve2020:
 		return AttackCategoryXSS
-	case AttackTypeXsscve2021:
+	case TechTypeXsscve2021:
 		return AttackCategoryXSS
-	case AttackTypeXsscve2022:
+	case TechTypeXsscve2022:
 		return AttackCategoryXSS
-	case AttackTypeXsscve2023:
+	case TechTypeXsscve2023:
 		return AttackCategoryXSS
-	case AttackTypeXssdahua:
+	case TechTypeXssdahua:
 		return AttackCategoryXSS
-	case AttackTypeXssdast:
+	case TechTypeXssdast:
 		return AttackCategoryXSS
-	case AttackTypeXsseaa:
+	case TechTypeXsseaa:
 		return AttackCategoryXSS
-	case AttackTypeXssems:
+	case TechTypeXssems:
 		return AttackCategoryXSS
-	case AttackTypeXssexposure:
+	case TechTypeXssexposure:
 		return AttackCategoryXSS
-	case AttackTypeXssgeowebserver:
+	case TechTypeXssgeowebserver:
 		return AttackCategoryXSS
-	case AttackTypeXssjoomla:
+	case TechTypeXssjoomla:
 		return AttackCategoryXSS
-	case AttackTypeXssjs:
+	case TechTypeXssjs:
 		return AttackCategoryXSS
-	case AttackTypeXssjunos:
+	case TechTypeXssjunos:
 		return AttackCategoryXSS
-	case AttackTypeXssjupyter:
+	case TechTypeXssjupyter:
 		return AttackCategoryXSS
-	case AttackTypeXsskarel:
+	case TechTypeXsskarel:
 		return AttackCategoryXSS
-	case AttackTypeXsskingdee:
+	case TechTypeXsskingdee:
 		return AttackCategoryXSS
-	case AttackTypeXsslisting:
+	case TechTypeXsslisting:
 		return AttackCategoryXSS
-	case AttackTypeXssmatrix:
+	case TechTypeXssmatrix:
 		return AttackCategoryXSS
-	case AttackTypeXssmisconfig:
+	case TechTypeXssmisconfig:
 		return AttackCategoryXSS
-	case AttackTypeXssmoodle:
+	case TechTypeXssmoodle:
 		return AttackCategoryXSS
-	case AttackTypeXsspacketstorm:
+	case TechTypeXsspacketstorm:
 		return AttackCategoryXSS
-	case AttackTypeXsspbootcms:
+	case TechTypeXsspbootcms:
 		return AttackCategoryXSS
-	case AttackTypeXssphpok:
+	case TechTypeXssphpok:
 		return AttackCategoryXSS
-	case AttackTypeXssredirect:
+	case TechTypeXssredirect:
 		return AttackCategoryXSS
-	case AttackTypeXsssqli:
+	case TechTypeXsssqli:
 		return AttackCategoryXSS
-	case AttackTypeXsstianqing:
+	case TechTypeXsstianqing:
 		return AttackCategoryXSS
-	case AttackTypeXsswordpress:
+	case TechTypeXsswordpress:
 		return AttackCategoryXSS
-	case AttackTypeXssxss:
+	case TechTypeXssxss:
 		return AttackCategoryXSS
-	case AttackTypeXssxssmisconfig:
+	case TechTypeXssxssmisconfig:
 		return AttackCategoryXSS
-	case AttackTypeXssyiboo:
+	case TechTypeXssyiboo:
 		return AttackCategoryXSS
-	case AttackTypeXsszabbix:
+	case TechTypeXsszabbix:
 		return AttackCategoryXSS
-	case AttackTypeXstream:
+	case TechTypeXstream:
 		return AttackCategoryWeb
-	case AttackTypeXstreamProjectcve:
+	case TechTypeXstreamProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeXstreamProjectcve2014:
+	case TechTypeXstreamProjectcve2014:
 		return AttackCategoryCVE
-	case AttackTypeXstreamProjectcve2021:
+	case TechTypeXstreamProjectcve2021:
 		return AttackCategoryCVE
-	case AttackTypeXsuite:
+	case TechTypeXsuite:
 		return AttackCategoryWeb
-	case AttackTypeXtreamerat:
+	case TechTypeXtreamerat:
 		return AttackCategoryWeb
-	case AttackTypeXunchi:
+	case TechTypeXunchi:
 		return AttackCategoryWeb
-	case AttackTypeXuxuelipanel:
+	case TechTypeXuxuelipanel:
 		return AttackCategoryWeb
-	case AttackTypeXvideosModelsosint:
+	case TechTypeXvideosModelsosint:
 		return AttackCategoryOsint
-	case AttackTypeXvideosProfilesosint:
+	case TechTypeXvideosProfilesosint:
 		return AttackCategoryOsint
-	case AttackTypeXvr:
+	case TechTypeXvr:
 		return AttackCategoryWeb
-	case AttackTypeXweb500:
+	case TechTypeXweb500:
 		return AttackCategoryWeb
-	case AttackTypeXweb500Panel:
+	case TechTypeXweb500Panel:
 		return AttackCategoryWeb
-	case AttackTypeXwiki:
+	case TechTypeXwiki:
 		return AttackCategoryWeb
-	case AttackTypeXxe:
+	case TechTypeXxe:
 		return AttackCategoryWeb
-	case AttackTypeXxecve:
+	case TechTypeXxecve:
 		return AttackCategoryCVE
-	case AttackTypeXxedns:
+	case TechTypeXxedns:
 		return AttackCategoryDNS
-	case AttackTypeXxeecology:
+	case TechTypeXxeecology:
 		return AttackCategoryWeb
-	case AttackTypeXxeoa:
+	case TechTypeXxeoa:
 		return AttackCategoryWeb
-	case AttackTypeXxespringboot:
+	case TechTypeXxespringboot:
 		return AttackCategoryWeb
-	case AttackTypeXxljob:
+	case TechTypeXxljob:
 		return AttackCategoryWeb
-	case AttackTypeXxljobdefaultLogin:
+	case TechTypeXxljobdefaultLogin:
 		return AttackCategoryWeb
-	case AttackTypeXyxel:
+	case TechTypeXyxel:
 		return AttackCategoryWeb
-	case AttackTypeXz:
+	case TechTypeXz:
 		return AttackCategoryWeb
-	case AttackTypeYachtcontrol:
+	case TechTypeYachtcontrol:
 		return AttackCategoryWeb
-	case AttackTypeYahoo:
+	case TechTypeYahoo:
 		return AttackCategoryWeb
-	case AttackTypeYahooJapanAuctionosint:
+	case TechTypeYahooJapanAuctionosint:
 		return AttackCategoryOsint
-	case AttackTypeYapishuosint:
+	case TechTypeYapishuosint:
 		return AttackCategoryOsint
-	case AttackTypeYapiyeswiki:
+	case TechTypeYapiyeswiki:
 		return AttackCategoryWeb
-	case AttackTypeYarn:
+	case TechTypeYarn:
 		return AttackCategoryWeb
-	case AttackTypeYarnlogs:
+	case TechTypeYarnlogs:
 		return AttackCategoryWeb
-	case AttackTypeYash:
+	case TechTypeYash:
 		return AttackCategoryWeb
-	case AttackTypeYaws:
+	case TechTypeYaws:
 		return AttackCategoryCloud
-	case AttackTypeYazawajosint:
+	case TechTypeYazawajosint:
 		return AttackCategoryOsint
-	case AttackTypeYealink:
+	case TechTypeYealink:
 		return AttackCategoryWeb
-	case AttackTypeYealinkzabbix:
+	case TechTypeYealinkzabbix:
 		return AttackCategoryWeb
-	case AttackTypeYelposint:
+	case TechTypeYelposint:
 		return AttackCategoryOsint
-	case AttackTypeYeswehackosint:
+	case TechTypeYeswehackosint:
 		return AttackCategoryOsint
-	case AttackTypeYii:
+	case TechTypeYii:
 		return AttackCategoryWeb
-	case AttackTypeYiiframeworkcve2020:
+	case TechTypeYiiframeworkcve2020:
 		return AttackCategoryCVE
-	case AttackTypeYishaadmin:
+	case TechTypeYishaadmin:
 		return AttackCategoryWeb
-	case AttackTypeYoastcve2021:
+	case TechTypeYoastcve2021:
 		return AttackCategoryCVE
-	case AttackTypeYonyou:
+	case TechTypeYonyou:
 		return AttackCategoryWeb
-	case AttackTypeYonyoucnvd2021:
+	case TechTypeYonyoucnvd2021:
 		return AttackCategoryWeb
-	case AttackTypeYopasspanel:
+	case TechTypeYopasspanel:
 		return AttackCategoryWeb
-	case AttackTypeYouphptubecve:
+	case TechTypeYouphptubecve:
 		return AttackCategoryPHP
-	case AttackTypeYoupicosint:
+	case TechTypeYoupicosint:
 		return AttackCategoryOsint
-	case AttackTypeYourlszap:
+	case TechTypeYourlszap:
 		return AttackCategoryWeb
-	case AttackTypeYoutubeosint:
+	case TechTypeYoutubeosint:
 		return AttackCategoryOsint
-	case AttackTypeYoutubetokenSpray:
+	case TechTypeYoutubetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeYubacve2022:
+	case TechTypeYubacve2022:
 		return AttackCategoryCVE
-	case AttackTypeYui2:
+	case TechTypeYui2:
 		return AttackCategoryWeb
-	case AttackTypeYuiProjectcve:
+	case TechTypeYuiProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeYuzoprocve:
+	case TechTypeYuzoprocve:
 		return AttackCategoryCVE
-	case AttackTypeYzmcms:
+	case TechTypeYzmcms:
 		return AttackCategoryWeb
-	case AttackTypeZabbix:
+	case TechTypeZabbix:
 		return AttackCategoryWeb
-	case AttackTypeZabbixcve:
+	case TechTypeZabbixcve:
 		return AttackCategoryCVE
-	case AttackTypeZabbixzblog:
+	case TechTypeZabbixzblog:
 		return AttackCategoryWeb
-	case AttackTypeZarafa:
+	case TechTypeZarafa:
 		return AttackCategoryWeb
-	case AttackTypeZatrybiplosint:
+	case TechTypeZatrybiplosint:
 		return AttackCategoryOsint
-	case AttackTypeZaver:
+	case TechTypeZaver:
 		return AttackCategoryWeb
-	case AttackTypeZaverProjectcve:
+	case TechTypeZaverProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeZbiornikosint:
+	case TechTypeZbiornikosint:
 		return AttackCategoryOsint
-	case AttackTypeZblogcncve2020:
+	case TechTypeZblogcncve2020:
 		return AttackCategoryCVE
-	case AttackTypeZblogcnpanel:
+	case TechTypeZblogcnpanel:
 		return AttackCategoryWeb
-	case AttackTypeZblogphp:
+	case TechTypeZblogphp:
 		return AttackCategoryPHP
-	case AttackTypeZblogphppanel:
+	case TechTypeZblogphppanel:
 		return AttackCategoryPHP
-	case AttackTypeZebra:
+	case TechTypeZebra:
 		return AttackCategoryWeb
-	case AttackTypeZednaEbookDownloadProjectcve:
+	case TechTypeZednaEbookDownloadProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeZeitcve:
+	case TechTypeZeitcve:
 		return AttackCategoryCVE
-	case AttackTypeZenario:
+	case TechTypeZenario:
 		return AttackCategoryWeb
-	case AttackTypeZencart:
+	case TechTypeZencart:
 		return AttackCategoryWeb
-	case AttackTypeZend:
+	case TechTypeZend:
 		return AttackCategoryWeb
-	case AttackTypeZendcve:
+	case TechTypeZendcve:
 		return AttackCategoryCVE
-	case AttackTypeZendesk:
+	case TechTypeZendesk:
 		return AttackCategoryWeb
-	case AttackTypeZendframework:
+	case TechTypeZendframework:
 		return AttackCategoryWeb
-	case AttackTypeZendtech:
+	case TechTypeZendtech:
 		return AttackCategoryWeb
-	case AttackTypeZenphoto:
+	case TechTypeZenphoto:
 		return AttackCategoryWeb
-	case AttackTypeZenrowstokenSpray:
+	case TechTypeZenrowstokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeZenscrape:
+	case TechTypeZenscrape:
 		return AttackCategoryWeb
-	case AttackTypeZenserp:
+	case TechTypeZenserp:
 		return AttackCategoryWeb
-	case AttackTypeZentao:
+	case TechTypeZentao:
 		return AttackCategoryWeb
-	case AttackTypeZentral:
+	case TechTypeZentral:
 		return AttackCategoryWeb
-	case AttackTypeZeppelin:
+	case TechTypeZeppelin:
 		return AttackCategoryWeb
-	case AttackTypeZeroSpam:
+	case TechTypeZeroSpam:
 		return AttackCategoryWeb
-	case AttackTypeZerobouncerecon:
+	case TechTypeZerobouncerecon:
 		return AttackCategoryWeb
-	case AttackTypeZerodiumbsphp:
+	case TechTypeZerodiumbsphp:
 		return AttackCategoryPHP
-	case AttackTypeZerof:
+	case TechTypeZerof:
 		return AttackCategoryWeb
-	case AttackTypeZerofcve:
+	case TechTypeZerofcve:
 		return AttackCategoryCVE
-	case AttackTypeZeroftech:
+	case TechTypeZeroftech:
 		return AttackCategoryWeb
-	case AttackTypeZeroscience:
+	case TechTypeZeroscience:
 		return AttackCategoryWeb
-	case AttackTypeZeroshell:
+	case TechTypeZeroshell:
 		return AttackCategoryWeb
-	case AttackTypeZeroshellcve:
+	case TechTypeZeroshellcve:
 		return AttackCategoryCVE
-	case AttackTypeZeroshelledb:
+	case TechTypeZeroshelledb:
 		return AttackCategoryWeb
-	case AttackTypeZetaProducercve:
+	case TechTypeZetaProducercve:
 		return AttackCategoryCVE
-	case AttackTypeZhBaidumapProjectcve:
+	case TechTypeZhBaidumapProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeZhihuosint:
+	case TechTypeZhihuosint:
 		return AttackCategoryOsint
-	case AttackTypeZhiyuan:
+	case TechTypeZhiyuan:
 		return AttackCategoryWeb
-	case AttackTypeZhiyuanzhiyuan:
+	case TechTypeZhiyuanzhiyuan:
 		return AttackCategoryWeb
-	case AttackTypeZiahamzacve2023:
+	case TechTypeZiahamzacve2023:
 		return AttackCategoryCVE
-	case AttackTypeZillowosint:
+	case TechTypeZillowosint:
 		return AttackCategoryOsint
-	case AttackTypeZimbllccve:
+	case TechTypeZimbllccve:
 		return AttackCategoryCVE
-	case AttackTypeZimbra:
+	case TechTypeZimbra:
 		return AttackCategoryWeb
-	case AttackTypeZimbratech:
+	case TechTypeZimbratech:
 		return AttackCategoryWeb
-	case AttackTypeZipAttachmentsProjectcve2015:
+	case TechTypeZipAttachmentsProjectcve2015:
 		return AttackCategoryCVE
-	case AttackTypeZipkinpanel:
+	case TechTypeZipkinpanel:
 		return AttackCategoryWeb
-	case AttackTypeZiteccve2017:
+	case TechTypeZiteccve2017:
 		return AttackCategoryCVE
-	case AttackTypeZkFramework:
+	case TechTypeZkFramework:
 		return AttackCategoryWeb
-	case AttackTypeZkosscve2022:
+	case TechTypeZkosscve2022:
 		return AttackCategoryCVE
-	case AttackTypeZm:
+	case TechTypeZm:
 		return AttackCategoryWeb
-	case AttackTypeZmGalleryProjectcve:
+	case TechTypeZmGalleryProjectcve:
 		return AttackCategoryCVE
-	case AttackTypeZmarsacomosint:
+	case TechTypeZmarsacomosint:
 		return AttackCategoryOsint
-	case AttackTypeZms:
+	case TechTypeZms:
 		return AttackCategoryWeb
-	case AttackTypeZoho:
+	case TechTypeZoho:
 		return AttackCategoryWeb
-	case AttackTypeZohocorpcve:
+	case TechTypeZohocorpcve:
 		return AttackCategoryCVE
-	case AttackTypeZohocorpcve2015:
+	case TechTypeZohocorpcve2015:
 		return AttackCategoryCVE
-	case AttackTypeZohocorpcve2016:
+	case TechTypeZohocorpcve2016:
 		return AttackCategoryCVE
-	case AttackTypeZohocorpcve2021:
+	case TechTypeZohocorpcve2021:
 		return AttackCategoryCVE
-	case AttackTypeZohocorpcve2023:
+	case TechTypeZohocorpcve2023:
 		return AttackCategoryCVE
-	case AttackTypeZohocorppanel:
+	case TechTypeZohocorppanel:
 		return AttackCategoryWeb
-	case AttackTypeZohofuzz:
+	case TechTypeZohofuzz:
 		return AttackCategoryWeb
-	case AttackTypeZomatoosint:
+	case TechTypeZomatoosint:
 		return AttackCategoryOsint
-	case AttackTypeZoneminder:
+	case TechTypeZoneminder:
 		return AttackCategoryWeb
-	case AttackTypeZoneminderpanel:
+	case TechTypeZoneminderpanel:
 		return AttackCategoryWeb
-	case AttackTypeZookeeper:
+	case TechTypeZookeeper:
 		return AttackCategoryWeb
-	case AttackTypeZoom:
+	case TechTypeZoom:
 		return AttackCategoryWeb
-	case AttackTypeZoomeye:
+	case TechTypeZoomeye:
 		return AttackCategoryWeb
-	case AttackTypeZoomitirtakeovertakeover:
+	case TechTypeZoomitirtakeovertakeover:
 		return AttackCategoryWeb
-	case AttackTypeZoomsounds:
+	case TechTypeZoomsounds:
 		return AttackCategoryWeb
-	case AttackTypeZopetokenSpray:
+	case TechTypeZopetokenSpray:
 		return AttackCategoryWeb
-	case AttackTypeZsh:
+	case TechTypeZsh:
 		return AttackCategoryWeb
-	case AttackTypeZte:
+	case TechTypeZte:
 		return AttackCategoryWeb
-	case AttackTypeZtecve2014:
+	case TechTypeZtecve2014:
 		return AttackCategoryCVE
-	case AttackTypeZtepanel:
+	case TechTypeZtepanel:
 		return AttackCategoryWeb
-	case AttackTypeZtp:
+	case TechTypeZtp:
 		return AttackCategoryWeb
-	case AttackTypeZuul:
+	case TechTypeZuul:
 		return AttackCategoryWeb
-	case AttackTypeZwave:
+	case TechTypeZwave:
 		return AttackCategoryWeb
-	case AttackTypeZywall:
+	case TechTypeZywall:
 		return AttackCategoryWeb
-	case AttackTypeZyxel:
+	case TechTypeZyxel:
 		return AttackCategoryWeb
-	case AttackTypeZyxelcve2018:
+	case TechTypeZyxelcve2018:
 		return AttackCategoryCVE
-	case AttackTypeZzcms:
+	case TechTypeZzcms:
 		return AttackCategoryWeb
-	case AttackTypeZzzcms:
+	case TechTypeZzzcms:
 		return AttackCategoryWeb
-	case AttackTypeZzzcmscve:
+	case TechTypeZzzcmscve:
 		return AttackCategoryCVE
-	case AttackTypeZzzphp:
+	case TechTypeZzzphp:
 		return AttackCategoryPHP
 	default:
 		return "unknown"
