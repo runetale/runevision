@@ -8,7 +8,6 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	"regexp"
 	"strings"
 
 	"gopkg.in/yaml.v2"
@@ -90,7 +89,7 @@ func main() {
 	var attackType []AttackType
 	var tags []string
 
-	// walking dir
+	// walking dir for yaml
 	dir := "./target_yaml"
 	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
@@ -105,7 +104,12 @@ func main() {
 		panic(err)
 	}
 
-	// saving tags txt
+	saveAttackTypeJson(attackType, tags)
+
+	saveVisonaryJson(visionary)
+}
+
+func saveAttackTypeJson(at []AttackType, tags []string) {
 	tagsFile := "tags.txt"
 	formattedName := strings.Join(tags, "\n")
 	file, err := os.Create("tags.txt")
@@ -121,7 +125,7 @@ func main() {
 	// 重複したtagを消して、attack_type.jsonを出力する
 	file, err = os.Open(tagsFile)
 	if err != nil {
-		log.Fatalf("Failed to open file: %v", err)
+		panic(err)
 	}
 	defer file.Close()
 
@@ -141,7 +145,7 @@ func main() {
 	var uniqueItems []string
 
 	for _, item := range items {
-		trimmedItem := strings.TrimSpace(item) // 前後の空白を除去
+		trimmedItem := strings.TrimSpace(item)
 		if _, exists := seen[trimmedItem]; !exists {
 			seen[trimmedItem] = true
 			uniqueItems = append(uniqueItems, trimmedItem)
@@ -149,7 +153,7 @@ func main() {
 	}
 
 	for _, o := range uniqueItems {
-		attackType = append(attackType, AttackType{
+		at = append(at, AttackType{
 			Type: o,
 		})
 	}
@@ -163,23 +167,24 @@ func main() {
 
 	encoder := json.NewEncoder(output)
 	encoder.SetIndent("", "  ")
-	if err := encoder.Encode(attackType); err != nil {
+	if err := encoder.Encode(at); err != nil {
 		panic(err)
 	}
 
 	fmt.Println("Successfully saved to attack_types.json")
+}
 
-	// saving visonary json
-	filePath = "visonary.json"
-	output, err = os.Create(filePath)
+func saveVisonaryJson(v []*Visionary) {
+	filePath := "visonary.json"
+	output, err := os.Create(filePath)
 	if err != nil {
 		panic(err)
 	}
 	defer output.Close()
 
-	encoder = json.NewEncoder(output)
+	encoder := json.NewEncoder(output)
 	encoder.SetIndent("", "  ")
-	if err := encoder.Encode(visionary); err != nil {
+	if err := encoder.Encode(v); err != nil {
 		panic(err)
 	}
 
@@ -198,7 +203,6 @@ func parseYAMLToVisionary(file string, v []*Visionary, tags []string) ([]*Vision
 		log.Fatalf("Failed to parse YAML file %s: %v", file, err)
 	}
 
-	// id と info.name を取得
 	fmt.Printf("File: %s, ID: %s, Name: %s\n", file, cve.ID, cve.Info.Name)
 	v = append(v, &Visionary{
 		Name:           cve.Info.Name,
@@ -223,12 +227,4 @@ func parseYAMLToVisionary(file string, v []*Visionary, tags []string) ([]*Vision
 	tags = append(tags, cve.Info.Tags)
 
 	return v, tags
-}
-
-func toSnakeCase(str string) string {
-	re := regexp.MustCompile(`[^\w\s]`)
-	str = re.ReplaceAllString(str, "")
-	str = strings.ReplaceAll(str, " ", "_")
-	str = strings.ReplaceAll(str, "__", "_")
-	return strings.ToUpper(str)
 }
