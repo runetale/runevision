@@ -28,4 +28,4 @@ test:
 	go test -v ./...
 
 visonary:
-	cd tools && go run visonary.go
+	cd tools/visonary && go run visonary.go

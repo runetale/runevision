@@ -10,6 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/runetale/runevision/tools/visonary/types"
 	"gopkg.in/yaml.v2"
 )
 
@@ -80,14 +81,14 @@ type Visionary struct {
 	Cpe            string         `json:"cpe"`
 }
 
-type AttackType struct {
-	Type  string `json:"type"`
-	Group string `json:"group"`
+type Attack struct {
+	Type     types.AttackType     `json:"type"`
+	Category types.AttackCategory `json:"categry"`
 }
 
 func main() {
 	var visionary []*Visionary
-	var attackType []*AttackType
+	var attackType []*Attack
 	var tags []string
 
 	// walking dir for yaml
@@ -106,11 +107,10 @@ func main() {
 	}
 
 	saveAttackTypeJson(attackType, tags)
-
 	saveVisonaryJson(visionary)
 }
 
-func saveAttackTypeJson(at []*AttackType, tags []string) {
+func saveAttackTypeJson(at []*Attack, tags []string) {
 	tagsFile := "tags.txt"
 	formattedName := strings.Join(tags, "\n")
 	file, err := os.Create("tags.txt")
@@ -154,8 +154,9 @@ func saveAttackTypeJson(at []*AttackType, tags []string) {
 	}
 
 	for _, o := range uniqueItems {
-		at = append(at, &AttackType{
-			Type: o,
+		at = append(at, &Attack{
+			Type:     types.AttackType(o),
+			Category: types.GetAttackCategory(types.AttackType(o)),
 		})
 	}
 
