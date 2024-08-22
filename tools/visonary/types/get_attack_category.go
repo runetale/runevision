@@ -1,3 +1,6 @@
+// todo (snt) ここは改善の余地がめっちゃあるのと、ここの精度もmlで評価すべき
+// リリース後に精度を高めるために頑張る
+
 package types
 
 type AttackCategory string
