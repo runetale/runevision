@@ -1,6 +1,7 @@
 package interfaces
 
 import (
+	"github.com/labstack/echo/v4"
 	"github.com/runetale/runevision/domain/entity"
 	"github.com/runetale/runevision/domain/requests"
 )
@@ -11,5 +12,5 @@ type DashboardInteractor interface {
 }
 
 type HackInteractor interface {
-	Scan(*requests.HackDoScanRequest) (*entity.ScanResponse, error)
+	Scan(*requests.HackDoScanRequest, echo.Context) (*entity.ScanResponse, error)
 }
