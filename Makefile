@@ -26,3 +26,6 @@ wire:
 
 test:
 	go test -v ./...
+
+get-cve-name:
+	cd tools && go run yaml_parser.go
