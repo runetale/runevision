@@ -1,3 +1,21 @@
+// このファイルはvisionary.jsonとattack_types.jsonを吐き出すツール
+// visionary.jsonはcveなどの脆弱性のデータを持った巨大なjson
+// attack_types.jsonは膨大な脆弱性のデータからどのようなテクノロジーを使用し、どのようかサービスカテゴリかを記録したjson
+// 後にこれらはwhite hat moduleのmlとして学習されていくデータ群kA
+// *サービスカテゴリーにおいてどのような攻撃手法が的確を判断する
+
+// 使われ方としては、ターゲットのドメインがどのようなサービスの性質かをmlでfilterして
+// そのターゲットドメインがこのような形でリクエストが送られてくるので、そのattack_typeに応じた攻撃手法を返す
+// “
+//
+//	{
+//	    "url": "https://caterpie.runetale.com",
+//	    "label": "unknown",
+//	   	"class": "api server",
+//		"attack_type": "ai"
+//	}
+//
+// ```
 package main
 
 import (
@@ -81,9 +99,10 @@ type Visionary struct {
 }
 
 type Attack struct {
-	TechStack types.TechType       `json:"tech_stack"`
-	Category  types.AttackCategory `json:"categry"`
-	CveID     string               `json:"cve_id"`
+	TechStack      types.TechType       `json:"tech_stack"`
+	Category       types.AttackCategory `json:"categry"`
+	CveID          string               `json:"cve_id"`
+	RunetaleImpact bool                 `json:"rt_impact"`
 }
 
 func main() {
@@ -126,9 +145,10 @@ func saveAttackTypeJson(visionary []*Visionary) {
 
 		for _, o := range uniqueItems {
 			attackType = append(attackType, &Attack{
-				TechStack: types.TechType(o),
-				Category:  types.GetAttackCategory(types.TechType(o)),
-				CveID:     v.CveID,
+				TechStack:      types.TechType(o),
+				Category:       types.GetAttackCategory(types.TechType(o)),
+				CveID:          v.CveID,
+				RunetaleImpact: types.GetRunetaleImpact(types.GetAttackCategory(types.TechType(o))),
 			})
 		}
 	}

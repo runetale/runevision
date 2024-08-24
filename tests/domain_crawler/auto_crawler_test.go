@@ -1,3 +1,10 @@
+// このファイルは最終的に教師ありデータのdomains.jsonを作るためのもの
+// mark_ プレフィックスのjsonは有効なターゲットドメインとサブドメインのメタデータをドメイン毎に出力
+// sub_domains.txtは有効なターゲットのサブドメインを出力
+// dsl_output.txtターゲットのドメインから予測されるサブドメインのリストを出力
+
+// *対象ドメインのラベルとクラスを作成
+
 package domaincrawler_test
 
 import (
@@ -184,7 +191,7 @@ func saveDomainsInfoJson(hosts []string, prefix string) error {
 		Methods:         "GET",
 		InputTargetHost: hosts,
 		OnResult: func(r httpx.Result) {
-			outputFilePath := prefix + "_" + r.Host + "_" + "domain_spec.json"
+			outputFilePath := prefix + "_" + r.URL + "_" + "domain_spec.json"
 			outputFile, err := os.Create(outputFilePath)
 			if err != nil {
 				return

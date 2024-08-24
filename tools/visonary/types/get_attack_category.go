@@ -44,6 +44,14 @@ const (
 	AttackCategoryFinance      AttackCategory = "finance"
 )
 
+func GetRunetaleImpact(category AttackCategory) bool {
+	switch category {
+	case AttackCategoryVPN, AttackCategoryApache, AttackCategoryCloud, AttackCategoryIoT, AttackCategoryFinance:
+		return true
+	}
+	return false
+}
+
 func GetAttackCategory(attackType TechType) AttackCategory {
 	switch attackType {
 	case TechType1001Memosint:
