@@ -20,8 +20,8 @@ type Attacker struct {
 	// Attackerのルーチンを完全に終了
 	closeCh chan struct{}
 
-	// vsdが使用する攻撃完了通知チャネル
-	doneAttackCh chan types.SequenceID
+	// vsdが使用するid毎の攻撃完了通知チャネル
+	doneAttackCh map[types.SequenceID]chan struct{}
 }
 
 func NewAttacker() *Attacker {
@@ -170,12 +170,12 @@ func (a *Attacker) Reconfig(seqID types.SequenceID, vsd *vsd.VisionSystem, reque
 
 	a.updateAttackStatusFn(seqID, types.STARTING)
 
-	a.attack()
+	a.attack(seqID)
 
 	return nil
 }
 
-func (a *Attacker) attack() {
+func (a *Attacker) attack(seqID types.SequenceID) {
 	if _, ok := a.isVsd.LoadOk(); !ok {
 		fmt.Println("vision system has no set.")
 	}
@@ -184,14 +184,14 @@ func (a *Attacker) attack() {
 	for se, v := range a.vsd {
 		a.updateAttackStatusFn(se, types.SCANNING)
 		fmt.Printf("scanning %s\n", se)
-		v.AllRun(a.doneAttackCh)
+		v.AllRun()
 	}
 
 	go func() {
 		select {
-		case sequenceID := <-a.doneAttackCh:
+		case sequenceID := <-a.doneAttackCh[seqID]:
 			fmt.Printf("completed scan, sequence number is `%s`", sequenceID)
-			a.updateAttackStatusFn(sequenceID, types.COMPLETED)
+			a.updateAttackStatusFn(seqID, types.COMPLETED)
 		}
 	}()
 

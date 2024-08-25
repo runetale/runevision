@@ -11,6 +11,7 @@ import (
 	"github.com/runetale/runevision/backend"
 	"github.com/runetale/runevision/safesocket"
 	"github.com/runetale/runevision/utility"
+	"github.com/runetale/runevision/vsengine"
 )
 
 var upCmd = &ffcli.Command{
@@ -22,7 +23,7 @@ func execUp(args []string) error {
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
-	// // local backend server
+	// init local backend server
 	logger, err := utility.NewLogger(os.Stdout, "json", "debug")
 	if err != nil {
 		fmt.Printf("failed to initialze logger: %v", err)
@@ -38,8 +39,16 @@ func execUp(args []string) error {
 	bs := backend.New(logger)
 	go bs.Run(ctx, ln)
 
-	lb := &backend.LocalBackend{}
+	// init vision engine
+	engine, err := vsengine.NewEngine(false)
+	if err != nil {
+		fmt.Printf("failed to listen safe socket: %v", err)
+		return err
+	}
+	lb := backend.NewLocalBackend(engine, logger)
 	bs.SetLocalBackend(lb)
+
+	logger.Logger.Debug("started vision daemon")
 
 	ch := make(chan struct{})
 	go func() {
