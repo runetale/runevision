@@ -146,7 +146,7 @@ func (h *Handler) scan(w http.ResponseWriter, r *http.Request) {
 
 	status := h.lb.GetStatus(types.SequenceID(sid))
 
-	hh := entity.NewHackHistory(req.Name, sid, string(status))
+	hh := entity.NewScanResponse(req.Name, sid, string(status))
 
 	json.NewEncoder(w).Encode(hh)
 }

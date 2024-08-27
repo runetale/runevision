@@ -23,6 +23,8 @@ func execUp(args []string) error {
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
+	// visonaryを組み込む
+
 	// init local backend server
 	logger, err := utility.NewLogger(os.Stdout, "json", "debug")
 	if err != nil {

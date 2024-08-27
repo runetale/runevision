@@ -1,0 +1,35 @@
+{
+  "timestamp": "2024-08-22T01:45:31.623965+09:00",
+  "port": "443",
+  "url": "https://www.runetale.com",
+  "input": "www.runetale.com",
+  "title": "Runetale: Your secure internet ready-to-connect",
+  "scheme": "https",
+  "webserver": "Vercel",
+  "content_type": "text/html",
+  "method": "GET",
+  "host": "76.76.21.164",
+  "path": "/",
+  "time": "1.998151958s",
+  "a": [
+    "76.76.21.164",
+    "76.76.21.142"
+  ],
+  "cname": [
+    "cname.vercel-dns.com"
+  ],
+  "words": 0,
+  "lines": 0,
+  "status_code": 200,
+  "content_length": 0,
+  "failed": false,
+  "knowledgebase": {
+    "PageType": "other",
+    "pHash": 0
+  },
+  "resolvers": [
+    "[2404:1a8:7f01:a::3]:53",
+    "1.1.1.1:53",
+    "1.0.0.1:53"
+  ]
+}

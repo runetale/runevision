@@ -1,0 +1,34 @@
+{
+  "timestamp": "2024-08-22T01:45:29.807915+09:00",
+  "cdn_name": "aws",
+  "cdn_type": "cloud",
+  "port": "443",
+  "url": "https://lapras.runetale.com",
+  "input": "lapras.runetale.com",
+  "title": "503 Service Temporarily Unavailable",
+  "scheme": "https",
+  "webserver": "awselb/2.0",
+  "content_type": "text/html",
+  "method": "GET",
+  "host": "18.178.179.179",
+  "path": "/",
+  "time": "230.613458ms",
+  "a": [
+    "18.178.179.179",
+    "18.176.146.107",
+    "35.76.66.173"
+  ],
+  "words": 0,
+  "lines": 0,
+  "status_code": 503,
+  "content_length": 162,
+  "failed": false,
+  "knowledgebase": {
+    "PageType": "other",
+    "pHash": 0
+  },
+  "resolvers": [
+    "1.1.1.1:53",
+    "8.8.4.4:53"
+  ]
+}
