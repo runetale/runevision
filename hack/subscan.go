@@ -43,6 +43,22 @@ func (s *SubfinderRunner) Start() error {
 	return nil
 }
 
+func (s *SubfinderRunner) StartWithOutput(out chan<- string) error {
+	defer close(out)
+	// todo (snt) fix
+	for _, host := range s.targetHost {
+		output := &bytes.Buffer{}
+		if err := s.runner.EnumerateSingleDomainWithCtx(context.Background(), host, []io.Writer{output}); err != nil {
+			return err
+		}
+
+		log.Println(output.String())
+		out <- output.String()
+	}
+
+	return nil
+}
+
 func (s *SubfinderRunner) SetParams(params SubfinderParams) error {
 	s.targetHost = params.TargetHost
 	subfinderOpts := &runner.Options{
