@@ -6,15 +6,17 @@ import (
 	"context"
 	"io"
 	"log"
+	"strings"
 
 	"github.com/projectdiscovery/subfinder/v2/pkg/runner"
 	"github.com/runetale/runevision/utility"
 )
 
 type SubfinderRunner struct {
-	runner     *runner.Runner
-	targetHost []string
-	logger     *utility.Logger
+	runner                   *runner.Runner
+	targetHost               []string
+	logger                   *utility.Logger
+	targetHostWithSubDomains []string
 }
 
 type SubfinderParams struct {
@@ -37,26 +39,29 @@ func (s *SubfinderRunner) Start() error {
 		if err := s.runner.EnumerateSingleDomainWithCtx(context.Background(), host, []io.Writer{output}); err != nil {
 			return err
 		}
-		log.Println(output.String())
 	}
 
 	return nil
 }
 
-func (s *SubfinderRunner) StartWithOutput(out chan<- string) error {
+func (s *SubfinderRunner) StartWithOutput(out chan<- struct{}) error {
 	defer close(out)
-	// todo (snt) fix
 	for _, host := range s.targetHost {
-		output := &bytes.Buffer{}
-		if err := s.runner.EnumerateSingleDomainWithCtx(context.Background(), host, []io.Writer{output}); err != nil {
+		buf := &bytes.Buffer{}
+		if err := s.runner.EnumerateSingleDomainWithCtx(context.Background(), host, []io.Writer{buf}); err != nil {
 			return err
 		}
 
-		log.Println(output.String())
-		out <- output.String()
+		s.targetHostWithSubDomains = strings.Split(buf.String(), "\n")
 	}
 
+	out <- struct{}{}
+
 	return nil
+}
+
+func (s *SubfinderRunner) GetTargetSubDomains() []string {
+	return s.targetHostWithSubDomains
 }
 
 func (s *SubfinderRunner) SetParams(params SubfinderParams) error {

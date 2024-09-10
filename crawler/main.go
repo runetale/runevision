@@ -27,19 +27,18 @@ func main() {
 			MaxEnumerationTime: 10,
 		})
 
-		subDomainChan := make(chan string)
+		runner.SetParams(hack.SubfinderParams{
+			TargetHost:         []string{"www.net"},
+			Threads:            4,
+			MaxEnumerationTime: 10,
+		})
+
+		subDomainChan := make(chan struct{})
 		go runner.StartWithOutput(subDomainChan)
+		<-subDomainChan
 
-		targetHostWithSubDomains := []string{}
-		for domain := range subDomainChan {
-			targetHostWithSubDomains = append(targetHostWithSubDomains, domain)
-		}
-
-		// ** alterx
-		// 存在するドメイン+サブドメインを使用して、予測ドメインを算出
-		// mlに使用できそ
 		opts := &alterx.Options{
-			Domains: targetHostWithSubDomains,
+			Domains: runner.GetTargetSubDomains(),
 			MaxSize: math.MaxInt,
 		}
 
@@ -52,4 +51,5 @@ func main() {
 			fmt.Println(result)
 		}
 	}
+
 }
