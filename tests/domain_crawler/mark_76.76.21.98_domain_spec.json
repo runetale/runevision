@@ -1,0 +1,33 @@
+{
+  "timestamp": "2024-08-22T01:45:29.82075+09:00",
+  "port": "443",
+  "url": "https://app.runetale.com",
+  "input": "app.runetale.com",
+  "scheme": "https",
+  "webserver": "Vercel",
+  "content_type": "text/plain",
+  "method": "GET",
+  "host": "76.76.21.98",
+  "path": "/",
+  "time": "243.301417ms",
+  "a": [
+    "76.76.21.164",
+    "76.76.21.98"
+  ],
+  "cname": [
+    "cname.vercel-dns.com"
+  ],
+  "words": 0,
+  "lines": 0,
+  "status_code": 404,
+  "content_length": 67,
+  "failed": false,
+  "knowledgebase": {
+    "PageType": "other",
+    "pHash": 0
+  },
+  "resolvers": [
+    "8.8.8.8:53",
+    "192.168.2.1:53"
+  ]
+}

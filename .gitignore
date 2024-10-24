@@ -4,3 +4,5 @@
 # bin
 vision
 .DS_Store
+tools/
+*zip

@@ -12,5 +12,5 @@ type DashboardInteractor interface {
 }
 
 type HackInteractor interface {
-	Scan(*requests.HackDoScanRequest, echo.Context) (*entity.HackHistory, error)
+	Scan(*requests.HackDoScanRequest, echo.Context) (*entity.ScanResponse, error)
 }

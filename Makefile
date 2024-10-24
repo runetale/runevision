@@ -26,3 +26,6 @@ wire:
 
 test:
 	go test -v ./...
+
+visonary:
+	cd tools/visonary && go run visonary.go
