@@ -25,7 +25,7 @@ func NewHackInteractor(
 	}
 }
 
-func (i *HackInteractor) Scan(request *requests.HackDoScanRequest, c echo.Context) (*entity.HackHistory, error) {
+func (i *HackInteractor) Scan(request *requests.HackDoScanRequest, c echo.Context) (*entity.ScanResponse, error) {
 	// todo (snt)
 	// redisでidをcacheする
 	sequentialID := uuid.New().String()

@@ -72,7 +72,7 @@ func (lc *LocalClient) doLocalRequest(req *http.Request) (*http.Response, error)
 	return lc.vsClient.Do(req)
 }
 
-func (lc *LocalClient) DoScan(seqID string, request *requests.HackDoScanRequest, c echo.Context) (*entity.HackHistory, error) {
+func (lc *LocalClient) DoScan(seqID string, request *requests.HackDoScanRequest, c echo.Context) (*entity.ScanResponse, error) {
 	apiURL := lc.GetRequestEndPoint() + scanAPI
 	localAPIURL, err := url.Parse(apiURL)
 	if err != nil {
@@ -104,7 +104,7 @@ func (lc *LocalClient) DoScan(seqID string, request *requests.HackDoScanRequest,
 		return nil, err
 	}
 
-	var hh entity.HackHistory
+	var hh entity.ScanResponse
 	err = json.Unmarshal(resbody, &hh)
 	if err != nil {
 		return nil, err

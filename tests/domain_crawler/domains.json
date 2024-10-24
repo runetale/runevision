@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://lapras.runetale.com",
+    "label": "unknown",
+    "class": "api server"
+  },
+  {
+    "url": "https://caterpie.runetale.com",
+    "label": "unknown",
+    "class": "api server"
+  },
+  {
+    "url": "https://www.runetale.com",
+    "label": "unknown",
+    "class": "web application"
+  },
+  {
+    "url": "https://dev.app.runetale.com",
+    "label": "unknown",
+    "class": "web application"
+  },
+  {
+    "url": "https://app.runetale.com",
+    "label": "unknown",
+    "class": "web application"
+  }
+]
