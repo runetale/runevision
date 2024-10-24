@@ -3,13 +3,15 @@ module github.com/runetale/runevision
 go 1.22.1
 
 require (
+	github.com/fsnotify/fsnotify v1.6.0
 	github.com/golang-migrate/migrate/v4 v4.17.1
+	github.com/google/uuid v1.6.0
 	github.com/google/wire v0.6.0
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/labstack/echo/v4 v4.12.0
 	github.com/lib/pq v1.10.9
-	github.com/otiai10/openaigo v1.7.0
+	github.com/peterbourgon/ff v1.7.1
 	github.com/projectdiscovery/alterx v0.0.4
 	github.com/projectdiscovery/cvemap v0.0.7
 	github.com/projectdiscovery/gologger v1.1.16
@@ -20,6 +22,7 @@ require (
 	github.com/projectdiscovery/subfinder/v2 v2.6.6
 	github.com/projectdiscovery/uncover v1.0.9
 	golang.org/x/exp v0.0.0-20240613232115-7f521ea00fb8
+	golang.org/x/sys v0.21.0
 	gopkg.in/go-playground/assert.v1 v1.2.1
 )
 
@@ -153,7 +156,6 @@ require (
 	github.com/google/gopacket v1.1.19 // indirect
 	github.com/google/pprof v0.0.0-20240227163752-401108e1b7e7 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
-	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/css v1.0.1 // indirect
 	github.com/h2non/filetype v1.1.3 // indirect
 	github.com/hako/durafmt v0.0.0-20210316092057-3a2c319c1acd // indirect
@@ -224,7 +226,6 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/perimeterx/marshmallow v1.1.5 // indirect
-	github.com/peterbourgon/ff v1.7.1 // indirect
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
 	github.com/pierrec/lz4/v4 v4.1.21 // indirect
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
@@ -335,7 +336,6 @@ require (
 	golang.org/x/net v0.26.0 // indirect
 	golang.org/x/oauth2 v0.18.0 // indirect
 	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
 	golang.org/x/term v0.21.0 // indirect
 	golang.org/x/text v0.16.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
