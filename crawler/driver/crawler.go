@@ -2,6 +2,7 @@ package driver
 
 import (
 	"bufio"
+	"encoding/csv"
 	"fmt"
 	"net/http"
 	"os"
@@ -44,19 +45,18 @@ func GetDomains(output chan<- string) error {
 		return nil
 	}
 
-	// 結果をCSVファイルに保存する準備
-	// file, err := os.OpenFile("./output/domain_status.csv", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	// if err != nil {
-	// 	fmt.Println("Error creating CSV file:", err)
-	// 	return nil, err
-	// }
-	// defer file.Close()
+	file, err := os.OpenFile("./output/domain_status.csv", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		fmt.Println("Error creating CSV file:", err)
+		return err
+	}
+	defer file.Close()
 
-	// writer := csv.NewWriter(file)
-	// defer writer.Flush()
+	writer := csv.NewWriter(file)
+	defer writer.Flush()
 
 	// ヘッダーを書き込む
-	// writer.Write([]string{"url", "status_code"})
+	writer.Write([]string{"url", "status_code"})
 
 	for _, domain := range domains {
 		for _, tld := range tlds {
@@ -70,11 +70,10 @@ func GetDomains(output chan<- string) error {
 				if resp.StatusCode == http.StatusOK {
 					output <- domain + tld
 				}
+				writer.Write([]string{url, fmt.Sprintf("%d", resp.StatusCode)})
+				fmt.Printf("Checked %s: %d\n", url, resp.StatusCode)
 			}
-
-			// 結果をCSVに書き込む
-			// writer.Write([]string{url, fmt.Sprintf("%d", statusCode)})
-			// fmt.Printf("Checked %s: %d\n", url, statusCode)
+			fmt.Println(resp)
 		}
 	}
 

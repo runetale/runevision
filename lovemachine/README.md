@@ -1,17 +1,3 @@
-## vision
-vision model is a reinforcement learning algorithm for proper exploitation in runevision using word2vec and logs from loghub
-
-## love machine context training
-contextはwebサービスやhtmlの情報から、関連するCVEを検出するプログラム
-`python3 love_machine_context.py`
-
-## love machine log training
-logはport scanや脆弱性検知した時に集めたログから関連するCVEを検出するプログラム
-`python3 love_machine_log.py`
-
-## requirements
-- Python 3.9.6
-
-
-## love machine contextの設計思想
-サービスのコンテキストを自然言語処理を行なって、テキストデータをベクトル化する
+## lovemachine
+- s3から取得したdata.jsonをpreprocess_data.pyを使用して、process_data.csvを作る
+- prediction.pyでpreprocess_data.csvからモデルの評価を行う。Onnxでモデルを生成する
