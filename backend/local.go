@@ -1,14 +1,14 @@
 // local backendはlocal backend serverからapi経由で
-// vision engineの実行や、cvemap binaryの実行などを行います
+// thor engineの実行や、cvemap binaryの実行などを行います
 package backend
 
 import (
 	"sync"
 
-	"github.com/runetale/runevision/domain/requests"
-	"github.com/runetale/runevision/types"
-	"github.com/runetale/runevision/utility"
-	"github.com/runetale/runevision/vsengine"
+	"github.com/runetale/thor/domain/requests"
+	"github.com/runetale/thor/types"
+	"github.com/runetale/thor/utility"
+	"github.com/runetale/thor/vsengine"
 )
 
 type LocalBackend struct {

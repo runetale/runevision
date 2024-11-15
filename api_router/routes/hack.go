@@ -2,8 +2,8 @@ package routes
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/runetale/runevision/di"
-	"github.com/runetale/runevision/domain/config"
+	"github.com/runetale/thor/di"
+	"github.com/runetale/thor/domain/config"
 )
 
 func RegisterHackRoutes(g *echo.Group, cfg config.Config) {

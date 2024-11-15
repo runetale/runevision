@@ -13,10 +13,10 @@ import (
 	"sync"
 
 	"github.com/labstack/echo/v4"
-	"github.com/runetale/runevision/domain/entity"
-	"github.com/runetale/runevision/domain/requests"
-	"github.com/runetale/runevision/safesocket"
-	"github.com/runetale/runevision/utility"
+	"github.com/runetale/thor/domain/entity"
+	"github.com/runetale/thor/domain/requests"
+	"github.com/runetale/thor/safesocket"
+	"github.com/runetale/thor/utility"
 )
 
 const LocalBackendAPIHost = "visiond.sock"

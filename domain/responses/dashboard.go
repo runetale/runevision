@@ -1,6 +1,6 @@
 package responses
 
-import "github.com/runetale/runevision/domain/entity"
+import "github.com/runetale/thor/domain/entity"
 
 type GetDashboardResponse struct {
 	ActiveVolnerablities uint                    `json:"active_vulnerablities"`

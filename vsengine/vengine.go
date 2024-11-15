@@ -1,4 +1,4 @@
-// vision engine
+// thor engine
 // attack surface management engine
 // ここからattackerなどを操作する
 package vsengine
@@ -8,12 +8,12 @@ import (
 	"os"
 	"sync"
 
-	"github.com/runetale/runevision/domain/requests"
-	"github.com/runetale/runevision/hack"
-	"github.com/runetale/runevision/types"
-	"github.com/runetale/runevision/utility"
-	"github.com/runetale/runevision/utility/privileges"
-	"github.com/runetale/runevision/vsd"
+	"github.com/runetale/thor/domain/requests"
+	"github.com/runetale/thor/hack"
+	"github.com/runetale/thor/types"
+	"github.com/runetale/thor/utility"
+	"github.com/runetale/thor/utility/privileges"
+	"github.com/runetale/thor/vsd"
 )
 
 // custom error hooks

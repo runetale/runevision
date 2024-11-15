@@ -5,8 +5,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/runetale/runevision/api_router/routes"
-	"github.com/runetale/runevision/domain/config"
+	"github.com/runetale/thor/api_router/routes"
+	"github.com/runetale/thor/domain/config"
 )
 
 type APIRouter struct {

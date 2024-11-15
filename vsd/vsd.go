@@ -1,4 +1,4 @@
-// vst (short for "vision daemon")
+// vst (short for "thor daemon")
 package vsd
 
 import (
@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/runetale/runevision/hack"
+	"github.com/runetale/thor/hack"
 )
 
 type VisionSystem struct {

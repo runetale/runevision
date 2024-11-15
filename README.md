@@ -1,4 +1,5 @@
-# Vanguard
+
+# thor
 automated red team tools
 
 # how to start

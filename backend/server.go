@@ -13,7 +13,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/runetale/runevision/utility"
+	"github.com/runetale/thor/utility"
 )
 
 var (
@@ -242,7 +242,7 @@ func (s *LocalBackendServer) Run(ctx context.Context, ln net.Listener) error {
 		IdleTimeout: 6 * time.Second,
 	}
 
-	s.logger.Logger.Debug("running vision local backend server")
+	s.logger.Logger.Debug("running thor local backend server")
 
 	if err := hs.Serve(ln); err != nil {
 		if err := ctx.Err(); err != nil {

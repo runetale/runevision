@@ -1,8 +1,8 @@
 package vsengine
 
 import (
-	"github.com/runetale/runevision/domain/requests"
-	"github.com/runetale/runevision/types"
+	"github.com/runetale/thor/domain/requests"
+	"github.com/runetale/thor/types"
 )
 
 type Engine interface {

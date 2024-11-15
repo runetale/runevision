@@ -3,11 +3,11 @@ package vsengine
 import (
 	"fmt"
 
-	"github.com/runetale/runevision/domain/requests"
-	"github.com/runetale/runevision/hack"
-	"github.com/runetale/runevision/types"
-	"github.com/runetale/runevision/utility/atomics"
-	"github.com/runetale/runevision/vsd"
+	"github.com/runetale/thor/domain/requests"
+	"github.com/runetale/thor/hack"
+	"github.com/runetale/thor/types"
+	"github.com/runetale/thor/utility/atomics"
+	"github.com/runetale/thor/vsd"
 )
 
 type Attacker struct {
@@ -177,7 +177,7 @@ func (a *Attacker) Reconfig(seqID types.SequenceID, vsd *vsd.VisionSystem, reque
 
 func (a *Attacker) attack(seqID types.SequenceID) {
 	if _, ok := a.isVsd.LoadOk(); !ok {
-		fmt.Println("vision system has no set.")
+		fmt.Println("thor system has no set.")
 	}
 
 	// todo (snt) 終わったことを通知させる

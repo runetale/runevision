@@ -7,8 +7,8 @@ import (
 
 	"github.com/golang-migrate/migrate/v4"
 	"github.com/jmoiron/sqlx"
-	"github.com/runetale/runevision/domain/config"
-	"github.com/runetale/runevision/utility"
+	"github.com/runetale/thor/domain/config"
+	"github.com/runetale/thor/utility"
 
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"
 	_ "github.com/golang-migrate/migrate/v4/source/file"

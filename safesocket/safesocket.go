@@ -67,7 +67,7 @@ func VisionSocketPath() string {
 		return "/var/run/visiond.socket"
 	}
 	if fi, err := os.Stat("/var/run"); err == nil && fi.IsDir() {
-		return "/var/run/vision/visiond.sock"
+		return "/var/run/thor/visiond.sock"
 	}
 	return "visiond.sock"
 }

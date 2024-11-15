@@ -8,7 +8,7 @@ import (
 
 	"github.com/projectdiscovery/uncover"
 	"github.com/projectdiscovery/uncover/sources"
-	"github.com/runetale/runevision/utility"
+	"github.com/runetale/thor/utility"
 )
 
 type HostFinderParams struct {

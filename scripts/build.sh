@@ -1,1 +1,1 @@
-go build -o vision ./cmd/vision.go
+go build -o thor ./cmd/thor.go

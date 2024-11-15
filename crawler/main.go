@@ -6,9 +6,9 @@ import (
 	"math"
 
 	"github.com/projectdiscovery/alterx"
-	"github.com/runetale/runevision/crawler/driver"
-	"github.com/runetale/runevision/hack"
-	"github.com/runetale/runevision/utility"
+	"github.com/runetale/thor/crawler/driver"
+	"github.com/runetale/thor/hack"
+	"github.com/runetale/thor/utility"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package entity
 import (
 	"time"
 
-	"github.com/runetale/runevision/domain/requests"
+	"github.com/runetale/thor/domain/requests"
 )
 
 type DashboardHistory struct {
