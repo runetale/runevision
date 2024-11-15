@@ -5,9 +5,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/runetale/runevision/api_router"
-	"github.com/runetale/runevision/di"
-	"github.com/runetale/runevision/domain/config"
+	"github.com/runetale/thor/api_router"
+	"github.com/runetale/thor/di"
+	"github.com/runetale/thor/domain/config"
 )
 
 func main() {

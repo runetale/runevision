@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"github.com/runetale/runevision/domain/entity"
-	"github.com/runetale/runevision/interfaces"
+	"github.com/runetale/thor/domain/entity"
+	"github.com/runetale/thor/interfaces"
 )
 
 type DashboardRepository struct {

@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/runetale/runevision/database"
-	"github.com/runetale/runevision/di"
-	"github.com/runetale/runevision/domain/config"
+	"github.com/runetale/thor/database"
+	"github.com/runetale/thor/di"
+	"github.com/runetale/thor/domain/config"
 )
 
 var (

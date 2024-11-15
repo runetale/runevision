@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/runetale/runevision/domain/config"
+	"github.com/runetale/thor/domain/config"
 	"golang.org/x/exp/slog"
 )
 

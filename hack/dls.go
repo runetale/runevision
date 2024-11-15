@@ -10,7 +10,7 @@ import (
 	"github.com/projectdiscovery/alterx"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/gologger/levels"
-	"github.com/runetale/runevision/utility"
+	"github.com/runetale/thor/utility"
 )
 
 type DslRunner struct {

@@ -3,8 +3,8 @@ package repository_test
 import (
 	"testing"
 
-	"github.com/runetale/runevision/di"
-	"github.com/runetale/runevision/domain/entity"
+	"github.com/runetale/thor/di"
+	"github.com/runetale/thor/domain/entity"
 	"gopkg.in/go-playground/assert.v1"
 )
 

@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/runetale/runevision/domain/requests"
-	"github.com/runetale/runevision/interfaces"
+	"github.com/runetale/thor/domain/requests"
+	"github.com/runetale/thor/interfaces"
 )
 
 type HackHandler struct {

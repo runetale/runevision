@@ -9,10 +9,10 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/runetale/runevision/domain/entity"
-	"github.com/runetale/runevision/domain/requests"
-	"github.com/runetale/runevision/localclient"
-	"github.com/runetale/runevision/types"
+	"github.com/runetale/thor/domain/entity"
+	"github.com/runetale/thor/domain/requests"
+	"github.com/runetale/thor/localclient"
+	"github.com/runetale/thor/types"
 )
 
 type backendAPIHandler func(*Handler, http.ResponseWriter, *http.Request)
@@ -69,7 +69,7 @@ func (h *Handler) validHost(hostname string) bool {
 }
 
 func (*Handler) serveLocalAPIRoot(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "vision daemon\n")
+	io.WriteString(w, "thor daemon\n")
 }
 
 func writeErrorJSON(w http.ResponseWriter, err error) {

@@ -1,9 +1,9 @@
 package interactor
 
 import (
-	"github.com/runetale/runevision/database"
-	"github.com/runetale/runevision/domain/entity"
-	"github.com/runetale/runevision/interfaces"
+	"github.com/runetale/thor/database"
+	"github.com/runetale/thor/domain/entity"
+	"github.com/runetale/thor/interfaces"
 )
 
 type DashboardInteractor struct {

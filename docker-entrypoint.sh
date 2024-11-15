@@ -1,4 +1,4 @@
 #!/bin/bash
 set -euxo pipefail
 
-exec /runevision
+exec /thor

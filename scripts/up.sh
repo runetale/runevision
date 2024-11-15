@@ -1,2 +1,2 @@
-go build -o vision ./cmd/vision.go
-sudo ./vision up
+go build -o thor ./cmd/thor.go
+sudo ./thor up

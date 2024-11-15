@@ -4,7 +4,7 @@ import (
 	"context"
 
 	nuclei "github.com/projectdiscovery/nuclei/v3/lib"
-	"github.com/runetale/runevision/utility"
+	"github.com/runetale/thor/utility"
 )
 
 type NucleiRunner struct {

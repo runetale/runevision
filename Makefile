@@ -12,7 +12,7 @@ up:
 	docker-compose -f docker-compose.local.yaml up --build -d
 	sh scripts/up.sh
 
-build-vision:
+build-thor:
 	sh scripts/build.sh
 
 down:

@@ -1,4 +1,4 @@
-# runevision
+# thor
 automated red team tools
 
 # how to start
@@ -6,8 +6,8 @@ automated red team tools
 `go run main.go`
 
 # arch
-web <-> application api server <-> vision local backend server (daemon service) <-> vision engine
+web <-> application api server <-> thor local backend server (daemon service) <-> thor engine
            |                        |
            |                        |
            |                        |
-     vision database                black hat module or white hat module <-> ml api server <-> python ml model
+     thor database                black hat module or white hat module <-> ml api server <-> python ml model

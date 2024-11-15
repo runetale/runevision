@@ -1,4 +1,4 @@
-// vision systemで使う型を定義
+// thor systemで使う型を定義
 // あとから移動させるかもしれない
 package types
 

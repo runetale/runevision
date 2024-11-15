@@ -7,7 +7,7 @@ import (
 
 	"github.com/projectdiscovery/naabu/v2/pkg/result"
 	"github.com/projectdiscovery/naabu/v2/pkg/runner"
-	"github.com/runetale/runevision/utility"
+	"github.com/runetale/thor/utility"
 )
 
 type ScanType string

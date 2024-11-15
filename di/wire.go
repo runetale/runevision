@@ -5,14 +5,14 @@ package di
 
 import (
 	"github.com/google/wire"
-	"github.com/runetale/runevision/database"
-	"github.com/runetale/runevision/domain/config"
-	"github.com/runetale/runevision/handler"
-	"github.com/runetale/runevision/interactor"
-	"github.com/runetale/runevision/interfaces"
-	"github.com/runetale/runevision/localclient"
-	"github.com/runetale/runevision/repository"
-	"github.com/runetale/runevision/utility"
+	"github.com/runetale/thor/database"
+	"github.com/runetale/thor/domain/config"
+	"github.com/runetale/thor/handler"
+	"github.com/runetale/thor/interactor"
+	"github.com/runetale/thor/interfaces"
+	"github.com/runetale/thor/localclient"
+	"github.com/runetale/thor/repository"
+	"github.com/runetale/thor/utility"
 )
 
 var wireSet = wire.NewSet(

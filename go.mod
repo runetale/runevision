@@ -1,4 +1,4 @@
-module github.com/runetale/runevision
+module github.com/runetale/thor
 
 go 1.22.1
 

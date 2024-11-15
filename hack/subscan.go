@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/projectdiscovery/subfinder/v2/pkg/runner"
-	"github.com/runetale/runevision/utility"
+	"github.com/runetale/thor/utility"
 )
 
 type SubfinderRunner struct {

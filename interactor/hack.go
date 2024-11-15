@@ -3,11 +3,11 @@ package interactor
 import (
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"
-	"github.com/runetale/runevision/database"
-	"github.com/runetale/runevision/domain/entity"
-	"github.com/runetale/runevision/domain/requests"
-	"github.com/runetale/runevision/interfaces"
-	"github.com/runetale/runevision/localclient"
+	"github.com/runetale/thor/database"
+	"github.com/runetale/thor/domain/entity"
+	"github.com/runetale/thor/domain/requests"
+	"github.com/runetale/thor/interfaces"
+	"github.com/runetale/thor/localclient"
 )
 
 type HackInteractor struct {

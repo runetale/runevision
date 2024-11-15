@@ -27,7 +27,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/runetale/runevision/tools/visonary/types"
+	"github.com/runetale/thor/tools/visonary/types"
 	"gopkg.in/yaml.v2"
 )
 

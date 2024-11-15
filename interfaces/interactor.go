@@ -2,8 +2,8 @@ package interfaces
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/runetale/runevision/domain/entity"
-	"github.com/runetale/runevision/domain/requests"
+	"github.com/runetale/thor/domain/entity"
+	"github.com/runetale/thor/domain/requests"
 )
 
 type DashboardInteractor interface {
